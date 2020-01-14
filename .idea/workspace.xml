@@ -2,16 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9fda2af5-54e3-4e24-89a1-414da4a52854" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/jjxt.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/temp/file.xlsx" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/temp/laoshi.jpg" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/temp/test" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/conftest.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -39,15 +32,6 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/conftest.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="212">
-              <caret line="68" column="41" selection-start-line="68" selection-start-column="35" selection-end-line="68" selection-end-column="41" />
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FindInProjectRecents">
@@ -64,16 +48,6 @@
       <list>
         <option value="$PROJECT_DIR$/conftest.py" />
         <option value="$PROJECT_DIR$/.gitignore" />
-      </list>
-    </option>
-  </component>
-  <component name="ProjectConfigurationFiles">
-    <option name="files">
-      <list>
-        <option value="$PROJECT_DIR$/.idea/jjxt.iml" />
-        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
-        <option value="$PROJECT_DIR$/.idea/misc.xml" />
-        <option value="$PROJECT_DIR$/.idea/modules.xml" />
       </list>
     </option>
   </component>
@@ -99,7 +73,23 @@
             <path>
               <item name="jjxt" type="b2602c69:ProjectViewProjectNode" />
               <item name="jjxt" type="462c0819:PsiDirectoryNode" />
+              <item name="allure" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jjxt" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jjxt" type="462c0819:PsiDirectoryNode" />
+              <item name="allure" type="462c0819:PsiDirectoryNode" />
+              <item name="result" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jjxt" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jjxt" type="462c0819:PsiDirectoryNode" />
               <item name="reports" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jjxt" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jjxt" type="462c0819:PsiDirectoryNode" />
+              <item name="temp" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -135,25 +125,24 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1578971381566</updated>
-      <workItem from="1578971382803" duration="701000" />
+      <workItem from="1578971382803" duration="945000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="701000" />
+    <option name="totallyTimeSpent" value="945000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="808" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24964234" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24964234" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Python Console" />
-      <window_info anchor="bottom" id="Terminal" weight="0.64664805" />
+      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.55586594" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -186,6 +175,9 @@
           <caret line="68" column="41" selection-start-line="68" selection-start-column="35" selection-end-line="68" selection-end-column="41" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/allure/result/test">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
