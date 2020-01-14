@@ -1,7 +1,7 @@
-log
-reports
-temp
-venv
+log/*
+reports/*
+temp/*
+venv/*
 mytestfile.py
-config
+config/*
 
