@@ -1,12 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="b58ed6e9-9769-46a2-88c2-f9b3be9e9ae1" name="Default Changelist" comment="">
+=======
+    <list default="true" id="9fda2af5-54e3-4e24-89a1-414da4a52854" name="Default Changelist" comment="">
+>>>>>>> 6ed62a7f728242203cf9afc4d85004ec6f60f0e2
       <change afterPath="$PROJECT_DIR$/temp/file.xlsx" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/temp/laoshi.jpg" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/temp/test" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+<<<<<<< HEAD
+=======
+      <change beforePath="$PROJECT_DIR$/config/env.ini" beforeDir="false" afterPath="$PROJECT_DIR$/config/env.ini" afterDir="false" />
+>>>>>>> 6ed62a7f728242203cf9afc4d85004ec6f60f0e2
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,6 +25,7 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
+<<<<<<< HEAD
         <entry file="file://$PROJECT_DIR$/conftest.py">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
@@ -26,19 +35,59 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="60">
               <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+=======
+        <entry file="file://$PROJECT_DIR$/config/envconf/prod.ini">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="510">
+              <caret line="34" column="19" lean-forward="true" selection-start-line="34" selection-start-column="19" selection-end-line="34" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="5" selection-start-column="5" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/config/env.ini">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="1" column="10" selection-start-line="1" selection-start-column="10" selection-end-line="1" selection-end-column="10" />
+>>>>>>> 6ed62a7f728242203cf9afc4d85004ec6f60f0e2
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
   </component>
+<<<<<<< HEAD
   <component name="Git.Settings">
+=======
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>report</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="ROOT_SYNC" value="SYNC" />
+>>>>>>> 6ed62a7f728242203cf9afc4d85004ec6f60f0e2
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/.gitignore" />
+=======
+        <option value="$PROJECT_DIR$/conftest.py" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/config/env.ini" />
+>>>>>>> 6ed62a7f728242203cf9afc4d85004ec6f60f0e2
       </list>
     </option>
   </component>
@@ -53,6 +102,10 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+<<<<<<< HEAD
+=======
+      <pane id="Scope" />
+>>>>>>> 6ed62a7f728242203cf9afc4d85004ec6f60f0e2
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -60,11 +113,27 @@
               <item name="jjxt" type="b2602c69:ProjectViewProjectNode" />
               <item name="jjxt" type="462c0819:PsiDirectoryNode" />
             </path>
+<<<<<<< HEAD
+=======
+            <path>
+              <item name="jjxt" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jjxt" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jjxt" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jjxt" type="462c0819:PsiDirectoryNode" />
+              <item name="reports" type="462c0819:PsiDirectoryNode" />
+            </path>
+>>>>>>> 6ed62a7f728242203cf9afc4d85004ec6f60f0e2
           </expand>
           <select />
         </subPane>
       </pane>
+<<<<<<< HEAD
       <pane id="Scope" />
+=======
+>>>>>>> 6ed62a7f728242203cf9afc4d85004ec6f60f0e2
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -90,17 +159,30 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
+<<<<<<< HEAD
       <changelist id="b58ed6e9-9769-46a2-88c2-f9b3be9e9ae1" name="Default Changelist" comment="" />
       <created>1578973056903</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1578973056903</updated>
       <workItem from="1578973058072" duration="676000" />
+=======
+      <changelist id="9fda2af5-54e3-4e24-89a1-414da4a52854" name="Default Changelist" comment="" />
+      <created>1578971381566</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1578971381566</updated>
+      <workItem from="1578971382803" duration="1377000" />
+>>>>>>> 6ed62a7f728242203cf9afc4d85004ec6f60f0e2
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
     <option name="totallyTimeSpent" value="676000" />
+=======
+    <option name="totallyTimeSpent" value="1377000" />
+>>>>>>> 6ed62a7f728242203cf9afc4d85004ec6f60f0e2
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="808" extended-state="0" />
@@ -113,7 +195,11 @@
       <window_info anchor="bottom" id="Database Changes" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Python Console" />
+<<<<<<< HEAD
       <window_info anchor="bottom" id="Terminal" visible="true" weight="0.4217877" />
+=======
+      <window_info anchor="bottom" id="Terminal" weight="0.5432961" />
+>>>>>>> 6ed62a7f728242203cf9afc4d85004ec6f60f0e2
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -133,13 +219,43 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/conftest.py">
+=======
+    <entry file="file://$PROJECT_DIR$/config/envconf/prod.ini">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="34" column="19" lean-forward="true" selection-start-line="34" selection-start-column="19" selection-end-line="34" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/conftest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="212">
+          <caret line="68" column="41" selection-start-line="68" selection-start-column="35" selection-end-line="68" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/allure/result/test">
+>>>>>>> 6ed62a7f728242203cf9afc4d85004ec6f60f0e2
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="60">
           <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+=======
+        <state>
+          <caret column="5" selection-start-column="5" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/env.ini">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="10" selection-start-line="1" selection-start-column="10" selection-end-line="1" selection-end-column="10" />
+>>>>>>> 6ed62a7f728242203cf9afc4d85004ec6f60f0e2
         </state>
       </provider>
     </entry>

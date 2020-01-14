@@ -3,4 +3,8 @@ reports/*
 temp/*
 venv/*
 mytestfile.py
+<<<<<<< HEAD
+=======
+config/*
+>>>>>>> 6ed62a7f728242203cf9afc4d85004ec6f60f0e2
 
