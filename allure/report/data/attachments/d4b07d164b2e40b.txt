@@ -1,0 +1,17 @@
+2020-01-14 13:49:52 apiinfo.py[line:76] DEBUG: 获取接口【exportPointMonth:下载积分】信息异常，info中接口的headers为空
+2020-01-14 13:49:52 apiinfo.py[line:109] DEBUG: 获取接口【exportPointMonth:下载积分】信息异常，info中接口的data为空
+2020-01-14 13:49:52 myrequests.py[line:40] INFO: 
+
+***************************************************************************接口请求分割线***************************************************************************
+
+2020-01-14 13:49:52 myrequests.py[line:43] INFO: 开始访问接口:【exportPointMonth:下载积分】
+2020-01-14 13:49:52 myrequests.py[line:134] INFO: 发送导出文件get请求
+2020-01-14 13:49:52 myrequests.py[line:137] INFO: 请求参数信息为
+{
+  "clazzId": 415,
+  "endTime": "",
+  "startTime": ""
+}
+2020-01-14 13:49:52 myrequests.py[line:160] INFO: 文件【月积分.xls】下载完成
+2020-01-14 13:49:52 myrequests.py[line:162] DEBUG: 文件大小为：20480
+2020-01-14 13:49:52 myrequests.py[line:164] DEBUG: 删除下载的文件

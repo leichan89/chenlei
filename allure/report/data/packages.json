@@ -2,21 +2,479 @@
   "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
   "name" : "packages",
   "children" : [ {
-    "name" : "testcases.jjxt.test_export_excel",
+    "name" : "testcases.jjxt",
     "children" : [ {
-      "name" : "导出学员列表数据",
-      "uid" : "8494c3fc7f2e1f0a",
-      "parentUid" : "3e573edad5c128b1862cc4333d0827bb",
-      "status" : "failed",
-      "time" : {
-        "start" : 1578544741802,
-        "stop" : 1578544742190,
-        "duration" : 388
-      },
-      "flaky" : true,
-      "newFailed" : false,
-      "parameters" : [ ]
+      "name" : "test_export_excel",
+      "children" : [ {
+        "name" : "导出学员列表数据",
+        "uid" : "8eb08adf519c5c12",
+        "parentUid" : "3e573edad5c128b1862cc4333d0827bb",
+        "status" : "passed",
+        "time" : {
+          "start" : 1578980991605,
+          "stop" : 1578980991784,
+          "duration" : 179
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "3e573edad5c128b1862cc4333d0827bb"
+    }, {
+      "name" : "test_export_point_month",
+      "children" : [ {
+        "name" : "下载积分：设置年月日下载",
+        "uid" : "fd1e9295655b031a",
+        "parentUid" : "754523398fbea441630015b730d604b6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1578980991792,
+          "stop" : 1578980992102,
+          "duration" : 310
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "下载积分：不带年月日下载",
+        "uid" : "60611b59faca9b97",
+        "parentUid" : "754523398fbea441630015b730d604b6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1578980992106,
+          "stop" : 1578980992254,
+          "duration" : 148
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "754523398fbea441630015b730d604b6"
+    }, {
+      "name" : "test_export_student",
+      "children" : [ {
+        "name" : "导出基本信息",
+        "uid" : "6f2f88aa52ef5adb",
+        "parentUid" : "55b6afe92f4fca561c230e076b43ca00",
+        "status" : "passed",
+        "time" : {
+          "start" : 1578980992259,
+          "stop" : 1578980992478,
+          "duration" : 219
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "55b6afe92f4fca561c230e076b43ca00"
+    }, {
+      "name" : "test_get_stage_and_task_id",
+      "children" : [ {
+        "name" : "获取阶段和任务id",
+        "uid" : "ddbc744c018b582d",
+        "parentUid" : "58486c66c095e6551aed5d4f35449109",
+        "status" : "passed",
+        "time" : {
+          "start" : 1578980992489,
+          "stop" : 1578980992489,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "58486c66c095e6551aed5d4f35449109"
+    }, {
+      "name" : "test_get_teacher_im_info",
+      "children" : [ {
+        "name" : "查询存在的老师信息",
+        "uid" : "4c1a8648defd8738",
+        "parentUid" : "454e53bb3d3146848ac7eda866b2c9bc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1578980992501,
+          "stop" : 1578980992591,
+          "duration" : 90
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "传入无效的字符查询老师信息",
+        "uid" : "18989139916f1457",
+        "parentUid" : "454e53bb3d3146848ac7eda866b2c9bc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1578980992601,
+          "stop" : 1578980992681,
+          "duration" : 80
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'teacherId': 1000}" ]
+      }, {
+        "name" : "传入无效的字符查询老师信息",
+        "uid" : "684713107f92ece8",
+        "parentUid" : "454e53bb3d3146848ac7eda866b2c9bc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1578980992691,
+          "stop" : 1578980992770,
+          "duration" : 79
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'teacherId': 2000}" ]
+      }, {
+        "name" : "传入无效的字符查询老师信息",
+        "uid" : "453c026bcd4079db",
+        "parentUid" : "454e53bb3d3146848ac7eda866b2c9bc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1578980992776,
+          "stop" : 1578980992865,
+          "duration" : 89
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'teacherId': 3000}" ]
+      }, {
+        "name" : "传入无效的字符查询老师信息",
+        "uid" : "30257640331ec4b4",
+        "parentUid" : "454e53bb3d3146848ac7eda866b2c9bc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1578980992872,
+          "stop" : 1578980992953,
+          "duration" : 81
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'teacherId': 4000}" ]
+      } ],
+      "uid" : "454e53bb3d3146848ac7eda866b2c9bc"
+    }, {
+      "name" : "test_query_point_month",
+      "children" : [ {
+        "name" : "查询积分：默认查询",
+        "uid" : "be47f8a90435cec6",
+        "parentUid" : "4709be7e73d0b765c0de1cb43f3dcc74",
+        "status" : "passed",
+        "time" : {
+          "start" : 1578980992958,
+          "stop" : 1578980993051,
+          "duration" : 93
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "查询积分：指定时间段查询",
+        "uid" : "5c65431db43dabed",
+        "parentUid" : "4709be7e73d0b765c0de1cb43f3dcc74",
+        "status" : "passed",
+        "time" : {
+          "start" : 1578980993055,
+          "stop" : 1578980993136,
+          "duration" : 81
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "查询积分：开始时间大于结束时间",
+        "uid" : "3211f0b6c5d0bcb8",
+        "parentUid" : "4709be7e73d0b765c0de1cb43f3dcc74",
+        "status" : "passed",
+        "time" : {
+          "start" : 1578980993141,
+          "stop" : 1578980993226,
+          "duration" : 85
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "4709be7e73d0b765c0de1cb43f3dcc74"
+    }, {
+      "name" : "test_send_clazz_file",
+      "children" : [ {
+        "name" : "发送群文件：上传文件-发送xlsx文件-历史消息查看发送的文件",
+        "uid" : "bbd1c6124c919ef4",
+        "parentUid" : "3f4c860496f1ca97e41161c869978e63",
+        "status" : "failed",
+        "time" : {
+          "start" : 1578980993232,
+          "stop" : 1578980998678,
+          "duration" : 5446
+        },
+        "flaky" : false,
+        "newFailed" : true,
+        "parameters" : [ ]
+      } ],
+      "uid" : "3f4c860496f1ca97e41161c869978e63"
+    }, {
+      "name" : "test_send_clazz_img",
+      "children" : [ {
+        "name" : "发送群图片：上传图片-发送jpg图片-历史消息查看发送的图片",
+        "uid" : "14579d3c5672dd1e",
+        "parentUid" : "a0cc15478f172d6596b9583bdffac98c",
+        "status" : "failed",
+        "time" : {
+          "start" : 1578980998787,
+          "stop" : 1578981003797,
+          "duration" : 5010
+        },
+        "flaky" : false,
+        "newFailed" : true,
+        "parameters" : [ ]
+      } ],
+      "uid" : "a0cc15478f172d6596b9583bdffac98c"
+    }, {
+      "name" : "test_send_clazz_live",
+      "children" : [ {
+        "name" : "发送群直播：查询直播-随机发送回放直播-查询直播详情-历史消息中查看发送的直播",
+        "uid" : "3e6e121df7df07e1",
+        "parentUid" : "1769e5f7380c5f233d7d143382f3110f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1578981003809,
+          "stop" : 1578981009330,
+          "duration" : 5521
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "发送群直播：查询直播-随机发送已结束直播-查询直播详情-历史消息中查看发送的直播",
+        "uid" : "c7f94656f065b503",
+        "parentUid" : "1769e5f7380c5f233d7d143382f3110f",
+        "status" : "failed",
+        "time" : {
+          "start" : 1578981009337,
+          "stop" : 1578981010006,
+          "duration" : 669
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "1769e5f7380c5f233d7d143382f3110f"
+    }, {
+      "name" : "test_send_clazz_paper",
+      "children" : [ {
+        "name" : "发送群试卷：查询试卷-随机发送试卷-查看试卷详情-历史消息中查看发送的试卷-下载答题详情",
+        "uid" : "10361991a8f270ee",
+        "parentUid" : "e0a2475dbcf0e6eea2785f49718369de",
+        "status" : "passed",
+        "time" : {
+          "start" : 1578981010024,
+          "stop" : 1578981016233,
+          "duration" : 6209
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "e0a2475dbcf0e6eea2785f49718369de"
+    }, {
+      "name" : "test_send_clazz_question",
+      "children" : [ {
+        "name" : "发送群答题：查询科目-查询模块-查询试卷-查询试题-存题-查询待推题-推送待推题-查询答题详情-历史消息中查看答题信息",
+        "uid" : "a19323f419a8ed9c",
+        "parentUid" : "fb5985f9f590c4a7a5d52bcce70c3332",
+        "status" : "passed",
+        "time" : {
+          "start" : 1578981017373,
+          "stop" : 1578981022413,
+          "duration" : 5040
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "发送群答题：查询科目-查询模块-查询试卷-查询试题-随机存群答题到未来日期",
+        "uid" : "4dcfadf7fc8d76b6",
+        "parentUid" : "fb5985f9f590c4a7a5d52bcce70c3332",
+        "status" : "passed",
+        "time" : {
+          "start" : 1578981023868,
+          "stop" : 1578981023953,
+          "duration" : 85
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "发送群答题：查询科目-查询模块-查询试卷-查询试题-随机存群答题到过去日期",
+        "uid" : "30af4ff83e98e798",
+        "parentUid" : "fb5985f9f590c4a7a5d52bcce70c3332",
+        "status" : "passed",
+        "time" : {
+          "start" : 1578981025045,
+          "stop" : 1578981025186,
+          "duration" : 141
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "发送群答题：查询科目-查询模块-查询试卷-查询试题-随机发送群答题-历史消息中查看答题信息",
+        "uid" : "b62ee830a9fa03c0",
+        "parentUid" : "fb5985f9f590c4a7a5d52bcce70c3332",
+        "status" : "passed",
+        "time" : {
+          "start" : 1578981026027,
+          "stop" : 1578981030709,
+          "duration" : 4682
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "发送群答题：查询科目-查询模块-查询试卷-查询试题-再次推送相同试题，不应该推送成功",
+        "uid" : "91d6389a618e69c4",
+        "parentUid" : "fb5985f9f590c4a7a5d52bcce70c3332",
+        "status" : "failed",
+        "time" : {
+          "start" : 1578981031641,
+          "stop" : 1578981032122,
+          "duration" : 481
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "发送群答题：删除不存在的群推试题",
+        "uid" : "284fcd5cd165742f",
+        "parentUid" : "fb5985f9f590c4a7a5d52bcce70c3332",
+        "status" : "passed",
+        "time" : {
+          "start" : 1578981032136,
+          "stop" : 1578981032209,
+          "duration" : 73
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "fb5985f9f590c4a7a5d52bcce70c3332"
+    }, {
+      "name" : "test_send_clazz_video",
+      "children" : [ {
+        "name" : "发送群录播：查询科目-查询模块-查询录播-随机发送录播-查询录播详情-历史消息中查看推送的录播",
+        "uid" : "1b1b1110cacf2106",
+        "parentUid" : "6228f90e20bd35267256695782f70590",
+        "status" : "passed",
+        "time" : {
+          "start" : 1578981032214,
+          "stop" : 1578981037574,
+          "duration" : 5360
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "6228f90e20bd35267256695782f70590"
+    }, {
+      "name" : "test_send_person_file",
+      "children" : [ {
+        "name" : "私聊发送文件：上传文件-给单个学员发送xlsx文件-历史消息中查找发送的文件消息",
+        "uid" : "65ebf35c37d51a4",
+        "parentUid" : "8a312d6638260828f877a6f35e023b8b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1578981038153,
+          "stop" : 1578981043208,
+          "duration" : 5055
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "8a312d6638260828f877a6f35e023b8b"
+    }, {
+      "name" : "test_send_person_img",
+      "children" : [ {
+        "name" : "私聊发送图片：上传图片-给单个学员发送jpg图片-历史消息中查找发送的图片消息",
+        "uid" : "89d3473e9c9d5266",
+        "parentUid" : "93b54c5224e1b148d3ce7635b9a8b0aa",
+        "status" : "passed",
+        "time" : {
+          "start" : 1578981043213,
+          "stop" : 1578981048121,
+          "duration" : 4908
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "93b54c5224e1b148d3ce7635b9a8b0aa"
+    }, {
+      "name" : "test_send_person_live",
+      "children" : [ {
+        "name" : "私聊发送直播：查询直播-向单个学员随机发送回放直播-查询直播详情-私聊记录中查看发送的直播回放",
+        "uid" : "dcaa9d2d27309e18",
+        "parentUid" : "33a93f53369cf2888b05b58a1fa629a6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1578981048125,
+          "stop" : 1578981053499,
+          "duration" : 5374
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "私聊发送直播：查询直播-向单个学员随机发送已结束直播-查询直播详情",
+        "uid" : "2d8de6fea53338dc",
+        "parentUid" : "33a93f53369cf2888b05b58a1fa629a6",
+        "status" : "failed",
+        "time" : {
+          "start" : 1578981053504,
+          "stop" : 1578981054022,
+          "duration" : 518
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "33a93f53369cf2888b05b58a1fa629a6"
+    }, {
+      "name" : "test_send_person_paper",
+      "children" : [ {
+        "name" : "私聊发送试卷：查询试卷-向单个学员随机发送试卷-查看试卷详情-历史消息中查看发送的试卷",
+        "uid" : "9c2ade7fa1f4ca2e",
+        "parentUid" : "b9ed1eaac2eefc5885b6690db4d0dd65",
+        "status" : "passed",
+        "time" : {
+          "start" : 1578981054034,
+          "stop" : 1578981059375,
+          "duration" : 5341
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "b9ed1eaac2eefc5885b6690db4d0dd65"
+    }, {
+      "name" : "test_send_person_video",
+      "children" : [ {
+        "name" : "私聊发送录播：查询科目-查询模块-查询录播-向单个学员随机发送录播-查询录播详情-在历史消息中查看发送的录播",
+        "uid" : "35cd8d017dd1a128",
+        "parentUid" : "ad208747b8bf7533dbf8ca8e2b04b34b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1578981059381,
+          "stop" : 1578981064985,
+          "duration" : 5604
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "ad208747b8bf7533dbf8ca8e2b04b34b"
     } ],
-    "uid" : "testcases.jjxt.test_export_excel"
+    "uid" : "testcases.jjxt"
   } ]
 }

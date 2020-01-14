@@ -1,0 +1,1582 @@
+2020-01-14 13:50:30 apiinfo.py[line:76] DEBUG: 获取接口【subjectList:根据商品ID获取科目列表】信息异常，info中接口的headers为空
+2020-01-14 13:50:30 apiinfo.py[line:95] DEBUG: 获取接口【subjectList:根据商品ID获取科目列表】信息异常，info中接口的params为空
+2020-01-14 13:50:30 apiinfo.py[line:109] DEBUG: 获取接口【subjectList:根据商品ID获取科目列表】信息异常，info中接口的data为空
+2020-01-14 13:50:30 myrequests.py[line:40] INFO: 
+
+***************************************************************************接口请求分割线***************************************************************************
+
+2020-01-14 13:50:30 myrequests.py[line:43] INFO: 开始访问接口:【subjectList:根据商品ID获取科目列表】
+2020-01-14 13:50:30 myrequests.py[line:120] INFO: 发送get请求
+2020-01-14 13:50:30 myrequests.py[line:231] INFO: 接口请求地址为
+https://api-diligent-mgt.haixue.com/diligent/chatSelector/subject/list/68437
+2020-01-14 13:50:30 myrequests.py[line:236] INFO: 响应状态码为:200，响应时间为:0.193484
+2020-01-14 13:50:30 custom_assert.py[line:40] INFO: 
+断言值为:
+{
+  "code": 200
+}
+响应信息:
+{
+  "code": 200,
+  "data": [
+    {
+      "id": 1,
+      "sequence": 1,
+      "subjectName": "建设工程经济"
+    },
+    {
+      "id": 25,
+      "sequence": 2,
+      "subjectName": "建设工程法规及相关知识"
+    },
+    {
+      "id": 27,
+      "sequence": 3,
+      "subjectName": "建设工程项目管理"
+    },
+    {
+      "id": 29,
+      "sequence": 4,
+      "subjectName": "建筑工程管理与实务"
+    },
+    {
+      "id": 393,
+      "sequence": 5,
+      "subjectName": "综合"
+    }
+  ],
+  "msg": null
+}
+2020-01-14 13:50:30 custom_assert.py[line:131] INFO: 断言json中指定的key【data】的返回数据的类型必须是【<class 'list'>】，返回数据不能是【[]】
+2020-01-14 13:50:30 apiinfo.py[line:76] DEBUG: 获取接口【moduleList:根据商品ID科目ID模块类型获取模块列表】信息异常，info中接口的headers为空
+2020-01-14 13:50:30 apiinfo.py[line:109] DEBUG: 获取接口【moduleList:根据商品ID科目ID模块类型获取模块列表】信息异常，info中接口的data为空
+2020-01-14 13:50:30 myrequests.py[line:40] INFO: 
+
+***************************************************************************接口请求分割线***************************************************************************
+
+2020-01-14 13:50:30 myrequests.py[line:43] INFO: 开始访问接口:【moduleList:根据商品ID科目ID模块类型获取模块列表】
+2020-01-14 13:50:30 myrequests.py[line:120] INFO: 发送get请求
+2020-01-14 13:50:30 myrequests.py[line:124] INFO: 请求参数信息为
+{
+  "moduleType": "PAPER",
+  "subjectId": 393
+}
+2020-01-14 13:50:31 myrequests.py[line:231] INFO: 接口请求地址为
+https://api-diligent-mgt.haixue.com/diligent/chatSelector/module/list/68437?subjectId=393&moduleType=PAPER
+2020-01-14 13:50:31 myrequests.py[line:236] INFO: 响应状态码为:200，响应时间为:0.24312
+2020-01-14 13:50:31 custom_assert.py[line:105] INFO: 响应信息:
+{
+  "code": 200,
+  "data": [
+    {
+      "goodsModuleName": "一建系列课配套作业",
+      "id": 7235
+    },
+    {
+      "goodsModuleName": "一级建造师4月学习日历",
+      "id": 8371
+    },
+    {
+      "goodsModuleName": "2017一级建造师全阶段备考学习日历包",
+      "id": 8487
+    },
+    {
+      "goodsModuleName": "一级建造师五月学习日历",
+      "id": 8537
+    },
+    {
+      "goodsModuleName": "一级建造师六月学习日历",
+      "id": 8743
+    },
+    {
+      "goodsModuleName": "一建3D实景案例精品试听课程",
+      "id": 8791
+    },
+    {
+      "goodsModuleName": "一级建造师七月学习日历",
+      "id": 8985
+    },
+    {
+      "goodsModuleName": "一级建造师八月学习日历",
+      "id": 9275
+    },
+    {
+      "goodsModuleName": "高端班每日推送—建筑方向",
+      "id": 12517
+    },
+    {
+      "goodsModuleName": "高端班每日推送—市政方向",
+      "id": 12519
+    },
+    {
+      "goodsModuleName": "高端班每日推送—建筑单科",
+      "id": 12523
+    },
+    {
+      "goodsModuleName": "高端班每日推送—市政单科",
+      "id": 12525
+    },
+    {
+      "goodsModuleName": "高端班每日推送—机电单科",
+      "id": 12527
+    },
+    {
+      "goodsModuleName": "高端班每日推送—机电方向",
+      "id": 12529
+    },
+    {
+      "goodsModuleName": "测试综合模块",
+      "id": 12919
+    },
+    {
+      "goodsModuleName": "测试模块",
+      "id": 17267
+    }
+  ],
+  "msg": null
+}
+2020-01-14 13:50:31 custom_assert.py[line:106] INFO: 断言json中指定的key【data】的返回值类型必须是：【<class 'list'>】
+2020-01-14 13:50:31 apiinfo.py[line:76] DEBUG: 获取接口【paperList:获取试题列表】信息异常，info中接口的headers为空
+2020-01-14 13:50:31 apiinfo.py[line:109] DEBUG: 获取接口【paperList:获取试题列表】信息异常，info中接口的data为空
+2020-01-14 13:50:31 myrequests.py[line:40] INFO: 
+
+***************************************************************************接口请求分割线***************************************************************************
+
+2020-01-14 13:50:31 myrequests.py[line:43] INFO: 开始访问接口:【paperList:获取试题列表】
+2020-01-14 13:50:31 myrequests.py[line:120] INFO: 发送get请求
+2020-01-14 13:50:31 myrequests.py[line:124] INFO: 请求参数信息为
+{
+  "goodsModuleId": 12523,
+  "subjectId": 393
+}
+2020-01-14 13:50:31 myrequests.py[line:231] INFO: 接口请求地址为
+https://api-diligent-mgt.haixue.com/diligent/chatSelector/paper/list/68437?subjectId=393&goodsModuleId=12523
+2020-01-14 13:50:31 myrequests.py[line:236] INFO: 响应状态码为:200，响应时间为:0.080656
+2020-01-14 13:50:31 custom_assert.py[line:105] INFO: 响应信息:
+{
+  "code": 204,
+  "data": [],
+  "msg": "未获取到数据"
+}
+2020-01-14 13:50:31 custom_assert.py[line:106] INFO: 断言json中指定的key【data】的返回值类型必须是：【<class 'list'>】
+2020-01-14 13:50:31 apiinfo.py[line:76] DEBUG: 获取接口【paperList:获取试题列表】信息异常，info中接口的headers为空
+2020-01-14 13:50:31 apiinfo.py[line:109] DEBUG: 获取接口【paperList:获取试题列表】信息异常，info中接口的data为空
+2020-01-14 13:50:31 myrequests.py[line:40] INFO: 
+
+***************************************************************************接口请求分割线***************************************************************************
+
+2020-01-14 13:50:31 myrequests.py[line:43] INFO: 开始访问接口:【paperList:获取试题列表】
+2020-01-14 13:50:31 myrequests.py[line:120] INFO: 发送get请求
+2020-01-14 13:50:31 myrequests.py[line:124] INFO: 请求参数信息为
+{
+  "goodsModuleId": 12519,
+  "subjectId": 393
+}
+2020-01-14 13:50:31 myrequests.py[line:231] INFO: 接口请求地址为
+https://api-diligent-mgt.haixue.com/diligent/chatSelector/paper/list/68437?subjectId=393&goodsModuleId=12519
+2020-01-14 13:50:31 myrequests.py[line:236] INFO: 响应状态码为:200，响应时间为:0.081357
+2020-01-14 13:50:31 custom_assert.py[line:105] INFO: 响应信息:
+{
+  "code": 200,
+  "data": [
+    {
+      "categoryId": 9,
+      "categoryName": "一级建造师",
+      "examquestionNum": 23,
+      "paperId": 7929,
+      "paperName": "每日习题1",
+      "subjectId": 393,
+      "subjectName": "综合",
+      "subjectShortName": "综合"
+    },
+    {
+      "categoryId": 9,
+      "categoryName": "一级建造师",
+      "examquestionNum": 17,
+      "paperId": 7931,
+      "paperName": "每日习题2",
+      "subjectId": 393,
+      "subjectName": "综合",
+      "subjectShortName": "综合"
+    },
+    {
+      "categoryId": 9,
+      "categoryName": "一级建造师",
+      "examquestionNum": 25,
+      "paperId": 7933,
+      "paperName": "每日习题3",
+      "subjectId": 393,
+      "subjectName": "综合",
+      "subjectShortName": "综合"
+    },
+    {
+      "categoryId": 9,
+      "categoryName": "一级建造师",
+      "examquestionNum": 15,
+      "paperId": 7935,
+      "paperName": "每日习题4",
+      "subjectId": 393,
+      "subjectName": "综合",
+      "subjectShortName": "综合"
+    },
+    {
+      "categoryId": 9,
+      "categoryName": "一级建造师",
+      "examquestionNum": 23,
+      "paperId": 7937,
+      "paperName": "每日习题5",
+      "subjectId": 393,
+      "subjectName": "综合",
+      "subjectShortName": "综合"
+    },
+    {
+      "categoryId": 9,
+      "categoryName": "一级建造师",
+      "examquestionNum": 27,
+      "paperId": 7939,
+      "paperName": "每日习题6",
+      "subjectId": 393,
+      "subjectName": "综合",
+      "subjectShortName": "综合"
+    },
+    {
+      "categoryId": 9,
+      "categoryName": "一级建造师",
+      "examquestionNum": 29,
+      "paperId": 7941,
+      "paperName": "每日习题7",
+      "subjectId": 393,
+      "subjectName": "综合",
+      "subjectShortName": "综合"
+    },
+    {
+      "categoryId": 9,
+      "categoryName": "一级建造师",
+      "examquestionNum": 19,
+      "paperId": 7943,
+      "paperName": "每日习题8",
+      "subjectId": 393,
+      "subjectName": "综合",
+      "subjectShortName": "综合"
+    },
+    {
+      "categoryId": 9,
+      "categoryName": "一级建造师",
+      "examquestionNum": 29,
+      "paperId": 7945,
+      "paperName": "每日习题9",
+      "subjectId": 393,
+      "subjectName": "综合",
+      "subjectShortName": "综合"
+    },
+    {
+      "categoryId": 9,
+      "categoryName": "一级建造师",
+      "examquestionNum": 25,
+      "paperId": 7947,
+      "paperName": "每日习题10",
+      "subjectId": 393,
+      "subjectName": "综合",
+      "subjectShortName": "综合"
+    },
+    {
+      "categoryId": 9,
+      "categoryName": "一级建造师",
+      "examquestionNum": 23,
+      "paperId": 7949,
+      "paperName": "每日习题11",
+      "subjectId": 393,
+      "subjectName": "综合",
+      "subjectShortName": "综合"
+    },
+    {
+      "categoryId": 9,
+      "categoryName": "一级建造师",
+      "examquestionNum": 22,
+      "paperId": 7957,
+      "paperName": "每日习题12",
+      "subjectId": 393,
+      "subjectName": "综合",
+      "subjectShortName": "综合"
+    },
+    {
+      "categoryId": 9,
+      "categoryName": "一级建造师",
+      "examquestionNum": 26,
+      "paperId": 7959,
+      "paperName": "每日习题13",
+      "subjectId": 393,
+      "subjectName": "综合",
+      "subjectShortName": "综合"
+    },
+    {
+      "categoryId": 9,
+      "categoryName": "一级建造师",
+      "examquestionNum": 28,
+      "paperId": 8089,
+      "paperName": "每日习题14",
+      "subjectId": 393,
+      "subjectName": "综合",
+      "subjectShortName": "综合"
+    },
+    {
+      "categoryId": 9,
+      "categoryName": "一级建造师",
+      "examquestionNum": 25,
+      "paperId": 8091,
+      "paperName": "每日习题15",
+      "subjectId": 393,
+      "subjectName": "综合",
+      "subjectShortName": "综合"
+    },
+    {
+      "categoryId": 9,
+      "categoryName": "一级建造师",
+      "examquestionNum": 29,
+      "paperId": 8093,
+      "paperName": "每日习题16",
+      "subjectId": 393,
+      "subjectName": "综合",
+      "subjectShortName": "综合"
+    },
+    {
+      "categoryId": 9,
+      "categoryName": "一级建造师",
+      "examquestionNum": 30,
+      "paperId": 8095,
+      "paperName": "每日习题17",
+      "subjectId": 393,
+      "subjectName": "综合",
+      "subjectShortName": "综合"
+    },
+    {
+      "categoryId": 9,
+      "categoryName": "一级建造师",
+      "examquestionNum": 22,
+      "paperId": 8097,
+      "paperName": "每日习题18",
+      "subjectId": 393,
+      "subjectName": "综合",
+      "subjectShortName": "综合"
+    },
+    {
+      "categoryId": 9,
+      "categoryName": "一级建造师",
+      "examquestionNum": 27,
+      "paperId": 8101,
+      "paperName": "每日习题19",
+      "subjectId": 393,
+      "subjectName": "综合",
+      "subjectShortName": "综合"
+    },
+    {
+      "categoryId": 9,
+      "categoryName": "一级建造师",
+      "examquestionNum": 24,
+      "paperId": 8103,
+      "paperName": "每日习题20",
+      "subjectId": 393,
+      "subjectName": "综合",
+      "subjectShortName": "综合"
+    },
+    {
+      "categoryId": 9,
+      "categoryName": "一级建造师",
+      "examquestionNum": 24,
+      "paperId": 8105,
+      "paperName": "每日习题21",
+      "subjectId": 393,
+      "subjectName": "综合",
+      "subjectShortName": "综合"
+    },
+    {
+      "categoryId": 9,
+      "categoryName": "一级建造师",
+      "examquestionNum": 25,
+      "paperId": 8107,
+      "paperName": "每日习题22",
+      "subjectId": 393,
+      "subjectName": "综合",
+      "subjectShortName": "综合"
+    },
+    {
+      "categoryId": 9,
+      "categoryName": "一级建造师",
+      "examquestionNum": 28,
+      "paperId": 8109,
+      "paperName": "每日习题23",
+      "subjectId": 393,
+      "subjectName": "综合",
+      "subjectShortName": "综合"
+    },
+    {
+      "categoryId": 9,
+      "categoryName": "一级建造师",
+      "examquestionNum": 28,
+      "paperId": 8111,
+      "paperName": "每日习题24",
+      "subjectId": 393,
+      "subjectName": "综合",
+      "subjectShortName": "综合"
+    },
+    {
+      "categoryId": 9,
+      "categoryName": "一级建造师",
+      "examquestionNum": 26,
+      "paperId": 8223,
+      "paperName": "每日习题25",
+      "subjectId": 393,
+      "subjectName": "综合",
+      "subjectShortName": "综合"
+    },
+    {
+      "categoryId": 9,
+      "categoryName": "一级建造师",
+      "examquestionNum": 24,
+      "paperId": 8225,
+      "paperName": "每日习题26",
+      "subjectId": 393,
+      "subjectName": "综合",
+      "subjectShortName": "综合"
+    },
+    {
+      "categoryId": 9,
+      "categoryName": "一级建造师",
+      "examquestionNum": 19,
+      "paperId": 8233,
+      "paperName": "每日习题27",
+      "subjectId": 393,
+      "subjectName": "综合",
+      "subjectShortName": "综合"
+    },
+    {
+      "categoryId": 9,
+      "categoryName": "一级建造师",
+      "examquestionNum": 31,
+      "paperId": 8235,
+      "paperName": "每日习题28",
+      "subjectId": 393,
+      "subjectName": "综合",
+      "subjectShortName": "综合"
+    },
+    {
+      "categoryId": 9,
+      "categoryName": "一级建造师",
+      "examquestionNum": 27,
+      "paperId": 8237,
+      "paperName": "每日习题29",
+      "subjectId": 393,
+      "subjectName": "综合",
+      "subjectShortName": "综合"
+    },
+    {
+      "categoryId": 9,
+      "categoryName": "一级建造师",
+      "examquestionNum": 30,
+      "paperId": 8239,
+      "paperName": "每日习题30",
+      "subjectId": 393,
+      "subjectName": "综合",
+      "subjectShortName": "综合"
+    },
+    {
+      "categoryId": 9,
+      "categoryName": "一级建造师",
+      "examquestionNum": 31,
+      "paperId": 8241,
+      "paperName": "每日习题31",
+      "subjectId": 393,
+      "subjectName": "综合",
+      "subjectShortName": "综合"
+    },
+    {
+      "categoryId": 9,
+      "categoryName": "一级建造师",
+      "examquestionNum": 29,
+      "paperId": 8243,
+      "paperName": "每日习题32",
+      "subjectId": 393,
+      "subjectName": "综合",
+      "subjectShortName": "综合"
+    },
+    {
+      "categoryId": 9,
+      "categoryName": "一级建造师",
+      "examquestionNum": 29,
+      "paperId": 8247,
+      "paperName": "每日习题33",
+      "subjectId": 393,
+      "subjectName": "综合",
+      "subjectShortName": "综合"
+    },
+    {
+      "categoryId": 9,
+      "categoryName": "一级建造师",
+      "examquestionNum": 31,
+      "paperId": 8249,
+      "paperName": "每日习题34",
+      "subjectId": 393,
+      "subjectName": "综合",
+      "subjectShortName": "综合"
+    },
+    {
+      "categoryId": 9,
+      "categoryName": "一级建造师",
+      "examquestionNum": 31,
+      "paperId": 8253,
+      "paperName": "每日习题35",
+      "subjectId": 393,
+      "subjectName": "综合",
+      "subjectShortName": "综合"
+    },
+    {
+      "categoryId": 9,
+      "categoryName": "一级建造师",
+      "examquestionNum": 30,
+      "paperId": 8377,
+      "paperName": "每日习题36",
+      "subjectId": 393,
+      "subjectName": "综合",
+      "subjectShortName": "综合"
+    },
+    {
+      "categoryId": 9,
+      "categoryName": "一级建造师",
+      "examquestionNum": 23,
+      "paperId": 8379,
+      "paperName": "每日习题37",
+      "subjectId": 393,
+      "subjectName": "综合",
+      "subjectShortName": "综合"
+    },
+    {
+      "categoryId": 9,
+      "categoryName": "一级建造师",
+      "examquestionNum": 34,
+      "paperId": 8381,
+      "paperName": "每日习题38",
+      "subjectId": 393,
+      "subjectName": "综合",
+      "subjectShortName": "综合"
+    },
+    {
+      "categoryId": 9,
+      "categoryName": "一级建造师",
+      "examquestionNum": 27,
+      "paperId": 8383,
+      "paperName": "每日习题39",
+      "subjectId": 393,
+      "subjectName": "综合",
+      "subjectShortName": "综合"
+    },
+    {
+      "categoryId": 9,
+      "categoryName": "一级建造师",
+      "examquestionNum": 26,
+      "paperId": 8385,
+      "paperName": "每日习题40",
+      "subjectId": 393,
+      "subjectName": "综合",
+      "subjectShortName": "综合"
+    },
+    {
+      "categoryId": 9,
+      "categoryName": "一级建造师",
+      "examquestionNum": 22,
+      "paperId": 8387,
+      "paperName": "每日习题41",
+      "subjectId": 393,
+      "subjectName": "综合",
+      "subjectShortName": "综合"
+    }
+  ],
+  "msg": null
+}
+2020-01-14 13:50:31 custom_assert.py[line:106] INFO: 断言json中指定的key【data】的返回值类型必须是：【<class 'list'>】
+2020-01-14 13:50:31 apiinfo.py[line:76] DEBUG: 获取接口【clazzQuestionChoose:选题，通过试卷查询试题】信息异常，info中接口的headers为空
+2020-01-14 13:50:31 apiinfo.py[line:109] DEBUG: 获取接口【clazzQuestionChoose:选题，通过试卷查询试题】信息异常，info中接口的data为空
+2020-01-14 13:50:31 myrequests.py[line:40] INFO: 
+
+***************************************************************************接口请求分割线***************************************************************************
+
+2020-01-14 13:50:31 myrequests.py[line:43] INFO: 开始访问接口:【clazzQuestionChoose:选题，通过试卷查询试题】
+2020-01-14 13:50:31 myrequests.py[line:120] INFO: 发送get请求
+2020-01-14 13:50:31 myrequests.py[line:124] INFO: 请求参数信息为
+{
+  "categoryId": 9,
+  "correctRateAscFlag": "false",
+  "outlineId": "",
+  "pageNum": "1",
+  "pageSize": "10",
+  "paperId": 8103,
+  "subjectId": 393
+}
+2020-01-14 13:50:31 myrequests.py[line:231] INFO: 接口请求地址为
+https://api-diligent-mgt.haixue.com/diligent/clazzQuestion/choose?categoryId=9&subjectId=393&outlineId=&paperId=8103&pageNum=1&pageSize=10&correctRateAscFlag=false
+2020-01-14 13:50:31 myrequests.py[line:236] INFO: 响应状态码为:200，响应时间为:0.238436
+2020-01-14 13:50:31 custom_assert.py[line:105] INFO: 响应信息:
+{
+  "code": 200,
+  "data": [
+    {
+      "accuracy": null,
+      "answerCount": null,
+      "clazzId": null,
+      "display": null,
+      "displayStatus": null,
+      "examQuestionVo": {
+        "analysisArray": [
+          {
+            "content": "用人单位自用工之日起超过一个月不满一年未与劳动者订立书面劳动合同的，应当向劳动者每月支付2倍的工资。",
+            "type": "text"
+          }
+        ],
+        "correctAnswer": "A",
+        "correctOptions": [
+          {
+            "optionContentArray": [
+              {
+                "content": "2",
+                "type": "text"
+              }
+            ],
+            "optionName": "A"
+          }
+        ],
+        "difficulty": "易",
+        "doneCorrectRate": 97.0,
+        "materialTitleArray": [],
+        "options": [
+          {
+            "optionContentArray": [
+              {
+                "content": "2",
+                "type": "text"
+              }
+            ],
+            "optionName": "A"
+          },
+          {
+            "optionContentArray": [
+              {
+                "content": "3",
+                "type": "text"
+              }
+            ],
+            "optionName": "B"
+          },
+          {
+            "optionContentArray": [
+              {
+                "content": "4",
+                "type": "text"
+              }
+            ],
+            "optionName": "C"
+          },
+          {
+            "optionContentArray": [
+              {
+                "content": "5",
+                "type": "text"
+              }
+            ],
+            "optionName": "D"
+          }
+        ],
+        "pastPaper": false,
+        "pastPaperNo": null,
+        "questionId": 303325,
+        "questionTypeId": 1115,
+        "subjectShortName": "法规",
+        "titleArray": [
+          {
+            "content": "用人单位自用工之日起超过一个月不满一年未与劳动者订立书面劳动合同的，应当向劳动者每月支付（）倍的工资。",
+            "type": "text"
+          }
+        ]
+      },
+      "id": null,
+      "participation": null,
+      "point": null,
+      "pushDate": null,
+      "pushStatus": null,
+      "taskType": null
+    },
+    {
+      "accuracy": null,
+      "answerCount": null,
+      "clazzId": null,
+      "display": null,
+      "displayStatus": null,
+      "examQuestionVo": {
+        "analysisArray": [
+          {
+            "content": "下列纠纷不属于劳动争议：（1）劳动者请求社会保险经办机构发放社会保险金的纠纷；（2）劳动者与用人单位因住房制度改革产生的公有住房转让纠纷；（3）劳动者对劳动能力鉴定委员会的伤残等级鉴定结论或者对职业病诊断鉴定委员会的职业病诊断鉴定结论的异议纠纷；（4）家庭或者个人与家政服务人员之间的纠纷；（5）个体工匠与帮工、学徒之间的纠纷；（6）农村承包经营户与受雇人之间的纠纷。",
+            "type": "text"
+          }
+        ],
+        "correctAnswer": "D",
+        "correctOptions": [
+          {
+            "optionContentArray": [
+              {
+                "content": "进城务工的黄某与劳务分包公司因工资报酬产生的争议",
+                "type": "text"
+              }
+            ],
+            "optionName": "D"
+          }
+        ],
+        "difficulty": "易",
+        "doneCorrectRate": 95.0,
+        "materialTitleArray": [],
+        "options": [
+          {
+            "optionContentArray": [
+              {
+                "content": "企业职工沈某与某地方劳动保障行政部门工伤认定的争议",
+                "type": "text"
+              }
+            ],
+            "optionName": "A"
+          },
+          {
+            "optionContentArray": [
+              {
+                "content": "公司股东李某因股息分配产生的争议",
+                "type": "text"
+              }
+            ],
+            "optionName": "B"
+          },
+          {
+            "optionContentArray": [
+              {
+                "content": "王某与社会保险机构因退休费用产生的争议",
+                "type": "text"
+              }
+            ],
+            "optionName": "C"
+          },
+          {
+            "optionContentArray": [
+              {
+                "content": "进城务工的黄某与劳务分包公司因工资报酬产生的争议",
+                "type": "text"
+              }
+            ],
+            "optionName": "D"
+          }
+        ],
+        "pastPaper": false,
+        "pastPaperNo": null,
+        "questionId": 303341,
+        "questionTypeId": 1115,
+        "subjectShortName": "法规",
+        "titleArray": [
+          {
+            "content": "下列争议中，属于劳动争议的是（）。",
+            "type": "text"
+          }
+        ]
+      },
+      "id": null,
+      "participation": null,
+      "point": null,
+      "pushDate": null,
+      "pushStatus": null,
+      "taskType": null
+    },
+    {
+      "accuracy": null,
+      "answerCount": null,
+      "clazzId": null,
+      "display": null,
+      "displayStatus": null,
+      "examQuestionVo": {
+        "analysisArray": [
+          {
+            "content": "双代号网络图中应只有一个起点节点和一个终点节点，而其他所有节点均应是中间节点。",
+            "type": "text"
+          }
+        ],
+        "correctAnswer": "A",
+        "correctOptions": [
+          {
+            "optionContentArray": [
+              {
+                "content": "有多个终点节点",
+                "type": "text"
+              }
+            ],
+            "optionName": "A"
+          }
+        ],
+        "difficulty": "易",
+        "doneCorrectRate": 95.0,
+        "materialTitleArray": [],
+        "options": [
+          {
+            "optionContentArray": [
+              {
+                "content": "有多个终点节点",
+                "type": "text"
+              }
+            ],
+            "optionName": "A"
+          },
+          {
+            "optionContentArray": [
+              {
+                "content": "节点编号不对",
+                "type": "text"
+              }
+            ],
+            "optionName": "B"
+          },
+          {
+            "optionContentArray": [
+              {
+                "content": "逻辑关系不对",
+                "type": "text"
+              }
+            ],
+            "optionName": "C"
+          },
+          {
+            "optionContentArray": [
+              {
+                "content": "有多个起点节点",
+                "type": "text"
+              }
+            ],
+            "optionName": "D"
+          }
+        ],
+        "pastPaper": true,
+        "pastPaperNo": null,
+        "questionId": 308701,
+        "questionTypeId": 1115,
+        "subjectShortName": "管理",
+        "titleArray": [
+          {
+            "content": " 根据下表逻辑关系控制的双代号网络图，图中存在的作图错误是（）。 ",
+            "type": "text"
+          },
+          {
+            "content": "http://import.highso.org.cn/hximg/kindeditorupload/20160623/20160623181750_502.jpg",
+            "type": "img"
+          }
+        ]
+      },
+      "id": null,
+      "participation": null,
+      "point": null,
+      "pushDate": null,
+      "pushStatus": null,
+      "taskType": null
+    },
+    {
+      "accuracy": null,
+      "answerCount": null,
+      "clazzId": null,
+      "display": null,
+      "displayStatus": null,
+      "examQuestionVo": {
+        "analysisArray": [
+          {
+            "content": "横道图没有通过严谨的进度计划时间参数计算，不能确定计划的关键工作、关键路线与时差。",
+            "type": "text"
+          }
+        ],
+        "correctAnswer": "C",
+        "correctOptions": [
+          {
+            "optionContentArray": [
+              {
+                "content": "持续时间",
+                "type": "text"
+              }
+            ],
+            "optionName": "C"
+          }
+        ],
+        "difficulty": "易",
+        "doneCorrectRate": 95.0,
+        "materialTitleArray": [],
+        "options": [
+          {
+            "optionContentArray": [
+              {
+                "content": "总时差",
+                "type": "text"
+              }
+            ],
+            "optionName": "A"
+          },
+          {
+            "optionContentArray": [
+              {
+                "content": "最迟开始时间",
+                "type": "text"
+              }
+            ],
+            "optionName": "B"
+          },
+          {
+            "optionContentArray": [
+              {
+                "content": "持续时间",
+                "type": "text"
+              }
+            ],
+            "optionName": "C"
+          },
+          {
+            "optionContentArray": [
+              {
+                "content": "自由时差",
+                "type": "text"
+              }
+            ],
+            "optionName": "D"
+          }
+        ],
+        "pastPaper": true,
+        "pastPaperNo": null,
+        "questionId": 328351,
+        "questionTypeId": 1115,
+        "subjectShortName": "管理",
+        "titleArray": [
+          {
+            "content": "一般情况下，横道图能反映出工作的（）。",
+            "type": "text"
+          }
+        ]
+      },
+      "id": null,
+      "participation": null,
+      "point": null,
+      "pushDate": null,
+      "pushStatus": null,
+      "taskType": null
+    },
+    {
+      "accuracy": null,
+      "answerCount": null,
+      "clazzId": null,
+      "display": null,
+      "displayStatus": null,
+      "examQuestionVo": {
+        "analysisArray": [
+          {
+            "content": "本题考查的是双代号网络计划。因为本项工作已有总时差5天，但还是影响总工期2天，所以工作M的实际进度是落后了5+2=7天。",
+            "type": "text"
+          }
+        ],
+        "correctAnswer": "A",
+        "correctOptions": [
+          {
+            "optionContentArray": [
+              {
+                "content": "7",
+                "type": "text"
+              }
+            ],
+            "optionName": "A"
+          }
+        ],
+        "difficulty": "易",
+        "doneCorrectRate": 90.0,
+        "materialTitleArray": [],
+        "options": [
+          {
+            "optionContentArray": [
+              {
+                "content": "7",
+                "type": "text"
+              }
+            ],
+            "optionName": "A"
+          },
+          {
+            "optionContentArray": [
+              {
+                "content": "5",
+                "type": "text"
+              }
+            ],
+            "optionName": "B"
+          },
+          {
+            "optionContentArray": [
+              {
+                "content": "6",
+                "type": "text"
+              }
+            ],
+            "optionName": "C"
+          },
+          {
+            "optionContentArray": [
+              {
+                "content": "8",
+                "type": "text"
+              }
+            ],
+            "optionName": "D"
+          }
+        ],
+        "pastPaper": true,
+        "pastPaperNo": null,
+        "questionId": 392033,
+        "questionTypeId": 1115,
+        "subjectShortName": "管理",
+        "titleArray": [
+          {
+            "content": "某双代号网络计划中，工作M的自由时差3天，总时差5天。在进度计划实施检查中发现工作M实际进度落后，且影响总工期2天。在其他工作均正常的前提下，工作M的实际进度落后（　）天。",
+            "type": "text"
+          }
+        ]
+      },
+      "id": null,
+      "participation": null,
+      "point": null,
+      "pushDate": null,
+      "pushStatus": null,
+      "taskType": null
+    },
+    {
+      "accuracy": null,
+      "answerCount": null,
+      "clazzId": null,
+      "display": null,
+      "displayStatus": null,
+      "examQuestionVo": {
+        "analysisArray": [
+          {
+            "content": "在双代号网络图中，为了正确地表达图中工作之间的逻辑关系，往往需要应用虚箭线。",
+            "type": "text"
+          }
+        ],
+        "correctAnswer": "C",
+        "correctOptions": [
+          {
+            "optionContentArray": [
+              {
+                "content": "虚工作可以正确表达工作间的逻辑关系",
+                "type": "text"
+              }
+            ],
+            "optionName": "C"
+          }
+        ],
+        "difficulty": "易",
+        "doneCorrectRate": 87.0,
+        "materialTitleArray": [],
+        "options": [
+          {
+            "optionContentArray": [
+              {
+                "content": "虚工作只在双代号网络计划中存在",
+                "type": "text"
+              }
+            ],
+            "optionName": "A"
+          },
+          {
+            "optionContentArray": [
+              {
+                "content": "虚工作一般不消耗资源但占用时间",
+                "type": "text"
+              }
+            ],
+            "optionName": "B"
+          },
+          {
+            "optionContentArray": [
+              {
+                "content": "虚工作可以正确表达工作间的逻辑关系",
+                "type": "text"
+              }
+            ],
+            "optionName": "C"
+          },
+          {
+            "optionContentArray": [
+              {
+                "content": "双代号时标网络计划中虚工作用波形线展示",
+                "type": "text"
+              }
+            ],
+            "optionName": "D"
+          }
+        ],
+        "pastPaper": true,
+        "pastPaperNo": null,
+        "questionId": 328349,
+        "questionTypeId": 1115,
+        "subjectShortName": "管理",
+        "titleArray": [
+          {
+            "content": "关于虚工作的说法，正确的是（）。",
+            "type": "text"
+          }
+        ]
+      },
+      "id": null,
+      "participation": null,
+      "point": null,
+      "pushDate": null,
+      "pushStatus": null,
+      "taskType": null
+    },
+    {
+      "accuracy": null,
+      "answerCount": null,
+      "clazzId": null,
+      "display": null,
+      "displayStatus": null,
+      "examQuestionVo": {
+        "analysisArray": [
+          {
+            "content": "本题考查双代号网络计划工作的逻辑关系。A、B工作均完成后进行D工作，C工作与AB工作没有先后逻辑关系。ABC工作均完成后，E工作才能开始。",
+            "type": "text"
+          }
+        ],
+        "correctAnswer": "B",
+        "correctOptions": [
+          {
+            "optionContentArray": [
+              {
+                "content": " A、B均完成后进行D ",
+                "type": "text"
+              }
+            ],
+            "optionName": "B"
+          }
+        ],
+        "difficulty": "难",
+        "doneCorrectRate": 86.0,
+        "materialTitleArray": [],
+        "options": [
+          {
+            "optionContentArray": [
+              {
+                "content": " A、B均完成后同时进行C、D ",
+                "type": "text"
+              }
+            ],
+            "optionName": "A"
+          },
+          {
+            "optionContentArray": [
+              {
+                "content": " A、B均完成后进行D ",
+                "type": "text"
+              }
+            ],
+            "optionName": "B"
+          },
+          {
+            "optionContentArray": [
+              {
+                "content": " A、B、C均完成后同时进行D、E ",
+                "type": "text"
+              }
+            ],
+            "optionName": "C"
+          },
+          {
+            "optionContentArray": [
+              {
+                "content": " B、C完成后进行E ",
+                "type": "text"
+              }
+            ],
+            "optionName": "D"
+          }
+        ],
+        "pastPaper": true,
+        "pastPaperNo": null,
+        "questionId": 500795,
+        "questionTypeId": 1115,
+        "subjectShortName": "管理",
+        "titleArray": [
+          {
+            "content": " 某工作间逻辑关系如下图,则正确的是（ ）。  ",
+            "type": "text"
+          },
+          {
+            "content": "http://import.highso.org.cn/hximg/kindeditorupload/20171108/20171108095214_497.png",
+            "type": "img"
+          }
+        ]
+      },
+      "id": null,
+      "participation": null,
+      "point": null,
+      "pushDate": null,
+      "pushStatus": null,
+      "taskType": null
+    },
+    {
+      "accuracy": null,
+      "answerCount": null,
+      "clazzId": null,
+      "display": null,
+      "displayStatus": null,
+      "examQuestionVo": {
+        "analysisArray": [
+          {
+            "content": "本题考查的是工作之间的逻辑关系。工作C的紧后工作是EFH。",
+            "type": "text"
+          }
+        ],
+        "correctAnswer": "ACD",
+        "correctOptions": [
+          {
+            "optionContentArray": [
+              {
+                "content": " 工作H ",
+                "type": "text"
+              }
+            ],
+            "optionName": "A"
+          },
+          {
+            "optionContentArray": [
+              {
+                "content": " 工作F ",
+                "type": "text"
+              }
+            ],
+            "optionName": "C"
+          },
+          {
+            "optionContentArray": [
+              {
+                "content": " 工作E ",
+                "type": "text"
+              }
+            ],
+            "optionName": "D"
+          }
+        ],
+        "difficulty": "难",
+        "doneCorrectRate": 83.0,
+        "materialTitleArray": [],
+        "options": [
+          {
+            "optionContentArray": [
+              {
+                "content": " 工作H ",
+                "type": "text"
+              }
+            ],
+            "optionName": "A"
+          },
+          {
+            "optionContentArray": [
+              {
+                "content": " 工作G ",
+                "type": "text"
+              }
+            ],
+            "optionName": "B"
+          },
+          {
+            "optionContentArray": [
+              {
+                "content": " 工作F ",
+                "type": "text"
+              }
+            ],
+            "optionName": "C"
+          },
+          {
+            "optionContentArray": [
+              {
+                "content": " 工作E ",
+                "type": "text"
+              }
+            ],
+            "optionName": "D"
+          },
+          {
+            "optionContentArray": [
+              {
+                "content": " 工作D ",
+                "type": "text"
+              }
+            ],
+            "optionName": "E"
+          }
+        ],
+        "pastPaper": true,
+        "pastPaperNo": null,
+        "questionId": 500659,
+        "questionTypeId": 1117,
+        "subjectShortName": "管理",
+        "titleArray": [
+          {
+            "content": " 某工程工作逻辑关系如下表，C工作的紧后工作有（ ）。  ",
+            "type": "text"
+          },
+          {
+            "content": "http://import.highso.org.cn/hximg/kindeditorupload/20171108/20171108101053_115.png",
+            "type": "img"
+          }
+        ]
+      },
+      "id": null,
+      "participation": null,
+      "point": null,
+      "pushDate": null,
+      "pushStatus": null,
+      "taskType": null
+    },
+    {
+      "accuracy": null,
+      "answerCount": null,
+      "clazzId": null,
+      "display": null,
+      "displayStatus": null,
+      "examQuestionVo": {
+        "analysisArray": [
+          {
+            "content": "横道图计划表中的进度线与时间坐标相对应，这种表达方式较直观，易看懂计划编制的意图横道图进度计划法也存在一些问题，如：（1）工序（工作）之间的逻辑关系可以设法表达，但不易表达清楚；（2）适用于手工编制计划；（3）没有通过严谨的进度计划时间参数计算，不能确定计划的关键工作、关键路线与时差；（4）计划调整只能用手工方式进行，其工作量较大；（5）难以适应大的进度计划系统。因此，正确选项是D。",
+            "type": "text"
+          }
+        ],
+        "correctAnswer": "D",
+        "correctOptions": [
+          {
+            "optionContentArray": [
+              {
+                "content": "计划调整只能用手工方式进行，其工作量较大",
+                "type": "text"
+              }
+            ],
+            "optionName": "D"
+          }
+        ],
+        "difficulty": "中",
+        "doneCorrectRate": 79.0,
+        "materialTitleArray": [],
+        "options": [
+          {
+            "optionContentArray": [
+              {
+                "content": "适应于大型项目的进度计划系统",
+                "type": "text"
+              }
+            ],
+            "optionName": "A"
+          },
+          {
+            "optionContentArray": [
+              {
+                "content": "工作之间的逻辑关系表达清楚",
+                "type": "text"
+              }
+            ],
+            "optionName": "B"
+          },
+          {
+            "optionContentArray": [
+              {
+                "content": "能够确定计划的关键工作和关键线路",
+                "type": "text"
+              }
+            ],
+            "optionName": "C"
+          },
+          {
+            "optionContentArray": [
+              {
+                "content": "计划调整只能用手工方式进行，其工作量较大",
+                "type": "text"
+              }
+            ],
+            "optionName": "D"
+          }
+        ],
+        "pastPaper": false,
+        "pastPaperNo": null,
+        "questionId": 381173,
+        "questionTypeId": 1115,
+        "subjectShortName": "管理",
+        "titleArray": [
+          {
+            "content": "与网络计划相比较，横道图进度计划法具有（    ）的特点。",
+            "type": "text"
+          }
+        ]
+      },
+      "id": null,
+      "participation": null,
+      "point": null,
+      "pushDate": null,
+      "pushStatus": null,
+      "taskType": null
+    },
+    {
+      "accuracy": null,
+      "answerCount": null,
+      "clazzId": null,
+      "display": null,
+      "displayStatus": null,
+      "examQuestionVo": {
+        "analysisArray": [
+          {
+            "content": "劳动争议仲裁委员会由劳动行政部门代表、同级工会代表、用人单位方面的代表组成。劳动争议仲裁委员会主任由劳动行政部门代表担任。",
+            "type": "text"
+          }
+        ],
+        "correctAnswer": "B",
+        "correctOptions": [
+          {
+            "optionContentArray": [
+              {
+                "content": "劳动行政部门代表",
+                "type": "text"
+              }
+            ],
+            "optionName": "B"
+          }
+        ],
+        "difficulty": "易",
+        "doneCorrectRate": 78.0,
+        "materialTitleArray": [],
+        "options": [
+          {
+            "optionContentArray": [
+              {
+                "content": "同级工会代表",
+                "type": "text"
+              }
+            ],
+            "optionName": "A"
+          },
+          {
+            "optionContentArray": [
+              {
+                "content": "劳动行政部门代表",
+                "type": "text"
+              }
+            ],
+            "optionName": "B"
+          },
+          {
+            "optionContentArray": [
+              {
+                "content": "用人单位代表",
+                "type": "text"
+              }
+            ],
+            "optionName": "C"
+          },
+          {
+            "optionContentArray": [
+              {
+                "content": "人民法院指定的人员",
+                "type": "text"
+              }
+            ],
+            "optionName": "D"
+          }
+        ],
+        "pastPaper": true,
+        "pastPaperNo": null,
+        "questionId": 303333,
+        "questionTypeId": 1115,
+        "subjectShortName": "法规",
+        "titleArray": [
+          {
+            "content": "劳动争议仲裁委员会由劳动行政部分代表、同级工会代表、用人单位方面的代表组成。劳动争议仲裁委员会主任由（）担任。",
+            "type": "text"
+          }
+        ]
+      },
+      "id": null,
+      "participation": null,
+      "point": null,
+      "pushDate": null,
+      "pushStatus": null,
+      "taskType": null
+    }
+  ],
+  "msg": null
+}
+2020-01-14 13:50:31 custom_assert.py[line:106] INFO: 断言json中指定的key【data】的返回值类型必须是：【<class 'list'>】
+2020-01-14 13:50:31 apiinfo.py[line:95] DEBUG: 获取接口【push:推送试题】信息异常，info中接口的params为空
+2020-01-14 13:50:31 myrequests.py[line:40] INFO: 
+
+***************************************************************************接口请求分割线***************************************************************************
+
+2020-01-14 13:50:31 myrequests.py[line:43] INFO: 开始访问接口:【push:推送试题】
+2020-01-14 13:50:31 myrequests.py[line:50] INFO: 请求的headers信息为
+{
+  "Content-Type": "application/json;charset=UTF-8"
+}
+2020-01-14 13:50:31 myrequests.py[line:94] INFO: 发送post请求
+2020-01-14 13:50:31 myrequests.py[line:97] INFO: 请求参数信息为
+{
+  "clazzId": 415,
+  "customerId": 1585,
+  "displayStatus": "NONE",
+  "pushDate": "2019-09-13",
+  "pushStatus": "PUSHED",
+  "questionId": 500659
+}
+2020-01-14 13:50:32 myrequests.py[line:231] INFO: 接口请求地址为
+https://api-diligent-mgt.haixue.com/diligent/clazzQuestion/push
+2020-01-14 13:50:32 myrequests.py[line:236] INFO: 响应状态码为:200，响应时间为:0.399391
+2020-01-14 13:50:32 custom_assert.py[line:40] INFO: 
+断言值为:
+{
+  "code": 200
+}
+响应信息:
+{
+  "code": 200,
+  "data": "推送群答题成功.",
+  "msg": null
+}
+2020-01-14 13:50:32 apiinfo.py[line:95] DEBUG: 获取接口【push:推送试题】信息异常，info中接口的params为空
+2020-01-14 13:50:32 myrequests.py[line:40] INFO: 
+
+***************************************************************************接口请求分割线***************************************************************************
+
+2020-01-14 13:50:32 myrequests.py[line:43] INFO: 开始访问接口:【push:推送试题】
+2020-01-14 13:50:32 myrequests.py[line:50] INFO: 请求的headers信息为
+{
+  "Content-Type": "application/json;charset=UTF-8"
+}
+2020-01-14 13:50:32 myrequests.py[line:94] INFO: 发送post请求
+2020-01-14 13:50:32 myrequests.py[line:97] INFO: 请求参数信息为
+{
+  "clazzId": 415,
+  "customerId": 1585,
+  "displayStatus": "NONE",
+  "pushDate": "2019-09-13",
+  "pushStatus": "PUSHED",
+  "questionId": 500659
+}
+2020-01-14 13:50:32 myrequests.py[line:231] INFO: 接口请求地址为
+https://api-diligent-mgt.haixue.com/diligent/clazzQuestion/push
+2020-01-14 13:50:32 myrequests.py[line:236] INFO: 响应状态码为:200，响应时间为:0.068161
+2020-01-14 13:50:32 custom_assert.py[line:40] INFO: 
+断言值为:
+{
+  "code": 200
+}
+响应信息:
+{
+  "code": 5001,
+  "data": null,
+  "msg": "指定日期内已存在相同的群答题，不允许重复推送"
+}
+2020-01-14 13:50:32 custom_assert.py[line:54] ERROR: 断言接口返回值失败

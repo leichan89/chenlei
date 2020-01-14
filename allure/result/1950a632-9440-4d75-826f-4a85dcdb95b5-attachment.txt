@@ -1,0 +1,758 @@
+2020-01-14 13:50:59 apiinfo.py[line:76] DEBUG: 获取接口【subjectList:根据商品ID获取科目列表】信息异常，info中接口的headers为空
+2020-01-14 13:50:59 apiinfo.py[line:95] DEBUG: 获取接口【subjectList:根据商品ID获取科目列表】信息异常，info中接口的params为空
+2020-01-14 13:50:59 apiinfo.py[line:109] DEBUG: 获取接口【subjectList:根据商品ID获取科目列表】信息异常，info中接口的data为空
+2020-01-14 13:50:59 myrequests.py[line:40] INFO: 
+
+***************************************************************************接口请求分割线***************************************************************************
+
+2020-01-14 13:50:59 myrequests.py[line:43] INFO: 开始访问接口:【subjectList:根据商品ID获取科目列表】
+2020-01-14 13:50:59 myrequests.py[line:120] INFO: 发送get请求
+2020-01-14 13:50:59 myrequests.py[line:231] INFO: 接口请求地址为
+https://api-diligent-mgt.haixue.com/diligent/chatSelector/subject/list/68437
+2020-01-14 13:50:59 myrequests.py[line:236] INFO: 响应状态码为:200，响应时间为:0.100464
+2020-01-14 13:50:59 custom_assert.py[line:40] INFO: 
+断言值为:
+{
+  "code": 200
+}
+响应信息:
+{
+  "code": 200,
+  "data": [
+    {
+      "id": 1,
+      "sequence": 1,
+      "subjectName": "建设工程经济"
+    },
+    {
+      "id": 25,
+      "sequence": 2,
+      "subjectName": "建设工程法规及相关知识"
+    },
+    {
+      "id": 27,
+      "sequence": 3,
+      "subjectName": "建设工程项目管理"
+    },
+    {
+      "id": 29,
+      "sequence": 4,
+      "subjectName": "建筑工程管理与实务"
+    },
+    {
+      "id": 393,
+      "sequence": 5,
+      "subjectName": "综合"
+    }
+  ],
+  "msg": null
+}
+2020-01-14 13:50:59 custom_assert.py[line:131] INFO: 断言json中指定的key【data】的返回数据的类型必须是【<class 'list'>】，返回数据不能是【[]】
+2020-01-14 13:50:59 apiinfo.py[line:76] DEBUG: 获取接口【moduleList:根据商品ID科目ID模块类型获取模块列表】信息异常，info中接口的headers为空
+2020-01-14 13:50:59 apiinfo.py[line:109] DEBUG: 获取接口【moduleList:根据商品ID科目ID模块类型获取模块列表】信息异常，info中接口的data为空
+2020-01-14 13:50:59 myrequests.py[line:40] INFO: 
+
+***************************************************************************接口请求分割线***************************************************************************
+
+2020-01-14 13:50:59 myrequests.py[line:43] INFO: 开始访问接口:【moduleList:根据商品ID科目ID模块类型获取模块列表】
+2020-01-14 13:50:59 myrequests.py[line:120] INFO: 发送get请求
+2020-01-14 13:50:59 myrequests.py[line:124] INFO: 请求参数信息为
+{
+  "moduleType": "VIDEO",
+  "subjectId": 25
+}
+2020-01-14 13:50:59 myrequests.py[line:231] INFO: 接口请求地址为
+https://api-diligent-mgt.haixue.com/diligent/chatSelector/module/list/68437?subjectId=25&moduleType=VIDEO
+2020-01-14 13:50:59 myrequests.py[line:236] INFO: 响应状态码为:200，响应时间为:0.399343
+2020-01-14 13:50:59 custom_assert.py[line:105] INFO: 响应信息:
+{
+  "code": 200,
+  "data": [
+    {
+      "goodsModuleName": "真题解析-前导",
+      "id": 13121
+    },
+    {
+      "goodsModuleName": "精讲通关-前导",
+      "id": 13139
+    },
+    {
+      "goodsModuleName": "实景精讲通关-前导",
+      "id": 13197
+    },
+    {
+      "goodsModuleName": "精讲通关",
+      "id": 14645
+    },
+    {
+      "goodsModuleName": "实景精讲通关",
+      "id": 14687
+    },
+    {
+      "goodsModuleName": "真题解析",
+      "id": 14697
+    },
+    {
+      "goodsModuleName": "测试1",
+      "id": 15349
+    },
+    {
+      "goodsModuleName": "精品微课",
+      "id": 15629
+    },
+    {
+      "goodsModuleName": "超级精讲",
+      "id": 16815
+    },
+    {
+      "goodsModuleName": "真题解析",
+      "id": 16817
+    },
+    {
+      "goodsModuleName": "3D实景实训",
+      "id": 16855
+    },
+    {
+      "goodsModuleName": "点金十分钟",
+      "id": 17051
+    },
+    {
+      "goodsModuleName": "体验微课",
+      "id": 17055
+    }
+  ],
+  "msg": null
+}
+2020-01-14 13:50:59 custom_assert.py[line:106] INFO: 断言json中指定的key【data】的返回值类型必须是：【<class 'list'>】
+2020-01-14 13:50:59 apiinfo.py[line:76] DEBUG: 获取接口【videoSelectorList:录播选择器列表】信息异常，info中接口的headers为空
+2020-01-14 13:50:59 apiinfo.py[line:109] DEBUG: 获取接口【videoSelectorList:录播选择器列表】信息异常，info中接口的data为空
+2020-01-14 13:50:59 myrequests.py[line:40] INFO: 
+
+***************************************************************************接口请求分割线***************************************************************************
+
+2020-01-14 13:50:59 myrequests.py[line:43] INFO: 开始访问接口:【videoSelectorList:录播选择器列表】
+2020-01-14 13:50:59 myrequests.py[line:120] INFO: 发送get请求
+2020-01-14 13:50:59 myrequests.py[line:124] INFO: 请求参数信息为
+{
+  "moduleIds[0]": 13121,
+  "moduleIds[10]": 16855,
+  "moduleIds[11]": 17051,
+  "moduleIds[12]": 17055,
+  "moduleIds[1]": 13139,
+  "moduleIds[2]": 13197,
+  "moduleIds[3]": 14645,
+  "moduleIds[4]": 14687,
+  "moduleIds[5]": 14697,
+  "moduleIds[6]": 15349,
+  "moduleIds[7]": 15629,
+  "moduleIds[8]": 16815,
+  "moduleIds[9]": 16817,
+  "pageNum": "1",
+  "pageSize": "10",
+  "subjectId": "1"
+}
+2020-01-14 13:51:00 myrequests.py[line:231] INFO: 接口请求地址为
+https://api-diligent-mgt.haixue.com/diligent/chatSelector/videoSelectorList?subjectId=1&moduleIds%5B0%5D=13121&pageNum=1&pageSize=10&moduleIds%5B1%5D=13139&moduleIds%5B2%5D=13197&moduleIds%5B3%5D=14645&moduleIds%5B4%5D=14687&moduleIds%5B5%5D=14697&moduleIds%5B6%5D=15349&moduleIds%5B7%5D=15629&moduleIds%5B8%5D=16815&moduleIds%5B9%5D=16817&moduleIds%5B10%5D=16855&moduleIds%5B11%5D=17051&moduleIds%5B12%5D=17055
+2020-01-14 13:51:00 myrequests.py[line:236] INFO: 响应状态码为:200，响应时间为:0.108358
+2020-01-14 13:51:00 custom_assert.py[line:105] INFO: 响应信息:
+{
+  "code": 200,
+  "data": [
+    {
+      "muduleList": [
+        {
+          "id": 14645,
+          "name": "精讲通关"
+        },
+        {
+          "id": 16815,
+          "name": "超级精讲"
+        }
+      ],
+      "subject": {
+        "id": 25,
+        "sequence": null,
+        "subjectName": "建设工程法规及相关知识"
+      },
+      "teacherName": "陈印",
+      "totalTime": 2312,
+      "videoId": 92149,
+      "videoName": "1Z308000 （6）调解与和解制度以及行政强制、行政复议和行政诉讼制度"
+    },
+    {
+      "muduleList": [
+        {
+          "id": 14645,
+          "name": "精讲通关"
+        },
+        {
+          "id": 16815,
+          "name": "超级精讲"
+        }
+      ],
+      "subject": {
+        "id": 25,
+        "sequence": null,
+        "subjectName": "建设工程法规及相关知识"
+      },
+      "teacherName": "陈印",
+      "totalTime": 1835,
+      "videoId": 92147,
+      "videoName": "1Z308000 （5）仲裁制度"
+    },
+    {
+      "muduleList": [
+        {
+          "id": 14645,
+          "name": "精讲通关"
+        },
+        {
+          "id": 16815,
+          "name": "超级精讲"
+        }
+      ],
+      "subject": {
+        "id": 25,
+        "sequence": null,
+        "subjectName": "建设工程法规及相关知识"
+      },
+      "teacherName": "陈印",
+      "totalTime": 1220,
+      "videoId": 92145,
+      "videoName": "1Z308000 （4）民事诉讼的审判和执行程序"
+    },
+    {
+      "muduleList": [
+        {
+          "id": 14645,
+          "name": "精讲通关"
+        },
+        {
+          "id": 16815,
+          "name": "超级精讲"
+        }
+      ],
+      "subject": {
+        "id": 25,
+        "sequence": null,
+        "subjectName": "建设工程法规及相关知识"
+      },
+      "teacherName": "陈印",
+      "totalTime": 1553,
+      "videoId": 92143,
+      "videoName": "1Z308000 （3）民事诉讼证据和时效"
+    },
+    {
+      "muduleList": [
+        {
+          "id": 14645,
+          "name": "精讲通关"
+        },
+        {
+          "id": 16815,
+          "name": "超级精讲"
+        }
+      ],
+      "subject": {
+        "id": 25,
+        "sequence": null,
+        "subjectName": "建设工程法规及相关知识"
+      },
+      "teacherName": "陈印",
+      "totalTime": 759,
+      "videoId": 92141,
+      "videoName": "1Z308000 （2）民事诉讼的法院管辖以及当事人和代理人"
+    },
+    {
+      "muduleList": [
+        {
+          "id": 14645,
+          "name": "精讲通关"
+        },
+        {
+          "id": 16815,
+          "name": "超级精讲"
+        }
+      ],
+      "subject": {
+        "id": 25,
+        "sequence": null,
+        "subjectName": "建设工程法规及相关知识"
+      },
+      "teacherName": "陈印",
+      "totalTime": 1864,
+      "videoId": 92139,
+      "videoName": "1Z308000 （1）建设工程纠纷的主要种类和法律解决途径"
+    },
+    {
+      "muduleList": [
+        {
+          "id": 14645,
+          "name": "精讲通关"
+        },
+        {
+          "id": 16815,
+          "name": "超级精讲"
+        }
+      ],
+      "subject": {
+        "id": 25,
+        "sequence": null,
+        "subjectName": "建设工程法规及相关知识"
+      },
+      "teacherName": "陈印",
+      "totalTime": 888,
+      "videoId": 91009,
+      "videoName": "1Z307000 （5）建设工程质量保修制度"
+    },
+    {
+      "muduleList": [
+        {
+          "id": 14645,
+          "name": "精讲通关"
+        },
+        {
+          "id": 16815,
+          "name": "超级精讲"
+        }
+      ],
+      "subject": {
+        "id": 25,
+        "sequence": null,
+        "subjectName": "建设工程法规及相关知识"
+      },
+      "teacherName": "陈印",
+      "totalTime": 1585,
+      "videoId": 91007,
+      "videoName": "1Z307000 （4）建设工程竣工验收制度"
+    },
+    {
+      "muduleList": [
+        {
+          "id": 14645,
+          "name": "精讲通关"
+        },
+        {
+          "id": 16815,
+          "name": "超级精讲"
+        }
+      ],
+      "subject": {
+        "id": 25,
+        "sequence": null,
+        "subjectName": "建设工程法规及相关知识"
+      },
+      "teacherName": "陈印",
+      "totalTime": 670,
+      "videoId": 91005,
+      "videoName": "1Z307000 （3）建设单位及相关单位的质量责任和义务"
+    },
+    {
+      "muduleList": [
+        {
+          "id": 14645,
+          "name": "精讲通关"
+        },
+        {
+          "id": 16815,
+          "name": "超级精讲"
+        }
+      ],
+      "subject": {
+        "id": 25,
+        "sequence": null,
+        "subjectName": "建设工程法规及相关知识"
+      },
+      "teacherName": "陈印",
+      "totalTime": 1548,
+      "videoId": 91003,
+      "videoName": "1Z307000 （2）施工单位的质量责任和义务"
+    }
+  ],
+  "msg": null
+}
+2020-01-14 13:51:00 custom_assert.py[line:106] INFO: 断言json中指定的key【data】的返回值类型必须是：【<class 'list'>】
+2020-01-14 13:51:00 apiinfo.py[line:76] DEBUG: 获取接口【sendMsgPerson:发送私聊消息】信息异常，info中接口的headers为空
+2020-01-14 13:51:00 apiinfo.py[line:109] DEBUG: 获取接口【sendMsgPerson:发送私聊消息】信息异常，info中接口的data为空
+2020-01-14 13:51:00 myrequests.py[line:40] INFO: 
+
+***************************************************************************接口请求分割线***************************************************************************
+
+2020-01-14 13:51:00 myrequests.py[line:43] INFO: 开始访问接口:【sendMsgPerson:发送私聊消息】
+2020-01-14 13:51:00 myrequests.py[line:105] INFO: 发送post_form请求
+2020-01-14 13:51:00 myrequests.py[line:109] INFO: 请求参数信息为
+{
+  "clazzId": 415,
+  "customerId": 1585,
+  "messageContent": {
+    "msgType": "VIDEO",
+    "randomStr": 1578981060000,
+    "sendStatus": "sending",
+    "top": false,
+    "videoMsg": {
+      "moduleNameList": [
+        "精讲通关",
+        "超级精讲"
+      ],
+      "muduleList": [
+        {
+          "id": 14645,
+          "name": "精讲通关"
+        },
+        {
+          "id": 16815,
+          "name": "超级精讲"
+        }
+      ],
+      "subject": {
+        "id": 25,
+        "sequence": null,
+        "subjectName": "建设工程法规及相关知识"
+      },
+      "subjectId": 25,
+      "subjectName": "建设工程法规及相关知识",
+      "teacherName": "陈印",
+      "totalTime": 2312,
+      "videoId": 92149,
+      "videoName": "1Z308000 （6）调解与和解制度以及行政强制、行政复议和行政诉讼制度"
+    }
+  },
+  "messageType": "VIDEO",
+  "randomStr": 1578981060000,
+  "top": "false"
+}
+2020-01-14 13:51:00 myrequests.py[line:231] INFO: 接口请求地址为
+https://api-diligent-mgt.haixue.com/diligent/tencent/im/sendMsgPerson/25971141?customerId=1585&clazzId=415&messageType=VIDEO&top=false&randomStr=1578981060000&messageContent=%7B%27randomStr%27%3A+1578981060000%2C+%27sendStatus%27%3A+%27sending%27%2C+%27msgType%27%3A+%27VIDEO%27%2C+%27top%27%3A+%27false%27%2C+%27videoMsg%27%3A+%7B%27videoId%27%3A+92149%2C+%27videoName%27%3A+%271Z308000+%EF%BC%886%EF%BC%89%E8%B0%83%E8%A7%A3%E4%B8%8E%E5%92%8C%E8%A7%A3%E5%88%B6%E5%BA%A6%E4%BB%A5%E5%8F%8A%E8%A1%8C%E6%94%BF%E5%BC%BA%E5%88%B6%E3%80%81%E8%A1%8C%E6%94%BF%E5%A4%8D%E8%AE%AE%E5%92%8C%E8%A1%8C%E6%94%BF%E8%AF%89%E8%AE%BC%E5%88%B6%E5%BA%A6%27%2C+%27teacherName%27%3A+%27%E9%99%88%E5%8D%B0%27%2C+%27totalTime%27%3A+2312%2C+%27subject%27%3A+%7B%27id%27%3A+25%2C+%27sequence%27%3A+%27null%27%2C+%27subjectName%27%3A+%27%E5%BB%BA%E8%AE%BE%E5%B7%A5%E7%A8%8B%E6%B3%95%E8%A7%84%E5%8F%8A%E7%9B%B8%E5%85%B3%E7%9F%A5%E8%AF%86%27%7D%2C+%27muduleList%27%3A+%5B%7B%27id%27%3A+14645%2C+%27name%27%3A+%27%E7%B2%BE%E8%AE%B2%E9%80%9A%E5%85%B3%27%7D%2C+%7B%27id%27%3A+16815%2C+%27name%27%3A+%27%E8%B6%85%E7%BA%A7%E7%B2%BE%E8%AE%B2%27%7D%5D%2C+%27subjectName%27%3A+%27%E5%BB%BA%E8%AE%BE%E5%B7%A5%E7%A8%8B%E6%B3%95%E8%A7%84%E5%8F%8A%E7%9B%B8%E5%85%B3%E7%9F%A5%E8%AF%86%27%2C+%27subjectId%27%3A+25%2C+%27moduleNameList%27%3A+%5B%27%E7%B2%BE%E8%AE%B2%E9%80%9A%E5%85%B3%27%2C+%27%E8%B6%85%E7%BA%A7%E7%B2%BE%E8%AE%B2%27%5D%7D%7D
+2020-01-14 13:51:00 myrequests.py[line:236] INFO: 响应状态码为:200，响应时间为:0.68247
+2020-01-14 13:51:00 custom_assert.py[line:40] INFO: 
+断言值为:
+{
+  "code": 200
+}
+响应信息:
+{
+  "code": 200,
+  "data": "success",
+  "msg": null
+}
+2020-01-14 13:51:00 apiinfo.py[line:76] DEBUG: 获取接口【studycontentGet:获取学习内容】信息异常，info中接口的headers为空
+2020-01-14 13:51:00 apiinfo.py[line:109] DEBUG: 获取接口【studycontentGet:获取学习内容】信息异常，info中接口的data为空
+2020-01-14 13:51:00 myrequests.py[line:40] INFO: 
+
+***************************************************************************接口请求分割线***************************************************************************
+
+2020-01-14 13:51:00 myrequests.py[line:43] INFO: 开始访问接口:【studycontentGet:获取学习内容】
+2020-01-14 13:51:00 myrequests.py[line:120] INFO: 发送get请求
+2020-01-14 13:51:00 myrequests.py[line:124] INFO: 请求参数信息为
+{
+  "businessId": 92149,
+  "clazzId": 415,
+  "typeEnum": "VIDEO"
+}
+2020-01-14 13:51:00 myrequests.py[line:231] INFO: 接口请求地址为
+https://api-diligent-mgt.haixue.com/diligent/studycontent/get?clazzId=415&businessId=92149&typeEnum=VIDEO
+2020-01-14 13:51:00 myrequests.py[line:236] INFO: 响应状态码为:200，响应时间为:0.144239
+2020-01-14 13:51:00 custom_assert.py[line:40] INFO: 
+断言值为:
+{
+  "code": 200
+}
+响应信息:
+{
+  "code": 200,
+  "data": {
+    "averageStudyProgress": 0,
+    "businessId": 92149,
+    "businessName": "1Z308000 （6）调解与和解制度以及行政强制、行政复议和行政诉讼制度",
+    "clazzStudyContentVideoCustomerVos": [
+      {
+        "customerId": 23845717,
+        "customerName": "学员23845717",
+        "lastWatchDate": null,
+        "mobile": "157****7730",
+        "start": null,
+        "studyDuration": null,
+        "studyProgress": 0,
+        "videoId": 92149
+      },
+      {
+        "customerId": 25968417,
+        "customerName": "陈三十11",
+        "lastWatchDate": null,
+        "mobile": "139****4437",
+        "start": null,
+        "studyDuration": null,
+        "studyProgress": 0,
+        "videoId": 92149
+      },
+      {
+        "customerId": 25971141,
+        "customerName": "陈三石",
+        "lastWatchDate": null,
+        "mobile": "173****9978",
+        "start": null,
+        "studyDuration": null,
+        "studyProgress": 0,
+        "videoId": 92149
+      },
+      {
+        "customerId": 25976113,
+        "customerName": "陈磊",
+        "lastWatchDate": null,
+        "mobile": "136****0677",
+        "start": null,
+        "studyDuration": null,
+        "studyProgress": 0,
+        "videoId": 92149
+      },
+      {
+        "customerId": 26656573,
+        "customerName": "中文中文中文",
+        "lastWatchDate": null,
+        "mobile": "185****7866",
+        "start": null,
+        "studyDuration": null,
+        "studyProgress": 0,
+        "videoId": 92149
+      }
+    ],
+    "contentId": null,
+    "contentNo": null,
+    "importanceDegree": null,
+    "noDoneNum": 5,
+    "peopleNum": 5,
+    "required": null,
+    "spendMinutes": 39,
+    "stageId": null,
+    "stageName": null,
+    "subjectId": null,
+    "subjectName": null,
+    "taskId": null,
+    "taskName": null,
+    "teacherNames": "陈印",
+    "type": "VIDEO"
+  },
+  "msg": null
+}
+2020-01-14 13:51:00 custom_assert.py[line:131] INFO: 断言json中指定的key【clazzStudyContentVideoCustomerVos】的返回数据的类型必须是【<class 'list'>】，返回数据不能是【[]】
+2020-01-14 13:51:04 apiinfo.py[line:76] DEBUG: 获取接口【c2chistoryMsg:查看私聊历史消息】信息异常，info中接口的headers为空
+2020-01-14 13:51:04 apiinfo.py[line:109] DEBUG: 获取接口【c2chistoryMsg:查看私聊历史消息】信息异常，info中接口的data为空
+2020-01-14 13:51:04 myrequests.py[line:40] INFO: 
+
+***************************************************************************接口请求分割线***************************************************************************
+
+2020-01-14 13:51:04 myrequests.py[line:43] INFO: 开始访问接口:【c2chistoryMsg:查看私聊历史消息】
+2020-01-14 13:51:04 myrequests.py[line:120] INFO: 发送get请求
+2020-01-14 13:51:04 myrequests.py[line:124] INFO: 请求参数信息为
+{
+  "clazzId": "416",
+  "endDate": "2020-01-14 13:53:04",
+  "pageNum": "1",
+  "sendType": "C2C",
+  "startDate": "2020-01-14 13:49:04",
+  "studentAccount": "C-25971141"
+}
+2020-01-14 13:51:04 myrequests.py[line:231] INFO: 接口请求地址为
+https://api-diligent-mgt.haixue.com/diligent/tencent/im/c2c/historyMsg?pageNum=1&sendType=C2C&studentAccount=C-25971141&clazzId=416&startDate=2020-01-14+13%3A49%3A04&endDate=2020-01-14+13%3A53%3A04
+2020-01-14 13:51:04 myrequests.py[line:236] INFO: 响应状态码为:200，响应时间为:0.12001
+2020-01-14 13:51:04 custom_assert.py[line:40] INFO: 
+断言值为:
+{
+  "code": 200
+}
+响应信息:
+{
+  "code": 200,
+  "data": {
+    "currentPage": 1,
+    "items": [
+      {
+        "From_Account": "T-1585",
+        "GroupId": null,
+        "MsgBody": [
+          {
+            "MsgContent": {
+              "Data": "{\"fromIdentifier\":\"T-1585\",\"fromIdentifierNickName\":\"陈磊二\",\"character\":\"MENTOR\",\"msgType\":\"VIDEO\",\"top\":false,\"videoMsg\":{\"videoId\":92149,\"subjectId\":25,\"videoName\":\"1Z308000 （6）调解与和解制度以及行政强制、行政复议和行政诉讼制度\",\"subjectName\":\"建设工程法规及相关知识\",\"taskId\":14482,\"taskName\":\"1\",\"stageId\":1779,\"stageName\":\"1\",\"contentId\":106265,\"importanceDegree\":0,\"required\":true,\"moduleNameList\":[\"精讲通关\",\"超级精讲\"],\"totalTime\":2312,\"teacherName\":\"陈印\",\"courseInfo\":true},\"randomStr\":\"1578981060000\"}",
+              "Desc": "[课程提醒]1Z308000 （6）调解与和解制度以及行政强制、行政复议和行政诉讼制度",
+              "Ext": "",
+              "FileName": null,
+              "FileSize": null,
+              "ImageFormat": null,
+              "ImageInfoArray": null,
+              "Index": null,
+              "Latitude": null,
+              "Longitude": null,
+              "Second": null,
+              "Size": null,
+              "Sound": "",
+              "Text": null,
+              "UUID": null
+            },
+            "MsgType": "TIMCustomElem"
+          }
+        ],
+        "MsgSeq": "1494593240",
+        "MsgTime": 1578981063,
+        "To_Account": "C-25971141"
+      },
+      {
+        "From_Account": "T-1585",
+        "GroupId": null,
+        "MsgBody": [
+          {
+            "MsgContent": {
+              "Data": "{\"fromIdentifier\":\"T-1585\",\"fromIdentifierNickName\":\"陈磊二\",\"character\":\"MENTOR\",\"msgType\":\"PAPER\",\"top\":false,\"paperMsg\":{\"paperId\":7941,\"paperName\":\"每日习题7\",\"categoryId\":9,\"categoryName\":\"一级建造师\",\"subjectId\":393,\"subjectName\":\"综合\",\"subjectShortName\":\"综合\",\"examquestionNum\":29,\"taskId\":14482,\"taskName\":\"1\",\"stageId\":1779,\"stageName\":\"1\",\"contentId\":106671,\"isCourseInfo\":true,\"importanceDegree\":0,\"required\":true},\"randomStr\":\"1578981054000\"}",
+              "Desc": "[课程提醒]每日习题7",
+              "Ext": "",
+              "FileName": null,
+              "FileSize": null,
+              "ImageFormat": null,
+              "ImageInfoArray": null,
+              "Index": null,
+              "Latitude": null,
+              "Longitude": null,
+              "Second": null,
+              "Size": null,
+              "Sound": "",
+              "Text": null,
+              "UUID": null
+            },
+            "MsgType": "TIMCustomElem"
+          }
+        ],
+        "MsgSeq": "1546176613",
+        "MsgTime": 1578981057,
+        "To_Account": "C-25971141"
+      },
+      {
+        "From_Account": "T-1585",
+        "GroupId": null,
+        "MsgBody": [
+          {
+            "MsgContent": {
+              "Data": "{\"fromIdentifier\":\"T-1585\",\"fromIdentifierNickName\":\"陈磊二\",\"character\":\"MENTOR\",\"msgType\":\"LIVE\",\"top\":false,\"liveMsg\":{\"liveId\":70525,\"liveName\":\"大师直播-经济\",\"teacherName\":\"徐蓉\",\"liveStartTime\":\"2019-09-08 19:00:00\",\"liveEndTime\":\"2019-09-08 21:00:00\",\"voiceCloud\":0,\"liveWay\":0,\"liveLabel\":1,\"categoryId\":9,\"categoryName\":\"一级建造师\",\"subjectId\":1,\"subjectName\":\"建设工程经济\",\"subjectShortName\":\"经济\",\"isCourseInfo\":false},\"randomStr\":\"1578981048000\"}",
+              "Desc": "[课程提醒]大师直播-经济",
+              "Ext": "",
+              "FileName": null,
+              "FileSize": null,
+              "ImageFormat": null,
+              "ImageInfoArray": null,
+              "Index": null,
+              "Latitude": null,
+              "Longitude": null,
+              "Second": null,
+              "Size": null,
+              "Sound": "",
+              "Text": null,
+              "UUID": null
+            },
+            "MsgType": "TIMCustomElem"
+          }
+        ],
+        "MsgSeq": "133813522",
+        "MsgTime": 1578981052,
+        "To_Account": "C-25971141"
+      },
+      {
+        "From_Account": "T-1585",
+        "GroupId": null,
+        "MsgBody": [
+          {
+            "MsgContent": {
+              "Data": "{\"fromIdentifier\":\"T-1585\",\"fromIdentifierNickName\":\"陈磊二\",\"character\":\"MENTOR\",\"msgType\":\"IMG\",\"top\":false,\"imgMsg\":{\"type\":\"JPG\",\"imgInfo\":[{\"type\":\"normal\",\"size\":14851,\"width\":300,\"height\":300,\"url\":\"https://imgstatic.highso.com.cn/jjxt/img/f921aabde33d40269e42468333a3a4fe.jpg?attname=laoshi.jpg\",\"id\":90921}]},\"randomStr\":\"1578981043000\"}",
+              "Desc": "[图片]",
+              "Ext": "",
+              "FileName": null,
+              "FileSize": null,
+              "ImageFormat": null,
+              "ImageInfoArray": null,
+              "Index": null,
+              "Latitude": null,
+              "Longitude": null,
+              "Second": null,
+              "Size": null,
+              "Sound": "",
+              "Text": null,
+              "UUID": null
+            },
+            "MsgType": "TIMCustomElem"
+          }
+        ],
+        "MsgSeq": "1274478632",
+        "MsgTime": 1578981046,
+        "To_Account": "C-25971141"
+      },
+      {
+        "From_Account": "T-1585",
+        "GroupId": null,
+        "MsgBody": [
+          {
+            "MsgContent": {
+              "Data": "{\"fromIdentifier\":\"T-1585\",\"fromIdentifierNickName\":\"陈磊二\",\"character\":\"MENTOR\",\"msgType\":\"FILE\",\"top\":false,\"fileMsg\":{\"fileName\":\"file.xlsx\",\"url\":\"https://imgstatic.highso.com.cn/jjxt/file/b27b1ce7e44747509de32bde8dd437f3.xlsx?attname=file.xlsx\",\"size\":12655,\"id\":90920,\"viewUrl\":\"\",\"pdf\":false},\"randomStr\":\"1578981038000\"}",
+              "Desc": "[文件]file.xlsx",
+              "Ext": "",
+              "FileName": null,
+              "FileSize": null,
+              "ImageFormat": null,
+              "ImageInfoArray": null,
+              "Index": null,
+              "Latitude": null,
+              "Longitude": null,
+              "Second": null,
+              "Size": null,
+              "Sound": "",
+              "Text": null,
+              "UUID": null
+            },
+            "MsgType": "TIMCustomElem"
+          }
+        ],
+        "MsgSeq": "1728416924",
+        "MsgTime": 1578981042,
+        "To_Account": "C-25971141"
+      }
+    ],
+    "pageSize": 20,
+    "totalNum": 5,
+    "totalPage": 1
+  },
+  "msg": null
+}
+2020-01-14 13:51:04 custom_assert.py[line:131] INFO: 断言json中指定的key【items】的返回数据的类型必须是【<class 'list'>】，返回数据不能是【[]】
+2020-01-14 13:51:04 custom_assert.py[line:81] INFO: 
+断言值为:
+{
+  "teacherName": "陈印",
+  "totalTime": 2312,
+  "videoId": 92149,
+  "videoName": "1Z308000 （6）调解与和解制度以及行政强制、行政复议和行政诉讼制度"
+}
+响应信息:
+{
+  "character": "MENTOR",
+  "fromIdentifier": "T-1585",
+  "fromIdentifierNickName": "陈磊二",
+  "msgType": "VIDEO",
+  "randomStr": "1578981060000",
+  "top": false,
+  "videoMsg": {
+    "contentId": 106265,
+    "courseInfo": true,
+    "importanceDegree": 0,
+    "moduleNameList": [
+      "精讲通关",
+      "超级精讲"
+    ],
+    "required": true,
+    "stageId": 1779,
+    "stageName": "1",
+    "subjectId": 25,
+    "subjectName": "建设工程法规及相关知识",
+    "taskId": 14482,
+    "taskName": "1",
+    "teacherName": "陈印",
+    "totalTime": 2312,
+    "videoId": 92149,
+    "videoName": "1Z308000 （6）调解与和解制度以及行政强制、行政复议和行政诉讼制度"
+  }
+}

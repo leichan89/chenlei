@@ -1,0 +1,243 @@
+{
+  "uid" : "91d6389a618e69c4",
+  "name" : "发送群答题：查询科目-查询模块-查询试卷-查询试题-再次推送相同试题，不应该推送成功",
+  "fullName" : "testcases.jjxt.test_send_clazz_question.TestSendQuestion#test_push_clazz_question_repeat",
+  "historyId" : "6d91658fed1e5916ee72fc5baec704e9",
+  "time" : {
+    "start" : 1578981031641,
+    "stop" : 1578981032122,
+    "duration" : 481
+  },
+  "description" : "\n        发送群答题-查询科目-查询模块-查询试卷-查询试题-再次推送相同试题，不应该推送成功\n        ",
+  "descriptionHtml" : "<pre><code>    发送群答题-查询科目-查询模块-查询试卷-查询试题-再次推送相同试题，不应该推送成功\n</code></pre>\n",
+  "status" : "failed",
+  "statusMessage" : "AssertionError: 断言接口返回值失败",
+  "statusTrace" : "E   AssertionError: 断言接口返回值失败",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "get_question_id",
+    "time" : {
+      "start" : 1578981030714,
+      "stop" : 1578981031640,
+      "duration" : 926
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "get_customerid",
+    "time" : {
+      "start" : 1578980990773,
+      "stop" : 1578980991320,
+      "duration" : 547
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "get_goodsid",
+    "time" : {
+      "start" : 1578981003808,
+      "stop" : 1578981003808,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "get_clazzid",
+    "time" : {
+      "start" : 1578980991490,
+      "stop" : 1578980991490,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "__pytest_repeat_step_number",
+    "time" : {
+      "start" : 1578981030714,
+      "stop" : 1578981030714,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "get_clazzinfo",
+    "time" : {
+      "start" : 1578980991320,
+      "stop" : 1578980991490,
+      "duration" : 170
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "\n        发送群答题-查询科目-查询模块-查询试卷-查询试题-再次推送相同试题，不应该推送成功\n        ",
+    "status" : "failed",
+    "statusMessage" : "AssertionError: 断言接口返回值失败",
+    "statusTrace" : "E   AssertionError: 断言接口返回值失败",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "5786bb3ca8f5c6dd",
+      "name" : "log",
+      "source" : "5786bb3ca8f5c6dd.txt",
+      "type" : "text/plain",
+      "size" : 46782
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "群聊"
+  }, {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "epic",
+    "value" : "我的班级"
+  }, {
+    "name" : "story",
+    "value" : "群答题"
+  }, {
+    "name" : "tag",
+    "value" : "smoke"
+  }, {
+    "name" : "tag",
+    "value" : "myclass"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcases.jjxt"
+  }, {
+    "name" : "suite",
+    "value" : "test_send_clazz_question"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestSendQuestion"
+  }, {
+    "name" : "host",
+    "value" : "chenleideMacBook-Pro.local"
+  }, {
+    "name" : "thread",
+    "value" : "8980-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcases.jjxt.test_send_clazz_question"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "critical",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 8,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 34,
+        "unknown" : 0,
+        "total" : 42
+      },
+      "items" : [ {
+        "uid" : "98c7c71675da78a0",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: 断言接口返回值失败",
+        "time" : {
+          "start" : 1578980337907,
+          "stop" : 1578980338463,
+          "duration" : 556
+        }
+      }, {
+        "uid" : "e0267b2247884700",
+        "status" : "passed",
+        "time" : {
+          "start" : 1574231009630,
+          "stop" : 1574231010146,
+          "duration" : 516
+        }
+      }, {
+        "uid" : "def27b00e1301def",
+        "status" : "passed",
+        "time" : {
+          "start" : 1574181510932,
+          "stop" : 1574181511541,
+          "duration" : 609
+        }
+      }, {
+        "uid" : "a4a9f100b022e965",
+        "status" : "passed",
+        "time" : {
+          "start" : 1574172123298,
+          "stop" : 1574172123871,
+          "duration" : 573
+        }
+      }, {
+        "uid" : "d738eb87b0ba9273",
+        "status" : "passed",
+        "time" : {
+          "start" : 1573195539914,
+          "stop" : 1573195539986,
+          "duration" : 72
+        }
+      } ]
+    },
+    "tags" : [ "smoke", "myclass" ]
+  },
+  "source" : "91d6389a618e69c4.json",
+  "parameterValues" : [ ]
+}

@@ -4,22 +4,82 @@
   "children" : [ {
     "name" : "Product defects",
     "children" : [ {
-      "name" : "AssertionError: 接口请求发生未知异常, Expecting value: line 1 column 1 (char 0)",
+      "name" : "AssertionError: 断言接口返回值失败",
       "children" : [ {
-        "name" : "导出学员列表数据",
-        "uid" : "8494c3fc7f2e1f0a",
-        "parentUid" : "211eb0e252dbd039aa016aead4a495c4",
+        "name" : "发送群文件：上传文件-发送xlsx文件-历史消息查看发送的文件",
+        "uid" : "bbd1c6124c919ef4",
+        "parentUid" : "fed5fc4cc9301e91abe940da08758486",
         "status" : "failed",
         "time" : {
-          "start" : 1578544741802,
-          "stop" : 1578544742190,
-          "duration" : 388
+          "start" : 1578980993232,
+          "stop" : 1578980998678,
+          "duration" : 5446
         },
-        "flaky" : true,
+        "flaky" : false,
+        "newFailed" : true,
+        "parameters" : [ ]
+      }, {
+        "name" : "发送群答题：查询科目-查询模块-查询试卷-查询试题-再次推送相同试题，不应该推送成功",
+        "uid" : "91d6389a618e69c4",
+        "parentUid" : "fed5fc4cc9301e91abe940da08758486",
+        "status" : "failed",
+        "time" : {
+          "start" : 1578981031641,
+          "stop" : 1578981032122,
+          "duration" : 481
+        },
+        "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "211eb0e252dbd039aa016aead4a495c4"
+      "uid" : "fed5fc4cc9301e91abe940da08758486"
+    }, {
+      "name" : "AssertionError: 历史消息中未找到发送的消息",
+      "children" : [ {
+        "name" : "发送群图片：上传图片-发送jpg图片-历史消息查看发送的图片",
+        "uid" : "14579d3c5672dd1e",
+        "parentUid" : "a13cf1c1f21d917a23f712e185ea0f45",
+        "status" : "failed",
+        "time" : {
+          "start" : 1578980998787,
+          "stop" : 1578981003797,
+          "duration" : 5010
+        },
+        "flaky" : false,
+        "newFailed" : true,
+        "parameters" : [ ]
+      } ],
+      "uid" : "a13cf1c1f21d917a23f712e185ea0f45"
+    }, {
+      "name" : "AssertionError: 返回的数据不应等于：[]",
+      "children" : [ {
+        "name" : "发送群直播：查询直播-随机发送已结束直播-查询直播详情-历史消息中查看发送的直播",
+        "uid" : "c7f94656f065b503",
+        "parentUid" : "742a59e65fe8de32713596073eb6cfc4",
+        "status" : "failed",
+        "time" : {
+          "start" : 1578981009337,
+          "stop" : 1578981010006,
+          "duration" : 669
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "私聊发送直播：查询直播-向单个学员随机发送已结束直播-查询直播详情",
+        "uid" : "2d8de6fea53338dc",
+        "parentUid" : "742a59e65fe8de32713596073eb6cfc4",
+        "status" : "failed",
+        "time" : {
+          "start" : 1578981053504,
+          "stop" : 1578981054022,
+          "duration" : 518
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "742a59e65fe8de32713596073eb6cfc4"
     } ],
     "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
   } ]

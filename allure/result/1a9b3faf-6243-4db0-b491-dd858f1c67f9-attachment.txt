@@ -1,16 +1,16 @@
-2020-01-09 12:39:01 apiinfo.py[line:76] DEBUG: 获取接口【loginUser:获取老师的信息】信息异常，info中接口的headers为空
-2020-01-09 12:39:01 apiinfo.py[line:95] DEBUG: 获取接口【loginUser:获取老师的信息】信息异常，info中接口的params为空
-2020-01-09 12:39:01 apiinfo.py[line:109] DEBUG: 获取接口【loginUser:获取老师的信息】信息异常，info中接口的data为空
-2020-01-09 12:39:01 myrequests.py[line:40] INFO: 
+2020-01-14 13:49:50 apiinfo.py[line:76] DEBUG: 获取接口【loginUser:获取老师的信息】信息异常，info中接口的headers为空
+2020-01-14 13:49:50 apiinfo.py[line:95] DEBUG: 获取接口【loginUser:获取老师的信息】信息异常，info中接口的params为空
+2020-01-14 13:49:50 apiinfo.py[line:109] DEBUG: 获取接口【loginUser:获取老师的信息】信息异常，info中接口的data为空
+2020-01-14 13:49:50 myrequests.py[line:40] INFO: 
 
 ***************************************************************************接口请求分割线***************************************************************************
 
-2020-01-09 12:39:01 myrequests.py[line:43] INFO: 开始访问接口:【loginUser:获取老师的信息】
-2020-01-09 12:39:01 myrequests.py[line:120] INFO: 发送get请求
-2020-01-09 12:39:01 myrequests.py[line:232] INFO: 接口请求地址为
+2020-01-14 13:49:50 myrequests.py[line:43] INFO: 开始访问接口:【loginUser:获取老师的信息】
+2020-01-14 13:49:50 myrequests.py[line:120] INFO: 发送get请求
+2020-01-14 13:49:51 myrequests.py[line:231] INFO: 接口请求地址为
 https://api-diligent-mgt.haixue.com/user/loginUser
-2020-01-09 12:39:01 myrequests.py[line:237] INFO: 响应状态码为:200，响应时间为:0.206016
-2020-01-09 12:39:01 custom_assert.py[line:40] INFO: 
+2020-01-14 13:49:51 myrequests.py[line:236] INFO: 响应状态码为:200，响应时间为:0.19797
+2020-01-14 13:49:51 custom_assert.py[line:40] INFO: 
 断言值为:
 {
   "code": 200
@@ -334,6 +334,7 @@ https://api-diligent-mgt.haixue.com/user/loginUser
       "FAS_ViewCompany",
       "FAS_CreateRecordRule",
       "FAS_ViewRecordRule",
+      "FAS_EditRecordRule",
       "P_CreatePartner",
       "P_ViewPartner",
       "P_EnablePartner",
@@ -480,7 +481,7 @@ https://api-diligent-mgt.haixue.com/user/loginUser
     "email": "",
     "entrydate": 1557763200000,
     "id": 146635,
-    "lastlogindate": 1577710917000,
+    "lastlogindate": 1578911361000,
     "mobilenumber": "13982124437",
     "moduleWithAuths": [
       {
@@ -2045,6 +2046,9 @@ https://api-diligent-mgt.haixue.com/user/loginUser
           "FAS_CreateRecordRule": [
             "/order/finance/recordingRule/saveRecordingRule"
           ],
+          "FAS_EditRecordRule": [
+            "/order/finance/recordingRule/saveRecordingRule"
+          ],
           "FAS_ViewRecordRule": [
             "/order/finance/recordingRule/findRecordingRuleInfoById"
           ],
@@ -2759,20 +2763,20 @@ https://api-diligent-mgt.haixue.com/user/loginUser
   },
   "msg": null
 }
-2020-01-09 12:39:01 custom_assert.py[line:131] INFO: 断言json中指定的key【data】的返回数据的类型必须是【<class 'dict'>】，返回数据不能是【{}】
-2020-01-09 12:39:01 apiinfo.py[line:76] DEBUG: 获取接口【findByUserId:根据userId查找老师】信息异常，info中接口的headers为空
-2020-01-09 12:39:01 apiinfo.py[line:95] DEBUG: 获取接口【findByUserId:根据userId查找老师】信息异常，info中接口的params为空
-2020-01-09 12:39:01 apiinfo.py[line:109] DEBUG: 获取接口【findByUserId:根据userId查找老师】信息异常，info中接口的data为空
-2020-01-09 12:39:01 myrequests.py[line:40] INFO: 
+2020-01-14 13:49:51 custom_assert.py[line:131] INFO: 断言json中指定的key【data】的返回数据的类型必须是【<class 'dict'>】，返回数据不能是【{}】
+2020-01-14 13:49:51 apiinfo.py[line:76] DEBUG: 获取接口【findByUserId:根据userId查找老师】信息异常，info中接口的headers为空
+2020-01-14 13:49:51 apiinfo.py[line:95] DEBUG: 获取接口【findByUserId:根据userId查找老师】信息异常，info中接口的params为空
+2020-01-14 13:49:51 apiinfo.py[line:109] DEBUG: 获取接口【findByUserId:根据userId查找老师】信息异常，info中接口的data为空
+2020-01-14 13:49:51 myrequests.py[line:40] INFO: 
 
 ***************************************************************************接口请求分割线***************************************************************************
 
-2020-01-09 12:39:01 myrequests.py[line:43] INFO: 开始访问接口:【findByUserId:根据userId查找老师】
-2020-01-09 12:39:01 myrequests.py[line:120] INFO: 发送get请求
-2020-01-09 12:39:01 myrequests.py[line:232] INFO: 接口请求地址为
+2020-01-14 13:49:51 myrequests.py[line:43] INFO: 开始访问接口:【findByUserId:根据userId查找老师】
+2020-01-14 13:49:51 myrequests.py[line:120] INFO: 发送get请求
+2020-01-14 13:49:51 myrequests.py[line:231] INFO: 接口请求地址为
 https://api-diligent-mgt.haixue.com/diligent/teacher/findByUserId/146635
-2020-01-09 12:39:01 myrequests.py[line:237] INFO: 响应状态码为:200，响应时间为:0.078521
-2020-01-09 12:39:01 custom_assert.py[line:40] INFO: 
+2020-01-14 13:49:51 myrequests.py[line:236] INFO: 响应状态码为:200，响应时间为:0.077273
+2020-01-14 13:49:51 custom_assert.py[line:40] INFO: 
 断言值为:
 {
   "code": 200
@@ -2791,23 +2795,23 @@ https://api-diligent-mgt.haixue.com/diligent/teacher/findByUserId/146635
   },
   "msg": null
 }
-2020-01-09 12:39:01 custom_assert.py[line:131] INFO: 断言json中指定的key【data】的返回数据的类型必须是【<class 'dict'>】，返回数据不能是【{}】
-2020-01-09 12:39:01 apiinfo.py[line:76] DEBUG: 获取接口【forChat:获取老师相关的群聊班级新接口(返回包含正式班级和代理班级)】信息异常，info中接口的headers为空
-2020-01-09 12:39:01 apiinfo.py[line:109] DEBUG: 获取接口【forChat:获取老师相关的群聊班级新接口(返回包含正式班级和代理班级)】信息异常，info中接口的data为空
-2020-01-09 12:39:01 myrequests.py[line:40] INFO: 
+2020-01-14 13:49:51 custom_assert.py[line:131] INFO: 断言json中指定的key【data】的返回数据的类型必须是【<class 'dict'>】，返回数据不能是【{}】
+2020-01-14 13:49:51 apiinfo.py[line:76] DEBUG: 获取接口【forChat:获取老师相关的群聊班级新接口(返回包含正式班级和代理班级)】信息异常，info中接口的headers为空
+2020-01-14 13:49:51 apiinfo.py[line:109] DEBUG: 获取接口【forChat:获取老师相关的群聊班级新接口(返回包含正式班级和代理班级)】信息异常，info中接口的data为空
+2020-01-14 13:49:51 myrequests.py[line:40] INFO: 
 
 ***************************************************************************接口请求分割线***************************************************************************
 
-2020-01-09 12:39:01 myrequests.py[line:43] INFO: 开始访问接口:【forChat:获取老师相关的群聊班级新接口(返回包含正式班级和代理班级)】
-2020-01-09 12:39:01 myrequests.py[line:120] INFO: 发送get请求
-2020-01-09 12:39:01 myrequests.py[line:124] INFO: 请求参数信息为
+2020-01-14 13:49:51 myrequests.py[line:43] INFO: 开始访问接口:【forChat:获取老师相关的群聊班级新接口(返回包含正式班级和代理班级)】
+2020-01-14 13:49:51 myrequests.py[line:120] INFO: 发送get请求
+2020-01-14 13:49:51 myrequests.py[line:124] INFO: 请求参数信息为
 {
   "teacherId": 1585
 }
-2020-01-09 12:39:01 myrequests.py[line:232] INFO: 接口请求地址为
+2020-01-14 13:49:51 myrequests.py[line:231] INFO: 接口请求地址为
 https://api-diligent-mgt.haixue.com/diligent/clazz/new/forChat?teacherId=1585
-2020-01-09 12:39:01 myrequests.py[line:237] INFO: 响应状态码为:200，响应时间为:0.155111
-2020-01-09 12:39:01 custom_assert.py[line:40] INFO: 
+2020-01-14 13:49:51 myrequests.py[line:236] INFO: 响应状态码为:200，响应时间为:0.152676
+2020-01-14 13:49:51 custom_assert.py[line:40] INFO: 
 断言值为:
 {
   "code": 200
@@ -2833,8 +2837,8 @@ https://api-diligent-mgt.haixue.com/diligent/clazz/new/forChat?teacherId=1585
         "groupIdentifier": "CLAZZ-335",
         "proxyFlag": false,
         "studentNum": 9,
-        "studentQuestionNum": 22,
-        "studentWatchTime": 80,
+        "studentQuestionNum": 4,
+        "studentWatchTime": 260,
         "studyPlanVersion": 1,
         "tutorChatState": true
       },
@@ -2897,7 +2901,7 @@ https://api-diligent-mgt.haixue.com/diligent/clazz/new/forChat?teacherId=1585
         "proxyFlag": false,
         "studentNum": 7,
         "studentQuestionNum": 0,
-        "studentWatchTime": 98,
+        "studentWatchTime": 36,
         "studyPlanVersion": 1,
         "tutorChatState": true
       },
@@ -2938,8 +2942,8 @@ https://api-diligent-mgt.haixue.com/diligent/clazz/new/forChat?teacherId=1585
         "groupIdentifier": "CLAZZ-423",
         "proxyFlag": false,
         "studentNum": 2,
-        "studentQuestionNum": 29,
-        "studentWatchTime": 11337,
+        "studentQuestionNum": 0,
+        "studentWatchTime": 719,
         "studyPlanVersion": 0,
         "tutorChatState": true
       },
@@ -2960,7 +2964,7 @@ https://api-diligent-mgt.haixue.com/diligent/clazz/new/forChat?teacherId=1585
         "proxyFlag": false,
         "studentNum": 3,
         "studentQuestionNum": 1,
-        "studentWatchTime": 269,
+        "studentWatchTime": 86,
         "studyPlanVersion": 0,
         "tutorChatState": true
       },
@@ -2980,8 +2984,8 @@ https://api-diligent-mgt.haixue.com/diligent/clazz/new/forChat?teacherId=1585
         "groupIdentifier": "CLAZZ-425",
         "proxyFlag": false,
         "studentNum": 2,
-        "studentQuestionNum": 2,
-        "studentWatchTime": 344,
+        "studentQuestionNum": 1,
+        "studentWatchTime": 129,
         "studyPlanVersion": 1,
         "tutorChatState": true
       },
@@ -3044,7 +3048,7 @@ https://api-diligent-mgt.haixue.com/diligent/clazz/new/forChat?teacherId=1585
         "proxyFlag": false,
         "studentNum": 1,
         "studentQuestionNum": 0,
-        "studentWatchTime": 3,
+        "studentWatchTime": 1972,
         "studyPlanVersion": null,
         "tutorChatState": true
       },
@@ -3074,23 +3078,23 @@ https://api-diligent-mgt.haixue.com/diligent/clazz/new/forChat?teacherId=1585
   },
   "msg": null
 }
-2020-01-09 12:39:01 custom_assert.py[line:131] INFO: 断言json中指定的key【data】的返回数据的类型必须是【<class 'dict'>】，返回数据不能是【{}】
-2020-01-09 12:39:01 apiinfo.py[line:76] DEBUG: 获取接口【getStageAndTaskByClazzId:获取阶段和任务信息】信息异常，info中接口的headers为空
-2020-01-09 12:39:01 apiinfo.py[line:109] DEBUG: 获取接口【getStageAndTaskByClazzId:获取阶段和任务信息】信息异常，info中接口的data为空
-2020-01-09 12:39:01 myrequests.py[line:40] INFO: 
+2020-01-14 13:49:51 custom_assert.py[line:131] INFO: 断言json中指定的key【data】的返回数据的类型必须是【<class 'dict'>】，返回数据不能是【{}】
+2020-01-14 13:49:51 apiinfo.py[line:76] DEBUG: 获取接口【getStageAndTaskByClazzId:获取阶段和任务信息】信息异常，info中接口的headers为空
+2020-01-14 13:49:51 apiinfo.py[line:109] DEBUG: 获取接口【getStageAndTaskByClazzId:获取阶段和任务信息】信息异常，info中接口的data为空
+2020-01-14 13:49:51 myrequests.py[line:40] INFO: 
 
 ***************************************************************************接口请求分割线***************************************************************************
 
-2020-01-09 12:39:01 myrequests.py[line:43] INFO: 开始访问接口:【getStageAndTaskByClazzId:获取阶段和任务信息】
-2020-01-09 12:39:01 myrequests.py[line:120] INFO: 发送get请求
-2020-01-09 12:39:01 myrequests.py[line:124] INFO: 请求参数信息为
+2020-01-14 13:49:51 myrequests.py[line:43] INFO: 开始访问接口:【getStageAndTaskByClazzId:获取阶段和任务信息】
+2020-01-14 13:49:51 myrequests.py[line:120] INFO: 发送get请求
+2020-01-14 13:49:51 myrequests.py[line:124] INFO: 请求参数信息为
 {
   "clazzId": 415
 }
-2020-01-09 12:39:01 myrequests.py[line:232] INFO: 接口请求地址为
+2020-01-14 13:49:51 myrequests.py[line:231] INFO: 接口请求地址为
 https://api-diligent-mgt.haixue.com/diligent/studyStage/getStageAndTaskByClazzId?clazzId=415
-2020-01-09 12:39:01 myrequests.py[line:237] INFO: 响应状态码为:200，响应时间为:0.0808
-2020-01-09 12:39:01 custom_assert.py[line:40] INFO: 
+2020-01-14 13:49:51 myrequests.py[line:236] INFO: 响应状态码为:200，响应时间为:0.096993
+2020-01-14 13:49:51 custom_assert.py[line:40] INFO: 
 断言值为:
 {
   "code": 200
@@ -3422,20 +3426,22 @@ https://api-diligent-mgt.haixue.com/diligent/studyStage/getStageAndTaskByClazzId
   ],
   "msg": null
 }
-2020-01-09 12:39:01 custom_assert.py[line:131] INFO: 断言json中指定的key【data】的返回数据的类型必须是【<class 'list'>】，返回数据不能是【[]】
-2020-01-09 12:39:01 apiinfo.py[line:76] DEBUG: 获取接口【exportExcel:我的班级-学员列表-导出列表信息】信息异常，info中接口的headers为空
-2020-01-09 12:39:01 apiinfo.py[line:109] DEBUG: 获取接口【exportExcel:我的班级-学员列表-导出列表信息】信息异常，info中接口的data为空
-2020-01-09 12:39:01 myrequests.py[line:40] INFO: 
+2020-01-14 13:49:51 custom_assert.py[line:131] INFO: 断言json中指定的key【data】的返回数据的类型必须是【<class 'list'>】，返回数据不能是【[]】
+2020-01-14 13:49:51 apiinfo.py[line:76] DEBUG: 获取接口【exportExcel:我的班级-学员列表-导出列表信息】信息异常，info中接口的headers为空
+2020-01-14 13:49:51 apiinfo.py[line:109] DEBUG: 获取接口【exportExcel:我的班级-学员列表-导出列表信息】信息异常，info中接口的data为空
+2020-01-14 13:49:51 myrequests.py[line:40] INFO: 
 
 ***************************************************************************接口请求分割线***************************************************************************
 
-2020-01-09 12:39:01 myrequests.py[line:43] INFO: 开始访问接口:【exportExcel:我的班级-学员列表-导出列表信息】
-2020-01-09 12:39:01 myrequests.py[line:134] INFO: 发送导出文件get请求
-2020-01-09 12:39:01 myrequests.py[line:137] INFO: 请求参数信息为
+2020-01-14 13:49:51 myrequests.py[line:43] INFO: 开始访问接口:【exportExcel:我的班级-学员列表-导出列表信息】
+2020-01-14 13:49:51 myrequests.py[line:134] INFO: 发送导出文件get请求
+2020-01-14 13:49:51 myrequests.py[line:137] INFO: 请求参数信息为
 {
   "clazzId": 415,
   "forbid": "",
-  "studyStageId": 2567,
-  "taskId": 17712
+  "studyStageId": 2568,
+  "taskId": 17722
 }
-2020-01-09 12:39:02 myrequests.py[line:85] ERROR: 接口请求发生未知异常, Expecting value: line 1 column 1 (char 0)
+2020-01-14 13:49:51 myrequests.py[line:160] INFO: 文件【好好学习-1班-20200109085146－学员学习信息.xls】下载完成
+2020-01-14 13:49:51 myrequests.py[line:162] DEBUG: 文件大小为：24576
+2020-01-14 13:49:51 myrequests.py[line:164] DEBUG: 删除下载的文件

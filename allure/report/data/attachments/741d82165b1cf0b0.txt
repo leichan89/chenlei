@@ -1,0 +1,37 @@
+2020-01-14 13:49:52 apiinfo.py[line:76] DEBUG: 获取接口【queryPointMonthByPage:查询积分】信息异常，info中接口的headers为空
+2020-01-14 13:49:52 apiinfo.py[line:109] DEBUG: 获取接口【queryPointMonthByPage:查询积分】信息异常，info中接口的data为空
+2020-01-14 13:49:52 myrequests.py[line:40] INFO: 
+
+***************************************************************************接口请求分割线***************************************************************************
+
+2020-01-14 13:49:52 myrequests.py[line:43] INFO: 开始访问接口:【queryPointMonthByPage:查询积分】
+2020-01-14 13:49:52 myrequests.py[line:120] INFO: 发送get请求
+2020-01-14 13:49:52 myrequests.py[line:124] INFO: 请求参数信息为
+{
+  "clazzId": "10975",
+  "endTime": "",
+  "orderType": "2",
+  "pageNum": "1",
+  "pageSize": "10",
+  "startTime": ""
+}
+2020-01-14 13:49:53 myrequests.py[line:231] INFO: 接口请求地址为
+https://api-diligent-mgt.haixue.com/diligent/pointMonth/queryPointMonthByPage?orderType=2&clazzId=10975&startTime=&endTime=&pageNum=1&pageSize=10
+2020-01-14 13:49:53 myrequests.py[line:236] INFO: 响应状态码为:200，响应时间为:0.087321
+2020-01-14 13:49:53 custom_assert.py[line:40] INFO: 
+断言值为:
+{
+  "code": 200
+}
+响应信息:
+{
+  "code": 200,
+  "data": {
+    "currentPage": 1,
+    "items": [],
+    "pageSize": 10,
+    "totalNum": 0,
+    "totalPage": 0
+  },
+  "msg": null
+}

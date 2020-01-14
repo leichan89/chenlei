@@ -1,0 +1,1158 @@
+2020-01-14 13:50:22 apiinfo.py[line:76] DEBUG: 获取接口【subjectList:根据商品ID获取科目列表】信息异常，info中接口的headers为空
+2020-01-14 13:50:22 apiinfo.py[line:95] DEBUG: 获取接口【subjectList:根据商品ID获取科目列表】信息异常，info中接口的params为空
+2020-01-14 13:50:22 apiinfo.py[line:109] DEBUG: 获取接口【subjectList:根据商品ID获取科目列表】信息异常，info中接口的data为空
+2020-01-14 13:50:22 myrequests.py[line:40] INFO: 
+
+***************************************************************************接口请求分割线***************************************************************************
+
+2020-01-14 13:50:22 myrequests.py[line:43] INFO: 开始访问接口:【subjectList:根据商品ID获取科目列表】
+2020-01-14 13:50:22 myrequests.py[line:120] INFO: 发送get请求
+2020-01-14 13:50:22 myrequests.py[line:231] INFO: 接口请求地址为
+https://api-diligent-mgt.haixue.com/diligent/chatSelector/subject/list/68437
+2020-01-14 13:50:22 myrequests.py[line:236] INFO: 响应状态码为:200，响应时间为:0.069892
+2020-01-14 13:50:22 custom_assert.py[line:40] INFO: 
+断言值为:
+{
+  "code": 200
+}
+响应信息:
+{
+  "code": 200,
+  "data": [
+    {
+      "id": 1,
+      "sequence": 1,
+      "subjectName": "建设工程经济"
+    },
+    {
+      "id": 25,
+      "sequence": 2,
+      "subjectName": "建设工程法规及相关知识"
+    },
+    {
+      "id": 27,
+      "sequence": 3,
+      "subjectName": "建设工程项目管理"
+    },
+    {
+      "id": 29,
+      "sequence": 4,
+      "subjectName": "建筑工程管理与实务"
+    },
+    {
+      "id": 393,
+      "sequence": 5,
+      "subjectName": "综合"
+    }
+  ],
+  "msg": null
+}
+2020-01-14 13:50:22 custom_assert.py[line:131] INFO: 断言json中指定的key【data】的返回数据的类型必须是【<class 'list'>】，返回数据不能是【[]】
+2020-01-14 13:50:22 apiinfo.py[line:76] DEBUG: 获取接口【moduleList:根据商品ID科目ID模块类型获取模块列表】信息异常，info中接口的headers为空
+2020-01-14 13:50:22 apiinfo.py[line:109] DEBUG: 获取接口【moduleList:根据商品ID科目ID模块类型获取模块列表】信息异常，info中接口的data为空
+2020-01-14 13:50:22 myrequests.py[line:40] INFO: 
+
+***************************************************************************接口请求分割线***************************************************************************
+
+2020-01-14 13:50:22 myrequests.py[line:43] INFO: 开始访问接口:【moduleList:根据商品ID科目ID模块类型获取模块列表】
+2020-01-14 13:50:22 myrequests.py[line:120] INFO: 发送get请求
+2020-01-14 13:50:22 myrequests.py[line:124] INFO: 请求参数信息为
+{
+  "moduleType": "PAPER",
+  "subjectId": 25
+}
+2020-01-14 13:50:22 myrequests.py[line:231] INFO: 接口请求地址为
+https://api-diligent-mgt.haixue.com/diligent/chatSelector/module/list/68437?subjectId=25&moduleType=PAPER
+2020-01-14 13:50:22 myrequests.py[line:236] INFO: 响应状态码为:200，响应时间为:0.309051
+2020-01-14 13:50:22 custom_assert.py[line:105] INFO: 响应信息:
+{
+  "code": 200,
+  "data": [
+    {
+      "goodsModuleName": "密训专属阶段测试",
+      "id": 4293
+    },
+    {
+      "goodsModuleName": "400题开班测试-法规",
+      "id": 4493
+    },
+    {
+      "goodsModuleName": "天猫密训卷-法规",
+      "id": 4511
+    },
+    {
+      "goodsModuleName": "京城密训摸底测试",
+      "id": 4655
+    },
+    {
+      "goodsModuleName": "钻石私塾模拟考试",
+      "id": 6279
+    },
+    {
+      "goodsModuleName": "高端班专属阶段测试",
+      "id": 8353
+    },
+    {
+      "goodsModuleName": "4套精品练习卷",
+      "id": 8671
+    },
+    {
+      "goodsModuleName": "2017年6月一建模拟测试-法规",
+      "id": 8839
+    },
+    {
+      "goodsModuleName": "总裁班专属",
+      "id": 9179
+    },
+    {
+      "goodsModuleName": "高端班结课测试",
+      "id": 9795
+    },
+    {
+      "goodsModuleName": "高端班结课测试",
+      "id": 12057
+    },
+    {
+      "goodsModuleName": "高端班专属阶段测试",
+      "id": 12075
+    },
+    {
+      "goodsModuleName": "七月集训测试",
+      "id": 12817
+    },
+    {
+      "goodsModuleName": "法规重修试卷",
+      "id": 14805
+    },
+    {
+      "goodsModuleName": "19白金核心测试",
+      "id": 16207
+    },
+    {
+      "goodsModuleName": "19钻石专项练习",
+      "id": 16223
+    },
+    {
+      "goodsModuleName": "19钻石菁英测试",
+      "id": 16239
+    },
+    {
+      "goodsModuleName": "19考季模拟测试",
+      "id": 17229
+    }
+  ],
+  "msg": null
+}
+2020-01-14 13:50:22 custom_assert.py[line:106] INFO: 断言json中指定的key【data】的返回值类型必须是：【<class 'list'>】
+2020-01-14 13:50:22 apiinfo.py[line:76] DEBUG: 获取接口【paperList:获取试题列表】信息异常，info中接口的headers为空
+2020-01-14 13:50:22 apiinfo.py[line:109] DEBUG: 获取接口【paperList:获取试题列表】信息异常，info中接口的data为空
+2020-01-14 13:50:22 myrequests.py[line:40] INFO: 
+
+***************************************************************************接口请求分割线***************************************************************************
+
+2020-01-14 13:50:22 myrequests.py[line:43] INFO: 开始访问接口:【paperList:获取试题列表】
+2020-01-14 13:50:22 myrequests.py[line:120] INFO: 发送get请求
+2020-01-14 13:50:22 myrequests.py[line:124] INFO: 请求参数信息为
+{
+  "goodsModuleId": 8671,
+  "subjectId": 25
+}
+2020-01-14 13:50:22 myrequests.py[line:231] INFO: 接口请求地址为
+https://api-diligent-mgt.haixue.com/diligent/chatSelector/paper/list/68437?subjectId=25&goodsModuleId=8671
+2020-01-14 13:50:22 myrequests.py[line:236] INFO: 响应状态码为:200，响应时间为:0.076744
+2020-01-14 13:50:22 custom_assert.py[line:105] INFO: 响应信息:
+{
+  "code": 204,
+  "data": [],
+  "msg": "未获取到数据"
+}
+2020-01-14 13:50:22 custom_assert.py[line:106] INFO: 断言json中指定的key【data】的返回值类型必须是：【<class 'list'>】
+2020-01-14 13:50:22 apiinfo.py[line:76] DEBUG: 获取接口【paperList:获取试题列表】信息异常，info中接口的headers为空
+2020-01-14 13:50:22 apiinfo.py[line:109] DEBUG: 获取接口【paperList:获取试题列表】信息异常，info中接口的data为空
+2020-01-14 13:50:22 myrequests.py[line:40] INFO: 
+
+***************************************************************************接口请求分割线***************************************************************************
+
+2020-01-14 13:50:22 myrequests.py[line:43] INFO: 开始访问接口:【paperList:获取试题列表】
+2020-01-14 13:50:22 myrequests.py[line:120] INFO: 发送get请求
+2020-01-14 13:50:22 myrequests.py[line:124] INFO: 请求参数信息为
+{
+  "goodsModuleId": 4655,
+  "subjectId": 25
+}
+2020-01-14 13:50:22 myrequests.py[line:231] INFO: 接口请求地址为
+https://api-diligent-mgt.haixue.com/diligent/chatSelector/paper/list/68437?subjectId=25&goodsModuleId=4655
+2020-01-14 13:50:22 myrequests.py[line:236] INFO: 响应状态码为:200，响应时间为:0.077559
+2020-01-14 13:50:22 custom_assert.py[line:105] INFO: 响应信息:
+{
+  "code": 204,
+  "data": [],
+  "msg": "未获取到数据"
+}
+2020-01-14 13:50:22 custom_assert.py[line:106] INFO: 断言json中指定的key【data】的返回值类型必须是：【<class 'list'>】
+2020-01-14 13:50:22 apiinfo.py[line:76] DEBUG: 获取接口【paperList:获取试题列表】信息异常，info中接口的headers为空
+2020-01-14 13:50:22 apiinfo.py[line:109] DEBUG: 获取接口【paperList:获取试题列表】信息异常，info中接口的data为空
+2020-01-14 13:50:22 myrequests.py[line:40] INFO: 
+
+***************************************************************************接口请求分割线***************************************************************************
+
+2020-01-14 13:50:22 myrequests.py[line:43] INFO: 开始访问接口:【paperList:获取试题列表】
+2020-01-14 13:50:22 myrequests.py[line:120] INFO: 发送get请求
+2020-01-14 13:50:22 myrequests.py[line:124] INFO: 请求参数信息为
+{
+  "goodsModuleId": 8839,
+  "subjectId": 25
+}
+2020-01-14 13:50:23 myrequests.py[line:231] INFO: 接口请求地址为
+https://api-diligent-mgt.haixue.com/diligent/chatSelector/paper/list/68437?subjectId=25&goodsModuleId=8839
+2020-01-14 13:50:23 myrequests.py[line:236] INFO: 响应状态码为:200，响应时间为:0.086456
+2020-01-14 13:50:23 custom_assert.py[line:105] INFO: 响应信息:
+{
+  "code": 200,
+  "data": [
+    {
+      "categoryId": 9,
+      "categoryName": "一级建造师",
+      "examquestionNum": 100,
+      "paperId": 5869,
+      "paperName": "2017年6月工程法规模拟测试",
+      "subjectId": 25,
+      "subjectName": "建设工程法规及相关知识",
+      "subjectShortName": "法规"
+    }
+  ],
+  "msg": null
+}
+2020-01-14 13:50:23 custom_assert.py[line:106] INFO: 断言json中指定的key【data】的返回值类型必须是：【<class 'list'>】
+2020-01-14 13:50:23 apiinfo.py[line:76] DEBUG: 获取接口【clazzQuestionChoose:选题，通过试卷查询试题】信息异常，info中接口的headers为空
+2020-01-14 13:50:23 apiinfo.py[line:109] DEBUG: 获取接口【clazzQuestionChoose:选题，通过试卷查询试题】信息异常，info中接口的data为空
+2020-01-14 13:50:23 myrequests.py[line:40] INFO: 
+
+***************************************************************************接口请求分割线***************************************************************************
+
+2020-01-14 13:50:23 myrequests.py[line:43] INFO: 开始访问接口:【clazzQuestionChoose:选题，通过试卷查询试题】
+2020-01-14 13:50:23 myrequests.py[line:120] INFO: 发送get请求
+2020-01-14 13:50:23 myrequests.py[line:124] INFO: 请求参数信息为
+{
+  "categoryId": 9,
+  "correctRateAscFlag": "false",
+  "outlineId": "",
+  "pageNum": "1",
+  "pageSize": "10",
+  "paperId": 5869,
+  "subjectId": 25
+}
+2020-01-14 13:50:23 myrequests.py[line:231] INFO: 接口请求地址为
+https://api-diligent-mgt.haixue.com/diligent/clazzQuestion/choose?categoryId=9&subjectId=25&outlineId=&paperId=5869&pageNum=1&pageSize=10&correctRateAscFlag=false
+2020-01-14 13:50:23 myrequests.py[line:236] INFO: 响应状态码为:200，响应时间为:0.734038
+2020-01-14 13:50:23 custom_assert.py[line:105] INFO: 响应信息:
+{
+  "code": 200,
+  "data": [
+    {
+      "accuracy": null,
+      "answerCount": null,
+      "clazzId": null,
+      "display": null,
+      "displayStatus": null,
+      "examQuestionVo": {
+        "analysisArray": [
+          {
+            "content": "用人单位发生合并或者分立等情况，原劳动合同继续有效，劳动合同由承继其权利和义务的用人单位继续履行。",
+            "type": "text"
+          }
+        ],
+        "correctAnswer": "D",
+        "correctOptions": [
+          {
+            "optionContentArray": [
+              {
+                "content": "用人单位发生合并或者分立",
+                "type": "text"
+              }
+            ],
+            "optionName": "D"
+          }
+        ],
+        "difficulty": "易",
+        "doneCorrectRate": 97.0,
+        "materialTitleArray": [],
+        "options": [
+          {
+            "optionContentArray": [
+              {
+                "content": "劳动者单方解除劳动合同",
+                "type": "text"
+              }
+            ],
+            "optionName": "A"
+          },
+          {
+            "optionContentArray": [
+              {
+                "content": "用人单位单方解除劳动合同",
+                "type": "text"
+              }
+            ],
+            "optionName": "B"
+          },
+          {
+            "optionContentArray": [
+              {
+                "content": "经济性裁员",
+                "type": "text"
+              }
+            ],
+            "optionName": "C"
+          },
+          {
+            "optionContentArray": [
+              {
+                "content": "用人单位发生合并或者分立",
+                "type": "text"
+              }
+            ],
+            "optionName": "D"
+          }
+        ],
+        "pastPaper": false,
+        "pastPaperNo": null,
+        "questionId": 303397,
+        "questionTypeId": 1115,
+        "subjectShortName": "法规",
+        "titleArray": [
+          {
+            "content": "以下不会造成劳动合同解除的是（）。",
+            "type": "text"
+          }
+        ]
+      },
+      "id": null,
+      "participation": null,
+      "point": null,
+      "pushDate": null,
+      "pushStatus": null,
+      "taskType": null
+    },
+    {
+      "accuracy": null,
+      "answerCount": null,
+      "clazzId": null,
+      "display": null,
+      "displayStatus": null,
+      "examQuestionVo": {
+        "analysisArray": [
+          {
+            "content": "任何单位不得对能源消费实行包费制。",
+            "type": "text"
+          }
+        ],
+        "correctAnswer": "D",
+        "correctOptions": [
+          {
+            "optionContentArray": [
+              {
+                "content": "对能源消费应实行包费制",
+                "type": "text"
+              }
+            ],
+            "optionName": "D"
+          }
+        ],
+        "difficulty": "中",
+        "doneCorrectRate": 96.0,
+        "materialTitleArray": [],
+        "options": [
+          {
+            "optionContentArray": [
+              {
+                "content": "按照规定配备和使用经依法检定合格的能源计量器具",
+                "type": "text"
+              }
+            ],
+            "optionName": "A"
+          },
+          {
+            "optionContentArray": [
+              {
+                "content": "建立能源消费统计和能源利用状况分析制度",
+                "type": "text"
+              }
+            ],
+            "optionName": "B"
+          },
+          {
+            "optionContentArray": [
+              {
+                "content": "对各类能源消耗实行分类计量和统计",
+                "type": "text"
+              }
+            ],
+            "optionName": "C"
+          },
+          {
+            "optionContentArray": [
+              {
+                "content": "对能源消费应实行包费制",
+                "type": "text"
+              }
+            ],
+            "optionName": "D"
+          }
+        ],
+        "pastPaper": true,
+        "pastPaperNo": null,
+        "questionId": 239821,
+        "questionTypeId": 1115,
+        "subjectShortName": "法规",
+        "titleArray": [
+          {
+            "content": "关于用能单位加强能源计量管理的说法，错误的是（）",
+            "type": "text"
+          }
+        ]
+      },
+      "id": null,
+      "participation": null,
+      "point": null,
+      "pushDate": null,
+      "pushStatus": null,
+      "taskType": null
+    },
+    {
+      "accuracy": null,
+      "answerCount": null,
+      "clazzId": null,
+      "display": null,
+      "displayStatus": null,
+      "examQuestionVo": {
+        "analysisArray": [
+          {
+            "content": "所谓见证取样和送检，是指在建设单位或工程监理单位人员的见证下，由施工单位的现场试验人员对工程中涉及结构安全的试块、试件和材料在现场取样，并送至具有法定资格的质量检测单位进行检测的活动。",
+            "type": "text"
+          }
+        ],
+        "correctAnswer": "D",
+        "correctOptions": [
+          {
+            "optionContentArray": [
+              {
+                "content": "建设单位或监理单位",
+                "type": "text"
+              }
+            ],
+            "optionName": "D"
+          }
+        ],
+        "difficulty": "中",
+        "doneCorrectRate": 94.0,
+        "materialTitleArray": [],
+        "options": [
+          {
+            "optionContentArray": [
+              {
+                "content": "施工企业质量管理部门",
+                "type": "text"
+              }
+            ],
+            "optionName": "A"
+          },
+          {
+            "optionContentArray": [
+              {
+                "content": "设计单位或监理单位",
+                "type": "text"
+              }
+            ],
+            "optionName": "B"
+          },
+          {
+            "optionContentArray": [
+              {
+                "content": "工程质量监督机构",
+                "type": "text"
+              }
+            ],
+            "optionName": "C"
+          },
+          {
+            "optionContentArray": [
+              {
+                "content": "建设单位或监理单位",
+                "type": "text"
+              }
+            ],
+            "optionName": "D"
+          }
+        ],
+        "pastPaper": true,
+        "pastPaperNo": null,
+        "questionId": 239825,
+        "questionTypeId": 1115,
+        "subjectShortName": "法规",
+        "titleArray": [
+          {
+            "content": "施工人员对设计结构安全的试块，试件以及有关材料，应当在（ ）监督下现场取样，并送具有相应资质等级的质量检测单位进行检测。",
+            "type": "text"
+          }
+        ]
+      },
+      "id": null,
+      "participation": null,
+      "point": null,
+      "pushDate": null,
+      "pushStatus": null,
+      "taskType": null
+    },
+    {
+      "accuracy": null,
+      "answerCount": null,
+      "clazzId": null,
+      "display": null,
+      "displayStatus": null,
+      "examQuestionVo": {
+        "analysisArray": [
+          {
+            "content": "本题综合考核承揽合同中定作人的权利和义务。A正确，定作人对承揽合同的任意变更解除权是该合同的最核心内容，但不知何故以前一直未考。B、C均错误，报酬及其支付期限没有约定或约定不明的，应依照合同法相关规定，经双方协议补充（协定）合同有关条款或交易习惯（推定）62条规定（法定）三步骤而确定。D明显错误。",
+            "type": "text"
+          }
+        ],
+        "correctAnswer": "A",
+        "correctOptions": [
+          {
+            "optionContentArray": [
+              {
+                "content": "定作人有权随时解除承揽合同，造成损失的应当赔偿",
+                "type": "text"
+              }
+            ],
+            "optionName": "A"
+          }
+        ],
+        "difficulty": "中",
+        "doneCorrectRate": 92.0,
+        "materialTitleArray": [],
+        "options": [
+          {
+            "optionContentArray": [
+              {
+                "content": "定作人有权随时解除承揽合同，造成损失的应当赔偿",
+                "type": "text"
+              }
+            ],
+            "optionName": "A"
+          },
+          {
+            "optionContentArray": [
+              {
+                "content": "没有约定报酬支付期限的，定作人应当现行预付",
+                "type": "text"
+              }
+            ],
+            "optionName": "B"
+          },
+          {
+            "optionContentArray": [
+              {
+                "content": "报酬预定不清的，定作人有权拒付",
+                "type": "text"
+              }
+            ],
+            "optionName": "C"
+          },
+          {
+            "optionContentArray": [
+              {
+                "content": "因定作人提供的图纸不合理导致损失的，定作人与承揽人承担连带责任",
+                "type": "text"
+              }
+            ],
+            "optionName": "D"
+          }
+        ],
+        "pastPaper": true,
+        "pastPaperNo": null,
+        "questionId": 239849,
+        "questionTypeId": 1115,
+        "subjectShortName": "法规",
+        "titleArray": [
+          {
+            "content": "根据《合同法》，关于定作人权利和义务的说法，正确的是（ ）",
+            "type": "text"
+          }
+        ]
+      },
+      "id": null,
+      "participation": null,
+      "point": null,
+      "pushDate": null,
+      "pushStatus": null,
+      "taskType": null
+    },
+    {
+      "accuracy": null,
+      "answerCount": null,
+      "clazzId": null,
+      "display": null,
+      "displayStatus": null,
+      "examQuestionVo": {
+        "analysisArray": [
+          {
+            "content": "基础设施工程、房屋建筑的地基基础工程和主体结构工程，为设计文件规定的该工程的合理使用年限。",
+            "type": "text"
+          }
+        ],
+        "correctAnswer": "A",
+        "correctOptions": [
+          {
+            "optionContentArray": [
+              {
+                "content": "设计文件规定的该工程的合理使用年限",
+                "type": "text"
+              }
+            ],
+            "optionName": "A"
+          }
+        ],
+        "difficulty": "中",
+        "doneCorrectRate": 92.0,
+        "materialTitleArray": [],
+        "options": [
+          {
+            "optionContentArray": [
+              {
+                "content": "设计文件规定的该工程的合理使用年限",
+                "type": "text"
+              }
+            ],
+            "optionName": "A"
+          },
+          {
+            "optionContentArray": [
+              {
+                "content": "5年",
+                "type": "text"
+              }
+            ],
+            "optionName": "B"
+          },
+          {
+            "optionContentArray": [
+              {
+                "content": "2年",
+                "type": "text"
+              }
+            ],
+            "optionName": "C"
+          },
+          {
+            "optionContentArray": [
+              {
+                "content": "2个采暖期、供冷期",
+                "type": "text"
+              }
+            ],
+            "optionName": "D"
+          }
+        ],
+        "pastPaper": true,
+        "pastPaperNo": null,
+        "questionId": 242227,
+        "questionTypeId": 1115,
+        "subjectShortName": "法规",
+        "titleArray": [
+          {
+            "content": "在正常使用条件下，基础设施工程、房屋建筑的地基基础工程和主题结构工程的最低保修期限为（ ）。",
+            "type": "text"
+          }
+        ]
+      },
+      "id": null,
+      "participation": null,
+      "point": null,
+      "pushDate": null,
+      "pushStatus": null,
+      "taskType": null
+    },
+    {
+      "accuracy": null,
+      "answerCount": null,
+      "clazzId": null,
+      "display": null,
+      "displayStatus": null,
+      "examQuestionVo": {
+        "analysisArray": [
+          {
+            "content": "建筑市场不良行为记录信息公布期限一般为6个月至3年。",
+            "type": "text"
+          }
+        ],
+        "correctAnswer": "D",
+        "correctOptions": [
+          {
+            "optionContentArray": [
+              {
+                "content": "6个月至3年",
+                "type": "text"
+              }
+            ],
+            "optionName": "D"
+          }
+        ],
+        "difficulty": "中",
+        "doneCorrectRate": 91.0,
+        "materialTitleArray": [],
+        "options": [
+          {
+            "optionContentArray": [
+              {
+                "content": "1个月至2年",
+                "type": "text"
+              }
+            ],
+            "optionName": "A"
+          },
+          {
+            "optionContentArray": [
+              {
+                "content": "2个月至1年",
+                "type": "text"
+              }
+            ],
+            "optionName": "B"
+          },
+          {
+            "optionContentArray": [
+              {
+                "content": "3个月至2年",
+                "type": "text"
+              }
+            ],
+            "optionName": "C"
+          },
+          {
+            "optionContentArray": [
+              {
+                "content": "6个月至3年",
+                "type": "text"
+              }
+            ],
+            "optionName": "D"
+          }
+        ],
+        "pastPaper": true,
+        "pastPaperNo": null,
+        "questionId": 239917,
+        "questionTypeId": 1115,
+        "subjectShortName": "法规",
+        "titleArray": [
+          {
+            "content": "建筑市场不良行为信息公布期限一般上（ ）。",
+            "type": "text"
+          }
+        ]
+      },
+      "id": null,
+      "participation": null,
+      "point": null,
+      "pushDate": null,
+      "pushStatus": null,
+      "taskType": null
+    },
+    {
+      "accuracy": null,
+      "answerCount": null,
+      "clazzId": null,
+      "display": null,
+      "displayStatus": null,
+      "examQuestionVo": {
+        "analysisArray": [
+          {
+            "content": "《建设工程安全生产管理条例》规定，在施工现场安装、拆卸施工起重机械和整体提升脚手架、模板等自升式架设设施，必须由具备相应资质的单位承担。",
+            "type": "text"
+          }
+        ],
+        "correctAnswer": "B",
+        "correctOptions": [
+          {
+            "optionContentArray": [
+              {
+                "content": "具有相应资质的单位",
+                "type": "text"
+              }
+            ],
+            "optionName": "B"
+          }
+        ],
+        "difficulty": "中",
+        "doneCorrectRate": 90.0,
+        "materialTitleArray": [],
+        "options": [
+          {
+            "optionContentArray": [
+              {
+                "content": "设备使用单位",
+                "type": "text"
+              }
+            ],
+            "optionName": "A"
+          },
+          {
+            "optionContentArray": [
+              {
+                "content": "具有相应资质的单位",
+                "type": "text"
+              }
+            ],
+            "optionName": "B"
+          },
+          {
+            "optionContentArray": [
+              {
+                "content": "设备出租单位",
+                "type": "text"
+              }
+            ],
+            "optionName": "C"
+          },
+          {
+            "optionContentArray": [
+              {
+                "content": "检验检测机构",
+                "type": "text"
+              }
+            ],
+            "optionName": "D"
+          }
+        ],
+        "pastPaper": true,
+        "pastPaperNo": null,
+        "questionId": 320823,
+        "questionTypeId": 1115,
+        "subjectShortName": "法规",
+        "titleArray": [
+          {
+            "content": "在施工现场安装、拆卸施工起重机械和整体提升脚手架、模板等自升式架设设备，必须由（）承担。",
+            "type": "text"
+          }
+        ]
+      },
+      "id": null,
+      "participation": null,
+      "point": null,
+      "pushDate": null,
+      "pushStatus": null,
+      "taskType": null
+    },
+    {
+      "accuracy": null,
+      "answerCount": null,
+      "clazzId": null,
+      "display": null,
+      "displayStatus": null,
+      "examQuestionVo": {
+        "analysisArray": [
+          {
+            "content": "施工单位应当组织专家进行论证、审查。",
+            "type": "text"
+          }
+        ],
+        "correctAnswer": "C",
+        "correctOptions": [
+          {
+            "optionContentArray": [
+              {
+                "content": "施工单位",
+                "type": "text"
+              }
+            ],
+            "optionName": "C"
+          }
+        ],
+        "difficulty": "中",
+        "doneCorrectRate": 89.0,
+        "materialTitleArray": [],
+        "options": [
+          {
+            "optionContentArray": [
+              {
+                "content": "安全监督管理机构",
+                "type": "text"
+              }
+            ],
+            "optionName": "A"
+          },
+          {
+            "optionContentArray": [
+              {
+                "content": "建设单位",
+                "type": "text"
+              }
+            ],
+            "optionName": "B"
+          },
+          {
+            "optionContentArray": [
+              {
+                "content": "施工单位",
+                "type": "text"
+              }
+            ],
+            "optionName": "C"
+          },
+          {
+            "optionContentArray": [
+              {
+                "content": "监理单位",
+                "type": "text"
+              }
+            ],
+            "optionName": "D"
+          }
+        ],
+        "pastPaper": true,
+        "pastPaperNo": null,
+        "questionId": 239859,
+        "questionTypeId": 1115,
+        "subjectShortName": "法规",
+        "titleArray": [
+          {
+            "content": "对于达到一定规模的危险性较大的分部分项工程的专项施工方案,应由( )组织专家进行论证、审查。",
+            "type": "text"
+          }
+        ]
+      },
+      "id": null,
+      "participation": null,
+      "point": null,
+      "pushDate": null,
+      "pushStatus": null,
+      "taskType": null
+    },
+    {
+      "accuracy": null,
+      "answerCount": null,
+      "clazzId": null,
+      "display": null,
+      "displayStatus": null,
+      "examQuestionVo": {
+        "analysisArray": [
+          {
+            "content": "国务院建设行政主管部门对全国的建设工程质量实施统一监督管理。因此是政府监督管理。",
+            "type": "text"
+          }
+        ],
+        "correctAnswer": "B",
+        "correctOptions": [
+          {
+            "optionContentArray": [
+              {
+                "content": "政府",
+                "type": "text"
+              }
+            ],
+            "optionName": "B"
+          }
+        ],
+        "difficulty": "中",
+        "doneCorrectRate": 87.0,
+        "materialTitleArray": [],
+        "options": [
+          {
+            "optionContentArray": [
+              {
+                "content": "企业",
+                "type": "text"
+              }
+            ],
+            "optionName": "A"
+          },
+          {
+            "optionContentArray": [
+              {
+                "content": "政府",
+                "type": "text"
+              }
+            ],
+            "optionName": "B"
+          },
+          {
+            "optionContentArray": [
+              {
+                "content": "社会",
+                "type": "text"
+              }
+            ],
+            "optionName": "C"
+          },
+          {
+            "optionContentArray": [
+              {
+                "content": "行业",
+                "type": "text"
+              }
+            ],
+            "optionName": "D"
+          }
+        ],
+        "pastPaper": true,
+        "pastPaperNo": null,
+        "questionId": 320805,
+        "questionTypeId": 1115,
+        "subjectShortName": "法规",
+        "titleArray": [
+          {
+            "content": "根据《建设工程质量管理条例》，工程质量必须实行（）监督管理。",
+            "type": "text"
+          }
+        ]
+      },
+      "id": null,
+      "participation": null,
+      "point": null,
+      "pushDate": null,
+      "pushStatus": null,
+      "taskType": null
+    },
+    {
+      "accuracy": null,
+      "answerCount": null,
+      "clazzId": null,
+      "display": null,
+      "displayStatus": null,
+      "examQuestionVo": {
+        "analysisArray": [
+          {
+            "content": "第一天获利是不当得利，第二天获利是侵权。",
+            "type": "text"
+          }
+        ],
+        "correctAnswer": "CE",
+        "correctOptions": [
+          {
+            "optionContentArray": [
+              {
+                "content": "不当得利",
+                "type": "text"
+              }
+            ],
+            "optionName": "C"
+          },
+          {
+            "optionContentArray": [
+              {
+                "content": "侵权行为",
+                "type": "text"
+              }
+            ],
+            "optionName": "E"
+          }
+        ],
+        "difficulty": "中",
+        "doneCorrectRate": 84.0,
+        "materialTitleArray": [],
+        "options": [
+          {
+            "optionContentArray": [
+              {
+                "content": "无因管理",
+                "type": "text"
+              }
+            ],
+            "optionName": "A"
+          },
+          {
+            "optionContentArray": [
+              {
+                "content": "合同行为",
+                "type": "text"
+              }
+            ],
+            "optionName": "B"
+          },
+          {
+            "optionContentArray": [
+              {
+                "content": "不当得利",
+                "type": "text"
+              }
+            ],
+            "optionName": "C"
+          },
+          {
+            "optionContentArray": [
+              {
+                "content": "法律行为",
+                "type": "text"
+              }
+            ],
+            "optionName": "D"
+          },
+          {
+            "optionContentArray": [
+              {
+                "content": "侵权行为",
+                "type": "text"
+              }
+            ],
+            "optionName": "E"
+          }
+        ],
+        "pastPaper": true,
+        "pastPaperNo": null,
+        "questionId": 320781,
+        "questionTypeId": 1117,
+        "subjectShortName": "法规",
+        "titleArray": [
+          {
+            "content": "甲家旁边有一建筑工地正在施工。某日，一货车经过甲家门前，由于颠簸掉落货物一件，被甲拾得据为己有。其后，甲发现有利可图，遂在门前洒落许多砖石。次日，果然又拾得两袋车上颠落的货包。关于甲行为性质的说法，正确的有（）。",
+            "type": "text"
+          }
+        ]
+      },
+      "id": null,
+      "participation": null,
+      "point": null,
+      "pushDate": null,
+      "pushStatus": null,
+      "taskType": null
+    }
+  ],
+  "msg": null
+}
+2020-01-14 13:50:23 custom_assert.py[line:106] INFO: 断言json中指定的key【data】的返回值类型必须是：【<class 'list'>】
+2020-01-14 13:50:23 apiinfo.py[line:95] DEBUG: 获取接口【save:存题】信息异常，info中接口的params为空
+2020-01-14 13:50:23 myrequests.py[line:40] INFO: 
+
+***************************************************************************接口请求分割线***************************************************************************
+
+2020-01-14 13:50:23 myrequests.py[line:43] INFO: 开始访问接口:【save:存题】
+2020-01-14 13:50:23 myrequests.py[line:50] INFO: 请求的headers信息为
+{
+  "Content-Type": "application/json;charset=UTF-8"
+}
+2020-01-14 13:50:23 myrequests.py[line:94] INFO: 发送post请求
+2020-01-14 13:50:23 myrequests.py[line:97] INFO: 请求参数信息为
+[
+  {
+    "clazzId": 415,
+    "displayStatus": "NONE",
+    "pushDate": "2020-01-17",
+    "pushStatus": "UNPUSHED",
+    "questionId": 239917
+  }
+]
+2020-01-14 13:50:23 myrequests.py[line:231] INFO: 接口请求地址为
+https://api-diligent-mgt.haixue.com/diligent/clazzQuestion/save
+2020-01-14 13:50:23 myrequests.py[line:236] INFO: 响应状态码为:200，响应时间为:0.079762
+2020-01-14 13:50:23 custom_assert.py[line:40] INFO: 
+断言值为:
+{
+  "code": 200
+}
+响应信息:
+{
+  "code": 200,
+  "data": "success",
+  "msg": null
+}

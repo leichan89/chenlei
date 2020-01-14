@@ -1,0 +1,252 @@
+{
+  "uid" : "b62ee830a9fa03c0",
+  "name" : "发送群答题：查询科目-查询模块-查询试卷-查询试题-随机发送群答题-历史消息中查看答题信息",
+  "fullName" : "testcases.jjxt.test_send_clazz_question.TestSendQuestion#test_push_clazz_question",
+  "historyId" : "8a51f3e46bfc20c20df11b762bc7f6a6",
+  "time" : {
+    "start" : 1578981026027,
+    "stop" : 1578981030709,
+    "duration" : 4682
+  },
+  "description" : "\n        发送群答题：查询科目-查询模块-查询试卷-查询试题-随机发送群答题-历史消息中查看答题信息\n        ",
+  "descriptionHtml" : "<pre><code>    发送群答题：查询科目-查询模块-查询试卷-查询试题-随机发送群答题-历史消息中查看答题信息\n</code></pre>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "get_groupidentifier",
+    "time" : {
+      "start" : 1578980993231,
+      "stop" : 1578980993231,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "get_question_id",
+    "time" : {
+      "start" : 1578981025192,
+      "stop" : 1578981026025,
+      "duration" : 833
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "__pytest_repeat_step_number",
+    "time" : {
+      "start" : 1578981025192,
+      "stop" : 1578981025192,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "get_customerid",
+    "time" : {
+      "start" : 1578980990773,
+      "stop" : 1578980991320,
+      "duration" : 547
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "get_goodsid",
+    "time" : {
+      "start" : 1578981003808,
+      "stop" : 1578981003808,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "get_clazzid",
+    "time" : {
+      "start" : 1578980991490,
+      "stop" : 1578980991490,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "get_clazzinfo",
+    "time" : {
+      "start" : 1578980991320,
+      "stop" : 1578980991490,
+      "duration" : 170
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "\n        发送群答题：查询科目-查询模块-查询试卷-查询试题-随机发送群答题-历史消息中查看答题信息\n        ",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "a9b37fb34e599592",
+      "name" : "log",
+      "source" : "a9b37fb34e599592.txt",
+      "type" : "text/plain",
+      "size" : 58648
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "群聊"
+  }, {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "epic",
+    "value" : "我的班级"
+  }, {
+    "name" : "story",
+    "value" : "群答题"
+  }, {
+    "name" : "tag",
+    "value" : "smoke"
+  }, {
+    "name" : "tag",
+    "value" : "myclass"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcases.jjxt"
+  }, {
+    "name" : "suite",
+    "value" : "test_send_clazz_question"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestSendQuestion"
+  }, {
+    "name" : "host",
+    "value" : "chenleideMacBook-Pro.local"
+  }, {
+    "name" : "thread",
+    "value" : "8980-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcases.jjxt.test_send_clazz_question"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "critical",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 16,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 31,
+        "unknown" : 0,
+        "total" : 47
+      },
+      "items" : [ {
+        "uid" : "dccd1e7c175c791b",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: 历史消息中未找到发送的消息",
+        "time" : {
+          "start" : 1578980330893,
+          "stop" : 1578980336245,
+          "duration" : 5352
+        }
+      }, {
+        "uid" : "7dd39c64d371786a",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: 历史消息中未找到发送的消息",
+        "time" : {
+          "start" : 1574231003863,
+          "stop" : 1574231008422,
+          "duration" : 4559
+        }
+      }, {
+        "uid" : "3fa2aabe9c39764b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1574181505027,
+          "stop" : 1574181509607,
+          "duration" : 4580
+        }
+      }, {
+        "uid" : "e062c431aff52c66",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: 历史消息中未找到发送的消息",
+        "time" : {
+          "start" : 1574172112291,
+          "stop" : 1574172121848,
+          "duration" : 9557
+        }
+      }, {
+        "uid" : "a042742896e23731",
+        "status" : "passed",
+        "time" : {
+          "start" : 1573197674232,
+          "stop" : 1573197678916,
+          "duration" : 4684
+        }
+      } ]
+    },
+    "tags" : [ "smoke", "myclass" ]
+  },
+  "source" : "b62ee830a9fa03c0.json",
+  "parameterValues" : [ ]
+}

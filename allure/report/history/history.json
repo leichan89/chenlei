@@ -39,11 +39,27 @@
       "failed" : 15,
       "broken" : 1,
       "skipped" : 0,
-      "passed" : 50,
+      "passed" : 52,
       "unknown" : 0,
-      "total" : 66
+      "total" : 68
     },
     "items" : [ {
+      "uid" : "89d3473e9c9d5266",
+      "status" : "passed",
+      "time" : {
+        "start" : 1578981043213,
+        "stop" : 1578981048121,
+        "duration" : 4908
+      }
+    }, {
+      "uid" : "a021334123b4a65a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1578980350794,
+        "stop" : 1578980355725,
+        "duration" : 4931
+      }
+    }, {
       "uid" : "684a04b69cf52357",
       "status" : "passed",
       "time" : {
@@ -66,23 +82,6 @@
         "start" : 1574172135405,
         "stop" : 1574172140457,
         "duration" : 5052
-      }
-    }, {
-      "uid" : "182400910167277d",
-      "status" : "passed",
-      "time" : {
-        "start" : 1573197691637,
-        "stop" : 1573197696521,
-        "duration" : 4884
-      }
-    }, {
-      "uid" : "258901532fd411d4",
-      "status" : "failed",
-      "statusDetails" : "AssertionError: 私聊历史消息中未找到发送的消息",
-      "time" : {
-        "start" : 1573196513106,
-        "stop" : 1573196534109,
-        "duration" : 21003
       }
     } ]
   },
@@ -143,11 +142,27 @@
       "failed" : 19,
       "broken" : 2,
       "skipped" : 0,
-      "passed" : 52,
+      "passed" : 54,
       "unknown" : 0,
-      "total" : 73
+      "total" : 75
     },
     "items" : [ {
+      "uid" : "10361991a8f270ee",
+      "status" : "passed",
+      "time" : {
+        "start" : 1578981010024,
+        "stop" : 1578981016233,
+        "duration" : 6209
+      }
+    }, {
+      "uid" : "a4bb22450c07daac",
+      "status" : "passed",
+      "time" : {
+        "start" : 1578980308461,
+        "stop" : 1578980316864,
+        "duration" : 8403
+      }
+    }, {
       "uid" : "ad66b7ca1de3dd29",
       "status" : "passed",
       "time" : {
@@ -171,24 +186,6 @@
         "start" : 1574172096306,
         "stop" : 1574172101361,
         "duration" : 5055
-      }
-    }, {
-      "uid" : "60704256958c53ea",
-      "status" : "failed",
-      "statusDetails" : "AssertionError: 断言接口返回值失败",
-      "time" : {
-        "start" : 1573197667679,
-        "stop" : 1573197667929,
-        "duration" : 250
-      }
-    }, {
-      "uid" : "2c95e465226b1604",
-      "status" : "failed",
-      "statusDetails" : "AssertionError: 断言接口返回值失败",
-      "time" : {
-        "start" : 1573196424606,
-        "stop" : 1573196424713,
-        "duration" : 107
       }
     } ]
   },
@@ -299,11 +296,27 @@
       "failed" : 31,
       "broken" : 4,
       "skipped" : 0,
-      "passed" : 44,
+      "passed" : 46,
       "unknown" : 0,
-      "total" : 79
+      "total" : 81
     },
     "items" : [ {
+      "uid" : "dcaa9d2d27309e18",
+      "status" : "passed",
+      "time" : {
+        "start" : 1578981048125,
+        "stop" : 1578981053499,
+        "duration" : 5374
+      }
+    }, {
+      "uid" : "6c836f6f1181b7cc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1578980355731,
+        "stop" : 1578980361552,
+        "duration" : 5821
+      }
+    }, {
       "uid" : "5d815fa0dd606956",
       "status" : "passed",
       "time" : {
@@ -327,23 +340,6 @@
         "stop" : 1574172145582,
         "duration" : 5121
       }
-    }, {
-      "uid" : "66e00176972bc31b",
-      "status" : "passed",
-      "time" : {
-        "start" : 1573197696525,
-        "stop" : 1573197702995,
-        "duration" : 6470
-      }
-    }, {
-      "uid" : "3113e23da37edf42",
-      "status" : "failed",
-      "statusDetails" : "AssertionError: 私聊历史消息中未找到发送的消息",
-      "time" : {
-        "start" : 1573196534124,
-        "stop" : 1573196556099,
-        "duration" : 21975
-      }
     } ]
   },
   "ab03294d1b3e67742d27d3654f835c90" : {
@@ -351,11 +347,27 @@
       "failed" : 6,
       "broken" : 2,
       "skipped" : 0,
-      "passed" : 56,
+      "passed" : 58,
       "unknown" : 0,
-      "total" : 64
+      "total" : 66
     },
     "items" : [ {
+      "uid" : "30af4ff83e98e798",
+      "status" : "passed",
+      "time" : {
+        "start" : 1578981025045,
+        "stop" : 1578981025186,
+        "duration" : 141
+      }
+    }, {
+      "uid" : "b0c257c632b76899",
+      "status" : "passed",
+      "time" : {
+        "start" : 1578980329368,
+        "stop" : 1578980329471,
+        "duration" : 103
+      }
+    }, {
       "uid" : "89fd2f72c961b489",
       "status" : "passed",
       "time" : {
@@ -379,23 +391,6 @@
         "stop" : 1574172111340,
         "duration" : 118
       }
-    }, {
-      "uid" : "e734fdb082a8f7a3",
-      "status" : "passed",
-      "time" : {
-        "start" : 1573195515927,
-        "stop" : 1573195515962,
-        "duration" : 35
-      }
-    }, {
-      "uid" : "3dbbadd451293a74",
-      "status" : "failed",
-      "statusDetails" : "AssertionError: 接口请求发生未知异常, ('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer'))",
-      "time" : {
-        "start" : 1573131091161,
-        "stop" : 1573131091161,
-        "duration" : 0
-      }
     } ]
   },
   "a720881fa017ef50dd5f43ebb2a909b6" : {
@@ -403,11 +398,27 @@
       "failed" : 9,
       "broken" : 1,
       "skipped" : 0,
-      "passed" : 58,
+      "passed" : 60,
       "unknown" : 0,
-      "total" : 68
+      "total" : 70
     },
     "items" : [ {
+      "uid" : "be47f8a90435cec6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1578980992958,
+        "stop" : 1578980993051,
+        "duration" : 93
+      }
+    }, {
+      "uid" : "3411cd49e3ea8422",
+      "status" : "passed",
+      "time" : {
+        "start" : 1578980290176,
+        "stop" : 1578980290290,
+        "duration" : 114
+      }
+    }, {
       "uid" : "78bb794b530bc68e",
       "status" : "passed",
       "time" : {
@@ -430,22 +441,6 @@
         "start" : 1574172065084,
         "stop" : 1574172065190,
         "duration" : 106
-      }
-    }, {
-      "uid" : "a8ded9fa25dc2255",
-      "status" : "passed",
-      "time" : {
-        "start" : 1573195402097,
-        "stop" : 1573195402163,
-        "duration" : 66
-      }
-    }, {
-      "uid" : "2f3be5fbaad9d5e1",
-      "status" : "passed",
-      "time" : {
-        "start" : 1573123852083,
-        "stop" : 1573123852166,
-        "duration" : 83
       }
     } ]
   },
@@ -554,14 +549,32 @@
   },
   "a615c600e6fea63c6fd2833470e5d0ae" : {
     "statistic" : {
-      "failed" : 33,
+      "failed" : 35,
       "broken" : 1,
       "skipped" : 0,
       "passed" : 39,
       "unknown" : 0,
-      "total" : 73
+      "total" : 75
     },
     "items" : [ {
+      "uid" : "c7f94656f065b503",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: 返回的数据不应等于：[]",
+      "time" : {
+        "start" : 1578981009337,
+        "stop" : 1578981010006,
+        "duration" : 669
+      }
+    }, {
+      "uid" : "7c557e4d9a456d3",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: 返回的数据不应等于：[]",
+      "time" : {
+        "start" : 1578980307772,
+        "stop" : 1578980308442,
+        "duration" : 670
+      }
+    }, {
       "uid" : "2d55e56585f88916",
       "status" : "failed",
       "statusDetails" : "AssertionError: 返回的数据不应等于：[]",
@@ -587,35 +600,35 @@
         "stop" : 1574172096302,
         "duration" : 5279
       }
-    }, {
-      "uid" : "3ad0ef61c7fd4c22",
-      "status" : "passed",
-      "time" : {
-        "start" : 1573197661391,
-        "stop" : 1573197667673,
-        "duration" : 6282
-      }
-    }, {
-      "uid" : "d4e57de12745ef08",
-      "status" : "failed",
-      "statusDetails" : "AssertionError: 历史消息中未找到发送的消息",
-      "time" : {
-        "start" : 1573196402721,
-        "stop" : 1573196424589,
-        "duration" : 21868
-      }
     } ]
   },
   "8a51f3e46bfc20c20df11b762bc7f6a6" : {
     "statistic" : {
-      "failed" : 15,
+      "failed" : 16,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 30,
+      "passed" : 31,
       "unknown" : 0,
-      "total" : 45
+      "total" : 47
     },
     "items" : [ {
+      "uid" : "b62ee830a9fa03c0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1578981026027,
+        "stop" : 1578981030709,
+        "duration" : 4682
+      }
+    }, {
+      "uid" : "dccd1e7c175c791b",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: 历史消息中未找到发送的消息",
+      "time" : {
+        "start" : 1578980330893,
+        "stop" : 1578980336245,
+        "duration" : 5352
+      }
+    }, {
       "uid" : "7dd39c64d371786a",
       "status" : "failed",
       "statusDetails" : "AssertionError: 历史消息中未找到发送的消息",
@@ -640,23 +653,6 @@
         "start" : 1574172112291,
         "stop" : 1574172121848,
         "duration" : 9557
-      }
-    }, {
-      "uid" : "a042742896e23731",
-      "status" : "passed",
-      "time" : {
-        "start" : 1573197674232,
-        "stop" : 1573197678916,
-        "duration" : 4684
-      }
-    }, {
-      "uid" : "2592ea6baa043740",
-      "status" : "failed",
-      "statusDetails" : "AssertionError: 历史消息中未找到发送的消息",
-      "time" : {
-        "start" : 1573196447399,
-        "stop" : 1573196468653,
-        "duration" : 21254
       }
     } ]
   },
@@ -922,11 +918,27 @@
       "failed" : 6,
       "broken" : 1,
       "skipped" : 0,
-      "passed" : 59,
+      "passed" : 61,
       "unknown" : 0,
-      "total" : 66
+      "total" : 68
     },
     "items" : [ {
+      "uid" : "3211f0b6c5d0bcb8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1578980993141,
+        "stop" : 1578980993226,
+        "duration" : 85
+      }
+    }, {
+      "uid" : "c12b4ac762ef946b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1578980290376,
+        "stop" : 1578980290475,
+        "duration" : 99
+      }
+    }, {
       "uid" : "29dcf8f65219520f",
       "status" : "passed",
       "time" : {
@@ -949,22 +961,6 @@
         "start" : 1574172065305,
         "stop" : 1574172065408,
         "duration" : 103
-      }
-    }, {
-      "uid" : "51e95bf9d367146a",
-      "status" : "passed",
-      "time" : {
-        "start" : 1573195402209,
-        "stop" : 1573195402250,
-        "duration" : 41
-      }
-    }, {
-      "uid" : "97930ee8b155280c",
-      "status" : "passed",
-      "time" : {
-        "start" : 1573123852258,
-        "stop" : 1573123852334,
-        "duration" : 76
       }
     } ]
   },
@@ -1366,11 +1362,27 @@
       "failed" : 6,
       "broken" : 1,
       "skipped" : 0,
-      "passed" : 57,
+      "passed" : 59,
       "unknown" : 0,
-      "total" : 64
+      "total" : 66
     },
     "items" : [ {
+      "uid" : "5c65431db43dabed",
+      "status" : "passed",
+      "time" : {
+        "start" : 1578980993055,
+        "stop" : 1578980993136,
+        "duration" : 81
+      }
+    }, {
+      "uid" : "12a46d06d5bac2e9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1578980290294,
+        "stop" : 1578980290373,
+        "duration" : 79
+      }
+    }, {
       "uid" : "e433e352a7ebc1ff",
       "status" : "passed",
       "time" : {
@@ -1393,22 +1405,6 @@
         "start" : 1574172065195,
         "stop" : 1574172065300,
         "duration" : 105
-      }
-    }, {
-      "uid" : "8bc9c5d518620f8f",
-      "status" : "passed",
-      "time" : {
-        "start" : 1573195402166,
-        "stop" : 1573195402206,
-        "duration" : 40
-      }
-    }, {
-      "uid" : "d2a934cc67d4b1d3",
-      "status" : "passed",
-      "time" : {
-        "start" : 1573123852169,
-        "stop" : 1573123852255,
-        "duration" : 86
       }
     } ]
   },
@@ -1704,11 +1700,27 @@
       "failed" : 4,
       "broken" : 1,
       "skipped" : 0,
-      "passed" : 58,
+      "passed" : 60,
       "unknown" : 0,
-      "total" : 63
+      "total" : 65
     },
     "items" : [ {
+      "uid" : "18989139916f1457",
+      "status" : "passed",
+      "time" : {
+        "start" : 1578980992601,
+        "stop" : 1578980992681,
+        "duration" : 80
+      }
+    }, {
+      "uid" : "e41efbda9f3b3a88",
+      "status" : "passed",
+      "time" : {
+        "start" : 1578980289814,
+        "stop" : 1578980289886,
+        "duration" : 72
+      }
+    }, {
       "uid" : "e26b61259657c200",
       "status" : "passed",
       "time" : {
@@ -1732,22 +1744,6 @@
         "stop" : 1574172064740,
         "duration" : 105
       }
-    }, {
-      "uid" : "6e2780a77358512a",
-      "status" : "passed",
-      "time" : {
-        "start" : 1573195401915,
-        "stop" : 1573195401959,
-        "duration" : 44
-      }
-    }, {
-      "uid" : "bc2825ce40c1bdf0",
-      "status" : "passed",
-      "time" : {
-        "start" : 1573123851661,
-        "stop" : 1573123851739,
-        "duration" : 78
-      }
     } ]
   },
   "9be1ebdf85b9806240a3c95b922ed163" : {
@@ -1755,11 +1751,27 @@
       "failed" : 6,
       "broken" : 2,
       "skipped" : 0,
-      "passed" : 56,
+      "passed" : 58,
       "unknown" : 0,
-      "total" : 64
+      "total" : 66
     },
     "items" : [ {
+      "uid" : "4dcfadf7fc8d76b6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1578981023868,
+        "stop" : 1578981023953,
+        "duration" : 85
+      }
+    }, {
+      "uid" : "857444efeb73b6fb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1578980327788,
+        "stop" : 1578980327871,
+        "duration" : 83
+      }
+    }, {
       "uid" : "ffe51efb3828c8b4",
       "status" : "passed",
       "time" : {
@@ -1782,23 +1794,6 @@
         "start" : 1574172109681,
         "stop" : 1574172109791,
         "duration" : 110
-      }
-    }, {
-      "uid" : "aa4215a0c85b8031",
-      "status" : "passed",
-      "time" : {
-        "start" : 1573195515090,
-        "stop" : 1573195515139,
-        "duration" : 49
-      }
-    }, {
-      "uid" : "6ea5531b040602b3",
-      "status" : "failed",
-      "statusDetails" : "AssertionError: 断言接口返回值失败",
-      "time" : {
-        "start" : 1573131091063,
-        "stop" : 1573131091063,
-        "duration" : 0
       }
     } ]
   },
@@ -1961,11 +1956,27 @@
       "failed" : 12,
       "broken" : 6,
       "skipped" : 0,
-      "passed" : 51,
+      "passed" : 53,
       "unknown" : 0,
-      "total" : 69
+      "total" : 71
     },
     "items" : [ {
+      "uid" : "35cd8d017dd1a128",
+      "status" : "passed",
+      "time" : {
+        "start" : 1578981059381,
+        "stop" : 1578981064985,
+        "duration" : 5604
+      }
+    }, {
+      "uid" : "5c560727499a93bf",
+      "status" : "passed",
+      "time" : {
+        "start" : 1578980367744,
+        "stop" : 1578980373837,
+        "duration" : 6093
+      }
+    }, {
       "uid" : "cdfebc2674f50e34",
       "status" : "passed",
       "time" : {
@@ -1988,23 +1999,6 @@
         "start" : 1574172161412,
         "stop" : 1574172167446,
         "duration" : 6034
-      }
-    }, {
-      "uid" : "6b4e44334cb294af",
-      "status" : "passed",
-      "time" : {
-        "start" : 1573197709503,
-        "stop" : 1573197714831,
-        "duration" : 5328
-      }
-    }, {
-      "uid" : "3e2bb970f8aba3ab",
-      "status" : "failed",
-      "statusDetails" : "AssertionError: 私聊历史消息中未找到发送的消息",
-      "time" : {
-        "start" : 1573196577674,
-        "stop" : 1573196599898,
-        "duration" : 22224
       }
     } ]
   },
@@ -2176,11 +2170,27 @@
       "failed" : 3,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 7,
+      "passed" : 9,
       "unknown" : 0,
-      "total" : 10
+      "total" : 12
     },
     "items" : [ {
+      "uid" : "fd1e9295655b031a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1578980991792,
+        "stop" : 1578980992102,
+        "duration" : 310
+      }
+    }, {
+      "uid" : "99294f4ed1379d74",
+      "status" : "passed",
+      "time" : {
+        "start" : 1578980288603,
+        "stop" : 1578980289134,
+        "duration" : 531
+      }
+    }, {
       "uid" : "68c3c62fa80b90d6",
       "status" : "passed",
       "time" : {
@@ -2203,22 +2213,6 @@
         "start" : 1574172063724,
         "stop" : 1574172063957,
         "duration" : 233
-      }
-    }, {
-      "uid" : "f182776221fc524e",
-      "status" : "passed",
-      "time" : {
-        "start" : 1573195399186,
-        "stop" : 1573195399473,
-        "duration" : 287
-      }
-    }, {
-      "uid" : "e2587dd8d5ad251a",
-      "status" : "passed",
-      "time" : {
-        "start" : 1573123851040,
-        "stop" : 1573123851249,
-        "duration" : 209
       }
     } ]
   },
@@ -2497,14 +2491,31 @@
   },
   "06361f8fc76cf0d9b36186e92ce8f762" : {
     "statistic" : {
-      "failed" : 24,
+      "failed" : 25,
       "broken" : 8,
       "skipped" : 0,
-      "passed" : 65,
+      "passed" : 66,
       "unknown" : 0,
-      "total" : 97
+      "total" : 99
     },
     "items" : [ {
+      "uid" : "bbd1c6124c919ef4",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: 断言接口返回值失败",
+      "time" : {
+        "start" : 1578980993232,
+        "stop" : 1578980998678,
+        "duration" : 5446
+      }
+    }, {
+      "uid" : "c79a902e7d0e53d9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1578980290480,
+        "stop" : 1578980296461,
+        "duration" : 5981
+      }
+    }, {
       "uid" : "a8d81a647eb38541",
       "status" : "passed",
       "time" : {
@@ -2527,23 +2538,6 @@
         "start" : 1574172065412,
         "stop" : 1574172080637,
         "duration" : 15225
-      }
-    }, {
-      "uid" : "3925db99d1ee20f4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1573197643737,
-        "stop" : 1573197649928,
-        "duration" : 6191
-      }
-    }, {
-      "uid" : "efbb117e7beb035d",
-      "status" : "failed",
-      "statusDetails" : "AssertionError: 断言接口返回值失败",
-      "time" : {
-        "start" : 1573196337491,
-        "stop" : 1573196358591,
-        "duration" : 21100
       }
     } ]
   },
@@ -2718,14 +2712,31 @@
   },
   "2cc220593629bdbac8f5ca9c4610f311" : {
     "statistic" : {
-      "failed" : 15,
+      "failed" : 16,
       "broken" : 1,
       "skipped" : 0,
-      "passed" : 60,
+      "passed" : 61,
       "unknown" : 0,
-      "total" : 76
+      "total" : 78
     },
     "items" : [ {
+      "uid" : "3e6e121df7df07e1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1578981003809,
+        "stop" : 1578981009330,
+        "duration" : 5521
+      }
+    }, {
+      "uid" : "26773806ae8f57be",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: 历史消息中未找到发送的消息",
+      "time" : {
+        "start" : 1578980302011,
+        "stop" : 1578980307672,
+        "duration" : 5661
+      }
+    }, {
       "uid" : "849de5eca8b03fe4",
       "status" : "passed",
       "time" : {
@@ -2748,23 +2759,6 @@
         "start" : 1574172085854,
         "stop" : 1574172091019,
         "duration" : 5165
-      }
-    }, {
-      "uid" : "15638909d9e6d684",
-      "status" : "passed",
-      "time" : {
-        "start" : 1573197654945,
-        "stop" : 1573197661385,
-        "duration" : 6440
-      }
-    }, {
-      "uid" : "9054dbccf3c3be7d",
-      "status" : "failed",
-      "statusDetails" : "AssertionError: 历史消息中未找到发送的消息",
-      "time" : {
-        "start" : 1573196381051,
-        "stop" : 1573196402709,
-        "duration" : 21658
       }
     } ]
   },
@@ -2829,11 +2823,27 @@
       "failed" : 13,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 12,
+      "passed" : 14,
       "unknown" : 0,
-      "total" : 25
+      "total" : 27
     },
     "items" : [ {
+      "uid" : "8eb08adf519c5c12",
+      "status" : "passed",
+      "time" : {
+        "start" : 1578980991605,
+        "stop" : 1578980991784,
+        "duration" : 179
+      }
+    }, {
+      "uid" : "ac98806633799396",
+      "status" : "passed",
+      "time" : {
+        "start" : 1578980288397,
+        "stop" : 1578980288594,
+        "duration" : 197
+      }
+    }, {
       "uid" : "8494c3fc7f2e1f0a",
       "status" : "failed",
       "statusDetails" : "AssertionError: 接口请求发生未知异常, Expecting value: line 1 column 1 (char 0)",
@@ -2859,23 +2869,6 @@
         "start" : 1578544288603,
         "stop" : 1578544288706,
         "duration" : 103
-      }
-    }, {
-      "uid" : "62e2abfedf15cb3",
-      "status" : "passed",
-      "time" : {
-        "start" : 1578543862175,
-        "stop" : 1578543895085,
-        "duration" : 32910
-      }
-    }, {
-      "uid" : "29e3c146825e1bfc",
-      "status" : "failed",
-      "statusDetails" : "AssertionError: 接口请求发生未知异常, 'content-disposition'",
-      "time" : {
-        "start" : 1578543360711,
-        "stop" : 1578543360789,
-        "duration" : 78
       }
     } ]
   },
@@ -3016,11 +3009,27 @@
       "failed" : 5,
       "broken" : 1,
       "skipped" : 0,
-      "passed" : 57,
+      "passed" : 59,
       "unknown" : 0,
-      "total" : 63
+      "total" : 65
     },
     "items" : [ {
+      "uid" : "4c1a8648defd8738",
+      "status" : "passed",
+      "time" : {
+        "start" : 1578980992501,
+        "stop" : 1578980992591,
+        "duration" : 90
+      }
+    }, {
+      "uid" : "c530d6fd1cb1dc49",
+      "status" : "passed",
+      "time" : {
+        "start" : 1578980289721,
+        "stop" : 1578980289807,
+        "duration" : 86
+      }
+    }, {
       "uid" : "de679c1547941773",
       "status" : "passed",
       "time" : {
@@ -3043,22 +3052,6 @@
         "start" : 1574172064511,
         "stop" : 1574172064628,
         "duration" : 117
-      }
-    }, {
-      "uid" : "69e9a3dcd1e62dba",
-      "status" : "passed",
-      "time" : {
-        "start" : 1573195401857,
-        "stop" : 1573195401907,
-        "duration" : 50
-      }
-    }, {
-      "uid" : "c4b20a42c356106c",
-      "status" : "passed",
-      "time" : {
-        "start" : 1573123851568,
-        "stop" : 1573123851656,
-        "duration" : 88
       }
     } ]
   },
@@ -3326,11 +3319,27 @@
       "failed" : 13,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 32,
+      "passed" : 34,
       "unknown" : 0,
-      "total" : 45
+      "total" : 47
     },
     "items" : [ {
+      "uid" : "a19323f419a8ed9c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1578981017373,
+        "stop" : 1578981022413,
+        "duration" : 5040
+      }
+    }, {
+      "uid" : "deddda2fde1c1d2a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1578980318907,
+        "stop" : 1578980326369,
+        "duration" : 7462
+      }
+    }, {
       "uid" : "edf8fba814c4cd0d",
       "status" : "passed",
       "time" : {
@@ -3353,23 +3362,6 @@
         "start" : 1574172102903,
         "stop" : 1574172108272,
         "duration" : 5369
-      }
-    }, {
-      "uid" : "2a08450d5e443f28",
-      "status" : "passed",
-      "time" : {
-        "start" : 1573197669159,
-        "stop" : 1573197673932,
-        "duration" : 4773
-      }
-    }, {
-      "uid" : "e3f82ab459e06fa3",
-      "status" : "failed",
-      "statusDetails" : "AssertionError: 历史消息中未找到发送的消息",
-      "time" : {
-        "start" : 1573196425190,
-        "stop" : 1573196446247,
-        "duration" : 21057
       }
     } ]
   },
@@ -3410,14 +3402,32 @@
   },
   "6d91658fed1e5916ee72fc5baec704e9" : {
     "statistic" : {
-      "failed" : 6,
+      "failed" : 8,
       "broken" : 0,
       "skipped" : 0,
       "passed" : 34,
       "unknown" : 0,
-      "total" : 40
+      "total" : 42
     },
     "items" : [ {
+      "uid" : "91d6389a618e69c4",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: 断言接口返回值失败",
+      "time" : {
+        "start" : 1578981031641,
+        "stop" : 1578981032122,
+        "duration" : 481
+      }
+    }, {
+      "uid" : "98c7c71675da78a0",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: 断言接口返回值失败",
+      "time" : {
+        "start" : 1578980337907,
+        "stop" : 1578980338463,
+        "duration" : 556
+      }
+    }, {
       "uid" : "e0267b2247884700",
       "status" : "passed",
       "time" : {
@@ -3440,23 +3450,6 @@
         "start" : 1574172123298,
         "stop" : 1574172123871,
         "duration" : 573
-      }
-    }, {
-      "uid" : "d738eb87b0ba9273",
-      "status" : "passed",
-      "time" : {
-        "start" : 1573195539914,
-        "stop" : 1573195539986,
-        "duration" : 72
-      }
-    }, {
-      "uid" : "5c8b82eac9ae714e",
-      "status" : "failed",
-      "statusDetails" : "AssertionError: 断言接口返回值失败",
-      "time" : {
-        "start" : 1573134794802,
-        "stop" : 1573134794802,
-        "duration" : 0
       }
     } ]
   },
@@ -3532,14 +3525,32 @@
   },
   "da3cab0ebf64cb2f1e3758ca39440327" : {
     "statistic" : {
-      "failed" : 37,
+      "failed" : 39,
       "broken" : 1,
       "skipped" : 0,
       "passed" : 36,
       "unknown" : 0,
-      "total" : 74
+      "total" : 76
     },
     "items" : [ {
+      "uid" : "2d8de6fea53338dc",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: 返回的数据不应等于：[]",
+      "time" : {
+        "start" : 1578981053504,
+        "stop" : 1578981054022,
+        "duration" : 518
+      }
+    }, {
+      "uid" : "27ef2b49bf6f2de7",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: 返回的数据不应等于：[]",
+      "time" : {
+        "start" : 1578980361558,
+        "stop" : 1578980362116,
+        "duration" : 558
+      }
+    }, {
       "uid" : "e338d9abe0683c46",
       "status" : "failed",
       "statusDetails" : "AssertionError: 返回的数据不应等于：[]",
@@ -3564,23 +3575,6 @@
         "start" : 1574172145588,
         "stop" : 1574172151046,
         "duration" : 5458
-      }
-    }, {
-      "uid" : "b7ebea9c4439dd21",
-      "status" : "passed",
-      "time" : {
-        "start" : 1573197703001,
-        "stop" : 1573197709181,
-        "duration" : 6180
-      }
-    }, {
-      "uid" : "83261ef80aa4f48e",
-      "status" : "failed",
-      "statusDetails" : "AssertionError: 私聊历史消息中未找到发送的消息",
-      "time" : {
-        "start" : 1573196556112,
-        "stop" : 1573196577544,
-        "duration" : 21432
       }
     } ]
   },
@@ -3945,14 +3939,31 @@
   },
   "bd0767cf50f5980755e092d70e8d96ad" : {
     "statistic" : {
-      "failed" : 12,
+      "failed" : 13,
       "broken" : 1,
       "skipped" : 0,
-      "passed" : 54,
+      "passed" : 55,
       "unknown" : 0,
-      "total" : 67
+      "total" : 69
     },
     "items" : [ {
+      "uid" : "14579d3c5672dd1e",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: 历史消息中未找到发送的消息",
+      "time" : {
+        "start" : 1578980998787,
+        "stop" : 1578981003797,
+        "duration" : 5010
+      }
+    }, {
+      "uid" : "2217e031bf3221ff",
+      "status" : "passed",
+      "time" : {
+        "start" : 1578980296468,
+        "stop" : 1578980302006,
+        "duration" : 5538
+      }
+    }, {
       "uid" : "e3fe9c27628cb344",
       "status" : "passed",
       "time" : {
@@ -3975,23 +3986,6 @@
         "start" : 1574172080640,
         "stop" : 1574172085846,
         "duration" : 5206
-      }
-    }, {
-      "uid" : "9590d92f5d84cdb",
-      "status" : "passed",
-      "time" : {
-        "start" : 1573197649938,
-        "stop" : 1573197654940,
-        "duration" : 5002
-      }
-    }, {
-      "uid" : "2a8010f4ac7148b0",
-      "status" : "failed",
-      "statusDetails" : "AssertionError: 历史消息中未找到发送的消息",
-      "time" : {
-        "start" : 1573196358733,
-        "stop" : 1573196381034,
-        "duration" : 22301
       }
     } ]
   },
@@ -4349,11 +4343,27 @@
       "failed" : 4,
       "broken" : 1,
       "skipped" : 0,
-      "passed" : 58,
+      "passed" : 60,
       "unknown" : 0,
-      "total" : 63
+      "total" : 65
     },
     "items" : [ {
+      "uid" : "453c026bcd4079db",
+      "status" : "passed",
+      "time" : {
+        "start" : 1578980992776,
+        "stop" : 1578980992865,
+        "duration" : 89
+      }
+    }, {
+      "uid" : "3a7a0e1ef2f2aec6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1578980290011,
+        "stop" : 1578980290085,
+        "duration" : 74
+      }
+    }, {
       "uid" : "a6a7cb6fb0ec2abd",
       "status" : "passed",
       "time" : {
@@ -4376,22 +4386,6 @@
         "start" : 1574172064867,
         "stop" : 1574172064969,
         "duration" : 102
-      }
-    }, {
-      "uid" : "4f3591e6e82073f0",
-      "status" : "passed",
-      "time" : {
-        "start" : 1573195402009,
-        "stop" : 1573195402050,
-        "duration" : 41
-      }
-    }, {
-      "uid" : "4ca8125e6f469c8c",
-      "status" : "passed",
-      "time" : {
-        "start" : 1573123851913,
-        "stop" : 1573123851994,
-        "duration" : 81
       }
     } ]
   },
@@ -4547,11 +4541,27 @@
       "failed" : 4,
       "broken" : 1,
       "skipped" : 0,
-      "passed" : 58,
+      "passed" : 60,
       "unknown" : 0,
-      "total" : 63
+      "total" : 65
     },
     "items" : [ {
+      "uid" : "684713107f92ece8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1578980992691,
+        "stop" : 1578980992770,
+        "duration" : 79
+      }
+    }, {
+      "uid" : "fb4323e700321834",
+      "status" : "passed",
+      "time" : {
+        "start" : 1578980289895,
+        "stop" : 1578980290003,
+        "duration" : 108
+      }
+    }, {
       "uid" : "172412d75e9c6c67",
       "status" : "passed",
       "time" : {
@@ -4574,22 +4584,6 @@
         "start" : 1574172064752,
         "stop" : 1574172064860,
         "duration" : 108
-      }
-    }, {
-      "uid" : "d3353a09d3aa4bf7",
-      "status" : "passed",
-      "time" : {
-        "start" : 1573195401964,
-        "stop" : 1573195402001,
-        "duration" : 37
-      }
-    }, {
-      "uid" : "42f10e096e0963d7",
-      "status" : "passed",
-      "time" : {
-        "start" : 1573123851747,
-        "stop" : 1573123851907,
-        "duration" : 160
       }
     } ]
   },
@@ -4854,11 +4848,27 @@
       "failed" : 31,
       "broken" : 1,
       "skipped" : 0,
-      "passed" : 49,
+      "passed" : 51,
       "unknown" : 0,
-      "total" : 81
+      "total" : 83
     },
     "items" : [ {
+      "uid" : "1b1b1110cacf2106",
+      "status" : "passed",
+      "time" : {
+        "start" : 1578981032214,
+        "stop" : 1578981037574,
+        "duration" : 5360
+      }
+    }, {
+      "uid" : "5bfe5cc6596e2a86",
+      "status" : "passed",
+      "time" : {
+        "start" : 1578980338581,
+        "stop" : 1578980344934,
+        "duration" : 6353
+      }
+    }, {
       "uid" : "6342f5e03abb899f",
       "status" : "failed",
       "statusDetails" : "AssertionError: 历史消息中未找到发送的消息",
@@ -4883,23 +4893,6 @@
         "start" : 1574172124021,
         "stop" : 1574172129728,
         "duration" : 5707
-      }
-    }, {
-      "uid" : "97aac224cfa700e8",
-      "status" : "passed",
-      "time" : {
-        "start" : 1573197678921,
-        "stop" : 1573197685586,
-        "duration" : 6665
-      }
-    }, {
-      "uid" : "e5972078b307b4f",
-      "status" : "failed",
-      "statusDetails" : "AssertionError: 历史消息中未找到发送的消息",
-      "time" : {
-        "start" : 1573196468719,
-        "stop" : 1573196489996,
-        "duration" : 21277
       }
     } ]
   },
@@ -5075,11 +5068,27 @@
       "failed" : 18,
       "broken" : 4,
       "skipped" : 0,
-      "passed" : 47,
+      "passed" : 49,
       "unknown" : 0,
-      "total" : 69
+      "total" : 71
     },
     "items" : [ {
+      "uid" : "65ebf35c37d51a4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1578981038153,
+        "stop" : 1578981043208,
+        "duration" : 5055
+      }
+    }, {
+      "uid" : "6e196078f1b4402b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1578980345640,
+        "stop" : 1578980350787,
+        "duration" : 5147
+      }
+    }, {
       "uid" : "ae95179ac3999761",
       "status" : "passed",
       "time" : {
@@ -5102,23 +5111,6 @@
         "start" : 1574172130158,
         "stop" : 1574172135401,
         "duration" : 5243
-      }
-    }, {
-      "uid" : "3fa822bce82fc239",
-      "status" : "passed",
-      "time" : {
-        "start" : 1573197686565,
-        "stop" : 1573197691630,
-        "duration" : 5065
-      }
-    }, {
-      "uid" : "80eec0c46c80dce3",
-      "status" : "failed",
-      "statusDetails" : "AssertionError: 返回的数据不应等于：[]",
-      "time" : {
-        "start" : 1573196490491,
-        "stop" : 1573196513089,
-        "duration" : 22598
       }
     } ]
   },
@@ -5299,11 +5291,27 @@
       "failed" : 5,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 33,
+      "passed" : 35,
       "unknown" : 0,
-      "total" : 38
+      "total" : 40
     },
     "items" : [ {
+      "uid" : "284fcd5cd165742f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1578981032136,
+        "stop" : 1578981032209,
+        "duration" : 73
+      }
+    }, {
+      "uid" : "d8bd8227d522f198",
+      "status" : "passed",
+      "time" : {
+        "start" : 1578980338502,
+        "stop" : 1578980338577,
+        "duration" : 75
+      }
+    }, {
       "uid" : "f4c997b1ea34fe02",
       "status" : "passed",
       "time" : {
@@ -5326,23 +5334,6 @@
         "start" : 1574172123876,
         "stop" : 1574172124012,
         "duration" : 136
-      }
-    }, {
-      "uid" : "9846f4d127bc8dd0",
-      "status" : "passed",
-      "time" : {
-        "start" : 1573195539996,
-        "stop" : 1573195540037,
-        "duration" : 41
-      }
-    }, {
-      "uid" : "c122df1e10d5db58",
-      "status" : "failed",
-      "statusDetails" : "AssertionError: 断言接口返回值失败",
-      "time" : {
-        "start" : 1573134794884,
-        "stop" : 1573134794948,
-        "duration" : 64
       }
     } ]
   },
@@ -5371,11 +5362,27 @@
       "failed" : 4,
       "broken" : 1,
       "skipped" : 0,
-      "passed" : 58,
+      "passed" : 60,
       "unknown" : 0,
-      "total" : 63
+      "total" : 65
     },
     "items" : [ {
+      "uid" : "30257640331ec4b4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1578980992872,
+        "stop" : 1578980992953,
+        "duration" : 81
+      }
+    }, {
+      "uid" : "f04495a8c61b0b28",
+      "status" : "passed",
+      "time" : {
+        "start" : 1578980290095,
+        "stop" : 1578980290171,
+        "duration" : 76
+      }
+    }, {
       "uid" : "c14ef1bcaa099a9b",
       "status" : "passed",
       "time" : {
@@ -5399,22 +5406,6 @@
         "stop" : 1574172065079,
         "duration" : 103
       }
-    }, {
-      "uid" : "71a8c590cd76345a",
-      "status" : "passed",
-      "time" : {
-        "start" : 1573195402055,
-        "stop" : 1573195402093,
-        "duration" : 38
-      }
-    }, {
-      "uid" : "1ba3bc3f80db4f09",
-      "status" : "passed",
-      "time" : {
-        "start" : 1573123852000,
-        "stop" : 1573123852079,
-        "duration" : 79
-      }
     } ]
   },
   "470f671f5def2680ef09c288456e23bd" : {
@@ -5422,11 +5413,27 @@
       "failed" : 15,
       "broken" : 1,
       "skipped" : 0,
-      "passed" : 50,
+      "passed" : 52,
       "unknown" : 0,
-      "total" : 66
+      "total" : 68
     },
     "items" : [ {
+      "uid" : "9c2ade7fa1f4ca2e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1578981054034,
+        "stop" : 1578981059375,
+        "duration" : 5341
+      }
+    }, {
+      "uid" : "f03211e2089f7e1c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1578980362133,
+        "stop" : 1578980367738,
+        "duration" : 5605
+      }
+    }, {
       "uid" : "e7bb8933d3f84dee",
       "status" : "passed",
       "time" : {
@@ -5449,24 +5456,6 @@
         "start" : 1574172151051,
         "stop" : 1574172161408,
         "duration" : 10357
-      }
-    }, {
-      "uid" : "67b4e7ae3fb44e04",
-      "status" : "failed",
-      "statusDetails" : "AssertionError: 断言接口返回值失败",
-      "time" : {
-        "start" : 1573197709192,
-        "stop" : 1573197709471,
-        "duration" : 279
-      }
-    }, {
-      "uid" : "78be54a1b933a3b3",
-      "status" : "failed",
-      "statusDetails" : "AssertionError: 断言接口返回值失败",
-      "time" : {
-        "start" : 1573196577557,
-        "stop" : 1573196577663,
-        "duration" : 106
       }
     } ]
   },
@@ -5596,11 +5585,27 @@
       "failed" : 4,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 61,
+      "passed" : 63,
       "unknown" : 0,
-      "total" : 65
+      "total" : 67
     },
     "items" : [ {
+      "uid" : "6f2f88aa52ef5adb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1578980992259,
+        "stop" : 1578980992478,
+        "duration" : 219
+      }
+    }, {
+      "uid" : "17b2538523b3783",
+      "status" : "passed",
+      "time" : {
+        "start" : 1578980289436,
+        "stop" : 1578980289710,
+        "duration" : 274
+      }
+    }, {
       "uid" : "bb7708f8cce5958",
       "status" : "passed",
       "time" : {
@@ -5623,22 +5628,6 @@
         "start" : 1574172064116,
         "stop" : 1574172064481,
         "duration" : 365
-      }
-    }, {
-      "uid" : "87dcbb6c5d4f2eb",
-      "status" : "passed",
-      "time" : {
-        "start" : 1573195399582,
-        "stop" : 1573195401845,
-        "duration" : 2263
-      }
-    }, {
-      "uid" : "d02c2c7ca427006c",
-      "status" : "passed",
-      "time" : {
-        "start" : 1573123851418,
-        "stop" : 1573123851560,
-        "duration" : 142
       }
     } ]
   },
@@ -5856,11 +5845,27 @@
       "failed" : 17,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 11,
+      "passed" : 13,
       "unknown" : 0,
-      "total" : 28
+      "total" : 30
     },
     "items" : [ {
+      "uid" : "ddbc744c018b582d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1578980992489,
+        "stop" : 1578980992489,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "2f0c9d83a8256475",
+      "status" : "passed",
+      "time" : {
+        "start" : 1578980289715,
+        "stop" : 1578980289715,
+        "duration" : 0
+      }
+    }, {
       "uid" : "1468b6b0820723c5",
       "status" : "passed",
       "time" : {
@@ -5885,22 +5890,6 @@
         "stop" : 1574172064484,
         "duration" : 1
       }
-    }, {
-      "uid" : "468aea733f5d5d7f",
-      "status" : "passed",
-      "time" : {
-        "start" : 1573195401850,
-        "stop" : 1573195401850,
-        "duration" : 0
-      }
-    }, {
-      "uid" : "e77696961b4496ca",
-      "status" : "passed",
-      "time" : {
-        "start" : 1573123851563,
-        "stop" : 1573123851564,
-        "duration" : 1
-      }
     } ]
   },
   "e6ddc689e127d4be35c264f55588257e" : {
@@ -5908,11 +5897,27 @@
       "failed" : 4,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 14,
+      "passed" : 16,
       "unknown" : 0,
-      "total" : 18
+      "total" : 20
     },
     "items" : [ {
+      "uid" : "60611b59faca9b97",
+      "status" : "passed",
+      "time" : {
+        "start" : 1578980992106,
+        "stop" : 1578980992254,
+        "duration" : 148
+      }
+    }, {
+      "uid" : "3957b942e6b47d4d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1578980289140,
+        "stop" : 1578980289432,
+        "duration" : 292
+      }
+    }, {
       "uid" : "3ce34a6ec70dc7b5",
       "status" : "passed",
       "time" : {
@@ -5935,22 +5940,6 @@
         "start" : 1574172063961,
         "stop" : 1574172064112,
         "duration" : 151
-      }
-    }, {
-      "uid" : "8fa19f30aefca1cb",
-      "status" : "passed",
-      "time" : {
-        "start" : 1573195399477,
-        "stop" : 1573195399578,
-        "duration" : 101
-      }
-    }, {
-      "uid" : "2403a76d567dcbef",
-      "status" : "passed",
-      "time" : {
-        "start" : 1573123851252,
-        "stop" : 1573123851414,
-        "duration" : 162
       }
     } ]
   }

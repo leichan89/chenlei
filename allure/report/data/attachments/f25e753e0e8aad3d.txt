@@ -1,0 +1,32 @@
+2020-01-14 13:50:53 apiinfo.py[line:76] DEBUG: 获取接口【liveSelectorList:直播选择器列表】信息异常，info中接口的headers为空
+2020-01-14 13:50:53 apiinfo.py[line:109] DEBUG: 获取接口【liveSelectorList:直播选择器列表】信息异常，info中接口的data为空
+2020-01-14 13:50:53 myrequests.py[line:40] INFO: 
+
+***************************************************************************接口请求分割线***************************************************************************
+
+2020-01-14 13:50:53 myrequests.py[line:43] INFO: 开始访问接口:【liveSelectorList:直播选择器列表】
+2020-01-14 13:50:53 myrequests.py[line:120] INFO: 发送get请求
+2020-01-14 13:50:53 myrequests.py[line:124] INFO: 请求参数信息为
+{
+  "goodsId": 68437,
+  "liveEndTime": "2020-01-14 13:50:53",
+  "liveStartTime": "2018-09-01 13:50:53",
+  "status": 2,
+  "subjectId": "1"
+}
+2020-01-14 13:50:54 myrequests.py[line:231] INFO: 接口请求地址为
+https://api-diligent-mgt.haixue.com/diligent/chatSelector/liveSelectorList?status=2&subjectId=1&liveStartTime=2018-09-01+13%3A50%3A53&liveEndTime=2020-01-14+13%3A50%3A53&goodsId=68437
+2020-01-14 13:50:54 myrequests.py[line:236] INFO: 响应状态码为:200，响应时间为:0.509897
+2020-01-14 13:50:54 custom_assert.py[line:40] INFO: 
+断言值为:
+{
+  "code": 200
+}
+响应信息:
+{
+  "code": 200,
+  "data": [],
+  "msg": "success"
+}
+2020-01-14 13:50:54 custom_assert.py[line:131] INFO: 断言json中指定的key【data】的返回数据的类型必须是【<class 'list'>】，返回数据不能是【[]】
+2020-01-14 13:50:54 custom_assert.py[line:141] ERROR: 返回的数据不应等于：[]

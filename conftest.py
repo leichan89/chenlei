@@ -73,23 +73,23 @@ def pytest_configure(config):
         config.option.htmlpath = htmlpath
 
     # 配置allure测试结果
-    result_dir = config.option.allure_report_dir
-    if not result_dir:
-        result_dir = allure_result
-        if os.path.exists(result_dir):
-            logger.debug('删除allure目录下result中的文件')
-            shutil.rmtree(result_dir)
-        config.option.allure_report_dir = result_dir
-
-    # 生成allure报告前清理history数据
-    if os.path.exists(history_bak):
-        logger.debug('删除allure备份的history文件')
-        shutil.rmtree(history_bak)
-
-    # 将上次历史记录拷贝出来，拷贝前备份历史记录的目录应删除
-    if os.path.exists(allure_history):
-        # 判断报告中的history目录下是否存在数据
-        if os.listdir(allure_history):
-            # 运行当前测试用例前把上次的结果记录拷贝出来，运行前先删除该目录
-            logger.debug('从历史记录allure/report/history目录拷贝到allure/history目录下')
-            shutil.copytree(allure_history, history_bak)
+    # result_dir = config.option.allure_report_dir
+    # if not result_dir:
+    #     result_dir = allure_result
+    #     if os.path.exists(result_dir):
+    #         logger.debug('删除allure目录下result中的文件')
+    #         shutil.rmtree(result_dir)
+    #     config.option.allure_report_dir = result_dir
+    #
+    # # 生成allure报告前清理history数据
+    # if os.path.exists(history_bak):
+    #     logger.debug('删除allure备份的history文件')
+    #     shutil.rmtree(history_bak)
+    #
+    # # 将上次历史记录拷贝出来，拷贝前备份历史记录的目录应删除
+    # if os.path.exists(allure_history):
+    #     # 判断报告中的history目录下是否存在数据
+    #     if os.listdir(allure_history):
+    #         # 运行当前测试用例前把上次的结果记录拷贝出来，运行前先删除该目录
+    #         logger.debug('从历史记录allure/report/history目录拷贝到allure/history目录下')
+    #         shutil.copytree(allure_history, history_bak)

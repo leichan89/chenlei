@@ -4,12 +4,12 @@
     "uid" : "8b29b8a5f9f22b9c5a0f61c201fd324c",
     "name" : "testcases.jjxt",
     "statistic" : {
-      "failed" : 1,
+      "failed" : 5,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 0,
+      "passed" : 26,
       "unknown" : 0,
-      "total" : 1
+      "total" : 31
     }
   } ]
 }

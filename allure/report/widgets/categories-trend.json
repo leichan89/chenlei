@@ -1,7 +1,13 @@
 [ {
   "data" : {
-    "Product defects" : 1
+    "Product defects" : 5
   }
+}, {
+  "data" : {
+    "Product defects" : 5
+  }
+}, {
+  "data" : { }
 }, {
   "data" : {
     "Product defects" : 1
@@ -11,8 +17,6 @@
     "Product defects" : 1
   }
 }, {
-  "data" : { }
-}, {
   "data" : {
     "Product defects" : 1
   }
@@ -31,12 +35,6 @@
 }, {
   "data" : { }
 }, {
-  "data" : { }
-}, {
-  "data" : { }
-}, {
-  "data" : { }
-}, {
   "data" : {
     "Product defects" : 1
   }
@@ -52,6 +50,10 @@
   "data" : {
     "Product defects" : 1
   }
+}, {
+  "data" : { }
+}, {
+  "data" : { }
 }, {
   "data" : { }
 } ]

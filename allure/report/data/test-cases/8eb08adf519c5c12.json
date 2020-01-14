@@ -1,25 +1,68 @@
 {
-  "uid" : "8494c3fc7f2e1f0a",
+  "uid" : "8eb08adf519c5c12",
   "name" : "导出学员列表数据",
   "fullName" : "testcases.jjxt.test_export_excel.TestExportPointMonth#test_export_excel",
   "historyId" : "92d15c5d211f3276ece7cf5ecaac3754",
   "time" : {
-    "start" : 1578544741802,
-    "stop" : 1578544742190,
-    "duration" : 388
+    "start" : 1578980991605,
+    "stop" : 1578980991784,
+    "duration" : 179
   },
   "description" : "\n        导出学员列表数据\n        ",
   "descriptionHtml" : "<pre><code>    导出学员列表数据\n</code></pre>\n",
-  "status" : "failed",
-  "statusMessage" : "AssertionError: 接口请求发生未知异常, Expecting value: line 1 column 1 (char 0)",
-  "statusTrace" : "E   AssertionError: 接口请求发生未知异常, Expecting value: line 1 column 1 (char 0)",
-  "flaky" : true,
+  "status" : "passed",
+  "flaky" : false,
   "newFailed" : false,
   "beforeStages" : [ {
+    "name" : "get_customerid",
+    "time" : {
+      "start" : 1578980990773,
+      "stop" : 1578980991320,
+      "duration" : 547
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "get_stageid_and_taskid",
+    "time" : {
+      "start" : 1578980991490,
+      "stop" : 1578980991596,
+      "duration" : 106
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "get_clazzid",
+    "time" : {
+      "start" : 1578980991490,
+      "stop" : 1578980991490,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
     "name" : "__pytest_repeat_step_number",
     "time" : {
-      "start" : 1578544741800,
-      "stop" : 1578544741800,
+      "start" : 1578980991596,
+      "stop" : 1578980991596,
       "duration" : 0
     },
     "status" : "passed",
@@ -33,54 +76,9 @@
   }, {
     "name" : "get_clazzinfo",
     "time" : {
-      "start" : 1578544741544,
-      "stop" : 1578544741706,
-      "duration" : 162
-    },
-    "status" : "passed",
-    "steps" : [ ],
-    "attachments" : [ ],
-    "parameters" : [ ],
-    "stepsCount" : 0,
-    "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false,
-    "hasContent" : false
-  }, {
-    "name" : "get_customerid",
-    "time" : {
-      "start" : 1578544741136,
-      "stop" : 1578544741544,
-      "duration" : 408
-    },
-    "status" : "passed",
-    "steps" : [ ],
-    "attachments" : [ ],
-    "parameters" : [ ],
-    "stepsCount" : 0,
-    "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false,
-    "hasContent" : false
-  }, {
-    "name" : "get_stageid_and_taskid",
-    "time" : {
-      "start" : 1578544741710,
-      "stop" : 1578544741800,
-      "duration" : 90
-    },
-    "status" : "passed",
-    "steps" : [ ],
-    "attachments" : [ ],
-    "parameters" : [ ],
-    "stepsCount" : 0,
-    "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false,
-    "hasContent" : false
-  }, {
-    "name" : "get_clazzid",
-    "time" : {
-      "start" : 1578544741708,
-      "stop" : 1578544741708,
-      "duration" : 0
+      "start" : 1578980991320,
+      "stop" : 1578980991490,
+      "duration" : 170
     },
     "status" : "passed",
     "steps" : [ ],
@@ -93,42 +91,40 @@
   } ],
   "testStage" : {
     "description" : "\n        导出学员列表数据\n        ",
-    "status" : "failed",
-    "statusMessage" : "AssertionError: 接口请求发生未知异常, Expecting value: line 1 column 1 (char 0)",
-    "statusTrace" : "E   AssertionError: 接口请求发生未知异常, Expecting value: line 1 column 1 (char 0)",
+    "status" : "passed",
     "steps" : [ ],
     "attachments" : [ {
-      "uid" : "3ee7845dd0310a20",
+      "uid" : "2584a9599be9e64f",
       "name" : "log",
-      "source" : "3ee7845dd0310a20.txt",
+      "source" : "2584a9599be9e64f.txt",
       "type" : "text/plain",
-      "size" : 97688
+      "size" : 97980
     } ],
     "parameters" : [ ],
     "stepsCount" : 0,
     "attachmentsCount" : 1,
-    "shouldDisplayMessage" : true,
+    "shouldDisplayMessage" : false,
     "hasContent" : true
   },
   "afterStages" : [ ],
   "labels" : [ {
+    "name" : "story",
+    "value" : "学员列表"
+  }, {
     "name" : "severity",
     "value" : "critical"
-  }, {
-    "name" : "feature",
-    "value" : "班级"
   }, {
     "name" : "epic",
     "value" : "我的班级"
   }, {
-    "name" : "story",
-    "value" : "学员列表"
-  }, {
-    "name" : "tag",
-    "value" : "myclass"
+    "name" : "feature",
+    "value" : "班级"
   }, {
     "name" : "tag",
     "value" : "smoke"
+  }, {
+    "name" : "tag",
+    "value" : "myclass"
   }, {
     "name" : "parentSuite",
     "value" : "testcases.jjxt"
@@ -143,7 +139,7 @@
     "value" : "chenleideMacBook-Pro.local"
   }, {
     "name" : "thread",
-    "value" : "17411-MainThread"
+    "value" : "8980-MainThread"
   }, {
     "name" : "framework",
     "value" : "pytest"
@@ -164,21 +160,34 @@
   "extra" : {
     "severity" : "critical",
     "retries" : [ ],
-    "categories" : [ {
-      "name" : "Product defects",
-      "matchedStatuses" : [ ],
-      "flaky" : false
-    } ],
+    "categories" : [ ],
     "history" : {
       "statistic" : {
         "failed" : 13,
         "broken" : 0,
         "skipped" : 0,
-        "passed" : 12,
+        "passed" : 14,
         "unknown" : 0,
-        "total" : 25
+        "total" : 27
       },
       "items" : [ {
+        "uid" : "ac98806633799396",
+        "status" : "passed",
+        "time" : {
+          "start" : 1578980288397,
+          "stop" : 1578980288594,
+          "duration" : 197
+        }
+      }, {
+        "uid" : "8494c3fc7f2e1f0a",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: 接口请求发生未知异常, Expecting value: line 1 column 1 (char 0)",
+        "time" : {
+          "start" : 1578544741802,
+          "stop" : 1578544742190,
+          "duration" : 388
+        }
+      }, {
         "uid" : "51fdc93e5d13015b",
         "status" : "failed",
         "statusDetails" : "AssertionError: 接口响应头信息中未获取到文件名称",
@@ -204,27 +213,10 @@
           "stop" : 1578543895085,
           "duration" : 32910
         }
-      }, {
-        "uid" : "29e3c146825e1bfc",
-        "status" : "failed",
-        "statusDetails" : "AssertionError: 接口请求发生未知异常, 'content-disposition'",
-        "time" : {
-          "start" : 1578543360711,
-          "stop" : 1578543360789,
-          "duration" : 78
-        }
-      }, {
-        "uid" : "773cdb98c9a65ddb",
-        "status" : "passed",
-        "time" : {
-          "start" : 1578543323175,
-          "stop" : 1578543329197,
-          "duration" : 6022
-        }
       } ]
     },
     "tags" : [ "smoke", "myclass" ]
   },
-  "source" : "8494c3fc7f2e1f0a.json",
+  "source" : "8eb08adf519c5c12.json",
   "parameterValues" : [ ]
 }
