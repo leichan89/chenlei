@@ -1,0 +1,4 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"failed","Thu Jan 09 12:39:01 CST 2020","Thu Jan 09 12:39:02 CST 2020","388","testcases.jjxt","test_export_excel","TestExportPointMonth","","","导出学员列表数据","
+        导出学员列表数据
+        "

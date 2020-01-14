@@ -1,0 +1,230 @@
+{
+  "uid" : "8494c3fc7f2e1f0a",
+  "name" : "导出学员列表数据",
+  "fullName" : "testcases.jjxt.test_export_excel.TestExportPointMonth#test_export_excel",
+  "historyId" : "92d15c5d211f3276ece7cf5ecaac3754",
+  "time" : {
+    "start" : 1578544741802,
+    "stop" : 1578544742190,
+    "duration" : 388
+  },
+  "description" : "\n        导出学员列表数据\n        ",
+  "descriptionHtml" : "<pre><code>    导出学员列表数据\n</code></pre>\n",
+  "status" : "failed",
+  "statusMessage" : "AssertionError: 接口请求发生未知异常, Expecting value: line 1 column 1 (char 0)",
+  "statusTrace" : "E   AssertionError: 接口请求发生未知异常, Expecting value: line 1 column 1 (char 0)",
+  "flaky" : true,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "__pytest_repeat_step_number",
+    "time" : {
+      "start" : 1578544741800,
+      "stop" : 1578544741800,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "get_clazzinfo",
+    "time" : {
+      "start" : 1578544741544,
+      "stop" : 1578544741706,
+      "duration" : 162
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "get_customerid",
+    "time" : {
+      "start" : 1578544741136,
+      "stop" : 1578544741544,
+      "duration" : 408
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "get_stageid_and_taskid",
+    "time" : {
+      "start" : 1578544741710,
+      "stop" : 1578544741800,
+      "duration" : 90
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "get_clazzid",
+    "time" : {
+      "start" : 1578544741708,
+      "stop" : 1578544741708,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "\n        导出学员列表数据\n        ",
+    "status" : "failed",
+    "statusMessage" : "AssertionError: 接口请求发生未知异常, Expecting value: line 1 column 1 (char 0)",
+    "statusTrace" : "E   AssertionError: 接口请求发生未知异常, Expecting value: line 1 column 1 (char 0)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "3ee7845dd0310a20",
+      "name" : "log",
+      "source" : "3ee7845dd0310a20.txt",
+      "type" : "text/plain",
+      "size" : 97688
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "feature",
+    "value" : "班级"
+  }, {
+    "name" : "epic",
+    "value" : "我的班级"
+  }, {
+    "name" : "story",
+    "value" : "学员列表"
+  }, {
+    "name" : "tag",
+    "value" : "myclass"
+  }, {
+    "name" : "tag",
+    "value" : "smoke"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcases.jjxt"
+  }, {
+    "name" : "suite",
+    "value" : "test_export_excel"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestExportPointMonth"
+  }, {
+    "name" : "host",
+    "value" : "chenleideMacBook-Pro.local"
+  }, {
+    "name" : "thread",
+    "value" : "17411-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcases.jjxt.test_export_excel"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "critical",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 13,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 12,
+        "unknown" : 0,
+        "total" : 25
+      },
+      "items" : [ {
+        "uid" : "51fdc93e5d13015b",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: 接口响应头信息中未获取到文件名称",
+        "time" : {
+          "start" : 1578544648263,
+          "stop" : 1578544648343,
+          "duration" : 80
+        }
+      }, {
+        "uid" : "1593515aa3c6104a",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: 未获取到文件名称",
+        "time" : {
+          "start" : 1578544288603,
+          "stop" : 1578544288706,
+          "duration" : 103
+        }
+      }, {
+        "uid" : "62e2abfedf15cb3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1578543862175,
+          "stop" : 1578543895085,
+          "duration" : 32910
+        }
+      }, {
+        "uid" : "29e3c146825e1bfc",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: 接口请求发生未知异常, 'content-disposition'",
+        "time" : {
+          "start" : 1578543360711,
+          "stop" : 1578543360789,
+          "duration" : 78
+        }
+      }, {
+        "uid" : "773cdb98c9a65ddb",
+        "status" : "passed",
+        "time" : {
+          "start" : 1578543323175,
+          "stop" : 1578543329197,
+          "duration" : 6022
+        }
+      } ]
+    },
+    "tags" : [ "smoke", "myclass" ]
+  },
+  "source" : "8494c3fc7f2e1f0a.json",
+  "parameterValues" : [ ]
+}

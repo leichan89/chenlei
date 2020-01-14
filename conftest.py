@@ -66,7 +66,7 @@ def pytest_configure(config):
     # 设置pytest-html插件生成的测试报告命令行参数中的路径
     if config.getoption('--html'):
         confpath = config.option.htmlpath
-        htmlpath = dir + os.sep + 'report' + os.sep + '{time}-{env}-{path}'.format(
+        htmlpath = dir + os.sep + 'reports' + os.sep + '{time}-{env}-{path}'.format(
             time=time.strftime('%Y-%m-%d', time.localtime()),
             env=configer.configer().get('env', 'env'),
             path=confpath)
