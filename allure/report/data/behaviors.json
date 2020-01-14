@@ -1,0 +1,30 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "我的班级",
+    "children" : [ {
+      "name" : "班级",
+      "children" : [ {
+        "name" : "学员列表",
+        "children" : [ {
+          "name" : "导出学员列表数据",
+          "uid" : "8494c3fc7f2e1f0a",
+          "parentUid" : "a2808709957799180390289a66080a6c",
+          "status" : "failed",
+          "time" : {
+            "start" : 1578544741802,
+            "stop" : 1578544742190,
+            "duration" : 388
+          },
+          "flaky" : true,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "a2808709957799180390289a66080a6c"
+      } ],
+      "uid" : "61b197137f180a2998c1edee88e13a83"
+    } ],
+    "uid" : "ddd9cf51f12297cfc44218df3788963c"
+  } ]
+}

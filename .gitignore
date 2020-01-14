@@ -1,0 +1,7 @@
+log/*
+reports/*
+temp/*
+venv/*
+mytestfile.py
+config/*
+

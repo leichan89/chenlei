@@ -1,0 +1,26 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "AssertionError: 接口请求发生未知异常, Expecting value: line 1 column 1 (char 0)",
+      "children" : [ {
+        "name" : "导出学员列表数据",
+        "uid" : "8494c3fc7f2e1f0a",
+        "parentUid" : "211eb0e252dbd039aa016aead4a495c4",
+        "status" : "failed",
+        "time" : {
+          "start" : 1578544741802,
+          "stop" : 1578544742190,
+          "duration" : 388
+        },
+        "flaky" : true,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "211eb0e252dbd039aa016aead4a495c4"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}

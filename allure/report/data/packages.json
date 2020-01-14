@@ -1,0 +1,22 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "testcases.jjxt.test_export_excel",
+    "children" : [ {
+      "name" : "导出学员列表数据",
+      "uid" : "8494c3fc7f2e1f0a",
+      "parentUid" : "3e573edad5c128b1862cc4333d0827bb",
+      "status" : "failed",
+      "time" : {
+        "start" : 1578544741802,
+        "stop" : 1578544742190,
+        "duration" : 388
+      },
+      "flaky" : true,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "testcases.jjxt.test_export_excel"
+  } ]
+}

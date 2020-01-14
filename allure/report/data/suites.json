@@ -1,0 +1,30 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "testcases.jjxt",
+    "children" : [ {
+      "name" : "test_export_excel",
+      "children" : [ {
+        "name" : "TestExportPointMonth",
+        "children" : [ {
+          "name" : "导出学员列表数据",
+          "uid" : "8494c3fc7f2e1f0a",
+          "parentUid" : "0432fc8585aec04c742e673ecd7ed09c",
+          "status" : "failed",
+          "time" : {
+            "start" : 1578544741802,
+            "stop" : 1578544742190,
+            "duration" : 388
+          },
+          "flaky" : true,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "0432fc8585aec04c742e673ecd7ed09c"
+      } ],
+      "uid" : "b7f6834a9b58d7954fb4818026c553ca"
+    } ],
+    "uid" : "8b29b8a5f9f22b9c5a0f61c201fd324c"
+  } ]
+}
