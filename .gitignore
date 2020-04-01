@@ -4,5 +4,5 @@ temp/*
 venv/*
 mytestfile.py
 config/envconf
-/allure/
+/allure/*
 /mytest/
