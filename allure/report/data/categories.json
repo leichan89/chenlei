@@ -4,76 +4,29 @@
   "children" : [ {
     "name" : "Product defects",
     "children" : [ {
-      "name" : "AssertionError: 断言接口返回值失败",
-      "children" : [ {
-        "name" : "发送群文件：上传文件-发送xlsx文件-历史消息查看发送的文件",
-        "uid" : "bbd1c6124c919ef4",
-        "parentUid" : "fed5fc4cc9301e91abe940da08758486",
-        "status" : "failed",
-        "time" : {
-          "start" : 1578980993232,
-          "stop" : 1578980998678,
-          "duration" : 5446
-        },
-        "flaky" : false,
-        "newFailed" : true,
-        "parameters" : [ ]
-      }, {
-        "name" : "发送群答题：查询科目-查询模块-查询试卷-查询试题-再次推送相同试题，不应该推送成功",
-        "uid" : "91d6389a618e69c4",
-        "parentUid" : "fed5fc4cc9301e91abe940da08758486",
-        "status" : "failed",
-        "time" : {
-          "start" : 1578981031641,
-          "stop" : 1578981032122,
-          "duration" : 481
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "fed5fc4cc9301e91abe940da08758486"
-    }, {
-      "name" : "AssertionError: 历史消息中未找到发送的消息",
-      "children" : [ {
-        "name" : "发送群图片：上传图片-发送jpg图片-历史消息查看发送的图片",
-        "uid" : "14579d3c5672dd1e",
-        "parentUid" : "a13cf1c1f21d917a23f712e185ea0f45",
-        "status" : "failed",
-        "time" : {
-          "start" : 1578980998787,
-          "stop" : 1578981003797,
-          "duration" : 5010
-        },
-        "flaky" : false,
-        "newFailed" : true,
-        "parameters" : [ ]
-      } ],
-      "uid" : "a13cf1c1f21d917a23f712e185ea0f45"
-    }, {
       "name" : "AssertionError: 返回的数据不应等于：[]",
       "children" : [ {
         "name" : "发送群直播：查询直播-随机发送已结束直播-查询直播详情-历史消息中查看发送的直播",
-        "uid" : "c7f94656f065b503",
+        "uid" : "e8a4d94bacad3a4",
         "parentUid" : "742a59e65fe8de32713596073eb6cfc4",
         "status" : "failed",
         "time" : {
-          "start" : 1578981009337,
-          "stop" : 1578981010006,
-          "duration" : 669
+          "start" : 1585729340136,
+          "stop" : 1585729340365,
+          "duration" : 229
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "私聊发送直播：查询直播-向单个学员随机发送已结束直播-查询直播详情",
-        "uid" : "2d8de6fea53338dc",
+        "uid" : "8fcb7ccfc76f039c",
         "parentUid" : "742a59e65fe8de32713596073eb6cfc4",
         "status" : "failed",
         "time" : {
-          "start" : 1578981053504,
-          "stop" : 1578981054022,
-          "duration" : 518
+          "start" : 1585729445908,
+          "stop" : 1585729446206,
+          "duration" : 298
         },
         "flaky" : false,
         "newFailed" : false,

@@ -1,0 +1,20 @@
+2020-04-01 16:21:51 myrequests.py[line:40] INFO: 
+
+***************************************************************************接口请求分割线***************************************************************************
+
+2020-04-01 16:21:51 myrequests.py[line:43] INFO: 开始访问接口:【getTeacherImInfo:获取老师基本信息】
+2020-04-01 16:21:51 myrequests.py[line:132] INFO: 发送get请求
+2020-04-01 16:21:51 myrequests.py[line:244] INFO: 接口请求地址为
+https://api-diligent-mgt.haixue.com/diligent/tencent/im/getTeacherImInfo/3000
+2020-04-01 16:21:51 myrequests.py[line:249] INFO: 响应状态码为:200，响应时间为:0.078912
+2020-04-01 16:21:51 custom_assert.py[line:40] INFO: 
+断言值为:
+{
+  "code": 500
+}
+响应信息:
+{
+  "code": 500,
+  "data": null,
+  "msg": "该老师无IM账号，请联系教务管理"
+}

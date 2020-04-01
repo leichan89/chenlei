@@ -1,0 +1,201 @@
+{
+  "uid" : "3bb4519e5799c1c9",
+  "name" : "私聊发送文本消息：发送文本消息",
+  "fullName" : "testcases.jjxt.test_send_person_text.TestSendPersonText#test_send_person_text[34-50]",
+  "historyId" : "cb726c2d53427141d58553d5c19f2b17",
+  "time" : {
+    "start" : 1585729467688,
+    "stop" : 1585729468094,
+    "duration" : 406
+  },
+  "description" : "\n        私聊发送文本消息：发送文本消息\n        ",
+  "descriptionHtml" : "<pre><code>    私聊发送文本消息：发送文本消息\n</code></pre>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "get_clazzinfo",
+    "time" : {
+      "start" : 1585729309935,
+      "stop" : 1585729310219,
+      "duration" : 284
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "get_clazzid",
+    "time" : {
+      "start" : 1585729310220,
+      "stop" : 1585729310220,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "get_studentid",
+    "time" : {
+      "start" : 1585729417219,
+      "stop" : 1585729417846,
+      "duration" : 627
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "__pytest_repeat_step_number",
+    "time" : {
+      "start" : 1585729467687,
+      "stop" : 1585729467687,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "get_customerid",
+    "time" : {
+      "start" : 1585729309469,
+      "stop" : 1585729309935,
+      "duration" : 466
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "\n        私聊发送文本消息：发送文本消息\n        ",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "4afd113ca24d94e3",
+      "name" : "log",
+      "source" : "4afd113ca24d94e3.txt",
+      "type" : "text/plain",
+      "size" : 1736
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "我的班级"
+  }, {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "feature",
+    "value" : "私聊"
+  }, {
+    "name" : "story",
+    "value" : "发送文本"
+  }, {
+    "name" : "tag",
+    "value" : "text"
+  }, {
+    "name" : "tag",
+    "value" : "myclass"
+  }, {
+    "name" : "tag",
+    "value" : "smoke"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcases.jjxt"
+  }, {
+    "name" : "suite",
+    "value" : "test_send_person_text"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestSendPersonText"
+  }, {
+    "name" : "host",
+    "value" : "chenleideMacBook-Pro.local"
+  }, {
+    "name" : "thread",
+    "value" : "28478-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcases.jjxt.test_send_person_text"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "__pytest_repeat_step_number",
+    "value" : "33"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "critical",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 3,
+        "unknown" : 0,
+        "total" : 3
+      },
+      "items" : [ {
+        "uid" : "b0420d79bd7a133e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1585729079684,
+          "stop" : 1585729080091,
+          "duration" : 407
+        }
+      }, {
+        "uid" : "25814d49c4d57faa",
+        "status" : "passed",
+        "time" : {
+          "start" : 1585726435730,
+          "stop" : 1585726436099,
+          "duration" : 369
+        }
+      } ]
+    },
+    "tags" : [ "smoke", "text", "myclass" ]
+  },
+  "source" : "3bb4519e5799c1c9.json",
+  "parameterValues" : [ "33" ]
+}

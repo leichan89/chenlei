@@ -1,0 +1,41 @@
+2020-04-01 16:24:20 myrequests.py[line:40] INFO: 
+
+***************************************************************************接口请求分割线***************************************************************************
+
+2020-04-01 16:24:20 myrequests.py[line:43] INFO: 开始访问接口:【sendMsgPerson:发送私聊消息】
+2020-04-01 16:24:20 myrequests.py[line:115] INFO: 发送post_form请求
+2020-04-01 16:24:20 myrequests.py[line:119] INFO: 请求参数信息为
+{
+  "clazzId": 567,
+  "customerId": 1585,
+  "messageContent": {
+    "msgType": "TEXT",
+    "randomStr": 1585729460000,
+    "sendStatus": "sending",
+    "textMsg": {
+      "callIdentifier": "",
+      "callIdentifierNickName": "",
+      "callSomeone": false,
+      "text": "私聊1585729460000"
+    },
+    "top": false
+  },
+  "messageType": "TEXT",
+  "randomStr": 1585729460000,
+  "studentId": 25968417,
+  "top": "false"
+}
+2020-04-01 16:24:20 myrequests.py[line:244] INFO: 接口请求地址为
+https://api-diligent-mgt.haixue.com/diligent/tencent/im/sendMsgPerson/25968417?customerId=1585&clazzId=567&messageType=TEXT&top=false&randomStr=1585729460000&messageContent=%7B%27randomStr%27%3A+1585729460000%2C+%27sendStatus%27%3A+%27sending%27%2C+%27msgType%27%3A+%27TEXT%27%2C+%27top%27%3A+%27false%27%2C+%27textMsg%27%3A+%7B%27callSomeone%27%3A+%27false%27%2C+%27callIdentifier%27%3A+%27%27%2C+%27callIdentifierNickName%27%3A+%27%27%2C+%27text%27%3A+%27%E7%A7%81%E8%81%8A1585729460000%27%7D%7D&studentId=25968417
+2020-04-01 16:24:20 myrequests.py[line:249] INFO: 响应状态码为:200，响应时间为:0.367785
+2020-04-01 16:24:20 custom_assert.py[line:40] INFO: 
+断言值为:
+{
+  "code": 200
+}
+响应信息:
+{
+  "code": 200,
+  "data": "success",
+  "msg": null
+}

@@ -1,0 +1,673 @@
+2020-04-01 16:22:10 myrequests.py[line:40] INFO: 
+
+***************************************************************************接口请求分割线***************************************************************************
+
+2020-04-01 16:22:10 myrequests.py[line:43] INFO: 开始访问接口:【liveSelectorList:直播选择器列表】
+2020-04-01 16:22:10 myrequests.py[line:132] INFO: 发送get请求
+2020-04-01 16:22:10 myrequests.py[line:136] INFO: 请求参数信息为
+{
+  "goodsId": 75323,
+  "liveEndTime": "2020-04-01 16:22:10",
+  "liveStartTime": "2018-11-18 16:22:10",
+  "status": 3,
+  "subjectId": "1"
+}
+2020-04-01 16:22:10 myrequests.py[line:244] INFO: 接口请求地址为
+https://api-diligent-mgt.haixue.com/diligent/chatSelector/liveSelectorList?status=3&subjectId=1&liveStartTime=2018-11-18+16%3A22%3A10&liveEndTime=2020-04-01+16%3A22%3A10&goodsId=75323
+2020-04-01 16:22:10 myrequests.py[line:249] INFO: 响应状态码为:200，响应时间为:0.203359
+2020-04-01 16:22:10 custom_assert.py[line:40] INFO: 
+断言值为:
+{
+  "code": 200
+}
+响应信息:
+{
+  "code": 200,
+  "data": [
+    {
+      "categoryId": 9,
+      "categoryName": "一级建造师",
+      "isPlayback": 1,
+      "liveDetailUrl": "http://end.haixue.com/live/viewLive.do?operate=view&id=74673",
+      "liveEndTime": 1575637200000,
+      "liveEnterUrl": "http://end.haixue.com/live/findAllLive.do",
+      "liveId": 74673,
+      "liveName": "前导直播-经济1",
+      "liveStartTime": 1575630000000,
+      "status": "LIVEPLAYBACK",
+      "subjectId": 1,
+      "subjectName": "建设工程经济",
+      "subjectShortName": "经济",
+      "teacherName": "李理"
+    },
+    {
+      "categoryId": 9,
+      "categoryName": "一级建造师",
+      "isPlayback": 1,
+      "liveDetailUrl": "http://end.haixue.com/live/viewLive.do?operate=view&id=75749",
+      "liveEndTime": 1576587600000,
+      "liveEnterUrl": "http://end.haixue.com/live/findAllLive.do",
+      "liveId": 75749,
+      "liveName": "基础先修-经济1",
+      "liveStartTime": 1576580400000,
+      "status": "LIVEPLAYBACK",
+      "subjectId": 1,
+      "subjectName": "建设工程经济",
+      "subjectShortName": "经济",
+      "teacherName": "王晓波"
+    },
+    {
+      "categoryId": 9,
+      "categoryName": "一级建造师",
+      "isPlayback": 1,
+      "liveDetailUrl": "http://end.haixue.com/live/viewLive.do?operate=view&id=75761",
+      "liveEndTime": 1577797200000,
+      "liveEnterUrl": "http://end.haixue.com/live/findAllLive.do",
+      "liveId": 75761,
+      "liveName": "基础先修-经济2",
+      "liveStartTime": 1577790000000,
+      "status": "LIVEPLAYBACK",
+      "subjectId": 1,
+      "subjectName": "建设工程经济",
+      "subjectShortName": "经济",
+      "teacherName": "王晓波"
+    },
+    {
+      "categoryId": 9,
+      "categoryName": "一级建造师",
+      "isPlayback": 1,
+      "liveDetailUrl": "http://end.haixue.com/live/viewLive.do?operate=view&id=75897",
+      "liveEndTime": 1576501200000,
+      "liveEnterUrl": "http://end.haixue.com/live/findAllLive.do",
+      "liveId": 75897,
+      "liveName": "前导直播-经济2",
+      "liveStartTime": 1576494000000,
+      "status": "LIVEPLAYBACK",
+      "subjectId": 1,
+      "subjectName": "建设工程经济",
+      "subjectShortName": "经济",
+      "teacherName": "李理"
+    },
+    {
+      "categoryId": 9,
+      "categoryName": "一级建造师",
+      "isPlayback": 1,
+      "liveDetailUrl": "http://end.haixue.com/live/viewLive.do?operate=view&id=75907",
+      "liveEndTime": 1576900800000,
+      "liveEnterUrl": "http://end.haixue.com/live/findAllLive.do",
+      "liveId": 75907,
+      "liveName": "小灶周训-第1轮-经济1（上）",
+      "liveStartTime": 1576891800000,
+      "status": "LIVEPLAYBACK",
+      "subjectId": 1,
+      "subjectName": "建设工程经济",
+      "subjectShortName": "经济",
+      "teacherName": "王晓丹"
+    },
+    {
+      "categoryId": 9,
+      "categoryName": "一级建造师",
+      "isPlayback": 1,
+      "liveDetailUrl": "http://end.haixue.com/live/viewLive.do?operate=view&id=75909",
+      "liveEndTime": 1576918800000,
+      "liveEnterUrl": "http://end.haixue.com/live/findAllLive.do",
+      "liveId": 75909,
+      "liveName": "小灶周训-第1轮-经济1（下）",
+      "liveStartTime": 1576906200000,
+      "status": "LIVEPLAYBACK",
+      "subjectId": 1,
+      "subjectName": "建设工程经济",
+      "subjectShortName": "经济",
+      "teacherName": "王晓丹"
+    },
+    {
+      "categoryId": 9,
+      "categoryName": "一级建造师",
+      "isPlayback": 1,
+      "liveDetailUrl": "http://end.haixue.com/live/viewLive.do?operate=view&id=76233",
+      "liveEndTime": 1577278800000,
+      "liveEnterUrl": "http://end.haixue.com/live/findAllLive.do",
+      "liveId": 76233,
+      "liveName": "前导直播-经济3",
+      "liveStartTime": 1577271600000,
+      "status": "LIVEPLAYBACK",
+      "subjectId": 1,
+      "subjectName": "建设工程经济",
+      "subjectShortName": "经济",
+      "teacherName": "李理"
+    },
+    {
+      "categoryId": 9,
+      "categoryName": "一级建造师",
+      "isPlayback": 1,
+      "liveDetailUrl": "http://end.haixue.com/live/viewLive.do?operate=view&id=76365",
+      "liveEndTime": 1578056400000,
+      "liveEnterUrl": "http://end.haixue.com/live/findAllLive.do",
+      "liveId": 76365,
+      "liveName": "前导直播-经济4",
+      "liveStartTime": 1578049200000,
+      "status": "LIVEPLAYBACK",
+      "subjectId": 1,
+      "subjectName": "建设工程经济",
+      "subjectShortName": "经济",
+      "teacherName": "李理"
+    },
+    {
+      "categoryId": 9,
+      "categoryName": "一级建造师",
+      "isPlayback": 1,
+      "liveDetailUrl": "http://end.haixue.com/live/viewLive.do?operate=view&id=77361",
+      "liveEndTime": 1579006800000,
+      "liveEnterUrl": "http://end.haixue.com/live/findAllLive.do",
+      "liveId": 77361,
+      "liveName": "基础先修-经济3",
+      "liveStartTime": 1578999600000,
+      "status": "LIVEPLAYBACK",
+      "subjectId": 1,
+      "subjectName": "建设工程经济",
+      "subjectShortName": "经济",
+      "teacherName": "王晓波"
+    },
+    {
+      "categoryId": 9,
+      "categoryName": "一级建造师",
+      "isPlayback": 1,
+      "liveDetailUrl": "http://end.haixue.com/live/viewLive.do?operate=view&id=77541",
+      "liveEndTime": 1578920400000,
+      "liveEnterUrl": "http://end.haixue.com/live/findAllLive.do",
+      "liveId": 77541,
+      "liveName": "前导直播-经济5",
+      "liveStartTime": 1578913200000,
+      "status": "LIVEPLAYBACK",
+      "subjectId": 1,
+      "subjectName": "建设工程经济",
+      "subjectShortName": "经济",
+      "teacherName": "李理"
+    },
+    {
+      "categoryId": 9,
+      "categoryName": "一级建造师",
+      "isPlayback": 1,
+      "liveDetailUrl": "http://end.haixue.com/live/viewLive.do?operate=view&id=79001",
+      "liveEndTime": 1582030800000,
+      "liveEnterUrl": "http://end.haixue.com/live/findAllLive.do",
+      "liveId": 79001,
+      "liveName": "教材全解-经济1",
+      "liveStartTime": 1582023600000,
+      "status": "LIVEPLAYBACK",
+      "subjectId": 1,
+      "subjectName": "建设工程经济",
+      "subjectShortName": "经济",
+      "teacherName": "李理"
+    },
+    {
+      "categoryId": 9,
+      "categoryName": "一级建造师",
+      "isPlayback": 1,
+      "liveDetailUrl": "http://end.haixue.com/live/viewLive.do?operate=view&id=79003",
+      "liveEndTime": 1582117200000,
+      "liveEnterUrl": "http://end.haixue.com/live/findAllLive.do",
+      "liveId": 79003,
+      "liveName": "教材全解-经济2",
+      "liveStartTime": 1582110000000,
+      "status": "LIVEPLAYBACK",
+      "subjectId": 1,
+      "subjectName": "建设工程经济",
+      "subjectShortName": "经济",
+      "teacherName": "李理"
+    },
+    {
+      "categoryId": 9,
+      "categoryName": "一级建造师",
+      "isPlayback": 1,
+      "liveDetailUrl": "http://end.haixue.com/live/viewLive.do?operate=view&id=79009",
+      "liveEndTime": 1582344000000,
+      "liveEnterUrl": "http://end.haixue.com/live/findAllLive.do",
+      "liveId": 79009,
+      "liveName": "小灶周训-第1轮-经济2（上）",
+      "liveStartTime": 1582333200000,
+      "status": "LIVEPLAYBACK",
+      "subjectId": 1,
+      "subjectName": "建设工程经济",
+      "subjectShortName": "经济",
+      "teacherName": "王晓丹"
+    },
+    {
+      "categoryId": 9,
+      "categoryName": "一级建造师",
+      "isPlayback": 1,
+      "liveDetailUrl": "http://end.haixue.com/live/viewLive.do?operate=view&id=79011",
+      "liveEndTime": 1582362000000,
+      "liveEnterUrl": "http://end.haixue.com/live/findAllLive.do",
+      "liveId": 79011,
+      "liveName": "小灶周训-第1轮-经济2（下）",
+      "liveStartTime": 1582349400000,
+      "status": "LIVEPLAYBACK",
+      "subjectId": 1,
+      "subjectName": "建设工程经济",
+      "subjectShortName": "经济",
+      "teacherName": "王晓丹"
+    },
+    {
+      "categoryId": 9,
+      "categoryName": "一级建造师",
+      "isPlayback": 1,
+      "liveDetailUrl": "http://end.haixue.com/live/viewLive.do?operate=view&id=79973",
+      "liveEndTime": 1583240400000,
+      "liveEnterUrl": "http://end.haixue.com/live/findAllLive.do",
+      "liveId": 79973,
+      "liveName": "教材全解-经济3",
+      "liveStartTime": 1583233200000,
+      "status": "LIVEPLAYBACK",
+      "subjectId": 1,
+      "subjectName": "建设工程经济",
+      "subjectShortName": "经济",
+      "teacherName": "李理"
+    },
+    {
+      "categoryId": 9,
+      "categoryName": "一级建造师",
+      "isPlayback": 1,
+      "liveDetailUrl": "http://end.haixue.com/live/viewLive.do?operate=view&id=79975",
+      "liveEndTime": 1583326800000,
+      "liveEnterUrl": "http://end.haixue.com/live/findAllLive.do",
+      "liveId": 79975,
+      "liveName": "教材全解-经济4",
+      "liveStartTime": 1583319600000,
+      "status": "LIVEPLAYBACK",
+      "subjectId": 1,
+      "subjectName": "建设工程经济",
+      "subjectShortName": "经济",
+      "teacherName": "李理"
+    },
+    {
+      "categoryId": 9,
+      "categoryName": "一级建造师",
+      "isPlayback": 1,
+      "liveDetailUrl": "http://end.haixue.com/live/viewLive.do?operate=view&id=80557",
+      "liveEndTime": 1583931600000,
+      "liveEnterUrl": "http://end.haixue.com/live/findAllLive.do",
+      "liveId": 80557,
+      "liveName": "教材全解-经济5",
+      "liveStartTime": 1583924400000,
+      "status": "LIVEPLAYBACK",
+      "subjectId": 1,
+      "subjectName": "建设工程经济",
+      "subjectShortName": "经济",
+      "teacherName": "李理"
+    },
+    {
+      "categoryId": 9,
+      "categoryName": "一级建造师",
+      "isPlayback": 1,
+      "liveDetailUrl": "http://end.haixue.com/live/viewLive.do?operate=view&id=80559",
+      "liveEndTime": 1584018000000,
+      "liveEnterUrl": "http://end.haixue.com/live/findAllLive.do",
+      "liveId": 80559,
+      "liveName": "教材全解-经济6",
+      "liveStartTime": 1584010800000,
+      "status": "LIVEPLAYBACK",
+      "subjectId": 1,
+      "subjectName": "建设工程经济",
+      "subjectShortName": "经济",
+      "teacherName": "李理"
+    },
+    {
+      "categoryId": 9,
+      "categoryName": "一级建造师",
+      "isPlayback": 1,
+      "liveDetailUrl": "http://end.haixue.com/live/viewLive.do?operate=view&id=80563",
+      "liveEndTime": 1584158400000,
+      "liveEnterUrl": "http://end.haixue.com/live/findAllLive.do",
+      "liveId": 80563,
+      "liveName": "小灶周训-第2轮-经济1（上）",
+      "liveStartTime": 1584149400000,
+      "status": "LIVEPLAYBACK",
+      "subjectId": 1,
+      "subjectName": "建设工程经济",
+      "subjectShortName": "经济",
+      "teacherName": "王丹"
+    },
+    {
+      "categoryId": 9,
+      "categoryName": "一级建造师",
+      "isPlayback": 1,
+      "liveDetailUrl": "http://end.haixue.com/live/viewLive.do?operate=view&id=80565",
+      "liveEndTime": 1584176400000,
+      "liveEnterUrl": "http://end.haixue.com/live/findAllLive.do",
+      "liveId": 80565,
+      "liveName": "小灶周训-第2轮-经济1（下）",
+      "liveStartTime": 1584163800000,
+      "status": "LIVEPLAYBACK",
+      "subjectId": 1,
+      "subjectName": "建设工程经济",
+      "subjectShortName": "经济",
+      "teacherName": "王丹"
+    },
+    {
+      "categoryId": 9,
+      "categoryName": "一级建造师",
+      "isPlayback": 1,
+      "liveDetailUrl": "http://end.haixue.com/live/viewLive.do?operate=view&id=80817",
+      "liveEndTime": 1584622800000,
+      "liveEnterUrl": "http://end.haixue.com/live/findAllLive.do",
+      "liveId": 80817,
+      "liveName": "教材全解-经济7",
+      "liveStartTime": 1584615600000,
+      "status": "LIVEPLAYBACK",
+      "subjectId": 1,
+      "subjectName": "建设工程经济",
+      "subjectShortName": "经济",
+      "teacherName": "李理"
+    },
+    {
+      "categoryId": 9,
+      "categoryName": "一级建造师",
+      "isPlayback": 1,
+      "liveDetailUrl": "http://end.haixue.com/live/viewLive.do?operate=view&id=80819",
+      "liveEndTime": 1584709200000,
+      "liveEnterUrl": "http://end.haixue.com/live/findAllLive.do",
+      "liveId": 80819,
+      "liveName": "教材全解-经济8",
+      "liveStartTime": 1584702000000,
+      "status": "LIVEPLAYBACK",
+      "subjectId": 1,
+      "subjectName": "建设工程经济",
+      "subjectShortName": "经济",
+      "teacherName": "李理"
+    }
+  ],
+  "msg": "success"
+}
+2020-04-01 16:22:10 custom_assert.py[line:131] INFO: 断言json中指定的key【data】的返回数据的类型必须是【<class 'list'>】，返回数据不能是【[]】
+2020-04-01 16:22:10 myrequests.py[line:40] INFO: 
+
+***************************************************************************接口请求分割线***************************************************************************
+
+2020-04-01 16:22:10 myrequests.py[line:43] INFO: 开始访问接口:【sendMsgGroup:发送群消息】
+2020-04-01 16:22:10 myrequests.py[line:115] INFO: 发送post_form请求
+2020-04-01 16:22:10 myrequests.py[line:119] INFO: 请求参数信息为
+{
+  "clazzId": 567,
+  "customerId": 1585,
+  "messageContent": {
+    "liveMsg": {
+      "categoryId": 9,
+      "categoryName": "一级建造师",
+      "isPlayback": 1,
+      "liveDetailUrl": "http://end.haixue.com/live/viewLive.do?operate=view&id=80559",
+      "liveEndTime": 1584018000000,
+      "liveEnterUrl": "http://end.haixue.com/live/findAllLive.do",
+      "liveId": 80559,
+      "liveName": "教材全解-经济6",
+      "liveStartTime": 1584010800000,
+      "status": "LIVEPLAYBACK",
+      "subjectId": 1,
+      "subjectName": "建设工程经济",
+      "subjectShortName": "经济",
+      "teacherName": "李理"
+    },
+    "msgType": "LIVE",
+    "randomStr": 1585729330000,
+    "sendStatus": "sending",
+    "top": false
+  },
+  "messageType": "LIVE",
+  "randomStr": 1585729330000,
+  "top": "false"
+}
+2020-04-01 16:22:11 myrequests.py[line:244] INFO: 接口请求地址为
+https://api-diligent-mgt.haixue.com/diligent/tencent/im/sendMsgGroup?customerId=1585&clazzId=567&messageType=LIVE&top=false&randomStr=1585729330000&messageContent=%7B%27randomStr%27%3A+1585729330000%2C+%27sendStatus%27%3A+%27sending%27%2C+%27msgType%27%3A+%27LIVE%27%2C+%27top%27%3A+%27false%27%2C+%27liveMsg%27%3A+%7B%27liveId%27%3A+80559%2C+%27liveName%27%3A+%27%E6%95%99%E6%9D%90%E5%85%A8%E8%A7%A3-%E7%BB%8F%E6%B5%8E6%27%2C+%27teacherName%27%3A+%27%E6%9D%8E%E7%90%86%27%2C+%27liveStartTime%27%3A+1584010800000%2C+%27liveEndTime%27%3A+1584018000000%2C+%27categoryId%27%3A+9%2C+%27categoryName%27%3A+%27%E4%B8%80%E7%BA%A7%E5%BB%BA%E9%80%A0%E5%B8%88%27%2C+%27subjectId%27%3A+1%2C+%27subjectName%27%3A+%27%E5%BB%BA%E8%AE%BE%E5%B7%A5%E7%A8%8B%E7%BB%8F%E6%B5%8E%27%2C+%27liveDetailUrl%27%3A+%27http%3A%2F%2Fend.haixue.com%2Flive%2FviewLive.do%3Foperate%3Dview%26id%3D80559%27%2C+%27liveEnterUrl%27%3A+%27http%3A%2F%2Fend.haixue.com%2Flive%2FfindAllLive.do%27%2C+%27status%27%3A+%27LIVEPLAYBACK%27%2C+%27isPlayback%27%3A+1%2C+%27subjectShortName%27%3A+%27%E7%BB%8F%E6%B5%8E%27%7D%7D
+2020-04-01 16:22:11 myrequests.py[line:249] INFO: 响应状态码为:200，响应时间为:0.617132
+2020-04-01 16:22:11 custom_assert.py[line:40] INFO: 
+断言值为:
+{
+  "code": 200
+}
+响应信息:
+{
+  "code": 200,
+  "data": "success",
+  "msg": null
+}
+2020-04-01 16:22:11 myrequests.py[line:40] INFO: 
+
+***************************************************************************接口请求分割线***************************************************************************
+
+2020-04-01 16:22:11 myrequests.py[line:43] INFO: 开始访问接口:【studycontentGet:获取学习内容】
+2020-04-01 16:22:11 myrequests.py[line:132] INFO: 发送get请求
+2020-04-01 16:22:11 myrequests.py[line:136] INFO: 请求参数信息为
+{
+  "businessId": 80559,
+  "clazzId": 567,
+  "typeEnum": "LIVE"
+}
+2020-04-01 16:22:11 myrequests.py[line:244] INFO: 接口请求地址为
+https://api-diligent-mgt.haixue.com/diligent/studycontent/get?clazzId=567&businessId=80559&typeEnum=LIVE
+2020-04-01 16:22:11 myrequests.py[line:249] INFO: 响应状态码为:200，响应时间为:0.147634
+2020-04-01 16:22:11 custom_assert.py[line:40] INFO: 
+断言值为:
+{
+  "code": 200
+}
+响应信息:
+{
+  "code": 200,
+  "data": {
+    "attendProgress": 0,
+    "averageCompleteness": 0,
+    "businessId": 80559,
+    "businessName": "教材全解-经济6",
+    "clazzStudyContentLiveCustomerVos": [
+      {
+        "attend": false,
+        "customerId": 18108589,
+        "customerName": "真实姓名",
+        "lastWatchDate": null,
+        "liveId": 80559,
+        "start": false,
+        "studyProgress": 0
+      },
+      {
+        "attend": false,
+        "customerId": 20976343,
+        "customerName": "杨倩",
+        "lastWatchDate": null,
+        "liveId": 80559,
+        "start": false,
+        "studyProgress": 0
+      },
+      {
+        "attend": false,
+        "customerId": 25968417,
+        "customerName": "大哥大",
+        "lastWatchDate": null,
+        "liveId": 80559,
+        "start": false,
+        "studyProgress": 0
+      },
+      {
+        "attend": false,
+        "customerId": 25971141,
+        "customerName": "陈三石",
+        "lastWatchDate": null,
+        "liveId": 80559,
+        "start": false,
+        "studyProgress": 0
+      }
+    ],
+    "contentId": null,
+    "contentNo": null,
+    "importanceDegree": null,
+    "liveEndTime": 1584018000000,
+    "liveStartTime": 1584010800000,
+    "liveStatus": 3,
+    "noDoneNum": 4,
+    "peopleNum": 4,
+    "required": null,
+    "stageId": null,
+    "stageName": null,
+    "subjectId": null,
+    "subjectName": null,
+    "taskId": null,
+    "taskName": null,
+    "teacherName": "李理",
+    "type": "LIVE"
+  },
+  "msg": null
+}
+2020-04-01 16:22:11 custom_assert.py[line:131] INFO: 断言json中指定的key【clazzStudyContentLiveCustomerVos】的返回数据的类型必须是【<class 'list'>】，返回数据不能是【[]】
+2020-04-01 16:22:19 myrequests.py[line:40] INFO: 
+
+***************************************************************************接口请求分割线***************************************************************************
+
+2020-04-01 16:22:19 myrequests.py[line:43] INFO: 开始访问接口:【historyMsg:查询群聊历史消息】
+2020-04-01 16:22:19 myrequests.py[line:132] INFO: 发送get请求
+2020-04-01 16:22:19 myrequests.py[line:136] INFO: 请求参数信息为
+{
+  "endDate": "2020-04-01 16:24:19",
+  "groupIdentifier": "CLAZZ-567",
+  "pageNum": "1",
+  "sendType": "GROUP",
+  "startDate": "2020-04-01 16:20:19"
+}
+2020-04-01 16:22:19 myrequests.py[line:244] INFO: 接口请求地址为
+https://api-diligent-mgt.haixue.com/diligent/tencent/im/group/historyMsg?pageNum=1&sendType=GROUP&groupIdentifier=CLAZZ-567&startDate=2020-04-01+16%3A20%3A19&endDate=2020-04-01+16%3A24%3A19
+2020-04-01 16:22:19 myrequests.py[line:249] INFO: 响应状态码为:200，响应时间为:0.154512
+2020-04-01 16:22:19 custom_assert.py[line:40] INFO: 
+断言值为:
+{
+  "code": 200
+}
+响应信息:
+{
+  "code": 200,
+  "data": {
+    "currentPage": 1,
+    "items": [
+      {
+        "From_Account": "T-1585",
+        "GroupId": "CLAZZ-567",
+        "MsgBody": [
+          {
+            "MsgContent": {
+              "Data": "{\"fromIdentifier\":\"T-1585\",\"fromIdentifierNickName\":\"陈磊二\",\"character\":\"ASSISTANT\",\"msgType\":\"LIVE\",\"top\":false,\"liveMsg\":{\"liveId\":80559,\"liveName\":\"教材全解-经济6\",\"teacherName\":\"李理\",\"liveStartTime\":\"2020-03-12 19:00:00\",\"liveEndTime\":\"2020-03-12 21:00:00\",\"voiceCloud\":0,\"liveWay\":0,\"liveLabel\":1,\"categoryId\":9,\"categoryName\":\"一级建造师\",\"subjectId\":1,\"subjectName\":\"建设工程经济\",\"subjectShortName\":\"经济\",\"isCourseInfo\":false},\"randomStr\":\"1585729330000\"}",
+              "Desc": "[课程提醒]教材全解-经济6",
+              "Ext": "",
+              "FileName": null,
+              "FileSize": null,
+              "ImageFormat": null,
+              "ImageInfoArray": null,
+              "Index": null,
+              "Latitude": null,
+              "Longitude": null,
+              "Second": null,
+              "Size": null,
+              "Sound": "",
+              "Text": null,
+              "UUID": null
+            },
+            "MsgType": "TIMCustomElem"
+          }
+        ],
+        "MsgSeq": "3359",
+        "MsgTime": 1585729347,
+        "To_Account": null
+      },
+      {
+        "From_Account": "T-1585",
+        "GroupId": "CLAZZ-567",
+        "MsgBody": [
+          {
+            "MsgContent": {
+              "Data": "{\"fromIdentifier\":\"T-1585\",\"fromIdentifierNickName\":\"陈磊二\",\"character\":\"ASSISTANT\",\"msgType\":\"IMG\",\"top\":false,\"imgMsg\":{\"type\":\"JPG\",\"imgInfo\":[{\"type\":\"normal\",\"size\":14851,\"width\":300,\"height\":300,\"url\":\"https://imgstatic.highso.com.cn/jjxt/img/630ea71948e64e7198d6ade6d70c5286.jpg?attname=laoshi.jpg\",\"id\":108001}]},\"randomStr\":\"1585729321000\"}",
+              "Desc": "[图片]",
+              "Ext": "",
+              "FileName": null,
+              "FileSize": null,
+              "ImageFormat": null,
+              "ImageInfoArray": null,
+              "Index": null,
+              "Latitude": null,
+              "Longitude": null,
+              "Second": null,
+              "Size": null,
+              "Sound": "",
+              "Text": null,
+              "UUID": null
+            },
+            "MsgType": "TIMCustomElem"
+          }
+        ],
+        "MsgSeq": "3358",
+        "MsgTime": 1585729338,
+        "To_Account": null
+      },
+      {
+        "From_Account": "T-1585",
+        "GroupId": "CLAZZ-567",
+        "MsgBody": [
+          {
+            "MsgContent": {
+              "Data": "{\"fromIdentifier\":\"T-1585\",\"fromIdentifierNickName\":\"陈磊二\",\"character\":\"ASSISTANT\",\"msgType\":\"FILE\",\"top\":false,\"fileMsg\":{\"fileName\":\"file.xlsx\",\"url\":\"https://imgstatic.highso.com.cn/jjxt/file/04a4b276d86d4041919dc13b6267cab7.xlsx?attname=file.xlsx\",\"size\":12655,\"id\":108000,\"viewUrl\":\"\",\"pdf\":false},\"randomStr\":\"1585729312000\"}",
+              "Desc": "[文件]file.xlsx",
+              "Ext": "",
+              "FileName": null,
+              "FileSize": null,
+              "ImageFormat": null,
+              "ImageInfoArray": null,
+              "Index": null,
+              "Latitude": null,
+              "Longitude": null,
+              "Second": null,
+              "Size": null,
+              "Sound": "",
+              "Text": null,
+              "UUID": null
+            },
+            "MsgType": "TIMCustomElem"
+          }
+        ],
+        "MsgSeq": "3357",
+        "MsgTime": 1585729329,
+        "To_Account": null
+      }
+    ],
+    "pageSize": 20,
+    "totalNum": 3,
+    "totalPage": 1
+  },
+  "msg": null
+}
+2020-04-01 16:22:19 custom_assert.py[line:131] INFO: 断言json中指定的key【items】的返回数据的类型必须是【<class 'list'>】，返回数据不能是【[]】
+2020-04-01 16:22:19 custom_assert.py[line:81] INFO: 
+断言值为:
+{
+  "liveId": 80559,
+  "liveName": "教材全解-经济6"
+}
+响应信息:
+{
+  "character": "ASSISTANT",
+  "fromIdentifier": "T-1585",
+  "fromIdentifierNickName": "陈磊二",
+  "liveMsg": {
+    "categoryId": 9,
+    "categoryName": "一级建造师",
+    "isCourseInfo": false,
+    "liveEndTime": "2020-03-12 21:00:00",
+    "liveId": 80559,
+    "liveLabel": 1,
+    "liveName": "教材全解-经济6",
+    "liveStartTime": "2020-03-12 19:00:00",
+    "liveWay": 0,
+    "subjectId": 1,
+    "subjectName": "建设工程经济",
+    "subjectShortName": "经济",
+    "teacherName": "李理",
+    "voiceCloud": 0
+  },
+  "msgType": "LIVE",
+  "randomStr": "1585729330000",
+  "top": false
+}

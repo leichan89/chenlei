@@ -1,94 +1,397 @@
 "Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
-"passed","Tue Jan 14 13:50:32 CST 2020","Tue Jan 14 13:50:37 CST 2020","5360","testcases.jjxt","test_send_clazz_video","TestSendVideo","","","发送群录播：查询科目-查询模块-查询录播-随机发送录播-查询录播详情-历史消息中查看推送的录播","
+"passed","Wed Apr 01 16:23:27 CST 2020","Wed Apr 01 16:23:37 CST 2020","9473","testcases.jjxt","test_send_clazz_video","TestSendVideo","","","发送群录播：查询科目-查询模块-查询录播-随机发送录播-查询录播详情-历史消息中查看推送的录播","
         发送群录播：查询科目-查询模块-查询录播-随机发送录播-查询录播详情-历史消息中查看推送的录播
         "
-"failed","Tue Jan 14 13:50:53 CST 2020","Tue Jan 14 13:50:54 CST 2020","518","testcases.jjxt","test_send_person_live","TestSendPersonLive","","","私聊发送直播：查询直播-向单个学员随机发送已结束直播-查询直播详情","
+"passed","Wed Apr 01 16:23:10 CST 2020","Wed Apr 01 16:23:10 CST 2020","529","testcases.jjxt","test_send_clazz_text","TestSendText","","","发送文本消息：发送文本消息","
+        发送群图片：发送文本消息：发送文本消息
+        "
+"failed","Wed Apr 01 16:24:05 CST 2020","Wed Apr 01 16:24:06 CST 2020","298","testcases.jjxt","test_send_person_live","TestSendPersonLive","","","私聊发送直播：查询直播-向单个学员随机发送已结束直播-查询直播详情","
         私聊发送直播：查询直播-向单个学员随机发送已结束直播-查询直播详情
         "
-"passed","Tue Jan 14 13:49:51 CST 2020","Tue Jan 14 13:49:52 CST 2020","310","testcases.jjxt","test_export_point_month","TestExportPointMonth","","","下载积分：设置年月日下载","
-        下载积分：设置年月日下载
-        "
-"passed","Tue Jan 14 13:49:52 CST 2020","Tue Jan 14 13:49:52 CST 2020","89","testcases.jjxt","test_get_teacher_im_info","TestGetTeacherImInfo","","","传入无效的字符查询老师信息","
-        传入无效的字符查询老师信息
-        "
-"passed","Tue Jan 14 13:50:17 CST 2020","Tue Jan 14 13:50:22 CST 2020","5040","testcases.jjxt","test_send_clazz_question","TestSendQuestion","","","发送群答题：查询科目-查询模块-查询试卷-查询试题-存题-查询待推题-推送待推题-查询答题详情-历史消息中查看答题信息","
-        发送群答题：查询科目-查询模块-查询试卷-查询试题-存题-查询待推题-推送待推题-查询答题详情-历史消息中查看答题信息
-        "
-"passed","Tue Jan 14 13:50:43 CST 2020","Tue Jan 14 13:50:48 CST 2020","4908","testcases.jjxt","test_send_person_img","TestSendPersonIMG","","","私聊发送图片：上传图片-给单个学员发送jpg图片-历史消息中查找发送的图片消息","
+"passed","Wed Apr 01 16:23:47 CST 2020","Wed Apr 01 16:23:56 CST 2020","9267","testcases.jjxt","test_send_person_img","TestSendPersonIMG","","","私聊发送图片：上传图片-给单个学员发送jpg图片-历史消息中查找发送的图片消息","
         私聊发送图片：上传图片-给单个学员发送jpg图片-历史消息中查找发送的图片消息
         "
-"passed","Tue Jan 14 13:50:48 CST 2020","Tue Jan 14 13:50:53 CST 2020","5374","testcases.jjxt","test_send_person_live","TestSendPersonLive","","","私聊发送直播：查询直播-向单个学员随机发送回放直播-查询直播详情-私聊记录中查看发送的直播回放","
-        私聊发送直播：查询直播-向单个学员随机发送回放直播-查询直播详情-私聊记录中查看发送的直播回放
+"passed","Wed Apr 01 16:24:24 CST 2020","Wed Apr 01 16:24:24 CST 2020","381","testcases.jjxt","test_send_person_text","TestSendPersonText","","","私聊发送文本消息：发送文本消息","
+        私聊发送文本消息：发送文本消息
         "
-"passed","Tue Jan 14 13:50:03 CST 2020","Tue Jan 14 13:50:09 CST 2020","5521","testcases.jjxt","test_send_clazz_live","TestSendLive","","","发送群直播：查询直播-随机发送回放直播-查询直播详情-历史消息中查看发送的直播","
-        发送群直播：查询直播-随机发送回放直播-查询直播详情-历史消息中查看发送的直播
+"passed","Wed Apr 01 16:24:30 CST 2020","Wed Apr 01 16:24:30 CST 2020","302","testcases.jjxt","test_send_person_text","TestSendPersonText","","","私聊发送文本消息：发送文本消息","
+        私聊发送文本消息：发送文本消息
         "
-"failed","Tue Jan 14 13:50:09 CST 2020","Tue Jan 14 13:50:10 CST 2020","669","testcases.jjxt","test_send_clazz_live","TestSendLive","","","发送群直播：查询直播-随机发送已结束直播-查询直播详情-历史消息中查看发送的直播","
-        发送群直播：查询直播-随机发送已结束直播-查询直播详情-历史消息中查看发送的直播
+"passed","Wed Apr 01 16:23:13 CST 2020","Wed Apr 01 16:23:13 CST 2020","377","testcases.jjxt","test_send_clazz_text","TestSendText","","","发送文本消息：发送文本消息","
+        发送群图片：发送文本消息：发送文本消息
         "
-"failed","Tue Jan 14 13:49:58 CST 2020","Tue Jan 14 13:50:03 CST 2020","5010","testcases.jjxt","test_send_clazz_img","TestSendIMG","","","发送群图片：上传图片-发送jpg图片-历史消息查看发送的图片","
-        发送群图片：上传图片-发送jpg图片-历史消息查看发送的图片
+"passed","Wed Apr 01 16:24:27 CST 2020","Wed Apr 01 16:24:28 CST 2020","406","testcases.jjxt","test_send_person_text","TestSendPersonText","","","私聊发送文本消息：发送文本消息","
+        私聊发送文本消息：发送文本消息
         "
-"passed","Tue Jan 14 13:50:32 CST 2020","Tue Jan 14 13:50:32 CST 2020","73","testcases.jjxt","test_send_clazz_question","TestSendQuestion","","","发送群答题：删除不存在的群推试题","
-        发送群答题：删除不存在的群推试题
+"passed","Wed Apr 01 16:23:24 CST 2020","Wed Apr 01 16:23:24 CST 2020","376","testcases.jjxt","test_send_clazz_text","TestSendText","","","发送文本消息：发送文本消息","
+        发送群图片：发送文本消息：发送文本消息
         "
-"passed","Tue Jan 14 13:49:52 CST 2020","Tue Jan 14 13:49:52 CST 2020","0","testcases.jjxt","test_get_stage_and_task_id","TestGetStageAndTaskByClazzId","","","获取阶段和任务id","
-        下载积分：设置年月日下载
+"passed","Wed Apr 01 16:24:32 CST 2020","Wed Apr 01 16:24:32 CST 2020","390","testcases.jjxt","test_send_person_text","TestSendPersonText","","","私聊发送文本消息：发送文本消息","
+        私聊发送文本消息：发送文本消息
         "
-"passed","Tue Jan 14 13:49:52 CST 2020","Tue Jan 14 13:49:53 CST 2020","93","testcases.jjxt","test_query_point_month","TestQueryPointMonthByPage","","","查询积分：默认查询","
-        查询积分：默认查询
+"passed","Wed Apr 01 16:23:12 CST 2020","Wed Apr 01 16:23:12 CST 2020","449","testcases.jjxt","test_send_clazz_text","TestSendText","","","发送文本消息：发送文本消息","
+        发送群图片：发送文本消息：发送文本消息
         "
-"failed","Tue Jan 14 13:49:53 CST 2020","Tue Jan 14 13:49:58 CST 2020","5446","testcases.jjxt","test_send_clazz_file","TestSendFile","","","发送群文件：上传文件-发送xlsx文件-历史消息查看发送的文件","
-        发送群文件：上传文件-发送xlsx文件-历史消息查看发送的文件
+"passed","Wed Apr 01 16:23:27 CST 2020","Wed Apr 01 16:23:27 CST 2020","474","testcases.jjxt","test_send_clazz_text","TestSendText","","","发送文本消息：发送文本消息","
+        发送群图片：发送文本消息：发送文本消息
         "
-"passed","Tue Jan 14 13:50:26 CST 2020","Tue Jan 14 13:50:30 CST 2020","4682","testcases.jjxt","test_send_clazz_question","TestSendQuestion","","","发送群答题：查询科目-查询模块-查询试卷-查询试题-随机发送群答题-历史消息中查看答题信息","
-        发送群答题：查询科目-查询模块-查询试卷-查询试题-随机发送群答题-历史消息中查看答题信息
+"passed","Wed Apr 01 16:24:32 CST 2020","Wed Apr 01 16:24:32 CST 2020","314","testcases.jjxt","test_send_person_text","TestSendPersonText","","","私聊发送文本消息：发送文本消息","
+        私聊发送文本消息：发送文本消息
         "
-"passed","Tue Jan 14 13:49:53 CST 2020","Tue Jan 14 13:49:53 CST 2020","81","testcases.jjxt","test_query_point_month","TestQueryPointMonthByPage","","","查询积分：指定时间段查询","
-        查询积分：指定时间段查询
+"passed","Wed Apr 01 16:24:16 CST 2020","Wed Apr 01 16:24:17 CST 2020","386","testcases.jjxt","test_send_person_text","TestSendPersonText","","","私聊发送文本消息：发送文本消息","
+        私聊发送文本消息：发送文本消息
         "
-"passed","Tue Jan 14 13:49:52 CST 2020","Tue Jan 14 13:49:52 CST 2020","81","testcases.jjxt","test_get_teacher_im_info","TestGetTeacherImInfo","","","传入无效的字符查询老师信息","
-        传入无效的字符查询老师信息
-        "
-"passed","Tue Jan 14 13:49:52 CST 2020","Tue Jan 14 13:49:52 CST 2020","219","testcases.jjxt","test_export_student","TestExportStudent","","","导出基本信息","
-        导出基本信息
-        "
-"passed","Tue Jan 14 13:50:54 CST 2020","Tue Jan 14 13:50:59 CST 2020","5341","testcases.jjxt","test_send_person_paper","TestSendPersonPaper","","","私聊发送试卷：查询试卷-向单个学员随机发送试卷-查看试卷详情-历史消息中查看发送的试卷","
+"passed","Wed Apr 01 16:24:06 CST 2020","Wed Apr 01 16:24:15 CST 2020","9033","testcases.jjxt","test_send_person_paper","TestSendPersonPaper","","","私聊发送试卷：查询试卷-向单个学员随机发送试卷-查看试卷详情-历史消息中查看发送的试卷","
         私聊发送试卷：查询试卷-向单个学员随机发送试卷-查看试卷详情-历史消息中查看发送的试卷
         "
-"passed","Tue Jan 14 13:50:10 CST 2020","Tue Jan 14 13:50:16 CST 2020","6209","testcases.jjxt","test_send_clazz_paper","TestSendPaper","","","发送群试卷：查询试卷-随机发送试卷-查看试卷详情-历史消息中查看发送的试卷-下载答题详情","
-        发送群试卷：查询试卷-随机发送试卷-查看试卷详情-历史消息中查看发送的试卷-下载答题详情
+"passed","Wed Apr 01 16:23:17 CST 2020","Wed Apr 01 16:23:17 CST 2020","379","testcases.jjxt","test_send_clazz_text","TestSendText","","","发送文本消息：发送文本消息","
+        发送群图片：发送文本消息：发送文本消息
         "
-"passed","Tue Jan 14 13:49:53 CST 2020","Tue Jan 14 13:49:53 CST 2020","85","testcases.jjxt","test_query_point_month","TestQueryPointMonthByPage","","","查询积分：开始时间大于结束时间","
-        查询积分：开始时间大于结束时间
+"passed","Wed Apr 01 16:21:51 CST 2020","Wed Apr 01 16:21:51 CST 2020","86","testcases.jjxt","test_query_point_month","TestQueryPointMonthByPage","","","查询积分：指定时间段查询","
+        查询积分：指定时间段查询
         "
-"passed","Tue Jan 14 13:49:52 CST 2020","Tue Jan 14 13:49:52 CST 2020","79","testcases.jjxt","test_get_teacher_im_info","TestGetTeacherImInfo","","","传入无效的字符查询老师信息","
-        传入无效的字符查询老师信息
+"passed","Wed Apr 01 16:23:19 CST 2020","Wed Apr 01 16:23:20 CST 2020","470","testcases.jjxt","test_send_clazz_text","TestSendText","","","发送文本消息：发送文本消息","
+        发送群图片：发送文本消息：发送文本消息
         "
-"passed","Tue Jan 14 13:50:59 CST 2020","Tue Jan 14 13:51:04 CST 2020","5604","testcases.jjxt","test_send_person_video","TestSendPersonVideo","","","私聊发送录播：查询科目-查询模块-查询录播-向单个学员随机发送录播-查询录播详情-在历史消息中查看发送的录播","
-        私聊发送录播：查询科目-查询模块-查询录播-向单个学员随机发送录播-查询录播详情-在历史消息中查看发送的录播
+"passed","Wed Apr 01 16:23:25 CST 2020","Wed Apr 01 16:23:25 CST 2020","358","testcases.jjxt","test_send_clazz_text","TestSendText","","","发送文本消息：发送文本消息","
+        发送群图片：发送文本消息：发送文本消息
         "
-"passed","Tue Jan 14 13:50:25 CST 2020","Tue Jan 14 13:50:25 CST 2020","141","testcases.jjxt","test_send_clazz_question","TestSendQuestion","","","发送群答题：查询科目-查询模块-查询试卷-查询试题-随机存群答题到过去日期","
+"passed","Wed Apr 01 16:24:16 CST 2020","Wed Apr 01 16:24:16 CST 2020","341","testcases.jjxt","test_send_person_text","TestSendPersonText","","","私聊发送文本消息：发送文本消息","
+        私聊发送文本消息：发送文本消息
+        "
+"passed","Wed Apr 01 16:24:31 CST 2020","Wed Apr 01 16:24:31 CST 2020","403","testcases.jjxt","test_send_person_text","TestSendPersonText","","","私聊发送文本消息：发送文本消息","
+        私聊发送文本消息：发送文本消息
+        "
+"passed","Wed Apr 01 16:24:27 CST 2020","Wed Apr 01 16:24:27 CST 2020","309","testcases.jjxt","test_send_person_text","TestSendPersonText","","","私聊发送文本消息：发送文本消息","
+        私聊发送文本消息：发送文本消息
+        "
+"passed","Wed Apr 01 16:24:16 CST 2020","Wed Apr 01 16:24:16 CST 2020","379","testcases.jjxt","test_send_person_text","TestSendPersonText","","","私聊发送文本消息：发送文本消息","
+        私聊发送文本消息：发送文本消息
+        "
+"passed","Wed Apr 01 16:24:25 CST 2020","Wed Apr 01 16:24:26 CST 2020","398","testcases.jjxt","test_send_person_text","TestSendPersonText","","","私聊发送文本消息：发送文本消息","
+        私聊发送文本消息：发送文本消息
+        "
+"passed","Wed Apr 01 16:23:07 CST 2020","Wed Apr 01 16:23:08 CST 2020","560","testcases.jjxt","test_send_clazz_text","TestSendText","","","发送文本消息：发送文本消息","
+        发送群图片：发送文本消息：发送文本消息
+        "
+"passed","Wed Apr 01 16:22:53 CST 2020","Wed Apr 01 16:22:54 CST 2020","86","testcases.jjxt","test_send_clazz_question","TestSendQuestion","","","发送群答题：查询科目-查询模块-查询试卷-查询试题-随机存群答题到过去日期","
         发送群答题：查询科目-查询模块-查询试卷-查询试题-随机存群答题到过去日期
         "
-"passed","Tue Jan 14 13:50:38 CST 2020","Tue Jan 14 13:50:43 CST 2020","5055","testcases.jjxt","test_send_person_file","TestSendPersonFile","","","私聊发送文件：上传文件-给单个学员发送xlsx文件-历史消息中查找发送的文件消息","
-        私聊发送文件：上传文件-给单个学员发送xlsx文件-历史消息中查找发送的文件消息
+"passed","Wed Apr 01 16:24:34 CST 2020","Wed Apr 01 16:24:43 CST 2020","9507","testcases.jjxt","test_send_person_video","TestSendPersonVideo","","","私聊发送录播：查询科目-查询模块-查询录播-向单个学员随机发送录播-查询录播详情-在历史消息中查看发送的录播","
+        私聊发送录播：查询科目-查询模块-查询录播-向单个学员随机发送录播-查询录播详情-在历史消息中查看发送的录播
         "
-"passed","Tue Jan 14 13:49:51 CST 2020","Tue Jan 14 13:49:51 CST 2020","179","testcases.jjxt","test_export_excel","TestExportPointMonth","","","导出学员列表数据","
-        导出学员列表数据
+"passed","Wed Apr 01 16:24:18 CST 2020","Wed Apr 01 16:24:18 CST 2020","389","testcases.jjxt","test_send_person_text","TestSendPersonText","","","私聊发送文本消息：发送文本消息","
+        私聊发送文本消息：发送文本消息
         "
-"passed","Tue Jan 14 13:50:23 CST 2020","Tue Jan 14 13:50:23 CST 2020","85","testcases.jjxt","test_send_clazz_question","TestSendQuestion","","","发送群答题：查询科目-查询模块-查询试卷-查询试题-随机存群答题到未来日期","
-        发送群答题：查询科目-查询模块-查询试卷-查询试题-随机存群答题到未来日期
+"passed","Wed Apr 01 16:24:24 CST 2020","Wed Apr 01 16:24:25 CST 2020","393","testcases.jjxt","test_send_person_text","TestSendPersonText","","","私聊发送文本消息：发送文本消息","
+        私聊发送文本消息：发送文本消息
         "
-"passed","Tue Jan 14 13:49:52 CST 2020","Tue Jan 14 13:49:52 CST 2020","90","testcases.jjxt","test_get_teacher_im_info","TestGetTeacherImInfo","","","查询存在的老师信息","
-        查询存在的老师信息
+"passed","Wed Apr 01 16:23:14 CST 2020","Wed Apr 01 16:23:14 CST 2020","367","testcases.jjxt","test_send_clazz_text","TestSendText","","","发送文本消息：发送文本消息","
+        发送群图片：发送文本消息：发送文本消息
         "
-"failed","Tue Jan 14 13:50:31 CST 2020","Tue Jan 14 13:50:32 CST 2020","481","testcases.jjxt","test_send_clazz_question","TestSendQuestion","","","发送群答题：查询科目-查询模块-查询试卷-查询试题-再次推送相同试题，不应该推送成功","
+"passed","Wed Apr 01 16:24:15 CST 2020","Wed Apr 01 16:24:16 CST 2020","406","testcases.jjxt","test_send_person_text","TestSendPersonText","","","私聊发送文本消息：发送文本消息","
+        私聊发送文本消息：发送文本消息
+        "
+"passed","Wed Apr 01 16:23:04 CST 2020","Wed Apr 01 16:23:05 CST 2020","712","testcases.jjxt","test_send_clazz_question","TestSendQuestion","","","发送群答题：查询科目-查询模块-查询试卷-查询试题-再次推送相同试题，不应该推送成功","
         发送群答题-查询科目-查询模块-查询试卷-查询试题-再次推送相同试题，不应该推送成功
         "
-"passed","Tue Jan 14 13:49:52 CST 2020","Tue Jan 14 13:49:52 CST 2020","80","testcases.jjxt","test_get_teacher_im_info","TestGetTeacherImInfo","","","传入无效的字符查询老师信息","
+"passed","Wed Apr 01 16:23:22 CST 2020","Wed Apr 01 16:23:22 CST 2020","459","testcases.jjxt","test_send_clazz_text","TestSendText","","","发送文本消息：发送文本消息","
+        发送群图片：发送文本消息：发送文本消息
+        "
+"passed","Wed Apr 01 16:24:28 CST 2020","Wed Apr 01 16:24:29 CST 2020","435","testcases.jjxt","test_send_person_text","TestSendPersonText","","","私聊发送文本消息：发送文本消息","
+        私聊发送文本消息：发送文本消息
+        "
+"passed","Wed Apr 01 16:23:17 CST 2020","Wed Apr 01 16:23:18 CST 2020","505","testcases.jjxt","test_send_clazz_text","TestSendText","","","发送文本消息：发送文本消息","
+        发送群图片：发送文本消息：发送文本消息
+        "
+"passed","Wed Apr 01 16:21:50 CST 2020","Wed Apr 01 16:21:50 CST 2020","0","testcases.jjxt","test_get_stage_and_task_id","TestGetStageAndTaskByClazzId","","","获取阶段和任务id","
+        下载积分：设置年月日下载
+        "
+"passed","Wed Apr 01 16:23:37 CST 2020","Wed Apr 01 16:23:47 CST 2020","9257","testcases.jjxt","test_send_person_file","TestSendPersonFile","","","私聊发送文件：上传文件-给单个学员发送xlsx文件-历史消息中查找发送的文件消息","
+        私聊发送文件：上传文件-给单个学员发送xlsx文件-历史消息中查找发送的文件消息
+        "
+"passed","Wed Apr 01 16:23:26 CST 2020","Wed Apr 01 16:23:26 CST 2020","313","testcases.jjxt","test_send_clazz_text","TestSendText","","","发送文本消息：发送文本消息","
+        发送群图片：发送文本消息：发送文本消息
+        "
+"passed","Wed Apr 01 16:23:16 CST 2020","Wed Apr 01 16:23:16 CST 2020","472","testcases.jjxt","test_send_clazz_text","TestSendText","","","发送文本消息：发送文本消息","
+        发送群图片：发送文本消息：发送文本消息
+        "
+"passed","Wed Apr 01 16:24:29 CST 2020","Wed Apr 01 16:24:30 CST 2020","308","testcases.jjxt","test_send_person_text","TestSendPersonText","","","私聊发送文本消息：发送文本消息","
+        私聊发送文本消息：发送文本消息
+        "
+"passed","Wed Apr 01 16:21:50 CST 2020","Wed Apr 01 16:21:51 CST 2020","97","testcases.jjxt","test_get_teacher_im_info","TestGetTeacherImInfo","","","查询存在的老师信息","
+        查询存在的老师信息
+        "
+"passed","Wed Apr 01 16:23:11 CST 2020","Wed Apr 01 16:23:12 CST 2020","455","testcases.jjxt","test_send_clazz_text","TestSendText","","","发送文本消息：发送文本消息","
+        发送群图片：发送文本消息：发送文本消息
+        "
+"passed","Wed Apr 01 16:23:09 CST 2020","Wed Apr 01 16:23:10 CST 2020","383","testcases.jjxt","test_send_clazz_text","TestSendText","","","发送文本消息：发送文本消息","
+        发送群图片：发送文本消息：发送文本消息
+        "
+"passed","Wed Apr 01 16:23:13 CST 2020","Wed Apr 01 16:23:14 CST 2020","492","testcases.jjxt","test_send_clazz_text","TestSendText","","","发送文本消息：发送文本消息","
+        发送群图片：发送文本消息：发送文本消息
+        "
+"passed","Wed Apr 01 16:23:20 CST 2020","Wed Apr 01 16:23:20 CST 2020","325","testcases.jjxt","test_send_clazz_text","TestSendText","","","发送文本消息：发送文本消息","
+        发送群图片：发送文本消息：发送文本消息
+        "
+"passed","Wed Apr 01 16:21:51 CST 2020","Wed Apr 01 16:21:51 CST 2020","83","testcases.jjxt","test_query_point_month","TestQueryPointMonthByPage","","","查询积分：默认查询","
+        查询积分：默认查询
+        "
+"passed","Wed Apr 01 16:24:20 CST 2020","Wed Apr 01 16:24:20 CST 2020","380","testcases.jjxt","test_send_person_text","TestSendPersonText","","","私聊发送文本消息：发送文本消息","
+        私聊发送文本消息：发送文本消息
+        "
+"passed","Wed Apr 01 16:23:23 CST 2020","Wed Apr 01 16:23:23 CST 2020","500","testcases.jjxt","test_send_clazz_text","TestSendText","","","发送文本消息：发送文本消息","
+        发送群图片：发送文本消息：发送文本消息
+        "
+"passed","Wed Apr 01 16:23:21 CST 2020","Wed Apr 01 16:23:22 CST 2020","308","testcases.jjxt","test_send_clazz_text","TestSendText","","","发送文本消息：发送文本消息","
+        发送群图片：发送文本消息：发送文本消息
+        "
+"passed","Wed Apr 01 16:24:21 CST 2020","Wed Apr 01 16:24:21 CST 2020","284","testcases.jjxt","test_send_person_text","TestSendPersonText","","","私聊发送文本消息：发送文本消息","
+        私聊发送文本消息：发送文本消息
+        "
+"passed","Wed Apr 01 16:22:52 CST 2020","Wed Apr 01 16:22:52 CST 2020","106","testcases.jjxt","test_send_clazz_question","TestSendQuestion","","","发送群答题：查询科目-查询模块-查询试卷-查询试题-随机存群答题到未来日期","
+        发送群答题：查询科目-查询模块-查询试卷-查询试题-随机存群答题到未来日期
+        "
+"passed","Wed Apr 01 16:21:51 CST 2020","Wed Apr 01 16:21:51 CST 2020","86","testcases.jjxt","test_get_teacher_im_info","TestGetTeacherImInfo","","","传入无效的字符查询老师信息","
         传入无效的字符查询老师信息
         "
-"passed","Tue Jan 14 13:49:52 CST 2020","Tue Jan 14 13:49:52 CST 2020","148","testcases.jjxt","test_export_point_month","TestExportPointMonth","","","下载积分：不带年月日下载","
+"passed","Wed Apr 01 16:23:06 CST 2020","Wed Apr 01 16:23:07 CST 2020","434","testcases.jjxt","test_send_clazz_text","TestSendText","","","发送文本消息：发送文本消息","
+        发送群图片：发送文本消息：发送文本消息
+        "
+"passed","Wed Apr 01 16:23:18 CST 2020","Wed Apr 01 16:23:18 CST 2020","456","testcases.jjxt","test_send_clazz_text","TestSendText","","","发送文本消息：发送文本消息","
+        发送群图片：发送文本消息：发送文本消息
+        "
+"passed","Wed Apr 01 16:21:51 CST 2020","Wed Apr 01 16:21:51 CST 2020","82","testcases.jjxt","test_get_teacher_im_info","TestGetTeacherImInfo","","","传入无效的字符查询老师信息","
+        传入无效的字符查询老师信息
+        "
+"passed","Wed Apr 01 16:23:24 CST 2020","Wed Apr 01 16:23:25 CST 2020","440","testcases.jjxt","test_send_clazz_text","TestSendText","","","发送文本消息：发送文本消息","
+        发送群图片：发送文本消息：发送文本消息
+        "
+"passed","Wed Apr 01 16:21:51 CST 2020","Wed Apr 01 16:21:51 CST 2020","115","testcases.jjxt","test_query_point_month","TestQueryPointMonthByPage","","","查询积分：开始时间大于结束时间","
+        查询积分：开始时间大于结束时间
+        "
+"passed","Wed Apr 01 16:21:50 CST 2020","Wed Apr 01 16:21:50 CST 2020","121","testcases.jjxt","test_export_student","TestExportStudent","","","导出基本信息","
+        导出基本信息
+        "
+"passed","Wed Apr 01 16:24:17 CST 2020","Wed Apr 01 16:24:18 CST 2020","478","testcases.jjxt","test_send_person_text","TestSendPersonText","","","私聊发送文本消息：发送文本消息","
+        私聊发送文本消息：发送文本消息
+        "
+"passed","Wed Apr 01 16:23:11 CST 2020","Wed Apr 01 16:23:11 CST 2020","340","testcases.jjxt","test_send_clazz_text","TestSendText","","","发送文本消息：发送文本消息","
+        发送群图片：发送文本消息：发送文本消息
+        "
+"passed","Wed Apr 01 16:24:23 CST 2020","Wed Apr 01 16:24:24 CST 2020","422","testcases.jjxt","test_send_person_text","TestSendPersonText","","","私聊发送文本消息：发送文本消息","
+        私聊发送文本消息：发送文本消息
+        "
+"passed","Wed Apr 01 16:24:19 CST 2020","Wed Apr 01 16:24:20 CST 2020","399","testcases.jjxt","test_send_person_text","TestSendPersonText","","","私聊发送文本消息：发送文本消息","
+        私聊发送文本消息：发送文本消息
+        "
+"passed","Wed Apr 01 16:24:21 CST 2020","Wed Apr 01 16:24:21 CST 2020","307","testcases.jjxt","test_send_person_text","TestSendPersonText","","","私聊发送文本消息：发送文本消息","
+        私聊发送文本消息：发送文本消息
+        "
+"passed","Wed Apr 01 16:23:14 CST 2020","Wed Apr 01 16:23:14 CST 2020","277","testcases.jjxt","test_send_clazz_text","TestSendText","","","发送文本消息：发送文本消息","
+        发送群图片：发送文本消息：发送文本消息
+        "
+"passed","Wed Apr 01 16:24:24 CST 2020","Wed Apr 01 16:24:24 CST 2020","281","testcases.jjxt","test_send_person_text","TestSendPersonText","","","私聊发送文本消息：发送文本消息","
+        私聊发送文本消息：发送文本消息
+        "
+"passed","Wed Apr 01 16:23:05 CST 2020","Wed Apr 01 16:23:06 CST 2020","521","testcases.jjxt","test_send_clazz_text","TestSendText","","","发送文本消息：发送文本消息","
+        发送群图片：发送文本消息：发送文本消息
+        "
+"passed","Wed Apr 01 16:23:16 CST 2020","Wed Apr 01 16:23:17 CST 2020","440","testcases.jjxt","test_send_clazz_text","TestSendText","","","发送文本消息：发送文本消息","
+        发送群图片：发送文本消息：发送文本消息
+        "
+"passed","Wed Apr 01 16:22:10 CST 2020","Wed Apr 01 16:22:19 CST 2020","9162","testcases.jjxt","test_send_clazz_live","TestSendLive","","","发送群直播：查询直播-随机发送回放直播-查询直播详情-历史消息中查看发送的直播","
+        发送群直播：查询直播-随机发送回放直播-查询直播详情-历史消息中查看发送的直播
+        "
+"passed","Wed Apr 01 16:23:08 CST 2020","Wed Apr 01 16:23:09 CST 2020","529","testcases.jjxt","test_send_clazz_text","TestSendText","","","发送文本消息：发送文本消息","
+        发送群图片：发送文本消息：发送文本消息
+        "
+"passed","Wed Apr 01 16:23:24 CST 2020","Wed Apr 01 16:23:24 CST 2020","340","testcases.jjxt","test_send_clazz_text","TestSendText","","","发送文本消息：发送文本消息","
+        发送群图片：发送文本消息：发送文本消息
+        "
+"passed","Wed Apr 01 16:24:34 CST 2020","Wed Apr 01 16:24:34 CST 2020","301","testcases.jjxt","test_send_person_text","TestSendPersonText","","","私聊发送文本消息：发送文本消息","
+        私聊发送文本消息：发送文本消息
+        "
+"passed","Wed Apr 01 16:23:11 CST 2020","Wed Apr 01 16:23:11 CST 2020","470","testcases.jjxt","test_send_clazz_text","TestSendText","","","发送文本消息：发送文本消息","
+        发送群图片：发送文本消息：发送文本消息
+        "
+"passed","Wed Apr 01 16:23:05 CST 2020","Wed Apr 01 16:23:05 CST 2020","151","testcases.jjxt","test_send_clazz_question","TestSendQuestion","","","发送群答题：删除不存在的群推试题","
+        发送群答题：删除不存在的群推试题
+        "
+"passed","Wed Apr 01 16:21:50 CST 2020","Wed Apr 01 16:21:50 CST 2020","128","testcases.jjxt","test_export_point_month","TestExportPointMonth","","","下载积分：设置年月日下载","
+        下载积分：设置年月日下载
+        "
+"passed","Wed Apr 01 16:23:08 CST 2020","Wed Apr 01 16:23:08 CST 2020","348","testcases.jjxt","test_send_clazz_text","TestSendText","","","发送文本消息：发送文本消息","
+        发送群图片：发送文本消息：发送文本消息
+        "
+"passed","Wed Apr 01 16:24:30 CST 2020","Wed Apr 01 16:24:30 CST 2020","398","testcases.jjxt","test_send_person_text","TestSendPersonText","","","私聊发送文本消息：发送文本消息","
+        私聊发送文本消息：发送文本消息
+        "
+"passed","Wed Apr 01 16:24:19 CST 2020","Wed Apr 01 16:24:19 CST 2020","407","testcases.jjxt","test_send_person_text","TestSendPersonText","","","私聊发送文本消息：发送文本消息","
+        私聊发送文本消息：发送文本消息
+        "
+"passed","Wed Apr 01 16:24:43 CST 2020","Wed Apr 01 16:24:43 CST 2020","87","testcases.jjxt","test_update_display","TestUpdataDisplay","","","设置群答题显示解析为手动","
+        设置群答题显示解析为手动
+        "
+"passed","Wed Apr 01 16:22:54 CST 2020","Wed Apr 01 16:23:03 CST 2020","8498","testcases.jjxt","test_send_clazz_question","TestSendQuestion","","","发送群答题：查询科目-查询模块-查询试卷-查询试题-随机发送群答题-历史消息中查看答题信息","
+        发送群答题：查询科目-查询模块-查询试卷-查询试题-随机发送群答题-历史消息中查看答题信息
+        "
+"passed","Wed Apr 01 16:23:06 CST 2020","Wed Apr 01 16:23:06 CST 2020","333","testcases.jjxt","test_send_clazz_text","TestSendText","","","发送文本消息：发送文本消息","
+        发送群图片：发送文本消息：发送文本消息
+        "
+"passed","Wed Apr 01 16:23:56 CST 2020","Wed Apr 01 16:24:05 CST 2020","8958","testcases.jjxt","test_send_person_live","TestSendPersonLive","","","私聊发送直播：查询直播-向单个学员随机发送回放直播-查询直播详情-私聊记录中查看发送的直播回放","
+        私聊发送直播：查询直播-向单个学员随机发送回放直播-查询直播详情-私聊记录中查看发送的直播回放
+        "
+"passed","Wed Apr 01 16:24:26 CST 2020","Wed Apr 01 16:24:26 CST 2020","445","testcases.jjxt","test_send_person_text","TestSendPersonText","","","私聊发送文本消息：发送文本消息","
+        私聊发送文本消息：发送文本消息
+        "
+"passed","Wed Apr 01 16:24:31 CST 2020","Wed Apr 01 16:24:32 CST 2020","404","testcases.jjxt","test_send_person_text","TestSendPersonText","","","私聊发送文本消息：发送文本消息","
+        私聊发送文本消息：发送文本消息
+        "
+"passed","Wed Apr 01 16:23:25 CST 2020","Wed Apr 01 16:23:26 CST 2020","404","testcases.jjxt","test_send_clazz_text","TestSendText","","","发送文本消息：发送文本消息","
+        发送群图片：发送文本消息：发送文本消息
+        "
+"passed","Wed Apr 01 16:24:18 CST 2020","Wed Apr 01 16:24:18 CST 2020","363","testcases.jjxt","test_send_person_text","TestSendPersonText","","","私聊发送文本消息：发送文本消息","
+        私聊发送文本消息：发送文本消息
+        "
+"passed","Wed Apr 01 16:24:22 CST 2020","Wed Apr 01 16:24:22 CST 2020","239","testcases.jjxt","test_send_person_text","TestSendPersonText","","","私聊发送文本消息：发送文本消息","
+        私聊发送文本消息：发送文本消息
+        "
+"passed","Wed Apr 01 16:24:28 CST 2020","Wed Apr 01 16:24:28 CST 2020","421","testcases.jjxt","test_send_person_text","TestSendPersonText","","","私聊发送文本消息：发送文本消息","
+        私聊发送文本消息：发送文本消息
+        "
+"passed","Wed Apr 01 16:21:51 CST 2020","Wed Apr 01 16:21:51 CST 2020","87","testcases.jjxt","test_get_teacher_im_info","TestGetTeacherImInfo","","","传入无效的字符查询老师信息","
+        传入无效的字符查询老师信息
+        "
+"passed","Wed Apr 01 16:23:07 CST 2020","Wed Apr 01 16:23:07 CST 2020","308","testcases.jjxt","test_send_clazz_text","TestSendText","","","发送文本消息：发送文本消息","
+        发送群图片：发送文本消息：发送文本消息
+        "
+"passed","Wed Apr 01 16:23:26 CST 2020","Wed Apr 01 16:23:26 CST 2020","418","testcases.jjxt","test_send_clazz_text","TestSendText","","","发送文本消息：发送文本消息","
+        发送群图片：发送文本消息：发送文本消息
+        "
+"passed","Wed Apr 01 16:24:30 CST 2020","Wed Apr 01 16:24:31 CST 2020","413","testcases.jjxt","test_send_person_text","TestSendPersonText","","","私聊发送文本消息：发送文本消息","
+        私聊发送文本消息：发送文本消息
+        "
+"passed","Wed Apr 01 16:23:22 CST 2020","Wed Apr 01 16:23:23 CST 2020","512","testcases.jjxt","test_send_clazz_text","TestSendText","","","发送文本消息：发送文本消息","
+        发送群图片：发送文本消息：发送文本消息
+        "
+"passed","Wed Apr 01 16:24:29 CST 2020","Wed Apr 01 16:24:29 CST 2020","377","testcases.jjxt","test_send_person_text","TestSendPersonText","","","私聊发送文本消息：发送文本消息","
+        私聊发送文本消息：发送文本消息
+        "
+"passed","Wed Apr 01 16:23:23 CST 2020","Wed Apr 01 16:23:24 CST 2020","547","testcases.jjxt","test_send_clazz_text","TestSendText","","","发送文本消息：发送文本消息","
+        发送群图片：发送文本消息：发送文本消息
+        "
+"passed","Wed Apr 01 16:23:10 CST 2020","Wed Apr 01 16:23:11 CST 2020","390","testcases.jjxt","test_send_clazz_text","TestSendText","","","发送文本消息：发送文本消息","
+        发送群图片：发送文本消息：发送文本消息
+        "
+"passed","Wed Apr 01 16:24:23 CST 2020","Wed Apr 01 16:24:23 CST 2020","391","testcases.jjxt","test_send_person_text","TestSendPersonText","","","私聊发送文本消息：发送文本消息","
+        私聊发送文本消息：发送文本消息
+        "
+"passed","Wed Apr 01 16:23:12 CST 2020","Wed Apr 01 16:23:13 CST 2020","518","testcases.jjxt","test_send_clazz_text","TestSendText","","","发送文本消息：发送文本消息","
+        发送群图片：发送文本消息：发送文本消息
+        "
+"passed","Wed Apr 01 16:23:18 CST 2020","Wed Apr 01 16:23:19 CST 2020","503","testcases.jjxt","test_send_clazz_text","TestSendText","","","发送文本消息：发送文本消息","
+        发送群图片：发送文本消息：发送文本消息
+        "
+"passed","Wed Apr 01 16:21:50 CST 2020","Wed Apr 01 16:21:50 CST 2020","107","testcases.jjxt","test_export_point_month","TestExportPointMonth","","","下载积分：不带年月日下载","
         下载积分：不带年月日下载
+        "
+"passed","Wed Apr 01 16:23:17 CST 2020","Wed Apr 01 16:23:17 CST 2020","322","testcases.jjxt","test_send_clazz_text","TestSendText","","","发送文本消息：发送文本消息","
+        发送群图片：发送文本消息：发送文本消息
+        "
+"passed","Wed Apr 01 16:24:33 CST 2020","Wed Apr 01 16:24:33 CST 2020","401","testcases.jjxt","test_send_person_text","TestSendPersonText","","","私聊发送文本消息：发送文本消息","
+        私聊发送文本消息：发送文本消息
+        "
+"passed","Wed Apr 01 16:24:20 CST 2020","Wed Apr 01 16:24:20 CST 2020","372","testcases.jjxt","test_send_person_text","TestSendPersonText","","","私聊发送文本消息：发送文本消息","
+        私聊发送文本消息：发送文本消息
+        "
+"passed","Wed Apr 01 16:24:32 CST 2020","Wed Apr 01 16:24:33 CST 2020","500","testcases.jjxt","test_send_person_text","TestSendPersonText","","","私聊发送文本消息：发送文本消息","
+        私聊发送文本消息：发送文本消息
+        "
+"passed","Wed Apr 01 16:23:21 CST 2020","Wed Apr 01 16:23:21 CST 2020","508","testcases.jjxt","test_send_clazz_text","TestSendText","","","发送文本消息：发送文本消息","
+        发送群图片：发送文本消息：发送文本消息
+        "
+"passed","Wed Apr 01 16:24:22 CST 2020","Wed Apr 01 16:24:23 CST 2020","399","testcases.jjxt","test_send_person_text","TestSendPersonText","","","私聊发送文本消息：发送文本消息","
+        私聊发送文本消息：发送文本消息
+        "
+"passed","Wed Apr 01 16:24:26 CST 2020","Wed Apr 01 16:24:26 CST 2020","398","testcases.jjxt","test_send_person_text","TestSendPersonText","","","私聊发送文本消息：发送文本消息","
+        私聊发送文本消息：发送文本消息
+        "
+"passed","Wed Apr 01 16:24:21 CST 2020","Wed Apr 01 16:24:22 CST 2020","392","testcases.jjxt","test_send_person_text","TestSendPersonText","","","私聊发送文本消息：发送文本消息","
+        私聊发送文本消息：发送文本消息
+        "
+"passed","Wed Apr 01 16:22:01 CST 2020","Wed Apr 01 16:22:10 CST 2020","9068","testcases.jjxt","test_send_clazz_img","TestSendIMG","","","发送群图片：上传图片-发送jpg图片-历史消息查看发送的图片","
+        发送群图片：上传图片-发送jpg图片-历史消息查看发送的图片
+        "
+"passed","Wed Apr 01 16:23:20 CST 2020","Wed Apr 01 16:23:21 CST 2020","554","testcases.jjxt","test_send_clazz_text","TestSendText","","","发送文本消息：发送文本消息","
+        发送群图片：发送文本消息：发送文本消息
+        "
+"passed","Wed Apr 01 16:22:29 CST 2020","Wed Apr 01 16:22:39 CST 2020","9548","testcases.jjxt","test_send_clazz_paper","TestSendPaper","","","发送群试卷：查询试卷-随机发送试卷-查看试卷详情-历史消息中查看发送的试卷-下载答题详情","
+        发送群试卷：查询试卷-随机发送试卷-查看试卷详情-历史消息中查看发送的试卷-下载答题详情
+        "
+"passed","Wed Apr 01 16:24:17 CST 2020","Wed Apr 01 16:24:17 CST 2020","419","testcases.jjxt","test_send_person_text","TestSendPersonText","","","私聊发送文本消息：发送文本消息","
+        私聊发送文本消息：发送文本消息
+        "
+"passed","Wed Apr 01 16:21:50 CST 2020","Wed Apr 01 16:21:50 CST 2020","212","testcases.jjxt","test_export_excel","TestExportPointMonth","","","导出学员列表数据","
+        导出学员列表数据
+        "
+"passed","Wed Apr 01 16:24:15 CST 2020","Wed Apr 01 16:24:15 CST 2020","391","testcases.jjxt","test_send_person_text","TestSendPersonText","","","私聊发送文本消息：发送文本消息","
+        私聊发送文本消息：发送文本消息
+        "
+"passed","Wed Apr 01 16:21:51 CST 2020","Wed Apr 01 16:21:51 CST 2020","109","testcases.jjxt","test_get_teacher_im_info","TestGetTeacherImInfo","","","传入无效的字符查询老师信息","
+        传入无效的字符查询老师信息
+        "
+"failed","Wed Apr 01 16:22:20 CST 2020","Wed Apr 01 16:22:20 CST 2020","229","testcases.jjxt","test_send_clazz_live","TestSendLive","","","发送群直播：查询直播-随机发送已结束直播-查询直播详情-历史消息中查看发送的直播","
+        发送群直播：查询直播-随机发送已结束直播-查询直播详情-历史消息中查看发送的直播
+        "
+"passed","Wed Apr 01 16:24:28 CST 2020","Wed Apr 01 16:24:28 CST 2020","404","testcases.jjxt","test_send_person_text","TestSendPersonText","","","私聊发送文本消息：发送文本消息","
+        私聊发送文本消息：发送文本消息
+        "
+"passed","Wed Apr 01 16:24:18 CST 2020","Wed Apr 01 16:24:19 CST 2020","358","testcases.jjxt","test_send_person_text","TestSendPersonText","","","私聊发送文本消息：发送文本消息","
+        私聊发送文本消息：发送文本消息
+        "
+"passed","Wed Apr 01 16:24:23 CST 2020","Wed Apr 01 16:24:23 CST 2020","328","testcases.jjxt","test_send_person_text","TestSendPersonText","","","私聊发送文本消息：发送文本消息","
+        私聊发送文本消息：发送文本消息
+        "
+"passed","Wed Apr 01 16:23:15 CST 2020","Wed Apr 01 16:23:15 CST 2020","513","testcases.jjxt","test_send_clazz_text","TestSendText","","","发送文本消息：发送文本消息","
+        发送群图片：发送文本消息：发送文本消息
+        "
+"passed","Wed Apr 01 16:23:19 CST 2020","Wed Apr 01 16:23:19 CST 2020","463","testcases.jjxt","test_send_clazz_text","TestSendText","","","发送文本消息：发送文本消息","
+        发送群图片：发送文本消息：发送文本消息
+        "
+"passed","Wed Apr 01 16:23:14 CST 2020","Wed Apr 01 16:23:15 CST 2020","508","testcases.jjxt","test_send_clazz_text","TestSendText","","","发送文本消息：发送文本消息","
+        发送群图片：发送文本消息：发送文本消息
+        "
+"passed","Wed Apr 01 16:21:51 CST 2020","Wed Apr 01 16:22:01 CST 2020","9491","testcases.jjxt","test_send_clazz_file","TestSendFile","","","发送群文件：上传文件-发送xlsx文件-历史消息查看发送的文件","
+        发送群文件：上传文件-发送xlsx文件-历史消息查看发送的文件
+        "
+"passed","Wed Apr 01 16:23:15 CST 2020","Wed Apr 01 16:23:16 CST 2020","367","testcases.jjxt","test_send_clazz_text","TestSendText","","","发送文本消息：发送文本消息","
+        发送群图片：发送文本消息：发送文本消息
+        "
+"passed","Wed Apr 01 16:24:27 CST 2020","Wed Apr 01 16:24:27 CST 2020","369","testcases.jjxt","test_send_person_text","TestSendPersonText","","","私聊发送文本消息：发送文本消息","
+        私聊发送文本消息：发送文本消息
+        "
+"passed","Wed Apr 01 16:23:09 CST 2020","Wed Apr 01 16:23:09 CST 2020","505","testcases.jjxt","test_send_clazz_text","TestSendText","","","发送文本消息：发送文本消息","
+        发送群图片：发送文本消息：发送文本消息
+        "
+"passed","Wed Apr 01 16:24:20 CST 2020","Wed Apr 01 16:24:21 CST 2020","323","testcases.jjxt","test_send_person_text","TestSendPersonText","","","私聊发送文本消息：发送文本消息","
+        私聊发送文本消息：发送文本消息
+        "
+"passed","Wed Apr 01 16:24:22 CST 2020","Wed Apr 01 16:24:22 CST 2020","378","testcases.jjxt","test_send_person_text","TestSendPersonText","","","私聊发送文本消息：发送文本消息","
+        私聊发送文本消息：发送文本消息
+        "
+"passed","Wed Apr 01 16:24:25 CST 2020","Wed Apr 01 16:24:25 CST 2020","357","testcases.jjxt","test_send_person_text","TestSendPersonText","","","私聊发送文本消息：发送文本消息","
+        私聊发送文本消息：发送文本消息
+        "
+"passed","Wed Apr 01 16:23:26 CST 2020","Wed Apr 01 16:23:27 CST 2020","395","testcases.jjxt","test_send_clazz_text","TestSendText","","","发送文本消息：发送文本消息","
+        发送群图片：发送文本消息：发送文本消息
+        "
+"passed","Wed Apr 01 16:22:41 CST 2020","Wed Apr 01 16:22:50 CST 2020","9179","testcases.jjxt","test_send_clazz_question","TestSendQuestion","","","发送群答题：查询科目-查询模块-查询试卷-查询试题-存题-查询待推题-推送待推题-查询答题详情-历史消息中查看答题信息","
+        发送群答题：查询科目-查询模块-查询试卷-查询试题-存题-查询待推题-推送待推题-查询答题详情-历史消息中查看答题信息
+        "
+"passed","Wed Apr 01 16:23:07 CST 2020","Wed Apr 01 16:23:07 CST 2020","528","testcases.jjxt","test_send_clazz_text","TestSendText","","","发送文本消息：发送文本消息","
+        发送群图片：发送文本消息：发送文本消息
+        "
+"passed","Wed Apr 01 16:24:33 CST 2020","Wed Apr 01 16:24:34 CST 2020","370","testcases.jjxt","test_send_person_text","TestSendPersonText","","","私聊发送文本消息：发送文本消息","
+        私聊发送文本消息：发送文本消息
         "

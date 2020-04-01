@@ -1,0 +1,1007 @@
+2020-04-01 16:24:34 myrequests.py[line:40] INFO: 
+
+***************************************************************************接口请求分割线***************************************************************************
+
+2020-04-01 16:24:34 myrequests.py[line:43] INFO: 开始访问接口:【subjectList:根据商品ID获取科目列表】
+2020-04-01 16:24:34 myrequests.py[line:132] INFO: 发送get请求
+2020-04-01 16:24:34 myrequests.py[line:244] INFO: 接口请求地址为
+https://api-diligent-mgt.haixue.com/diligent/chatSelector/subject/list/75323
+2020-04-01 16:24:34 myrequests.py[line:249] INFO: 响应状态码为:200，响应时间为:0.074367
+2020-04-01 16:24:34 custom_assert.py[line:40] INFO: 
+断言值为:
+{
+  "code": 200
+}
+响应信息:
+{
+  "code": 200,
+  "data": [
+    {
+      "id": 1,
+      "sequence": 1,
+      "subjectName": "建设工程经济",
+      "subjectShortName": "经济"
+    },
+    {
+      "id": 25,
+      "sequence": 2,
+      "subjectName": "建设工程法规及相关知识",
+      "subjectShortName": "法规"
+    },
+    {
+      "id": 27,
+      "sequence": 3,
+      "subjectName": "建设工程项目管理",
+      "subjectShortName": "管理"
+    },
+    {
+      "id": 43,
+      "sequence": 4,
+      "subjectName": "市政公用工程管理与实务",
+      "subjectShortName": "市政实务"
+    },
+    {
+      "id": 393,
+      "sequence": 5,
+      "subjectName": "综合",
+      "subjectShortName": "综合"
+    }
+  ],
+  "msg": null
+}
+2020-04-01 16:24:34 custom_assert.py[line:131] INFO: 断言json中指定的key【data】的返回数据的类型必须是【<class 'list'>】，返回数据不能是【[]】
+2020-04-01 16:24:34 myrequests.py[line:40] INFO: 
+
+***************************************************************************接口请求分割线***************************************************************************
+
+2020-04-01 16:24:34 myrequests.py[line:43] INFO: 开始访问接口:【moduleList:根据商品ID科目ID模块类型获取模块列表】
+2020-04-01 16:24:34 myrequests.py[line:132] INFO: 发送get请求
+2020-04-01 16:24:34 myrequests.py[line:136] INFO: 请求参数信息为
+{
+  "moduleType": "VIDEO",
+  "subjectId": 393
+}
+2020-04-01 16:24:34 myrequests.py[line:244] INFO: 接口请求地址为
+https://api-diligent-mgt.haixue.com/diligent/chatSelector/module/list/75323?subjectId=393&moduleType=VIDEO
+2020-04-01 16:24:34 myrequests.py[line:249] INFO: 响应状态码为:200，响应时间为:0.185178
+2020-04-01 16:24:34 custom_assert.py[line:105] INFO: 响应信息:
+{
+  "code": 204,
+  "data": [],
+  "msg": "未获取到数据"
+}
+2020-04-01 16:24:34 custom_assert.py[line:106] INFO: 断言json中指定的key【data】的返回值类型必须是：【<class 'list'>】
+2020-04-01 16:24:34 myrequests.py[line:40] INFO: 
+
+***************************************************************************接口请求分割线***************************************************************************
+
+2020-04-01 16:24:34 myrequests.py[line:43] INFO: 开始访问接口:【moduleList:根据商品ID科目ID模块类型获取模块列表】
+2020-04-01 16:24:34 myrequests.py[line:132] INFO: 发送get请求
+2020-04-01 16:24:34 myrequests.py[line:136] INFO: 请求参数信息为
+{
+  "moduleType": "VIDEO",
+  "subjectId": 27
+}
+2020-04-01 16:24:34 myrequests.py[line:244] INFO: 接口请求地址为
+https://api-diligent-mgt.haixue.com/diligent/chatSelector/module/list/75323?subjectId=27&moduleType=VIDEO
+2020-04-01 16:24:34 myrequests.py[line:249] INFO: 响应状态码为:200，响应时间为:0.185542
+2020-04-01 16:24:34 custom_assert.py[line:105] INFO: 响应信息:
+{
+  "code": 200,
+  "data": [
+    {
+      "goodsModuleName": "真题解析",
+      "id": 18811
+    },
+    {
+      "goodsModuleName": "冲刺串讲",
+      "id": 18823
+    },
+    {
+      "goodsModuleName": "精讲通关",
+      "id": 18841
+    },
+    {
+      "goodsModuleName": "模考点题",
+      "id": 18859
+    },
+    {
+      "goodsModuleName": "实景精讲通关",
+      "id": 18877
+    }
+  ],
+  "msg": null
+}
+2020-04-01 16:24:34 custom_assert.py[line:106] INFO: 断言json中指定的key【data】的返回值类型必须是：【<class 'list'>】
+2020-04-01 16:24:34 myrequests.py[line:40] INFO: 
+
+***************************************************************************接口请求分割线***************************************************************************
+
+2020-04-01 16:24:34 myrequests.py[line:43] INFO: 开始访问接口:【videoSelectorList:录播选择器列表】
+2020-04-01 16:24:34 myrequests.py[line:132] INFO: 发送get请求
+2020-04-01 16:24:34 myrequests.py[line:136] INFO: 请求参数信息为
+{
+  "moduleIds[0]": 18811,
+  "moduleIds[1]": 18823,
+  "moduleIds[2]": 18841,
+  "moduleIds[3]": 18859,
+  "moduleIds[4]": 18877,
+  "pageNum": "1",
+  "pageSize": "10",
+  "subjectId": "1"
+}
+2020-04-01 16:24:34 myrequests.py[line:244] INFO: 接口请求地址为
+https://api-diligent-mgt.haixue.com/diligent/chatSelector/videoSelectorList?subjectId=1&moduleIds%5B0%5D=18811&pageNum=1&pageSize=10&moduleIds%5B1%5D=18823&moduleIds%5B2%5D=18841&moduleIds%5B3%5D=18859&moduleIds%5B4%5D=18877
+2020-04-01 16:24:34 myrequests.py[line:249] INFO: 响应状态码为:200，响应时间为:0.1039
+2020-04-01 16:24:34 custom_assert.py[line:105] INFO: 响应信息:
+{
+  "code": 200,
+  "data": [
+    {
+      "muduleList": [
+        {
+          "id": 18811,
+          "name": "真题解析"
+        }
+      ],
+      "subject": {
+        "id": 27,
+        "sequence": null,
+        "subjectName": "建设工程项目管理",
+        "subjectShortName": null
+      },
+      "teacherName": "朱俊文",
+      "totalTime": 2320,
+      "videoId": 108089,
+      "videoName": "（4）多项选择题"
+    },
+    {
+      "muduleList": [
+        {
+          "id": 18811,
+          "name": "真题解析"
+        }
+      ],
+      "subject": {
+        "id": 27,
+        "sequence": null,
+        "subjectName": "建设工程项目管理",
+        "subjectShortName": null
+      },
+      "teacherName": "朱俊文",
+      "totalTime": 1934,
+      "videoId": 108087,
+      "videoName": "（3）单项选择题3"
+    },
+    {
+      "muduleList": [
+        {
+          "id": 18811,
+          "name": "真题解析"
+        }
+      ],
+      "subject": {
+        "id": 27,
+        "sequence": null,
+        "subjectName": "建设工程项目管理",
+        "subjectShortName": null
+      },
+      "teacherName": "朱俊文",
+      "totalTime": 1501,
+      "videoId": 108085,
+      "videoName": "（2）单项选择题2"
+    },
+    {
+      "muduleList": [
+        {
+          "id": 18811,
+          "name": "真题解析"
+        }
+      ],
+      "subject": {
+        "id": 27,
+        "sequence": null,
+        "subjectName": "建设工程项目管理",
+        "subjectShortName": null
+      },
+      "teacherName": "朱俊文",
+      "totalTime": 1475,
+      "videoId": 108083,
+      "videoName": "（1）单项选择题1"
+    }
+  ],
+  "msg": null
+}
+2020-04-01 16:24:34 custom_assert.py[line:106] INFO: 断言json中指定的key【data】的返回值类型必须是：【<class 'list'>】
+2020-04-01 16:24:34 myrequests.py[line:40] INFO: 
+
+***************************************************************************接口请求分割线***************************************************************************
+
+2020-04-01 16:24:34 myrequests.py[line:43] INFO: 开始访问接口:【sendMsgPerson:发送私聊消息】
+2020-04-01 16:24:34 myrequests.py[line:115] INFO: 发送post_form请求
+2020-04-01 16:24:34 myrequests.py[line:119] INFO: 请求参数信息为
+{
+  "clazzId": 567,
+  "customerId": 1585,
+  "messageContent": {
+    "msgType": "VIDEO",
+    "randomStr": 1585729474000,
+    "sendStatus": "sending",
+    "top": false,
+    "videoMsg": {
+      "moduleNameList": [
+        "真题解析"
+      ],
+      "muduleList": [
+        {
+          "id": 18811,
+          "name": "真题解析"
+        }
+      ],
+      "subject": {
+        "id": 27,
+        "sequence": null,
+        "subjectName": "建设工程项目管理",
+        "subjectShortName": null
+      },
+      "subjectId": 27,
+      "subjectName": "建设工程项目管理",
+      "teacherName": "朱俊文",
+      "totalTime": 2320,
+      "videoId": 108089,
+      "videoName": "（4）多项选择题"
+    }
+  },
+  "messageType": "VIDEO",
+  "randomStr": 1585729474000,
+  "studentId": 25968417,
+  "top": "false"
+}
+2020-04-01 16:24:35 myrequests.py[line:244] INFO: 接口请求地址为
+https://api-diligent-mgt.haixue.com/diligent/tencent/im/sendMsgPerson/25968417?customerId=1585&clazzId=567&messageType=VIDEO&top=false&randomStr=1585729474000&messageContent=%7B%27randomStr%27%3A+1585729474000%2C+%27sendStatus%27%3A+%27sending%27%2C+%27msgType%27%3A+%27VIDEO%27%2C+%27top%27%3A+%27false%27%2C+%27videoMsg%27%3A+%7B%27videoId%27%3A+108089%2C+%27videoName%27%3A+%27%EF%BC%884%EF%BC%89%E5%A4%9A%E9%A1%B9%E9%80%89%E6%8B%A9%E9%A2%98%27%2C+%27teacherName%27%3A+%27%E6%9C%B1%E4%BF%8A%E6%96%87%27%2C+%27totalTime%27%3A+2320%2C+%27subject%27%3A+%7B%27id%27%3A+27%2C+%27sequence%27%3A+%27null%27%2C+%27subjectName%27%3A+%27%E5%BB%BA%E8%AE%BE%E5%B7%A5%E7%A8%8B%E9%A1%B9%E7%9B%AE%E7%AE%A1%E7%90%86%27%2C+%27subjectShortName%27%3A+%27null%27%7D%2C+%27muduleList%27%3A+%5B%7B%27id%27%3A+18811%2C+%27name%27%3A+%27%E7%9C%9F%E9%A2%98%E8%A7%A3%E6%9E%90%27%7D%5D%2C+%27subjectName%27%3A+%27%E5%BB%BA%E8%AE%BE%E5%B7%A5%E7%A8%8B%E9%A1%B9%E7%9B%AE%E7%AE%A1%E7%90%86%27%2C+%27subjectId%27%3A+27%2C+%27moduleNameList%27%3A+%5B%27%E7%9C%9F%E9%A2%98%E8%A7%A3%E6%9E%90%27%5D%7D%7D&studentId=25968417
+2020-04-01 16:24:35 myrequests.py[line:249] INFO: 响应状态码为:200，响应时间为:0.436011
+2020-04-01 16:24:35 custom_assert.py[line:40] INFO: 
+断言值为:
+{
+  "code": 200
+}
+响应信息:
+{
+  "code": 200,
+  "data": "success",
+  "msg": null
+}
+2020-04-01 16:24:35 myrequests.py[line:40] INFO: 
+
+***************************************************************************接口请求分割线***************************************************************************
+
+2020-04-01 16:24:35 myrequests.py[line:43] INFO: 开始访问接口:【studycontentGet:获取学习内容】
+2020-04-01 16:24:35 myrequests.py[line:132] INFO: 发送get请求
+2020-04-01 16:24:35 myrequests.py[line:136] INFO: 请求参数信息为
+{
+  "businessId": 108089,
+  "clazzId": 567,
+  "typeEnum": "VIDEO"
+}
+2020-04-01 16:24:35 myrequests.py[line:244] INFO: 接口请求地址为
+https://api-diligent-mgt.haixue.com/diligent/studycontent/get?clazzId=567&businessId=108089&typeEnum=VIDEO
+2020-04-01 16:24:35 myrequests.py[line:249] INFO: 响应状态码为:200，响应时间为:0.150408
+2020-04-01 16:24:35 custom_assert.py[line:40] INFO: 
+断言值为:
+{
+  "code": 200
+}
+响应信息:
+{
+  "code": 200,
+  "data": {
+    "averageStudyProgress": 0,
+    "businessId": 108089,
+    "businessName": "（4）多项选择题",
+    "clazzStudyContentVideoCustomerVos": [
+      {
+        "customerId": 18108589,
+        "customerName": "真实姓名",
+        "lastWatchDate": null,
+        "mobile": "177****8880",
+        "start": null,
+        "studyDuration": null,
+        "studyProgress": 0,
+        "videoId": 108089
+      },
+      {
+        "customerId": 20976343,
+        "customerName": "杨倩",
+        "lastWatchDate": null,
+        "mobile": "183****3528",
+        "start": null,
+        "studyDuration": null,
+        "studyProgress": 0,
+        "videoId": 108089
+      },
+      {
+        "customerId": 25968417,
+        "customerName": "大哥大",
+        "lastWatchDate": null,
+        "mobile": "139****4437",
+        "start": null,
+        "studyDuration": null,
+        "studyProgress": 0,
+        "videoId": 108089
+      },
+      {
+        "customerId": 25971141,
+        "customerName": "陈三石",
+        "lastWatchDate": null,
+        "mobile": "173****9978",
+        "start": null,
+        "studyDuration": null,
+        "studyProgress": 0,
+        "videoId": 108089
+      }
+    ],
+    "contentId": null,
+    "contentNo": null,
+    "importanceDegree": null,
+    "noDoneNum": 4,
+    "peopleNum": 4,
+    "required": null,
+    "spendMinutes": 39,
+    "stageId": null,
+    "stageName": null,
+    "subjectId": null,
+    "subjectName": null,
+    "taskId": null,
+    "taskName": null,
+    "teacherNames": "朱俊文",
+    "type": "VIDEO"
+  },
+  "msg": null
+}
+2020-04-01 16:24:35 custom_assert.py[line:131] INFO: 断言json中指定的key【clazzStudyContentVideoCustomerVos】的返回数据的类型必须是【<class 'list'>】，返回数据不能是【[]】
+2020-04-01 16:24:43 myrequests.py[line:40] INFO: 
+
+***************************************************************************接口请求分割线***************************************************************************
+
+2020-04-01 16:24:43 myrequests.py[line:43] INFO: 开始访问接口:【c2chistoryMsg:查看私聊历史消息】
+2020-04-01 16:24:43 myrequests.py[line:132] INFO: 发送get请求
+2020-04-01 16:24:43 myrequests.py[line:136] INFO: 请求参数信息为
+{
+  "clazzId": "416",
+  "endDate": "2020-04-01 16:26:43",
+  "pageNum": "1",
+  "sendType": "C2C",
+  "startDate": "2020-04-01 16:22:43",
+  "studentAccount": "C-25968417"
+}
+2020-04-01 16:24:43 myrequests.py[line:244] INFO: 接口请求地址为
+https://api-diligent-mgt.haixue.com/diligent/tencent/im/c2c/historyMsg?pageNum=1&sendType=C2C&studentAccount=C-25968417&clazzId=416&startDate=2020-04-01+16%3A22%3A43&endDate=2020-04-01+16%3A26%3A43
+2020-04-01 16:24:43 myrequests.py[line:249] INFO: 响应状态码为:200，响应时间为:0.262953
+2020-04-01 16:24:43 custom_assert.py[line:40] INFO: 
+断言值为:
+{
+  "code": 200
+}
+响应信息:
+{
+  "code": 200,
+  "data": {
+    "currentPage": 1,
+    "items": [
+      {
+        "From_Account": "T-1585",
+        "GroupId": null,
+        "MsgBody": [
+          {
+            "MsgContent": {
+              "Data": "{\"fromIdentifier\":\"T-1585\",\"fromIdentifierNickName\":\"陈磊二\",\"character\":\"ASSISTANT\",\"msgType\":\"VIDEO\",\"top\":false,\"videoMsg\":{\"videoId\":108089,\"subjectId\":27,\"videoName\":\"（4）多项选择题\",\"subjectName\":\"建设工程项目管理\",\"moduleNameList\":[\"真题解析\"],\"totalTime\":2320,\"teacherName\":\"朱俊文\",\"courseInfo\":false},\"randomStr\":\"1585729474000\"}",
+              "Desc": "[课程提醒]（4）多项选择题",
+              "Ext": "",
+              "FileName": null,
+              "FileSize": null,
+              "ImageFormat": null,
+              "ImageInfoArray": null,
+              "Index": null,
+              "Latitude": null,
+              "Longitude": null,
+              "Second": null,
+              "Size": null,
+              "Sound": "",
+              "Text": null,
+              "UUID": null
+            },
+            "MsgType": "TIMCustomElem"
+          }
+        ],
+        "MsgSeq": "105127251",
+        "MsgTime": 1585729491,
+        "To_Account": "C-25968417"
+      },
+      {
+        "From_Account": "T-1585",
+        "GroupId": null,
+        "MsgBody": [
+          {
+            "MsgContent": {
+              "Data": "{\"fromIdentifier\":\"T-1585\",\"fromIdentifierNickName\":\"陈磊二\",\"character\":\"ASSISTANT\",\"msgType\":\"TEXT\",\"top\":false,\"textMsg\":{\"callSomeone\":false,\"callIdentifier\":\"\",\"text\":\"私聊1585729473000\",\"callIdentifierNickName\":\"\",\"callList\":[]},\"randomStr\":\"1585729473000\"}",
+              "Desc": "私聊1585729473000",
+              "Ext": "",
+              "FileName": null,
+              "FileSize": null,
+              "ImageFormat": null,
+              "ImageInfoArray": null,
+              "Index": null,
+              "Latitude": null,
+              "Longitude": null,
+              "Second": null,
+              "Size": null,
+              "Sound": "",
+              "Text": null,
+              "UUID": null
+            },
+            "MsgType": "TIMCustomElem"
+          }
+        ],
+        "MsgSeq": "1697219204",
+        "MsgTime": 1585729490,
+        "To_Account": "C-25968417"
+      },
+      {
+        "From_Account": "T-1585",
+        "GroupId": null,
+        "MsgBody": [
+          {
+            "MsgContent": {
+              "Data": "{\"fromIdentifier\":\"T-1585\",\"fromIdentifierNickName\":\"陈磊二\",\"character\":\"ASSISTANT\",\"msgType\":\"TEXT\",\"top\":false,\"textMsg\":{\"callSomeone\":false,\"callIdentifier\":\"\",\"text\":\"私聊1585729473000\",\"callIdentifierNickName\":\"\",\"callList\":[]},\"randomStr\":\"1585729473000\"}",
+              "Desc": "私聊1585729473000",
+              "Ext": "",
+              "FileName": null,
+              "FileSize": null,
+              "ImageFormat": null,
+              "ImageInfoArray": null,
+              "Index": null,
+              "Latitude": null,
+              "Longitude": null,
+              "Second": null,
+              "Size": null,
+              "Sound": "",
+              "Text": null,
+              "UUID": null
+            },
+            "MsgType": "TIMCustomElem"
+          }
+        ],
+        "MsgSeq": "835128594",
+        "MsgTime": 1585729490,
+        "To_Account": "C-25968417"
+      },
+      {
+        "From_Account": "T-1585",
+        "GroupId": null,
+        "MsgBody": [
+          {
+            "MsgContent": {
+              "Data": "{\"fromIdentifier\":\"T-1585\",\"fromIdentifierNickName\":\"陈磊二\",\"character\":\"ASSISTANT\",\"msgType\":\"TEXT\",\"top\":false,\"textMsg\":{\"callSomeone\":false,\"callIdentifier\":\"\",\"text\":\"私聊1585729474000\",\"callIdentifierNickName\":\"\",\"callList\":[]},\"randomStr\":\"1585729474000\"}",
+              "Desc": "私聊1585729474000",
+              "Ext": "",
+              "FileName": null,
+              "FileSize": null,
+              "ImageFormat": null,
+              "ImageInfoArray": null,
+              "Index": null,
+              "Latitude": null,
+              "Longitude": null,
+              "Second": null,
+              "Size": null,
+              "Sound": "",
+              "Text": null,
+              "UUID": null
+            },
+            "MsgType": "TIMCustomElem"
+          }
+        ],
+        "MsgSeq": "665565156",
+        "MsgTime": 1585729490,
+        "To_Account": "C-25968417"
+      },
+      {
+        "From_Account": "T-1585",
+        "GroupId": null,
+        "MsgBody": [
+          {
+            "MsgContent": {
+              "Data": "{\"fromIdentifier\":\"T-1585\",\"fromIdentifierNickName\":\"陈磊二\",\"character\":\"ASSISTANT\",\"msgType\":\"TEXT\",\"top\":false,\"textMsg\":{\"callSomeone\":false,\"callIdentifier\":\"\",\"text\":\"私聊1585729472000\",\"callIdentifierNickName\":\"\",\"callList\":[]},\"randomStr\":\"1585729472000\"}",
+              "Desc": "私聊1585729472000",
+              "Ext": "",
+              "FileName": null,
+              "FileSize": null,
+              "ImageFormat": null,
+              "ImageInfoArray": null,
+              "Index": null,
+              "Latitude": null,
+              "Longitude": null,
+              "Second": null,
+              "Size": null,
+              "Sound": "",
+              "Text": null,
+              "UUID": null
+            },
+            "MsgType": "TIMCustomElem"
+          }
+        ],
+        "MsgSeq": "618964234",
+        "MsgTime": 1585729489,
+        "To_Account": "C-25968417"
+      },
+      {
+        "From_Account": "T-1585",
+        "GroupId": null,
+        "MsgBody": [
+          {
+            "MsgContent": {
+              "Data": "{\"fromIdentifier\":\"T-1585\",\"fromIdentifierNickName\":\"陈磊二\",\"character\":\"ASSISTANT\",\"msgType\":\"TEXT\",\"top\":false,\"textMsg\":{\"callSomeone\":false,\"callIdentifier\":\"\",\"text\":\"私聊1585729472000\",\"callIdentifierNickName\":\"\",\"callList\":[]},\"randomStr\":\"1585729472000\"}",
+              "Desc": "私聊1585729472000",
+              "Ext": "",
+              "FileName": null,
+              "FileSize": null,
+              "ImageFormat": null,
+              "ImageInfoArray": null,
+              "Index": null,
+              "Latitude": null,
+              "Longitude": null,
+              "Second": null,
+              "Size": null,
+              "Sound": "",
+              "Text": null,
+              "UUID": null
+            },
+            "MsgType": "TIMCustomElem"
+          }
+        ],
+        "MsgSeq": "813058482",
+        "MsgTime": 1585729489,
+        "To_Account": "C-25968417"
+      },
+      {
+        "From_Account": "T-1585",
+        "GroupId": null,
+        "MsgBody": [
+          {
+            "MsgContent": {
+              "Data": "{\"fromIdentifier\":\"T-1585\",\"fromIdentifierNickName\":\"陈磊二\",\"character\":\"ASSISTANT\",\"msgType\":\"TEXT\",\"top\":false,\"textMsg\":{\"callSomeone\":false,\"callIdentifier\":\"\",\"text\":\"私聊1585729471000\",\"callIdentifierNickName\":\"\",\"callList\":[]},\"randomStr\":\"1585729471000\"}",
+              "Desc": "私聊1585729471000",
+              "Ext": "",
+              "FileName": null,
+              "FileSize": null,
+              "ImageFormat": null,
+              "ImageInfoArray": null,
+              "Index": null,
+              "Latitude": null,
+              "Longitude": null,
+              "Second": null,
+              "Size": null,
+              "Sound": "",
+              "Text": null,
+              "UUID": null
+            },
+            "MsgType": "TIMCustomElem"
+          }
+        ],
+        "MsgSeq": "1891137426",
+        "MsgTime": 1585729488,
+        "To_Account": "C-25968417"
+      },
+      {
+        "From_Account": "T-1585",
+        "GroupId": null,
+        "MsgBody": [
+          {
+            "MsgContent": {
+              "Data": "{\"fromIdentifier\":\"T-1585\",\"fromIdentifierNickName\":\"陈磊二\",\"character\":\"ASSISTANT\",\"msgType\":\"TEXT\",\"top\":false,\"textMsg\":{\"callSomeone\":false,\"callIdentifier\":\"\",\"text\":\"私聊1585729472000\",\"callIdentifierNickName\":\"\",\"callList\":[]},\"randomStr\":\"1585729472000\"}",
+              "Desc": "私聊1585729472000",
+              "Ext": "",
+              "FileName": null,
+              "FileSize": null,
+              "ImageFormat": null,
+              "ImageInfoArray": null,
+              "Index": null,
+              "Latitude": null,
+              "Longitude": null,
+              "Second": null,
+              "Size": null,
+              "Sound": "",
+              "Text": null,
+              "UUID": null
+            },
+            "MsgType": "TIMCustomElem"
+          }
+        ],
+        "MsgSeq": "1194642219",
+        "MsgTime": 1585729488,
+        "To_Account": "C-25968417"
+      },
+      {
+        "From_Account": "T-1585",
+        "GroupId": null,
+        "MsgBody": [
+          {
+            "MsgContent": {
+              "Data": "{\"fromIdentifier\":\"T-1585\",\"fromIdentifierNickName\":\"陈磊二\",\"character\":\"ASSISTANT\",\"msgType\":\"TEXT\",\"top\":false,\"textMsg\":{\"callSomeone\":false,\"callIdentifier\":\"\",\"text\":\"私聊1585729471000\",\"callIdentifierNickName\":\"\",\"callList\":[]},\"randomStr\":\"1585729471000\"}",
+              "Desc": "私聊1585729471000",
+              "Ext": "",
+              "FileName": null,
+              "FileSize": null,
+              "ImageFormat": null,
+              "ImageInfoArray": null,
+              "Index": null,
+              "Latitude": null,
+              "Longitude": null,
+              "Second": null,
+              "Size": null,
+              "Sound": "",
+              "Text": null,
+              "UUID": null
+            },
+            "MsgType": "TIMCustomElem"
+          }
+        ],
+        "MsgSeq": "282824883",
+        "MsgTime": 1585729488,
+        "To_Account": "C-25968417"
+      },
+      {
+        "From_Account": "T-1585",
+        "GroupId": null,
+        "MsgBody": [
+          {
+            "MsgContent": {
+              "Data": "{\"fromIdentifier\":\"T-1585\",\"fromIdentifierNickName\":\"陈磊二\",\"character\":\"ASSISTANT\",\"msgType\":\"TEXT\",\"top\":false,\"textMsg\":{\"callSomeone\":false,\"callIdentifier\":\"\",\"text\":\"私聊1585729470000\",\"callIdentifierNickName\":\"\",\"callList\":[]},\"randomStr\":\"1585729470000\"}",
+              "Desc": "私聊1585729470000",
+              "Ext": "",
+              "FileName": null,
+              "FileSize": null,
+              "ImageFormat": null,
+              "ImageInfoArray": null,
+              "Index": null,
+              "Latitude": null,
+              "Longitude": null,
+              "Second": null,
+              "Size": null,
+              "Sound": "",
+              "Text": null,
+              "UUID": null
+            },
+            "MsgType": "TIMCustomElem"
+          }
+        ],
+        "MsgSeq": "1301158704",
+        "MsgTime": 1585729487,
+        "To_Account": "C-25968417"
+      },
+      {
+        "From_Account": "T-1585",
+        "GroupId": null,
+        "MsgBody": [
+          {
+            "MsgContent": {
+              "Data": "{\"fromIdentifier\":\"T-1585\",\"fromIdentifierNickName\":\"陈磊二\",\"character\":\"ASSISTANT\",\"msgType\":\"TEXT\",\"top\":false,\"textMsg\":{\"callSomeone\":false,\"callIdentifier\":\"\",\"text\":\"私聊1585729470000\",\"callIdentifierNickName\":\"\",\"callList\":[]},\"randomStr\":\"1585729470000\"}",
+              "Desc": "私聊1585729470000",
+              "Ext": "",
+              "FileName": null,
+              "FileSize": null,
+              "ImageFormat": null,
+              "ImageInfoArray": null,
+              "Index": null,
+              "Latitude": null,
+              "Longitude": null,
+              "Second": null,
+              "Size": null,
+              "Sound": "",
+              "Text": null,
+              "UUID": null
+            },
+            "MsgType": "TIMCustomElem"
+          }
+        ],
+        "MsgSeq": "1905592391",
+        "MsgTime": 1585729487,
+        "To_Account": "C-25968417"
+      },
+      {
+        "From_Account": "T-1585",
+        "GroupId": null,
+        "MsgBody": [
+          {
+            "MsgContent": {
+              "Data": "{\"fromIdentifier\":\"T-1585\",\"fromIdentifierNickName\":\"陈磊二\",\"character\":\"ASSISTANT\",\"msgType\":\"TEXT\",\"top\":false,\"textMsg\":{\"callSomeone\":false,\"callIdentifier\":\"\",\"text\":\"私聊1585729470000\",\"callIdentifierNickName\":\"\",\"callList\":[]},\"randomStr\":\"1585729470000\"}",
+              "Desc": "私聊1585729470000",
+              "Ext": "",
+              "FileName": null,
+              "FileSize": null,
+              "ImageFormat": null,
+              "ImageInfoArray": null,
+              "Index": null,
+              "Latitude": null,
+              "Longitude": null,
+              "Second": null,
+              "Size": null,
+              "Sound": "",
+              "Text": null,
+              "UUID": null
+            },
+            "MsgType": "TIMCustomElem"
+          }
+        ],
+        "MsgSeq": "2055677939",
+        "MsgTime": 1585729487,
+        "To_Account": "C-25968417"
+      },
+      {
+        "From_Account": "T-1585",
+        "GroupId": null,
+        "MsgBody": [
+          {
+            "MsgContent": {
+              "Data": "{\"fromIdentifier\":\"T-1585\",\"fromIdentifierNickName\":\"陈磊二\",\"character\":\"ASSISTANT\",\"msgType\":\"TEXT\",\"top\":false,\"textMsg\":{\"callSomeone\":false,\"callIdentifier\":\"\",\"text\":\"私聊1585729469000\",\"callIdentifierNickName\":\"\",\"callList\":[]},\"randomStr\":\"1585729469000\"}",
+              "Desc": "私聊1585729469000",
+              "Ext": "",
+              "FileName": null,
+              "FileSize": null,
+              "ImageFormat": null,
+              "ImageInfoArray": null,
+              "Index": null,
+              "Latitude": null,
+              "Longitude": null,
+              "Second": null,
+              "Size": null,
+              "Sound": "",
+              "Text": null,
+              "UUID": null
+            },
+            "MsgType": "TIMCustomElem"
+          }
+        ],
+        "MsgSeq": "1990674557",
+        "MsgTime": 1585729486,
+        "To_Account": "C-25968417"
+      },
+      {
+        "From_Account": "T-1585",
+        "GroupId": null,
+        "MsgBody": [
+          {
+            "MsgContent": {
+              "Data": "{\"fromIdentifier\":\"T-1585\",\"fromIdentifierNickName\":\"陈磊二\",\"character\":\"ASSISTANT\",\"msgType\":\"TEXT\",\"top\":false,\"textMsg\":{\"callSomeone\":false,\"callIdentifier\":\"\",\"text\":\"私聊1585729469000\",\"callIdentifierNickName\":\"\",\"callList\":[]},\"randomStr\":\"1585729469000\"}",
+              "Desc": "私聊1585729469000",
+              "Ext": "",
+              "FileName": null,
+              "FileSize": null,
+              "ImageFormat": null,
+              "ImageInfoArray": null,
+              "Index": null,
+              "Latitude": null,
+              "Longitude": null,
+              "Second": null,
+              "Size": null,
+              "Sound": "",
+              "Text": null,
+              "UUID": null
+            },
+            "MsgType": "TIMCustomElem"
+          }
+        ],
+        "MsgSeq": "1598828792",
+        "MsgTime": 1585729486,
+        "To_Account": "C-25968417"
+      },
+      {
+        "From_Account": "T-1585",
+        "GroupId": null,
+        "MsgBody": [
+          {
+            "MsgContent": {
+              "Data": "{\"fromIdentifier\":\"T-1585\",\"fromIdentifierNickName\":\"陈磊二\",\"character\":\"ASSISTANT\",\"msgType\":\"TEXT\",\"top\":false,\"textMsg\":{\"callSomeone\":false,\"callIdentifier\":\"\",\"text\":\"私聊1585729468000\",\"callIdentifierNickName\":\"\",\"callList\":[]},\"randomStr\":\"1585729468000\"}",
+              "Desc": "私聊1585729468000",
+              "Ext": "",
+              "FileName": null,
+              "FileSize": null,
+              "ImageFormat": null,
+              "ImageInfoArray": null,
+              "Index": null,
+              "Latitude": null,
+              "Longitude": null,
+              "Second": null,
+              "Size": null,
+              "Sound": "",
+              "Text": null,
+              "UUID": null
+            },
+            "MsgType": "TIMCustomElem"
+          }
+        ],
+        "MsgSeq": "1032993661",
+        "MsgTime": 1585729485,
+        "To_Account": "C-25968417"
+      },
+      {
+        "From_Account": "T-1585",
+        "GroupId": null,
+        "MsgBody": [
+          {
+            "MsgContent": {
+              "Data": "{\"fromIdentifier\":\"T-1585\",\"fromIdentifierNickName\":\"陈磊二\",\"character\":\"ASSISTANT\",\"msgType\":\"TEXT\",\"top\":false,\"textMsg\":{\"callSomeone\":false,\"callIdentifier\":\"\",\"text\":\"私聊1585729468000\",\"callIdentifierNickName\":\"\",\"callList\":[]},\"randomStr\":\"1585729468000\"}",
+              "Desc": "私聊1585729468000",
+              "Ext": "",
+              "FileName": null,
+              "FileSize": null,
+              "ImageFormat": null,
+              "ImageInfoArray": null,
+              "Index": null,
+              "Latitude": null,
+              "Longitude": null,
+              "Second": null,
+              "Size": null,
+              "Sound": "",
+              "Text": null,
+              "UUID": null
+            },
+            "MsgType": "TIMCustomElem"
+          }
+        ],
+        "MsgSeq": "417958022",
+        "MsgTime": 1585729485,
+        "To_Account": "C-25968417"
+      },
+      {
+        "From_Account": "T-1585",
+        "GroupId": null,
+        "MsgBody": [
+          {
+            "MsgContent": {
+              "Data": "{\"fromIdentifier\":\"T-1585\",\"fromIdentifierNickName\":\"陈磊二\",\"character\":\"ASSISTANT\",\"msgType\":\"TEXT\",\"top\":false,\"textMsg\":{\"callSomeone\":false,\"callIdentifier\":\"\",\"text\":\"私聊1585729468000\",\"callIdentifierNickName\":\"\",\"callList\":[]},\"randomStr\":\"1585729468000\"}",
+              "Desc": "私聊1585729468000",
+              "Ext": "",
+              "FileName": null,
+              "FileSize": null,
+              "ImageFormat": null,
+              "ImageInfoArray": null,
+              "Index": null,
+              "Latitude": null,
+              "Longitude": null,
+              "Second": null,
+              "Size": null,
+              "Sound": "",
+              "Text": null,
+              "UUID": null
+            },
+            "MsgType": "TIMCustomElem"
+          }
+        ],
+        "MsgSeq": "763814375",
+        "MsgTime": 1585729485,
+        "To_Account": "C-25968417"
+      },
+      {
+        "From_Account": "T-1585",
+        "GroupId": null,
+        "MsgBody": [
+          {
+            "MsgContent": {
+              "Data": "{\"fromIdentifier\":\"T-1585\",\"fromIdentifierNickName\":\"陈磊二\",\"character\":\"ASSISTANT\",\"msgType\":\"TEXT\",\"top\":false,\"textMsg\":{\"callSomeone\":false,\"callIdentifier\":\"\",\"text\":\"私聊1585729467000\",\"callIdentifierNickName\":\"\",\"callList\":[]},\"randomStr\":\"1585729467000\"}",
+              "Desc": "私聊1585729467000",
+              "Ext": "",
+              "FileName": null,
+              "FileSize": null,
+              "ImageFormat": null,
+              "ImageInfoArray": null,
+              "Index": null,
+              "Latitude": null,
+              "Longitude": null,
+              "Second": null,
+              "Size": null,
+              "Sound": "",
+              "Text": null,
+              "UUID": null
+            },
+            "MsgType": "TIMCustomElem"
+          }
+        ],
+        "MsgSeq": "1377838999",
+        "MsgTime": 1585729484,
+        "To_Account": "C-25968417"
+      },
+      {
+        "From_Account": "T-1585",
+        "GroupId": null,
+        "MsgBody": [
+          {
+            "MsgContent": {
+              "Data": "{\"fromIdentifier\":\"T-1585\",\"fromIdentifierNickName\":\"陈磊二\",\"character\":\"ASSISTANT\",\"msgType\":\"TEXT\",\"top\":false,\"textMsg\":{\"callSomeone\":false,\"callIdentifier\":\"\",\"text\":\"私聊1585729467000\",\"callIdentifierNickName\":\"\",\"callList\":[]},\"randomStr\":\"1585729467000\"}",
+              "Desc": "私聊1585729467000",
+              "Ext": "",
+              "FileName": null,
+              "FileSize": null,
+              "ImageFormat": null,
+              "ImageInfoArray": null,
+              "Index": null,
+              "Latitude": null,
+              "Longitude": null,
+              "Second": null,
+              "Size": null,
+              "Sound": "",
+              "Text": null,
+              "UUID": null
+            },
+            "MsgType": "TIMCustomElem"
+          }
+        ],
+        "MsgSeq": "1237796593",
+        "MsgTime": 1585729484,
+        "To_Account": "C-25968417"
+      },
+      {
+        "From_Account": "T-1585",
+        "GroupId": null,
+        "MsgBody": [
+          {
+            "MsgContent": {
+              "Data": "{\"fromIdentifier\":\"T-1585\",\"fromIdentifierNickName\":\"陈磊二\",\"character\":\"ASSISTANT\",\"msgType\":\"TEXT\",\"top\":false,\"textMsg\":{\"callSomeone\":false,\"callIdentifier\":\"\",\"text\":\"私聊1585729466000\",\"callIdentifierNickName\":\"\",\"callList\":[]},\"randomStr\":\"1585729466000\"}",
+              "Desc": "私聊1585729466000",
+              "Ext": "",
+              "FileName": null,
+              "FileSize": null,
+              "ImageFormat": null,
+              "ImageInfoArray": null,
+              "Index": null,
+              "Latitude": null,
+              "Longitude": null,
+              "Second": null,
+              "Size": null,
+              "Sound": "",
+              "Text": null,
+              "UUID": null
+            },
+            "MsgType": "TIMCustomElem"
+          }
+        ],
+        "MsgSeq": "870194626",
+        "MsgTime": 1585729483,
+        "To_Account": "C-25968417"
+      }
+    ],
+    "pageSize": 20,
+    "totalNum": 55,
+    "totalPage": 3
+  },
+  "msg": null
+}
+2020-04-01 16:24:43 custom_assert.py[line:131] INFO: 断言json中指定的key【items】的返回数据的类型必须是【<class 'list'>】，返回数据不能是【[]】
+2020-04-01 16:24:43 custom_assert.py[line:81] INFO: 
+断言值为:
+{
+  "teacherName": "朱俊文",
+  "totalTime": 2320,
+  "videoId": 108089,
+  "videoName": "（4）多项选择题"
+}
+响应信息:
+{
+  "character": "ASSISTANT",
+  "fromIdentifier": "T-1585",
+  "fromIdentifierNickName": "陈磊二",
+  "msgType": "VIDEO",
+  "randomStr": "1585729474000",
+  "top": false,
+  "videoMsg": {
+    "courseInfo": false,
+    "moduleNameList": [
+      "真题解析"
+    ],
+    "subjectId": 27,
+    "subjectName": "建设工程项目管理",
+    "teacherName": "朱俊文",
+    "totalTime": 2320,
+    "videoId": 108089,
+    "videoName": "（4）多项选择题"
+  }
+}

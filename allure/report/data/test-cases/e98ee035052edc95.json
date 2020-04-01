@@ -1,0 +1,227 @@
+{
+  "uid" : "e98ee035052edc95",
+  "name" : "发送群答题：查询科目-查询模块-查询试卷-查询试题-随机发送群答题-历史消息中查看答题信息",
+  "fullName" : "testcases.jjxt.test_send_clazz_question.TestSendQuestion#test_push_clazz_question",
+  "historyId" : "8a51f3e46bfc20c20df11b762bc7f6a6",
+  "time" : {
+    "start" : 1585729374684,
+    "stop" : 1585729383182,
+    "duration" : 8498
+  },
+  "description" : "\n        发送群答题：查询科目-查询模块-查询试卷-查询试题-随机发送群答题-历史消息中查看答题信息\n        ",
+  "descriptionHtml" : "<pre><code>    发送群答题：查询科目-查询模块-查询试卷-查询试题-随机发送群答题-历史消息中查看答题信息\n</code></pre>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "get_question_id",
+    "time" : {
+      "start" : 1585729374076,
+      "stop" : 1585729374684,
+      "duration" : 608
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "get_clazzinfo",
+    "time" : {
+      "start" : 1585729309935,
+      "stop" : 1585729310219,
+      "duration" : 284
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "get_clazzid",
+    "time" : {
+      "start" : 1585729310220,
+      "stop" : 1585729310220,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "__pytest_repeat_step_number",
+    "time" : {
+      "start" : 1585729374076,
+      "stop" : 1585729374076,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "get_groupidentifier",
+    "time" : {
+      "start" : 1585729311694,
+      "stop" : 1585729311694,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "get_goodsid",
+    "time" : {
+      "start" : 1585729330265,
+      "stop" : 1585729330265,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "get_customerid",
+    "time" : {
+      "start" : 1585729309469,
+      "stop" : 1585729309935,
+      "duration" : 466
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "\n        发送群答题：查询科目-查询模块-查询试卷-查询试题-随机发送群答题-历史消息中查看答题信息\n        ",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "f652eb3a466086ac",
+      "name" : "log",
+      "source" : "f652eb3a466086ac.txt",
+      "type" : "text/plain",
+      "size" : 53167
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "我的班级"
+  }, {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "feature",
+    "value" : "群聊"
+  }, {
+    "name" : "story",
+    "value" : "群答题"
+  }, {
+    "name" : "tag",
+    "value" : "myclass"
+  }, {
+    "name" : "tag",
+    "value" : "smoke"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcases.jjxt"
+  }, {
+    "name" : "suite",
+    "value" : "test_send_clazz_question"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestSendQuestion"
+  }, {
+    "name" : "host",
+    "value" : "chenleideMacBook-Pro.local"
+  }, {
+    "name" : "thread",
+    "value" : "28478-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcases.jjxt.test_send_clazz_question"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "critical",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 2,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 1,
+        "unknown" : 0,
+        "total" : 3
+      },
+      "items" : [ {
+        "uid" : "faeae6bb991f0817",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: 该班级下未找到试题信息\nassert False",
+        "time" : {
+          "start" : 1585729014457,
+          "stop" : 1585729014457,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "1cfc1be82ff439b8",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: 该班级下未找到试题信息\nassert False",
+        "time" : {
+          "start" : 1585726370614,
+          "stop" : 1585726370614,
+          "duration" : 0
+        }
+      } ]
+    },
+    "tags" : [ "smoke", "myclass" ]
+  },
+  "source" : "e98ee035052edc95.json",
+  "parameterValues" : [ ]
+}

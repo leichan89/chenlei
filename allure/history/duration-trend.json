@@ -1,79 +1,11 @@
 [ {
   "data" : {
-    "duration" : 85440
+    "duration" : 107835
+  }
+}, {
+  "data" : {
+    "duration" : 106876
   }
 }, {
   "data" : { }
-}, {
-  "data" : {
-    "duration" : 388
-  }
-}, {
-  "data" : {
-    "duration" : 80
-  }
-}, {
-  "data" : {
-    "duration" : 103
-  }
-}, {
-  "data" : {
-    "duration" : 32910
-  }
-}, {
-  "data" : {
-    "duration" : 78
-  }
-}, {
-  "data" : {
-    "duration" : 6022
-  }
-}, {
-  "data" : {
-    "duration" : 45123
-  }
-}, {
-  "data" : {
-    "duration" : 181663
-  }
-}, {
-  "data" : {
-    "duration" : 91
-  }
-}, {
-  "data" : {
-    "duration" : 104
-  }
-}, {
-  "data" : {
-    "duration" : 327
-  }
-}, {
-  "data" : {
-    "duration" : 174
-  }
-}, {
-  "data" : {
-    "duration" : 160
-  }
-}, {
-  "data" : {
-    "duration" : 258988
-  }
-}, {
-  "data" : {
-    "duration" : 135
-  }
-}, {
-  "data" : {
-    "duration" : 107
-  }
-}, {
-  "data" : {
-    "duration" : 120
-  }
-}, {
-  "data" : {
-    "duration" : 244
-  }
 } ]

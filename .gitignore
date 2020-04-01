@@ -4,3 +4,4 @@ temp/*
 venv/*
 mytestfile.py
 config/envconf
+/.pytest_cache/

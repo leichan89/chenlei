@@ -1,0 +1,1190 @@
+2020-04-01 16:23:03 myrequests.py[line:40] INFO: 
+
+***************************************************************************接口请求分割线***************************************************************************
+
+2020-04-01 16:23:03 myrequests.py[line:43] INFO: 开始访问接口:【subjectList:根据商品ID获取科目列表】
+2020-04-01 16:23:03 myrequests.py[line:132] INFO: 发送get请求
+2020-04-01 16:23:03 myrequests.py[line:244] INFO: 接口请求地址为
+https://api-diligent-mgt.haixue.com/diligent/chatSelector/subject/list/75323
+2020-04-01 16:23:03 myrequests.py[line:249] INFO: 响应状态码为:200，响应时间为:0.09938
+2020-04-01 16:23:03 custom_assert.py[line:40] INFO: 
+断言值为:
+{
+  "code": 200
+}
+响应信息:
+{
+  "code": 200,
+  "data": [
+    {
+      "id": 1,
+      "sequence": 1,
+      "subjectName": "建设工程经济",
+      "subjectShortName": "经济"
+    },
+    {
+      "id": 25,
+      "sequence": 2,
+      "subjectName": "建设工程法规及相关知识",
+      "subjectShortName": "法规"
+    },
+    {
+      "id": 27,
+      "sequence": 3,
+      "subjectName": "建设工程项目管理",
+      "subjectShortName": "管理"
+    },
+    {
+      "id": 43,
+      "sequence": 4,
+      "subjectName": "市政公用工程管理与实务",
+      "subjectShortName": "市政实务"
+    },
+    {
+      "id": 393,
+      "sequence": 5,
+      "subjectName": "综合",
+      "subjectShortName": "综合"
+    }
+  ],
+  "msg": null
+}
+2020-04-01 16:23:03 custom_assert.py[line:131] INFO: 断言json中指定的key【data】的返回数据的类型必须是【<class 'list'>】，返回数据不能是【[]】
+2020-04-01 16:23:03 myrequests.py[line:40] INFO: 
+
+***************************************************************************接口请求分割线***************************************************************************
+
+2020-04-01 16:23:03 myrequests.py[line:43] INFO: 开始访问接口:【moduleList:根据商品ID科目ID模块类型获取模块列表】
+2020-04-01 16:23:03 myrequests.py[line:132] INFO: 发送get请求
+2020-04-01 16:23:03 myrequests.py[line:136] INFO: 请求参数信息为
+{
+  "moduleType": "PAPER",
+  "subjectId": 25
+}
+2020-04-01 16:23:03 myrequests.py[line:244] INFO: 接口请求地址为
+https://api-diligent-mgt.haixue.com/diligent/chatSelector/module/list/75323?subjectId=25&moduleType=PAPER
+2020-04-01 16:23:03 myrequests.py[line:249] INFO: 响应状态码为:200，响应时间为:0.173158
+2020-04-01 16:23:03 custom_assert.py[line:105] INFO: 响应信息:
+{
+  "code": 200,
+  "data": [
+    {
+      "goodsModuleName": "密训专属阶段测试",
+      "id": 4293
+    },
+    {
+      "goodsModuleName": "400题开班测试-法规",
+      "id": 4493
+    },
+    {
+      "goodsModuleName": "天猫密训卷-法规",
+      "id": 4511
+    },
+    {
+      "goodsModuleName": "京城密训摸底测试",
+      "id": 4655
+    },
+    {
+      "goodsModuleName": "钻石私塾模拟考试",
+      "id": 6279
+    },
+    {
+      "goodsModuleName": "高端班专属阶段测试",
+      "id": 8353
+    },
+    {
+      "goodsModuleName": "4套精品练习卷",
+      "id": 8671
+    },
+    {
+      "goodsModuleName": "2017年6月一建模拟测试-法规",
+      "id": 8839
+    },
+    {
+      "goodsModuleName": "总裁班专属",
+      "id": 9179
+    },
+    {
+      "goodsModuleName": "高端班结课测试",
+      "id": 9795
+    },
+    {
+      "goodsModuleName": "高端班结课测试",
+      "id": 12057
+    },
+    {
+      "goodsModuleName": "高端班专属阶段测试",
+      "id": 12075
+    },
+    {
+      "goodsModuleName": "七月集训测试",
+      "id": 12817
+    },
+    {
+      "goodsModuleName": "法规重修试卷",
+      "id": 14805
+    },
+    {
+      "goodsModuleName": "19白金核心测试",
+      "id": 16207
+    },
+    {
+      "goodsModuleName": "19钻石专项练习",
+      "id": 16223
+    },
+    {
+      "goodsModuleName": "19钻石菁英测试",
+      "id": 16239
+    },
+    {
+      "goodsModuleName": "19考季模拟测试",
+      "id": 17229
+    }
+  ],
+  "msg": null
+}
+2020-04-01 16:23:03 custom_assert.py[line:106] INFO: 断言json中指定的key【data】的返回值类型必须是：【<class 'list'>】
+2020-04-01 16:23:03 myrequests.py[line:40] INFO: 
+
+***************************************************************************接口请求分割线***************************************************************************
+
+2020-04-01 16:23:03 myrequests.py[line:43] INFO: 开始访问接口:【paperList:获取试题列表】
+2020-04-01 16:23:03 myrequests.py[line:132] INFO: 发送get请求
+2020-04-01 16:23:03 myrequests.py[line:136] INFO: 请求参数信息为
+{
+  "goodsModuleId": 8671,
+  "subjectId": 25
+}
+2020-04-01 16:23:03 myrequests.py[line:244] INFO: 接口请求地址为
+https://api-diligent-mgt.haixue.com/diligent/chatSelector/paper/list/75323?subjectId=25&goodsModuleId=8671
+2020-04-01 16:23:03 myrequests.py[line:249] INFO: 响应状态码为:200，响应时间为:0.100508
+2020-04-01 16:23:03 custom_assert.py[line:105] INFO: 响应信息:
+{
+  "code": 204,
+  "data": [],
+  "msg": "未获取到数据"
+}
+2020-04-01 16:23:03 custom_assert.py[line:106] INFO: 断言json中指定的key【data】的返回值类型必须是：【<class 'list'>】
+2020-04-01 16:23:03 myrequests.py[line:40] INFO: 
+
+***************************************************************************接口请求分割线***************************************************************************
+
+2020-04-01 16:23:03 myrequests.py[line:43] INFO: 开始访问接口:【paperList:获取试题列表】
+2020-04-01 16:23:03 myrequests.py[line:132] INFO: 发送get请求
+2020-04-01 16:23:03 myrequests.py[line:136] INFO: 请求参数信息为
+{
+  "goodsModuleId": 8353,
+  "subjectId": 25
+}
+2020-04-01 16:23:03 myrequests.py[line:244] INFO: 接口请求地址为
+https://api-diligent-mgt.haixue.com/diligent/chatSelector/paper/list/75323?subjectId=25&goodsModuleId=8353
+2020-04-01 16:23:03 myrequests.py[line:249] INFO: 响应状态码为:200，响应时间为:0.083778
+2020-04-01 16:23:03 custom_assert.py[line:105] INFO: 响应信息:
+{
+  "code": 204,
+  "data": [],
+  "msg": "未获取到数据"
+}
+2020-04-01 16:23:03 custom_assert.py[line:106] INFO: 断言json中指定的key【data】的返回值类型必须是：【<class 'list'>】
+2020-04-01 16:23:03 myrequests.py[line:40] INFO: 
+
+***************************************************************************接口请求分割线***************************************************************************
+
+2020-04-01 16:23:03 myrequests.py[line:43] INFO: 开始访问接口:【paperList:获取试题列表】
+2020-04-01 16:23:03 myrequests.py[line:132] INFO: 发送get请求
+2020-04-01 16:23:03 myrequests.py[line:136] INFO: 请求参数信息为
+{
+  "goodsModuleId": 12057,
+  "subjectId": 25
+}
+2020-04-01 16:23:03 myrequests.py[line:244] INFO: 接口请求地址为
+https://api-diligent-mgt.haixue.com/diligent/chatSelector/paper/list/75323?subjectId=25&goodsModuleId=12057
+2020-04-01 16:23:03 myrequests.py[line:249] INFO: 响应状态码为:200，响应时间为:0.085304
+2020-04-01 16:23:03 custom_assert.py[line:105] INFO: 响应信息:
+{
+  "code": 200,
+  "data": [
+    {
+      "categoryId": 9,
+      "categoryName": "一级建造师",
+      "examquestionNum": 100,
+      "paperId": 8485,
+      "paperName": "八月测试-高端班结课测试-法规",
+      "subjectId": 25,
+      "subjectName": "建设工程法规及相关知识",
+      "subjectShortName": "法规"
+    }
+  ],
+  "msg": null
+}
+2020-04-01 16:23:03 custom_assert.py[line:106] INFO: 断言json中指定的key【data】的返回值类型必须是：【<class 'list'>】
+2020-04-01 16:23:03 myrequests.py[line:40] INFO: 
+
+***************************************************************************接口请求分割线***************************************************************************
+
+2020-04-01 16:23:03 myrequests.py[line:43] INFO: 开始访问接口:【clazzQuestionChoose:选题，通过试卷查询试题】
+2020-04-01 16:23:03 myrequests.py[line:132] INFO: 发送get请求
+2020-04-01 16:23:03 myrequests.py[line:136] INFO: 请求参数信息为
+{
+  "": "",
+  "categoryId": 9,
+  "correctRateAscFlag": "false",
+  "pageNum": "1",
+  "pageSize": "10",
+  "paperId": 8485,
+  "subjectId": 25
+}
+2020-04-01 16:23:04 myrequests.py[line:244] INFO: 接口请求地址为
+https://api-diligent-mgt.haixue.com/diligent/clazzQuestion/choose?categoryId=9&subjectId=25&=&paperId=8485&pageNum=1&pageSize=10&correctRateAscFlag=false
+2020-04-01 16:23:04 myrequests.py[line:249] INFO: 响应状态码为:200，响应时间为:1.002932
+2020-04-01 16:23:04 custom_assert.py[line:105] INFO: 响应信息:
+{
+  "code": 200,
+  "data": [
+    {
+      "accuracy": null,
+      "answerCount": null,
+      "clazzId": null,
+      "display": null,
+      "displayStatus": null,
+      "examQuestionVo": {
+        "analysisArray": [
+          {
+            "content": "施工单位应当根据建设工程施工的特点、范围，对施工现场易发生重大事故的部位、环节进行监控，指定施工现场生产安全事故应急救援预案。实行施工总承包的，由总承包单位统一组织编制建设工程生产安全事故应急救援预案。",
+            "type": "text"
+          }
+        ],
+        "correctAnswer": "A",
+        "correctOptions": [
+          {
+            "optionContentArray": [
+              {
+                "content": "施工总承包单位",
+                "type": "text"
+              }
+            ],
+            "optionName": "A"
+          }
+        ],
+        "difficulty": "易",
+        "doneCorrectRate": 98.0,
+        "materialTitleArray": [],
+        "options": [
+          {
+            "optionContentArray": [
+              {
+                "content": "施工总承包单位",
+                "type": "text"
+              }
+            ],
+            "optionName": "A"
+          },
+          {
+            "optionContentArray": [
+              {
+                "content": "建设单位",
+                "type": "text"
+              }
+            ],
+            "optionName": "B"
+          },
+          {
+            "optionContentArray": [
+              {
+                "content": "监理单位",
+                "type": "text"
+              }
+            ],
+            "optionName": "C"
+          },
+          {
+            "optionContentArray": [
+              {
+                "content": "各分包单位",
+                "type": "text"
+              }
+            ],
+            "optionName": "D"
+          }
+        ],
+        "pastPaper": true,
+        "pastPaperNo": null,
+        "questionId": 304113,
+        "questionTypeId": 1115,
+        "subjectShortName": "法规",
+        "titleArray": [
+          {
+            "content": "实行施工总承包的工程项目，应由（）统一组织编制建设工程生产安全事故应急救援预案。",
+            "type": "text"
+          }
+        ]
+      },
+      "id": null,
+      "participation": null,
+      "point": null,
+      "pushDate": null,
+      "pushStatus": null,
+      "taskType": null
+    },
+    {
+      "accuracy": null,
+      "answerCount": null,
+      "clazzId": null,
+      "display": null,
+      "displayStatus": null,
+      "examQuestionVo": {
+        "analysisArray": [
+          {
+            "content": "施工单位必须按照工程设计图纸和施工技术标准施工，不得擅自修改工程设计，不得偷工减料。施工单位必须按照工程设计要求、施工技术标准和合同约定，对建筑材料、建筑构配件、设备和商品混凝土进行检验，检验应当有书面记录和专人签字；未经检验或者检验不合格的，不得使用。",
+            "type": "text"
+          }
+        ],
+        "correctAnswer": "A",
+        "correctOptions": [
+          {
+            "optionContentArray": [
+              {
+                "content": "可以自行修改工程设计，但不得偷工减料",
+                "type": "text"
+              }
+            ],
+            "optionName": "A"
+          }
+        ],
+        "difficulty": "易",
+        "doneCorrectRate": 98.0,
+        "materialTitleArray": [],
+        "options": [
+          {
+            "optionContentArray": [
+              {
+                "content": "可以自行修改工程设计，但不得偷工减料",
+                "type": "text"
+              }
+            ],
+            "optionName": "A"
+          },
+          {
+            "optionContentArray": [
+              {
+                "content": "施工单位必须按照工程设计要求、施工技术标准和合同约定，对建筑材料、建筑构配件、设备和商品混凝土进行检验",
+                "type": "text"
+              }
+            ],
+            "optionName": "B"
+          },
+          {
+            "optionContentArray": [
+              {
+                "content": "检验应当有书面记录和专人签字",
+                "type": "text"
+              }
+            ],
+            "optionName": "C"
+          },
+          {
+            "optionContentArray": [
+              {
+                "content": "未经检验或者检验不合格的，不得使用",
+                "type": "text"
+              }
+            ],
+            "optionName": "D"
+          }
+        ],
+        "pastPaper": false,
+        "pastPaperNo": null,
+        "questionId": 304467,
+        "questionTypeId": 1115,
+        "subjectShortName": "法规",
+        "titleArray": [
+          {
+            "content": "下列关于施工单位做法错误的是（）。",
+            "type": "text"
+          }
+        ]
+      },
+      "id": null,
+      "participation": null,
+      "point": null,
+      "pushDate": null,
+      "pushStatus": null,
+      "taskType": null
+    },
+    {
+      "accuracy": null,
+      "answerCount": null,
+      "clazzId": null,
+      "display": null,
+      "displayStatus": null,
+      "examQuestionVo": {
+        "analysisArray": [
+          {
+            "content": "《安全生产法规定》，从业人员有权对本单位安全生产工作中存在的问题提出批评、检举、控告；有权拒绝违章指挥和强令冒险作业。生产经营单位不得因从业人员对本单位安全生产工作提出批评、检举、控告或者拒绝违章指挥、强令冒险作业而降低其工资、福利等待遇或者接触与其订立的劳动合同。",
+            "type": "text"
+          }
+        ],
+        "correctAnswer": "C",
+        "correctOptions": [
+          {
+            "optionContentArray": [
+              {
+                "content": "施工人员有权拒绝该指令",
+                "type": "text"
+              }
+            ],
+            "optionName": "C"
+          }
+        ],
+        "difficulty": "易",
+        "doneCorrectRate": 97.0,
+        "materialTitleArray": [],
+        "options": [
+          {
+            "optionContentArray": [
+              {
+                "content": "施工企业有权对不服从指令的施工人员进行处罚",
+                "type": "text"
+              }
+            ],
+            "optionName": "A"
+          },
+          {
+            "optionContentArray": [
+              {
+                "content": "施工企业可以解除不服从管理的施工人员的劳动合同",
+                "type": "text"
+              }
+            ],
+            "optionName": "B"
+          },
+          {
+            "optionContentArray": [
+              {
+                "content": "施工人员有权拒绝该指令",
+                "type": "text"
+              }
+            ],
+            "optionName": "C"
+          },
+          {
+            "optionContentArray": [
+              {
+                "content": "施工人员必须无条件服从施工企业发出的命令，确保施工生产进度的顺利开展",
+                "type": "text"
+              }
+            ],
+            "optionName": "D"
+          }
+        ],
+        "pastPaper": true,
+        "pastPaperNo": null,
+        "questionId": 304099,
+        "questionTypeId": 1115,
+        "subjectShortName": "法规",
+        "titleArray": [
+          {
+            "content": "关于施工企业强令施工人员冒险作业的说法，正确的是（）。",
+            "type": "text"
+          }
+        ]
+      },
+      "id": null,
+      "participation": null,
+      "point": null,
+      "pushDate": null,
+      "pushStatus": null,
+      "taskType": null
+    },
+    {
+      "accuracy": null,
+      "answerCount": null,
+      "clazzId": null,
+      "display": null,
+      "displayStatus": null,
+      "examQuestionVo": {
+        "analysisArray": [
+          {
+            "content": "《建筑法》规定，对已发现的质量缺陷，建筑施工企业应当修复。《建设工程质量管理条例》进一步规定，施工单位对施工中出现质量问题的建设工程或者竣工验收不合格的建设工程，应当负责返修。",
+            "type": "text"
+          }
+        ],
+        "correctAnswer": "A",
+        "correctOptions": [
+          {
+            "optionContentArray": [
+              {
+                "content": "返修",
+                "type": "text"
+              }
+            ],
+            "optionName": "A"
+          }
+        ],
+        "difficulty": "易",
+        "doneCorrectRate": 96.0,
+        "materialTitleArray": [],
+        "options": [
+          {
+            "optionContentArray": [
+              {
+                "content": "返修",
+                "type": "text"
+              }
+            ],
+            "optionName": "A"
+          },
+          {
+            "optionContentArray": [
+              {
+                "content": "改建",
+                "type": "text"
+              }
+            ],
+            "optionName": "B"
+          },
+          {
+            "optionContentArray": [
+              {
+                "content": "修补",
+                "type": "text"
+              }
+            ],
+            "optionName": "C"
+          },
+          {
+            "optionContentArray": [
+              {
+                "content": "拆除",
+                "type": "text"
+              }
+            ],
+            "optionName": "D"
+          }
+        ],
+        "pastPaper": false,
+        "pastPaperNo": null,
+        "questionId": 304393,
+        "questionTypeId": 1115,
+        "subjectShortName": "法规",
+        "titleArray": [
+          {
+            "content": "《建设工程质量管理条例》规定，施工单位对施工中出现质量问题的建设工程或者竣工验收不合格的建设工程，应当（）。",
+            "type": "text"
+          }
+        ]
+      },
+      "id": null,
+      "participation": null,
+      "point": null,
+      "pushDate": null,
+      "pushStatus": null,
+      "taskType": null
+    },
+    {
+      "accuracy": null,
+      "answerCount": null,
+      "clazzId": null,
+      "display": null,
+      "displayStatus": null,
+      "examQuestionVo": {
+        "analysisArray": [
+          {
+            "content": "下列试块、试件和材料必须实施见证取样和送检：（1）用于承重结构的混凝土试块；（2）用于承重墙体的砌筑砂浆试块；（3）用于承重结构的钢筋及连接接头试件；（4）用于承重墙的砖和混凝土小型砌块；（5）用于拌制混凝土和砌筑砂浆的水泥；（6）用于承重结构的混凝土中使用的掺加剂；（7）地下、屋面、厕浴间使用的防水材料；（8）国家规定必须实行见证取样和送检的其他试块、试件和材料。",
+            "type": "text"
+          }
+        ],
+        "correctAnswer": "A",
+        "correctOptions": [
+          {
+            "optionContentArray": [
+              {
+                "content": "用于承重结构的混凝土试块",
+                "type": "text"
+              }
+            ],
+            "optionName": "A"
+          }
+        ],
+        "difficulty": "易",
+        "doneCorrectRate": 96.0,
+        "materialTitleArray": [],
+        "options": [
+          {
+            "optionContentArray": [
+              {
+                "content": "用于承重结构的混凝土试块",
+                "type": "text"
+              }
+            ],
+            "optionName": "A"
+          },
+          {
+            "optionContentArray": [
+              {
+                "content": "用于墙体混凝土使用的掺加剂",
+                "type": "text"
+              }
+            ],
+            "optionName": "B"
+          },
+          {
+            "optionContentArray": [
+              {
+                "content": "用于砌筑结构的钢筋及连接接头试件",
+                "type": "text"
+              }
+            ],
+            "optionName": "C"
+          },
+          {
+            "optionContentArray": [
+              {
+                "content": "用于防水工程的水泥制品",
+                "type": "text"
+              }
+            ],
+            "optionName": "D"
+          }
+        ],
+        "pastPaper": false,
+        "pastPaperNo": null,
+        "questionId": 304417,
+        "questionTypeId": 1115,
+        "subjectShortName": "法规",
+        "titleArray": [
+          {
+            "content": "根据《房屋建筑工程和市政基础设施工程实行见证取样和送检的规定》，下列试块、试件和材料必须实施见证取样和送检的是（）。",
+            "type": "text"
+          }
+        ]
+      },
+      "id": null,
+      "participation": null,
+      "point": null,
+      "pushDate": null,
+      "pushStatus": null,
+      "taskType": null
+    },
+    {
+      "accuracy": null,
+      "answerCount": null,
+      "clazzId": null,
+      "display": null,
+      "displayStatus": null,
+      "examQuestionVo": {
+        "analysisArray": [
+          {
+            "content": "建设工程未经竣工验收，发包人擅自使用后，又以使用部分质量不符合约定为由主张权利的，不予支持；但是承包人应当在建设工程的合理使用寿命内对地基基础工程和主体结构质量承担民事责任。因此A错误。装饰工程不属于地基基础工程和主体结构，发包人索赔请求不予支持。B正确。地基基础、主体结构不受发包人擅自使用的影响，都应在其合理的使用寿命内承担质量责任。C、D错误，参见A选项解析。",
+            "type": "text"
+          }
+        ],
+        "correctAnswer": "B",
+        "correctOptions": [
+          {
+            "optionContentArray": [
+              {
+                "content": "承包人应当在工程的合理使用寿命内对地基基础和主体结构质量承担责任",
+                "type": "text"
+              }
+            ],
+            "optionName": "B"
+          }
+        ],
+        "difficulty": "易",
+        "doneCorrectRate": 95.0,
+        "materialTitleArray": [],
+        "options": [
+          {
+            "optionContentArray": [
+              {
+                "content": "发包人以装饰工程质量不符合约定主张索赔的，应予支持",
+                "type": "text"
+              }
+            ],
+            "optionName": "A"
+          },
+          {
+            "optionContentArray": [
+              {
+                "content": "承包人应当在工程的合理使用寿命内对地基基础和主体结构质量承担责任",
+                "type": "text"
+              }
+            ],
+            "optionName": "B"
+          },
+          {
+            "optionContentArray": [
+              {
+                "content": "凡不符合合同约定或者验收规范的工程质量问题，承包人应当承担责任",
+                "type": "text"
+              }
+            ],
+            "optionName": "C"
+          },
+          {
+            "optionContentArray": [
+              {
+                "content": "承包人的保修责任可以免除",
+                "type": "text"
+              }
+            ],
+            "optionName": "D"
+          }
+        ],
+        "pastPaper": true,
+        "pastPaperNo": null,
+        "questionId": 304243,
+        "questionTypeId": 1115,
+        "subjectShortName": "法规",
+        "titleArray": [
+          {
+            "content": "关于建设工程未经竣工验收，发包人擅自使用后又以使用部分质量不符合约定为由主张权利的说法，正确的是（）。",
+            "type": "text"
+          }
+        ]
+      },
+      "id": null,
+      "participation": null,
+      "point": null,
+      "pushDate": null,
+      "pushStatus": null,
+      "taskType": null
+    },
+    {
+      "accuracy": null,
+      "answerCount": null,
+      "clazzId": null,
+      "display": null,
+      "displayStatus": null,
+      "examQuestionVo": {
+        "analysisArray": [
+          {
+            "content": "A错误，在工程实践中，根据工程项目设计文件和合同要求的质量标准，哪些材料和设备由建设单位采购，哪些材料和设备由施工单位采购，应该在合同中明确约定，并且是谁采购、谁负责；B正确；C错误，建设单位不得指定品牌；D错误，按照合同约定，由建设单位采购建筑材料、建筑构配件和设备的，建设单位应当保证建筑材料、建筑构配件和设备符合设计文件和合同要求。",
+            "type": "text"
+          }
+        ],
+        "correctAnswer": "B",
+        "correctOptions": [
+          {
+            "optionContentArray": [
+              {
+                "content": "建设单位采购的建筑材料经施工企业检验不合格的，应当拒绝使用",
+                "type": "text"
+              }
+            ],
+            "optionName": "B"
+          }
+        ],
+        "difficulty": "易",
+        "doneCorrectRate": 95.0,
+        "materialTitleArray": [],
+        "options": [
+          {
+            "optionContentArray": [
+              {
+                "content": "建筑材料应该向建设单位采购",
+                "type": "text"
+              }
+            ],
+            "optionName": "A"
+          },
+          {
+            "optionContentArray": [
+              {
+                "content": "建设单位采购的建筑材料经施工企业检验不合格的，应当拒绝使用",
+                "type": "text"
+              }
+            ],
+            "optionName": "B"
+          },
+          {
+            "optionContentArray": [
+              {
+                "content": "建设单位招标采购建筑材料的，可以指定三个以上品牌",
+                "type": "text"
+              }
+            ],
+            "optionName": "C"
+          },
+          {
+            "optionContentArray": [
+              {
+                "content": "建设单位采购的建筑材料经施工企业检验合格，使用后被证实属于不合格材料的，应由施工企业承担责任",
+                "type": "text"
+              }
+            ],
+            "optionName": "D"
+          }
+        ],
+        "pastPaper": true,
+        "pastPaperNo": null,
+        "questionId": 391357,
+        "questionTypeId": 1115,
+        "subjectShortName": "法规",
+        "titleArray": [
+          {
+            "content": "关于工程建设中使用建筑材料的说法，正确的是（）。",
+            "type": "text"
+          }
+        ]
+      },
+      "id": null,
+      "participation": null,
+      "point": null,
+      "pushDate": null,
+      "pushStatus": null,
+      "taskType": null
+    },
+    {
+      "accuracy": null,
+      "answerCount": null,
+      "clazzId": null,
+      "display": null,
+      "displayStatus": null,
+      "examQuestionVo": {
+        "analysisArray": [
+          {
+            "content": "代理分为委托代理和法定代理。 ",
+            "type": "text"
+          }
+        ],
+        "correctAnswer": "D",
+        "correctOptions": [
+          {
+            "optionContentArray": [
+              {
+                "content": "法定代理",
+                "type": "text"
+              }
+            ],
+            "optionName": "D"
+          }
+        ],
+        "difficulty": "易",
+        "doneCorrectRate": 94.0,
+        "materialTitleArray": [],
+        "options": [
+          {
+            "optionContentArray": [
+              {
+                "content": "招标代理",
+                "type": "text"
+              }
+            ],
+            "optionName": "A"
+          },
+          {
+            "optionContentArray": [
+              {
+                "content": "采购代理",
+                "type": "text"
+              }
+            ],
+            "optionName": "B"
+          },
+          {
+            "optionContentArray": [
+              {
+                "content": "诉讼代理",
+                "type": "text"
+              }
+            ],
+            "optionName": "C"
+          },
+          {
+            "optionContentArray": [
+              {
+                "content": "法定代理",
+                "type": "text"
+              }
+            ],
+            "optionName": "D"
+          }
+        ],
+        "pastPaper": false,
+        "pastPaperNo": null,
+        "questionId": 555093,
+        "questionTypeId": 1115,
+        "subjectShortName": "法规",
+        "titleArray": [
+          {
+            "content": "下列代理中，不属于委托代理的是（  ）。",
+            "type": "text"
+          }
+        ]
+      },
+      "id": null,
+      "participation": null,
+      "point": null,
+      "pushDate": null,
+      "pushStatus": null,
+      "taskType": null
+    },
+    {
+      "accuracy": null,
+      "answerCount": null,
+      "clazzId": null,
+      "display": null,
+      "displayStatus": null,
+      "examQuestionVo": {
+        "analysisArray": [
+          {
+            "content": "工伤保险是强制的，意外伤害保险是鼓励上的。",
+            "type": "text"
+          }
+        ],
+        "correctAnswer": "D",
+        "correctOptions": [
+          {
+            "optionContentArray": [
+              {
+                "content": "工伤保险",
+                "type": "text"
+              }
+            ],
+            "optionName": "D"
+          }
+        ],
+        "difficulty": "易",
+        "doneCorrectRate": 93.0,
+        "materialTitleArray": [],
+        "options": [
+          {
+            "optionContentArray": [
+              {
+                "content": "意外伤害保险",
+                "type": "text"
+              }
+            ],
+            "optionName": "A"
+          },
+          {
+            "optionContentArray": [
+              {
+                "content": "建筑工程一切险",
+                "type": "text"
+              }
+            ],
+            "optionName": "B"
+          },
+          {
+            "optionContentArray": [
+              {
+                "content": "安装工程一切险",
+                "type": "text"
+              }
+            ],
+            "optionName": "C"
+          },
+          {
+            "optionContentArray": [
+              {
+                "content": "工伤保险",
+                "type": "text"
+              }
+            ],
+            "optionName": "D"
+          }
+        ],
+        "pastPaper": true,
+        "pastPaperNo": null,
+        "questionId": 303971,
+        "questionTypeId": 1115,
+        "subjectShortName": "法规",
+        "titleArray": [
+          {
+            "content": "下列保险中，属于强制性保险的是（）。",
+            "type": "text"
+          }
+        ]
+      },
+      "id": null,
+      "participation": null,
+      "point": null,
+      "pushDate": null,
+      "pushStatus": null,
+      "taskType": null
+    },
+    {
+      "accuracy": null,
+      "answerCount": null,
+      "clazzId": null,
+      "display": null,
+      "displayStatus": null,
+      "examQuestionVo": {
+        "analysisArray": [
+          {
+            "content": "《建设工程质量管理条例》规定，工程监理单位与被监理工程的施工承包单位以及建筑材料，建筑构配件和设备供应单位有隶属关系或者其他利害关系的，不得承担该项建设工程的监理业务。",
+            "type": "text"
+          }
+        ],
+        "correctAnswer": "ABD",
+        "correctOptions": [
+          {
+            "optionContentArray": [
+              {
+                "content": "建筑材料供应商",
+                "type": "text"
+              }
+            ],
+            "optionName": "A"
+          },
+          {
+            "optionContentArray": [
+              {
+                "content": "施工企业",
+                "type": "text"
+              }
+            ],
+            "optionName": "B"
+          },
+          {
+            "optionContentArray": [
+              {
+                "content": "设备供应商",
+                "type": "text"
+              }
+            ],
+            "optionName": "D"
+          }
+        ],
+        "difficulty": "易",
+        "doneCorrectRate": 93.0,
+        "materialTitleArray": [],
+        "options": [
+          {
+            "optionContentArray": [
+              {
+                "content": "建筑材料供应商",
+                "type": "text"
+              }
+            ],
+            "optionName": "A"
+          },
+          {
+            "optionContentArray": [
+              {
+                "content": "施工企业",
+                "type": "text"
+              }
+            ],
+            "optionName": "B"
+          },
+          {
+            "optionContentArray": [
+              {
+                "content": "勘察设计单位",
+                "type": "text"
+              }
+            ],
+            "optionName": "C"
+          },
+          {
+            "optionContentArray": [
+              {
+                "content": "设备供应商",
+                "type": "text"
+              }
+            ],
+            "optionName": "D"
+          },
+          {
+            "optionContentArray": [
+              {
+                "content": "建设单位",
+                "type": "text"
+              }
+            ],
+            "optionName": "E"
+          }
+        ],
+        "pastPaper": true,
+        "pastPaperNo": null,
+        "questionId": 304311,
+        "questionTypeId": 1117,
+        "subjectShortName": "法规",
+        "titleArray": [
+          {
+            "content": "根据《建设工程质量管理条例》，工程监理单位与被监理工程的（）有隶属关系或者其他利害关系，不得承担该工程的监理业务。",
+            "type": "text"
+          }
+        ]
+      },
+      "id": null,
+      "participation": null,
+      "point": null,
+      "pushDate": null,
+      "pushStatus": null,
+      "taskType": null
+    }
+  ],
+  "msg": null
+}
+2020-04-01 16:23:04 custom_assert.py[line:106] INFO: 断言json中指定的key【data】的返回值类型必须是：【<class 'list'>】
+2020-04-01 16:23:04 myrequests.py[line:40] INFO: 
+
+***************************************************************************接口请求分割线***************************************************************************
+
+2020-04-01 16:23:04 myrequests.py[line:43] INFO: 开始访问接口:【push:推送试题/显示解析】
+2020-04-01 16:23:04 myrequests.py[line:50] INFO: 请求的headers信息为
+{
+  "Content-Type": "application/json;charset=UTF-8"
+}
+2020-04-01 16:23:04 myrequests.py[line:94] INFO: 发送post请求
+2020-04-01 16:23:04 myrequests.py[line:97] INFO: 请求参数信息为
+{
+  "clazzId": 567,
+  "customerId": 1585,
+  "displayStatus": "NONE",
+  "pushDate": "2019-09-13",
+  "pushStatus": "PUSHED",
+  "questionId": 304243
+}
+2020-04-01 16:23:05 myrequests.py[line:244] INFO: 接口请求地址为
+https://api-diligent-mgt.haixue.com/diligent/clazzQuestion/push
+2020-04-01 16:23:05 myrequests.py[line:249] INFO: 响应状态码为:200，响应时间为:0.524737
+2020-04-01 16:23:05 custom_assert.py[line:40] INFO: 
+断言值为:
+{
+  "code": 200
+}
+响应信息:
+{
+  "code": 200,
+  "data": "推送群答题成功.",
+  "msg": null
+}
+2020-04-01 16:23:05 myrequests.py[line:40] INFO: 
+
+***************************************************************************接口请求分割线***************************************************************************
+
+2020-04-01 16:23:05 myrequests.py[line:43] INFO: 开始访问接口:【push:推送试题/显示解析】
+2020-04-01 16:23:05 myrequests.py[line:50] INFO: 请求的headers信息为
+{
+  "Content-Type": "application/json;charset=UTF-8"
+}
+2020-04-01 16:23:05 myrequests.py[line:94] INFO: 发送post请求
+2020-04-01 16:23:05 myrequests.py[line:97] INFO: 请求参数信息为
+{
+  "clazzId": 567,
+  "customerId": 1585,
+  "displayStatus": "NONE",
+  "pushDate": "2019-09-13",
+  "pushStatus": "PUSHED",
+  "questionId": 304243
+}
+2020-04-01 16:23:05 myrequests.py[line:244] INFO: 接口请求地址为
+https://api-diligent-mgt.haixue.com/diligent/clazzQuestion/push
+2020-04-01 16:23:05 myrequests.py[line:249] INFO: 响应状态码为:200，响应时间为:0.161215
+2020-04-01 16:23:05 custom_assert.py[line:40] INFO: 
+断言值为:
+{
+  "code": 5001
+}
+响应信息:
+{
+  "code": 5001,
+  "data": null,
+  "msg": "指定日期内已存在相同的群答题，不允许重复推送"
+}

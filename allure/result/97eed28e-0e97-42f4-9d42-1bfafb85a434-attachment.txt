@@ -1,0 +1,1818 @@
+2020-04-01 16:22:39 myrequests.py[line:40] INFO: 
+
+***************************************************************************接口请求分割线***************************************************************************
+
+2020-04-01 16:22:39 myrequests.py[line:43] INFO: 开始访问接口:【subjectList:根据商品ID获取科目列表】
+2020-04-01 16:22:39 myrequests.py[line:132] INFO: 发送get请求
+2020-04-01 16:22:39 myrequests.py[line:244] INFO: 接口请求地址为
+https://api-diligent-mgt.haixue.com/diligent/chatSelector/subject/list/75323
+2020-04-01 16:22:39 myrequests.py[line:249] INFO: 响应状态码为:200，响应时间为:0.077046
+2020-04-01 16:22:39 custom_assert.py[line:40] INFO: 
+断言值为:
+{
+  "code": 200
+}
+响应信息:
+{
+  "code": 200,
+  "data": [
+    {
+      "id": 1,
+      "sequence": 1,
+      "subjectName": "建设工程经济",
+      "subjectShortName": "经济"
+    },
+    {
+      "id": 25,
+      "sequence": 2,
+      "subjectName": "建设工程法规及相关知识",
+      "subjectShortName": "法规"
+    },
+    {
+      "id": 27,
+      "sequence": 3,
+      "subjectName": "建设工程项目管理",
+      "subjectShortName": "管理"
+    },
+    {
+      "id": 43,
+      "sequence": 4,
+      "subjectName": "市政公用工程管理与实务",
+      "subjectShortName": "市政实务"
+    },
+    {
+      "id": 393,
+      "sequence": 5,
+      "subjectName": "综合",
+      "subjectShortName": "综合"
+    }
+  ],
+  "msg": null
+}
+2020-04-01 16:22:39 custom_assert.py[line:131] INFO: 断言json中指定的key【data】的返回数据的类型必须是【<class 'list'>】，返回数据不能是【[]】
+2020-04-01 16:22:39 myrequests.py[line:40] INFO: 
+
+***************************************************************************接口请求分割线***************************************************************************
+
+2020-04-01 16:22:39 myrequests.py[line:43] INFO: 开始访问接口:【moduleList:根据商品ID科目ID模块类型获取模块列表】
+2020-04-01 16:22:39 myrequests.py[line:132] INFO: 发送get请求
+2020-04-01 16:22:39 myrequests.py[line:136] INFO: 请求参数信息为
+{
+  "moduleType": "PAPER",
+  "subjectId": 27
+}
+2020-04-01 16:22:39 myrequests.py[line:244] INFO: 接口请求地址为
+https://api-diligent-mgt.haixue.com/diligent/chatSelector/module/list/75323?subjectId=27&moduleType=PAPER
+2020-04-01 16:22:39 myrequests.py[line:249] INFO: 响应状态码为:200，响应时间为:0.173442
+2020-04-01 16:22:39 custom_assert.py[line:105] INFO: 响应信息:
+{
+  "code": 204,
+  "data": [],
+  "msg": "未获取到数据"
+}
+2020-04-01 16:22:39 custom_assert.py[line:106] INFO: 断言json中指定的key【data】的返回值类型必须是：【<class 'list'>】
+2020-04-01 16:22:39 myrequests.py[line:40] INFO: 
+
+***************************************************************************接口请求分割线***************************************************************************
+
+2020-04-01 16:22:39 myrequests.py[line:43] INFO: 开始访问接口:【moduleList:根据商品ID科目ID模块类型获取模块列表】
+2020-04-01 16:22:39 myrequests.py[line:132] INFO: 发送get请求
+2020-04-01 16:22:39 myrequests.py[line:136] INFO: 请求参数信息为
+{
+  "moduleType": "PAPER",
+  "subjectId": 393
+}
+2020-04-01 16:22:39 myrequests.py[line:244] INFO: 接口请求地址为
+https://api-diligent-mgt.haixue.com/diligent/chatSelector/module/list/75323?subjectId=393&moduleType=PAPER
+2020-04-01 16:22:39 myrequests.py[line:249] INFO: 响应状态码为:200，响应时间为:0.176537
+2020-04-01 16:22:39 custom_assert.py[line:105] INFO: 响应信息:
+{
+  "code": 204,
+  "data": [],
+  "msg": "未获取到数据"
+}
+2020-04-01 16:22:39 custom_assert.py[line:106] INFO: 断言json中指定的key【data】的返回值类型必须是：【<class 'list'>】
+2020-04-01 16:22:39 myrequests.py[line:40] INFO: 
+
+***************************************************************************接口请求分割线***************************************************************************
+
+2020-04-01 16:22:39 myrequests.py[line:43] INFO: 开始访问接口:【moduleList:根据商品ID科目ID模块类型获取模块列表】
+2020-04-01 16:22:39 myrequests.py[line:132] INFO: 发送get请求
+2020-04-01 16:22:39 myrequests.py[line:136] INFO: 请求参数信息为
+{
+  "moduleType": "PAPER",
+  "subjectId": 25
+}
+2020-04-01 16:22:39 myrequests.py[line:244] INFO: 接口请求地址为
+https://api-diligent-mgt.haixue.com/diligent/chatSelector/module/list/75323?subjectId=25&moduleType=PAPER
+2020-04-01 16:22:39 myrequests.py[line:249] INFO: 响应状态码为:200，响应时间为:0.20095
+2020-04-01 16:22:39 custom_assert.py[line:105] INFO: 响应信息:
+{
+  "code": 200,
+  "data": [
+    {
+      "goodsModuleName": "密训专属阶段测试",
+      "id": 4293
+    },
+    {
+      "goodsModuleName": "400题开班测试-法规",
+      "id": 4493
+    },
+    {
+      "goodsModuleName": "天猫密训卷-法规",
+      "id": 4511
+    },
+    {
+      "goodsModuleName": "京城密训摸底测试",
+      "id": 4655
+    },
+    {
+      "goodsModuleName": "钻石私塾模拟考试",
+      "id": 6279
+    },
+    {
+      "goodsModuleName": "高端班专属阶段测试",
+      "id": 8353
+    },
+    {
+      "goodsModuleName": "4套精品练习卷",
+      "id": 8671
+    },
+    {
+      "goodsModuleName": "2017年6月一建模拟测试-法规",
+      "id": 8839
+    },
+    {
+      "goodsModuleName": "总裁班专属",
+      "id": 9179
+    },
+    {
+      "goodsModuleName": "高端班结课测试",
+      "id": 9795
+    },
+    {
+      "goodsModuleName": "高端班结课测试",
+      "id": 12057
+    },
+    {
+      "goodsModuleName": "高端班专属阶段测试",
+      "id": 12075
+    },
+    {
+      "goodsModuleName": "七月集训测试",
+      "id": 12817
+    },
+    {
+      "goodsModuleName": "法规重修试卷",
+      "id": 14805
+    },
+    {
+      "goodsModuleName": "19白金核心测试",
+      "id": 16207
+    },
+    {
+      "goodsModuleName": "19钻石专项练习",
+      "id": 16223
+    },
+    {
+      "goodsModuleName": "19钻石菁英测试",
+      "id": 16239
+    },
+    {
+      "goodsModuleName": "19考季模拟测试",
+      "id": 17229
+    }
+  ],
+  "msg": null
+}
+2020-04-01 16:22:39 custom_assert.py[line:106] INFO: 断言json中指定的key【data】的返回值类型必须是：【<class 'list'>】
+2020-04-01 16:22:39 myrequests.py[line:40] INFO: 
+
+***************************************************************************接口请求分割线***************************************************************************
+
+2020-04-01 16:22:39 myrequests.py[line:43] INFO: 开始访问接口:【paperList:获取试题列表】
+2020-04-01 16:22:39 myrequests.py[line:132] INFO: 发送get请求
+2020-04-01 16:22:39 myrequests.py[line:136] INFO: 请求参数信息为
+{
+  "goodsModuleId": 8671,
+  "subjectId": 25
+}
+2020-04-01 16:22:40 myrequests.py[line:244] INFO: 接口请求地址为
+https://api-diligent-mgt.haixue.com/diligent/chatSelector/paper/list/75323?subjectId=25&goodsModuleId=8671
+2020-04-01 16:22:40 myrequests.py[line:249] INFO: 响应状态码为:200，响应时间为:0.077971
+2020-04-01 16:22:40 custom_assert.py[line:105] INFO: 响应信息:
+{
+  "code": 204,
+  "data": [],
+  "msg": "未获取到数据"
+}
+2020-04-01 16:22:40 custom_assert.py[line:106] INFO: 断言json中指定的key【data】的返回值类型必须是：【<class 'list'>】
+2020-04-01 16:22:40 myrequests.py[line:40] INFO: 
+
+***************************************************************************接口请求分割线***************************************************************************
+
+2020-04-01 16:22:40 myrequests.py[line:43] INFO: 开始访问接口:【paperList:获取试题列表】
+2020-04-01 16:22:40 myrequests.py[line:132] INFO: 发送get请求
+2020-04-01 16:22:40 myrequests.py[line:136] INFO: 请求参数信息为
+{
+  "goodsModuleId": 14805,
+  "subjectId": 25
+}
+2020-04-01 16:22:40 myrequests.py[line:244] INFO: 接口请求地址为
+https://api-diligent-mgt.haixue.com/diligent/chatSelector/paper/list/75323?subjectId=25&goodsModuleId=14805
+2020-04-01 16:22:40 myrequests.py[line:249] INFO: 响应状态码为:200，响应时间为:0.087211
+2020-04-01 16:22:40 custom_assert.py[line:105] INFO: 响应信息:
+{
+  "code": 204,
+  "data": [],
+  "msg": "未获取到数据"
+}
+2020-04-01 16:22:40 custom_assert.py[line:106] INFO: 断言json中指定的key【data】的返回值类型必须是：【<class 'list'>】
+2020-04-01 16:22:40 myrequests.py[line:40] INFO: 
+
+***************************************************************************接口请求分割线***************************************************************************
+
+2020-04-01 16:22:40 myrequests.py[line:43] INFO: 开始访问接口:【paperList:获取试题列表】
+2020-04-01 16:22:40 myrequests.py[line:132] INFO: 发送get请求
+2020-04-01 16:22:40 myrequests.py[line:136] INFO: 请求参数信息为
+{
+  "goodsModuleId": 8353,
+  "subjectId": 25
+}
+2020-04-01 16:22:40 myrequests.py[line:244] INFO: 接口请求地址为
+https://api-diligent-mgt.haixue.com/diligent/chatSelector/paper/list/75323?subjectId=25&goodsModuleId=8353
+2020-04-01 16:22:40 myrequests.py[line:249] INFO: 响应状态码为:200，响应时间为:0.082749
+2020-04-01 16:22:40 custom_assert.py[line:105] INFO: 响应信息:
+{
+  "code": 204,
+  "data": [],
+  "msg": "未获取到数据"
+}
+2020-04-01 16:22:40 custom_assert.py[line:106] INFO: 断言json中指定的key【data】的返回值类型必须是：【<class 'list'>】
+2020-04-01 16:22:40 myrequests.py[line:40] INFO: 
+
+***************************************************************************接口请求分割线***************************************************************************
+
+2020-04-01 16:22:40 myrequests.py[line:43] INFO: 开始访问接口:【paperList:获取试题列表】
+2020-04-01 16:22:40 myrequests.py[line:132] INFO: 发送get请求
+2020-04-01 16:22:40 myrequests.py[line:136] INFO: 请求参数信息为
+{
+  "goodsModuleId": 4293,
+  "subjectId": 25
+}
+2020-04-01 16:22:40 myrequests.py[line:244] INFO: 接口请求地址为
+https://api-diligent-mgt.haixue.com/diligent/chatSelector/paper/list/75323?subjectId=25&goodsModuleId=4293
+2020-04-01 16:22:40 myrequests.py[line:249] INFO: 响应状态码为:200，响应时间为:0.086905
+2020-04-01 16:22:40 custom_assert.py[line:105] INFO: 响应信息:
+{
+  "code": 204,
+  "data": [],
+  "msg": "未获取到数据"
+}
+2020-04-01 16:22:40 custom_assert.py[line:106] INFO: 断言json中指定的key【data】的返回值类型必须是：【<class 'list'>】
+2020-04-01 16:22:40 myrequests.py[line:40] INFO: 
+
+***************************************************************************接口请求分割线***************************************************************************
+
+2020-04-01 16:22:40 myrequests.py[line:43] INFO: 开始访问接口:【paperList:获取试题列表】
+2020-04-01 16:22:40 myrequests.py[line:132] INFO: 发送get请求
+2020-04-01 16:22:40 myrequests.py[line:136] INFO: 请求参数信息为
+{
+  "goodsModuleId": 4655,
+  "subjectId": 25
+}
+2020-04-01 16:22:40 myrequests.py[line:244] INFO: 接口请求地址为
+https://api-diligent-mgt.haixue.com/diligent/chatSelector/paper/list/75323?subjectId=25&goodsModuleId=4655
+2020-04-01 16:22:40 myrequests.py[line:249] INFO: 响应状态码为:200，响应时间为:0.07685
+2020-04-01 16:22:40 custom_assert.py[line:105] INFO: 响应信息:
+{
+  "code": 204,
+  "data": [],
+  "msg": "未获取到数据"
+}
+2020-04-01 16:22:40 custom_assert.py[line:106] INFO: 断言json中指定的key【data】的返回值类型必须是：【<class 'list'>】
+2020-04-01 16:22:40 myrequests.py[line:40] INFO: 
+
+***************************************************************************接口请求分割线***************************************************************************
+
+2020-04-01 16:22:40 myrequests.py[line:43] INFO: 开始访问接口:【paperList:获取试题列表】
+2020-04-01 16:22:40 myrequests.py[line:132] INFO: 发送get请求
+2020-04-01 16:22:40 myrequests.py[line:136] INFO: 请求参数信息为
+{
+  "goodsModuleId": 17229,
+  "subjectId": 25
+}
+2020-04-01 16:22:40 myrequests.py[line:244] INFO: 接口请求地址为
+https://api-diligent-mgt.haixue.com/diligent/chatSelector/paper/list/75323?subjectId=25&goodsModuleId=17229
+2020-04-01 16:22:40 myrequests.py[line:249] INFO: 响应状态码为:200，响应时间为:0.083898
+2020-04-01 16:22:40 custom_assert.py[line:105] INFO: 响应信息:
+{
+  "code": 204,
+  "data": [],
+  "msg": "未获取到数据"
+}
+2020-04-01 16:22:40 custom_assert.py[line:106] INFO: 断言json中指定的key【data】的返回值类型必须是：【<class 'list'>】
+2020-04-01 16:22:40 myrequests.py[line:40] INFO: 
+
+***************************************************************************接口请求分割线***************************************************************************
+
+2020-04-01 16:22:40 myrequests.py[line:43] INFO: 开始访问接口:【paperList:获取试题列表】
+2020-04-01 16:22:40 myrequests.py[line:132] INFO: 发送get请求
+2020-04-01 16:22:40 myrequests.py[line:136] INFO: 请求参数信息为
+{
+  "goodsModuleId": 9795,
+  "subjectId": 25
+}
+2020-04-01 16:22:40 myrequests.py[line:244] INFO: 接口请求地址为
+https://api-diligent-mgt.haixue.com/diligent/chatSelector/paper/list/75323?subjectId=25&goodsModuleId=9795
+2020-04-01 16:22:40 myrequests.py[line:249] INFO: 响应状态码为:200，响应时间为:0.086973
+2020-04-01 16:22:40 custom_assert.py[line:105] INFO: 响应信息:
+{
+  "code": 200,
+  "data": [
+    {
+      "categoryId": 9,
+      "categoryName": "一级建造师",
+      "examquestionNum": 100,
+      "paperId": 6441,
+      "paperName": "2017考季高端班结课测试-建设工程法规及相关知识",
+      "subjectId": 25,
+      "subjectName": "建设工程法规及相关知识",
+      "subjectShortName": "法规"
+    }
+  ],
+  "msg": null
+}
+2020-04-01 16:22:40 custom_assert.py[line:106] INFO: 断言json中指定的key【data】的返回值类型必须是：【<class 'list'>】
+2020-04-01 16:22:40 myrequests.py[line:40] INFO: 
+
+***************************************************************************接口请求分割线***************************************************************************
+
+2020-04-01 16:22:40 myrequests.py[line:43] INFO: 开始访问接口:【clazzQuestionChoose:选题，通过试卷查询试题】
+2020-04-01 16:22:40 myrequests.py[line:132] INFO: 发送get请求
+2020-04-01 16:22:40 myrequests.py[line:136] INFO: 请求参数信息为
+{
+  "": "",
+  "categoryId": 9,
+  "correctRateAscFlag": "false",
+  "pageNum": "1",
+  "pageSize": "10",
+  "paperId": 6441,
+  "subjectId": 25
+}
+2020-04-01 16:22:41 myrequests.py[line:244] INFO: 接口请求地址为
+https://api-diligent-mgt.haixue.com/diligent/clazzQuestion/choose?categoryId=9&subjectId=25&=&paperId=6441&pageNum=1&pageSize=10&correctRateAscFlag=false
+2020-04-01 16:22:41 myrequests.py[line:249] INFO: 响应状态码为:200，响应时间为:1.043783
+2020-04-01 16:22:41 custom_assert.py[line:105] INFO: 响应信息:
+{
+  "code": 200,
+  "data": [
+    {
+      "accuracy": null,
+      "answerCount": null,
+      "clazzId": null,
+      "display": null,
+      "displayStatus": null,
+      "examQuestionVo": {
+        "analysisArray": [
+          {
+            "content": "强制性标准(最低标准)的含义：约定≧强制,按约定;约定<强制,按强制。",
+            "type": "text"
+          }
+        ],
+        "correctAnswer": "B",
+        "correctOptions": [
+          {
+            "optionContentArray": [
+              {
+                "content": "工程建设活动不得违反强制性标准",
+                "type": "text"
+              }
+            ],
+            "optionName": "B"
+          }
+        ],
+        "difficulty": "中",
+        "doneCorrectRate": 97.0,
+        "materialTitleArray": [],
+        "options": [
+          {
+            "optionContentArray": [
+              {
+                "content": "工程建设中不能约定采用推荐性标准",
+                "type": "text"
+              }
+            ],
+            "optionName": "A"
+          },
+          {
+            "optionContentArray": [
+              {
+                "content": "工程建设活动不得违反强制性标准",
+                "type": "text"
+              }
+            ],
+            "optionName": "B"
+          },
+          {
+            "optionContentArray": [
+              {
+                "content": "工程建设中的新技术新工艺新材料，可能涉及质量安全，又没有国家标准的，不得采用",
+                "type": "text"
+              }
+            ],
+            "optionName": "C"
+          },
+          {
+            "optionContentArray": [
+              {
+                "content": "工程建设中，采用国际标准或国外标准的，不再适用我国强制性标准",
+                "type": "text"
+              }
+            ],
+            "optionName": "D"
+          }
+        ],
+        "pastPaper": false,
+        "pastPaperNo": null,
+        "questionId": 382417,
+        "questionTypeId": 1115,
+        "subjectShortName": "法规",
+        "titleArray": [
+          {
+            "content": "工程建设活动，必须执行强制性标准。该规定的具体含义是指（　）。",
+            "type": "text"
+          }
+        ]
+      },
+      "id": null,
+      "participation": null,
+      "point": null,
+      "pushDate": null,
+      "pushStatus": null,
+      "taskType": null
+    },
+    {
+      "accuracy": null,
+      "answerCount": null,
+      "clazzId": null,
+      "display": null,
+      "displayStatus": null,
+      "examQuestionVo": {
+        "analysisArray": [
+          {
+            "content": "担保合同是主合同的从合同，主合同无效，担保合同无效。",
+            "type": "text"
+          }
+        ],
+        "correctAnswer": "D",
+        "correctOptions": [
+          {
+            "optionContentArray": [
+              {
+                "content": "保证合同",
+                "type": "text"
+              }
+            ],
+            "optionName": "D"
+          }
+        ],
+        "difficulty": "中",
+        "doneCorrectRate": 95.0,
+        "materialTitleArray": [],
+        "options": [
+          {
+            "optionContentArray": [
+              {
+                "content": "监理合同",
+                "type": "text"
+              }
+            ],
+            "optionName": "A"
+          },
+          {
+            "optionContentArray": [
+              {
+                "content": "采购合同",
+                "type": "text"
+              }
+            ],
+            "optionName": "B"
+          },
+          {
+            "optionContentArray": [
+              {
+                "content": "租赁合同",
+                "type": "text"
+              }
+            ],
+            "optionName": "C"
+          },
+          {
+            "optionContentArray": [
+              {
+                "content": "保证合同",
+                "type": "text"
+              }
+            ],
+            "optionName": "D"
+          }
+        ],
+        "pastPaper": false,
+        "pastPaperNo": null,
+        "questionId": 383059,
+        "questionTypeId": 1115,
+        "subjectShortName": "法规",
+        "titleArray": [
+          {
+            "content": "施工承包合同无效，则相应的（   ）也无效。",
+            "type": "text"
+          }
+        ]
+      },
+      "id": null,
+      "participation": null,
+      "point": null,
+      "pushDate": null,
+      "pushStatus": null,
+      "taskType": null
+    },
+    {
+      "accuracy": null,
+      "answerCount": null,
+      "clazzId": null,
+      "display": null,
+      "displayStatus": null,
+      "examQuestionVo": {
+        "analysisArray": [
+          {
+            "content": "保证合同约定不明。   有约定的 无约定或约定不明的 保证方式 按约定 按照连带责任保证 保证期间 按照主合同履行期限届满起6个月 保证范围 按照全部债务（主债权+利息+违约金、损害赔偿金+实现债权的费用） ",
+            "type": "text"
+          }
+        ],
+        "correctAnswer": "B",
+        "correctOptions": [
+          {
+            "optionContentArray": [
+              {
+                "content": " 20 ",
+                "type": "text"
+              }
+            ],
+            "optionName": "B"
+          }
+        ],
+        "difficulty": "中",
+        "doneCorrectRate": 94.0,
+        "materialTitleArray": [],
+        "options": [
+          {
+            "optionContentArray": [
+              {
+                "content": " 10 ",
+                "type": "text"
+              }
+            ],
+            "optionName": "A"
+          },
+          {
+            "optionContentArray": [
+              {
+                "content": " 20 ",
+                "type": "text"
+              }
+            ],
+            "optionName": "B"
+          },
+          {
+            "optionContentArray": [
+              {
+                "content": " 30 ",
+                "type": "text"
+              }
+            ],
+            "optionName": "C"
+          },
+          {
+            "optionContentArray": [
+              {
+                "content": " 50 ",
+                "type": "text"
+              }
+            ],
+            "optionName": "D"
+          }
+        ],
+        "pastPaper": true,
+        "pastPaperNo": null,
+        "questionId": 382329,
+        "questionTypeId": 1115,
+        "subjectShortName": "法规",
+        "titleArray": [
+          {
+            "content": "施工企业以自有的房产作抵押，向银行借款100万元，后来施工企业无力还贷，经诉讼后其抵押房产被拍卖，拍得的价款为150万元，贷款的利息及违约金为20万元，实现抵押权的费用为10万元，则拍卖后应返还施工企业的款项为（　）万元。",
+            "type": "text"
+          }
+        ]
+      },
+      "id": null,
+      "participation": null,
+      "point": null,
+      "pushDate": null,
+      "pushStatus": null,
+      "taskType": null
+    },
+    {
+      "accuracy": null,
+      "answerCount": null,
+      "clazzId": null,
+      "display": null,
+      "displayStatus": null,
+      "examQuestionVo": {
+        "analysisArray": [
+          {
+            "content": "承包人支付逾期竣工违约金后，不免除承包人继续完成工程及修补缺陷的义务。",
+            "type": "text"
+          }
+        ],
+        "correctAnswer": "C",
+        "correctOptions": [
+          {
+            "optionContentArray": [
+              {
+                "content": "应当继续完成工程",
+                "type": "text"
+              }
+            ],
+            "optionName": "C"
+          }
+        ],
+        "difficulty": "中",
+        "doneCorrectRate": 94.0,
+        "materialTitleArray": [],
+        "options": [
+          {
+            "optionContentArray": [
+              {
+                "content": "可以通知发包人解除合同",
+                "type": "text"
+              }
+            ],
+            "optionName": "A"
+          },
+          {
+            "optionContentArray": [
+              {
+                "content": "可以免除修复缺陷的义务",
+                "type": "text"
+              }
+            ],
+            "optionName": "B"
+          },
+          {
+            "optionContentArray": [
+              {
+                "content": "应当继续完成工程",
+                "type": "text"
+              }
+            ],
+            "optionName": "C"
+          },
+          {
+            "optionContentArray": [
+              {
+                "content": "工期不予顺延",
+                "type": "text"
+              }
+            ],
+            "optionName": "D"
+          }
+        ],
+        "pastPaper": false,
+        "pastPaperNo": null,
+        "questionId": 382381,
+        "questionTypeId": 1115,
+        "subjectShortName": "法规",
+        "titleArray": [
+          {
+            "content": "承包人支付逾期竣工违约金后，（　）。",
+            "type": "text"
+          }
+        ]
+      },
+      "id": null,
+      "participation": null,
+      "point": null,
+      "pushDate": null,
+      "pushStatus": null,
+      "taskType": null
+    },
+    {
+      "accuracy": null,
+      "answerCount": null,
+      "clazzId": null,
+      "display": null,
+      "displayStatus": null,
+      "examQuestionVo": {
+        "analysisArray": [
+          {
+            "content": "《安全生产法》规定，生产经营单位的从业人员有权了解其作业场所和工作岗位存在的危险因素、防范措施及事故应急措施",
+            "type": "text"
+          }
+        ],
+        "correctAnswer": "C",
+        "correctOptions": [
+          {
+            "optionContentArray": [
+              {
+                "content": "危险因素、事故防范措施、应急措施",
+                "type": "text"
+              }
+            ],
+            "optionName": "C"
+          }
+        ],
+        "difficulty": "中",
+        "doneCorrectRate": 94.0,
+        "materialTitleArray": [],
+        "options": [
+          {
+            "optionContentArray": [
+              {
+                "content": "班组纪律、安全规章制度、操作规程",
+                "type": "text"
+              }
+            ],
+            "optionName": "A"
+          },
+          {
+            "optionContentArray": [
+              {
+                "content": "工伤保险、工伤赔偿标准",
+                "type": "text"
+              }
+            ],
+            "optionName": "B"
+          },
+          {
+            "optionContentArray": [
+              {
+                "content": "危险因素、事故防范措施、应急措施",
+                "type": "text"
+              }
+            ],
+            "optionName": "C"
+          },
+          {
+            "optionContentArray": [
+              {
+                "content": "最低工资标准、工资支付日期",
+                "type": "text"
+              }
+            ],
+            "optionName": "D"
+          }
+        ],
+        "pastPaper": false,
+        "pastPaperNo": null,
+        "questionId": 382431,
+        "questionTypeId": 1115,
+        "subjectShortName": "法规",
+        "titleArray": [
+          {
+            "content": "《安全生产法》规定的从业人员的安全生产知情权是指从业人员有权了解其作业场所、工作岗位的（　）。",
+            "type": "text"
+          }
+        ]
+      },
+      "id": null,
+      "participation": null,
+      "point": null,
+      "pushDate": null,
+      "pushStatus": null,
+      "taskType": null
+    },
+    {
+      "accuracy": null,
+      "answerCount": null,
+      "clazzId": null,
+      "display": null,
+      "displayStatus": null,
+      "examQuestionVo": {
+        "analysisArray": [
+          {
+            "content": "事故报告要求：（1）立即（1小时)；（2）如实。 事故报告内容 事故调查报告内容 （1）事故发生单位概况； （1）事故发生单位概况； （2）事故发生的时间、地点以及事故现场情况； （2）事故发生经过和事故救援情况； （3）事故的简要经过； （3）事故造成的人员伤亡和直接经济损失； （4）事故已经造成或者可能造成的伤亡人数（包括下落不明的人数）和初步估计的直接经济损失； （4）事故发生的原因和事故性质； （5）已经采取的措施； （5）事故责任的认定以及对事故责任者的处理建议； （6）其他应当报告的情况。 （6）事故防范和整改措施。 ",
+            "type": "text"
+          }
+        ],
+        "correctAnswer": "D",
+        "correctOptions": [
+          {
+            "optionContentArray": [
+              {
+                "content": "事故的原因、性质和事故责任",
+                "type": "text"
+              }
+            ],
+            "optionName": "D"
+          }
+        ],
+        "difficulty": "中",
+        "doneCorrectRate": 94.0,
+        "materialTitleArray": [],
+        "options": [
+          {
+            "optionContentArray": [
+              {
+                "content": "事故发生的时间、地点以及现场情况",
+                "type": "text"
+              }
+            ],
+            "optionName": "A"
+          },
+          {
+            "optionContentArray": [
+              {
+                "content": "事故中伤亡人数和初步估计的直接经济损失",
+                "type": "text"
+              }
+            ],
+            "optionName": "B"
+          },
+          {
+            "optionContentArray": [
+              {
+                "content": "事故的简要经过与已经采取的措施",
+                "type": "text"
+              }
+            ],
+            "optionName": "C"
+          },
+          {
+            "optionContentArray": [
+              {
+                "content": "事故的原因、性质和事故责任",
+                "type": "text"
+              }
+            ],
+            "optionName": "D"
+          }
+        ],
+        "pastPaper": false,
+        "pastPaperNo": null,
+        "questionId": 383323,
+        "questionTypeId": 1115,
+        "subjectShortName": "法规",
+        "titleArray": [
+          {
+            "content": "某建设工程项目发生生产安全事故，施工总承包应当在1小时内负责向安全生产监督管理部门、建设行政主管部门或其他有关部门上报，报告的内容不包括（   ）",
+            "type": "text"
+          }
+        ]
+      },
+      "id": null,
+      "participation": null,
+      "point": null,
+      "pushDate": null,
+      "pushStatus": null,
+      "taskType": null
+    },
+    {
+      "accuracy": null,
+      "answerCount": null,
+      "clazzId": null,
+      "display": null,
+      "displayStatus": null,
+      "examQuestionVo": {
+        "analysisArray": [
+          {
+            "content": "http://import.highso.org.cn/hximg/kindeditorupload/20161122/20161122175052_855.png",
+            "type": "img"
+          }
+        ],
+        "correctAnswer": "C",
+        "correctOptions": [
+          {
+            "optionContentArray": [
+              {
+                "content": "明确告知被派遣劳动者的工作要求和劳动报酬，对被派遣劳动者与本单位同类岗位劳动者同工同酬",
+                "type": "text"
+              }
+            ],
+            "optionName": "C"
+          }
+        ],
+        "difficulty": "中",
+        "doneCorrectRate": 93.0,
+        "materialTitleArray": [],
+        "options": [
+          {
+            "optionContentArray": [
+              {
+                "content": "对在岗被派遣劳动者进行必要的岗位工作培训，培训费用由被派遣劳动者支付",
+                "type": "text"
+              }
+            ],
+            "optionName": "A"
+          },
+          {
+            "optionContentArray": [
+              {
+                "content": "对连续用工的被派遣劳动者，可以不执行本公司的正常的工资调整机制",
+                "type": "text"
+              }
+            ],
+            "optionName": "B"
+          },
+          {
+            "optionContentArray": [
+              {
+                "content": "明确告知被派遣劳动者的工作要求和劳动报酬，对被派遣劳动者与本单位同类岗位劳动者同工同酬",
+                "type": "text"
+              }
+            ],
+            "optionName": "C"
+          },
+          {
+            "optionContentArray": [
+              {
+                "content": "征得劳务派遣公司同意后，将被派遣劳动者派遣到其他用人单位",
+                "type": "text"
+              }
+            ],
+            "optionName": "D"
+          }
+        ],
+        "pastPaper": false,
+        "pastPaperNo": null,
+        "questionId": 382409,
+        "questionTypeId": 1115,
+        "subjectShortName": "法规",
+        "titleArray": [
+          {
+            "content": "某施工单位与某劳务派遣公司达成了劳务派遣协议，派遣劳动者30人，施工单位在用工过程中符合《劳动合同法》的行为是（　）。",
+            "type": "text"
+          }
+        ]
+      },
+      "id": null,
+      "participation": null,
+      "point": null,
+      "pushDate": null,
+      "pushStatus": null,
+      "taskType": null
+    },
+    {
+      "accuracy": null,
+      "answerCount": null,
+      "clazzId": null,
+      "display": null,
+      "displayStatus": null,
+      "examQuestionVo": {
+        "analysisArray": [
+          {
+            "content": "投标人异议程序和投诉程序：四件事情两步走，其他事情一步走（接下表） 对资格预审文件提出异议 至迟在提交资格预审文件截止时间2日前 招标人收到异议后3日内答复，答复前暂停招投标活动 招标人不答复，或投标人对招标人答复不服的，可以向招标办投诉 对招标文件提出异议 至迟在提交投标文件截止时间10日前 招标人收到异议后3日内答复，答复前暂停招投标活动 对开标提出异议 开标现场当场提出 招标人当场回复并书面记录 对评标结果提出异议 中标候选人公示期间 招标人收到异议后3日内答复，答复前暂停招投标活动 其他事项 知道或应当知道该违法事实之日起10日内 直接向招标办投诉 ",
+            "type": "text"
+          }
+        ],
+        "correctAnswer": "D",
+        "correctOptions": [
+          {
+            "optionContentArray": [
+              {
+                "content": "评标结果",
+                "type": "text"
+              }
+            ],
+            "optionName": "D"
+          }
+        ],
+        "difficulty": "中",
+        "doneCorrectRate": 91.0,
+        "materialTitleArray": [],
+        "options": [
+          {
+            "optionContentArray": [
+              {
+                "content": "资格预审文件",
+                "type": "text"
+              }
+            ],
+            "optionName": "A"
+          },
+          {
+            "optionContentArray": [
+              {
+                "content": "招标文件",
+                "type": "text"
+              }
+            ],
+            "optionName": "B"
+          },
+          {
+            "optionContentArray": [
+              {
+                "content": "开标",
+                "type": "text"
+              }
+            ],
+            "optionName": "C"
+          },
+          {
+            "optionContentArray": [
+              {
+                "content": "评标结果",
+                "type": "text"
+              }
+            ],
+            "optionName": "D"
+          }
+        ],
+        "pastPaper": false,
+        "pastPaperNo": null,
+        "questionId": 382369,
+        "questionTypeId": 1115,
+        "subjectShortName": "法规",
+        "titleArray": [
+          {
+            "content": "投标人或利害关系人在中标候选人公示期间，可以就（　）向招标人提出书面异议。",
+            "type": "text"
+          }
+        ]
+      },
+      "id": null,
+      "participation": null,
+      "point": null,
+      "pushDate": null,
+      "pushStatus": null,
+      "taskType": null
+    },
+    {
+      "accuracy": null,
+      "answerCount": null,
+      "clazzId": null,
+      "display": null,
+      "displayStatus": null,
+      "examQuestionVo": {
+        "analysisArray": [
+          {
+            "content": "开标时，由投标人或者其推选的代表检查投标文件的密封隋况，也可以由招标人委托的公证机构检查并公证；",
+            "type": "text"
+          }
+        ],
+        "correctAnswer": "C",
+        "correctOptions": [
+          {
+            "optionContentArray": [
+              {
+                "content": "投标文件是否按要求密封",
+                "type": "text"
+              }
+            ],
+            "optionName": "C"
+          }
+        ],
+        "difficulty": "中",
+        "doneCorrectRate": 91.0,
+        "materialTitleArray": [],
+        "options": [
+          {
+            "optionContentArray": [
+              {
+                "content": "投标文件的组成内容是否符合要求",
+                "type": "text"
+              }
+            ],
+            "optionName": "A"
+          },
+          {
+            "optionContentArray": [
+              {
+                "content": "投标人是否按规定格式提交投标担保",
+                "type": "text"
+              }
+            ],
+            "optionName": "B"
+          },
+          {
+            "optionContentArray": [
+              {
+                "content": "投标文件是否按要求密封",
+                "type": "text"
+              }
+            ],
+            "optionName": "C"
+          },
+          {
+            "optionContentArray": [
+              {
+                "content": "投标人是否有分立、合并、破产等重大变化",
+                "type": "text"
+              }
+            ],
+            "optionName": "D"
+          }
+        ],
+        "pastPaper": false,
+        "pastPaperNo": null,
+        "questionId": 383207,
+        "questionTypeId": 1115,
+        "subjectShortName": "法规",
+        "titleArray": [
+          {
+            "content": "招标人在签收投标人提交的投标文件时，应当检查（    ）并记录存档。",
+            "type": "text"
+          }
+        ]
+      },
+      "id": null,
+      "participation": null,
+      "point": null,
+      "pushDate": null,
+      "pushStatus": null,
+      "taskType": null
+    },
+    {
+      "accuracy": null,
+      "answerCount": null,
+      "clazzId": null,
+      "display": null,
+      "displayStatus": null,
+      "examQuestionVo": {
+        "analysisArray": [
+          {
+            "content": "土方作业阶段，采取洒水、覆盖等措施，达到作业区目测扬尘高度小于1.5米，扩散到场区外。",
+            "type": "text"
+          }
+        ],
+        "correctAnswer": "C",
+        "correctOptions": [
+          {
+            "optionContentArray": [
+              {
+                "content": "土方作业阶段",
+                "type": "text"
+              }
+            ],
+            "optionName": "C"
+          }
+        ],
+        "difficulty": "中",
+        "doneCorrectRate": 91.0,
+        "materialTitleArray": [],
+        "options": [
+          {
+            "optionContentArray": [
+              {
+                "content": "地下施工阶段",
+                "type": "text"
+              }
+            ],
+            "optionName": "A"
+          },
+          {
+            "optionContentArray": [
+              {
+                "content": "结构装修阶段",
+                "type": "text"
+              }
+            ],
+            "optionName": "B"
+          },
+          {
+            "optionContentArray": [
+              {
+                "content": "土方作业阶段",
+                "type": "text"
+              }
+            ],
+            "optionName": "C"
+          },
+          {
+            "optionContentArray": [
+              {
+                "content": "防水工程阶段",
+                "type": "text"
+              }
+            ],
+            "optionName": "D"
+          }
+        ],
+        "pastPaper": false,
+        "pastPaperNo": null,
+        "questionId": 383299,
+        "questionTypeId": 1115,
+        "subjectShortName": "法规",
+        "titleArray": [
+          {
+            "content": " 建筑施工中，作业区扬尘高度应控制在1.5米的是（      ）。",
+            "type": "text"
+          }
+        ]
+      },
+      "id": null,
+      "participation": null,
+      "point": null,
+      "pushDate": null,
+      "pushStatus": null,
+      "taskType": null
+    }
+  ],
+  "msg": null
+}
+2020-04-01 16:22:41 custom_assert.py[line:106] INFO: 断言json中指定的key【data】的返回值类型必须是：【<class 'list'>】
+2020-04-01 16:22:41 myrequests.py[line:40] INFO: 
+
+***************************************************************************接口请求分割线***************************************************************************
+
+2020-04-01 16:22:41 myrequests.py[line:43] INFO: 开始访问接口:【save:存题】
+2020-04-01 16:22:41 myrequests.py[line:50] INFO: 请求的headers信息为
+{
+  "Content-Type": "application/json;charset=UTF-8"
+}
+2020-04-01 16:22:41 myrequests.py[line:94] INFO: 发送post请求
+2020-04-01 16:22:41 myrequests.py[line:97] INFO: 请求参数信息为
+[
+  {
+    "clazzId": 567,
+    "displayStatus": "NONE",
+    "pushDate": "2020-04-01",
+    "pushStatus": "UNPUSHED",
+    "questionId": 383323
+  }
+]
+2020-04-01 16:22:41 myrequests.py[line:244] INFO: 接口请求地址为
+https://api-diligent-mgt.haixue.com/diligent/clazzQuestion/save
+2020-04-01 16:22:41 myrequests.py[line:249] INFO: 响应状态码为:200，响应时间为:0.091209
+2020-04-01 16:22:41 custom_assert.py[line:40] INFO: 
+断言值为:
+{
+  "code": 200
+}
+响应信息:
+{
+  "code": 200,
+  "data": "success",
+  "msg": null
+}
+2020-04-01 16:22:41 myrequests.py[line:40] INFO: 
+
+***************************************************************************接口请求分割线***************************************************************************
+
+2020-04-01 16:22:41 myrequests.py[line:43] INFO: 开始访问接口:【unpushed:查询待推试题】
+2020-04-01 16:22:41 myrequests.py[line:132] INFO: 发送get请求
+2020-04-01 16:22:41 myrequests.py[line:136] INFO: 请求参数信息为
+{
+  "clazzId": 567,
+  "pageNum": "1",
+  "pageSize": "10",
+  "pushDate": "2020-04-01"
+}
+2020-04-01 16:22:41 myrequests.py[line:244] INFO: 接口请求地址为
+https://api-diligent-mgt.haixue.com/diligent/clazzQuestion/unpushed?clazzId=567&pushDate=2020-04-01&pageNum=1&pageSize=10
+2020-04-01 16:22:41 myrequests.py[line:249] INFO: 响应状态码为:200，响应时间为:0.109984
+2020-04-01 16:22:41 custom_assert.py[line:40] INFO: 
+断言值为:
+{
+  "code": 200
+}
+响应信息:
+{
+  "code": 200,
+  "data": {
+    "clazzQuestionVos": [
+      {
+        "accuracy": null,
+        "answerCount": null,
+        "clazzId": 567,
+        "display": "MANUAL",
+        "displayStatus": "NONE",
+        "examQuestionVo": {
+          "analysisArray": [
+            {
+              "content": "事故报告要求：（1）立即（1小时)；（2）如实。 事故报告内容 事故调查报告内容 （1）事故发生单位概况； （1）事故发生单位概况； （2）事故发生的时间、地点以及事故现场情况； （2）事故发生经过和事故救援情况； （3）事故的简要经过； （3）事故造成的人员伤亡和直接经济损失； （4）事故已经造成或者可能造成的伤亡人数（包括下落不明的人数）和初步估计的直接经济损失； （4）事故发生的原因和事故性质； （5）已经采取的措施； （5）事故责任的认定以及对事故责任者的处理建议； （6）其他应当报告的情况。 （6）事故防范和整改措施。 ",
+              "type": "text"
+            }
+          ],
+          "correctAnswer": "D",
+          "correctOptions": [
+            {
+              "optionContentArray": [
+                {
+                  "content": "事故的原因、性质和事故责任",
+                  "type": "text"
+                }
+              ],
+              "optionName": "D"
+            }
+          ],
+          "difficulty": "中",
+          "doneCorrectRate": 94.0,
+          "materialTitleArray": [],
+          "options": [
+            {
+              "optionContentArray": [
+                {
+                  "content": "事故发生的时间、地点以及现场情况",
+                  "type": "text"
+                }
+              ],
+              "optionName": "A"
+            },
+            {
+              "optionContentArray": [
+                {
+                  "content": "事故中伤亡人数和初步估计的直接经济损失",
+                  "type": "text"
+                }
+              ],
+              "optionName": "B"
+            },
+            {
+              "optionContentArray": [
+                {
+                  "content": "事故的简要经过与已经采取的措施",
+                  "type": "text"
+                }
+              ],
+              "optionName": "C"
+            },
+            {
+              "optionContentArray": [
+                {
+                  "content": "事故的原因、性质和事故责任",
+                  "type": "text"
+                }
+              ],
+              "optionName": "D"
+            }
+          ],
+          "pastPaper": false,
+          "pastPaperNo": null,
+          "questionId": 383323,
+          "questionTypeId": 1115,
+          "subjectShortName": "法规",
+          "titleArray": [
+            {
+              "content": "某建设工程项目发生生产安全事故，施工总承包应当在1小时内负责向安全生产监督管理部门、建设行政主管部门或其他有关部门上报，报告的内容不包括（   ）",
+              "type": "text"
+            }
+          ]
+        },
+        "id": 17112,
+        "participation": null,
+        "point": 2,
+        "pushDate": 1585670400000,
+        "pushStatus": "UNPUSHED",
+        "taskType": null
+      }
+    ],
+    "display": "MANUAL"
+  },
+  "msg": null
+}
+2020-04-01 16:22:41 custom_assert.py[line:131] INFO: 断言json中指定的key【clazzQuestionVos】的返回数据的类型必须是【<class 'list'>】，返回数据不能是【[]】
+2020-04-01 16:22:41 myrequests.py[line:40] INFO: 
+
+***************************************************************************接口请求分割线***************************************************************************
+
+2020-04-01 16:22:41 myrequests.py[line:43] INFO: 开始访问接口:【push:推送试题/显示解析】
+2020-04-01 16:22:41 myrequests.py[line:50] INFO: 请求的headers信息为
+{
+  "Content-Type": "application/json;charset=UTF-8"
+}
+2020-04-01 16:22:41 myrequests.py[line:94] INFO: 发送post请求
+2020-04-01 16:22:41 myrequests.py[line:97] INFO: 请求参数信息为
+{
+  "clazzId": 567,
+  "customerId": 1585,
+  "displayStatus": "NONE",
+  "id": 17112,
+  "pushDate": "2020-04-01",
+  "pushStatus": "PUSHED",
+  "questionId": 383323
+}
+2020-04-01 16:22:42 myrequests.py[line:244] INFO: 接口请求地址为
+https://api-diligent-mgt.haixue.com/diligent/clazzQuestion/push
+2020-04-01 16:22:42 myrequests.py[line:249] INFO: 响应状态码为:200，响应时间为:0.634388
+2020-04-01 16:22:42 custom_assert.py[line:40] INFO: 
+断言值为:
+{
+  "code": 200
+}
+响应信息:
+{
+  "code": 200,
+  "data": "推送群答题成功.",
+  "msg": null
+}
+2020-04-01 16:22:42 myrequests.py[line:40] INFO: 
+
+***************************************************************************接口请求分割线***************************************************************************
+
+2020-04-01 16:22:42 myrequests.py[line:43] INFO: 开始访问接口:【questionDetail:查询答题详情】
+2020-04-01 16:22:42 myrequests.py[line:132] INFO: 发送get请求
+2020-04-01 16:22:42 myrequests.py[line:136] INFO: 请求参数信息为
+{
+  "clazzQuestionId": 17112
+}
+2020-04-01 16:22:42 myrequests.py[line:244] INFO: 接口请求地址为
+https://api-diligent-mgt.haixue.com/diligent/clazzQuestion/detail?clazzQuestionId=17112
+2020-04-01 16:22:42 myrequests.py[line:249] INFO: 响应状态码为:200，响应时间为:0.201236
+2020-04-01 16:22:42 custom_assert.py[line:40] INFO: 
+断言值为:
+{
+  "code": 200
+}
+响应信息:
+{
+  "code": 200,
+  "data": {
+    "accuracy": null,
+    "answerCount": null,
+    "clazzQuestionAnswerVos": null,
+    "clazzQuestionId": 17112,
+    "examQuestionVo": {
+      "analysisArray": [
+        {
+          "content": "事故报告要求：（1）立即（1小时)；（2）如实。 事故报告内容 事故调查报告内容 （1）事故发生单位概况； （1）事故发生单位概况； （2）事故发生的时间、地点以及事故现场情况； （2）事故发生经过和事故救援情况； （3）事故的简要经过； （3）事故造成的人员伤亡和直接经济损失； （4）事故已经造成或者可能造成的伤亡人数（包括下落不明的人数）和初步估计的直接经济损失； （4）事故发生的原因和事故性质； （5）已经采取的措施； （5）事故责任的认定以及对事故责任者的处理建议； （6）其他应当报告的情况。 （6）事故防范和整改措施。 ",
+          "type": "text"
+        }
+      ],
+      "correctAnswer": "D",
+      "correctOptions": [
+        {
+          "optionContentArray": [
+            {
+              "content": "事故的原因、性质和事故责任",
+              "type": "text"
+            }
+          ],
+          "optionName": "D"
+        }
+      ],
+      "difficulty": "中",
+      "doneCorrectRate": 94.0,
+      "materialTitleArray": [],
+      "options": [
+        {
+          "optionContentArray": [
+            {
+              "content": "事故发生的时间、地点以及现场情况",
+              "type": "text"
+            }
+          ],
+          "optionName": "A"
+        },
+        {
+          "optionContentArray": [
+            {
+              "content": "事故中伤亡人数和初步估计的直接经济损失",
+              "type": "text"
+            }
+          ],
+          "optionName": "B"
+        },
+        {
+          "optionContentArray": [
+            {
+              "content": "事故的简要经过与已经采取的措施",
+              "type": "text"
+            }
+          ],
+          "optionName": "C"
+        },
+        {
+          "optionContentArray": [
+            {
+              "content": "事故的原因、性质和事故责任",
+              "type": "text"
+            }
+          ],
+          "optionName": "D"
+        }
+      ],
+      "pastPaper": false,
+      "pastPaperNo": null,
+      "questionId": 383323,
+      "questionTypeId": 1115,
+      "subjectShortName": "法规",
+      "titleArray": [
+        {
+          "content": "某建设工程项目发生生产安全事故，施工总承包应当在1小时内负责向安全生产监督管理部门、建设行政主管部门或其他有关部门上报，报告的内容不包括（   ）",
+          "type": "text"
+        }
+      ]
+    },
+    "optionAnswerCountMap": {
+      "A": 0,
+      "B": 0,
+      "C": 0,
+      "D": 0
+    },
+    "participation": null
+  },
+  "msg": null
+}
+2020-04-01 16:22:50 myrequests.py[line:40] INFO: 
+
+***************************************************************************接口请求分割线***************************************************************************
+
+2020-04-01 16:22:50 myrequests.py[line:43] INFO: 开始访问接口:【historyMsg:查询群聊历史消息】
+2020-04-01 16:22:50 myrequests.py[line:132] INFO: 发送get请求
+2020-04-01 16:22:50 myrequests.py[line:136] INFO: 请求参数信息为
+{
+  "endDate": "2020-04-01 16:24:50",
+  "groupIdentifier": "CLAZZ-567",
+  "pageNum": "1",
+  "sendType": "GROUP",
+  "startDate": "2020-04-01 16:20:50"
+}
+2020-04-01 16:22:50 myrequests.py[line:244] INFO: 接口请求地址为
+https://api-diligent-mgt.haixue.com/diligent/tencent/im/group/historyMsg?pageNum=1&sendType=GROUP&groupIdentifier=CLAZZ-567&startDate=2020-04-01+16%3A20%3A50&endDate=2020-04-01+16%3A24%3A50
+2020-04-01 16:22:50 myrequests.py[line:249] INFO: 响应状态码为:200，响应时间为:0.095846
+2020-04-01 16:22:50 custom_assert.py[line:40] INFO: 
+断言值为:
+{
+  "code": 200
+}
+响应信息:
+{
+  "code": 200,
+  "data": {
+    "currentPage": 1,
+    "items": [
+      {
+        "From_Account": "T-1585",
+        "GroupId": "CLAZZ-567",
+        "MsgBody": [
+          {
+            "MsgContent": {
+              "Data": "{\"fromIdentifier\":\"T-1585\",\"fromIdentifierNickName\":\"陈磊二\",\"character\":\"ASSISTANT\",\"msgType\":\"CLAZZQUESTION\",\"top\":false,\"clazzQuestionMsg\":{\"id\":17112,\"displayStatus\":\"NONE\",\"examQuestionVo\":{\"difficulty\":\"中\",\"questionId\":383323,\"correctOptions\":[{\"optionContentArray\":[{\"type\":\"text\",\"content\":\"事故的原因、性质和事故责任\"}],\"optionName\":\"D\"}],\"titleArray\":[{\"type\":\"text\",\"content\":\"某建设工程项目发生生产安全事故，施工总承包应当在1小时内负责向安全生产监督管理部门、建设行政主管部门或其他有关部门上报，报告的内容不包括（   ）\"}],\"options\":[{\"optionContentArray\":[{\"type\":\"text\",\"content\":\"事故发生的时间、地点以及现场情况\"}],\"optionName\":\"A\"},{\"optionContentArray\":[{\"type\":\"text\",\"content\":\"事故中伤亡人数和初步估计的直接经济损失\"}],\"optionName\":\"B\"},{\"optionContentArray\":[{\"type\":\"text\",\"content\":\"事故的简要经过与已经采取的措施\"}],\"optionName\":\"C\"},{\"optionContentArray\":[{\"type\":\"text\",\"content\":\"事故的原因、性质和事故责任\"}],\"optionName\":\"D\"}],\"subjectShortName\":\"法规\",\"doneCorrectRate\":94.0,\"correctAnswer\":\"D\",\"pastPaper\":false,\"questionTypeId\":1115,\"analysisArray\":[{\"type\":\"text\",\"content\":\"事故报告要求：（1）立即（1小时)；（2）如实。 事故报告内容 事故调查报告内容 （1）事故发生单位概况； （1）事故发生单位概况； （2）事故发生的时间、地点以及事故现场情况； （2）事故发生经过和事故救援情况； （3）事故的简要经过； （3）事故造成的人员伤亡和直接经济损失； （4）事故已经造成或者可能造成的伤亡人数（包括下落不明的人数）和初步估计的直接经济损失； （4）事故发生的原因和事故性质； （5）已经采取的措施； （5）事故责任的认定以及对事故责任者的处理建议； （6）其他应当报告的情况。 （6）事故防范和整改措施。 \"}],\"materialTitleArray\":[]},\"pushMsg\":\"[群答题-法规]某建设工程项目发生生产安全事故，施工总承包应当在1小时内负责向安全生产监督管理部门、建设行政主管部门或其他有关部门上报，报告的内容不包括（   ）\",\"point\":2,\"pushDate\":\"2020-04-01 16:22:58\"},\"randomStr\":\"1585729378668\"}",
+              "Desc": "群答题",
+              "Ext": "",
+              "FileName": null,
+              "FileSize": null,
+              "ImageFormat": null,
+              "ImageInfoArray": null,
+              "Index": null,
+              "Latitude": null,
+              "Longitude": null,
+              "Second": null,
+              "Size": null,
+              "Sound": "",
+              "Text": null,
+              "UUID": null
+            },
+            "MsgType": "TIMCustomElem"
+          }
+        ],
+        "MsgSeq": "3362",
+        "MsgTime": 1585729379,
+        "To_Account": null
+      },
+      {
+        "From_Account": "T-1585",
+        "GroupId": "CLAZZ-567",
+        "MsgBody": [
+          {
+            "MsgContent": {
+              "Data": "{\"fromIdentifier\":\"T-1585\",\"fromIdentifierNickName\":\"陈磊二\",\"character\":\"ASSISTANT\",\"msgType\":\"PAPER\",\"top\":false,\"paperMsg\":{\"paperId\":9929,\"paperName\":\"法规每日练习7\",\"categoryId\":9,\"categoryName\":\"一级建造师\",\"subjectId\":25,\"subjectName\":\"建设工程法规及相关知识\",\"subjectShortName\":\"法规\",\"examquestionNum\":30,\"isCourseInfo\":false},\"randomStr\":\"1585729350000\"}",
+              "Desc": "[课程提醒]法规每日练习7",
+              "Ext": "",
+              "FileName": null,
+              "FileSize": null,
+              "ImageFormat": null,
+              "ImageInfoArray": null,
+              "Index": null,
+              "Latitude": null,
+              "Longitude": null,
+              "Second": null,
+              "Size": null,
+              "Sound": "",
+              "Text": null,
+              "UUID": null
+            },
+            "MsgType": "TIMCustomElem"
+          }
+        ],
+        "MsgSeq": "3361",
+        "MsgTime": 1585729367,
+        "To_Account": null
+      },
+      {
+        "From_Account": "T-1585",
+        "GroupId": "CLAZZ-567",
+        "MsgBody": [
+          {
+            "MsgContent": {
+              "Data": "{\"fromIdentifier\":\"T-1585\",\"fromIdentifierNickName\":\"陈磊二\",\"character\":\"ASSISTANT\",\"msgType\":\"PAPER\",\"top\":false,\"paperMsg\":{\"paperId\":8877,\"paperName\":\"【测试】真题试卷2\",\"categoryId\":9,\"categoryName\":\"一级建造师\",\"subjectId\":1,\"subjectName\":\"建设工程经济\",\"subjectShortName\":\"经济\",\"examquestionNum\":3,\"isCourseInfo\":false},\"randomStr\":\"1585729340000\"}",
+              "Desc": "[课程提醒]【测试】真题试卷2",
+              "Ext": "",
+              "FileName": null,
+              "FileSize": null,
+              "ImageFormat": null,
+              "ImageInfoArray": null,
+              "Index": null,
+              "Latitude": null,
+              "Longitude": null,
+              "Second": null,
+              "Size": null,
+              "Sound": "",
+              "Text": null,
+              "UUID": null
+            },
+            "MsgType": "TIMCustomElem"
+          }
+        ],
+        "MsgSeq": "3360",
+        "MsgTime": 1585729357,
+        "To_Account": null
+      },
+      {
+        "From_Account": "T-1585",
+        "GroupId": "CLAZZ-567",
+        "MsgBody": [
+          {
+            "MsgContent": {
+              "Data": "{\"fromIdentifier\":\"T-1585\",\"fromIdentifierNickName\":\"陈磊二\",\"character\":\"ASSISTANT\",\"msgType\":\"LIVE\",\"top\":false,\"liveMsg\":{\"liveId\":80559,\"liveName\":\"教材全解-经济6\",\"teacherName\":\"李理\",\"liveStartTime\":\"2020-03-12 19:00:00\",\"liveEndTime\":\"2020-03-12 21:00:00\",\"voiceCloud\":0,\"liveWay\":0,\"liveLabel\":1,\"categoryId\":9,\"categoryName\":\"一级建造师\",\"subjectId\":1,\"subjectName\":\"建设工程经济\",\"subjectShortName\":\"经济\",\"isCourseInfo\":false},\"randomStr\":\"1585729330000\"}",
+              "Desc": "[课程提醒]教材全解-经济6",
+              "Ext": "",
+              "FileName": null,
+              "FileSize": null,
+              "ImageFormat": null,
+              "ImageInfoArray": null,
+              "Index": null,
+              "Latitude": null,
+              "Longitude": null,
+              "Second": null,
+              "Size": null,
+              "Sound": "",
+              "Text": null,
+              "UUID": null
+            },
+            "MsgType": "TIMCustomElem"
+          }
+        ],
+        "MsgSeq": "3359",
+        "MsgTime": 1585729347,
+        "To_Account": null
+      },
+      {
+        "From_Account": "T-1585",
+        "GroupId": "CLAZZ-567",
+        "MsgBody": [
+          {
+            "MsgContent": {
+              "Data": "{\"fromIdentifier\":\"T-1585\",\"fromIdentifierNickName\":\"陈磊二\",\"character\":\"ASSISTANT\",\"msgType\":\"IMG\",\"top\":false,\"imgMsg\":{\"type\":\"JPG\",\"imgInfo\":[{\"type\":\"normal\",\"size\":14851,\"width\":300,\"height\":300,\"url\":\"https://imgstatic.highso.com.cn/jjxt/img/630ea71948e64e7198d6ade6d70c5286.jpg?attname=laoshi.jpg\",\"id\":108001}]},\"randomStr\":\"1585729321000\"}",
+              "Desc": "[图片]",
+              "Ext": "",
+              "FileName": null,
+              "FileSize": null,
+              "ImageFormat": null,
+              "ImageInfoArray": null,
+              "Index": null,
+              "Latitude": null,
+              "Longitude": null,
+              "Second": null,
+              "Size": null,
+              "Sound": "",
+              "Text": null,
+              "UUID": null
+            },
+            "MsgType": "TIMCustomElem"
+          }
+        ],
+        "MsgSeq": "3358",
+        "MsgTime": 1585729338,
+        "To_Account": null
+      },
+      {
+        "From_Account": "T-1585",
+        "GroupId": "CLAZZ-567",
+        "MsgBody": [
+          {
+            "MsgContent": {
+              "Data": "{\"fromIdentifier\":\"T-1585\",\"fromIdentifierNickName\":\"陈磊二\",\"character\":\"ASSISTANT\",\"msgType\":\"FILE\",\"top\":false,\"fileMsg\":{\"fileName\":\"file.xlsx\",\"url\":\"https://imgstatic.highso.com.cn/jjxt/file/04a4b276d86d4041919dc13b6267cab7.xlsx?attname=file.xlsx\",\"size\":12655,\"id\":108000,\"viewUrl\":\"\",\"pdf\":false},\"randomStr\":\"1585729312000\"}",
+              "Desc": "[文件]file.xlsx",
+              "Ext": "",
+              "FileName": null,
+              "FileSize": null,
+              "ImageFormat": null,
+              "ImageInfoArray": null,
+              "Index": null,
+              "Latitude": null,
+              "Longitude": null,
+              "Second": null,
+              "Size": null,
+              "Sound": "",
+              "Text": null,
+              "UUID": null
+            },
+            "MsgType": "TIMCustomElem"
+          }
+        ],
+        "MsgSeq": "3357",
+        "MsgTime": 1585729329,
+        "To_Account": null
+      }
+    ],
+    "pageSize": 20,
+    "totalNum": 6,
+    "totalPage": 1
+  },
+  "msg": null
+}
+2020-04-01 16:22:50 custom_assert.py[line:131] INFO: 断言json中指定的key【items】的返回数据的类型必须是【<class 'list'>】，返回数据不能是【[]】
+2020-04-01 16:22:50 custom_assert.py[line:81] INFO: 
+断言值为:
+{
+  "questionId": 383323
+}
+响应信息:
+{
+  "character": "ASSISTANT",
+  "clazzQuestionMsg": {
+    "displayStatus": "NONE",
+    "examQuestionVo": {
+      "analysisArray": [
+        {
+          "content": "事故报告要求：（1）立即（1小时)；（2）如实。 事故报告内容 事故调查报告内容 （1）事故发生单位概况； （1）事故发生单位概况； （2）事故发生的时间、地点以及事故现场情况； （2）事故发生经过和事故救援情况； （3）事故的简要经过； （3）事故造成的人员伤亡和直接经济损失； （4）事故已经造成或者可能造成的伤亡人数（包括下落不明的人数）和初步估计的直接经济损失； （4）事故发生的原因和事故性质； （5）已经采取的措施； （5）事故责任的认定以及对事故责任者的处理建议； （6）其他应当报告的情况。 （6）事故防范和整改措施。 ",
+          "type": "text"
+        }
+      ],
+      "correctAnswer": "D",
+      "correctOptions": [
+        {
+          "optionContentArray": [
+            {
+              "content": "事故的原因、性质和事故责任",
+              "type": "text"
+            }
+          ],
+          "optionName": "D"
+        }
+      ],
+      "difficulty": "中",
+      "doneCorrectRate": 94.0,
+      "materialTitleArray": [],
+      "options": [
+        {
+          "optionContentArray": [
+            {
+              "content": "事故发生的时间、地点以及现场情况",
+              "type": "text"
+            }
+          ],
+          "optionName": "A"
+        },
+        {
+          "optionContentArray": [
+            {
+              "content": "事故中伤亡人数和初步估计的直接经济损失",
+              "type": "text"
+            }
+          ],
+          "optionName": "B"
+        },
+        {
+          "optionContentArray": [
+            {
+              "content": "事故的简要经过与已经采取的措施",
+              "type": "text"
+            }
+          ],
+          "optionName": "C"
+        },
+        {
+          "optionContentArray": [
+            {
+              "content": "事故的原因、性质和事故责任",
+              "type": "text"
+            }
+          ],
+          "optionName": "D"
+        }
+      ],
+      "pastPaper": false,
+      "questionId": 383323,
+      "questionTypeId": 1115,
+      "subjectShortName": "法规",
+      "titleArray": [
+        {
+          "content": "某建设工程项目发生生产安全事故，施工总承包应当在1小时内负责向安全生产监督管理部门、建设行政主管部门或其他有关部门上报，报告的内容不包括（   ）",
+          "type": "text"
+        }
+      ]
+    },
+    "id": 17112,
+    "point": 2,
+    "pushDate": "2020-04-01 16:22:58",
+    "pushMsg": "[群答题-法规]某建设工程项目发生生产安全事故，施工总承包应当在1小时内负责向安全生产监督管理部门、建设行政主管部门或其他有关部门上报，报告的内容不包括（   ）"
+  },
+  "fromIdentifier": "T-1585",
+  "fromIdentifierNickName": "陈磊二",
+  "msgType": "CLAZZQUESTION",
+  "randomStr": "1585729378668",
+  "top": false
+}
