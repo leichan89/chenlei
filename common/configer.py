@@ -23,7 +23,7 @@ class GetConfiger():
             try:
                 cfg.read(cfg_path)
                 self.cfg = cfg
-                logger.info('开始对【%s】进行测试' % cfg.get('env', 'env'))
+                logger.debug('开始对【%s】进行测试' % cfg.get('env', 'env'))
             except:
                 errmsg = '读取配置文件异常'
                 logger.error(errmsg)

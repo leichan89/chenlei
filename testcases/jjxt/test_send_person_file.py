@@ -36,6 +36,7 @@ class TestSendPersonFile():
         # 开始拼接文件发送参数
         info_send['params']['customerId'] = get_customerid
         info_send['params']['clazzId'] = get_clazzid
+        info_send['params']['studentId'] = get_studentid
         info_send['params']['messageType'] = res['data']['fileType']
         info_send['params']['randomStr'] = timestamp
         info_send['params']['messageContent']['randomStr'] = timestamp

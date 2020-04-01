@@ -230,7 +230,7 @@ class TestSendQuestion():
         push_info['data']['pushDate'] = tools.get_date(h_m_s=False)
 
         res2 = req.req(push_info2)
-        myassert.assert_json(res2)
+        myassert.assert_json(res2, {"code": 5001})
 
 
     @allure.title('发送群答题：删除不存在的群推试题')

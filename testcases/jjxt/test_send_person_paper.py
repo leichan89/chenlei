@@ -49,6 +49,8 @@ class TestSendPersonPaper():
         info_send['params']['messageContent']['top'] = False
         info_send['params']['messageContent']['paperMsg'] = paper_data_info
 
+        print(info_send['params'])
+
         res2 = req.req(info_send)
         myassert.assert_json(res2)
 

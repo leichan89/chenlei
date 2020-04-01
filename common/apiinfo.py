@@ -60,7 +60,7 @@ class ApiInfo():
                 headers = self._replace_nan(api['headers'])
                 if headers:
                     try:
-                        # 将excel中的字符转换成字典，并将单引号替换成双引号
+                        # 将excel中的字符转换成json格式，转换前需要将单引号替换为双引号
                         headers = json.loads(headers.replace('\'', '\"'))
                         if not isinstance(headers, dict):
                             errmsg = '{api_base_err_info}info的headers格式有误，必须是一个json格式:\n{headers}'.format(
@@ -224,4 +224,6 @@ class ApiInfo():
 
 if __name__ == '__main__':
     api = ApiInfo()
-    print(api.getapi('getTeacherImInfo'))
+    ps = api.getapi('clazzQuestionChoose')['params']
+    print(ps)
+    import json

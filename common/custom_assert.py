@@ -148,7 +148,7 @@ class Assert:
 
     def assert_history_msg(self,groupidentifier, check_json):
         # 等待4s去查询群聊历史记录
-        time.sleep(4)
+        time.sleep(8)
 
         # 查询历史消息
         history_msg_info = apiinfo.getapi('historyMsg')
@@ -176,7 +176,7 @@ class Assert:
 
     def assert_history_msg_c2c(self,studentAccount, check_json):
         # 等待4s去查询私聊历史记录
-        time.sleep(4)
+        time.sleep(8)
 
         # 查询历史消息
         history_msg_info = apiinfo.getapi('c2chistoryMsg')

@@ -187,6 +187,6 @@ class AllureCaseType:
 
 
 if __name__ == '__main__':
-    s = 'clazzId=438&studentLevel=&paperId=4905'
+    s = 'clazzId=11149&pageNum=1&pageSize=10&fileType=1&parentId=-1'
 
     print(tools.params_to_dict(s))

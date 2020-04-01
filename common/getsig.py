@@ -13,7 +13,11 @@ class Sig():
         try:
             jvmpath = jpype.getDefaultJVMPath()
             classpath = dir + os.sep + 'SigGenertor.class'
+            
+            # 指定class的绝对路径和父路径
             jpype.startJVM(jvmpath, "-ea", "-Djava.class.path=%s" % classpath, "-Djava.ext.dirs=%s" % dir)
+
+            # 调用class文件
             self.sigclass = jpype.JClass('com.haixue.util.SigGenertor')
         except Exception:
             errmsg = '生成sign值异常'
@@ -26,7 +30,9 @@ class Sig():
         else:
             self.sk = configer.configer().get('andriod', 'salt')
         if self.sigclass:
+            # 传入url和颜值计算出sig值
             ret = self.sigclass.generate(url, self.sk)
+
             logger.debug('生成sig值成功： %s' % ret)
             url = url + '&sig=%s' % ret
             return url
@@ -34,7 +40,7 @@ class Sig():
 sig = Sig()
 
 if __name__ == "__main__":
-    s = Sig()
+
     # url = "http://app-jjxt.reg.highso.com.cn/imMsg/getHistoryMsg.do?app_key=jr1t36ul&device=16th&rom=Flyme+7.3.0.0A&kernel=8.1.0&sk=bb1df88f-b978-4682-b54d-2f2f409a3d9a.1567402878145.11270365.awifi02:00:00:00:00:00.22320942c25f3500da8efc847e92ee45&token=awifi02%3A00%3A00%3A00%3A00%3A00&v=3.0&app_version=2.9.0&device_type=android"
     # url = s.get_url_include_sig(url)
     #
@@ -46,6 +52,10 @@ if __name__ == "__main__":
     # res = requests.post(url, json=data)
     #
     # print(res.text)
-    url = 'http://app-jjxt.reg.highso.com.cn/jjxt/v1/showPopup.do?app_key=jr1t36ul&device=16th&kernel=8.1.0&rom=Flyme 7.3.0.0A&sk=bb1df88f-b978-4682-b54d-2f2f409a3d9a.1567402878145.11270365.awifi02:00:00:00:00:00.22320942c25f3500da8efc847e92ee45&token=awifi02:00:00:00:00:00&v=3.0&app_version=2.9.0&device_type=android&classId=10699'
+    url = 'http://app-jjxt.reg.highso.com.cn/jjxt/v1/showPopup.do?app_key=jr1t36ul&device=16th&kernel=8.1.0&rom=Flyme 7.3.0.0A&sk=bb1df88f-b978-4682-b54d-2f2f409a3d9a.1567402878145.11270365.awifi02:00:00:00:00:00.22320942c25f3500da8efc847e92ee45&token=awifi02:00:00:00:00:00&v=3.0&app_version=2.9.0&device_type=android&classId=1234'
 
-    print(s.get_url_include_sig(url))
+
+    print(sig.get_url_include_sig(url))
+
+    import requests
+    print(requests.get(url).json())

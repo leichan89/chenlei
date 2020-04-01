@@ -7,7 +7,7 @@ from common.session import GetSession, GetAppSession
 from common.log import logger
 from common.cunstom_exception import ResponseError, ParamsError
 from common.tools import tools
-from common.getsig import sig
+# from common.getsig import sig
 from urllib.parse import urlencode, unquote
 
 
@@ -18,18 +18,18 @@ class Requests():
         if session_type == 'jjxt':
             self.session = GetSession().session()
             self.endpoint = self.cfg.get('env', 'endpoint')
-        elif session_type == 'andriod':
-            self.ios = False
-            self.session = GetAppSession().appsession()
-            self.sig = sig
-            self.endpoint = self.cfg.get('app', 'endpoint')
-            self.default_params = self.get_default_app_params()
-        elif session_type == 'ios':
-            self.ios = True
-            self.session = GetAppSession().appsession()
-            self.sig = sig
-            self.endpoint = self.cfg.get('app', 'endpoint')
-            self.default_params = self.get_default_app_params_ios()
+        # elif session_type == 'andriod':
+        #     self.ios = False
+        #     self.session = GetAppSession().appsession()
+        #     self.sig = sig
+        #     self.endpoint = self.cfg.get('app', 'endpoint')
+        #     self.default_params = self.get_default_app_params()
+        # elif session_type == 'ios':
+        #     self.ios = True
+        #     self.session = GetAppSession().appsession()
+        #     self.sig = sig
+        #     self.endpoint = self.cfg.get('app', 'endpoint')
+        #     self.default_params = self.get_default_app_params_ios()
         else:
             errmsg = '初始化session失败，无效的参数:【%s】' % session_type
             logger.error(errmsg)
@@ -95,11 +95,21 @@ class Requests():
         data = info['data']
         try:
             logger.info('请求参数信息为\n%s' % tools.format_json(data))
+            # 将字典转换为json格式的字符串，会自动替换字典中的None、True、False为null、true、false
+            # 如果不转换为字符串，上传文件接口会报错：Object of type MultipartEncoder is not JSON serializable
+
             data = json.dumps(data)
         except:
             logger.debug('将json转换为字符失败')
         ret = self.session.post(url=info['url'], headers=info['headers'], data=data, **kw)
         return ret
+
+    # 另外一种post方式
+    # def _post(self, info, **kw):
+    #     logger.info('发送post请求')
+    #     data = info['data']
+    #     ret = self.session.post(url=info['url'], headers=info['headers'], json=data, **kw)
+    #     return ret
 
     def _form(self, info, **kw):
         logger.info('发送post_form请求')
@@ -107,6 +117,7 @@ class Requests():
         if params:
             if isinstance(params, dict):
                 logger.info('请求参数信息为\n%s' % tools.format_json(params))
+                # 将字典参数转换为query参数，需要替换字典中的None、True、False为null、true、false
                 params = urlencode(self._format_json_data(info['params']))
             else:
                 errmsg = "post_form请求的参数必须是字典类型或者为空"
@@ -117,6 +128,7 @@ class Requests():
 
 
     def _get(self, info, **kw):
+        # 传入一个字典参数
         logger.info('发送get请求')
         params = info['params']
         if params:
@@ -213,6 +225,7 @@ class Requests():
         ret = self.session.get(url=url, headers=info['headers'], **kw)
         return ret
 
+    # 目的是为了当发送请求时，如果修改params中的参数为None、True、False，则需要将其转换为null、true、false
     def _format_json_data(self, data):
         temp_data = data
         for k, v in temp_data.items():

@@ -17,6 +17,39 @@ allure_history = allure_dir + os.sep + 'report' + os.sep + 'history'
 allure_result_history = allure_result + os.sep + 'history'
 history_bak = allure_dir + os.sep + 'history'
 
+# 修改命令行中的参数，这里用于修改生成的pytest-html测试报告的名称，在命令执行时执行
+def pytest_configure(config):
+    # 设置pytest-html插件生成的测试报告命令行参数中的路径
+    if config.getoption('--html'):
+        confpath = config.option.htmlpath
+        htmlpath = dir + os.sep + 'reports' + os.sep + '{time}-{env}-{path}'.format(
+            time=time.strftime('%Y-%m-%d', time.localtime()),
+            env=configer.configer().get('env', 'env'),
+            path=confpath)
+        config.option.htmlpath = htmlpath
+
+    # 配置allure测试结果
+    result_dir = config.option.allure_report_dir
+    if not result_dir:
+        result_dir = allure_result
+        if os.path.exists(result_dir):
+            logger.debug('删除allure目录下result中的文件')
+            shutil.rmtree(result_dir)
+        config.option.allure_report_dir = result_dir
+
+    # 生成allure报告前清理history数据
+    if os.path.exists(history_bak):
+        logger.debug('删除allure备份的history文件')
+        shutil.rmtree(history_bak)
+
+    # 将上次历史记录拷贝出来，拷贝前备份历史记录的目录应删除
+    if os.path.exists(allure_history):
+        # 判断报告中的history目录下是否存在数据
+        if os.listdir(allure_history):
+            # 运行当前测试用例前把上次的结果记录拷贝出来，运行前先删除该目录
+            logger.debug('从历史记录allure/report/history目录拷贝到allure/history目录下')
+            shutil.copytree(allure_history, history_bak)
+
 @pytest.mark.optionalhook
 def pytest_html_results_table_header(cells):
     try:
@@ -37,7 +70,7 @@ def pytest_html_results_table_header(cells):
         os.popen(cmd)
     except:
         errmsg = '生成报告异常'
-        logger.error(errmsg)
+        # logger.error(errmsg)
 
 @pytest.mark.optionalhook
 def pytest_html_results_table_row(report, cells):
@@ -61,35 +94,3 @@ def pytest_runtest_makereport(item):
         errmsg = '生成报告:makereport异常'
         logger.error(errmsg)
 
-
-def pytest_configure(config):
-    # 设置pytest-html插件生成的测试报告命令行参数中的路径
-    if config.getoption('--html'):
-        confpath = config.option.htmlpath
-        htmlpath = dir + os.sep + 'reports' + os.sep + '{time}-{env}-{path}'.format(
-            time=time.strftime('%Y-%m-%d', time.localtime()),
-            env=configer.configer().get('env', 'env'),
-            path=confpath)
-        config.option.htmlpath = htmlpath
-
-    # 配置allure测试结果
-    # result_dir = config.option.allure_report_dir
-    # if not result_dir:
-    #     result_dir = allure_result
-    #     if os.path.exists(result_dir):
-    #         logger.debug('删除allure目录下result中的文件')
-    #         shutil.rmtree(result_dir)
-    #     config.option.allure_report_dir = result_dir
-    #
-    # # 生成allure报告前清理history数据
-    # if os.path.exists(history_bak):
-    #     logger.debug('删除allure备份的history文件')
-    #     shutil.rmtree(history_bak)
-    #
-    # # 将上次历史记录拷贝出来，拷贝前备份历史记录的目录应删除
-    # if os.path.exists(allure_history):
-    #     # 判断报告中的history目录下是否存在数据
-    #     if os.listdir(allure_history):
-    #         # 运行当前测试用例前把上次的结果记录拷贝出来，运行前先删除该目录
-    #         logger.debug('从历史记录allure/report/history目录拷贝到allure/history目录下')
-    #         shutil.copytree(allure_history, history_bak)
