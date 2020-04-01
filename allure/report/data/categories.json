@@ -7,26 +7,26 @@
       "name" : "AssertionError: 返回的数据不应等于：[]",
       "children" : [ {
         "name" : "发送群直播：查询直播-随机发送已结束直播-查询直播详情-历史消息中查看发送的直播",
-        "uid" : "e8a4d94bacad3a4",
+        "uid" : "1c577ce5dce66923",
         "parentUid" : "742a59e65fe8de32713596073eb6cfc4",
         "status" : "failed",
         "time" : {
-          "start" : 1585729340136,
-          "stop" : 1585729340365,
-          "duration" : 229
+          "start" : 1585732831289,
+          "stop" : 1585732831571,
+          "duration" : 282
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "私聊发送直播：查询直播-向单个学员随机发送已结束直播-查询直播详情",
-        "uid" : "8fcb7ccfc76f039c",
+        "uid" : "7d296ffeb4ffe9b3",
         "parentUid" : "742a59e65fe8de32713596073eb6cfc4",
         "status" : "failed",
         "time" : {
-          "start" : 1585729445908,
-          "stop" : 1585729446206,
-          "duration" : 298
+          "start" : 1585732928737,
+          "stop" : 1585732929012,
+          "duration" : 275
         },
         "flaky" : false,
         "newFailed" : false,
