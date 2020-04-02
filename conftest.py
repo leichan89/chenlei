@@ -7,6 +7,7 @@ from datetime import datetime
 from py._xmlgen import html
 from common.log import logger
 from common.configer import configer
+from common.configer import GetConfiger
 
 
 dir = os.path.dirname(__file__)
@@ -40,7 +41,6 @@ def pytest_configure(config):
         config.option.htmlpath = htmlpath
 
     # 修改执行环境的配置文件
-    from common.configer import GetConfiger
     env_ins = GetConfiger('env.ini')
     env = config.option.env
     cfg = env_ins.configer()
