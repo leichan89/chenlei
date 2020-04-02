@@ -9,13 +9,13 @@
         "name" : "TestExportPointMonth",
         "children" : [ {
           "name" : "导出学员列表数据",
-          "uid" : "ec327ced30a46ffe",
+          "uid" : "62b65328278fb58d",
           "parentUid" : "0432fc8585aec04c742e673ecd7ed09c",
           "status" : "passed",
           "time" : {
-            "start" : 1585820392957,
-            "stop" : 1585820393293,
-            "duration" : 336
+            "start" : 1585820674755,
+            "stop" : 1585820675086,
+            "duration" : 331
           },
           "flaky" : false,
           "newFailed" : false,
@@ -24,6 +24,244 @@
         "uid" : "0432fc8585aec04c742e673ecd7ed09c"
       } ],
       "uid" : "b7f6834a9b58d7954fb4818026c553ca"
+    }, {
+      "name" : "test_export_point_month",
+      "children" : [ {
+        "name" : "TestExportPointMonth",
+        "children" : [ {
+          "name" : "下载积分：设置年月日下载",
+          "uid" : "e478b6ac3b7d65c6",
+          "parentUid" : "d6c39b3a976e8b9e47101cec34241a99",
+          "status" : "passed",
+          "time" : {
+            "start" : 1585820675096,
+            "stop" : 1585820675326,
+            "duration" : 230
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "下载积分：不带年月日下载",
+          "uid" : "9cc9e72b1be283bd",
+          "parentUid" : "d6c39b3a976e8b9e47101cec34241a99",
+          "status" : "passed",
+          "time" : {
+            "start" : 1585820675331,
+            "stop" : 1585820675526,
+            "duration" : 195
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "d6c39b3a976e8b9e47101cec34241a99"
+      } ],
+      "uid" : "1f4c0856022a36773d94527cd7437b77"
+    }, {
+      "name" : "test_export_student",
+      "children" : [ {
+        "name" : "TestExportStudent",
+        "children" : [ {
+          "name" : "导出基本信息",
+          "uid" : "3128ab6dc374ed1",
+          "parentUid" : "84d3b497a4ff4261ebc50dfa41d1c2ae",
+          "status" : "passed",
+          "time" : {
+            "start" : 1585820675530,
+            "stop" : 1585820676594,
+            "duration" : 1064
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "84d3b497a4ff4261ebc50dfa41d1c2ae"
+      } ],
+      "uid" : "db10c020b00d7f156b15e4148d7880a0"
+    }, {
+      "name" : "test_get_stage_and_task_id",
+      "children" : [ {
+        "name" : "TestGetStageAndTaskByClazzId",
+        "children" : [ {
+          "name" : "获取阶段和任务id",
+          "uid" : "4071671bd52ed426",
+          "parentUid" : "de7bb88f747b1b1fd14c9a9ccf92eb51",
+          "status" : "passed",
+          "time" : {
+            "start" : 1585820676599,
+            "stop" : 1585820676599,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "de7bb88f747b1b1fd14c9a9ccf92eb51"
+      } ],
+      "uid" : "59d0585f082c1c51ffbc865e7b29b92c"
+    }, {
+      "name" : "test_get_teacher_im_info",
+      "children" : [ {
+        "name" : "TestGetTeacherImInfo",
+        "children" : [ {
+          "name" : "查询存在的老师信息",
+          "uid" : "30584279c89a90e",
+          "parentUid" : "67281da1c30a1b4d628e4937d51c83e3",
+          "status" : "passed",
+          "time" : {
+            "start" : 1585820676605,
+            "stop" : 1585820676726,
+            "duration" : 121
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "传入无效的字符查询老师信息",
+          "uid" : "2b877c340735967b",
+          "parentUid" : "67281da1c30a1b4d628e4937d51c83e3",
+          "status" : "passed",
+          "time" : {
+            "start" : 1585820676736,
+            "stop" : 1585820676855,
+            "duration" : 119
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "{'teacherId': 1000}" ]
+        }, {
+          "name" : "传入无效的字符查询老师信息",
+          "uid" : "f51a1aed60c825c9",
+          "parentUid" : "67281da1c30a1b4d628e4937d51c83e3",
+          "status" : "passed",
+          "time" : {
+            "start" : 1585820676870,
+            "stop" : 1585820676983,
+            "duration" : 113
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "{'teacherId': 2000}" ]
+        }, {
+          "name" : "传入无效的字符查询老师信息",
+          "uid" : "7b9ee2f8a3afc038",
+          "parentUid" : "67281da1c30a1b4d628e4937d51c83e3",
+          "status" : "passed",
+          "time" : {
+            "start" : 1585820676997,
+            "stop" : 1585820677188,
+            "duration" : 191
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "{'teacherId': 3000}" ]
+        }, {
+          "name" : "传入无效的字符查询老师信息",
+          "uid" : "83fbce9878e91a1c",
+          "parentUid" : "67281da1c30a1b4d628e4937d51c83e3",
+          "status" : "passed",
+          "time" : {
+            "start" : 1585820677200,
+            "stop" : 1585820677320,
+            "duration" : 120
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "{'teacherId': 4000}" ]
+        } ],
+        "uid" : "67281da1c30a1b4d628e4937d51c83e3"
+      } ],
+      "uid" : "aa3ed49711f3424e34c97226801a9bf7"
+    }, {
+      "name" : "test_query_point_month",
+      "children" : [ {
+        "name" : "TestQueryPointMonthByPage",
+        "children" : [ {
+          "name" : "查询积分：默认查询",
+          "uid" : "edb4d9fe17eca070",
+          "parentUid" : "e8b1d047fe5be084683a42ec52b11167",
+          "status" : "passed",
+          "time" : {
+            "start" : 1585820677329,
+            "stop" : 1585820677453,
+            "duration" : 124
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "查询积分：指定时间段查询",
+          "uid" : "aa89bb69322313f5",
+          "parentUid" : "e8b1d047fe5be084683a42ec52b11167",
+          "status" : "passed",
+          "time" : {
+            "start" : 1585820677457,
+            "stop" : 1585820677566,
+            "duration" : 109
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "查询积分：开始时间大于结束时间",
+          "uid" : "5d0a9a2a857e8ac8",
+          "parentUid" : "e8b1d047fe5be084683a42ec52b11167",
+          "status" : "passed",
+          "time" : {
+            "start" : 1585820677570,
+            "stop" : 1585820677672,
+            "duration" : 102
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "e8b1d047fe5be084683a42ec52b11167"
+      } ],
+      "uid" : "07037add4d3be661343ca04fa3e8cec9"
+    }, {
+      "name" : "test_send_clazz_file",
+      "children" : [ {
+        "name" : "TestSendFile",
+        "children" : [ {
+          "name" : "发送群文件：上传文件-发送xlsx文件-历史消息查看发送的文件",
+          "uid" : "96b545711ba9df25",
+          "parentUid" : "190e47586f203e3052bacc8050725a56",
+          "status" : "passed",
+          "time" : {
+            "start" : 1585820677677,
+            "stop" : 1585820697288,
+            "duration" : 19611
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "190e47586f203e3052bacc8050725a56"
+      } ],
+      "uid" : "fdffc3a0defaa67ee8eaeb9eb68ac7e8"
+    }, {
+      "name" : "test_send_clazz_img",
+      "children" : [ {
+        "name" : "TestSendIMG",
+        "children" : [ {
+          "name" : "发送群图片：上传图片-发送jpg图片-历史消息查看发送的图片",
+          "uid" : "41238921bf2e4885",
+          "parentUid" : "24b227335bbe33a62f2afacba9f9b63a",
+          "status" : "passed",
+          "time" : {
+            "start" : 1585820697293,
+            "stop" : 1585820706427,
+            "duration" : 9134
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "24b227335bbe33a62f2afacba9f9b63a"
+      } ],
+      "uid" : "5da8dac180685822cc6cbbd1b6831bbc"
     } ],
     "uid" : "8b29b8a5f9f22b9c5a0f61c201fd324c"
   } ]

@@ -1,4 +1,46 @@
 "Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
-"passed","Thu Apr 02 17:39:52 CST 2020","Thu Apr 02 17:39:53 CST 2020","336","testcases.jjxt","test_export_excel","TestExportPointMonth","","","导出学员列表数据","
+"passed","Thu Apr 02 17:44:36 CST 2020","Thu Apr 02 17:44:36 CST 2020","113","testcases.jjxt","test_get_teacher_im_info","TestGetTeacherImInfo","","","传入无效的字符查询老师信息","
+        传入无效的字符查询老师信息
+        "
+"passed","Thu Apr 02 17:44:34 CST 2020","Thu Apr 02 17:44:35 CST 2020","331","testcases.jjxt","test_export_excel","TestExportPointMonth","","","导出学员列表数据","
         导出学员列表数据
+        "
+"passed","Thu Apr 02 17:44:57 CST 2020","Thu Apr 02 17:45:06 CST 2020","9134","testcases.jjxt","test_send_clazz_img","TestSendIMG","","","发送群图片：上传图片-发送jpg图片-历史消息查看发送的图片","
+        发送群图片：上传图片-发送jpg图片-历史消息查看发送的图片
+        "
+"passed","Thu Apr 02 17:44:36 CST 2020","Thu Apr 02 17:44:36 CST 2020","0","testcases.jjxt","test_get_stage_and_task_id","TestGetStageAndTaskByClazzId","","","获取阶段和任务id","
+        下载积分：设置年月日下载
+        "
+"passed","Thu Apr 02 17:44:37 CST 2020","Thu Apr 02 17:44:57 CST 2020","19611","testcases.jjxt","test_send_clazz_file","TestSendFile","","","发送群文件：上传文件-发送xlsx文件-历史消息查看发送的文件","
+        发送群文件：上传文件-发送xlsx文件-历史消息查看发送的文件
+        "
+"passed","Thu Apr 02 17:44:35 CST 2020","Thu Apr 02 17:44:35 CST 2020","195","testcases.jjxt","test_export_point_month","TestExportPointMonth","","","下载积分：不带年月日下载","
+        下载积分：不带年月日下载
+        "
+"passed","Thu Apr 02 17:44:36 CST 2020","Thu Apr 02 17:44:36 CST 2020","121","testcases.jjxt","test_get_teacher_im_info","TestGetTeacherImInfo","","","查询存在的老师信息","
+        查询存在的老师信息
+        "
+"passed","Thu Apr 02 17:44:37 CST 2020","Thu Apr 02 17:44:37 CST 2020","102","testcases.jjxt","test_query_point_month","TestQueryPointMonthByPage","","","查询积分：开始时间大于结束时间","
+        查询积分：开始时间大于结束时间
+        "
+"passed","Thu Apr 02 17:44:35 CST 2020","Thu Apr 02 17:44:36 CST 2020","1064","testcases.jjxt","test_export_student","TestExportStudent","","","导出基本信息","
+        导出基本信息
+        "
+"passed","Thu Apr 02 17:44:36 CST 2020","Thu Apr 02 17:44:36 CST 2020","119","testcases.jjxt","test_get_teacher_im_info","TestGetTeacherImInfo","","","传入无效的字符查询老师信息","
+        传入无效的字符查询老师信息
+        "
+"passed","Thu Apr 02 17:44:37 CST 2020","Thu Apr 02 17:44:37 CST 2020","124","testcases.jjxt","test_query_point_month","TestQueryPointMonthByPage","","","查询积分：默认查询","
+        查询积分：默认查询
+        "
+"passed","Thu Apr 02 17:44:37 CST 2020","Thu Apr 02 17:44:37 CST 2020","120","testcases.jjxt","test_get_teacher_im_info","TestGetTeacherImInfo","","","传入无效的字符查询老师信息","
+        传入无效的字符查询老师信息
+        "
+"passed","Thu Apr 02 17:44:37 CST 2020","Thu Apr 02 17:44:37 CST 2020","109","testcases.jjxt","test_query_point_month","TestQueryPointMonthByPage","","","查询积分：指定时间段查询","
+        查询积分：指定时间段查询
+        "
+"passed","Thu Apr 02 17:44:35 CST 2020","Thu Apr 02 17:44:35 CST 2020","230","testcases.jjxt","test_export_point_month","TestExportPointMonth","","","下载积分：设置年月日下载","
+        下载积分：设置年月日下载
+        "
+"passed","Thu Apr 02 17:44:36 CST 2020","Thu Apr 02 17:44:37 CST 2020","191","testcases.jjxt","test_get_teacher_im_info","TestGetTeacherImInfo","","","传入无效的字符查询老师信息","
+        传入无效的字符查询老师信息
         "

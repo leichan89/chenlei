@@ -1,10 +1,150 @@
 [ {
-  "uid" : "ec327ced30a46ffe",
+  "uid" : "41238921bf2e4885",
+  "name" : "发送群图片：上传图片-发送jpg图片-历史消息查看发送的图片",
+  "time" : {
+    "start" : 1585820697293,
+    "stop" : 1585820706427,
+    "duration" : 9134
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "7b9ee2f8a3afc038",
+  "name" : "传入无效的字符查询老师信息",
+  "time" : {
+    "start" : 1585820676997,
+    "stop" : 1585820677188,
+    "duration" : 191
+  },
+  "status" : "passed",
+  "severity" : "minor"
+}, {
+  "uid" : "e478b6ac3b7d65c6",
+  "name" : "下载积分：设置年月日下载",
+  "time" : {
+    "start" : 1585820675096,
+    "stop" : 1585820675326,
+    "duration" : 230
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "aa89bb69322313f5",
+  "name" : "查询积分：指定时间段查询",
+  "time" : {
+    "start" : 1585820677457,
+    "stop" : 1585820677566,
+    "duration" : 109
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "edb4d9fe17eca070",
+  "name" : "查询积分：默认查询",
+  "time" : {
+    "start" : 1585820677329,
+    "stop" : 1585820677453,
+    "duration" : 124
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "4071671bd52ed426",
+  "name" : "获取阶段和任务id",
+  "time" : {
+    "start" : 1585820676599,
+    "stop" : 1585820676599,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "2b877c340735967b",
+  "name" : "传入无效的字符查询老师信息",
+  "time" : {
+    "start" : 1585820676736,
+    "stop" : 1585820676855,
+    "duration" : 119
+  },
+  "status" : "passed",
+  "severity" : "minor"
+}, {
+  "uid" : "83fbce9878e91a1c",
+  "name" : "传入无效的字符查询老师信息",
+  "time" : {
+    "start" : 1585820677200,
+    "stop" : 1585820677320,
+    "duration" : 120
+  },
+  "status" : "passed",
+  "severity" : "minor"
+}, {
+  "uid" : "62b65328278fb58d",
   "name" : "导出学员列表数据",
   "time" : {
-    "start" : 1585820392957,
-    "stop" : 1585820393293,
-    "duration" : 336
+    "start" : 1585820674755,
+    "stop" : 1585820675086,
+    "duration" : 331
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "96b545711ba9df25",
+  "name" : "发送群文件：上传文件-发送xlsx文件-历史消息查看发送的文件",
+  "time" : {
+    "start" : 1585820677677,
+    "stop" : 1585820697288,
+    "duration" : 19611
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "3128ab6dc374ed1",
+  "name" : "导出基本信息",
+  "time" : {
+    "start" : 1585820675530,
+    "stop" : 1585820676594,
+    "duration" : 1064
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "5d0a9a2a857e8ac8",
+  "name" : "查询积分：开始时间大于结束时间",
+  "time" : {
+    "start" : 1585820677570,
+    "stop" : 1585820677672,
+    "duration" : 102
+  },
+  "status" : "passed",
+  "severity" : "minor"
+}, {
+  "uid" : "f51a1aed60c825c9",
+  "name" : "传入无效的字符查询老师信息",
+  "time" : {
+    "start" : 1585820676870,
+    "stop" : 1585820676983,
+    "duration" : 113
+  },
+  "status" : "passed",
+  "severity" : "minor"
+}, {
+  "uid" : "9cc9e72b1be283bd",
+  "name" : "下载积分：不带年月日下载",
+  "time" : {
+    "start" : 1585820675331,
+    "stop" : 1585820675526,
+    "duration" : 195
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "30584279c89a90e",
+  "name" : "查询存在的老师信息",
+  "time" : {
+    "start" : 1585820676605,
+    "stop" : 1585820676726,
+    "duration" : 121
   },
   "status" : "passed",
   "severity" : "critical"
