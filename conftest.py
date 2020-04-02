@@ -41,13 +41,14 @@ def pytest_configure(config):
         config.option.htmlpath = htmlpath
 
     # 修改执行环境的配置文件
-    env_ins = GetConfiger('env.ini')
     env = config.option.env
-    cfg = env_ins.configer()
-    cfg.set('env', 'env', env)
-    with open(env_ins.filepath(), 'w') as f:
-        cfg.write(f)
-    logger.debug('开始对%s环境进行测试' % env)
+    if env:
+        env_ins = GetConfiger('env.ini')
+        cfg = env_ins.configer()
+        cfg.set('env', 'env', env)
+        with open(env_ins.filepath(), 'w') as f:
+            cfg.write(f)
+        logger.debug('开始对%s环境进行测试' % env)
 
 
     # 配置allure测试结果
