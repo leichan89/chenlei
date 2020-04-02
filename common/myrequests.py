@@ -11,11 +11,6 @@ from common.tools import tools
 from urllib.parse import urlencode, unquote
 
 
-
-
-# aaabbb
-# aaaa
-
 class Requests():
 
     def __init__(self, session_type='jjxt'):
