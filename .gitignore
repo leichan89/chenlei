@@ -4,5 +4,4 @@ temp/*
 venv/*
 mytestfile.py
 config/envconf
-/allure/*
-/apiinfo/
+/allure/
