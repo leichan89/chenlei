@@ -10,10 +10,6 @@ from common.tools import tools
 # from common.getsig import sig
 from urllib.parse import urlencode, unquote
 
-# merge test
-# merge test2
-
-
 
 class Requests():
 
