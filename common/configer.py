@@ -12,18 +12,17 @@ class GetConfiger():
         cfgdir = os.path.dirname(os.path.dirname(__file__)) + os.sep + 'config' + os.sep
         cfg = cp.ConfigParser()
         if file:
-            cfg_path = cfgdir + file
+            self.cfg_path = cfgdir + file
         else:
             env = cfgdir + 'env.ini'
             cfg.read(env)
-            cfg_path = cfgdir + 'envconf' + os.sep + cfg.get('env', 'env') + '.ini'
+            self.cfg_path = cfgdir + 'envconf' + os.sep + cfg.get('env', 'env') + '.ini'
 
-        if os.path.exists(cfg_path):
-            logger.debug('读取配置文件 %s' % cfg_path)
+        if os.path.exists(self.cfg_path):
+            logger.debug('读取配置文件 %s' % self.cfg_path)
             try:
-                cfg.read(cfg_path)
+                cfg.read(self.cfg_path)
                 self.cfg = cfg
-                logger.debug('开始对【%s】进行测试' % cfg.get('env', 'env'))
             except:
                 errmsg = '读取配置文件异常'
                 logger.error(errmsg)
@@ -35,6 +34,9 @@ class GetConfiger():
 
     def configer(self):
         return self.cfg
+
+    def filepath(self):
+        return self.cfg_path
 
 
 # 默认读取env.ini文件

@@ -17,6 +17,17 @@ allure_history = allure_dir + os.sep + 'report' + os.sep + 'history'
 allure_result_history = allure_result + os.sep + 'history'
 history_bak = allure_dir + os.sep + 'history'
 
+
+
+def pytest_addoption(parser):
+    parser.addoption('--env', default='reg')
+
+
+@pytest.fixture()
+def env(request):
+    return request.config.getoption('--env')
+
+
 # 修改命令行中的参数，这里用于修改生成的pytest-html测试报告的名称，在命令执行时执行
 def pytest_configure(config):
     # 设置pytest-html插件生成的测试报告命令行参数中的路径
@@ -27,6 +38,17 @@ def pytest_configure(config):
             env=configer.configer().get('env', 'env'),
             path=confpath)
         config.option.htmlpath = htmlpath
+
+    from common.configer import GetConfiger
+    env_ins = GetConfiger('env.ini')
+    env = config.option.env
+    cfg = env_ins.configer()
+    cfg.set('env', 'env', env)
+    cfg.set('env', 'env', env)
+    with open(env_ins.filepath(), 'w') as f:
+        cfg.write(f)
+    logger.debug('开始对%s环境进行测试' % env)
+
 
     # 配置allure测试结果
     result_dir = config.option.allure_report_dir
