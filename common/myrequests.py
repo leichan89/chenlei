@@ -13,6 +13,9 @@ from urllib.parse import urlencode, unquote
 
 # aaa
 
+
+# localhost
+
 class Requests():
 
     def __init__(self, session_type='jjxt'):
