@@ -7,7 +7,6 @@ from common.session import GetSession, GetAppSession
 from common.log import logger
 from common.cunstom_exception import ResponseError, ParamsError
 from common.tools import tools
-# from common.getsig import sig
 from urllib.parse import urlencode, unquote
 
 
@@ -18,18 +17,20 @@ class Requests():
         if session_type == 'jjxt':
             self.session = GetSession().session()
             self.endpoint = self.cfg.get('env', 'endpoint')
-        # elif session_type == 'andriod':
-        #     self.ios = False
-        #     self.session = GetAppSession().appsession()
-        #     self.sig = sig
-        #     self.endpoint = self.cfg.get('app', 'endpoint')
-        #     self.default_params = self.get_default_app_params()
-        # elif session_type == 'ios':
-        #     self.ios = True
-        #     self.session = GetAppSession().appsession()
-        #     self.sig = sig
-        #     self.endpoint = self.cfg.get('app', 'endpoint')
-        #     self.default_params = self.get_default_app_params_ios()
+        elif session_type == 'andriod':
+            from common.getsig import sig
+            self.ios = False
+            self.session = GetAppSession().appsession()
+            self.sig = sig
+            self.endpoint = self.cfg.get('app', 'endpoint')
+            self.default_params = self.get_default_app_params()
+        elif session_type == 'ios':
+            from common.getsig import sig
+            self.ios = True
+            self.session = GetAppSession().appsession()
+            self.sig = sig
+            self.endpoint = self.cfg.get('app', 'endpoint')
+            self.default_params = self.get_default_app_params_ios()
         else:
             errmsg = '初始化session失败，无效的参数:【%s】' % session_type
             logger.error(errmsg)
