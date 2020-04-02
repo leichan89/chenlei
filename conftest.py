@@ -31,14 +31,6 @@ def env(request):
 
 # 修改命令行中的参数，这里用于修改生成的pytest-html测试报告的名称，在命令执行时执行
 def pytest_configure(config):
-    # 设置pytest-html插件生成的测试报告命令行参数中的路径
-    if config.getoption('--html'):
-        confpath = config.option.htmlpath
-        htmlpath = dir + os.sep + 'reports' + os.sep + '{time}-{env}-{path}'.format(
-            time=time.strftime('%Y-%m-%d', time.localtime()),
-            env=configer.configer().get('env', 'env'),
-            path=confpath)
-        config.option.htmlpath = htmlpath
 
     # 修改执行环境的配置文件
     env = config.option.env
@@ -50,6 +42,14 @@ def pytest_configure(config):
             cfg.write(f)
         logger.debug('开始对%s环境进行测试' % env)
 
+    # 设置pytest-html插件生成的测试报告命令行参数中的路径
+    if config.getoption('--html'):
+        confpath = config.option.htmlpath
+        htmlpath = dir + os.sep + 'reports' + os.sep + '{time}-{env}-{path}'.format(
+            time=time.strftime('%Y-%m-%d', time.localtime()),
+            env=configer.configer().get('env', 'env'),
+            path=confpath)
+        config.option.htmlpath = htmlpath
 
     # 配置allure测试结果
     result_dir = config.option.allure_report_dir

@@ -1,5 +1,5 @@
 {
-  "total" : 2,
+  "total" : 1,
   "items" : [ {
     "uid" : "ddd9cf51f12297cfc44218df3788963c",
     "name" : "我的班级",
@@ -10,17 +10,6 @@
       "passed" : 2,
       "unknown" : 0,
       "total" : 2
-    }
-  }, {
-    "uid" : "5e5fa2c981df0d213df1e8acc9fc392b",
-    "name" : "学员管理",
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 1
     }
   } ]
 }

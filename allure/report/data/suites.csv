@@ -1,46 +1,301 @@
 "Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
-"passed","Thu Apr 02 17:44:36 CST 2020","Thu Apr 02 17:44:36 CST 2020","113","testcases.jjxt","test_get_teacher_im_info","TestGetTeacherImInfo","","","传入无效的字符查询老师信息","
-        传入无效的字符查询老师信息
+"passed","Thu Apr 02 18:12:13 CST 2020","Thu Apr 02 18:12:14 CST 2020","503","testcases.jjxt","test_send_clazz_text","TestSendText","","","发送文本消息：发送文本消息","
+        发送群图片：发送文本消息：发送文本消息
         "
-"passed","Thu Apr 02 17:44:34 CST 2020","Thu Apr 02 17:44:35 CST 2020","331","testcases.jjxt","test_export_excel","TestExportPointMonth","","","导出学员列表数据","
-        导出学员列表数据
+"passed","Thu Apr 02 18:12:51 CST 2020","Thu Apr 02 18:12:52 CST 2020","582","testcases.jjxt","test_send_person_text","TestSendPersonText","","","私聊发送文本消息：发送文本消息","
+        私聊发送文本消息：发送文本消息
         "
-"passed","Thu Apr 02 17:44:57 CST 2020","Thu Apr 02 17:45:06 CST 2020","9134","testcases.jjxt","test_send_clazz_img","TestSendIMG","","","发送群图片：上传图片-发送jpg图片-历史消息查看发送的图片","
-        发送群图片：上传图片-发送jpg图片-历史消息查看发送的图片
+"passed","Thu Apr 02 18:12:54 CST 2020","Thu Apr 02 18:12:55 CST 2020","491","testcases.jjxt","test_send_person_text","TestSendPersonText","","","私聊发送文本消息：发送文本消息","
+        私聊发送文本消息：发送文本消息
         "
-"passed","Thu Apr 02 17:44:36 CST 2020","Thu Apr 02 17:44:36 CST 2020","0","testcases.jjxt","test_get_stage_and_task_id","TestGetStageAndTaskByClazzId","","","获取阶段和任务id","
-        下载积分：设置年月日下载
+"passed","Thu Apr 02 18:12:11 CST 2020","Thu Apr 02 18:12:12 CST 2020","544","testcases.jjxt","test_send_clazz_text","TestSendText","","","发送文本消息：发送文本消息","
+        发送群图片：发送文本消息：发送文本消息
         "
-"passed","Thu Apr 02 17:44:37 CST 2020","Thu Apr 02 17:44:57 CST 2020","19611","testcases.jjxt","test_send_clazz_file","TestSendFile","","","发送群文件：上传文件-发送xlsx文件-历史消息查看发送的文件","
-        发送群文件：上传文件-发送xlsx文件-历史消息查看发送的文件
+"passed","Thu Apr 02 18:12:43 CST 2020","Thu Apr 02 18:12:44 CST 2020","412","testcases.jjxt","test_send_person_text","TestSendPersonText","","","私聊发送文本消息：发送文本消息","
+        私聊发送文本消息：发送文本消息
         "
-"passed","Thu Apr 02 17:44:35 CST 2020","Thu Apr 02 17:44:35 CST 2020","195","testcases.jjxt","test_export_point_month","TestExportPointMonth","","","下载积分：不带年月日下载","
-        下载积分：不带年月日下载
+"passed","Thu Apr 02 18:12:27 CST 2020","Thu Apr 02 18:12:28 CST 2020","458","testcases.jjxt","test_send_person_text","TestSendPersonText","","","私聊发送文本消息：发送文本消息","
+        私聊发送文本消息：发送文本消息
         "
-"passed","Thu Apr 02 17:44:36 CST 2020","Thu Apr 02 17:44:36 CST 2020","121","testcases.jjxt","test_get_teacher_im_info","TestGetTeacherImInfo","","","查询存在的老师信息","
-        查询存在的老师信息
+"passed","Thu Apr 02 18:12:21 CST 2020","Thu Apr 02 18:12:22 CST 2020","501","testcases.jjxt","test_send_clazz_text","TestSendText","","","发送文本消息：发送文本消息","
+        发送群图片：发送文本消息：发送文本消息
         "
-"passed","Thu Apr 02 17:44:37 CST 2020","Thu Apr 02 17:44:37 CST 2020","102","testcases.jjxt","test_query_point_month","TestQueryPointMonthByPage","","","查询积分：开始时间大于结束时间","
-        查询积分：开始时间大于结束时间
+"passed","Thu Apr 02 18:12:45 CST 2020","Thu Apr 02 18:12:45 CST 2020","405","testcases.jjxt","test_send_person_text","TestSendPersonText","","","私聊发送文本消息：发送文本消息","
+        私聊发送文本消息：发送文本消息
         "
-"passed","Thu Apr 02 17:44:35 CST 2020","Thu Apr 02 17:44:36 CST 2020","1064","testcases.jjxt","test_export_student","TestExportStudent","","","导出基本信息","
-        导出基本信息
+"passed","Thu Apr 02 18:12:50 CST 2020","Thu Apr 02 18:12:50 CST 2020","407","testcases.jjxt","test_send_person_text","TestSendPersonText","","","私聊发送文本消息：发送文本消息","
+        私聊发送文本消息：发送文本消息
         "
-"passed","Thu Apr 02 17:44:36 CST 2020","Thu Apr 02 17:44:36 CST 2020","119","testcases.jjxt","test_get_teacher_im_info","TestGetTeacherImInfo","","","传入无效的字符查询老师信息","
-        传入无效的字符查询老师信息
+"passed","Thu Apr 02 18:12:42 CST 2020","Thu Apr 02 18:12:42 CST 2020","399","testcases.jjxt","test_send_person_text","TestSendPersonText","","","私聊发送文本消息：发送文本消息","
+        私聊发送文本消息：发送文本消息
         "
-"passed","Thu Apr 02 17:44:37 CST 2020","Thu Apr 02 17:44:37 CST 2020","124","testcases.jjxt","test_query_point_month","TestQueryPointMonthByPage","","","查询积分：默认查询","
-        查询积分：默认查询
+"passed","Thu Apr 02 18:12:07 CST 2020","Thu Apr 02 18:12:08 CST 2020","608","testcases.jjxt","test_send_clazz_text","TestSendText","","","发送文本消息：发送文本消息","
+        发送群图片：发送文本消息：发送文本消息
         "
-"passed","Thu Apr 02 17:44:37 CST 2020","Thu Apr 02 17:44:37 CST 2020","120","testcases.jjxt","test_get_teacher_im_info","TestGetTeacherImInfo","","","传入无效的字符查询老师信息","
-        传入无效的字符查询老师信息
+"passed","Thu Apr 02 18:12:47 CST 2020","Thu Apr 02 18:12:48 CST 2020","598","testcases.jjxt","test_send_person_text","TestSendPersonText","","","私聊发送文本消息：发送文本消息","
+        私聊发送文本消息：发送文本消息
         "
-"passed","Thu Apr 02 17:44:37 CST 2020","Thu Apr 02 17:44:37 CST 2020","109","testcases.jjxt","test_query_point_month","TestQueryPointMonthByPage","","","查询积分：指定时间段查询","
-        查询积分：指定时间段查询
+"passed","Thu Apr 02 18:12:46 CST 2020","Thu Apr 02 18:12:46 CST 2020","407","testcases.jjxt","test_send_person_text","TestSendPersonText","","","私聊发送文本消息：发送文本消息","
+        私聊发送文本消息：发送文本消息
         "
-"passed","Thu Apr 02 17:44:35 CST 2020","Thu Apr 02 17:44:35 CST 2020","230","testcases.jjxt","test_export_point_month","TestExportPointMonth","","","下载积分：设置年月日下载","
-        下载积分：设置年月日下载
+"passed","Thu Apr 02 18:12:11 CST 2020","Thu Apr 02 18:12:11 CST 2020","474","testcases.jjxt","test_send_clazz_text","TestSendText","","","发送文本消息：发送文本消息","
+        发送群图片：发送文本消息：发送文本消息
         "
-"passed","Thu Apr 02 17:44:36 CST 2020","Thu Apr 02 17:44:37 CST 2020","191","testcases.jjxt","test_get_teacher_im_info","TestGetTeacherImInfo","","","传入无效的字符查询老师信息","
-        传入无效的字符查询老师信息
+"passed","Thu Apr 02 18:12:30 CST 2020","Thu Apr 02 18:12:35 CST 2020","5522","testcases.jjxt","test_send_person_text","TestSendPersonText","","","私聊发送文本消息：发送文本消息","
+        私聊发送文本消息：发送文本消息
+        "
+"passed","Thu Apr 02 18:12:29 CST 2020","Thu Apr 02 18:12:29 CST 2020","440","testcases.jjxt","test_send_person_text","TestSendPersonText","","","私聊发送文本消息：发送文本消息","
+        私聊发送文本消息：发送文本消息
+        "
+"passed","Thu Apr 02 18:12:08 CST 2020","Thu Apr 02 18:12:08 CST 2020","479","testcases.jjxt","test_send_clazz_text","TestSendText","","","发送文本消息：发送文本消息","
+        发送群图片：发送文本消息：发送文本消息
+        "
+"passed","Thu Apr 02 18:12:45 CST 2020","Thu Apr 02 18:12:45 CST 2020","438","testcases.jjxt","test_send_person_text","TestSendPersonText","","","私聊发送文本消息：发送文本消息","
+        私聊发送文本消息：发送文本消息
+        "
+"passed","Thu Apr 02 18:12:37 CST 2020","Thu Apr 02 18:12:38 CST 2020","509","testcases.jjxt","test_send_person_text","TestSendPersonText","","","私聊发送文本消息：发送文本消息","
+        私聊发送文本消息：发送文本消息
+        "
+"passed","Thu Apr 02 18:12:23 CST 2020","Thu Apr 02 18:12:24 CST 2020","507","testcases.jjxt","test_send_clazz_text","TestSendText","","","发送文本消息：发送文本消息","
+        发送群图片：发送文本消息：发送文本消息
+        "
+"passed","Thu Apr 02 18:12:54 CST 2020","Thu Apr 02 18:12:54 CST 2020","729","testcases.jjxt","test_send_person_text","TestSendPersonText","","","私聊发送文本消息：发送文本消息","
+        私聊发送文本消息：发送文本消息
+        "
+"passed","Thu Apr 02 18:12:40 CST 2020","Thu Apr 02 18:12:40 CST 2020","397","testcases.jjxt","test_send_person_text","TestSendPersonText","","","私聊发送文本消息：发送文本消息","
+        私聊发送文本消息：发送文本消息
+        "
+"passed","Thu Apr 02 18:12:25 CST 2020","Thu Apr 02 18:12:25 CST 2020","506","testcases.jjxt","test_send_clazz_text","TestSendText","","","发送文本消息：发送文本消息","
+        发送群图片：发送文本消息：发送文本消息
+        "
+"passed","Thu Apr 02 18:12:09 CST 2020","Thu Apr 02 18:12:10 CST 2020","816","testcases.jjxt","test_send_clazz_text","TestSendText","","","发送文本消息：发送文本消息","
+        发送群图片：发送文本消息：发送文本消息
+        "
+"passed","Thu Apr 02 18:12:37 CST 2020","Thu Apr 02 18:12:37 CST 2020","406","testcases.jjxt","test_send_person_text","TestSendPersonText","","","私聊发送文本消息：发送文本消息","
+        私聊发送文本消息：发送文本消息
+        "
+"passed","Thu Apr 02 18:12:20 CST 2020","Thu Apr 02 18:12:21 CST 2020","510","testcases.jjxt","test_send_clazz_text","TestSendText","","","发送文本消息：发送文本消息","
+        发送群图片：发送文本消息：发送文本消息
+        "
+"passed","Thu Apr 02 18:12:43 CST 2020","Thu Apr 02 18:12:43 CST 2020","406","testcases.jjxt","test_send_person_text","TestSendPersonText","","","私聊发送文本消息：发送文本消息","
+        私聊发送文本消息：发送文本消息
+        "
+"passed","Thu Apr 02 18:12:18 CST 2020","Thu Apr 02 18:12:19 CST 2020","505","testcases.jjxt","test_send_clazz_text","TestSendText","","","发送文本消息：发送文本消息","
+        发送群图片：发送文本消息：发送文本消息
+        "
+"passed","Thu Apr 02 18:12:46 CST 2020","Thu Apr 02 18:12:47 CST 2020","508","testcases.jjxt","test_send_person_text","TestSendPersonText","","","私聊发送文本消息：发送文本消息","
+        私聊发送文本消息：发送文本消息
+        "
+"passed","Thu Apr 02 18:12:26 CST 2020","Thu Apr 02 18:12:27 CST 2020","461","testcases.jjxt","test_send_clazz_text","TestSendText","","","发送文本消息：发送文本消息","
+        发送群图片：发送文本消息：发送文本消息
+        "
+"passed","Thu Apr 02 18:12:05 CST 2020","Thu Apr 02 18:12:06 CST 2020","627","testcases.jjxt","test_send_clazz_text","TestSendText","","","发送文本消息：发送文本消息","
+        发送群图片：发送文本消息：发送文本消息
+        "
+"passed","Thu Apr 02 18:12:53 CST 2020","Thu Apr 02 18:12:53 CST 2020","510","testcases.jjxt","test_send_person_text","TestSendPersonText","","","私聊发送文本消息：发送文本消息","
+        私聊发送文本消息：发送文本消息
+        "
+"passed","Thu Apr 02 18:12:51 CST 2020","Thu Apr 02 18:12:51 CST 2020","510","testcases.jjxt","test_send_person_text","TestSendPersonText","","","私聊发送文本消息：发送文本消息","
+        私聊发送文本消息：发送文本消息
+        "
+"passed","Thu Apr 02 18:12:39 CST 2020","Thu Apr 02 18:12:39 CST 2020","360","testcases.jjxt","test_send_person_text","TestSendPersonText","","","私聊发送文本消息：发送文本消息","
+        私聊发送文本消息：发送文本消息
+        "
+"passed","Thu Apr 02 18:12:21 CST 2020","Thu Apr 02 18:12:21 CST 2020","407","testcases.jjxt","test_send_clazz_text","TestSendText","","","发送文本消息：发送文本消息","
+        发送群图片：发送文本消息：发送文本消息
+        "
+"passed","Thu Apr 02 18:12:49 CST 2020","Thu Apr 02 18:12:50 CST 2020","404","testcases.jjxt","test_send_person_text","TestSendPersonText","","","私聊发送文本消息：发送文本消息","
+        私聊发送文本消息：发送文本消息
+        "
+"passed","Thu Apr 02 18:12:55 CST 2020","Thu Apr 02 18:12:56 CST 2020","501","testcases.jjxt","test_send_person_text","TestSendPersonText","","","私聊发送文本消息：发送文本消息","
+        私聊发送文本消息：发送文本消息
+        "
+"passed","Thu Apr 02 18:12:53 CST 2020","Thu Apr 02 18:12:54 CST 2020","401","testcases.jjxt","test_send_person_text","TestSendPersonText","","","私聊发送文本消息：发送文本消息","
+        私聊发送文本消息：发送文本消息
+        "
+"passed","Thu Apr 02 18:12:41 CST 2020","Thu Apr 02 18:12:41 CST 2020","523","testcases.jjxt","test_send_person_text","TestSendPersonText","","","私聊发送文本消息：发送文本消息","
+        私聊发送文本消息：发送文本消息
+        "
+"passed","Thu Apr 02 18:12:24 CST 2020","Thu Apr 02 18:12:24 CST 2020","507","testcases.jjxt","test_send_clazz_text","TestSendText","","","发送文本消息：发送文本消息","
+        发送群图片：发送文本消息：发送文本消息
+        "
+"passed","Thu Apr 02 18:12:02 CST 2020","Thu Apr 02 18:12:02 CST 2020","502","testcases.jjxt","test_send_clazz_text","TestSendText","","","发送文本消息：发送文本消息","
+        发送群图片：发送文本消息：发送文本消息
+        "
+"passed","Thu Apr 02 18:12:40 CST 2020","Thu Apr 02 18:12:41 CST 2020","492","testcases.jjxt","test_send_person_text","TestSendPersonText","","","私聊发送文本消息：发送文本消息","
+        私聊发送文本消息：发送文本消息
+        "
+"passed","Thu Apr 02 18:12:45 CST 2020","Thu Apr 02 18:12:46 CST 2020","372","testcases.jjxt","test_send_person_text","TestSendPersonText","","","私聊发送文本消息：发送文本消息","
+        私聊发送文本消息：发送文本消息
+        "
+"passed","Thu Apr 02 18:12:25 CST 2020","Thu Apr 02 18:12:26 CST 2020","603","testcases.jjxt","test_send_clazz_text","TestSendText","","","发送文本消息：发送文本消息","
+        发送群图片：发送文本消息：发送文本消息
+        "
+"passed","Thu Apr 02 18:12:12 CST 2020","Thu Apr 02 18:12:13 CST 2020","506","testcases.jjxt","test_send_clazz_text","TestSendText","","","发送文本消息：发送文本消息","
+        发送群图片：发送文本消息：发送文本消息
+        "
+"passed","Thu Apr 02 18:12:42 CST 2020","Thu Apr 02 18:12:43 CST 2020","506","testcases.jjxt","test_send_person_text","TestSendPersonText","","","私聊发送文本消息：发送文本消息","
+        私聊发送文本消息：发送文本消息
+        "
+"passed","Thu Apr 02 18:12:52 CST 2020","Thu Apr 02 18:12:52 CST 2020","533","testcases.jjxt","test_send_person_text","TestSendPersonText","","","私聊发送文本消息：发送文本消息","
+        私聊发送文本消息：发送文本消息
+        "
+"passed","Thu Apr 02 18:12:21 CST 2020","Thu Apr 02 18:12:21 CST 2020","510","testcases.jjxt","test_send_clazz_text","TestSendText","","","发送文本消息：发送文本消息","
+        发送群图片：发送文本消息：发送文本消息
+        "
+"passed","Thu Apr 02 18:12:36 CST 2020","Thu Apr 02 18:12:37 CST 2020","610","testcases.jjxt","test_send_person_text","TestSendPersonText","","","私聊发送文本消息：发送文本消息","
+        私聊发送文本消息：发送文本消息
+        "
+"passed","Thu Apr 02 18:12:38 CST 2020","Thu Apr 02 18:12:39 CST 2020","424","testcases.jjxt","test_send_person_text","TestSendPersonText","","","私聊发送文本消息：发送文本消息","
+        私聊发送文本消息：发送文本消息
+        "
+"passed","Thu Apr 02 18:12:48 CST 2020","Thu Apr 02 18:12:49 CST 2020","472","testcases.jjxt","test_send_person_text","TestSendPersonText","","","私聊发送文本消息：发送文本消息","
+        私聊发送文本消息：发送文本消息
+        "
+"passed","Thu Apr 02 18:12:15 CST 2020","Thu Apr 02 18:12:16 CST 2020","470","testcases.jjxt","test_send_clazz_text","TestSendText","","","发送文本消息：发送文本消息","
+        发送群图片：发送文本消息：发送文本消息
+        "
+"passed","Thu Apr 02 18:12:01 CST 2020","Thu Apr 02 18:12:02 CST 2020","514","testcases.jjxt","test_send_clazz_text","TestSendText","","","发送文本消息：发送文本消息","
+        发送群图片：发送文本消息：发送文本消息
+        "
+"passed","Thu Apr 02 18:12:17 CST 2020","Thu Apr 02 18:12:17 CST 2020","509","testcases.jjxt","test_send_clazz_text","TestSendText","","","发送文本消息：发送文本消息","
+        发送群图片：发送文本消息：发送文本消息
+        "
+"passed","Thu Apr 02 18:12:28 CST 2020","Thu Apr 02 18:12:29 CST 2020","311","testcases.jjxt","test_send_person_text","TestSendPersonText","","","私聊发送文本消息：发送文本消息","
+        私聊发送文本消息：发送文本消息
+        "
+"passed","Thu Apr 02 18:12:16 CST 2020","Thu Apr 02 18:12:16 CST 2020","442","testcases.jjxt","test_send_clazz_text","TestSendText","","","发送文本消息：发送文本消息","
+        发送群图片：发送文本消息：发送文本消息
+        "
+"passed","Thu Apr 02 18:12:55 CST 2020","Thu Apr 02 18:12:55 CST 2020","310","testcases.jjxt","test_send_person_text","TestSendPersonText","","","私聊发送文本消息：发送文本消息","
+        私聊发送文本消息：发送文本消息
+        "
+"passed","Thu Apr 02 18:12:22 CST 2020","Thu Apr 02 18:12:23 CST 2020","553","testcases.jjxt","test_send_clazz_text","TestSendText","","","发送文本消息：发送文本消息","
+        发送群图片：发送文本消息：发送文本消息
+        "
+"passed","Thu Apr 02 18:12:14 CST 2020","Thu Apr 02 18:12:15 CST 2020","513","testcases.jjxt","test_send_clazz_text","TestSendText","","","发送文本消息：发送文本消息","
+        发送群图片：发送文本消息：发送文本消息
+        "
+"passed","Thu Apr 02 18:12:10 CST 2020","Thu Apr 02 18:12:11 CST 2020","581","testcases.jjxt","test_send_clazz_text","TestSendText","","","发送文本消息：发送文本消息","
+        发送群图片：发送文本消息：发送文本消息
+        "
+"passed","Thu Apr 02 18:12:48 CST 2020","Thu Apr 02 18:12:48 CST 2020","509","testcases.jjxt","test_send_person_text","TestSendPersonText","","","私聊发送文本消息：发送文本消息","
+        私聊发送文本消息：发送文本消息
+        "
+"passed","Thu Apr 02 18:12:44 CST 2020","Thu Apr 02 18:12:44 CST 2020","404","testcases.jjxt","test_send_person_text","TestSendPersonText","","","私聊发送文本消息：发送文本消息","
+        私聊发送文本消息：发送文本消息
+        "
+"passed","Thu Apr 02 18:12:52 CST 2020","Thu Apr 02 18:12:53 CST 2020","403","testcases.jjxt","test_send_person_text","TestSendPersonText","","","私聊发送文本消息：发送文本消息","
+        私聊发送文本消息：发送文本消息
+        "
+"passed","Thu Apr 02 18:12:28 CST 2020","Thu Apr 02 18:12:28 CST 2020","478","testcases.jjxt","test_send_person_text","TestSendPersonText","","","私聊发送文本消息：发送文本消息","
+        私聊发送文本消息：发送文本消息
+        "
+"passed","Thu Apr 02 18:11:55 CST 2020","Thu Apr 02 18:12:00 CST 2020","5631","testcases.jjxt","test_send_clazz_text","TestSendText","","","发送文本消息：发送文本消息","
+        发送群图片：发送文本消息：发送文本消息
+        "
+"passed","Thu Apr 02 18:12:14 CST 2020","Thu Apr 02 18:12:14 CST 2020","616","testcases.jjxt","test_send_clazz_text","TestSendText","","","发送文本消息：发送文本消息","
+        发送群图片：发送文本消息：发送文本消息
+        "
+"passed","Thu Apr 02 18:12:35 CST 2020","Thu Apr 02 18:12:36 CST 2020","520","testcases.jjxt","test_send_person_text","TestSendPersonText","","","私聊发送文本消息：发送文本消息","
+        私聊发送文本消息：发送文本消息
+        "
+"passed","Thu Apr 02 18:12:44 CST 2020","Thu Apr 02 18:12:44 CST 2020","399","testcases.jjxt","test_send_person_text","TestSendPersonText","","","私聊发送文本消息：发送文本消息","
+        私聊发送文本消息：发送文本消息
+        "
+"passed","Thu Apr 02 18:12:29 CST 2020","Thu Apr 02 18:12:29 CST 2020","474","testcases.jjxt","test_send_person_text","TestSendPersonText","","","私聊发送文本消息：发送文本消息","
+        私聊发送文本消息：发送文本消息
+        "
+"passed","Thu Apr 02 18:12:04 CST 2020","Thu Apr 02 18:12:05 CST 2020","632","testcases.jjxt","test_send_clazz_text","TestSendText","","","发送文本消息：发送文本消息","
+        发送群图片：发送文本消息：发送文本消息
+        "
+"passed","Thu Apr 02 18:12:15 CST 2020","Thu Apr 02 18:12:15 CST 2020","602","testcases.jjxt","test_send_clazz_text","TestSendText","","","发送文本消息：发送文本消息","
+        发送群图片：发送文本消息：发送文本消息
+        "
+"passed","Thu Apr 02 18:12:13 CST 2020","Thu Apr 02 18:12:13 CST 2020","510","testcases.jjxt","test_send_clazz_text","TestSendText","","","发送文本消息：发送文本消息","
+        发送群图片：发送文本消息：发送文本消息
+        "
+"passed","Thu Apr 02 18:12:36 CST 2020","Thu Apr 02 18:12:36 CST 2020","492","testcases.jjxt","test_send_person_text","TestSendPersonText","","","私聊发送文本消息：发送文本消息","
+        私聊发送文本消息：发送文本消息
+        "
+"passed","Thu Apr 02 18:12:17 CST 2020","Thu Apr 02 18:12:18 CST 2020","509","testcases.jjxt","test_send_clazz_text","TestSendText","","","发送文本消息：发送文本消息","
+        发送群图片：发送文本消息：发送文本消息
+        "
+"passed","Thu Apr 02 18:12:10 CST 2020","Thu Apr 02 18:12:10 CST 2020","534","testcases.jjxt","test_send_clazz_text","TestSendText","","","发送文本消息：发送文本消息","
+        发送群图片：发送文本消息：发送文本消息
+        "
+"passed","Thu Apr 02 18:12:38 CST 2020","Thu Apr 02 18:12:38 CST 2020","407","testcases.jjxt","test_send_person_text","TestSendPersonText","","","私聊发送文本消息：发送文本消息","
+        私聊发送文本消息：发送文本消息
+        "
+"passed","Thu Apr 02 18:12:03 CST 2020","Thu Apr 02 18:12:03 CST 2020","517","testcases.jjxt","test_send_clazz_text","TestSendText","","","发送文本消息：发送文本消息","
+        发送群图片：发送文本消息：发送文本消息
+        "
+"passed","Thu Apr 02 18:12:18 CST 2020","Thu Apr 02 18:12:18 CST 2020","500","testcases.jjxt","test_send_clazz_text","TestSendText","","","发送文本消息：发送文本消息","
+        发送群图片：发送文本消息：发送文本消息
+        "
+"passed","Thu Apr 02 18:12:50 CST 2020","Thu Apr 02 18:12:51 CST 2020","508","testcases.jjxt","test_send_person_text","TestSendPersonText","","","私聊发送文本消息：发送文本消息","
+        私聊发送文本消息：发送文本消息
+        "
+"passed","Thu Apr 02 18:12:01 CST 2020","Thu Apr 02 18:12:01 CST 2020","611","testcases.jjxt","test_send_clazz_text","TestSendText","","","发送文本消息：发送文本消息","
+        发送群图片：发送文本消息：发送文本消息
+        "
+"passed","Thu Apr 02 18:12:49 CST 2020","Thu Apr 02 18:12:49 CST 2020","508","testcases.jjxt","test_send_person_text","TestSendPersonText","","","私聊发送文本消息：发送文本消息","
+        私聊发送文本消息：发送文本消息
+        "
+"passed","Thu Apr 02 18:12:19 CST 2020","Thu Apr 02 18:12:19 CST 2020","617","testcases.jjxt","test_send_clazz_text","TestSendText","","","发送文本消息：发送文本消息","
+        发送群图片：发送文本消息：发送文本消息
+        "
+"passed","Thu Apr 02 18:12:03 CST 2020","Thu Apr 02 18:12:04 CST 2020","578","testcases.jjxt","test_send_clazz_text","TestSendText","","","发送文本消息：发送文本消息","
+        发送群图片：发送文本消息：发送文本消息
+        "
+"passed","Thu Apr 02 18:12:39 CST 2020","Thu Apr 02 18:12:40 CST 2020","431","testcases.jjxt","test_send_person_text","TestSendPersonText","","","私聊发送文本消息：发送文本消息","
+        私聊发送文本消息：发送文本消息
+        "
+"passed","Thu Apr 02 18:12:41 CST 2020","Thu Apr 02 18:12:42 CST 2020","512","testcases.jjxt","test_send_person_text","TestSendPersonText","","","私聊发送文本消息：发送文本消息","
+        私聊发送文本消息：发送文本消息
+        "
+"passed","Thu Apr 02 18:12:00 CST 2020","Thu Apr 02 18:12:01 CST 2020","499","testcases.jjxt","test_send_clazz_text","TestSendText","","","发送文本消息：发送文本消息","
+        发送群图片：发送文本消息：发送文本消息
+        "
+"passed","Thu Apr 02 18:12:06 CST 2020","Thu Apr 02 18:12:07 CST 2020","508","testcases.jjxt","test_send_clazz_text","TestSendText","","","发送文本消息：发送文本消息","
+        发送群图片：发送文本消息：发送文本消息
+        "
+"passed","Thu Apr 02 18:12:16 CST 2020","Thu Apr 02 18:12:17 CST 2020","510","testcases.jjxt","test_send_clazz_text","TestSendText","","","发送文本消息：发送文本消息","
+        发送群图片：发送文本消息：发送文本消息
+        "
+"passed","Thu Apr 02 18:12:47 CST 2020","Thu Apr 02 18:12:47 CST 2020","416","testcases.jjxt","test_send_person_text","TestSendPersonText","","","私聊发送文本消息：发送文本消息","
+        私聊发送文本消息：发送文本消息
+        "
+"passed","Thu Apr 02 18:12:26 CST 2020","Thu Apr 02 18:12:26 CST 2020","564","testcases.jjxt","test_send_clazz_text","TestSendText","","","发送文本消息：发送文本消息","
+        发送群图片：发送文本消息：发送文本消息
+        "
+"passed","Thu Apr 02 18:12:06 CST 2020","Thu Apr 02 18:12:06 CST 2020","612","testcases.jjxt","test_send_clazz_text","TestSendText","","","发送文本消息：发送文本消息","
+        发送群图片：发送文本消息：发送文本消息
+        "
+"passed","Thu Apr 02 18:12:02 CST 2020","Thu Apr 02 18:12:03 CST 2020","604","testcases.jjxt","test_send_clazz_text","TestSendText","","","发送文本消息：发送文本消息","
+        发送群图片：发送文本消息：发送文本消息
+        "
+"passed","Thu Apr 02 18:12:24 CST 2020","Thu Apr 02 18:12:25 CST 2020","506","testcases.jjxt","test_send_clazz_text","TestSendText","","","发送文本消息：发送文本消息","
+        发送群图片：发送文本消息：发送文本消息
+        "
+"passed","Thu Apr 02 18:12:22 CST 2020","Thu Apr 02 18:12:22 CST 2020","467","testcases.jjxt","test_send_clazz_text","TestSendText","","","发送文本消息：发送文本消息","
+        发送群图片：发送文本消息：发送文本消息
+        "
+"passed","Thu Apr 02 18:12:19 CST 2020","Thu Apr 02 18:12:20 CST 2020","608","testcases.jjxt","test_send_clazz_text","TestSendText","","","发送文本消息：发送文本消息","
+        发送群图片：发送文本消息：发送文本消息
+        "
+"passed","Thu Apr 02 18:12:29 CST 2020","Thu Apr 02 18:12:30 CST 2020","407","testcases.jjxt","test_send_person_text","TestSendPersonText","","","私聊发送文本消息：发送文本消息","
+        私聊发送文本消息：发送文本消息
+        "
+"passed","Thu Apr 02 18:12:09 CST 2020","Thu Apr 02 18:12:09 CST 2020","504","testcases.jjxt","test_send_clazz_text","TestSendText","","","发送文本消息：发送文本消息","
+        发送群图片：发送文本消息：发送文本消息
+        "
+"passed","Thu Apr 02 18:12:40 CST 2020","Thu Apr 02 18:12:40 CST 2020","414","testcases.jjxt","test_send_person_text","TestSendPersonText","","","私聊发送文本消息：发送文本消息","
+        私聊发送文本消息：发送文本消息
+        "
+"passed","Thu Apr 02 18:12:08 CST 2020","Thu Apr 02 18:12:09 CST 2020","540","testcases.jjxt","test_send_clazz_text","TestSendText","","","发送文本消息：发送文本消息","
+        发送群图片：发送文本消息：发送文本消息
+        "
+"passed","Thu Apr 02 18:12:05 CST 2020","Thu Apr 02 18:12:05 CST 2020","492","testcases.jjxt","test_send_clazz_text","TestSendText","","","发送文本消息：发送文本消息","
+        发送群图片：发送文本消息：发送文本消息
         "
