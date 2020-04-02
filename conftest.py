@@ -39,11 +39,11 @@ def pytest_configure(config):
             path=confpath)
         config.option.htmlpath = htmlpath
 
+    # 修改执行环境的配置文件
     from common.configer import GetConfiger
     env_ins = GetConfiger('env.ini')
     env = config.option.env
     cfg = env_ins.configer()
-    cfg.set('env', 'env', env)
     cfg.set('env', 'env', env)
     with open(env_ins.filepath(), 'w') as f:
         cfg.write(f)
