@@ -18,7 +18,7 @@ allure_result_history = allure_result + os.sep + 'history'
 history_bak = allure_dir + os.sep + 'history'
 
 
-
+# 添加自定义命令
 def pytest_addoption(parser):
     parser.addoption('--env', default='reg')
 
@@ -31,6 +31,7 @@ def pytest_configure(config):
     if env:
         env_ins = GetConfiger('env.ini')
         cfg = env_ins.configer()
+        logger.debug('修改执行环境配置为%s' % env)
         cfg.set('env', 'env', env)
         with open(env_ins.filepath(), 'w') as f:
             cfg.write(f)
