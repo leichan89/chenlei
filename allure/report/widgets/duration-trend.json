@@ -1,4 +1,14 @@
 [ {
+  "data" : { }
+}, {
+  "data" : { }
+}, {
+  "data" : { }
+}, {
+  "data" : {
+    "duration" : 5167
+  }
+}, {
   "data" : {
     "duration" : 165058
   }
@@ -48,20 +58,6 @@
   "data" : { }
 }, {
   "data" : { }
-}, {
-  "data" : { }
-}, {
-  "data" : {
-    "duration" : 954
-  }
-}, {
-  "data" : {
-    "duration" : 162363
-  }
-}, {
-  "data" : {
-    "duration" : 24602
-  }
 }, {
   "data" : { }
 } ]

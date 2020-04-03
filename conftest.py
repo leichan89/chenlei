@@ -20,7 +20,7 @@ history_bak = allure_dir + os.sep + 'history'
 
 # 添加自定义命令
 def pytest_addoption(parser):
-    parser.addoption('--env', default='reg')
+    parser.addoption('--env')
 
 
 # 修改命令行中的参数，这里用于修改生成的pytest-html测试报告的名称，在命令执行时执行

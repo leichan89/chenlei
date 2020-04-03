@@ -1,5 +1,41 @@
 [ {
   "data" : {
+    "failed" : 0,
+    "broken" : 0,
+    "skipped" : 0,
+    "passed" : 0,
+    "unknown" : 0,
+    "total" : 0
+  }
+}, {
+  "data" : {
+    "failed" : 0,
+    "broken" : 0,
+    "skipped" : 0,
+    "passed" : 0,
+    "unknown" : 0,
+    "total" : 0
+  }
+}, {
+  "data" : {
+    "failed" : 0,
+    "broken" : 0,
+    "skipped" : 0,
+    "passed" : 0,
+    "unknown" : 0,
+    "total" : 0
+  }
+}, {
+  "data" : {
+    "failed" : 4,
+    "broken" : 0,
+    "skipped" : 0,
+    "passed" : 1,
+    "unknown" : 0,
+    "total" : 5
+  }
+}, {
+  "data" : {
     "failed" : 2,
     "broken" : 0,
     "skipped" : 0,
@@ -132,42 +168,6 @@
     "passed" : 0,
     "unknown" : 0,
     "total" : 0
-  }
-}, {
-  "data" : {
-    "failed" : 0,
-    "broken" : 0,
-    "skipped" : 0,
-    "passed" : 0,
-    "unknown" : 0,
-    "total" : 0
-  }
-}, {
-  "data" : {
-    "failed" : 0,
-    "broken" : 0,
-    "skipped" : 0,
-    "passed" : 1,
-    "unknown" : 0,
-    "total" : 1
-  }
-}, {
-  "data" : {
-    "failed" : 2,
-    "broken" : 0,
-    "skipped" : 0,
-    "passed" : 130,
-    "unknown" : 0,
-    "total" : 132
-  }
-}, {
-  "data" : {
-    "failed" : 127,
-    "broken" : 0,
-    "skipped" : 0,
-    "passed" : 5,
-    "unknown" : 0,
-    "total" : 132
   }
 }, {
   "data" : {

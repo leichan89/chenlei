@@ -2957,14 +2957,23 @@
   },
   "0d677d022e0ff51fb36ca9fb40c68877" : {
     "statistic" : {
-      "failed" : 7,
+      "failed" : 8,
       "broken" : 0,
       "skipped" : 0,
       "passed" : 12,
       "unknown" : 0,
-      "total" : 19
+      "total" : 20
     },
     "items" : [ {
+      "uid" : "6ba5af201352c0d2",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: 获取班级【大数量班级-1班】的id失败\nassert False",
+      "time" : {
+        "start" : 1585908274640,
+        "stop" : 1585908274640,
+        "duration" : 0
+      }
+    }, {
       "uid" : "e322f127ed338b67",
       "status" : "passed",
       "time" : {
@@ -2996,15 +3005,6 @@
         "start" : 1585905721512,
         "stop" : 1585905721653,
         "duration" : 141
-      }
-    }, {
-      "uid" : "d79f8c49953d0a80",
-      "status" : "failed",
-      "statusDetails" : "AssertionError: 获取班级【大数量班级-1班】的id失败\nassert False",
-      "time" : {
-        "start" : 1585905359453,
-        "stop" : 1585905359453,
-        "duration" : 0
       }
     } ]
   },
@@ -3709,14 +3709,23 @@
   },
   "92d15c5d211f3276ece7cf5ecaac3754" : {
     "statistic" : {
-      "failed" : 10,
+      "failed" : 11,
       "broken" : 0,
       "skipped" : 0,
       "passed" : 16,
       "unknown" : 0,
-      "total" : 26
+      "total" : 27
     },
     "items" : [ {
+      "uid" : "b0702dde2106030a",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: 获取班级【大数量班级-1班】的id失败\nassert False",
+      "time" : {
+        "start" : 1585908272918,
+        "stop" : 1585908272918,
+        "duration" : 0
+      }
+    }, {
       "uid" : "a7d672d4b88b36a7",
       "status" : "passed",
       "time" : {
@@ -3748,15 +3757,6 @@
         "start" : 1585905721269,
         "stop" : 1585905721505,
         "duration" : 236
-      }
-    }, {
-      "uid" : "490c4022991e584d",
-      "status" : "failed",
-      "statusDetails" : "AssertionError: 获取班级【大数量班级-1班】的id失败\nassert False",
-      "time" : {
-        "start" : 1585905359114,
-        "stop" : 1585905359114,
-        "duration" : 0
       }
     } ]
   },
@@ -6611,11 +6611,19 @@
       "failed" : 4,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 15,
+      "passed" : 16,
       "unknown" : 0,
-      "total" : 19
+      "total" : 20
     },
     "items" : [ {
+      "uid" : "35be587323a8d7f2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585908277681,
+        "stop" : 1585908278081,
+        "duration" : 400
+      }
+    }, {
       "uid" : "a2581d2d61c24115",
       "status" : "passed",
       "time" : {
@@ -6646,14 +6654,6 @@
         "start" : 1585905721794,
         "stop" : 1585905722235,
         "duration" : 441
-      }
-    }, {
-      "uid" : "4f73060efe8aae46",
-      "status" : "passed",
-      "time" : {
-        "start" : 1585905359997,
-        "stop" : 1585905360156,
-        "duration" : 159
       }
     } ]
   },
@@ -6983,14 +6983,23 @@
   },
   "8509e44fe8cfed3c04ea76b2edb748e6" : {
     "statistic" : {
-      "failed" : 7,
+      "failed" : 8,
       "broken" : 0,
       "skipped" : 0,
       "passed" : 12,
       "unknown" : 0,
-      "total" : 19
+      "total" : 20
     },
     "items" : [ {
+      "uid" : "5bc9c7e8aeaa301b",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: 获取班级【大数量班级-1班】的id失败\nassert False",
+      "time" : {
+        "start" : 1585908278085,
+        "stop" : 1585908278085,
+        "duration" : 0
+      }
+    }, {
       "uid" : "84212396a082e4ef",
       "status" : "passed",
       "time" : {
@@ -7023,27 +7032,27 @@
         "stop" : 1585905722240,
         "duration" : 0
       }
-    }, {
-      "uid" : "9311f10c2db1d33b",
-      "status" : "failed",
-      "statusDetails" : "AssertionError: 获取班级【大数量班级-1班】的id失败\nassert False",
-      "time" : {
-        "start" : 1585905360352,
-        "stop" : 1585905360352,
-        "duration" : 0
-      }
     } ]
   },
   "e6ddc689e127d4be35c264f55588257e" : {
     "statistic" : {
-      "failed" : 7,
+      "failed" : 8,
       "broken" : 0,
       "skipped" : 0,
       "passed" : 12,
       "unknown" : 0,
-      "total" : 19
+      "total" : 20
     },
     "items" : [ {
+      "uid" : "362b9ff250b02e01",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: 获取班级【大数量班级-1班】的id失败\nassert False",
+      "time" : {
+        "start" : 1585908276684,
+        "stop" : 1585908276684,
+        "duration" : 0
+      }
+    }, {
       "uid" : "cbf505b4bf7480b6",
       "status" : "passed",
       "time" : {
@@ -7075,15 +7084,6 @@
         "start" : 1585905721657,
         "stop" : 1585905721789,
         "duration" : 132
-      }
-    }, {
-      "uid" : "29b8d094b5815992",
-      "status" : "failed",
-      "statusDetails" : "AssertionError: 获取班级【大数量班级-1班】的id失败\nassert False",
-      "time" : {
-        "start" : 1585905359831,
-        "stop" : 1585905359831,
-        "duration" : 0
       }
     } ]
   }
