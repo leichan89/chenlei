@@ -89,7 +89,7 @@ def pytest_html_results_table_header(cells):
         os.popen(cmd)
     except:
         errmsg = '生成报告异常'
-        # logger.error(errmsg)
+        logger.error(errmsg)
 
 @pytest.mark.optionalhook
 def pytest_html_results_table_row(report, cells):

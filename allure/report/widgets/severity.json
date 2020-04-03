@@ -1,1 +1,1321 @@
-[ ]
+[ {
+  "uid" : "5f2b270217d5c532",
+  "name" : "发送文本消息：发送文本消息",
+  "time" : {
+    "start" : 1585908046143,
+    "stop" : 1585908046446,
+    "duration" : 303
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "fffd206821e143eb",
+  "name" : "私聊发送文本消息：发送文本消息",
+  "time" : {
+    "start" : 1585908124381,
+    "stop" : 1585908124782,
+    "duration" : 401
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "9d7f72e6456c974",
+  "name" : "发送文本消息：发送文本消息",
+  "time" : {
+    "start" : 1585908039999,
+    "stop" : 1585908040328,
+    "duration" : 329
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "dd53430592ac87ca",
+  "name" : "发送群直播：查询直播-随机发送回放直播-查询直播详情-历史消息中查看发送的直播",
+  "time" : {
+    "start" : 1585907994719,
+    "stop" : 1585908003939,
+    "duration" : 9220
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "d0dbd5409d7247d7",
+  "name" : "发送文本消息：发送文本消息",
+  "time" : {
+    "start" : 1585908050476,
+    "stop" : 1585908050849,
+    "duration" : 373
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "7b861a8418780091",
+  "name" : "私聊发送文本消息：发送文本消息",
+  "time" : {
+    "start" : 1585908114337,
+    "stop" : 1585908114752,
+    "duration" : 415
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "88c792ed74651c09",
+  "name" : "发送群答题：查询科目-查询模块-查询试卷-查询试题-随机存群答题到过去日期",
+  "time" : {
+    "start" : 1585908026944,
+    "stop" : 1585908027032,
+    "duration" : 88
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "59c673073909c318",
+  "name" : "发送文本消息：发送文本消息",
+  "time" : {
+    "start" : 1585908057100,
+    "stop" : 1585908057504,
+    "duration" : 404
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "4595fc8d18838ba6",
+  "name" : "私聊发送文本消息：发送文本消息",
+  "time" : {
+    "start" : 1585908115437,
+    "stop" : 1585908115864,
+    "duration" : 427
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "6a13f4d43396c72d",
+  "name" : "发送文本消息：发送文本消息",
+  "time" : {
+    "start" : 1585908044094,
+    "stop" : 1585908044502,
+    "duration" : 408
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "9eb914019c0c6b1c",
+  "name" : "查询积分：默认查询",
+  "time" : {
+    "start" : 1585907975729,
+    "stop" : 1585907975837,
+    "duration" : 108
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "c2a08afef1ecb92f",
+  "name" : "私聊发送文本消息：发送文本消息",
+  "time" : {
+    "start" : 1585908117004,
+    "stop" : 1585908117417,
+    "duration" : 413
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "c8303b22b1bd2b19",
+  "name" : "发送文本消息：发送文本消息",
+  "time" : {
+    "start" : 1585908058436,
+    "stop" : 1585908058945,
+    "duration" : 509
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "67a969d97b326e1f",
+  "name" : "查询积分：指定时间段查询",
+  "time" : {
+    "start" : 1585907975840,
+    "stop" : 1585907975949,
+    "duration" : 109
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c6e93f99ed7eb393",
+  "name" : "发送文本消息：发送文本消息",
+  "time" : {
+    "start" : 1585908048992,
+    "stop" : 1585908049518,
+    "duration" : 526
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "a7d672d4b88b36a7",
+  "name" : "导出学员列表数据",
+  "time" : {
+    "start" : 1585907974339,
+    "stop" : 1585907974554,
+    "duration" : 215
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "d1062973be4edc07",
+  "name" : "私聊发送文本消息：发送文本消息",
+  "time" : {
+    "start" : 1585908121969,
+    "stop" : 1585908122344,
+    "duration" : 375
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "8d0755f5fc533aa7",
+  "name" : "私聊发送文本消息：发送文本消息",
+  "time" : {
+    "start" : 1585908109984,
+    "stop" : 1585908110449,
+    "duration" : 465
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "534d7065d70c149a",
+  "name" : "发送群试卷：查询试卷-随机发送试卷-查看试卷详情-历史消息中查看发送的试卷-下载答题详情",
+  "time" : {
+    "start" : 1585908004942,
+    "stop" : 1585908014747,
+    "duration" : 9805
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "5821bdae79345274",
+  "name" : "发送文本消息：发送文本消息",
+  "time" : {
+    "start" : 1585908043594,
+    "stop" : 1585908044090,
+    "duration" : 496
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "4730b60335a545f5",
+  "name" : "发送文本消息：发送文本消息",
+  "time" : {
+    "start" : 1585908047477,
+    "stop" : 1585908047963,
+    "duration" : 486
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "c18169faddcdf2f1",
+  "name" : "发送文本消息：发送文本消息",
+  "time" : {
+    "start" : 1585908052148,
+    "stop" : 1585908052614,
+    "duration" : 466
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "da4b95610589a553",
+  "name" : "发送文本消息：发送文本消息",
+  "time" : {
+    "start" : 1585908054422,
+    "stop" : 1585908054945,
+    "duration" : 523
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "96379507a09f4d05",
+  "name" : "发送文本消息：发送文本消息",
+  "time" : {
+    "start" : 1585908049522,
+    "stop" : 1585908050010,
+    "duration" : 488
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "b2db3932433125a",
+  "name" : "发送文本消息：发送文本消息",
+  "time" : {
+    "start" : 1585908059462,
+    "stop" : 1585908060064,
+    "duration" : 602
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "5e0563315730f26b",
+  "name" : "发送文本消息：发送文本消息",
+  "time" : {
+    "start" : 1585908054949,
+    "stop" : 1585908055373,
+    "duration" : 424
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "afe818dd7285dc09",
+  "name" : "发送文本消息：发送文本消息",
+  "time" : {
+    "start" : 1585908047967,
+    "stop" : 1585908048498,
+    "duration" : 531
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "52a49f4cdc971bd1",
+  "name" : "发送文本消息：发送文本消息",
+  "time" : {
+    "start" : 1585908041331,
+    "stop" : 1585908041945,
+    "duration" : 614
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "f524cc97d7153abb",
+  "name" : "发送群答题：删除不存在的群推试题",
+  "time" : {
+    "start" : 1585908038393,
+    "stop" : 1585908038471,
+    "duration" : 78
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5c80fffd29e44003",
+  "name" : "发送文本消息：发送文本消息",
+  "time" : {
+    "start" : 1585908040332,
+    "stop" : 1585908040932,
+    "duration" : 600
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "6f1ebe6e9dad73c6",
+  "name" : "发送文本消息：发送文本消息",
+  "time" : {
+    "start" : 1585908056459,
+    "stop" : 1585908057095,
+    "duration" : 636
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "94ceea1522da258c",
+  "name" : "发送文本消息：发送文本消息",
+  "time" : {
+    "start" : 1585908038476,
+    "stop" : 1585908039074,
+    "duration" : 598
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "439ea72931c046c1",
+  "name" : "私聊发送文本消息：发送文本消息",
+  "time" : {
+    "start" : 1585908121493,
+    "stop" : 1585908121964,
+    "duration" : 471
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "8723dc775ba4a0cd",
+  "name" : "发送文本消息：发送文本消息",
+  "time" : {
+    "start" : 1585908051884,
+    "stop" : 1585908052143,
+    "duration" : 259
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "a89df81b98e6f8a4",
+  "name" : "私聊发送文本消息：发送文本消息",
+  "time" : {
+    "start" : 1585908122645,
+    "stop" : 1585908123037,
+    "duration" : 392
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "9ad67937f6528680",
+  "name" : "发送群答题：查询科目-查询模块-查询试卷-查询试题-随机存群答题到未来日期",
+  "time" : {
+    "start" : 1585908025509,
+    "stop" : 1585908025596,
+    "duration" : 87
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "dc051c55e2de9202",
+  "name" : "私聊发送文本消息：发送文本消息",
+  "time" : {
+    "start" : 1585908110842,
+    "stop" : 1585908111217,
+    "duration" : 375
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "c1b3de268a0f45c4",
+  "name" : "私聊发送文本消息：发送文本消息",
+  "time" : {
+    "start" : 1585908128281,
+    "stop" : 1585908128797,
+    "duration" : 516
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "d8e92c9dc2b4953f",
+  "name" : "私聊发送文本消息：发送文本消息",
+  "time" : {
+    "start" : 1585908126223,
+    "stop" : 1585908126666,
+    "duration" : 443
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "128b5c03046860d7",
+  "name" : "私聊发送文本消息：发送文本消息",
+  "time" : {
+    "start" : 1585908129824,
+    "stop" : 1585908130155,
+    "duration" : 331
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "ebfca4ee0d20893f",
+  "name" : "私聊发送文本消息：发送文本消息",
+  "time" : {
+    "start" : 1585908127069,
+    "stop" : 1585908127466,
+    "duration" : 397
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "d6a2a56cb77ec8cf",
+  "name" : "私聊发送直播：查询直播-向单个学员随机发送已结束直播-查询直播详情",
+  "time" : {
+    "start" : 1585908100219,
+    "stop" : 1585908100521,
+    "duration" : 302
+  },
+  "status" : "failed",
+  "severity" : "critical"
+}, {
+  "uid" : "a2581d2d61c24115",
+  "name" : "导出基本信息",
+  "time" : {
+    "start" : 1585907974952,
+    "stop" : 1585907975120,
+    "duration" : 168
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "f9575f6bcc66d156",
+  "name" : "发送文本消息：发送文本消息",
+  "time" : {
+    "start" : 1585908042874,
+    "stop" : 1585908043281,
+    "duration" : 407
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "d0e191dc3d59cae1",
+  "name" : "发送文本消息：发送文本消息",
+  "time" : {
+    "start" : 1585908055378,
+    "stop" : 1585908055882,
+    "duration" : 504
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "bdbbd62f43373fbd",
+  "name" : "私聊发送文本消息：发送文本消息",
+  "time" : {
+    "start" : 1585908115869,
+    "stop" : 1585908116296,
+    "duration" : 427
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "7a1d1c8f362875c1",
+  "name" : "传入无效的字符查询老师信息",
+  "time" : {
+    "start" : 1585907975238,
+    "stop" : 1585907975350,
+    "duration" : 112
+  },
+  "status" : "passed",
+  "severity" : "minor"
+}, {
+  "uid" : "4b7c74e0a4a8ce03",
+  "name" : "发送文本消息：发送文本消息",
+  "time" : {
+    "start" : 1585908045017,
+    "stop" : 1585908045642,
+    "duration" : 625
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "c4a883d8db78e288",
+  "name" : "私聊发送文本消息：发送文本消息",
+  "time" : {
+    "start" : 1585908120286,
+    "stop" : 1585908120587,
+    "duration" : 301
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "5218260736d3e86",
+  "name" : "发送群图片：上传图片-发送jpg图片-历史消息查看发送的图片",
+  "time" : {
+    "start" : 1585907985388,
+    "stop" : 1585907994714,
+    "duration" : 9326
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "7dc4c6020ea090e0",
+  "name" : "私聊发送文本消息：发送文本消息",
+  "time" : {
+    "start" : 1585908124787,
+    "stop" : 1585908125303,
+    "duration" : 516
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "855e94ef08d75b55",
+  "name" : "查询存在的老师信息",
+  "time" : {
+    "start" : 1585907975131,
+    "stop" : 1585907975229,
+    "duration" : 98
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "46376198f2502164",
+  "name" : "发送文本消息：发送文本消息",
+  "time" : {
+    "start" : 1585908041949,
+    "stop" : 1585908042452,
+    "duration" : 503
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "39b467c77ecb1952",
+  "name" : "发送文本消息：发送文本消息",
+  "time" : {
+    "start" : 1585908060068,
+    "stop" : 1585908060693,
+    "duration" : 625
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "dff28640dacd1e0f",
+  "name" : "发送文本消息：发送文本消息",
+  "time" : {
+    "start" : 1585908062120,
+    "stop" : 1585908062612,
+    "duration" : 492
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "f5801574ad3bef56",
+  "name" : "发送文本消息：发送文本消息",
+  "time" : {
+    "start" : 1585908039486,
+    "stop" : 1585908039993,
+    "duration" : 507
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "64d44d29a31fc62d",
+  "name" : "传入无效的字符查询老师信息",
+  "time" : {
+    "start" : 1585907975357,
+    "stop" : 1585907975483,
+    "duration" : 126
+  },
+  "status" : "passed",
+  "severity" : "minor"
+}, {
+  "uid" : "63bd08e4836e5761",
+  "name" : "发送群直播：查询直播-随机发送已结束直播-查询直播详情-历史消息中查看发送的直播",
+  "time" : {
+    "start" : 1585908004682,
+    "stop" : 1585908004930,
+    "duration" : 248
+  },
+  "status" : "failed",
+  "severity" : "critical"
+}, {
+  "uid" : "cbf505b4bf7480b6",
+  "name" : "下载积分：不带年月日下载",
+  "time" : {
+    "start" : 1585907974702,
+    "stop" : 1585907974946,
+    "duration" : 244
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "ffe0fc7b88d69935",
+  "name" : "发送群文件：上传文件-发送xlsx文件-历史消息查看发送的文件",
+  "time" : {
+    "start" : 1585907976111,
+    "stop" : 1585907985383,
+    "duration" : 9272
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "e322f127ed338b67",
+  "name" : "下载积分：设置年月日下载",
+  "time" : {
+    "start" : 1585907974559,
+    "stop" : 1585907974698,
+    "duration" : 139
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "75e10d9a8dd2fa98",
+  "name" : "私聊发送文本消息：发送文本消息",
+  "time" : {
+    "start" : 1585908119476,
+    "stop" : 1585908119867,
+    "duration" : 391
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "aa27495e8cde15ca",
+  "name" : "发送文本消息：发送文本消息",
+  "time" : {
+    "start" : 1585908050014,
+    "stop" : 1585908050472,
+    "duration" : 458
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "bc98258b3d14871d",
+  "name" : "私聊发送文本消息：发送文本消息",
+  "time" : {
+    "start" : 1585908120980,
+    "stop" : 1585908121488,
+    "duration" : 508
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "c5b8f953b56a4c48",
+  "name" : "发送文本消息：发送文本消息",
+  "time" : {
+    "start" : 1585908043286,
+    "stop" : 1585908043590,
+    "duration" : 304
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "df72e0b5c4226028",
+  "name" : "私聊发送文本消息：发送文本消息",
+  "time" : {
+    "start" : 1585908113625,
+    "stop" : 1585908113944,
+    "duration" : 319
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "b289247fa8f85023",
+  "name" : "私聊发送文本消息：发送文本消息",
+  "time" : {
+    "start" : 1585908109590,
+    "stop" : 1585908109979,
+    "duration" : 389
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "83ff63a7bf8b76fa",
+  "name" : "私聊发送图片：上传图片-给单个学员发送jpg图片-历史消息中查找发送的图片消息",
+  "time" : {
+    "start" : 1585908081359,
+    "stop" : 1585908090303,
+    "duration" : 8944
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "d1ea5f2d94d2319e",
+  "name" : "私聊发送文本消息：发送文本消息",
+  "time" : {
+    "start" : 1585908125811,
+    "stop" : 1585908126219,
+    "duration" : 408
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "ad81425822f5212d",
+  "name" : "私聊发送文本消息：发送文本消息",
+  "time" : {
+    "start" : 1585908110454,
+    "stop" : 1585908110837,
+    "duration" : 383
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "6655c49fde3c16ab",
+  "name" : "发送群答题：查询科目-查询模块-查询试卷-查询试题-随机发送群答题-历史消息中查看答题信息",
+  "time" : {
+    "start" : 1585908027971,
+    "stop" : 1585908036677,
+    "duration" : 8706
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "14db7b604dc0d80a",
+  "name" : "传入无效的字符查询老师信息",
+  "time" : {
+    "start" : 1585907975491,
+    "stop" : 1585907975628,
+    "duration" : 137
+  },
+  "status" : "passed",
+  "severity" : "minor"
+}, {
+  "uid" : "d74efee90368a76",
+  "name" : "发送文本消息：发送文本消息",
+  "time" : {
+    "start" : 1585908057508,
+    "stop" : 1585908057924,
+    "duration" : 416
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "7ea3e2872e1a88b5",
+  "name" : "发送文本消息：发送文本消息",
+  "time" : {
+    "start" : 1585908042456,
+    "stop" : 1585908042870,
+    "duration" : 414
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "f95d8e252cc5b63d",
+  "name" : "传入无效的字符查询老师信息",
+  "time" : {
+    "start" : 1585907975635,
+    "stop" : 1585907975724,
+    "duration" : 89
+  },
+  "status" : "passed",
+  "severity" : "minor"
+}, {
+  "uid" : "317cee89cc9359d8",
+  "name" : "发送文本消息：发送文本消息",
+  "time" : {
+    "start" : 1585908058949,
+    "stop" : 1585908059457,
+    "duration" : 508
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "2f9968fb20261f0d",
+  "name" : "发送文本消息：发送文本消息",
+  "time" : {
+    "start" : 1585908052946,
+    "stop" : 1585908053513,
+    "duration" : 567
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "a9b044e39f914a",
+  "name" : "发送文本消息：发送文本消息",
+  "time" : {
+    "start" : 1585908039078,
+    "stop" : 1585908039482,
+    "duration" : 404
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "71e4eb9dd1542077",
+  "name" : "私聊发送文本消息：发送文本消息",
+  "time" : {
+    "start" : 1585908122348,
+    "stop" : 1585908122640,
+    "duration" : 292
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "36e4079989af57f2",
+  "name" : "设置群答题显示解析为手动",
+  "time" : {
+    "start" : 1585908139303,
+    "stop" : 1585908139397,
+    "duration" : 94
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "bf30b71d48a208f0",
+  "name" : "私聊发送文本消息：发送文本消息",
+  "time" : {
+    "start" : 1585908123042,
+    "stop" : 1585908123485,
+    "duration" : 443
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "46163f5e7700e36f",
+  "name" : "发送群录播：查询科目-查询模块-查询录播-随机发送录播-查询录播详情-历史消息中查看推送的录播",
+  "time" : {
+    "start" : 1585908062617,
+    "stop" : 1585908071767,
+    "duration" : 9150
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "41e2235e811494c",
+  "name" : "发送文本消息：发送文本消息",
+  "time" : {
+    "start" : 1585908048502,
+    "stop" : 1585908048988,
+    "duration" : 486
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "1525ee7118c641b6",
+  "name" : "私聊发送文本消息：发送文本消息",
+  "time" : {
+    "start" : 1585908123886,
+    "stop" : 1585908124377,
+    "duration" : 491
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "6ccc4f953780e656",
+  "name" : "私聊发送文本消息：发送文本消息",
+  "time" : {
+    "start" : 1585908129117,
+    "stop" : 1585908129493,
+    "duration" : 376
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "f8907994aa60c78c",
+  "name" : "发送文本消息：发送文本消息",
+  "time" : {
+    "start" : 1585908061299,
+    "stop" : 1585908061674,
+    "duration" : 375
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "5e5b2e5b5a10e0fa",
+  "name" : "私聊发送文本消息：发送文本消息",
+  "time" : {
+    "start" : 1585908115061,
+    "stop" : 1585908115433,
+    "duration" : 372
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "a230b72d90bdee22",
+  "name" : "私聊发送文本消息：发送文本消息",
+  "time" : {
+    "start" : 1585908127470,
+    "stop" : 1585908127868,
+    "duration" : 398
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "1df921cc887258c0",
+  "name" : "私聊发送文本消息：发送文本消息",
+  "time" : {
+    "start" : 1585908120592,
+    "stop" : 1585908120976,
+    "duration" : 384
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "80bec30f2872b44c",
+  "name" : "发送文本消息：发送文本消息",
+  "time" : {
+    "start" : 1585908054092,
+    "stop" : 1585908054418,
+    "duration" : 326
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "88c4e03c4c2d2d0",
+  "name" : "私聊发送文本消息：发送文本消息",
+  "time" : {
+    "start" : 1585908129497,
+    "stop" : 1585908129819,
+    "duration" : 322
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "dc10dc1e814dde55",
+  "name" : "发送群答题：查询科目-查询模块-查询试卷-查询试题-存题-查询待推题-推送待推题-查询答题详情-历史消息中查看答题信息",
+  "time" : {
+    "start" : 1585908015234,
+    "stop" : 1585908024248,
+    "duration" : 9014
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "c8ae17d31b62d80c",
+  "name" : "私聊发送文本消息：发送文本消息",
+  "time" : {
+    "start" : 1585908117422,
+    "stop" : 1585908117858,
+    "duration" : 436
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "9f51acd1dc2c38b3",
+  "name" : "私聊发送文本消息：发送文本消息",
+  "time" : {
+    "start" : 1585908116301,
+    "stop" : 1585908116999,
+    "duration" : 698
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "be793025cebc4b7c",
+  "name" : "私聊发送文本消息：发送文本消息",
+  "time" : {
+    "start" : 1585908113948,
+    "stop" : 1585908114331,
+    "duration" : 383
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "4d8634afca0f5b3f",
+  "name" : "发送文本消息：发送文本消息",
+  "time" : {
+    "start" : 1585908055886,
+    "stop" : 1585908056455,
+    "duration" : 569
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "8331980bf7bb4873",
+  "name" : "私聊发送文本消息：发送文本消息",
+  "time" : {
+    "start" : 1585908119871,
+    "stop" : 1585908120282,
+    "duration" : 411
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "1fc45ce2e19a6b21",
+  "name" : "发送文本消息：发送文本消息",
+  "time" : {
+    "start" : 1585908045647,
+    "stop" : 1585908046139,
+    "duration" : 492
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "13be316736a0715",
+  "name" : "私聊发送文本消息：发送文本消息",
+  "time" : {
+    "start" : 1585908114756,
+    "stop" : 1585908115055,
+    "duration" : 299
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "e79c1c9b92a04162",
+  "name" : "私聊发送文本消息：发送文本消息",
+  "time" : {
+    "start" : 1585908126670,
+    "stop" : 1585908127065,
+    "duration" : 395
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "3ec00f3456a89835",
+  "name" : "发送文本消息：发送文本消息",
+  "time" : {
+    "start" : 1585908057929,
+    "stop" : 1585908058432,
+    "duration" : 503
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "6175c21a8f67d72",
+  "name" : "私聊发送录播：查询科目-查询模块-查询录播-向单个学员随机发送录播-查询录播详情-在历史消息中查看发送的录播",
+  "time" : {
+    "start" : 1585908130161,
+    "stop" : 1585908139300,
+    "duration" : 9139
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "99f8089ee6d0336b",
+  "name" : "私聊发送文本消息：发送文本消息",
+  "time" : {
+    "start" : 1585908113198,
+    "stop" : 1585908113621,
+    "duration" : 423
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "8fd4a5a00e15a468",
+  "name" : "发送文本消息：发送文本消息",
+  "time" : {
+    "start" : 1585908040936,
+    "stop" : 1585908041326,
+    "duration" : 390
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "2772866fec058d9a",
+  "name" : "私聊发送文件：上传文件-给单个学员发送xlsx文件-历史消息中查找发送的文件消息",
+  "time" : {
+    "start" : 1585908072463,
+    "stop" : 1585908081353,
+    "duration" : 8890
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "c7af37b13a8a69f2",
+  "name" : "私聊发送文本消息：发送文本消息",
+  "time" : {
+    "start" : 1585908118239,
+    "stop" : 1585908118579,
+    "duration" : 340
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "63dc90bc0553ef0e",
+  "name" : "发送文本消息：发送文本消息",
+  "time" : {
+    "start" : 1585908046450,
+    "stop" : 1585908046934,
+    "duration" : 484
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "75176e38e33ae380",
+  "name" : "私聊发送文本消息：发送文本消息",
+  "time" : {
+    "start" : 1585908111222,
+    "stop" : 1585908111692,
+    "duration" : 470
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "418fc4e1a18c76ce",
+  "name" : "发送文本消息：发送文本消息",
+  "time" : {
+    "start" : 1585908051366,
+    "stop" : 1585908051880,
+    "duration" : 514
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "957df037951876fd",
+  "name" : "查询积分：开始时间大于结束时间",
+  "time" : {
+    "start" : 1585907975953,
+    "stop" : 1585907976092,
+    "duration" : 139
+  },
+  "status" : "passed",
+  "severity" : "minor"
+}, {
+  "uid" : "6fcceb1cc8da5ce1",
+  "name" : "私聊发送文本消息：发送文本消息",
+  "time" : {
+    "start" : 1585908119068,
+    "stop" : 1585908119471,
+    "duration" : 403
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "33aa5bd2ceb52146",
+  "name" : "私聊发送文本消息：发送文本消息",
+  "time" : {
+    "start" : 1585908112052,
+    "stop" : 1585908112397,
+    "duration" : 345
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "4b6a9fec78c00001",
+  "name" : "私聊发送文本消息：发送文本消息",
+  "time" : {
+    "start" : 1585908111695,
+    "stop" : 1585908112047,
+    "duration" : 352
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "5e13beedd7ebf48f",
+  "name" : "发送文本消息：发送文本消息",
+  "time" : {
+    "start" : 1585908044507,
+    "stop" : 1585908045013,
+    "duration" : 506
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "7f7d14a2ff919798",
+  "name" : "发送文本消息：发送文本消息",
+  "time" : {
+    "start" : 1585908061679,
+    "stop" : 1585908062117,
+    "duration" : 438
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "26876ab43fbd1163",
+  "name" : "发送文本消息：发送文本消息",
+  "time" : {
+    "start" : 1585908050853,
+    "stop" : 1585908051362,
+    "duration" : 509
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "935174c62c6bcff",
+  "name" : "私聊发送文本消息：发送文本消息",
+  "time" : {
+    "start" : 1585908118586,
+    "stop" : 1585908119054,
+    "duration" : 468
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "a2166e2bef338166",
+  "name" : "私聊发送文本消息：发送文本消息",
+  "time" : {
+    "start" : 1585908123489,
+    "stop" : 1585908123882,
+    "duration" : 393
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "c46d9d7a917afca7",
+  "name" : "发送文本消息：发送文本消息",
+  "time" : {
+    "start" : 1585908052618,
+    "stop" : 1585908052941,
+    "duration" : 323
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "974f21be1d023baf",
+  "name" : "私聊发送文本消息：发送文本消息",
+  "time" : {
+    "start" : 1585908117862,
+    "stop" : 1585908118230,
+    "duration" : 368
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "484ed398b1f38201",
+  "name" : "私聊发送文本消息：发送文本消息",
+  "time" : {
+    "start" : 1585908128800,
+    "stop" : 1585908129113,
+    "duration" : 313
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "ee825ca7b152754f",
+  "name" : "私聊发送直播：查询直播-向单个学员随机发送回放直播-查询直播详情-私聊记录中查看发送的直播回放",
+  "time" : {
+    "start" : 1585908090308,
+    "stop" : 1585908099620,
+    "duration" : 9312
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "64618dbe69f6f14a",
+  "name" : "私聊发送文本消息：发送文本消息",
+  "time" : {
+    "start" : 1585908112400,
+    "stop" : 1585908112804,
+    "duration" : 404
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "bd259568a9c5c977",
+  "name" : "发送文本消息：发送文本消息",
+  "time" : {
+    "start" : 1585908053517,
+    "stop" : 1585908054087,
+    "duration" : 570
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "84212396a082e4ef",
+  "name" : "获取阶段和任务id",
+  "time" : {
+    "start" : 1585907975125,
+    "stop" : 1585907975125,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "e2de895419975cb5",
+  "name" : "私聊发送文本消息：发送文本消息",
+  "time" : {
+    "start" : 1585908125309,
+    "stop" : 1585908125807,
+    "duration" : 498
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "5bb5e16735f57f6b",
+  "name" : "私聊发送文本消息：发送文本消息",
+  "time" : {
+    "start" : 1585908112807,
+    "stop" : 1585908113194,
+    "duration" : 387
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "38ab228af7173ff9",
+  "name" : "私聊发送试卷：查询试卷-向单个学员随机发送试卷-查看试卷详情-历史消息中查看发送的试卷",
+  "time" : {
+    "start" : 1585908100535,
+    "stop" : 1585908109585,
+    "duration" : 9050
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "85567c20572c132e",
+  "name" : "私聊发送文本消息：发送文本消息",
+  "time" : {
+    "start" : 1585908127873,
+    "stop" : 1585908128276,
+    "duration" : 403
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "a1643615b392e9f3",
+  "name" : "发送文本消息：发送文本消息",
+  "time" : {
+    "start" : 1585908046938,
+    "stop" : 1585908047471,
+    "duration" : 533
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "5b61991e61c5b582",
+  "name" : "发送群答题：查询科目-查询模块-查询试卷-查询试题-再次推送相同试题，不应该推送成功",
+  "time" : {
+    "start" : 1585908037854,
+    "stop" : 1585908038387,
+    "duration" : 533
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "9441ed8d8f612c6d",
+  "name" : "发送文本消息：发送文本消息",
+  "time" : {
+    "start" : 1585908060697,
+    "stop" : 1585908061295,
+    "duration" : 598
+  },
+  "status" : "passed",
+  "severity" : "critical"
+} ]

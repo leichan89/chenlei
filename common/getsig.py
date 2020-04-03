@@ -2,7 +2,7 @@
 import jpype
 import os
 from common.log import logger
-from common.configer import configer
+from common.configer import GetConfiger
 
 
 class Sig():
@@ -25,6 +25,7 @@ class Sig():
             assert False, errmsg
 
     def get_url_include_sig(self, url, ios=False):
+        configer = GetConfiger()
         if ios:
             self.sk = configer.configer().get('ios', 'salt')
         else:

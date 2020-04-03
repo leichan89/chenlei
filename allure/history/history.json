@@ -4,11 +4,19 @@
       "failed" : 4,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 8,
+      "passed" : 9,
       "unknown" : 0,
-      "total" : 12
+      "total" : 13
     },
     "items" : [ {
+      "uid" : "75e10d9a8dd2fa98",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585908119476,
+        "stop" : 1585908119867,
+        "duration" : 391
+      }
+    }, {
       "uid" : "375c139c936d8b",
       "status" : "failed",
       "statusDetails" : "AssertionError: 获取班级【2020面授-1班】的id失败\nassert False",
@@ -43,15 +51,6 @@
         "stop" : 1585879688325,
         "duration" : 0
       }
-    }, {
-      "uid" : "7e746d54413230b5",
-      "status" : "failed",
-      "statusDetails" : "AssertionError: 获取接口【forChat:获取老师相关的群聊班级新接口(返回包含正式班级和代理班级)】信息异常，info的params数据有误，转换为json时出错:\n{\"teacherId\":12}",
-      "time" : {
-        "start" : 1585878884565,
-        "stop" : 1585878884565,
-        "duration" : 0
-      }
     } ]
   },
   "add320467c57d4cc5e2342e699de60d6" : {
@@ -59,11 +58,19 @@
       "failed" : 4,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 9,
+      "passed" : 10,
       "unknown" : 0,
-      "total" : 13
+      "total" : 14
     },
     "items" : [ {
+      "uid" : "4b7c74e0a4a8ce03",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585908045017,
+        "stop" : 1585908045642,
+        "duration" : 625
+      }
+    }, {
       "uid" : "688a760374f4ef3f",
       "status" : "failed",
       "statusDetails" : "AssertionError: 获取班级【2020面授-1班】的id失败\nassert False",
@@ -98,15 +105,6 @@
         "stop" : 1585879683972,
         "duration" : 0
       }
-    }, {
-      "uid" : "c973120b85b63c77",
-      "status" : "failed",
-      "statusDetails" : "AssertionError: 获取接口【forChat:获取老师相关的群聊班级新接口(返回包含正式班级和代理班级)】信息异常，info的params数据有误，转换为json时出错:\n{\"teacherId\":12}",
-      "time" : {
-        "start" : 1585878879911,
-        "stop" : 1585878879911,
-        "duration" : 0
-      }
     } ]
   },
   "384b1bfebb890d1f67f9d6105e9da796" : {
@@ -114,11 +112,19 @@
       "failed" : 4,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 8,
+      "passed" : 9,
       "unknown" : 0,
-      "total" : 12
+      "total" : 13
     },
     "items" : [ {
+      "uid" : "83ff63a7bf8b76fa",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585908081359,
+        "stop" : 1585908090303,
+        "duration" : 8944
+      }
+    }, {
       "uid" : "8fbb64ea4c31b383",
       "status" : "failed",
       "statusDetails" : "AssertionError: 获取班级【2020面授-1班】的id失败\nassert False",
@@ -153,15 +159,6 @@
         "stop" : 1585879686369,
         "duration" : 0
       }
-    }, {
-      "uid" : "249733ef0d04cb2c",
-      "status" : "failed",
-      "statusDetails" : "AssertionError: 获取接口【forChat:获取老师相关的群聊班级新接口(返回包含正式班级和代理班级)】信息异常，info的params数据有误，转换为json时出错:\n{\"teacherId\":12}",
-      "time" : {
-        "start" : 1585878882306,
-        "stop" : 1585878882306,
-        "duration" : 0
-      }
     } ]
   },
   "141a3ab871356bc1f62012f8a8d279a5" : {
@@ -169,11 +166,19 @@
       "failed" : 7,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 7,
+      "passed" : 8,
       "unknown" : 0,
-      "total" : 14
+      "total" : 15
     },
     "items" : [ {
+      "uid" : "534d7065d70c149a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585908004942,
+        "stop" : 1585908014747,
+        "duration" : 9805
+      }
+    }, {
       "uid" : "a3d653250fc4ef0a",
       "status" : "passed",
       "time" : {
@@ -208,14 +213,6 @@
         "stop" : 1585903924544,
         "duration" : 0
       }
-    }, {
-      "uid" : "bb37614ab54005ab",
-      "status" : "passed",
-      "time" : {
-        "start" : 1585881089972,
-        "stop" : 1585881099466,
-        "duration" : 9494
-      }
     } ]
   },
   "255f38ca5b2e55b17b04ea4d7af66a57" : {
@@ -223,11 +220,19 @@
       "failed" : 4,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 9,
+      "passed" : 10,
       "unknown" : 0,
-      "total" : 13
+      "total" : 14
     },
     "items" : [ {
+      "uid" : "d0dbd5409d7247d7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585908050476,
+        "stop" : 1585908050849,
+        "duration" : 373
+      }
+    }, {
       "uid" : "941c5a3f647dbba2",
       "status" : "failed",
       "statusDetails" : "AssertionError: 获取班级【2020面授-1班】的id失败\nassert False",
@@ -262,15 +267,6 @@
         "stop" : 1585879684659,
         "duration" : 0
       }
-    }, {
-      "uid" : "f344bc4b0051b699",
-      "status" : "failed",
-      "statusDetails" : "AssertionError: 获取接口【forChat:获取老师相关的群聊班级新接口(返回包含正式班级和代理班级)】信息异常，info的params数据有误，转换为json时出错:\n{\"teacherId\":12}",
-      "time" : {
-        "start" : 1585878880573,
-        "stop" : 1585878880573,
-        "duration" : 0
-      }
     } ]
   },
   "fce33ffd4fc27e784afe506f1e8c2415" : {
@@ -278,11 +274,19 @@
       "failed" : 4,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 9,
+      "passed" : 10,
       "unknown" : 0,
-      "total" : 13
+      "total" : 14
     },
     "items" : [ {
+      "uid" : "afe818dd7285dc09",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585908047967,
+        "stop" : 1585908048498,
+        "duration" : 531
+      }
+    }, {
       "uid" : "eb647b53fc66acdf",
       "status" : "failed",
       "statusDetails" : "AssertionError: 获取班级【2020面授-1班】的id失败\nassert False",
@@ -317,15 +321,6 @@
         "stop" : 1585879684347,
         "duration" : 0
       }
-    }, {
-      "uid" : "1ed714f2648cc981",
-      "status" : "failed",
-      "statusDetails" : "AssertionError: 获取接口【forChat:获取老师相关的群聊班级新接口(返回包含正式班级和代理班级)】信息异常，info的params数据有误，转换为json时出错:\n{\"teacherId\":12}",
-      "time" : {
-        "start" : 1585878880273,
-        "stop" : 1585878880273,
-        "duration" : 0
-      }
     } ]
   },
   "7b5f2d4ceba2c842b0cd43778827da77" : {
@@ -333,11 +328,19 @@
       "failed" : 4,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 8,
+      "passed" : 9,
       "unknown" : 0,
-      "total" : 12
+      "total" : 13
     },
     "items" : [ {
+      "uid" : "4595fc8d18838ba6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585908115437,
+        "stop" : 1585908115864,
+        "duration" : 427
+      }
+    }, {
       "uid" : "cb77de3ec9804be4",
       "status" : "failed",
       "statusDetails" : "AssertionError: 获取班级【2020面授-1班】的id失败\nassert False",
@@ -372,15 +375,6 @@
         "stop" : 1585879687607,
         "duration" : 0
       }
-    }, {
-      "uid" : "4e05c0b2d75de1f3",
-      "status" : "failed",
-      "statusDetails" : "AssertionError: 获取接口【forChat:获取老师相关的群聊班级新接口(返回包含正式班级和代理班级)】信息异常，info的params数据有误，转换为json时出错:\n{\"teacherId\":12}",
-      "time" : {
-        "start" : 1585878883940,
-        "stop" : 1585878883940,
-        "duration" : 0
-      }
     } ]
   },
   "b46a52f82489a7a5df620b8098f00bdb" : {
@@ -388,11 +382,19 @@
       "failed" : 6,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 6,
+      "passed" : 7,
       "unknown" : 0,
-      "total" : 12
+      "total" : 13
     },
     "items" : [ {
+      "uid" : "ee825ca7b152754f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585908090308,
+        "stop" : 1585908099620,
+        "duration" : 9312
+      }
+    }, {
       "uid" : "d29260260ed5894d",
       "status" : "failed",
       "statusDetails" : "AssertionError: 获取班级【2020面授-1班】的id失败\nassert False",
@@ -427,15 +429,6 @@
         "stop" : 1585879686429,
         "duration" : 0
       }
-    }, {
-      "uid" : "21a34b2d4014c06f",
-      "status" : "failed",
-      "statusDetails" : "AssertionError: 获取接口【forChat:获取老师相关的群聊班级新接口(返回包含正式班级和代理班级)】信息异常，info的params数据有误，转换为json时出错:\n{\"teacherId\":12}",
-      "time" : {
-        "start" : 1585878882409,
-        "stop" : 1585878882409,
-        "duration" : 0
-      }
     } ]
   },
   "5b1b0509c4237c769a1838ff898f4bf1" : {
@@ -443,11 +436,19 @@
       "failed" : 4,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 8,
+      "passed" : 9,
       "unknown" : 0,
-      "total" : 12
+      "total" : 13
     },
     "items" : [ {
+      "uid" : "75176e38e33ae380",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585908111222,
+        "stop" : 1585908111692,
+        "duration" : 470
+      }
+    }, {
       "uid" : "8ea1bf620b28e738",
       "status" : "failed",
       "statusDetails" : "AssertionError: 获取班级【2020面授-1班】的id失败\nassert False",
@@ -482,15 +483,6 @@
         "stop" : 1585879686858,
         "duration" : 0
       }
-    }, {
-      "uid" : "aa7d0e287006ab58",
-      "status" : "failed",
-      "statusDetails" : "AssertionError: 获取接口【forChat:获取老师相关的群聊班级新接口(返回包含正式班级和代理班级)】信息异常，info的params数据有误，转换为json时出错:\n{\"teacherId\":12}",
-      "time" : {
-        "start" : 1585878882908,
-        "stop" : 1585878882908,
-        "duration" : 0
-      }
     } ]
   },
   "1abb09ef24316e7adc0798fe2144b051" : {
@@ -498,11 +490,19 @@
       "failed" : 4,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 8,
+      "passed" : 9,
       "unknown" : 0,
-      "total" : 12
+      "total" : 13
     },
     "items" : [ {
+      "uid" : "d1062973be4edc07",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585908121969,
+        "stop" : 1585908122344,
+        "duration" : 375
+      }
+    }, {
       "uid" : "6fa46f17849d7d4e",
       "status" : "failed",
       "statusDetails" : "AssertionError: 获取班级【2020面授-1班】的id失败\nassert False",
@@ -537,15 +537,6 @@
         "stop" : 1585879689045,
         "duration" : 0
       }
-    }, {
-      "uid" : "fb705ce528da0cf",
-      "status" : "failed",
-      "statusDetails" : "AssertionError: 获取接口【forChat:获取老师相关的群聊班级新接口(返回包含正式班级和代理班级)】信息异常，info的params数据有误，转换为json时出错:\n{\"teacherId\":12}",
-      "time" : {
-        "start" : 1585878884896,
-        "stop" : 1585878884896,
-        "duration" : 0
-      }
     } ]
   },
   "8afb3bb96aa2fef4bbc3d8d15388eee1" : {
@@ -553,11 +544,19 @@
       "failed" : 4,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 8,
+      "passed" : 9,
       "unknown" : 0,
-      "total" : 12
+      "total" : 13
     },
     "items" : [ {
+      "uid" : "df72e0b5c4226028",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585908113625,
+        "stop" : 1585908113944,
+        "duration" : 319
+      }
+    }, {
       "uid" : "98d5ea56842a747b",
       "status" : "failed",
       "statusDetails" : "AssertionError: 获取班级【2020面授-1班】的id失败\nassert False",
@@ -592,15 +591,6 @@
         "stop" : 1585879687276,
         "duration" : 0
       }
-    }, {
-      "uid" : "bb84ae55ad28b601",
-      "status" : "failed",
-      "statusDetails" : "AssertionError: 获取接口【forChat:获取老师相关的群聊班级新接口(返回包含正式班级和代理班级)】信息异常，info的params数据有误，转换为json时出错:\n{\"teacherId\":12}",
-      "time" : {
-        "start" : 1585878883493,
-        "stop" : 1585878883493,
-        "duration" : 0
-      }
     } ]
   },
   "7389e73eae7b02ed60e7d1c7910300b7" : {
@@ -608,11 +598,19 @@
       "failed" : 4,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 8,
+      "passed" : 9,
       "unknown" : 0,
-      "total" : 12
+      "total" : 13
     },
     "items" : [ {
+      "uid" : "974f21be1d023baf",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585908117862,
+        "stop" : 1585908118230,
+        "duration" : 368
+      }
+    }, {
       "uid" : "f64a7550529a2202",
       "status" : "failed",
       "statusDetails" : "AssertionError: 获取班级【2020面授-1班】的id失败\nassert False",
@@ -647,15 +645,6 @@
         "stop" : 1585879687997,
         "duration" : 0
       }
-    }, {
-      "uid" : "6f93e93d73154ab8",
-      "status" : "failed",
-      "statusDetails" : "AssertionError: 获取接口【forChat:获取老师相关的群聊班级新接口(返回包含正式班级和代理班级)】信息异常，info的params数据有误，转换为json时出错:\n{\"teacherId\":12}",
-      "time" : {
-        "start" : 1585878884318,
-        "stop" : 1585878884318,
-        "duration" : 0
-      }
     } ]
   },
   "ab03294d1b3e67742d27d3654f835c90" : {
@@ -663,11 +652,19 @@
       "failed" : 7,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 7,
+      "passed" : 8,
       "unknown" : 0,
-      "total" : 14
+      "total" : 15
     },
     "items" : [ {
+      "uid" : "88c792ed74651c09",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585908026944,
+        "stop" : 1585908027032,
+        "duration" : 88
+      }
+    }, {
       "uid" : "4a79bdd16eca3bce",
       "status" : "passed",
       "time" : {
@@ -702,14 +699,6 @@
         "stop" : 1585903924728,
         "duration" : 0
       }
-    }, {
-      "uid" : "4e7e45f7d77858c2",
-      "status" : "passed",
-      "time" : {
-        "start" : 1585881113381,
-        "stop" : 1585881113468,
-        "duration" : 87
-      }
     } ]
   },
   "c4d6324efe6de26214b90804e32ae5b7" : {
@@ -717,11 +706,19 @@
       "failed" : 4,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 8,
+      "passed" : 9,
       "unknown" : 0,
-      "total" : 12
+      "total" : 13
     },
     "items" : [ {
+      "uid" : "a89df81b98e6f8a4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585908122645,
+        "stop" : 1585908123037,
+        "duration" : 392
+      }
+    }, {
       "uid" : "6d9ec91a9dbe53b0",
       "status" : "failed",
       "statusDetails" : "AssertionError: 获取班级【2020面授-1班】的id失败\nassert False",
@@ -756,15 +753,6 @@
         "stop" : 1585879689404,
         "duration" : 0
       }
-    }, {
-      "uid" : "548f1b0fd7abdfc6",
-      "status" : "failed",
-      "statusDetails" : "AssertionError: 获取接口【forChat:获取老师相关的群聊班级新接口(返回包含正式班级和代理班级)】信息异常，info的params数据有误，转换为json时出错:\n{\"teacherId\":12}",
-      "time" : {
-        "start" : 1585878884986,
-        "stop" : 1585878884986,
-        "duration" : 0
-      }
     } ]
   },
   "3c4463e2c08b9541007f24b29b8b17a5" : {
@@ -772,11 +760,19 @@
       "failed" : 4,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 9,
+      "passed" : 10,
       "unknown" : 0,
-      "total" : 13
+      "total" : 14
     },
     "items" : [ {
+      "uid" : "26876ab43fbd1163",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585908050853,
+        "stop" : 1585908051362,
+        "duration" : 509
+      }
+    }, {
       "uid" : "4feea5a5c326debd",
       "status" : "failed",
       "statusDetails" : "AssertionError: 获取班级【2020面授-1班】的id失败\nassert False",
@@ -811,15 +807,6 @@
         "stop" : 1585879684720,
         "duration" : 0
       }
-    }, {
-      "uid" : "8fb2da5042ebca07",
-      "status" : "failed",
-      "statusDetails" : "AssertionError: 获取接口【forChat:获取老师相关的群聊班级新接口(返回包含正式班级和代理班级)】信息异常，info的params数据有误，转换为json时出错:\n{\"teacherId\":12}",
-      "time" : {
-        "start" : 1585878880629,
-        "stop" : 1585878880629,
-        "duration" : 0
-      }
     } ]
   },
   "a720881fa017ef50dd5f43ebb2a909b6" : {
@@ -827,11 +814,19 @@
       "failed" : 3,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 14,
+      "passed" : 15,
       "unknown" : 0,
-      "total" : 17
+      "total" : 18
     },
     "items" : [ {
+      "uid" : "9eb914019c0c6b1c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585907975729,
+        "stop" : 1585907975837,
+        "duration" : 108
+      }
+    }, {
       "uid" : "cbb73202b53cc0a6",
       "status" : "passed",
       "time" : {
@@ -863,26 +858,27 @@
         "stop" : 1585905361321,
         "duration" : 115
       }
-    }, {
-      "uid" : "a6a8c761e2260d12",
-      "status" : "passed",
-      "time" : {
-        "start" : 1585904781030,
-        "stop" : 1585904781114,
-        "duration" : 84
-      }
     } ]
   },
   "a615c600e6fea63c6fd2833470e5d0ae" : {
     "statistic" : {
-      "failed" : 14,
+      "failed" : 15,
       "broken" : 0,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 14
+      "total" : 15
     },
     "items" : [ {
+      "uid" : "63bd08e4836e5761",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: 返回的数据不应等于：[]",
+      "time" : {
+        "start" : 1585908004682,
+        "stop" : 1585908004930,
+        "duration" : 248
+      }
+    }, {
       "uid" : "e8c54e975c881352",
       "status" : "failed",
       "statusDetails" : "AssertionError: 返回的数据不应等于：[]",
@@ -918,15 +914,6 @@
         "stop" : 1585903924485,
         "duration" : 0
       }
-    }, {
-      "uid" : "ed994053f60fe0da",
-      "status" : "failed",
-      "statusDetails" : "AssertionError: 返回的数据不应等于：[]",
-      "time" : {
-        "start" : 1585881089739,
-        "stop" : 1585881089958,
-        "duration" : 219
-      }
     } ]
   },
   "8a51f3e46bfc20c20df11b762bc7f6a6" : {
@@ -934,11 +921,19 @@
       "failed" : 7,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 7,
+      "passed" : 8,
       "unknown" : 0,
-      "total" : 14
+      "total" : 15
     },
     "items" : [ {
+      "uid" : "6655c49fde3c16ab",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585908027971,
+        "stop" : 1585908036677,
+        "duration" : 8706
+      }
+    }, {
       "uid" : "92e7c9ab471849a6",
       "status" : "passed",
       "time" : {
@@ -973,14 +968,6 @@
         "stop" : 1585903924783,
         "duration" : 0
       }
-    }, {
-      "uid" : "d006637d40c1fe32",
-      "status" : "passed",
-      "time" : {
-        "start" : 1585881115165,
-        "stop" : 1585881123837,
-        "duration" : 8672
-      }
     } ]
   },
   "636fe2374d3f3af73c909575685c0405" : {
@@ -988,11 +975,19 @@
       "failed" : 4,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 8,
+      "passed" : 9,
       "unknown" : 0,
-      "total" : 12
+      "total" : 13
     },
     "items" : [ {
+      "uid" : "8331980bf7bb4873",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585908119871,
+        "stop" : 1585908120282,
+        "duration" : 411
+      }
+    }, {
       "uid" : "a1e4660bbd8b95c",
       "status" : "failed",
       "statusDetails" : "AssertionError: 获取班级【2020面授-1班】的id失败\nassert False",
@@ -1027,15 +1022,6 @@
         "stop" : 1585879688428,
         "duration" : 0
       }
-    }, {
-      "uid" : "21a43f7aba662678",
-      "status" : "failed",
-      "statusDetails" : "AssertionError: 获取接口【forChat:获取老师相关的群聊班级新接口(返回包含正式班级和代理班级)】信息异常，info的params数据有误，转换为json时出错:\n{\"teacherId\":12}",
-      "time" : {
-        "start" : 1585878884616,
-        "stop" : 1585878884616,
-        "duration" : 0
-      }
     } ]
   },
   "a57f70ab0149d8bee19fa057125268e4" : {
@@ -1043,11 +1029,19 @@
       "failed" : 4,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 11,
+      "passed" : 12,
       "unknown" : 0,
-      "total" : 15
+      "total" : 16
     },
     "items" : [ {
+      "uid" : "a9b044e39f914a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585908039078,
+        "stop" : 1585908039482,
+        "duration" : 404
+      }
+    }, {
       "uid" : "2eab32ab6dbf6dce",
       "status" : "passed",
       "time" : {
@@ -1081,15 +1075,6 @@
         "stop" : 1585881127515,
         "duration" : 406
       }
-    }, {
-      "uid" : "13f8b250a71d16fd",
-      "status" : "failed",
-      "statusDetails" : "AssertionError: 获取接口【forChat:获取老师相关的群聊班级新接口(返回包含正式班级和代理班级)】信息异常，info的params数据有误，转换为json时出错:\n{\"teacherId\":12}",
-      "time" : {
-        "start" : 1585879683170,
-        "stop" : 1585879683170,
-        "duration" : 0
-      }
     } ]
   },
   "17e15d7e03bfa7c040378b67bb24bec7" : {
@@ -1097,11 +1082,19 @@
       "failed" : 4,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 8,
+      "passed" : 9,
       "unknown" : 0,
-      "total" : 12
+      "total" : 13
     },
     "items" : [ {
+      "uid" : "c8ae17d31b62d80c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585908117422,
+        "stop" : 1585908117858,
+        "duration" : 436
+      }
+    }, {
       "uid" : "2235dbfff99e7d67",
       "status" : "failed",
       "statusDetails" : "AssertionError: 获取班级【2020面授-1班】的id失败\nassert False",
@@ -1136,15 +1129,6 @@
         "stop" : 1585879687938,
         "duration" : 0
       }
-    }, {
-      "uid" : "1d6871bc915d7d68",
-      "status" : "failed",
-      "statusDetails" : "AssertionError: 获取接口【forChat:获取老师相关的群聊班级新接口(返回包含正式班级和代理班级)】信息异常，info的params数据有误，转换为json时出错:\n{\"teacherId\":12}",
-      "time" : {
-        "start" : 1585878884263,
-        "stop" : 1585878884263,
-        "duration" : 0
-      }
     } ]
   },
   "77e5d27105cc6470629b64f493b7afde" : {
@@ -1152,11 +1136,19 @@
       "failed" : 4,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 9,
+      "passed" : 10,
       "unknown" : 0,
-      "total" : 13
+      "total" : 14
     },
     "items" : [ {
+      "uid" : "8723dc775ba4a0cd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585908051884,
+        "stop" : 1585908052143,
+        "duration" : 259
+      }
+    }, {
       "uid" : "d0e60c942f4a667f",
       "status" : "failed",
       "statusDetails" : "AssertionError: 获取班级【2020面授-1班】的id失败\nassert False",
@@ -1191,15 +1183,6 @@
         "stop" : 1585879684861,
         "duration" : 0
       }
-    }, {
-      "uid" : "35738671ee628355",
-      "status" : "failed",
-      "statusDetails" : "AssertionError: 获取接口【forChat:获取老师相关的群聊班级新接口(返回包含正式班级和代理班级)】信息异常，info的params数据有误，转换为json时出错:\n{\"teacherId\":12}",
-      "time" : {
-        "start" : 1585878880768,
-        "stop" : 1585878880768,
-        "duration" : 0
-      }
     } ]
   },
   "8dd2e02344f81cae0922d178f071ba77" : {
@@ -1207,11 +1190,19 @@
       "failed" : 4,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 8,
+      "passed" : 9,
       "unknown" : 0,
-      "total" : 12
+      "total" : 13
     },
     "items" : [ {
+      "uid" : "dc051c55e2de9202",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585908110842,
+        "stop" : 1585908111217,
+        "duration" : 375
+      }
+    }, {
       "uid" : "d6e5df9a2d43e266",
       "status" : "failed",
       "statusDetails" : "AssertionError: 获取班级【2020面授-1班】的id失败\nassert False",
@@ -1246,15 +1237,6 @@
         "stop" : 1585879686804,
         "duration" : 0
       }
-    }, {
-      "uid" : "f868dbc8d9be053d",
-      "status" : "failed",
-      "statusDetails" : "AssertionError: 获取接口【forChat:获取老师相关的群聊班级新接口(返回包含正式班级和代理班级)】信息异常，info的params数据有误，转换为json时出错:\n{\"teacherId\":12}",
-      "time" : {
-        "start" : 1585878882839,
-        "stop" : 1585878882839,
-        "duration" : 0
-      }
     } ]
   },
   "bc4f1a3c9d2315cd5b76e6b4412d8850" : {
@@ -1262,11 +1244,19 @@
       "failed" : 4,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 8,
+      "passed" : 9,
       "unknown" : 0,
-      "total" : 12
+      "total" : 13
     },
     "items" : [ {
+      "uid" : "bc98258b3d14871d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585908120980,
+        "stop" : 1585908121488,
+        "duration" : 508
+      }
+    }, {
       "uid" : "ffa5182f15696076",
       "status" : "failed",
       "statusDetails" : "AssertionError: 获取班级【2020面授-1班】的id失败\nassert False",
@@ -1301,15 +1291,6 @@
         "stop" : 1585879688902,
         "duration" : 0
       }
-    }, {
-      "uid" : "e8fc163cbb067247",
-      "status" : "failed",
-      "statusDetails" : "AssertionError: 获取接口【forChat:获取老师相关的群聊班级新接口(返回包含正式班级和代理班级)】信息异常，info的params数据有误，转换为json时出错:\n{\"teacherId\":12}",
-      "time" : {
-        "start" : 1585878884770,
-        "stop" : 1585878884770,
-        "duration" : 0
-      }
     } ]
   },
   "02cc0dbc6f586b5182b4c086c7370d0b" : {
@@ -1317,11 +1298,19 @@
       "failed" : 4,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 9,
+      "passed" : 10,
       "unknown" : 0,
-      "total" : 13
+      "total" : 14
     },
     "items" : [ {
+      "uid" : "41e2235e811494c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585908048502,
+        "stop" : 1585908048988,
+        "duration" : 486
+      }
+    }, {
       "uid" : "b179d63dca0feada",
       "status" : "failed",
       "statusDetails" : "AssertionError: 获取班级【2020面授-1班】的id失败\nassert False",
@@ -1356,15 +1345,6 @@
         "stop" : 1585879684405,
         "duration" : 0
       }
-    }, {
-      "uid" : "6cadb67786ad7878",
-      "status" : "failed",
-      "statusDetails" : "AssertionError: 获取接口【forChat:获取老师相关的群聊班级新接口(返回包含正式班级和代理班级)】信息异常，info的params数据有误，转换为json时出错:\n{\"teacherId\":12}",
-      "time" : {
-        "start" : 1585878880331,
-        "stop" : 1585878880331,
-        "duration" : 0
-      }
     } ]
   },
   "82c64e75e1168ec9cdfe958bd49a5f26" : {
@@ -1372,11 +1352,19 @@
       "failed" : 3,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 14,
+      "passed" : 15,
       "unknown" : 0,
-      "total" : 17
+      "total" : 18
     },
     "items" : [ {
+      "uid" : "957df037951876fd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585907975953,
+        "stop" : 1585907976092,
+        "duration" : 139
+      }
+    }, {
       "uid" : "3a88920deebd6e47",
       "status" : "passed",
       "time" : {
@@ -1408,14 +1396,6 @@
         "stop" : 1585905361677,
         "duration" : 239
       }
-    }, {
-      "uid" : "5a070202dd4ffbff",
-      "status" : "passed",
-      "time" : {
-        "start" : 1585904781218,
-        "stop" : 1585904781338,
-        "duration" : 120
-      }
     } ]
   },
   "be4adde59dc854ca56b0f63496f12967" : {
@@ -1423,11 +1403,19 @@
       "failed" : 4,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 8,
+      "passed" : 9,
       "unknown" : 0,
-      "total" : 12
+      "total" : 13
     },
     "items" : [ {
+      "uid" : "99f8089ee6d0336b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585908113198,
+        "stop" : 1585908113621,
+        "duration" : 423
+      }
+    }, {
       "uid" : "6fa62906d3299ed1",
       "status" : "failed",
       "statusDetails" : "AssertionError: 获取班级【2020面授-1班】的id失败\nassert False",
@@ -1462,15 +1450,6 @@
         "stop" : 1585879687181,
         "duration" : 0
       }
-    }, {
-      "uid" : "9aabfa36621146aa",
-      "status" : "failed",
-      "statusDetails" : "AssertionError: 获取接口【forChat:获取老师相关的群聊班级新接口(返回包含正式班级和代理班级)】信息异常，info的params数据有误，转换为json时出错:\n{\"teacherId\":12}",
-      "time" : {
-        "start" : 1585878883257,
-        "stop" : 1585878883257,
-        "duration" : 0
-      }
     } ]
   },
   "460a0e809c0564c0ee50f9acc6bf5fb1" : {
@@ -1478,11 +1457,19 @@
       "failed" : 4,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 9,
+      "passed" : 10,
       "unknown" : 0,
-      "total" : 13
+      "total" : 14
     },
     "items" : [ {
+      "uid" : "6f1ebe6e9dad73c6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585908056459,
+        "stop" : 1585908057095,
+        "duration" : 636
+      }
+    }, {
       "uid" : "d7bbc6eb757eec72",
       "status" : "failed",
       "statusDetails" : "AssertionError: 获取班级【2020面授-1班】的id失败\nassert False",
@@ -1517,15 +1504,6 @@
         "stop" : 1585879685465,
         "duration" : 0
       }
-    }, {
-      "uid" : "f74b5e71dc02f29f",
-      "status" : "failed",
-      "statusDetails" : "AssertionError: 获取接口【forChat:获取老师相关的群聊班级新接口(返回包含正式班级和代理班级)】信息异常，info的params数据有误，转换为json时出错:\n{\"teacherId\":12}",
-      "time" : {
-        "start" : 1585878881396,
-        "stop" : 1585878881396,
-        "duration" : 0
-      }
     } ]
   },
   "8f353f140f96d20a0dea18ea37bc51ad" : {
@@ -1533,11 +1511,19 @@
       "failed" : 4,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 9,
+      "passed" : 10,
       "unknown" : 0,
-      "total" : 13
+      "total" : 14
     },
     "items" : [ {
+      "uid" : "6a13f4d43396c72d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585908044094,
+        "stop" : 1585908044502,
+        "duration" : 408
+      }
+    }, {
       "uid" : "8b3d6f6672402307",
       "status" : "failed",
       "statusDetails" : "AssertionError: 获取班级【2020面授-1班】的id失败\nassert False",
@@ -1572,15 +1558,6 @@
         "stop" : 1585879683855,
         "duration" : 0
       }
-    }, {
-      "uid" : "aa8449ae21bbfd60",
-      "status" : "failed",
-      "statusDetails" : "AssertionError: 获取接口【forChat:获取老师相关的群聊班级新接口(返回包含正式班级和代理班级)】信息异常，info的params数据有误，转换为json时出错:\n{\"teacherId\":12}",
-      "time" : {
-        "start" : 1585878879798,
-        "stop" : 1585878879798,
-        "duration" : 0
-      }
     } ]
   },
   "7ab0ffb0e1146958056d0b7d69208e5f" : {
@@ -1588,11 +1565,19 @@
       "failed" : 4,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 9,
+      "passed" : 10,
       "unknown" : 0,
-      "total" : 13
+      "total" : 14
     },
     "items" : [ {
+      "uid" : "9441ed8d8f612c6d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585908060697,
+        "stop" : 1585908061295,
+        "duration" : 598
+      }
+    }, {
       "uid" : "d6a258747d84d1c0",
       "status" : "failed",
       "statusDetails" : "AssertionError: 获取班级【2020面授-1班】的id失败\nassert False",
@@ -1627,15 +1612,6 @@
         "stop" : 1585879685996,
         "duration" : 0
       }
-    }, {
-      "uid" : "dce35e0b4b4fb9e4",
-      "status" : "failed",
-      "statusDetails" : "AssertionError: 获取接口【forChat:获取老师相关的群聊班级新接口(返回包含正式班级和代理班级)】信息异常，info的params数据有误，转换为json时出错:\n{\"teacherId\":12}",
-      "time" : {
-        "start" : 1585878881907,
-        "stop" : 1585878881907,
-        "duration" : 0
-      }
     } ]
   },
   "83c1517288b2615729a9d5f82ef59593" : {
@@ -1643,11 +1619,19 @@
       "failed" : 4,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 9,
+      "passed" : 10,
       "unknown" : 0,
-      "total" : 13
+      "total" : 14
     },
     "items" : [ {
+      "uid" : "63dc90bc0553ef0e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585908046450,
+        "stop" : 1585908046934,
+        "duration" : 484
+      }
+    }, {
       "uid" : "bdc78e3ba1ebbb90",
       "status" : "failed",
       "statusDetails" : "AssertionError: 获取班级【2020面授-1班】的id失败\nassert False",
@@ -1682,15 +1666,6 @@
         "stop" : 1585879684169,
         "duration" : 0
       }
-    }, {
-      "uid" : "8b8bf9994c99d1ac",
-      "status" : "failed",
-      "statusDetails" : "AssertionError: 获取接口【forChat:获取老师相关的群聊班级新接口(返回包含正式班级和代理班级)】信息异常，info的params数据有误，转换为json时出错:\n{\"teacherId\":12}",
-      "time" : {
-        "start" : 1585878880104,
-        "stop" : 1585878880104,
-        "duration" : 0
-      }
     } ]
   },
   "4aa3123537eace9d541f9359f9f9f599" : {
@@ -1698,11 +1673,19 @@
       "failed" : 4,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 8,
+      "passed" : 9,
       "unknown" : 0,
-      "total" : 12
+      "total" : 13
     },
     "items" : [ {
+      "uid" : "5bb5e16735f57f6b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585908112807,
+        "stop" : 1585908113194,
+        "duration" : 387
+      }
+    }, {
       "uid" : "24976f593792051d",
       "status" : "failed",
       "statusDetails" : "AssertionError: 获取班级【2020面授-1班】的id失败\nassert False",
@@ -1737,15 +1720,6 @@
         "stop" : 1585879687120,
         "duration" : 0
       }
-    }, {
-      "uid" : "8e80956ce6afabf8",
-      "status" : "failed",
-      "statusDetails" : "AssertionError: 获取接口【forChat:获取老师相关的群聊班级新接口(返回包含正式班级和代理班级)】信息异常，info的params数据有误，转换为json时出错:\n{\"teacherId\":12}",
-      "time" : {
-        "start" : 1585878883181,
-        "stop" : 1585878883181,
-        "duration" : 0
-      }
     } ]
   },
   "d0255e2d53ec2106211d1f6e230d14bd" : {
@@ -1753,11 +1727,19 @@
       "failed" : 4,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 8,
+      "passed" : 9,
       "unknown" : 0,
-      "total" : 12
+      "total" : 13
     },
     "items" : [ {
+      "uid" : "e2de895419975cb5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585908125309,
+        "stop" : 1585908125807,
+        "duration" : 498
+      }
+    }, {
       "uid" : "9b87ca9ac44709c8",
       "status" : "failed",
       "statusDetails" : "AssertionError: 获取班级【2020面授-1班】的id失败\nassert False",
@@ -1792,15 +1774,6 @@
         "stop" : 1585879689757,
         "duration" : 0
       }
-    }, {
-      "uid" : "39ade0eb6372a580",
-      "status" : "failed",
-      "statusDetails" : "AssertionError: 获取接口【forChat:获取老师相关的群聊班级新接口(返回包含正式班级和代理班级)】信息异常，info的params数据有误，转换为json时出错:\n{\"teacherId\":12}",
-      "time" : {
-        "start" : 1585878885315,
-        "stop" : 1585878885315,
-        "duration" : 0
-      }
     } ]
   },
   "47125102e59d0a3a6b3f9256eac9cb3a" : {
@@ -1808,11 +1781,19 @@
       "failed" : 3,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 14,
+      "passed" : 15,
       "unknown" : 0,
-      "total" : 17
+      "total" : 18
     },
     "items" : [ {
+      "uid" : "67a969d97b326e1f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585907975840,
+        "stop" : 1585907975949,
+        "duration" : 109
+      }
+    }, {
       "uid" : "335133cbfbc9147b",
       "status" : "passed",
       "time" : {
@@ -1844,14 +1825,6 @@
         "stop" : 1585905361434,
         "duration" : 109
       }
-    }, {
-      "uid" : "a5303c8684e81177",
-      "status" : "passed",
-      "time" : {
-        "start" : 1585904781118,
-        "stop" : 1585904781213,
-        "duration" : 95
-      }
     } ]
   },
   "18370f1adfcf6b209e21ba5abdea1d16" : {
@@ -1859,11 +1832,19 @@
       "failed" : 4,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 8,
+      "passed" : 9,
       "unknown" : 0,
-      "total" : 12
+      "total" : 13
     },
     "items" : [ {
+      "uid" : "fffd206821e143eb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585908124381,
+        "stop" : 1585908124782,
+        "duration" : 401
+      }
+    }, {
       "uid" : "a6b9965036e7f304",
       "status" : "failed",
       "statusDetails" : "AssertionError: 获取班级【2020面授-1班】的id失败\nassert False",
@@ -1898,15 +1879,6 @@
         "stop" : 1585879689625,
         "duration" : 0
       }
-    }, {
-      "uid" : "17ae7bc922a5610c",
-      "status" : "failed",
-      "statusDetails" : "AssertionError: 获取接口【forChat:获取老师相关的群聊班级新接口(返回包含正式班级和代理班级)】信息异常，info的params数据有误，转换为json时出错:\n{\"teacherId\":12}",
-      "time" : {
-        "start" : 1585878885210,
-        "stop" : 1585878885210,
-        "duration" : 0
-      }
     } ]
   },
   "4c3ffb94e0cefbaf82d554cafd6d5f2f" : {
@@ -1914,11 +1886,19 @@
       "failed" : 4,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 9,
+      "passed" : 10,
       "unknown" : 0,
-      "total" : 13
+      "total" : 14
     },
     "items" : [ {
+      "uid" : "a1643615b392e9f3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585908046938,
+        "stop" : 1585908047471,
+        "duration" : 533
+      }
+    }, {
       "uid" : "897c10ea20574aaf",
       "status" : "failed",
       "statusDetails" : "AssertionError: 获取班级【2020面授-1班】的id失败\nassert False",
@@ -1953,15 +1933,6 @@
         "stop" : 1585879684226,
         "duration" : 0
       }
-    }, {
-      "uid" : "37abef9bc5461c71",
-      "status" : "failed",
-      "statusDetails" : "AssertionError: 获取接口【forChat:获取老师相关的群聊班级新接口(返回包含正式班级和代理班级)】信息异常，info的params数据有误，转换为json时出错:\n{\"teacherId\":12}",
-      "time" : {
-        "start" : 1585878880163,
-        "stop" : 1585878880163,
-        "duration" : 0
-      }
     } ]
   },
   "d80e76feb6311bf9b107fab7d02ce772" : {
@@ -1969,11 +1940,19 @@
       "failed" : 4,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 8,
+      "passed" : 9,
       "unknown" : 0,
-      "total" : 12
+      "total" : 13
     },
     "items" : [ {
+      "uid" : "6ccc4f953780e656",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585908129117,
+        "stop" : 1585908129493,
+        "duration" : 376
+      }
+    }, {
       "uid" : "b1514c2d45115dcf",
       "status" : "failed",
       "statusDetails" : "AssertionError: 获取班级【2020面授-1班】的id失败\nassert False",
@@ -2008,15 +1987,6 @@
         "stop" : 1585879690258,
         "duration" : 1
       }
-    }, {
-      "uid" : "813852b94bf32642",
-      "status" : "failed",
-      "statusDetails" : "AssertionError: 获取接口【forChat:获取老师相关的群聊班级新接口(返回包含正式班级和代理班级)】信息异常，info的params数据有误，转换为json时出错:\n{\"teacherId\":12}",
-      "time" : {
-        "start" : 1585878885813,
-        "stop" : 1585878885813,
-        "duration" : 0
-      }
     } ]
   },
   "99f55002b7784806e6fc3478882033e8" : {
@@ -2024,11 +1994,19 @@
       "failed" : 4,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 8,
+      "passed" : 9,
       "unknown" : 0,
-      "total" : 12
+      "total" : 13
     },
     "items" : [ {
+      "uid" : "935174c62c6bcff",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585908118586,
+        "stop" : 1585908119054,
+        "duration" : 468
+      }
+    }, {
       "uid" : "145e680ac88aa78e",
       "status" : "failed",
       "statusDetails" : "AssertionError: 获取班级【2020面授-1班】的id失败\nassert False",
@@ -2063,15 +2041,6 @@
         "stop" : 1585879688156,
         "duration" : 0
       }
-    }, {
-      "uid" : "4d6f070804abcdb1",
-      "status" : "failed",
-      "statusDetails" : "AssertionError: 获取接口【forChat:获取老师相关的群聊班级新接口(返回包含正式班级和代理班级)】信息异常，info的params数据有误，转换为json时出错:\n{\"teacherId\":12}",
-      "time" : {
-        "start" : 1585878884429,
-        "stop" : 1585878884429,
-        "duration" : 0
-      }
     } ]
   },
   "7eece893cbd7d4d042ccd20fc57f9051" : {
@@ -2079,11 +2048,19 @@
       "failed" : 4,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 11,
+      "passed" : 12,
       "unknown" : 0,
-      "total" : 15
+      "total" : 16
     },
     "items" : [ {
+      "uid" : "94ceea1522da258c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585908038476,
+        "stop" : 1585908039074,
+        "duration" : 598
+      }
+    }, {
       "uid" : "1cac21be55812925",
       "status" : "passed",
       "time" : {
@@ -2117,15 +2094,6 @@
         "stop" : 1585881127102,
         "duration" : 446
       }
-    }, {
-      "uid" : "fcfdb4350bec0e4a",
-      "status" : "failed",
-      "statusDetails" : "AssertionError: 获取接口【forChat:获取老师相关的群聊班级新接口(返回包含正式班级和代理班级)】信息异常，info的params数据有误，转换为json时出错:\n{\"teacherId\":12}",
-      "time" : {
-        "start" : 1585879683119,
-        "stop" : 1585879683119,
-        "duration" : 0
-      }
     } ]
   },
   "705cb8e1c5fba27e886062411cba0231" : {
@@ -2133,11 +2101,19 @@
       "failed" : 4,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 8,
+      "passed" : 9,
       "unknown" : 0,
-      "total" : 12
+      "total" : 13
     },
     "items" : [ {
+      "uid" : "c7af37b13a8a69f2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585908118239,
+        "stop" : 1585908118579,
+        "duration" : 340
+      }
+    }, {
       "uid" : "4fccc904cc9dfe35",
       "status" : "failed",
       "statusDetails" : "AssertionError: 获取班级【2020面授-1班】的id失败\nassert False",
@@ -2172,15 +2148,6 @@
         "stop" : 1585879688094,
         "duration" : 0
       }
-    }, {
-      "uid" : "7d89e000d43bf1f3",
-      "status" : "failed",
-      "statusDetails" : "AssertionError: 获取接口【forChat:获取老师相关的群聊班级新接口(返回包含正式班级和代理班级)】信息异常，info的params数据有误，转换为json时出错:\n{\"teacherId\":12}",
-      "time" : {
-        "start" : 1585878884373,
-        "stop" : 1585878884373,
-        "duration" : 0
-      }
     } ]
   },
   "7ab279e67442379843b83ef5530335cf" : {
@@ -2188,11 +2155,19 @@
       "failed" : 4,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 11,
+      "passed" : 12,
       "unknown" : 0,
-      "total" : 15
+      "total" : 16
     },
     "items" : [ {
+      "uid" : "f5801574ad3bef56",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585908039486,
+        "stop" : 1585908039993,
+        "duration" : 507
+      }
+    }, {
       "uid" : "ff292703a62af78a",
       "status" : "passed",
       "time" : {
@@ -2226,15 +2201,6 @@
         "stop" : 1585881127827,
         "duration" : 307
       }
-    }, {
-      "uid" : "cf6814eaeed5642c",
-      "status" : "failed",
-      "statusDetails" : "AssertionError: 获取接口【forChat:获取老师相关的群聊班级新接口(返回包含正式班级和代理班级)】信息异常，info的params数据有误，转换为json时出错:\n{\"teacherId\":12}",
-      "time" : {
-        "start" : 1585879683225,
-        "stop" : 1585879683225,
-        "duration" : 0
-      }
     } ]
   },
   "be858fa96f934bc56a5bc0c552e5f2c2" : {
@@ -2242,11 +2208,19 @@
       "failed" : 4,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 11,
+      "passed" : 12,
       "unknown" : 0,
-      "total" : 15
+      "total" : 16
     },
     "items" : [ {
+      "uid" : "9d7f72e6456c974",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585908039999,
+        "stop" : 1585908040328,
+        "duration" : 329
+      }
+    }, {
       "uid" : "1b5bccb60fc4808c",
       "status" : "passed",
       "time" : {
@@ -2280,15 +2254,6 @@
         "stop" : 1585881128332,
         "duration" : 501
       }
-    }, {
-      "uid" : "1ea56576ec71974f",
-      "status" : "failed",
-      "statusDetails" : "AssertionError: 获取接口【forChat:获取老师相关的群聊班级新接口(返回包含正式班级和代理班级)】信息异常，info的params数据有误，转换为json时出错:\n{\"teacherId\":12}",
-      "time" : {
-        "start" : 1585879683283,
-        "stop" : 1585879683283,
-        "duration" : 0
-      }
     } ]
   },
   "2819b93ac925c6b065f3a287b73093be" : {
@@ -2296,11 +2261,19 @@
       "failed" : 4,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 9,
+      "passed" : 10,
       "unknown" : 0,
-      "total" : 13
+      "total" : 14
     },
     "items" : [ {
+      "uid" : "7f7d14a2ff919798",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585908061679,
+        "stop" : 1585908062117,
+        "duration" : 438
+      }
+    }, {
       "uid" : "a6c3f2a432f9ea59",
       "status" : "failed",
       "statusDetails" : "AssertionError: 获取班级【2020面授-1班】的id失败\nassert False",
@@ -2335,15 +2308,6 @@
         "stop" : 1585879686112,
         "duration" : 0
       }
-    }, {
-      "uid" : "d8626277e3a4cc79",
-      "status" : "failed",
-      "statusDetails" : "AssertionError: 获取接口【forChat:获取老师相关的群聊班级新接口(返回包含正式班级和代理班级)】信息异常，info的params数据有误，转换为json时出错:\n{\"teacherId\":12}",
-      "time" : {
-        "start" : 1585878882059,
-        "stop" : 1585878882059,
-        "duration" : 0
-      }
     } ]
   },
   "a3bd057c3fb09f44d83ccb10b25e9dd3" : {
@@ -2351,11 +2315,19 @@
       "failed" : 4,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 9,
+      "passed" : 10,
       "unknown" : 0,
-      "total" : 13
+      "total" : 14
     },
     "items" : [ {
+      "uid" : "3ec00f3456a89835",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585908057929,
+        "stop" : 1585908058432,
+        "duration" : 503
+      }
+    }, {
       "uid" : "49e08dfb46acdff7",
       "status" : "failed",
       "statusDetails" : "AssertionError: 获取班级【2020面授-1班】的id失败\nassert False",
@@ -2390,15 +2362,6 @@
         "stop" : 1585879685672,
         "duration" : 0
       }
-    }, {
-      "uid" : "4fee44ed1686ceba",
-      "status" : "failed",
-      "statusDetails" : "AssertionError: 获取接口【forChat:获取老师相关的群聊班级新接口(返回包含正式班级和代理班级)】信息异常，info的params数据有误，转换为json时出错:\n{\"teacherId\":12}",
-      "time" : {
-        "start" : 1585878881564,
-        "stop" : 1585878881564,
-        "duration" : 0
-      }
     } ]
   },
   "5785df17f06e3874587ba25a7f986457" : {
@@ -2406,11 +2369,19 @@
       "failed" : 4,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 8,
+      "passed" : 9,
       "unknown" : 0,
-      "total" : 12
+      "total" : 13
     },
     "items" : [ {
+      "uid" : "e79c1c9b92a04162",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585908126670,
+        "stop" : 1585908127065,
+        "duration" : 395
+      }
+    }, {
       "uid" : "96643eabe9cbdf70",
       "status" : "failed",
       "statusDetails" : "AssertionError: 获取班级【2020面授-1班】的id失败\nassert False",
@@ -2445,15 +2416,6 @@
         "stop" : 1585879689907,
         "duration" : 0
       }
-    }, {
-      "uid" : "a0ed2fa4073da9af",
-      "status" : "failed",
-      "statusDetails" : "AssertionError: 获取接口【forChat:获取老师相关的群聊班级新接口(返回包含正式班级和代理班级)】信息异常，info的params数据有误，转换为json时出错:\n{\"teacherId\":12}",
-      "time" : {
-        "start" : 1585878885494,
-        "stop" : 1585878885494,
-        "duration" : 0
-      }
     } ]
   },
   "0cf764490ef71abbfbb64dabf383d4d5" : {
@@ -2461,11 +2423,19 @@
       "failed" : 4,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 8,
+      "passed" : 9,
       "unknown" : 0,
-      "total" : 12
+      "total" : 13
     },
     "items" : [ {
+      "uid" : "ad81425822f5212d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585908110454,
+        "stop" : 1585908110837,
+        "duration" : 383
+      }
+    }, {
       "uid" : "e85759b81a0b78b0",
       "status" : "failed",
       "statusDetails" : "AssertionError: 获取班级【2020面授-1班】的id失败\nassert False",
@@ -2500,15 +2470,6 @@
         "stop" : 1585879686748,
         "duration" : 0
       }
-    }, {
-      "uid" : "291379b6a6ecda08",
-      "status" : "failed",
-      "statusDetails" : "AssertionError: 获取接口【forChat:获取老师相关的群聊班级新接口(返回包含正式班级和代理班级)】信息异常，info的params数据有误，转换为json时出错:\n{\"teacherId\":12}",
-      "time" : {
-        "start" : 1585878882733,
-        "stop" : 1585878882733,
-        "duration" : 0
-      }
     } ]
   },
   "5e9751b6b70b36683cb848187e7502be" : {
@@ -2516,11 +2477,19 @@
       "failed" : 4,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 8,
+      "passed" : 9,
       "unknown" : 0,
-      "total" : 12
+      "total" : 13
     },
     "items" : [ {
+      "uid" : "c4a883d8db78e288",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585908120286,
+        "stop" : 1585908120587,
+        "duration" : 301
+      }
+    }, {
       "uid" : "ce5f7a75926ab6dc",
       "status" : "failed",
       "statusDetails" : "AssertionError: 获取班级【2020面授-1班】的id失败\nassert False",
@@ -2555,15 +2524,6 @@
         "stop" : 1585879688610,
         "duration" : 0
       }
-    }, {
-      "uid" : "7f069e854d520a9c",
-      "status" : "failed",
-      "statusDetails" : "AssertionError: 获取接口【forChat:获取老师相关的群聊班级新接口(返回包含正式班级和代理班级)】信息异常，info的params数据有误，转换为json时出错:\n{\"teacherId\":12}",
-      "time" : {
-        "start" : 1585878884667,
-        "stop" : 1585878884667,
-        "duration" : 0
-      }
     } ]
   },
   "7685c37fa477a0f72f6cdedaea47ae11" : {
@@ -2571,11 +2531,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 17,
+      "passed" : 18,
       "unknown" : 0,
-      "total" : 17
+      "total" : 18
     },
     "items" : [ {
+      "uid" : "7a1d1c8f362875c1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585907975238,
+        "stop" : 1585907975350,
+        "duration" : 112
+      }
+    }, {
       "uid" : "90775c28bf9ee45a",
       "status" : "passed",
       "time" : {
@@ -2607,14 +2575,6 @@
         "stop" : 1585905360823,
         "duration" : 112
       }
-    }, {
-      "uid" : "96c29220cad2792d",
-      "status" : "passed",
-      "time" : {
-        "start" : 1585904780661,
-        "stop" : 1585904780751,
-        "duration" : 90
-      }
     } ]
   },
   "9be1ebdf85b9806240a3c95b922ed163" : {
@@ -2622,11 +2582,19 @@
       "failed" : 7,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 7,
+      "passed" : 8,
       "unknown" : 0,
-      "total" : 14
+      "total" : 15
     },
     "items" : [ {
+      "uid" : "9ad67937f6528680",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585908025509,
+        "stop" : 1585908025596,
+        "duration" : 87
+      }
+    }, {
       "uid" : "65a52c718ae5d2d5",
       "status" : "passed",
       "time" : {
@@ -2661,14 +2629,6 @@
         "stop" : 1585903924672,
         "duration" : 0
       }
-    }, {
-      "uid" : "34f2a0ea4c1f896",
-      "status" : "passed",
-      "time" : {
-        "start" : 1585881111459,
-        "stop" : 1585881111540,
-        "duration" : 81
-      }
     } ]
   },
   "f2d41b5c02a1e4c32dbdc1c1a9969172" : {
@@ -2676,11 +2636,19 @@
       "failed" : 4,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 9,
+      "passed" : 10,
       "unknown" : 0,
-      "total" : 13
+      "total" : 14
     },
     "items" : [ {
+      "uid" : "4730b60335a545f5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585908047477,
+        "stop" : 1585908047963,
+        "duration" : 486
+      }
+    }, {
       "uid" : "5bb7bbbe368d376",
       "status" : "failed",
       "statusDetails" : "AssertionError: 获取班级【2020面授-1班】的id失败\nassert False",
@@ -2715,15 +2683,6 @@
         "stop" : 1585879684287,
         "duration" : 0
       }
-    }, {
-      "uid" : "639492d3a0a49736",
-      "status" : "failed",
-      "statusDetails" : "AssertionError: 获取接口【forChat:获取老师相关的群聊班级新接口(返回包含正式班级和代理班级)】信息异常，info的params数据有误，转换为json时出错:\n{\"teacherId\":12}",
-      "time" : {
-        "start" : 1585878880218,
-        "stop" : 1585878880218,
-        "duration" : 0
-      }
     } ]
   },
   "0e2e61daf6835e8b43be35663a38bc4a" : {
@@ -2731,11 +2690,19 @@
       "failed" : 4,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 9,
+      "passed" : 10,
       "unknown" : 0,
-      "total" : 13
+      "total" : 14
     },
     "items" : [ {
+      "uid" : "5821bdae79345274",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585908043594,
+        "stop" : 1585908044090,
+        "duration" : 496
+      }
+    }, {
       "uid" : "ba3b1afc6c46c308",
       "status" : "failed",
       "statusDetails" : "AssertionError: 获取班级【2020面授-1班】的id失败\nassert False",
@@ -2770,15 +2737,6 @@
         "stop" : 1585879683796,
         "duration" : 0
       }
-    }, {
-      "uid" : "bb1918a5d9133399",
-      "status" : "failed",
-      "statusDetails" : "AssertionError: 获取接口【forChat:获取老师相关的群聊班级新接口(返回包含正式班级和代理班级)】信息异常，info的params数据有误，转换为json时出错:\n{\"teacherId\":12}",
-      "time" : {
-        "start" : 1585878879744,
-        "stop" : 1585878879744,
-        "duration" : 0
-      }
     } ]
   },
   "1c20b770e5c744fc6491f2ec22610b73" : {
@@ -2786,11 +2744,19 @@
       "failed" : 4,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 7,
+      "passed" : 8,
       "unknown" : 0,
-      "total" : 11
+      "total" : 12
     },
     "items" : [ {
+      "uid" : "6175c21a8f67d72",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585908130161,
+        "stop" : 1585908139300,
+        "duration" : 9139
+      }
+    }, {
       "uid" : "11e624d2d46382f6",
       "status" : "failed",
       "statusDetails" : "AssertionError: 获取班级【2020面授-1班】的id失败\nassert False",
@@ -2825,15 +2791,6 @@
         "stop" : 1585879690443,
         "duration" : 0
       }
-    }, {
-      "uid" : "d45004e8c440d255",
-      "status" : "failed",
-      "statusDetails" : "AssertionError: 获取接口【forChat:获取老师相关的群聊班级新接口(返回包含正式班级和代理班级)】信息异常，info的params数据有误，转换为json时出错:\n{\"teacherId\":12}",
-      "time" : {
-        "start" : 1585878885963,
-        "stop" : 1585878885963,
-        "duration" : 0
-      }
     } ]
   },
   "c1e6050c707139348b38a3c7b512c359" : {
@@ -2841,11 +2798,19 @@
       "failed" : 4,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 9,
+      "passed" : 10,
       "unknown" : 0,
-      "total" : 13
+      "total" : 14
     },
     "items" : [ {
+      "uid" : "b2db3932433125a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585908059462,
+        "stop" : 1585908060064,
+        "duration" : 602
+      }
+    }, {
       "uid" : "eb4b1b278079995f",
       "status" : "failed",
       "statusDetails" : "AssertionError: 获取班级【2020面授-1班】的id失败\nassert False",
@@ -2880,15 +2845,6 @@
         "stop" : 1585879685880,
         "duration" : 0
       }
-    }, {
-      "uid" : "8ec930feb156379f",
-      "status" : "failed",
-      "statusDetails" : "AssertionError: 获取接口【forChat:获取老师相关的群聊班级新接口(返回包含正式班级和代理班级)】信息异常，info的params数据有误，转换为json时出错:\n{\"teacherId\":12}",
-      "time" : {
-        "start" : 1585878881765,
-        "stop" : 1585878881765,
-        "duration" : 0
-      }
     } ]
   },
   "11909f481f614d9ebb4d5deb158caa20" : {
@@ -2896,11 +2852,19 @@
       "failed" : 4,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 8,
+      "passed" : 9,
       "unknown" : 0,
-      "total" : 12
+      "total" : 13
     },
     "items" : [ {
+      "uid" : "128b5c03046860d7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585908129824,
+        "stop" : 1585908130155,
+        "duration" : 331
+      }
+    }, {
       "uid" : "d6be275a8a45fcd1",
       "status" : "failed",
       "statusDetails" : "AssertionError: 获取班级【2020面授-1班】的id失败\nassert False",
@@ -2935,15 +2899,6 @@
         "stop" : 1585879690391,
         "duration" : 0
       }
-    }, {
-      "uid" : "a0e7cbebb8c1d643",
-      "status" : "failed",
-      "statusDetails" : "AssertionError: 获取接口【forChat:获取老师相关的群聊班级新接口(返回包含正式班级和代理班级)】信息异常，info的params数据有误，转换为json时出错:\n{\"teacherId\":12}",
-      "time" : {
-        "start" : 1585878885913,
-        "stop" : 1585878885913,
-        "duration" : 0
-      }
     } ]
   },
   "b41b010c5446310344a53dcf90a7a9e8" : {
@@ -2951,11 +2906,19 @@
       "failed" : 4,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 8,
+      "passed" : 9,
       "unknown" : 0,
-      "total" : 12
+      "total" : 13
     },
     "items" : [ {
+      "uid" : "7dc4c6020ea090e0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585908124787,
+        "stop" : 1585908125303,
+        "duration" : 516
+      }
+    }, {
       "uid" : "c487d1125cd02137",
       "status" : "failed",
       "statusDetails" : "AssertionError: 获取班级【2020面授-1班】的id失败\nassert False",
@@ -2990,15 +2953,6 @@
         "stop" : 1585879689673,
         "duration" : 0
       }
-    }, {
-      "uid" : "6b0ef783bd8493c",
-      "status" : "failed",
-      "statusDetails" : "AssertionError: 获取接口【forChat:获取老师相关的群聊班级新接口(返回包含正式班级和代理班级)】信息异常，info的params数据有误，转换为json时出错:\n{\"teacherId\":12}",
-      "time" : {
-        "start" : 1585878885266,
-        "stop" : 1585878885266,
-        "duration" : 0
-      }
     } ]
   },
   "0d677d022e0ff51fb36ca9fb40c68877" : {
@@ -3006,11 +2960,19 @@
       "failed" : 7,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 11,
+      "passed" : 12,
       "unknown" : 0,
-      "total" : 18
+      "total" : 19
     },
     "items" : [ {
+      "uid" : "e322f127ed338b67",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585907974559,
+        "stop" : 1585907974698,
+        "duration" : 139
+      }
+    }, {
       "uid" : "5116408477aa29e0",
       "status" : "passed",
       "time" : {
@@ -3044,15 +3006,6 @@
         "stop" : 1585905359453,
         "duration" : 0
       }
-    }, {
-      "uid" : "383ef437f984f7d7",
-      "status" : "failed",
-      "statusDetails" : "AssertionError: 获取班级【20面授一年-2班】的id失败\nassert False",
-      "time" : {
-        "start" : 1585904779126,
-        "stop" : 1585904779126,
-        "duration" : 0
-      }
     } ]
   },
   "41a29bfe01285ffd37ead1509ef7c005" : {
@@ -3060,11 +3013,19 @@
       "failed" : 4,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 8,
+      "passed" : 9,
       "unknown" : 0,
-      "total" : 12
+      "total" : 13
     },
     "items" : [ {
+      "uid" : "b289247fa8f85023",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585908109590,
+        "stop" : 1585908109979,
+        "duration" : 389
+      }
+    }, {
       "uid" : "2e2f87b6ed79ea74",
       "status" : "failed",
       "statusDetails" : "AssertionError: 获取班级【2020面授-1班】的id失败\nassert False",
@@ -3099,15 +3060,6 @@
         "stop" : 1585879686636,
         "duration" : 0
       }
-    }, {
-      "uid" : "c7212109e39a1e7e",
-      "status" : "failed",
-      "statusDetails" : "AssertionError: 获取接口【forChat:获取老师相关的群聊班级新接口(返回包含正式班级和代理班级)】信息异常，info的params数据有误，转换为json时出错:\n{\"teacherId\":12}",
-      "time" : {
-        "start" : 1585878882611,
-        "stop" : 1585878882611,
-        "duration" : 0
-      }
     } ]
   },
   "ea2a6bcb0052846d3213ebc1f65968fc" : {
@@ -3115,11 +3067,19 @@
       "failed" : 4,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 9,
+      "passed" : 10,
       "unknown" : 0,
-      "total" : 13
+      "total" : 14
     },
     "items" : [ {
+      "uid" : "5e0563315730f26b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585908054949,
+        "stop" : 1585908055373,
+        "duration" : 424
+      }
+    }, {
       "uid" : "52c8559f6a25932c",
       "status" : "failed",
       "statusDetails" : "AssertionError: 获取班级【2020面授-1班】的id失败\nassert False",
@@ -3154,15 +3114,6 @@
         "stop" : 1585879685288,
         "duration" : 0
       }
-    }, {
-      "uid" : "859185d0a3f7c3cb",
-      "status" : "failed",
-      "statusDetails" : "AssertionError: 获取接口【forChat:获取老师相关的群聊班级新接口(返回包含正式班级和代理班级)】信息异常，info的params数据有误，转换为json时出错:\n{\"teacherId\":12}",
-      "time" : {
-        "start" : 1585878881186,
-        "stop" : 1585878881186,
-        "duration" : 0
-      }
     } ]
   },
   "0dd39b8aab07cb9794fae7714e2dc695" : {
@@ -3170,11 +3121,19 @@
       "failed" : 4,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 9,
+      "passed" : 10,
       "unknown" : 0,
-      "total" : 13
+      "total" : 14
     },
     "items" : [ {
+      "uid" : "c46d9d7a917afca7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585908052618,
+        "stop" : 1585908052941,
+        "duration" : 323
+      }
+    }, {
       "uid" : "e29bec9ee9c1c896",
       "status" : "failed",
       "statusDetails" : "AssertionError: 获取班级【2020面授-1班】的id失败\nassert False",
@@ -3209,15 +3168,6 @@
         "stop" : 1585879684981,
         "duration" : 0
       }
-    }, {
-      "uid" : "d082613e5f0f601",
-      "status" : "failed",
-      "statusDetails" : "AssertionError: 获取接口【forChat:获取老师相关的群聊班级新接口(返回包含正式班级和代理班级)】信息异常，info的params数据有误，转换为json时出错:\n{\"teacherId\":12}",
-      "time" : {
-        "start" : 1585878880883,
-        "stop" : 1585878880883,
-        "duration" : 0
-      }
     } ]
   },
   "27b289ddfe311bb947c69d27575315fe" : {
@@ -3225,11 +3175,19 @@
       "failed" : 4,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 11,
+      "passed" : 12,
       "unknown" : 0,
-      "total" : 15
+      "total" : 16
     },
     "items" : [ {
+      "uid" : "7ea3e2872e1a88b5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585908042456,
+        "stop" : 1585908042870,
+        "duration" : 414
+      }
+    }, {
       "uid" : "a28611ed32e6c707",
       "status" : "passed",
       "time" : {
@@ -3263,15 +3221,6 @@
         "stop" : 1585881130012,
         "duration" : 349
       }
-    }, {
-      "uid" : "d9c4d3964f1f5597",
-      "status" : "failed",
-      "statusDetails" : "AssertionError: 获取接口【forChat:获取老师相关的群聊班级新接口(返回包含正式班级和代理班级)】信息异常，info的params数据有误，转换为json时出错:\n{\"teacherId\":12}",
-      "time" : {
-        "start" : 1585879683597,
-        "stop" : 1585879683597,
-        "duration" : 0
-      }
     } ]
   },
   "6d4c3e65680c2c364dc1dd56bb63baba" : {
@@ -3279,11 +3228,19 @@
       "failed" : 4,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 9,
+      "passed" : 10,
       "unknown" : 0,
-      "total" : 13
+      "total" : 14
     },
     "items" : [ {
+      "uid" : "aa27495e8cde15ca",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585908050014,
+        "stop" : 1585908050472,
+        "duration" : 458
+      }
+    }, {
       "uid" : "e5318fde1cc99adc",
       "status" : "failed",
       "statusDetails" : "AssertionError: 获取班级【2020面授-1班】的id失败\nassert False",
@@ -3318,15 +3275,6 @@
         "stop" : 1585879684600,
         "duration" : 0
       }
-    }, {
-      "uid" : "6bf1e3486d9483f2",
-      "status" : "failed",
-      "statusDetails" : "AssertionError: 获取接口【forChat:获取老师相关的群聊班级新接口(返回包含正式班级和代理班级)】信息异常，info的params数据有误，转换为json时出错:\n{\"teacherId\":12}",
-      "time" : {
-        "start" : 1585878880517,
-        "stop" : 1585878880517,
-        "duration" : 0
-      }
     } ]
   },
   "15f97cea1115a57cce5c0dbd47bc8373" : {
@@ -3334,11 +3282,19 @@
       "failed" : 4,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 11,
+      "passed" : 12,
       "unknown" : 0,
-      "total" : 15
+      "total" : 16
     },
     "items" : [ {
+      "uid" : "46376198f2502164",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585908041949,
+        "stop" : 1585908042452,
+        "duration" : 503
+      }
+    }, {
       "uid" : "2cbd3b3b7b73c9e2",
       "status" : "passed",
       "time" : {
@@ -3372,15 +3328,6 @@
         "stop" : 1585881129659,
         "duration" : 406
       }
-    }, {
-      "uid" : "1a6d318eb44a385c",
-      "status" : "failed",
-      "statusDetails" : "AssertionError: 获取接口【forChat:获取老师相关的群聊班级新接口(返回包含正式班级和代理班级)】信息异常，info的params数据有误，转换为json时出错:\n{\"teacherId\":12}",
-      "time" : {
-        "start" : 1585879683539,
-        "stop" : 1585879683539,
-        "duration" : 0
-      }
     } ]
   },
   "0d1b2aa27bfbc62e8ba193d8e2355017" : {
@@ -3388,11 +3335,19 @@
       "failed" : 4,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 8,
+      "passed" : 9,
       "unknown" : 0,
-      "total" : 12
+      "total" : 13
     },
     "items" : [ {
+      "uid" : "c2a08afef1ecb92f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585908117004,
+        "stop" : 1585908117417,
+        "duration" : 413
+      }
+    }, {
       "uid" : "5d9df18face2a0e0",
       "status" : "failed",
       "statusDetails" : "AssertionError: 获取班级【2020面授-1班】的id失败\nassert False",
@@ -3427,15 +3382,6 @@
         "stop" : 1585879687880,
         "duration" : 0
       }
-    }, {
-      "uid" : "580b6f27f85f8d",
-      "status" : "failed",
-      "statusDetails" : "AssertionError: 获取接口【forChat:获取老师相关的群聊班级新接口(返回包含正式班级和代理班级)】信息异常，info的params数据有误，转换为json时出错:\n{\"teacherId\":12}",
-      "time" : {
-        "start" : 1585878884145,
-        "stop" : 1585878884145,
-        "duration" : 0
-      }
     } ]
   },
   "06361f8fc76cf0d9b36186e92ce8f762" : {
@@ -3443,11 +3389,19 @@
       "failed" : 6,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 11,
+      "passed" : 12,
       "unknown" : 0,
-      "total" : 17
+      "total" : 18
     },
     "items" : [ {
+      "uid" : "ffe0fc7b88d69935",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585907976111,
+        "stop" : 1585907985383,
+        "duration" : 9272
+      }
+    }, {
       "uid" : "67c9ce0e4e67fb07",
       "status" : "passed",
       "time" : {
@@ -3481,15 +3435,6 @@
         "stop" : 1585905361907,
         "duration" : 0
       }
-    }, {
-      "uid" : "234877ef91e3c31c",
-      "status" : "failed",
-      "statusDetails" : "AssertionError: 获取班级【20面授一年-2班】的id失败\nassert False",
-      "time" : {
-        "start" : 1585904781589,
-        "stop" : 1585904781589,
-        "duration" : 0
-      }
     } ]
   },
   "b97c22da4248c7be6d65e9414ff09850" : {
@@ -3497,11 +3442,19 @@
       "failed" : 4,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 9,
+      "passed" : 10,
       "unknown" : 0,
-      "total" : 13
+      "total" : 14
     },
     "items" : [ {
+      "uid" : "c18169faddcdf2f1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585908052148,
+        "stop" : 1585908052614,
+        "duration" : 466
+      }
+    }, {
       "uid" : "b84ffd4992a52f15",
       "status" : "failed",
       "statusDetails" : "AssertionError: 获取班级【2020面授-1班】的id失败\nassert False",
@@ -3536,15 +3489,6 @@
         "stop" : 1585879684921,
         "duration" : 0
       }
-    }, {
-      "uid" : "ab36c4796feafa4c",
-      "status" : "failed",
-      "statusDetails" : "AssertionError: 获取接口【forChat:获取老师相关的群聊班级新接口(返回包含正式班级和代理班级)】信息异常，info的params数据有误，转换为json时出错:\n{\"teacherId\":12}",
-      "time" : {
-        "start" : 1585878880824,
-        "stop" : 1585878880824,
-        "duration" : 0
-      }
     } ]
   },
   "7d7c5d0afe0916d675e4f9ee494535f2" : {
@@ -3552,11 +3496,19 @@
       "failed" : 4,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 9,
+      "passed" : 10,
       "unknown" : 0,
-      "total" : 13
+      "total" : 14
     },
     "items" : [ {
+      "uid" : "5f2b270217d5c532",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585908046143,
+        "stop" : 1585908046446,
+        "duration" : 303
+      }
+    }, {
       "uid" : "cc6c8a98bd4f8bba",
       "status" : "failed",
       "statusDetails" : "AssertionError: 获取班级【2020面授-1班】的id失败\nassert False",
@@ -3591,15 +3543,6 @@
         "stop" : 1585879684088,
         "duration" : 0
       }
-    }, {
-      "uid" : "824f6b3f2777d2a9",
-      "status" : "failed",
-      "statusDetails" : "AssertionError: 获取接口【forChat:获取老师相关的群聊班级新接口(返回包含正式班级和代理班级)】信息异常，info的params数据有误，转换为json时出错:\n{\"teacherId\":12}",
-      "time" : {
-        "start" : 1585878880049,
-        "stop" : 1585878880049,
-        "duration" : 0
-      }
     } ]
   },
   "5a23344397826cf0165e5438ff87bef4" : {
@@ -3607,11 +3550,19 @@
       "failed" : 4,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 9,
+      "passed" : 10,
       "unknown" : 0,
-      "total" : 13
+      "total" : 14
     },
     "items" : [ {
+      "uid" : "c5b8f953b56a4c48",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585908043286,
+        "stop" : 1585908043590,
+        "duration" : 304
+      }
+    }, {
       "uid" : "4e2815e012b0fc72",
       "status" : "failed",
       "statusDetails" : "AssertionError: 获取班级【2020面授-1班】的id失败\nassert False",
@@ -3646,15 +3597,6 @@
         "stop" : 1585879683717,
         "duration" : 0
       }
-    }, {
-      "uid" : "ed20e7a5507d872d",
-      "status" : "failed",
-      "statusDetails" : "AssertionError: 获取接口【forChat:获取老师相关的群聊班级新接口(返回包含正式班级和代理班级)】信息异常，info的params数据有误，转换为json时出错:\n{\"teacherId\":12}",
-      "time" : {
-        "start" : 1585878879671,
-        "stop" : 1585878879671,
-        "duration" : 0
-      }
     } ]
   },
   "2cc220593629bdbac8f5ca9c4610f311" : {
@@ -3662,11 +3604,19 @@
       "failed" : 7,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 7,
+      "passed" : 8,
       "unknown" : 0,
-      "total" : 14
+      "total" : 15
     },
     "items" : [ {
+      "uid" : "dd53430592ac87ca",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585907994719,
+        "stop" : 1585908003939,
+        "duration" : 9220
+      }
+    }, {
       "uid" : "c09432c559a8f4a2",
       "status" : "passed",
       "time" : {
@@ -3701,14 +3651,6 @@
         "stop" : 1585903924432,
         "duration" : 0
       }
-    }, {
-      "uid" : "2099175ea3205f0a",
-      "status" : "passed",
-      "time" : {
-        "start" : 1585881080005,
-        "stop" : 1585881088985,
-        "duration" : 8980
-      }
     } ]
   },
   "841cdbe00bbe7376eb1df92e07928b3b" : {
@@ -3716,11 +3658,19 @@
       "failed" : 4,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 8,
+      "passed" : 9,
       "unknown" : 0,
-      "total" : 12
+      "total" : 13
     },
     "items" : [ {
+      "uid" : "bdbbd62f43373fbd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585908115869,
+        "stop" : 1585908116296,
+        "duration" : 427
+      }
+    }, {
       "uid" : "9b0c9a6b9367ae18",
       "status" : "failed",
       "statusDetails" : "AssertionError: 获取班级【2020面授-1班】的id失败\nassert False",
@@ -3755,15 +3705,6 @@
         "stop" : 1585879687740,
         "duration" : 0
       }
-    }, {
-      "uid" : "df3c3ca50587ccc",
-      "status" : "failed",
-      "statusDetails" : "AssertionError: 获取接口【forChat:获取老师相关的群聊班级新接口(返回包含正式班级和代理班级)】信息异常，info的params数据有误，转换为json时出错:\n{\"teacherId\":12}",
-      "time" : {
-        "start" : 1585878884041,
-        "stop" : 1585878884041,
-        "duration" : 0
-      }
     } ]
   },
   "92d15c5d211f3276ece7cf5ecaac3754" : {
@@ -3771,11 +3712,19 @@
       "failed" : 10,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 15,
+      "passed" : 16,
       "unknown" : 0,
-      "total" : 25
+      "total" : 26
     },
     "items" : [ {
+      "uid" : "a7d672d4b88b36a7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585907974339,
+        "stop" : 1585907974554,
+        "duration" : 215
+      }
+    }, {
       "uid" : "463eecd042dbdefc",
       "status" : "passed",
       "time" : {
@@ -3809,15 +3758,6 @@
         "stop" : 1585905359114,
         "duration" : 0
       }
-    }, {
-      "uid" : "b835375d19065523",
-      "status" : "failed",
-      "statusDetails" : "AssertionError: 获取班级【2020面授-1班】的id失败\nassert False",
-      "time" : {
-        "start" : 1585904794915,
-        "stop" : 1585904794915,
-        "duration" : 0
-      }
     } ]
   },
   "44e9c52defd58a16beb58cf5081f65c5" : {
@@ -3825,11 +3765,19 @@
       "failed" : 4,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 9,
+      "passed" : 10,
       "unknown" : 0,
-      "total" : 13
+      "total" : 14
     },
     "items" : [ {
+      "uid" : "80bec30f2872b44c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585908054092,
+        "stop" : 1585908054418,
+        "duration" : 326
+      }
+    }, {
       "uid" : "56802c5bd491b779",
       "status" : "failed",
       "statusDetails" : "AssertionError: 获取班级【2020面授-1班】的id失败\nassert False",
@@ -3864,15 +3812,6 @@
         "stop" : 1585879685173,
         "duration" : 0
       }
-    }, {
-      "uid" : "1421f8e35fb08d8e",
-      "status" : "failed",
-      "statusDetails" : "AssertionError: 获取接口【forChat:获取老师相关的群聊班级新接口(返回包含正式班级和代理班级)】信息异常，info的params数据有误，转换为json时出错:\n{\"teacherId\":12}",
-      "time" : {
-        "start" : 1585878881074,
-        "stop" : 1585878881074,
-        "duration" : 0
-      }
     } ]
   },
   "86861e1ec84f627e0c9c3c9e07c2d0d1" : {
@@ -3880,11 +3819,19 @@
       "failed" : 4,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 10,
+      "passed" : 11,
       "unknown" : 0,
-      "total" : 14
+      "total" : 15
     },
     "items" : [ {
+      "uid" : "f9575f6bcc66d156",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585908042874,
+        "stop" : 1585908043281,
+        "duration" : 407
+      }
+    }, {
       "uid" : "2948fd91b86ea26e",
       "status" : "failed",
       "statusDetails" : "AssertionError: 获取班级【2020面授-1班】的id失败\nassert False",
@@ -3919,15 +3866,6 @@
         "stop" : 1585879683659,
         "duration" : 0
       }
-    }, {
-      "uid" : "77dc96dd57798dcb",
-      "status" : "failed",
-      "statusDetails" : "AssertionError: 获取接口【forChat:获取老师相关的群聊班级新接口(返回包含正式班级和代理班级)】信息异常，info的params数据有误，转换为json时出错:\n{\"teacherId\":12}",
-      "time" : {
-        "start" : 1585878879615,
-        "stop" : 1585878879615,
-        "duration" : 0
-      }
     } ]
   },
   "730e3543a18df49fd0fbde322b22f238" : {
@@ -3935,11 +3873,19 @@
       "failed" : 4,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 9,
+      "passed" : 10,
       "unknown" : 0,
-      "total" : 13
+      "total" : 14
     },
     "items" : [ {
+      "uid" : "1fc45ce2e19a6b21",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585908045647,
+        "stop" : 1585908046139,
+        "duration" : 492
+      }
+    }, {
       "uid" : "98147482f670fb83",
       "status" : "failed",
       "statusDetails" : "AssertionError: 获取班级【2020面授-1班】的id失败\nassert False",
@@ -3974,15 +3920,6 @@
         "stop" : 1585879684030,
         "duration" : 0
       }
-    }, {
-      "uid" : "e2e7eaf1b6fb0428",
-      "status" : "failed",
-      "statusDetails" : "AssertionError: 获取接口【forChat:获取老师相关的群聊班级新接口(返回包含正式班级和代理班级)】信息异常，info的params数据有误，转换为json时出错:\n{\"teacherId\":12}",
-      "time" : {
-        "start" : 1585878879968,
-        "stop" : 1585878879968,
-        "duration" : 0
-      }
     } ]
   },
   "32008574bf914863d2ec2b52c4f7e50e" : {
@@ -3990,11 +3927,19 @@
       "failed" : 4,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 8,
+      "passed" : 9,
       "unknown" : 0,
-      "total" : 12
+      "total" : 13
     },
     "items" : [ {
+      "uid" : "439ea72931c046c1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585908121493,
+        "stop" : 1585908121964,
+        "duration" : 471
+      }
+    }, {
       "uid" : "5e9c5ba06bbad545",
       "status" : "failed",
       "statusDetails" : "AssertionError: 获取班级【2020面授-1班】的id失败\nassert False",
@@ -4029,15 +3974,6 @@
         "stop" : 1585879688975,
         "duration" : 0
       }
-    }, {
-      "uid" : "56eb1ac9d7ccb5b3",
-      "status" : "failed",
-      "statusDetails" : "AssertionError: 获取接口【forChat:获取老师相关的群聊班级新接口(返回包含正式班级和代理班级)】信息异常，info的params数据有误，转换为json时出错:\n{\"teacherId\":12}",
-      "time" : {
-        "start" : 1585878884850,
-        "stop" : 1585878884850,
-        "duration" : 0
-      }
     } ]
   },
   "61f5c0dd30877187db07309b7619af4f" : {
@@ -4045,11 +3981,19 @@
       "failed" : 4,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 9,
+      "passed" : 10,
       "unknown" : 0,
-      "total" : 13
+      "total" : 14
     },
     "items" : [ {
+      "uid" : "d74efee90368a76",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585908057508,
+        "stop" : 1585908057924,
+        "duration" : 416
+      }
+    }, {
       "uid" : "ce1dcd21fb66be7b",
       "status" : "failed",
       "statusDetails" : "AssertionError: 获取班级【2020面授-1班】的id失败\nassert False",
@@ -4084,15 +4028,6 @@
         "stop" : 1585879685609,
         "duration" : 0
       }
-    }, {
-      "uid" : "68d1868733c29dbe",
-      "status" : "failed",
-      "statusDetails" : "AssertionError: 获取接口【forChat:获取老师相关的群聊班级新接口(返回包含正式班级和代理班级)】信息异常，info的params数据有误，转换为json时出错:\n{\"teacherId\":12}",
-      "time" : {
-        "start" : 1585878881508,
-        "stop" : 1585878881508,
-        "duration" : 0
-      }
     } ]
   },
   "b440e8da3d94ffa999ac86274eb42162" : {
@@ -4100,11 +4035,19 @@
       "failed" : 4,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 9,
+      "passed" : 10,
       "unknown" : 0,
-      "total" : 13
+      "total" : 14
     },
     "items" : [ {
+      "uid" : "d0e191dc3d59cae1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585908055378,
+        "stop" : 1585908055882,
+        "duration" : 504
+      }
+    }, {
       "uid" : "b64ef40a6c67025",
       "status" : "failed",
       "statusDetails" : "AssertionError: 获取班级【2020面授-1班】的id失败\nassert False",
@@ -4139,15 +4082,6 @@
         "stop" : 1585879685344,
         "duration" : 0
       }
-    }, {
-      "uid" : "160e0525310ad6b7",
-      "status" : "failed",
-      "statusDetails" : "AssertionError: 获取接口【forChat:获取老师相关的群聊班级新接口(返回包含正式班级和代理班级)】信息异常，info的params数据有误，转换为json时出错:\n{\"teacherId\":12}",
-      "time" : {
-        "start" : 1585878881247,
-        "stop" : 1585878881247,
-        "duration" : 0
-      }
     } ]
   },
   "be9a8fd76045c832caa7011b8c4318d0" : {
@@ -4155,11 +4089,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 17,
+      "passed" : 18,
       "unknown" : 0,
-      "total" : 17
+      "total" : 18
     },
     "items" : [ {
+      "uid" : "855e94ef08d75b55",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585907975131,
+        "stop" : 1585907975229,
+        "duration" : 98
+      }
+    }, {
       "uid" : "4491204dc2a99ddb",
       "status" : "passed",
       "time" : {
@@ -4191,14 +4133,6 @@
         "stop" : 1585905360703,
         "duration" : 127
       }
-    }, {
-      "uid" : "164a063ddcb407e2",
-      "status" : "passed",
-      "time" : {
-        "start" : 1585904780560,
-        "stop" : 1585904780652,
-        "duration" : 92
-      }
     } ]
   },
   "8c71994bdb9b4c71e48d57d9c6c97085" : {
@@ -4206,11 +4140,19 @@
       "failed" : 4,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 9,
+      "passed" : 10,
       "unknown" : 0,
-      "total" : 13
+      "total" : 14
     },
     "items" : [ {
+      "uid" : "418fc4e1a18c76ce",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585908051366,
+        "stop" : 1585908051880,
+        "duration" : 514
+      }
+    }, {
       "uid" : "8ad75a5a61c8478d",
       "status" : "failed",
       "statusDetails" : "AssertionError: 获取班级【2020面授-1班】的id失败\nassert False",
@@ -4245,15 +4187,6 @@
         "stop" : 1585879684777,
         "duration" : 0
       }
-    }, {
-      "uid" : "2b84454851b54c1b",
-      "status" : "failed",
-      "statusDetails" : "AssertionError: 获取接口【forChat:获取老师相关的群聊班级新接口(返回包含正式班级和代理班级)】信息异常，info的params数据有误，转换为json时出错:\n{\"teacherId\":12}",
-      "time" : {
-        "start" : 1585878880710,
-        "stop" : 1585878880710,
-        "duration" : 0
-      }
     } ]
   },
   "605225057ab8fcf087c315141a52bdaf" : {
@@ -4261,11 +4194,19 @@
       "failed" : 4,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 9,
+      "passed" : 10,
       "unknown" : 0,
-      "total" : 13
+      "total" : 14
     },
     "items" : [ {
+      "uid" : "f8907994aa60c78c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585908061299,
+        "stop" : 1585908061674,
+        "duration" : 375
+      }
+    }, {
       "uid" : "ae18befb0d8a485e",
       "status" : "failed",
       "statusDetails" : "AssertionError: 获取班级【2020面授-1班】的id失败\nassert False",
@@ -4300,15 +4241,6 @@
         "stop" : 1585879686057,
         "duration" : 0
       }
-    }, {
-      "uid" : "8973ab2eb5ea5a5f",
-      "status" : "failed",
-      "statusDetails" : "AssertionError: 获取接口【forChat:获取老师相关的群聊班级新接口(返回包含正式班级和代理班级)】信息异常，info的params数据有误，转换为json时出错:\n{\"teacherId\":12}",
-      "time" : {
-        "start" : 1585878881968,
-        "stop" : 1585878881968,
-        "duration" : 0
-      }
     } ]
   },
   "61253e6ac272914810ae19c95f1388ad" : {
@@ -4316,11 +4248,19 @@
       "failed" : 4,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 9,
+      "passed" : 10,
       "unknown" : 0,
-      "total" : 13
+      "total" : 14
     },
     "items" : [ {
+      "uid" : "c8303b22b1bd2b19",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585908058436,
+        "stop" : 1585908058945,
+        "duration" : 509
+      }
+    }, {
       "uid" : "fc7c10546f43ad47",
       "status" : "failed",
       "statusDetails" : "AssertionError: 获取班级【2020面授-1班】的id失败\nassert False",
@@ -4355,15 +4295,6 @@
         "stop" : 1585879685732,
         "duration" : 0
       }
-    }, {
-      "uid" : "3399507c42065cd5",
-      "status" : "failed",
-      "statusDetails" : "AssertionError: 获取接口【forChat:获取老师相关的群聊班级新接口(返回包含正式班级和代理班级)】信息异常，info的params数据有误，转换为json时出错:\n{\"teacherId\":12}",
-      "time" : {
-        "start" : 1585878881621,
-        "stop" : 1585878881621,
-        "duration" : 0
-      }
     } ]
   },
   "c7b81d6a4fecaa7d72e4c9a1fc8fd734" : {
@@ -4371,11 +4302,19 @@
       "failed" : 4,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 8,
+      "passed" : 9,
       "unknown" : 0,
-      "total" : 12
+      "total" : 13
     },
     "items" : [ {
+      "uid" : "d8e92c9dc2b4953f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585908126223,
+        "stop" : 1585908126666,
+        "duration" : 443
+      }
+    }, {
       "uid" : "bc5cdcd5f11c23cd",
       "status" : "failed",
       "statusDetails" : "AssertionError: 获取班级【2020面授-1班】的id失败\nassert False",
@@ -4410,15 +4349,6 @@
         "stop" : 1585879689858,
         "duration" : 0
       }
-    }, {
-      "uid" : "776abd83b3e77d84",
-      "status" : "failed",
-      "statusDetails" : "AssertionError: 获取接口【forChat:获取老师相关的群聊班级新接口(返回包含正式班级和代理班级)】信息异常，info的params数据有误，转换为json时出错:\n{\"teacherId\":12}",
-      "time" : {
-        "start" : 1585878885447,
-        "stop" : 1585878885447,
-        "duration" : 0
-      }
     } ]
   },
   "a3020976ac0e822018d3ddce7cf38f13" : {
@@ -4426,11 +4356,19 @@
       "failed" : 4,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 9,
+      "passed" : 10,
       "unknown" : 0,
-      "total" : 13
+      "total" : 14
     },
     "items" : [ {
+      "uid" : "c6e93f99ed7eb393",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585908048992,
+        "stop" : 1585908049518,
+        "duration" : 526
+      }
+    }, {
       "uid" : "66080ab1efd5fa57",
       "status" : "failed",
       "statusDetails" : "AssertionError: 获取班级【2020面授-1班】的id失败\nassert False",
@@ -4465,15 +4403,6 @@
         "stop" : 1585879684488,
         "duration" : 0
       }
-    }, {
-      "uid" : "fccabcaa42ff6874",
-      "status" : "failed",
-      "statusDetails" : "AssertionError: 获取接口【forChat:获取老师相关的群聊班级新接口(返回包含正式班级和代理班级)】信息异常，info的params数据有误，转换为json时出错:\n{\"teacherId\":12}",
-      "time" : {
-        "start" : 1585878880409,
-        "stop" : 1585878880409,
-        "duration" : 0
-      }
     } ]
   },
   "dc387f9909e422b01bc9053b5647100d" : {
@@ -4481,11 +4410,19 @@
       "failed" : 4,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 9,
+      "passed" : 10,
       "unknown" : 0,
-      "total" : 13
+      "total" : 14
     },
     "items" : [ {
+      "uid" : "dff28640dacd1e0f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585908062120,
+        "stop" : 1585908062612,
+        "duration" : 492
+      }
+    }, {
       "uid" : "75fa9f7291fa4ffe",
       "status" : "failed",
       "statusDetails" : "AssertionError: 获取班级【2020面授-1班】的id失败\nassert False",
@@ -4520,15 +4457,6 @@
         "stop" : 1585879686173,
         "duration" : 0
       }
-    }, {
-      "uid" : "47b910e355df56d9",
-      "status" : "failed",
-      "statusDetails" : "AssertionError: 获取接口【forChat:获取老师相关的群聊班级新接口(返回包含正式班级和代理班级)】信息异常，info的params数据有误，转换为json时出错:\n{\"teacherId\":12}",
-      "time" : {
-        "start" : 1585878882123,
-        "stop" : 1585878882123,
-        "duration" : 0
-      }
     } ]
   },
   "7a087b05e9403ae841da09904959092a" : {
@@ -4536,11 +4464,19 @@
       "failed" : 7,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 7,
+      "passed" : 8,
       "unknown" : 0,
-      "total" : 14
+      "total" : 15
     },
     "items" : [ {
+      "uid" : "dc10dc1e814dde55",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585908015234,
+        "stop" : 1585908024248,
+        "duration" : 9014
+      }
+    }, {
       "uid" : "7d04d907708ef1ad",
       "status" : "passed",
       "time" : {
@@ -4575,14 +4511,6 @@
         "stop" : 1585903924598,
         "duration" : 0
       }
-    }, {
-      "uid" : "ed2f31a074a70744",
-      "status" : "passed",
-      "time" : {
-        "start" : 1585881100856,
-        "stop" : 1585881110070,
-        "duration" : 9214
-      }
     } ]
   },
   "925deebace99cbc90204fe8a7f1e686f" : {
@@ -4590,11 +4518,19 @@
       "failed" : 4,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 9,
+      "passed" : 10,
       "unknown" : 0,
-      "total" : 13
+      "total" : 14
     },
     "items" : [ {
+      "uid" : "4d8634afca0f5b3f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585908055886,
+        "stop" : 1585908056455,
+        "duration" : 569
+      }
+    }, {
       "uid" : "c40679a2052f0412",
       "status" : "failed",
       "statusDetails" : "AssertionError: 获取班级【2020面授-1班】的id失败\nassert False",
@@ -4629,15 +4565,6 @@
         "stop" : 1585879685403,
         "duration" : 0
       }
-    }, {
-      "uid" : "826e8b9d9bc4fd28",
-      "status" : "failed",
-      "statusDetails" : "AssertionError: 获取接口【forChat:获取老师相关的群聊班级新接口(返回包含正式班级和代理班级)】信息异常，info的params数据有误，转换为json时出错:\n{\"teacherId\":12}",
-      "time" : {
-        "start" : 1585878881308,
-        "stop" : 1585878881308,
-        "duration" : 0
-      }
     } ]
   },
   "a3e04c6be8194795920593d2c1344fa2" : {
@@ -4645,11 +4572,19 @@
       "failed" : 4,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 9,
+      "passed" : 10,
       "unknown" : 0,
-      "total" : 13
+      "total" : 14
     },
     "items" : [ {
+      "uid" : "39b467c77ecb1952",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585908060068,
+        "stop" : 1585908060693,
+        "duration" : 625
+      }
+    }, {
       "uid" : "e932b8254fc55158",
       "status" : "failed",
       "statusDetails" : "AssertionError: 获取班级【2020面授-1班】的id失败\nassert False",
@@ -4684,15 +4619,6 @@
         "stop" : 1585879685936,
         "duration" : 0
       }
-    }, {
-      "uid" : "d112a348d5d67cdf",
-      "status" : "failed",
-      "statusDetails" : "AssertionError: 获取接口【forChat:获取老师相关的群聊班级新接口(返回包含正式班级和代理班级)】信息异常，info的params数据有误，转换为json时出错:\n{\"teacherId\":12}",
-      "time" : {
-        "start" : 1585878881833,
-        "stop" : 1585878881833,
-        "duration" : 0
-      }
     } ]
   },
   "6d91658fed1e5916ee72fc5baec704e9" : {
@@ -4700,11 +4626,19 @@
       "failed" : 7,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 7,
+      "passed" : 8,
       "unknown" : 0,
-      "total" : 14
+      "total" : 15
     },
     "items" : [ {
+      "uid" : "5b61991e61c5b582",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585908037854,
+        "stop" : 1585908038387,
+        "duration" : 533
+      }
+    }, {
       "uid" : "32664b21ad9a7911",
       "status" : "passed",
       "time" : {
@@ -4739,14 +4673,6 @@
         "stop" : 1585903924837,
         "duration" : 0
       }
-    }, {
-      "uid" : "e568a76cc17d03e0",
-      "status" : "passed",
-      "time" : {
-        "start" : 1585881126021,
-        "stop" : 1585881126562,
-        "duration" : 541
-      }
     } ]
   },
   "42b2d7a67d782916c4458ce3cd7ff2aa" : {
@@ -4754,11 +4680,19 @@
       "failed" : 4,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 7,
+      "passed" : 8,
       "unknown" : 0,
-      "total" : 11
+      "total" : 12
     },
     "items" : [ {
+      "uid" : "36e4079989af57f2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585908139303,
+        "stop" : 1585908139397,
+        "duration" : 94
+      }
+    }, {
       "uid" : "b7fd577db5eca1ae",
       "status" : "failed",
       "statusDetails" : "AssertionError: 获取班级【2020面授-1班】的id失败\nassert False",
@@ -4793,15 +4727,6 @@
         "stop" : 1585879695069,
         "duration" : 0
       }
-    }, {
-      "uid" : "eddbf882e105aede",
-      "status" : "failed",
-      "statusDetails" : "AssertionError: 获取接口【forChat:获取老师相关的群聊班级新接口(返回包含正式班级和代理班级)】信息异常，info的params数据有误，转换为json时出错:\n{\"teacherId\":12}",
-      "time" : {
-        "start" : 1585878889393,
-        "stop" : 1585878889393,
-        "duration" : 0
-      }
     } ]
   },
   "e2f901f233b0d318c5ecb09122dfef83" : {
@@ -4809,11 +4734,19 @@
       "failed" : 4,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 8,
+      "passed" : 9,
       "unknown" : 0,
-      "total" : 12
+      "total" : 13
     },
     "items" : [ {
+      "uid" : "8d0755f5fc533aa7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585908109984,
+        "stop" : 1585908110449,
+        "duration" : 465
+      }
+    }, {
       "uid" : "1a793e98d7a55388",
       "status" : "failed",
       "statusDetails" : "AssertionError: 获取班级【2020面授-1班】的id失败\nassert False",
@@ -4848,27 +4781,27 @@
         "stop" : 1585879686692,
         "duration" : 0
       }
-    }, {
-      "uid" : "7f41cc66622de737",
-      "status" : "failed",
-      "statusDetails" : "AssertionError: 获取接口【forChat:获取老师相关的群聊班级新接口(返回包含正式班级和代理班级)】信息异常，info的params数据有误，转换为json时出错:\n{\"teacherId\":12}",
-      "time" : {
-        "start" : 1585878882673,
-        "stop" : 1585878882673,
-        "duration" : 0
-      }
     } ]
   },
   "da3cab0ebf64cb2f1e3758ca39440327" : {
     "statistic" : {
-      "failed" : 12,
+      "failed" : 13,
       "broken" : 0,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 12
+      "total" : 13
     },
     "items" : [ {
+      "uid" : "d6a2a56cb77ec8cf",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: 返回的数据不应等于：[]",
+      "time" : {
+        "start" : 1585908100219,
+        "stop" : 1585908100521,
+        "duration" : 302
+      }
+    }, {
       "uid" : "8113f0357504583a",
       "status" : "failed",
       "statusDetails" : "AssertionError: 获取班级【2020面授-1班】的id失败\nassert False",
@@ -4904,15 +4837,6 @@
         "stop" : 1585879686490,
         "duration" : 0
       }
-    }, {
-      "uid" : "ee20858cec109465",
-      "status" : "failed",
-      "statusDetails" : "AssertionError: 获取接口【forChat:获取老师相关的群聊班级新接口(返回包含正式班级和代理班级)】信息异常，info的params数据有误，转换为json时出错:\n{\"teacherId\":12}",
-      "time" : {
-        "start" : 1585878882478,
-        "stop" : 1585878882478,
-        "duration" : 0
-      }
     } ]
   },
   "5b1cd67de9c5cb527c7af9131ace4699" : {
@@ -4920,11 +4844,19 @@
       "failed" : 4,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 8,
+      "passed" : 9,
       "unknown" : 0,
-      "total" : 12
+      "total" : 13
     },
     "items" : [ {
+      "uid" : "64618dbe69f6f14a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585908112400,
+        "stop" : 1585908112804,
+        "duration" : 404
+      }
+    }, {
       "uid" : "db30f26743a6c231",
       "status" : "failed",
       "statusDetails" : "AssertionError: 获取班级【2020面授-1班】的id失败\nassert False",
@@ -4959,15 +4891,6 @@
         "stop" : 1585879687061,
         "duration" : 0
       }
-    }, {
-      "uid" : "821487f5b135d835",
-      "status" : "failed",
-      "statusDetails" : "AssertionError: 获取接口【forChat:获取老师相关的群聊班级新接口(返回包含正式班级和代理班级)】信息异常，info的params数据有误，转换为json时出错:\n{\"teacherId\":12}",
-      "time" : {
-        "start" : 1585878883083,
-        "stop" : 1585878883083,
-        "duration" : 0
-      }
     } ]
   },
   "c568b2bee76c44b979289cf536d882c5" : {
@@ -4975,11 +4898,19 @@
       "failed" : 4,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 9,
+      "passed" : 10,
       "unknown" : 0,
-      "total" : 13
+      "total" : 14
     },
     "items" : [ {
+      "uid" : "317cee89cc9359d8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585908058949,
+        "stop" : 1585908059457,
+        "duration" : 508
+      }
+    }, {
       "uid" : "1e032ac4fc96dd02",
       "status" : "failed",
       "statusDetails" : "AssertionError: 获取班级【2020面授-1班】的id失败\nassert False",
@@ -5014,15 +4945,6 @@
         "stop" : 1585879685792,
         "duration" : 0
       }
-    }, {
-      "uid" : "a997b5be55c8ce19",
-      "status" : "failed",
-      "statusDetails" : "AssertionError: 获取接口【forChat:获取老师相关的群聊班级新接口(返回包含正式班级和代理班级)】信息异常，info的params数据有误，转换为json时出错:\n{\"teacherId\":12}",
-      "time" : {
-        "start" : 1585878881703,
-        "stop" : 1585878881703,
-        "duration" : 0
-      }
     } ]
   },
   "5c3e2f2924cd6c23a1aa3c20705b55c6" : {
@@ -5030,11 +4952,19 @@
       "failed" : 4,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 8,
+      "passed" : 9,
       "unknown" : 0,
-      "total" : 12
+      "total" : 13
     },
     "items" : [ {
+      "uid" : "71e4eb9dd1542077",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585908122348,
+        "stop" : 1585908122640,
+        "duration" : 292
+      }
+    }, {
       "uid" : "c719d6a77e5e817e",
       "status" : "failed",
       "statusDetails" : "AssertionError: 获取班级【2020面授-1班】的id失败\nassert False",
@@ -5069,15 +4999,6 @@
         "stop" : 1585879689271,
         "duration" : 0
       }
-    }, {
-      "uid" : "7cd151b1348f1b6b",
-      "status" : "failed",
-      "statusDetails" : "AssertionError: 获取接口【forChat:获取老师相关的群聊班级新接口(返回包含正式班级和代理班级)】信息异常，info的params数据有误，转换为json时出错:\n{\"teacherId\":12}",
-      "time" : {
-        "start" : 1585878884941,
-        "stop" : 1585878884941,
-        "duration" : 0
-      }
     } ]
   },
   "40819c0aa5e1e30eaf2031d65cd9c004" : {
@@ -5085,11 +5006,19 @@
       "failed" : 4,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 9,
+      "passed" : 10,
       "unknown" : 0,
-      "total" : 13
+      "total" : 14
     },
     "items" : [ {
+      "uid" : "5e13beedd7ebf48f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585908044507,
+        "stop" : 1585908045013,
+        "duration" : 506
+      }
+    }, {
       "uid" : "edd18c0020febd98",
       "status" : "failed",
       "statusDetails" : "AssertionError: 获取班级【2020面授-1班】的id失败\nassert False",
@@ -5124,15 +5053,6 @@
         "stop" : 1585879683914,
         "duration" : 0
       }
-    }, {
-      "uid" : "9a828ece6f0ee684",
-      "status" : "failed",
-      "statusDetails" : "AssertionError: 获取接口【forChat:获取老师相关的群聊班级新接口(返回包含正式班级和代理班级)】信息异常，info的params数据有误，转换为json时出错:\n{\"teacherId\":12}",
-      "time" : {
-        "start" : 1585878879856,
-        "stop" : 1585878879856,
-        "duration" : 0
-      }
     } ]
   },
   "bd0767cf50f5980755e092d70e8d96ad" : {
@@ -5140,11 +5060,19 @@
       "failed" : 6,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 11,
+      "passed" : 12,
       "unknown" : 0,
-      "total" : 17
+      "total" : 18
     },
     "items" : [ {
+      "uid" : "5218260736d3e86",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585907985388,
+        "stop" : 1585907994714,
+        "duration" : 9326
+      }
+    }, {
       "uid" : "bbb04e66419599e7",
       "status" : "passed",
       "time" : {
@@ -5178,15 +5106,6 @@
         "stop" : 1585905362240,
         "duration" : 0
       }
-    }, {
-      "uid" : "70b4028c0be34e58",
-      "status" : "failed",
-      "statusDetails" : "AssertionError: 获取班级【20面授一年-2班】的id失败\nassert False",
-      "time" : {
-        "start" : 1585904781923,
-        "stop" : 1585904781923,
-        "duration" : 0
-      }
     } ]
   },
   "95a5a5d55553905010d1037d4c57921a" : {
@@ -5194,11 +5113,19 @@
       "failed" : 4,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 8,
+      "passed" : 9,
       "unknown" : 0,
-      "total" : 12
+      "total" : 13
     },
     "items" : [ {
+      "uid" : "1525ee7118c641b6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585908123886,
+        "stop" : 1585908124377,
+        "duration" : 491
+      }
+    }, {
       "uid" : "a3891a8b31c04fc3",
       "status" : "failed",
       "statusDetails" : "AssertionError: 获取班级【2020面授-1班】的id失败\nassert False",
@@ -5233,15 +5160,6 @@
         "stop" : 1585879689559,
         "duration" : 0
       }
-    }, {
-      "uid" : "ccc8b5175d1907b1",
-      "status" : "failed",
-      "statusDetails" : "AssertionError: 获取接口【forChat:获取老师相关的群聊班级新接口(返回包含正式班级和代理班级)】信息异常，info的params数据有误，转换为json时出错:\n{\"teacherId\":12}",
-      "time" : {
-        "start" : 1585878885156,
-        "stop" : 1585878885156,
-        "duration" : 0
-      }
     } ]
   },
   "66879d57c6ec3aa9325c73b8b6c1fcec" : {
@@ -5249,11 +5167,19 @@
       "failed" : 4,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 8,
+      "passed" : 9,
       "unknown" : 0,
-      "total" : 12
+      "total" : 13
     },
     "items" : [ {
+      "uid" : "33aa5bd2ceb52146",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585908112052,
+        "stop" : 1585908112397,
+        "duration" : 345
+      }
+    }, {
       "uid" : "9ee65ed352b2ff7",
       "status" : "failed",
       "statusDetails" : "AssertionError: 获取班级【2020面授-1班】的id失败\nassert False",
@@ -5288,15 +5214,6 @@
         "stop" : 1585879687001,
         "duration" : 0
       }
-    }, {
-      "uid" : "fe9d7b5d4ba9cb74",
-      "status" : "failed",
-      "statusDetails" : "AssertionError: 获取接口【forChat:获取老师相关的群聊班级新接口(返回包含正式班级和代理班级)】信息异常，info的params数据有误，转换为json时出错:\n{\"teacherId\":12}",
-      "time" : {
-        "start" : 1585878883022,
-        "stop" : 1585878883022,
-        "duration" : 0
-      }
     } ]
   },
   "a6bd3ef4562e8a4b81f8881df950b784" : {
@@ -5304,11 +5221,19 @@
       "failed" : 4,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 9,
+      "passed" : 10,
       "unknown" : 0,
-      "total" : 13
+      "total" : 14
     },
     "items" : [ {
+      "uid" : "2f9968fb20261f0d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585908052946,
+        "stop" : 1585908053513,
+        "duration" : 567
+      }
+    }, {
       "uid" : "682d4d72240e502",
       "status" : "failed",
       "statusDetails" : "AssertionError: 获取班级【2020面授-1班】的id失败\nassert False",
@@ -5343,15 +5268,6 @@
         "stop" : 1585879685036,
         "duration" : 0
       }
-    }, {
-      "uid" : "dd173c3f45461070",
-      "status" : "failed",
-      "statusDetails" : "AssertionError: 获取接口【forChat:获取老师相关的群聊班级新接口(返回包含正式班级和代理班级)】信息异常，info的params数据有误，转换为json时出错:\n{\"teacherId\":12}",
-      "time" : {
-        "start" : 1585878880937,
-        "stop" : 1585878880937,
-        "duration" : 0
-      }
     } ]
   },
   "e14652e764108d62c065af33e43ccece" : {
@@ -5359,11 +5275,19 @@
       "failed" : 4,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 8,
+      "passed" : 9,
       "unknown" : 0,
-      "total" : 12
+      "total" : 13
     },
     "items" : [ {
+      "uid" : "1df921cc887258c0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585908120592,
+        "stop" : 1585908120976,
+        "duration" : 384
+      }
+    }, {
       "uid" : "22f0fd8c982c26c7",
       "status" : "failed",
       "statusDetails" : "AssertionError: 获取班级【2020面授-1班】的id失败\nassert False",
@@ -5398,15 +5322,6 @@
         "stop" : 1585879688811,
         "duration" : 0
       }
-    }, {
-      "uid" : "354040c6257c65a2",
-      "status" : "failed",
-      "statusDetails" : "AssertionError: 获取接口【forChat:获取老师相关的群聊班级新接口(返回包含正式班级和代理班级)】信息异常，info的params数据有误，转换为json时出错:\n{\"teacherId\":12}",
-      "time" : {
-        "start" : 1585878884719,
-        "stop" : 1585878884719,
-        "duration" : 0
-      }
     } ]
   },
   "7ca920f676ce7d19d9fe423e0164a226" : {
@@ -5414,11 +5329,19 @@
       "failed" : 4,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 9,
+      "passed" : 10,
       "unknown" : 0,
-      "total" : 13
+      "total" : 14
     },
     "items" : [ {
+      "uid" : "bd259568a9c5c977",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585908053517,
+        "stop" : 1585908054087,
+        "duration" : 570
+      }
+    }, {
       "uid" : "a5e0ff755f261dce",
       "status" : "failed",
       "statusDetails" : "AssertionError: 获取班级【2020面授-1班】的id失败\nassert False",
@@ -5453,15 +5376,6 @@
         "stop" : 1585879685093,
         "duration" : 0
       }
-    }, {
-      "uid" : "9c23d685445ebdce",
-      "status" : "failed",
-      "statusDetails" : "AssertionError: 获取接口【forChat:获取老师相关的群聊班级新接口(返回包含正式班级和代理班级)】信息异常，info的params数据有误，转换为json时出错:\n{\"teacherId\":12}",
-      "time" : {
-        "start" : 1585878881017,
-        "stop" : 1585878881017,
-        "duration" : 0
-      }
     } ]
   },
   "db36e7f660be6747d80d723b5504067f" : {
@@ -5469,11 +5383,19 @@
       "failed" : 4,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 8,
+      "passed" : 9,
       "unknown" : 0,
-      "total" : 12
+      "total" : 13
     },
     "items" : [ {
+      "uid" : "85567c20572c132e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585908127873,
+        "stop" : 1585908128276,
+        "duration" : 403
+      }
+    }, {
       "uid" : "a594a43d382d791e",
       "status" : "failed",
       "statusDetails" : "AssertionError: 获取班级【2020面授-1班】的id失败\nassert False",
@@ -5508,15 +5430,6 @@
         "stop" : 1585879690097,
         "duration" : 0
       }
-    }, {
-      "uid" : "b7f9b6745e88aefe",
-      "status" : "failed",
-      "statusDetails" : "AssertionError: 获取接口【forChat:获取老师相关的群聊班级新接口(返回包含正式班级和代理班级)】信息异常，info的params数据有误，转换为json时出错:\n{\"teacherId\":12}",
-      "time" : {
-        "start" : 1585878885627,
-        "stop" : 1585878885627,
-        "duration" : 0
-      }
     } ]
   },
   "c0f08faba12cb5cba9310a54c5b41c7d" : {
@@ -5524,11 +5437,19 @@
       "failed" : 4,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 11,
+      "passed" : 12,
       "unknown" : 0,
-      "total" : 15
+      "total" : 16
     },
     "items" : [ {
+      "uid" : "8fd4a5a00e15a468",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585908040936,
+        "stop" : 1585908041326,
+        "duration" : 390
+      }
+    }, {
       "uid" : "f7ba9f3523bf0e39",
       "status" : "passed",
       "time" : {
@@ -5562,15 +5483,6 @@
         "stop" : 1585881128891,
         "duration" : 277
       }
-    }, {
-      "uid" : "77f1857665f756fa",
-      "status" : "failed",
-      "statusDetails" : "AssertionError: 获取接口【forChat:获取老师相关的群聊班级新接口(返回包含正式班级和代理班级)】信息异常，info的params数据有误，转换为json时出错:\n{\"teacherId\":12}",
-      "time" : {
-        "start" : 1585879683401,
-        "stop" : 1585879683401,
-        "duration" : 0
-      }
     } ]
   },
   "e5f19da8ce08690dac61230856c87f57" : {
@@ -5578,11 +5490,19 @@
       "failed" : 4,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 8,
+      "passed" : 9,
       "unknown" : 0,
-      "total" : 12
+      "total" : 13
     },
     "items" : [ {
+      "uid" : "4b6a9fec78c00001",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585908111695,
+        "stop" : 1585908112047,
+        "duration" : 352
+      }
+    }, {
       "uid" : "17572c2fb2676998",
       "status" : "failed",
       "statusDetails" : "AssertionError: 获取班级【2020面授-1班】的id失败\nassert False",
@@ -5617,15 +5537,6 @@
         "stop" : 1585879686943,
         "duration" : 0
       }
-    }, {
-      "uid" : "a3ceae3c25af0634",
-      "status" : "failed",
-      "statusDetails" : "AssertionError: 获取接口【forChat:获取老师相关的群聊班级新接口(返回包含正式班级和代理班级)】信息异常，info的params数据有误，转换为json时出错:\n{\"teacherId\":12}",
-      "time" : {
-        "start" : 1585878882965,
-        "stop" : 1585878882965,
-        "duration" : 0
-      }
     } ]
   },
   "29f701d343883d90015fa51b7d21fec0" : {
@@ -5633,11 +5544,19 @@
       "failed" : 4,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 11,
+      "passed" : 12,
       "unknown" : 0,
-      "total" : 15
+      "total" : 16
     },
     "items" : [ {
+      "uid" : "52a49f4cdc971bd1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585908041331,
+        "stop" : 1585908041945,
+        "duration" : 614
+      }
+    }, {
       "uid" : "8af39bd437861614",
       "status" : "passed",
       "time" : {
@@ -5671,15 +5590,6 @@
         "stop" : 1585881129246,
         "duration" : 351
       }
-    }, {
-      "uid" : "ab634d4e441b3506",
-      "status" : "failed",
-      "statusDetails" : "AssertionError: 获取接口【forChat:获取老师相关的群聊班级新接口(返回包含正式班级和代理班级)】信息异常，info的params数据有误，转换为json时出错:\n{\"teacherId\":12}",
-      "time" : {
-        "start" : 1585879683482,
-        "stop" : 1585879683482,
-        "duration" : 0
-      }
     } ]
   },
   "bafc6041cdefcbad5518ae49a4988d01" : {
@@ -5687,11 +5597,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 17,
+      "passed" : 18,
       "unknown" : 0,
-      "total" : 17
+      "total" : 18
     },
     "items" : [ {
+      "uid" : "14db7b604dc0d80a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585907975491,
+        "stop" : 1585907975628,
+        "duration" : 137
+      }
+    }, {
       "uid" : "caa398d6d3c23269",
       "status" : "passed",
       "time" : {
@@ -5723,14 +5641,6 @@
         "stop" : 1585905361087,
         "duration" : 111
       }
-    }, {
-      "uid" : "c6bf4dac3912b2a7",
-      "status" : "passed",
-      "time" : {
-        "start" : 1585904780846,
-        "stop" : 1585904780935,
-        "duration" : 89
-      }
     } ]
   },
   "cb726c2d53427141d58553d5c19f2b17" : {
@@ -5738,11 +5648,19 @@
       "failed" : 4,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 8,
+      "passed" : 9,
       "unknown" : 0,
-      "total" : 12
+      "total" : 13
     },
     "items" : [ {
+      "uid" : "bf30b71d48a208f0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585908123042,
+        "stop" : 1585908123485,
+        "duration" : 443
+      }
+    }, {
       "uid" : "a0def36066f3a321",
       "status" : "failed",
       "statusDetails" : "AssertionError: 获取班级【2020面授-1班】的id失败\nassert False",
@@ -5777,15 +5695,6 @@
         "stop" : 1585879689450,
         "duration" : 0
       }
-    }, {
-      "uid" : "a77ebf89488c8ea0",
-      "status" : "failed",
-      "statusDetails" : "AssertionError: 获取接口【forChat:获取老师相关的群聊班级新接口(返回包含正式班级和代理班级)】信息异常，info的params数据有误，转换为json时出错:\n{\"teacherId\":12}",
-      "time" : {
-        "start" : 1585878885031,
-        "stop" : 1585878885031,
-        "duration" : 0
-      }
     } ]
   },
   "3623cc1f9f3e0fc1bc8fc724648c8974" : {
@@ -5793,11 +5702,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 17,
+      "passed" : 18,
       "unknown" : 0,
-      "total" : 17
+      "total" : 18
     },
     "items" : [ {
+      "uid" : "64d44d29a31fc62d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585907975357,
+        "stop" : 1585907975483,
+        "duration" : 126
+      }
+    }, {
       "uid" : "e1b31b4a58355df",
       "status" : "passed",
       "time" : {
@@ -5829,14 +5746,6 @@
         "stop" : 1585905360967,
         "duration" : 136
       }
-    }, {
-      "uid" : "6c5f30fa5b01ce22",
-      "status" : "passed",
-      "time" : {
-        "start" : 1585904780759,
-        "stop" : 1585904780839,
-        "duration" : 80
-      }
     } ]
   },
   "67206c1fc78b44b2b98d910627d7e474" : {
@@ -5844,11 +5753,19 @@
       "failed" : 4,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 8,
+      "passed" : 9,
       "unknown" : 0,
-      "total" : 12
+      "total" : 13
     },
     "items" : [ {
+      "uid" : "6fcceb1cc8da5ce1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585908119068,
+        "stop" : 1585908119471,
+        "duration" : 403
+      }
+    }, {
       "uid" : "3da32096b118b4a9",
       "status" : "failed",
       "statusDetails" : "AssertionError: 获取班级【2020面授-1班】的id失败\nassert False",
@@ -5883,15 +5800,6 @@
         "stop" : 1585879688242,
         "duration" : 0
       }
-    }, {
-      "uid" : "12b0aa2c5839cc0d",
-      "status" : "failed",
-      "statusDetails" : "AssertionError: 获取接口【forChat:获取老师相关的群聊班级新接口(返回包含正式班级和代理班级)】信息异常，info的params数据有误，转换为json时出错:\n{\"teacherId\":12}",
-      "time" : {
-        "start" : 1585878884484,
-        "stop" : 1585878884484,
-        "duration" : 0
-      }
     } ]
   },
   "69647b952b75353d922d91d76dc538a7" : {
@@ -5899,11 +5807,19 @@
       "failed" : 4,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 8,
+      "passed" : 9,
       "unknown" : 0,
-      "total" : 12
+      "total" : 13
     },
     "items" : [ {
+      "uid" : "484ed398b1f38201",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585908128800,
+        "stop" : 1585908129113,
+        "duration" : 313
+      }
+    }, {
       "uid" : "f528960add7de5c2",
       "status" : "failed",
       "statusDetails" : "AssertionError: 获取班级【2020面授-1班】的id失败\nassert False",
@@ -5938,15 +5854,6 @@
         "stop" : 1585879690206,
         "duration" : 0
       }
-    }, {
-      "uid" : "4b64b0e2d77c8d0c",
-      "status" : "failed",
-      "statusDetails" : "AssertionError: 获取接口【forChat:获取老师相关的群聊班级新接口(返回包含正式班级和代理班级)】信息异常，info的params数据有误，转换为json时出错:\n{\"teacherId\":12}",
-      "time" : {
-        "start" : 1585878885763,
-        "stop" : 1585878885763,
-        "duration" : 0
-      }
     } ]
   },
   "732cfd09e7d6a797abd51c60afc35115" : {
@@ -5954,11 +5861,19 @@
       "failed" : 4,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 8,
+      "passed" : 9,
       "unknown" : 0,
-      "total" : 12
+      "total" : 13
     },
     "items" : [ {
+      "uid" : "46163f5e7700e36f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585908062617,
+        "stop" : 1585908071767,
+        "duration" : 9150
+      }
+    }, {
       "uid" : "ea0858eb0587540c",
       "status" : "failed",
       "statusDetails" : "AssertionError: 获取班级【2020面授-1班】的id失败\nassert False",
@@ -5993,15 +5908,6 @@
         "stop" : 1585879686254,
         "duration" : 0
       }
-    }, {
-      "uid" : "8090b31a3d63053a",
-      "status" : "failed",
-      "statusDetails" : "AssertionError: 获取接口【forChat:获取老师相关的群聊班级新接口(返回包含正式班级和代理班级)】信息异常，info的params数据有误，转换为json时出错:\n{\"teacherId\":12}",
-      "time" : {
-        "start" : 1585878882187,
-        "stop" : 1585878882187,
-        "duration" : 0
-      }
     } ]
   },
   "53f3d7527b5d444b04b6bef90b443ff7" : {
@@ -6009,11 +5915,19 @@
       "failed" : 4,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 8,
+      "passed" : 9,
       "unknown" : 0,
-      "total" : 12
+      "total" : 13
     },
     "items" : [ {
+      "uid" : "be793025cebc4b7c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585908113948,
+        "stop" : 1585908114331,
+        "duration" : 383
+      }
+    }, {
       "uid" : "b09f74b3d1a745d0",
       "status" : "failed",
       "statusDetails" : "AssertionError: 获取班级【2020面授-1班】的id失败\nassert False",
@@ -6048,15 +5962,6 @@
         "stop" : 1585879687340,
         "duration" : 0
       }
-    }, {
-      "uid" : "6beb477ec266dfe4",
-      "status" : "failed",
-      "statusDetails" : "AssertionError: 获取接口【forChat:获取老师相关的群聊班级新接口(返回包含正式班级和代理班级)】信息异常，info的params数据有误，转换为json时出错:\n{\"teacherId\":12}",
-      "time" : {
-        "start" : 1585878883595,
-        "stop" : 1585878883595,
-        "duration" : 0
-      }
     } ]
   },
   "5c9e2cdf2f64c303f626a0a16c974975" : {
@@ -6064,11 +5969,19 @@
       "failed" : 4,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 8,
+      "passed" : 9,
       "unknown" : 0,
-      "total" : 12
+      "total" : 13
     },
     "items" : [ {
+      "uid" : "c1b3de268a0f45c4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585908128281,
+        "stop" : 1585908128797,
+        "duration" : 516
+      }
+    }, {
       "uid" : "50d9d0904d0810b5",
       "status" : "failed",
       "statusDetails" : "AssertionError: 获取班级【2020面授-1班】的id失败\nassert False",
@@ -6103,15 +6016,6 @@
         "stop" : 1585879690155,
         "duration" : 0
       }
-    }, {
-      "uid" : "ae48fde91004cc59",
-      "status" : "failed",
-      "statusDetails" : "AssertionError: 获取接口【forChat:获取老师相关的群聊班级新接口(返回包含正式班级和代理班级)】信息异常，info的params数据有误，转换为json时出错:\n{\"teacherId\":12}",
-      "time" : {
-        "start" : 1585878885676,
-        "stop" : 1585878885676,
-        "duration" : 0
-      }
     } ]
   },
   "37b0d0874dfeb02b8f278a3f77e8ec4e" : {
@@ -6119,11 +6023,19 @@
       "failed" : 4,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 8,
+      "passed" : 9,
       "unknown" : 0,
-      "total" : 12
+      "total" : 13
     },
     "items" : [ {
+      "uid" : "5e5b2e5b5a10e0fa",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585908115061,
+        "stop" : 1585908115433,
+        "duration" : 372
+      }
+    }, {
       "uid" : "542eceaed21d0bd9",
       "status" : "failed",
       "statusDetails" : "AssertionError: 获取班级【2020面授-1班】的id失败\nassert False",
@@ -6158,15 +6070,6 @@
         "stop" : 1585879687540,
         "duration" : 0
       }
-    }, {
-      "uid" : "cf55ba65bc72c5ab",
-      "status" : "failed",
-      "statusDetails" : "AssertionError: 获取接口【forChat:获取老师相关的群聊班级新接口(返回包含正式班级和代理班级)】信息异常，info的params数据有误，转换为json时出错:\n{\"teacherId\":12}",
-      "time" : {
-        "start" : 1585878883890,
-        "stop" : 1585878883890,
-        "duration" : 0
-      }
     } ]
   },
   "013c76d38b2bde46275b2528826a34c1" : {
@@ -6174,11 +6077,19 @@
       "failed" : 4,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 9,
+      "passed" : 10,
       "unknown" : 0,
-      "total" : 13
+      "total" : 14
     },
     "items" : [ {
+      "uid" : "59c673073909c318",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585908057100,
+        "stop" : 1585908057504,
+        "duration" : 404
+      }
+    }, {
       "uid" : "a968f8e9497ada1",
       "status" : "failed",
       "statusDetails" : "AssertionError: 获取班级【2020面授-1班】的id失败\nassert False",
@@ -6213,15 +6124,6 @@
         "stop" : 1585879685550,
         "duration" : 0
       }
-    }, {
-      "uid" : "269eb1a2efd9eb34",
-      "status" : "failed",
-      "statusDetails" : "AssertionError: 获取接口【forChat:获取老师相关的群聊班级新接口(返回包含正式班级和代理班级)】信息异常，info的params数据有误，转换为json时出错:\n{\"teacherId\":12}",
-      "time" : {
-        "start" : 1585878881452,
-        "stop" : 1585878881452,
-        "duration" : 0
-      }
     } ]
   },
   "f9652c09e3b041960b9b7e14caf31519" : {
@@ -6229,11 +6131,19 @@
       "failed" : 4,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 8,
+      "passed" : 9,
       "unknown" : 0,
-      "total" : 12
+      "total" : 13
     },
     "items" : [ {
+      "uid" : "2772866fec058d9a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585908072463,
+        "stop" : 1585908081353,
+        "duration" : 8890
+      }
+    }, {
       "uid" : "6d1cf4e01df7f521",
       "status" : "failed",
       "statusDetails" : "AssertionError: 获取班级【2020面授-1班】的id失败\nassert False",
@@ -6268,15 +6178,6 @@
         "stop" : 1585879686311,
         "duration" : 0
       }
-    }, {
-      "uid" : "cf54f61dbcf45e19",
-      "status" : "failed",
-      "statusDetails" : "AssertionError: 获取接口【forChat:获取老师相关的群聊班级新接口(返回包含正式班级和代理班级)】信息异常，info的params数据有误，转换为json时出错:\n{\"teacherId\":12}",
-      "time" : {
-        "start" : 1585878882244,
-        "stop" : 1585878882244,
-        "duration" : 0
-      }
     } ]
   },
   "eeca0a7052d4d129f2eaf44b12cfca34" : {
@@ -6284,11 +6185,19 @@
       "failed" : 4,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 8,
+      "passed" : 9,
       "unknown" : 0,
-      "total" : 12
+      "total" : 13
     },
     "items" : [ {
+      "uid" : "9f51acd1dc2c38b3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585908116301,
+        "stop" : 1585908116999,
+        "duration" : 698
+      }
+    }, {
       "uid" : "e4ca8f2582c367d8",
       "status" : "failed",
       "statusDetails" : "AssertionError: 获取班级【2020面授-1班】的id失败\nassert False",
@@ -6323,15 +6232,6 @@
         "stop" : 1585879687813,
         "duration" : 0
       }
-    }, {
-      "uid" : "e43c6d91ca5facbb",
-      "status" : "failed",
-      "statusDetails" : "AssertionError: 获取接口【forChat:获取老师相关的群聊班级新接口(返回包含正式班级和代理班级)】信息异常，info的params数据有误，转换为json时出错:\n{\"teacherId\":12}",
-      "time" : {
-        "start" : 1585878884094,
-        "stop" : 1585878884094,
-        "duration" : 0
-      }
     } ]
   },
   "ac100cbe5a93df892d8a8d88733082c2" : {
@@ -6339,11 +6239,19 @@
       "failed" : 4,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 9,
+      "passed" : 10,
       "unknown" : 0,
-      "total" : 13
+      "total" : 14
     },
     "items" : [ {
+      "uid" : "96379507a09f4d05",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585908049522,
+        "stop" : 1585908050010,
+        "duration" : 488
+      }
+    }, {
       "uid" : "bcf2de4b126176d1",
       "status" : "failed",
       "statusDetails" : "AssertionError: 获取班级【2020面授-1班】的id失败\nassert False",
@@ -6378,15 +6286,6 @@
         "stop" : 1585879684544,
         "duration" : 0
       }
-    }, {
-      "uid" : "cdca144583f92c18",
-      "status" : "failed",
-      "statusDetails" : "AssertionError: 获取接口【forChat:获取老师相关的群聊班级新接口(返回包含正式班级和代理班级)】信息异常，info的params数据有误，转换为json时出错:\n{\"teacherId\":12}",
-      "time" : {
-        "start" : 1585878880460,
-        "stop" : 1585878880460,
-        "duration" : 0
-      }
     } ]
   },
   "773d9e06b8f81fc139d06d3246c6ffc8" : {
@@ -6394,11 +6293,19 @@
       "failed" : 3,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 11,
+      "passed" : 12,
       "unknown" : 0,
-      "total" : 14
+      "total" : 15
     },
     "items" : [ {
+      "uid" : "f524cc97d7153abb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585908038393,
+        "stop" : 1585908038471,
+        "duration" : 78
+      }
+    }, {
       "uid" : "6423aa7956a3df73",
       "status" : "passed",
       "time" : {
@@ -6431,14 +6338,6 @@
         "stop" : 1585903924885,
         "duration" : 1
       }
-    }, {
-      "uid" : "913e201db861ea2e",
-      "status" : "passed",
-      "time" : {
-        "start" : 1585881126567,
-        "stop" : 1585881126650,
-        "duration" : 83
-      }
     } ]
   },
   "75f3ec5c660cd1941b1ee8154dc2532c" : {
@@ -6446,11 +6345,19 @@
       "failed" : 4,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 11,
+      "passed" : 12,
       "unknown" : 0,
-      "total" : 15
+      "total" : 16
     },
     "items" : [ {
+      "uid" : "5c80fffd29e44003",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585908040332,
+        "stop" : 1585908040932,
+        "duration" : 600
+      }
+    }, {
       "uid" : "ebd67e831fd11bd1",
       "status" : "passed",
       "time" : {
@@ -6484,15 +6391,6 @@
         "stop" : 1585881128609,
         "duration" : 273
       }
-    }, {
-      "uid" : "7c76c7c603f08bdf",
-      "status" : "failed",
-      "statusDetails" : "AssertionError: 获取接口【forChat:获取老师相关的群聊班级新接口(返回包含正式班级和代理班级)】信息异常，info的params数据有误，转换为json时出错:\n{\"teacherId\":12}",
-      "time" : {
-        "start" : 1585879683342,
-        "stop" : 1585879683342,
-        "duration" : 0
-      }
     } ]
   },
   "dbd7951d629f3fef25037139992ed591" : {
@@ -6500,11 +6398,19 @@
       "failed" : 4,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 8,
+      "passed" : 9,
       "unknown" : 0,
-      "total" : 12
+      "total" : 13
     },
     "items" : [ {
+      "uid" : "a2166e2bef338166",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585908123489,
+        "stop" : 1585908123882,
+        "duration" : 393
+      }
+    }, {
       "uid" : "aff5e83c6f567862",
       "status" : "failed",
       "statusDetails" : "AssertionError: 获取班级【2020面授-1班】的id失败\nassert False",
@@ -6539,15 +6445,6 @@
         "stop" : 1585879689501,
         "duration" : 0
       }
-    }, {
-      "uid" : "9bc85be931221607",
-      "status" : "failed",
-      "statusDetails" : "AssertionError: 获取接口【forChat:获取老师相关的群聊班级新接口(返回包含正式班级和代理班级)】信息异常，info的params数据有误，转换为json时出错:\n{\"teacherId\":12}",
-      "time" : {
-        "start" : 1585878885076,
-        "stop" : 1585878885076,
-        "duration" : 0
-      }
     } ]
   },
   "7155cea046f9b770fe51f0b34a27b004" : {
@@ -6555,11 +6452,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 17,
+      "passed" : 18,
       "unknown" : 0,
-      "total" : 17
+      "total" : 18
     },
     "items" : [ {
+      "uid" : "f95d8e252cc5b63d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585907975635,
+        "stop" : 1585907975724,
+        "duration" : 89
+      }
+    }, {
       "uid" : "c72874bb587f7f1f",
       "status" : "passed",
       "time" : {
@@ -6591,14 +6496,6 @@
         "stop" : 1585905361197,
         "duration" : 102
       }
-    }, {
-      "uid" : "aa4b84a30f2fad76",
-      "status" : "passed",
-      "time" : {
-        "start" : 1585904780944,
-        "stop" : 1585904781025,
-        "duration" : 81
-      }
     } ]
   },
   "470f671f5def2680ef09c288456e23bd" : {
@@ -6606,11 +6503,19 @@
       "failed" : 6,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 5,
+      "passed" : 6,
       "unknown" : 0,
-      "total" : 11
+      "total" : 12
     },
     "items" : [ {
+      "uid" : "38ab228af7173ff9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585908100535,
+        "stop" : 1585908109585,
+        "duration" : 9050
+      }
+    }, {
       "uid" : "a4d33c75f825abef",
       "status" : "failed",
       "statusDetails" : "AssertionError: 获取班级【2020面授-1班】的id失败\nassert False",
@@ -6645,15 +6550,6 @@
         "stop" : 1585879686579,
         "duration" : 0
       }
-    }, {
-      "uid" : "cce50ce267c1ff02",
-      "status" : "failed",
-      "statusDetails" : "AssertionError: 获取接口【forChat:获取老师相关的群聊班级新接口(返回包含正式班级和代理班级)】信息异常，info的params数据有误，转换为json时出错:\n{\"teacherId\":12}",
-      "time" : {
-        "start" : 1585878882542,
-        "stop" : 1585878882542,
-        "duration" : 0
-      }
     } ]
   },
   "e9d94c0617b23ebee1dba1c42fe57a8b" : {
@@ -6661,11 +6557,19 @@
       "failed" : 4,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 8,
+      "passed" : 9,
       "unknown" : 0,
-      "total" : 12
+      "total" : 13
     },
     "items" : [ {
+      "uid" : "88c4e03c4c2d2d0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585908129497,
+        "stop" : 1585908129819,
+        "duration" : 322
+      }
+    }, {
       "uid" : "8cc98d50b4394a0a",
       "status" : "failed",
       "statusDetails" : "AssertionError: 获取班级【2020面授-1班】的id失败\nassert False",
@@ -6700,15 +6604,6 @@
         "stop" : 1585879690311,
         "duration" : 0
       }
-    }, {
-      "uid" : "f9a7a52d840d84a8",
-      "status" : "failed",
-      "statusDetails" : "AssertionError: 获取接口【forChat:获取老师相关的群聊班级新接口(返回包含正式班级和代理班级)】信息异常，info的params数据有误，转换为json时出错:\n{\"teacherId\":12}",
-      "time" : {
-        "start" : 1585878885863,
-        "stop" : 1585878885863,
-        "duration" : 0
-      }
     } ]
   },
   "5d5b84e09e047f65ddb7ac82c88f64c6" : {
@@ -6716,11 +6611,19 @@
       "failed" : 4,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 14,
+      "passed" : 15,
       "unknown" : 0,
-      "total" : 18
+      "total" : 19
     },
     "items" : [ {
+      "uid" : "a2581d2d61c24115",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585907974952,
+        "stop" : 1585907975120,
+        "duration" : 168
+      }
+    }, {
       "uid" : "3e9ae1543d680b50",
       "status" : "passed",
       "time" : {
@@ -6752,14 +6655,6 @@
         "stop" : 1585905360156,
         "duration" : 159
       }
-    }, {
-      "uid" : "ad36a072040524e0",
-      "status" : "passed",
-      "time" : {
-        "start" : 1585904779946,
-        "stop" : 1585904780088,
-        "duration" : 142
-      }
     } ]
   },
   "b7d63f846878e39a9f2e087cd1839060" : {
@@ -6767,11 +6662,19 @@
       "failed" : 4,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 8,
+      "passed" : 9,
       "unknown" : 0,
-      "total" : 12
+      "total" : 13
     },
     "items" : [ {
+      "uid" : "d1ea5f2d94d2319e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585908125811,
+        "stop" : 1585908126219,
+        "duration" : 408
+      }
+    }, {
       "uid" : "f5fb573c2bd735cd",
       "status" : "failed",
       "statusDetails" : "AssertionError: 获取班级【2020面授-1班】的id失败\nassert False",
@@ -6806,15 +6709,6 @@
         "stop" : 1585879689810,
         "duration" : 0
       }
-    }, {
-      "uid" : "19ba9bd5744706b3",
-      "status" : "failed",
-      "statusDetails" : "AssertionError: 获取接口【forChat:获取老师相关的群聊班级新接口(返回包含正式班级和代理班级)】信息异常，info的params数据有误，转换为json时出错:\n{\"teacherId\":12}",
-      "time" : {
-        "start" : 1585878885364,
-        "stop" : 1585878885364,
-        "duration" : 0
-      }
     } ]
   },
   "7b062e409e297230480f4fc398e6169c" : {
@@ -6822,11 +6716,19 @@
       "failed" : 4,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 9,
+      "passed" : 10,
       "unknown" : 0,
-      "total" : 13
+      "total" : 14
     },
     "items" : [ {
+      "uid" : "da4b95610589a553",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585908054422,
+        "stop" : 1585908054945,
+        "duration" : 523
+      }
+    }, {
       "uid" : "76aa23b08bf303c4",
       "status" : "failed",
       "statusDetails" : "AssertionError: 获取班级【2020面授-1班】的id失败\nassert False",
@@ -6861,15 +6763,6 @@
         "stop" : 1585879685231,
         "duration" : 0
       }
-    }, {
-      "uid" : "8580303265d97220",
-      "status" : "failed",
-      "statusDetails" : "AssertionError: 获取接口【forChat:获取老师相关的群聊班级新接口(返回包含正式班级和代理班级)】信息异常，info的params数据有误，转换为json时出错:\n{\"teacherId\":12}",
-      "time" : {
-        "start" : 1585878881129,
-        "stop" : 1585878881129,
-        "duration" : 0
-      }
     } ]
   },
   "2ac65323bf4a51dbec11819e1ea809e3" : {
@@ -6877,11 +6770,19 @@
       "failed" : 4,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 8,
+      "passed" : 9,
       "unknown" : 0,
-      "total" : 12
+      "total" : 13
     },
     "items" : [ {
+      "uid" : "7b861a8418780091",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585908114337,
+        "stop" : 1585908114752,
+        "duration" : 415
+      }
+    }, {
       "uid" : "6265016668db0b35",
       "status" : "failed",
       "statusDetails" : "AssertionError: 获取班级【2020面授-1班】的id失败\nassert False",
@@ -6916,15 +6817,6 @@
         "stop" : 1585879687410,
         "duration" : 0
       }
-    }, {
-      "uid" : "61d669fb1c1ac721",
-      "status" : "failed",
-      "statusDetails" : "AssertionError: 获取接口【forChat:获取老师相关的群聊班级新接口(返回包含正式班级和代理班级)】信息异常，info的params数据有误，转换为json时出错:\n{\"teacherId\":12}",
-      "time" : {
-        "start" : 1585878883648,
-        "stop" : 1585878883648,
-        "duration" : 0
-      }
     } ]
   },
   "a7579c09419dc3ccf33e9b9a28733223" : {
@@ -6932,11 +6824,19 @@
       "failed" : 4,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 8,
+      "passed" : 9,
       "unknown" : 0,
-      "total" : 12
+      "total" : 13
     },
     "items" : [ {
+      "uid" : "13be316736a0715",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585908114756,
+        "stop" : 1585908115055,
+        "duration" : 299
+      }
+    }, {
       "uid" : "8155e452a72ec11",
       "status" : "failed",
       "statusDetails" : "AssertionError: 获取班级【2020面授-1班】的id失败\nassert False",
@@ -6971,15 +6871,6 @@
         "stop" : 1585879687477,
         "duration" : 0
       }
-    }, {
-      "uid" : "734d59c5abf2e4a6",
-      "status" : "failed",
-      "statusDetails" : "AssertionError: 获取接口【forChat:获取老师相关的群聊班级新接口(返回包含正式班级和代理班级)】信息异常，info的params数据有误，转换为json时出错:\n{\"teacherId\":12}",
-      "time" : {
-        "start" : 1585878883829,
-        "stop" : 1585878883829,
-        "duration" : 0
-      }
     } ]
   },
   "00b67dfd58dbad9be489e4452dc0853c" : {
@@ -6987,11 +6878,19 @@
       "failed" : 4,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 8,
+      "passed" : 9,
       "unknown" : 0,
-      "total" : 12
+      "total" : 13
     },
     "items" : [ {
+      "uid" : "ebfca4ee0d20893f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585908127069,
+        "stop" : 1585908127466,
+        "duration" : 397
+      }
+    }, {
       "uid" : "1ca07813459573fb",
       "status" : "failed",
       "statusDetails" : "AssertionError: 获取班级【2020面授-1班】的id失败\nassert False",
@@ -7026,15 +6925,6 @@
         "stop" : 1585879689954,
         "duration" : 0
       }
-    }, {
-      "uid" : "ca5528998278fda2",
-      "status" : "failed",
-      "statusDetails" : "AssertionError: 获取接口【forChat:获取老师相关的群聊班级新接口(返回包含正式班级和代理班级)】信息异常，info的params数据有误，转换为json时出错:\n{\"teacherId\":12}",
-      "time" : {
-        "start" : 1585878885538,
-        "stop" : 1585878885538,
-        "duration" : 0
-      }
     } ]
   },
   "d4a543303e84c22eca87623d46e2f63d" : {
@@ -7042,11 +6932,19 @@
       "failed" : 4,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 8,
+      "passed" : 9,
       "unknown" : 0,
-      "total" : 12
+      "total" : 13
     },
     "items" : [ {
+      "uid" : "a230b72d90bdee22",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585908127470,
+        "stop" : 1585908127868,
+        "duration" : 398
+      }
+    }, {
       "uid" : "fc4619f48c12e024",
       "status" : "failed",
       "statusDetails" : "AssertionError: 获取班级【2020面授-1班】的id失败\nassert False",
@@ -7081,15 +6979,6 @@
         "stop" : 1585879690043,
         "duration" : 0
       }
-    }, {
-      "uid" : "24f1a7793cb7f17",
-      "status" : "failed",
-      "statusDetails" : "AssertionError: 获取接口【forChat:获取老师相关的群聊班级新接口(返回包含正式班级和代理班级)】信息异常，info的params数据有误，转换为json时出错:\n{\"teacherId\":12}",
-      "time" : {
-        "start" : 1585878885583,
-        "stop" : 1585878885583,
-        "duration" : 0
-      }
     } ]
   },
   "8509e44fe8cfed3c04ea76b2edb748e6" : {
@@ -7097,11 +6986,19 @@
       "failed" : 7,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 11,
+      "passed" : 12,
       "unknown" : 0,
-      "total" : 18
+      "total" : 19
     },
     "items" : [ {
+      "uid" : "84212396a082e4ef",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585907975125,
+        "stop" : 1585907975125,
+        "duration" : 0
+      }
+    }, {
       "uid" : "bf011d2adbda3932",
       "status" : "passed",
       "time" : {
@@ -7135,15 +7032,6 @@
         "stop" : 1585905360352,
         "duration" : 0
       }
-    }, {
-      "uid" : "cbc951559235cd19",
-      "status" : "failed",
-      "statusDetails" : "AssertionError: 获取班级【20面授一年-2班】的id失败\nassert False",
-      "time" : {
-        "start" : 1585904780330,
-        "stop" : 1585904780330,
-        "duration" : 0
-      }
     } ]
   },
   "e6ddc689e127d4be35c264f55588257e" : {
@@ -7151,11 +7039,19 @@
       "failed" : 7,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 11,
+      "passed" : 12,
       "unknown" : 0,
-      "total" : 18
+      "total" : 19
     },
     "items" : [ {
+      "uid" : "cbf505b4bf7480b6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585907974702,
+        "stop" : 1585907974946,
+        "duration" : 244
+      }
+    }, {
       "uid" : "ddfcfdd89596ecfe",
       "status" : "passed",
       "time" : {
@@ -7187,15 +7083,6 @@
       "time" : {
         "start" : 1585905359831,
         "stop" : 1585905359831,
-        "duration" : 0
-      }
-    }, {
-      "uid" : "59b4676da6e494b4",
-      "status" : "failed",
-      "statusDetails" : "AssertionError: 获取班级【20面授一年-2班】的id失败\nassert False",
-      "time" : {
-        "start" : 1585904779647,
-        "stop" : 1585904779647,
         "duration" : 0
       }
     } ]
