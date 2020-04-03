@@ -1,7 +1,7 @@
 # coding=utf-8
 import requests
 from common.log import logger
-from common.configer import configer
+from common.configer import GetConfiger
 
 
 class GetSession():
@@ -9,6 +9,7 @@ class GetSession():
     def __init__(self, username=None, password=None):
         self.username = username
         self.password = password
+        configer = GetConfiger()
         cfg = configer.configer()
         self.url = cfg.get('env', 'loginurl') + '/ajaxLogin'
         self.redirect = cfg.get('env', 'redirect')

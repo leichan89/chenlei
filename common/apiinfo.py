@@ -2,7 +2,6 @@
 
 import os
 import re
-import threading
 import json
 import pandas as pd
 from common.log import logger
@@ -226,4 +225,3 @@ if __name__ == '__main__':
     api = ApiInfo()
     ps = api.getapi('clazzQuestionChoose')['params']
     print(ps)
-    import json

@@ -1,6 +1,5 @@
 #coding=utf-8
 import pytest
-from common.singleton_conf import apiinfo, req
 from common.tools import tools
 from common.custom_assert import myassert
 
@@ -25,6 +24,7 @@ def get_history_msg(get_groupidentifier):
     :param get_groupidentifier:
     :return: 最近一天的历史消息
     '''
+    from common.singleton_conf import apiinfo, req
     history_msg_info = apiinfo.getapi('historyMsg')
     history_msg_info['params']['groupIdentifier'] = get_groupidentifier
     history_msg_info['params']['startDate'] = tools.get_date(days=-1)

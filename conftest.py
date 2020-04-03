@@ -6,7 +6,6 @@ import shutil
 from datetime import datetime
 from py._xmlgen import html
 from common.log import logger
-from common.configer import configer
 from common.configer import GetConfiger
 
 
@@ -24,11 +23,6 @@ def pytest_addoption(parser):
     parser.addoption('--env', default='reg')
 
 
-@pytest.fixture()
-def env(request):
-    return request.config.getoption('--env')
-
-
 # 修改命令行中的参数，这里用于修改生成的pytest-html测试报告的名称，在命令执行时执行
 def pytest_configure(config):
 
@@ -44,6 +38,7 @@ def pytest_configure(config):
 
     # 设置pytest-html插件生成的测试报告命令行参数中的路径
     if config.getoption('--html'):
+        configer = GetConfiger()
         confpath = config.option.htmlpath
         htmlpath = dir + os.sep + 'reports' + os.sep + '{time}-{env}-{path}'.format(
             time=time.strftime('%Y-%m-%d', time.localtime()),

@@ -1,6 +1,5 @@
 #coding=utf-8
 import os
-import threading
 import configparser as cp
 from common.log import logger
 
@@ -38,9 +37,6 @@ class GetConfiger():
     def filepath(self):
         return self.cfg_path
 
-
-# 默认读取env.ini文件
-configer = GetConfiger()
 
 
 

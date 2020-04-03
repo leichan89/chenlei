@@ -4,7 +4,6 @@ import threading
 import time
 from common.log import logger
 from common.tools import tools
-from common.singleton_conf import apiinfo, req
 
 
 class Assert:
@@ -147,6 +146,7 @@ class Assert:
 
 
     def assert_history_msg(self,groupidentifier, check_json):
+        from common.singleton_conf import apiinfo, req
         # 等待4s去查询群聊历史记录
         time.sleep(8)
 
@@ -175,6 +175,7 @@ class Assert:
         assert is_pass, '历史消息中未找到发送的消息'
 
     def assert_history_msg_c2c(self,studentAccount, check_json):
+        from common.singleton_conf import apiinfo, req
         # 等待4s去查询私聊历史记录
         time.sleep(8)
 

@@ -2,8 +2,7 @@
 import pytest
 import allure
 from common.singleton_conf import apiinfo, req
-from common.custom_assert import myassert
-from common.tools import AllureCaseType, tools
+from common.tools import AllureCaseType
 
 
 @pytest.mark.myclass

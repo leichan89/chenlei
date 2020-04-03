@@ -2,7 +2,7 @@
 import json
 import os
 from contextlib import closing
-from common.configer import configer
+from common.configer import GetConfiger
 from common.session import GetSession, GetAppSession
 from common.log import logger
 from common.cunstom_exception import ResponseError, ParamsError
@@ -13,6 +13,7 @@ from urllib.parse import urlencode, unquote
 class Requests():
 
     def __init__(self, session_type='jjxt'):
+        configer = GetConfiger()
         self.cfg = configer.configer()
         if session_type == 'jjxt':
             self.session = GetSession().session()

@@ -2,14 +2,10 @@
 #coding=utf-8
 
 import pytest
-from common.singleton_conf import apiinfo, req
 from common.custom_assert import myassert
-from common.configer import configer
+from common.configer import GetConfiger
 from common.log import logger
 from random import randint
-
-clazzname = configer.configer().get('env', 'clazzname')
-student_mobile= configer.configer().get('env', 'student_mobile')
 
 @pytest.fixture(scope='session')
 def get_customerid():
@@ -17,6 +13,8 @@ def get_customerid():
     获取老师id
     :return:老师id
     '''
+
+    from common.singleton_conf import apiinfo, req
     # 查询老师信息id
     loginuser_info = apiinfo.getapi('loginUser')
     res = req.req(loginuser_info)
@@ -35,11 +33,15 @@ def get_customerid():
 
 @pytest.fixture(scope='session')
 def get_clazzinfo(get_customerid):
+    from common.singleton_conf import apiinfo, req
     '''
     获取班级id
     :param get_teacherid:老师id
     :return:返回配置文件中配置的班级的id
     '''
+
+    configer = GetConfiger()
+    clazzname = configer.configer().get('env', 'clazzname')
     clazzid_info = apiinfo.getapi('forChat')
     clazzid_info['params']['teacherId'] = get_customerid
     res = req.req(clazzid_info)
@@ -81,6 +83,11 @@ def get_studentid(get_clazzid):
     :param get_clazzid:
     :return:
     '''
+
+    from common.singleton_conf import apiinfo, req
+    configer = GetConfiger()
+    clazzname = configer.configer().get('env', 'clazzname')
+    student_mobile = configer.configer().get('env', 'student_mobile')
     student_list_info = apiinfo.getapi('student-list')
     student_list_info['params']['clazzId'] = get_clazzid
     res = req.req(student_list_info)
@@ -112,6 +119,7 @@ def get_stageid_and_taskid(get_clazzid):
     :param get_clazzid:班级id
     :return:随机的阶段id和任务id
     '''
+    from common.singleton_conf import apiinfo, req
     info = apiinfo.getapi('getStageAndTaskByClazzId')
     info['params']['clazzId'] = get_clazzid
     res = req.req(info)
