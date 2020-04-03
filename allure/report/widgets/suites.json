@@ -1,15 +1,4 @@
 {
-  "total" : 1,
-  "items" : [ {
-    "uid" : "8b29b8a5f9f22b9c5a0f61c201fd324c",
-    "name" : "testcases.jjxt",
-    "statistic" : {
-      "failed" : 1,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 32,
-      "unknown" : 0,
-      "total" : 33
-    }
-  } ]
+  "total" : 0,
+  "items" : [ ]
 }

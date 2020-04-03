@@ -1,26 +1,5 @@
 {
   "uid" : "4b4757e66a1912dae1a509f688f20b0f",
   "name" : "categories",
-  "children" : [ {
-    "name" : "Product defects",
-    "children" : [ {
-      "name" : "AssertionError: 返回的数据不应等于：[]",
-      "children" : [ {
-        "name" : "发送群直播：查询直播-随机发送已结束直播-查询直播详情-历史消息中查看发送的直播",
-        "uid" : "e8c54e975c881352",
-        "parentUid" : "742a59e65fe8de32713596073eb6cfc4",
-        "status" : "failed",
-        "time" : {
-          "start" : 1585906378746,
-          "stop" : 1585906378986,
-          "duration" : 240
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "742a59e65fe8de32713596073eb6cfc4"
-    } ],
-    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
-  } ]
+  "children" : [ ]
 }
