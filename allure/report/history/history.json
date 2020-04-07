@@ -4,11 +4,19 @@
       "failed" : 4,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 9,
+      "passed" : 10,
       "unknown" : 0,
-      "total" : 13
+      "total" : 14
     },
     "items" : [ {
+      "uid" : "31ec74cbcc2beba8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585908741044,
+        "stop" : 1585908741404,
+        "duration" : 360
+      }
+    }, {
       "uid" : "75e10d9a8dd2fa98",
       "status" : "passed",
       "time" : {
@@ -42,15 +50,6 @@
         "stop" : 1585881203560,
         "duration" : 299
       }
-    }, {
-      "uid" : "1c555f31e3193314",
-      "status" : "failed",
-      "statusDetails" : "AssertionError: 获取接口【forChat:获取老师相关的群聊班级新接口(返回包含正式班级和代理班级)】信息异常，info的params数据有误，转换为json时出错:\n{\"teacherId\":12}",
-      "time" : {
-        "start" : 1585879688325,
-        "stop" : 1585879688325,
-        "duration" : 0
-      }
     } ]
   },
   "add320467c57d4cc5e2342e699de60d6" : {
@@ -58,11 +57,19 @@
       "failed" : 4,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 10,
+      "passed" : 11,
       "unknown" : 0,
-      "total" : 14
+      "total" : 15
     },
     "items" : [ {
+      "uid" : "88ae0712445cfad5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585908665286,
+        "stop" : 1585908665765,
+        "duration" : 479
+      }
+    }, {
       "uid" : "4b7c74e0a4a8ce03",
       "status" : "passed",
       "time" : {
@@ -96,15 +103,6 @@
         "stop" : 1585881132586,
         "duration" : 496
       }
-    }, {
-      "uid" : "423155ac2575ab1d",
-      "status" : "failed",
-      "statusDetails" : "AssertionError: 获取接口【forChat:获取老师相关的群聊班级新接口(返回包含正式班级和代理班级)】信息异常，info的params数据有误，转换为json时出错:\n{\"teacherId\":12}",
-      "time" : {
-        "start" : 1585879683972,
-        "stop" : 1585879683972,
-        "duration" : 0
-      }
     } ]
   },
   "384b1bfebb890d1f67f9d6105e9da796" : {
@@ -112,11 +110,19 @@
       "failed" : 4,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 9,
+      "passed" : 10,
       "unknown" : 0,
-      "total" : 13
+      "total" : 14
     },
     "items" : [ {
+      "uid" : "7bec35cb31fb9d7b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585908702772,
+        "stop" : 1585908711971,
+        "duration" : 9199
+      }
+    }, {
       "uid" : "83ff63a7bf8b76fa",
       "status" : "passed",
       "time" : {
@@ -150,15 +156,6 @@
         "stop" : 1585881175123,
         "duration" : 8928
       }
-    }, {
-      "uid" : "1e3c4c782ae6dfbb",
-      "status" : "failed",
-      "statusDetails" : "AssertionError: 获取接口【forChat:获取老师相关的群聊班级新接口(返回包含正式班级和代理班级)】信息异常，info的params数据有误，转换为json时出错:\n{\"teacherId\":12}",
-      "time" : {
-        "start" : 1585879686369,
-        "stop" : 1585879686369,
-        "duration" : 0
-      }
     } ]
   },
   "141a3ab871356bc1f62012f8a8d279a5" : {
@@ -166,11 +163,19 @@
       "failed" : 7,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 8,
+      "passed" : 9,
       "unknown" : 0,
-      "total" : 15
+      "total" : 16
     },
     "items" : [ {
+      "uid" : "d5d23db4c9f6316f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585908621690,
+        "stop" : 1585908631385,
+        "duration" : 9695
+      }
+    }, {
       "uid" : "534d7065d70c149a",
       "status" : "passed",
       "time" : {
@@ -204,15 +209,6 @@
         "stop" : 1585905363337,
         "duration" : 0
       }
-    }, {
-      "uid" : "1c2d44cf3e5ab597",
-      "status" : "failed",
-      "statusDetails" : "AssertionError: 获取接口【forChat:获取老师相关的群聊班级新接口(返回包含正式班级和代理班级)】信息异常，info的params数据有误，转换为json时出错:\n{\"teacherId\":12}",
-      "time" : {
-        "start" : 1585903924544,
-        "stop" : 1585903924544,
-        "duration" : 0
-      }
     } ]
   },
   "255f38ca5b2e55b17b04ea4d7af66a57" : {
@@ -220,11 +216,19 @@
       "failed" : 4,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 10,
+      "passed" : 11,
       "unknown" : 0,
-      "total" : 14
+      "total" : 15
     },
     "items" : [ {
+      "uid" : "1ca7c9516d7d2ed2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585908670514,
+        "stop" : 1585908670864,
+        "duration" : 350
+      }
+    }, {
       "uid" : "d0dbd5409d7247d7",
       "status" : "passed",
       "time" : {
@@ -258,15 +262,6 @@
         "stop" : 1585881137578,
         "duration" : 336
       }
-    }, {
-      "uid" : "30ea4e21a9f73b9d",
-      "status" : "failed",
-      "statusDetails" : "AssertionError: 获取接口【forChat:获取老师相关的群聊班级新接口(返回包含正式班级和代理班级)】信息异常，info的params数据有误，转换为json时出错:\n{\"teacherId\":12}",
-      "time" : {
-        "start" : 1585879684659,
-        "stop" : 1585879684659,
-        "duration" : 0
-      }
     } ]
   },
   "fce33ffd4fc27e784afe506f1e8c2415" : {
@@ -274,11 +269,19 @@
       "failed" : 4,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 10,
+      "passed" : 11,
       "unknown" : 0,
-      "total" : 14
+      "total" : 15
     },
     "items" : [ {
+      "uid" : "fcfa5693979ffd7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585908668366,
+        "stop" : 1585908668873,
+        "duration" : 507
+      }
+    }, {
       "uid" : "afe818dd7285dc09",
       "status" : "passed",
       "time" : {
@@ -312,15 +315,6 @@
         "stop" : 1585881135391,
         "duration" : 454
       }
-    }, {
-      "uid" : "a5d7e2178c2f298d",
-      "status" : "failed",
-      "statusDetails" : "AssertionError: 获取接口【forChat:获取老师相关的群聊班级新接口(返回包含正式班级和代理班级)】信息异常，info的params数据有误，转换为json时出错:\n{\"teacherId\":12}",
-      "time" : {
-        "start" : 1585879684347,
-        "stop" : 1585879684347,
-        "duration" : 0
-      }
     } ]
   },
   "7b5f2d4ceba2c842b0cd43778827da77" : {
@@ -328,11 +322,19 @@
       "failed" : 4,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 9,
+      "passed" : 10,
       "unknown" : 0,
-      "total" : 13
+      "total" : 14
     },
     "items" : [ {
+      "uid" : "7280dfd4b77a96ad",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585908737458,
+        "stop" : 1585908737876,
+        "duration" : 418
+      }
+    }, {
       "uid" : "4595fc8d18838ba6",
       "status" : "passed",
       "time" : {
@@ -366,15 +368,6 @@
         "stop" : 1585881200389,
         "duration" : 302
       }
-    }, {
-      "uid" : "55e6ff3c3556869f",
-      "status" : "failed",
-      "statusDetails" : "AssertionError: 获取接口【forChat:获取老师相关的群聊班级新接口(返回包含正式班级和代理班级)】信息异常，info的params数据有误，转换为json时出错:\n{\"teacherId\":12}",
-      "time" : {
-        "start" : 1585879687607,
-        "stop" : 1585879687607,
-        "duration" : 0
-      }
     } ]
   },
   "b46a52f82489a7a5df620b8098f00bdb" : {
@@ -382,11 +375,19 @@
       "failed" : 6,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 7,
+      "passed" : 8,
       "unknown" : 0,
-      "total" : 13
+      "total" : 14
     },
     "items" : [ {
+      "uid" : "d19e472d8541d032",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585908711976,
+        "stop" : 1585908720886,
+        "duration" : 8910
+      }
+    }, {
       "uid" : "ee825ca7b152754f",
       "status" : "passed",
       "time" : {
@@ -420,15 +421,6 @@
         "stop" : 1585881184448,
         "duration" : 9321
       }
-    }, {
-      "uid" : "943753d4a9c497b2",
-      "status" : "failed",
-      "statusDetails" : "AssertionError: 获取接口【forChat:获取老师相关的群聊班级新接口(返回包含正式班级和代理班级)】信息异常，info的params数据有误，转换为json时出错:\n{\"teacherId\":12}",
-      "time" : {
-        "start" : 1585879686429,
-        "stop" : 1585879686429,
-        "duration" : 0
-      }
     } ]
   },
   "5b1b0509c4237c769a1838ff898f4bf1" : {
@@ -436,11 +428,19 @@
       "failed" : 4,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 9,
+      "passed" : 10,
       "unknown" : 0,
-      "total" : 13
+      "total" : 14
     },
     "items" : [ {
+      "uid" : "6841c0461eff47f0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585908732366,
+        "stop" : 1585908732879,
+        "duration" : 513
+      }
+    }, {
       "uid" : "75176e38e33ae380",
       "status" : "passed",
       "time" : {
@@ -474,15 +474,6 @@
         "stop" : 1585881196320,
         "duration" : 404
       }
-    }, {
-      "uid" : "c3cd46deba101552",
-      "status" : "failed",
-      "statusDetails" : "AssertionError: 获取接口【forChat:获取老师相关的群聊班级新接口(返回包含正式班级和代理班级)】信息异常，info的params数据有误，转换为json时出错:\n{\"teacherId\":12}",
-      "time" : {
-        "start" : 1585879686858,
-        "stop" : 1585879686858,
-        "duration" : 0
-      }
     } ]
   },
   "1abb09ef24316e7adc0798fe2144b051" : {
@@ -490,11 +481,19 @@
       "failed" : 4,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 9,
+      "passed" : 10,
       "unknown" : 0,
-      "total" : 13
+      "total" : 14
     },
     "items" : [ {
+      "uid" : "2539d39ba16c4589",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585908743299,
+        "stop" : 1585908743703,
+        "duration" : 404
+      }
+    }, {
       "uid" : "d1062973be4edc07",
       "status" : "passed",
       "time" : {
@@ -528,15 +527,6 @@
         "stop" : 1585881205858,
         "duration" : 318
       }
-    }, {
-      "uid" : "17264ad1c9fb2e38",
-      "status" : "failed",
-      "statusDetails" : "AssertionError: 获取接口【forChat:获取老师相关的群聊班级新接口(返回包含正式班级和代理班级)】信息异常，info的params数据有误，转换为json时出错:\n{\"teacherId\":12}",
-      "time" : {
-        "start" : 1585879689045,
-        "stop" : 1585879689045,
-        "duration" : 0
-      }
     } ]
   },
   "8afb3bb96aa2fef4bbc3d8d15388eee1" : {
@@ -544,11 +534,19 @@
       "failed" : 4,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 9,
+      "passed" : 10,
       "unknown" : 0,
-      "total" : 13
+      "total" : 14
     },
     "items" : [ {
+      "uid" : "7c31f10dcebc1253",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585908735122,
+        "stop" : 1585908735509,
+        "duration" : 387
+      }
+    }, {
       "uid" : "df72e0b5c4226028",
       "status" : "passed",
       "time" : {
@@ -582,15 +580,6 @@
         "stop" : 1585881198676,
         "duration" : 448
       }
-    }, {
-      "uid" : "c1e6a862c7aacf3a",
-      "status" : "failed",
-      "statusDetails" : "AssertionError: 获取接口【forChat:获取老师相关的群聊班级新接口(返回包含正式班级和代理班级)】信息异常，info的params数据有误，转换为json时出错:\n{\"teacherId\":12}",
-      "time" : {
-        "start" : 1585879687276,
-        "stop" : 1585879687276,
-        "duration" : 0
-      }
     } ]
   },
   "7389e73eae7b02ed60e7d1c7910300b7" : {
@@ -598,11 +587,19 @@
       "failed" : 4,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 9,
+      "passed" : 10,
       "unknown" : 0,
-      "total" : 13
+      "total" : 14
     },
     "items" : [ {
+      "uid" : "1103fc256e536f47",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585908739408,
+        "stop" : 1585908739815,
+        "duration" : 407
+      }
+    }, {
       "uid" : "974f21be1d023baf",
       "status" : "passed",
       "time" : {
@@ -636,15 +633,6 @@
         "stop" : 1585881202260,
         "duration" : 405
       }
-    }, {
-      "uid" : "576641849d1f2754",
-      "status" : "failed",
-      "statusDetails" : "AssertionError: 获取接口【forChat:获取老师相关的群聊班级新接口(返回包含正式班级和代理班级)】信息异常，info的params数据有误，转换为json时出错:\n{\"teacherId\":12}",
-      "time" : {
-        "start" : 1585879687997,
-        "stop" : 1585879687997,
-        "duration" : 0
-      }
     } ]
   },
   "ab03294d1b3e67742d27d3654f835c90" : {
@@ -652,11 +640,19 @@
       "failed" : 7,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 8,
+      "passed" : 9,
       "unknown" : 0,
-      "total" : 15
+      "total" : 16
     },
     "items" : [ {
+      "uid" : "dd77319f09e3155",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585908644525,
+        "stop" : 1585908644598,
+        "duration" : 73
+      }
+    }, {
       "uid" : "88c792ed74651c09",
       "status" : "passed",
       "time" : {
@@ -690,15 +686,6 @@
         "stop" : 1585905364328,
         "duration" : 0
       }
-    }, {
-      "uid" : "e5591d2359ab60e7",
-      "status" : "failed",
-      "statusDetails" : "AssertionError: 获取接口【forChat:获取老师相关的群聊班级新接口(返回包含正式班级和代理班级)】信息异常，info的params数据有误，转换为json时出错:\n{\"teacherId\":12}",
-      "time" : {
-        "start" : 1585903924728,
-        "stop" : 1585903924728,
-        "duration" : 0
-      }
     } ]
   },
   "c4d6324efe6de26214b90804e32ae5b7" : {
@@ -706,11 +693,19 @@
       "failed" : 4,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 9,
+      "passed" : 10,
       "unknown" : 0,
-      "total" : 13
+      "total" : 14
     },
     "items" : [ {
+      "uid" : "e287a0265249867c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585908744029,
+        "stop" : 1585908744353,
+        "duration" : 324
+      }
+    }, {
       "uid" : "a89df81b98e6f8a4",
       "status" : "passed",
       "time" : {
@@ -744,15 +739,6 @@
         "stop" : 1585881206469,
         "duration" : 315
       }
-    }, {
-      "uid" : "bdbc9f89cdac0b28",
-      "status" : "failed",
-      "statusDetails" : "AssertionError: 获取接口【forChat:获取老师相关的群聊班级新接口(返回包含正式班级和代理班级)】信息异常，info的params数据有误，转换为json时出错:\n{\"teacherId\":12}",
-      "time" : {
-        "start" : 1585879689404,
-        "stop" : 1585879689404,
-        "duration" : 0
-      }
     } ]
   },
   "3c4463e2c08b9541007f24b29b8b17a5" : {
@@ -760,11 +746,19 @@
       "failed" : 4,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 10,
+      "passed" : 11,
       "unknown" : 0,
-      "total" : 14
+      "total" : 15
     },
     "items" : [ {
+      "uid" : "cd69aadbe87ede5e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585908670869,
+        "stop" : 1585908671251,
+        "duration" : 382
+      }
+    }, {
       "uid" : "26876ab43fbd1163",
       "status" : "passed",
       "time" : {
@@ -798,15 +792,6 @@
         "stop" : 1585881138053,
         "duration" : 466
       }
-    }, {
-      "uid" : "51cb45fdf9f51c2c",
-      "status" : "failed",
-      "statusDetails" : "AssertionError: 获取接口【forChat:获取老师相关的群聊班级新接口(返回包含正式班级和代理班级)】信息异常，info的params数据有误，转换为json时出错:\n{\"teacherId\":12}",
-      "time" : {
-        "start" : 1585879684720,
-        "stop" : 1585879684720,
-        "duration" : 0
-      }
     } ]
   },
   "a720881fa017ef50dd5f43ebb2a909b6" : {
@@ -814,11 +799,19 @@
       "failed" : 3,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 15,
+      "passed" : 16,
       "unknown" : 0,
-      "total" : 18
+      "total" : 19
     },
     "items" : [ {
+      "uid" : "ce3e1b0c7495100a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585908591709,
+        "stop" : 1585908592115,
+        "duration" : 406
+      }
+    }, {
       "uid" : "9eb914019c0c6b1c",
       "status" : "passed",
       "time" : {
@@ -850,26 +843,27 @@
         "stop" : 1585905722825,
         "duration" : 89
       }
-    }, {
-      "uid" : "46cf9c28d13b0513",
-      "status" : "passed",
-      "time" : {
-        "start" : 1585905361206,
-        "stop" : 1585905361321,
-        "duration" : 115
-      }
     } ]
   },
   "a615c600e6fea63c6fd2833470e5d0ae" : {
     "statistic" : {
-      "failed" : 15,
+      "failed" : 16,
       "broken" : 0,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 15
+      "total" : 16
     },
     "items" : [ {
+      "uid" : "d2fdb79224e34ba6",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: 返回的数据不应等于：[]",
+      "time" : {
+        "start" : 1585908621378,
+        "stop" : 1585908621678,
+        "duration" : 300
+      }
+    }, {
       "uid" : "63bd08e4836e5761",
       "status" : "failed",
       "statusDetails" : "AssertionError: 返回的数据不应等于：[]",
@@ -905,15 +899,6 @@
         "stop" : 1585905363019,
         "duration" : 0
       }
-    }, {
-      "uid" : "3572d443c2363f6a",
-      "status" : "failed",
-      "statusDetails" : "AssertionError: 获取接口【forChat:获取老师相关的群聊班级新接口(返回包含正式班级和代理班级)】信息异常，info的params数据有误，转换为json时出错:\n{\"teacherId\":12}",
-      "time" : {
-        "start" : 1585903924485,
-        "stop" : 1585903924485,
-        "duration" : 0
-      }
     } ]
   },
   "8a51f3e46bfc20c20df11b762bc7f6a6" : {
@@ -921,11 +906,19 @@
       "failed" : 7,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 8,
+      "passed" : 9,
       "unknown" : 0,
-      "total" : 15
+      "total" : 16
     },
     "items" : [ {
+      "uid" : "9b1efe8c9ea4adf3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585908645672,
+        "stop" : 1585908654371,
+        "duration" : 8699
+      }
+    }, {
       "uid" : "6655c49fde3c16ab",
       "status" : "passed",
       "time" : {
@@ -959,15 +952,6 @@
         "stop" : 1585905364727,
         "duration" : 0
       }
-    }, {
-      "uid" : "5e87441e73f0f8cd",
-      "status" : "failed",
-      "statusDetails" : "AssertionError: 获取接口【forChat:获取老师相关的群聊班级新接口(返回包含正式班级和代理班级)】信息异常，info的params数据有误，转换为json时出错:\n{\"teacherId\":12}",
-      "time" : {
-        "start" : 1585903924783,
-        "stop" : 1585903924783,
-        "duration" : 0
-      }
     } ]
   },
   "636fe2374d3f3af73c909575685c0405" : {
@@ -975,11 +959,19 @@
       "failed" : 4,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 9,
+      "passed" : 10,
       "unknown" : 0,
-      "total" : 13
+      "total" : 14
     },
     "items" : [ {
+      "uid" : "7c88d3bd0014aab7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585908741408,
+        "stop" : 1585908741764,
+        "duration" : 356
+      }
+    }, {
       "uid" : "8331980bf7bb4873",
       "status" : "passed",
       "time" : {
@@ -1013,15 +1005,6 @@
         "stop" : 1585881203904,
         "duration" : 338
       }
-    }, {
-      "uid" : "343bebd811a5e58e",
-      "status" : "failed",
-      "statusDetails" : "AssertionError: 获取接口【forChat:获取老师相关的群聊班级新接口(返回包含正式班级和代理班级)】信息异常，info的params数据有误，转换为json时出错:\n{\"teacherId\":12}",
-      "time" : {
-        "start" : 1585879688428,
-        "stop" : 1585879688428,
-        "duration" : 0
-      }
     } ]
   },
   "a57f70ab0149d8bee19fa057125268e4" : {
@@ -1029,11 +1012,19 @@
       "failed" : 4,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 12,
+      "passed" : 13,
       "unknown" : 0,
-      "total" : 16
+      "total" : 17
     },
     "items" : [ {
+      "uid" : "da09fdebc685f2ed",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585908658583,
+        "stop" : 1585908658979,
+        "duration" : 396
+      }
+    }, {
       "uid" : "a9b044e39f914a",
       "status" : "passed",
       "time" : {
@@ -1067,14 +1058,6 @@
         "stop" : 1585905365986,
         "duration" : 0
       }
-    }, {
-      "uid" : "9c0cee82113455e9",
-      "status" : "passed",
-      "time" : {
-        "start" : 1585881127109,
-        "stop" : 1585881127515,
-        "duration" : 406
-      }
     } ]
   },
   "17e15d7e03bfa7c040378b67bb24bec7" : {
@@ -1082,11 +1065,19 @@
       "failed" : 4,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 9,
+      "passed" : 10,
       "unknown" : 0,
-      "total" : 13
+      "total" : 14
     },
     "items" : [ {
+      "uid" : "c304dcb29f513f6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585908738993,
+        "stop" : 1585908739404,
+        "duration" : 411
+      }
+    }, {
       "uid" : "c8ae17d31b62d80c",
       "status" : "passed",
       "time" : {
@@ -1120,15 +1111,6 @@
         "stop" : 1585881201851,
         "duration" : 378
       }
-    }, {
-      "uid" : "863b6c98c7e92c58",
-      "status" : "failed",
-      "statusDetails" : "AssertionError: 获取接口【forChat:获取老师相关的群聊班级新接口(返回包含正式班级和代理班级)】信息异常，info的params数据有误，转换为json时出错:\n{\"teacherId\":12}",
-      "time" : {
-        "start" : 1585879687938,
-        "stop" : 1585879687938,
-        "duration" : 0
-      }
     } ]
   },
   "77e5d27105cc6470629b64f493b7afde" : {
@@ -1136,11 +1118,19 @@
       "failed" : 4,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 10,
+      "passed" : 11,
       "unknown" : 0,
-      "total" : 14
+      "total" : 15
     },
     "items" : [ {
+      "uid" : "28a75cce43d03160",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585908671750,
+        "stop" : 1585908672178,
+        "duration" : 428
+      }
+    }, {
       "uid" : "8723dc775ba4a0cd",
       "status" : "passed",
       "time" : {
@@ -1174,15 +1164,6 @@
         "stop" : 1585881138801,
         "duration" : 453
       }
-    }, {
-      "uid" : "118b62dcdb8ca45",
-      "status" : "failed",
-      "statusDetails" : "AssertionError: 获取接口【forChat:获取老师相关的群聊班级新接口(返回包含正式班级和代理班级)】信息异常，info的params数据有误，转换为json时出错:\n{\"teacherId\":12}",
-      "time" : {
-        "start" : 1585879684861,
-        "stop" : 1585879684861,
-        "duration" : 0
-      }
     } ]
   },
   "8dd2e02344f81cae0922d178f071ba77" : {
@@ -1190,11 +1171,19 @@
       "failed" : 4,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 9,
+      "passed" : 10,
       "unknown" : 0,
-      "total" : 13
+      "total" : 14
     },
     "items" : [ {
+      "uid" : "a1c45f5a3e749d46",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585908731884,
+        "stop" : 1585908732361,
+        "duration" : 477
+      }
+    }, {
       "uid" : "dc051c55e2de9202",
       "status" : "passed",
       "time" : {
@@ -1228,15 +1217,6 @@
         "stop" : 1585881195911,
         "duration" : 468
       }
-    }, {
-      "uid" : "228ae64e7a89cc80",
-      "status" : "failed",
-      "statusDetails" : "AssertionError: 获取接口【forChat:获取老师相关的群聊班级新接口(返回包含正式班级和代理班级)】信息异常，info的params数据有误，转换为json时出错:\n{\"teacherId\":12}",
-      "time" : {
-        "start" : 1585879686804,
-        "stop" : 1585879686804,
-        "duration" : 0
-      }
     } ]
   },
   "bc4f1a3c9d2315cd5b76e6b4412d8850" : {
@@ -1244,11 +1224,19 @@
       "failed" : 4,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 9,
+      "passed" : 10,
       "unknown" : 0,
-      "total" : 13
+      "total" : 14
     },
     "items" : [ {
+      "uid" : "33b784949c5ec4ea",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585908742584,
+        "stop" : 1585908742870,
+        "duration" : 286
+      }
+    }, {
       "uid" : "bc98258b3d14871d",
       "status" : "passed",
       "time" : {
@@ -1282,15 +1270,6 @@
         "stop" : 1585881205140,
         "duration" : 368
       }
-    }, {
-      "uid" : "dc43569fbd34520a",
-      "status" : "failed",
-      "statusDetails" : "AssertionError: 获取接口【forChat:获取老师相关的群聊班级新接口(返回包含正式班级和代理班级)】信息异常，info的params数据有误，转换为json时出错:\n{\"teacherId\":12}",
-      "time" : {
-        "start" : 1585879688902,
-        "stop" : 1585879688902,
-        "duration" : 0
-      }
     } ]
   },
   "02cc0dbc6f586b5182b4c086c7370d0b" : {
@@ -1298,11 +1277,19 @@
       "failed" : 4,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 10,
+      "passed" : 11,
       "unknown" : 0,
-      "total" : 14
+      "total" : 15
     },
     "items" : [ {
+      "uid" : "4cc55f413200d78",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585908668878,
+        "stop" : 1585908669306,
+        "duration" : 428
+      }
+    }, {
       "uid" : "41e2235e811494c",
       "status" : "passed",
       "time" : {
@@ -1336,15 +1323,6 @@
         "stop" : 1585881135844,
         "duration" : 448
       }
-    }, {
-      "uid" : "fb6445a1b995c96d",
-      "status" : "failed",
-      "statusDetails" : "AssertionError: 获取接口【forChat:获取老师相关的群聊班级新接口(返回包含正式班级和代理班级)】信息异常，info的params数据有误，转换为json时出错:\n{\"teacherId\":12}",
-      "time" : {
-        "start" : 1585879684405,
-        "stop" : 1585879684405,
-        "duration" : 0
-      }
     } ]
   },
   "82c64e75e1168ec9cdfe958bd49a5f26" : {
@@ -1352,11 +1330,19 @@
       "failed" : 3,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 15,
+      "passed" : 16,
       "unknown" : 0,
-      "total" : 18
+      "total" : 19
     },
     "items" : [ {
+      "uid" : "f271760dc25b194",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585908592824,
+        "stop" : 1585908593004,
+        "duration" : 180
+      }
+    }, {
       "uid" : "957df037951876fd",
       "status" : "passed",
       "time" : {
@@ -1388,14 +1374,6 @@
         "stop" : 1585905723012,
         "duration" : 85
       }
-    }, {
-      "uid" : "7fb15e5b750ebdc",
-      "status" : "passed",
-      "time" : {
-        "start" : 1585905361438,
-        "stop" : 1585905361677,
-        "duration" : 239
-      }
     } ]
   },
   "be4adde59dc854ca56b0f63496f12967" : {
@@ -1403,11 +1381,19 @@
       "failed" : 4,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 9,
+      "passed" : 10,
       "unknown" : 0,
-      "total" : 13
+      "total" : 14
     },
     "items" : [ {
+      "uid" : "d3f45782b3a81e9d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585908734708,
+        "stop" : 1585908735117,
+        "duration" : 409
+      }
+    }, {
       "uid" : "99f8089ee6d0336b",
       "status" : "passed",
       "time" : {
@@ -1441,15 +1427,6 @@
         "stop" : 1585881198223,
         "duration" : 393
       }
-    }, {
-      "uid" : "b520a222b9a9d51",
-      "status" : "failed",
-      "statusDetails" : "AssertionError: 获取接口【forChat:获取老师相关的群聊班级新接口(返回包含正式班级和代理班级)】信息异常，info的params数据有误，转换为json时出错:\n{\"teacherId\":12}",
-      "time" : {
-        "start" : 1585879687181,
-        "stop" : 1585879687181,
-        "duration" : 0
-      }
     } ]
   },
   "460a0e809c0564c0ee50f9acc6bf5fb1" : {
@@ -1457,11 +1434,19 @@
       "failed" : 4,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 10,
+      "passed" : 11,
       "unknown" : 0,
-      "total" : 14
+      "total" : 15
     },
     "items" : [ {
+      "uid" : "272a227d62608d88",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585908676232,
+        "stop" : 1585908676870,
+        "duration" : 638
+      }
+    }, {
       "uid" : "6f1ebe6e9dad73c6",
       "status" : "passed",
       "time" : {
@@ -1495,15 +1480,6 @@
         "stop" : 1585881142937,
         "duration" : 381
       }
-    }, {
-      "uid" : "cd87896fa96baea7",
-      "status" : "failed",
-      "statusDetails" : "AssertionError: 获取接口【forChat:获取老师相关的群聊班级新接口(返回包含正式班级和代理班级)】信息异常，info的params数据有误，转换为json时出错:\n{\"teacherId\":12}",
-      "time" : {
-        "start" : 1585879685465,
-        "stop" : 1585879685465,
-        "duration" : 0
-      }
     } ]
   },
   "8f353f140f96d20a0dea18ea37bc51ad" : {
@@ -1511,11 +1487,19 @@
       "failed" : 4,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 10,
+      "passed" : 11,
       "unknown" : 0,
-      "total" : 14
+      "total" : 15
     },
     "items" : [ {
+      "uid" : "658463a9d0eb7dce",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585908664249,
+        "stop" : 1585908664798,
+        "duration" : 549
+      }
+    }, {
       "uid" : "6a13f4d43396c72d",
       "status" : "passed",
       "time" : {
@@ -1549,15 +1533,6 @@
         "stop" : 1585881131518,
         "duration" : 369
       }
-    }, {
-      "uid" : "28fb0c5dc8e5f452",
-      "status" : "failed",
-      "statusDetails" : "AssertionError: 获取接口【forChat:获取老师相关的群聊班级新接口(返回包含正式班级和代理班级)】信息异常，info的params数据有误，转换为json时出错:\n{\"teacherId\":12}",
-      "time" : {
-        "start" : 1585879683855,
-        "stop" : 1585879683855,
-        "duration" : 0
-      }
     } ]
   },
   "7ab0ffb0e1146958056d0b7d69208e5f" : {
@@ -1565,11 +1540,19 @@
       "failed" : 4,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 10,
+      "passed" : 11,
       "unknown" : 0,
-      "total" : 14
+      "total" : 15
     },
     "items" : [ {
+      "uid" : "9f73a0ef2faaf4c4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585908680898,
+        "stop" : 1585908681678,
+        "duration" : 780
+      }
+    }, {
       "uid" : "9441ed8d8f612c6d",
       "status" : "passed",
       "time" : {
@@ -1603,15 +1586,6 @@
         "stop" : 1585881146277,
         "duration" : 541
       }
-    }, {
-      "uid" : "12f7a57f07482653",
-      "status" : "failed",
-      "statusDetails" : "AssertionError: 获取接口【forChat:获取老师相关的群聊班级新接口(返回包含正式班级和代理班级)】信息异常，info的params数据有误，转换为json时出错:\n{\"teacherId\":12}",
-      "time" : {
-        "start" : 1585879685996,
-        "stop" : 1585879685996,
-        "duration" : 0
-      }
     } ]
   },
   "83c1517288b2615729a9d5f82ef59593" : {
@@ -1619,11 +1593,19 @@
       "failed" : 4,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 10,
+      "passed" : 11,
       "unknown" : 0,
-      "total" : 14
+      "total" : 15
     },
     "items" : [ {
+      "uid" : "12343dadb8f6637b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585908666576,
+        "stop" : 1585908667329,
+        "duration" : 753
+      }
+    }, {
       "uid" : "63dc90bc0553ef0e",
       "status" : "passed",
       "time" : {
@@ -1657,15 +1639,6 @@
         "stop" : 1585881133966,
         "duration" : 411
       }
-    }, {
-      "uid" : "71142038cf9d4c2a",
-      "status" : "failed",
-      "statusDetails" : "AssertionError: 获取接口【forChat:获取老师相关的群聊班级新接口(返回包含正式班级和代理班级)】信息异常，info的params数据有误，转换为json时出错:\n{\"teacherId\":12}",
-      "time" : {
-        "start" : 1585879684169,
-        "stop" : 1585879684169,
-        "duration" : 0
-      }
     } ]
   },
   "4aa3123537eace9d541f9359f9f9f599" : {
@@ -1673,11 +1646,19 @@
       "failed" : 4,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 9,
+      "passed" : 10,
       "unknown" : 0,
-      "total" : 13
+      "total" : 14
     },
     "items" : [ {
+      "uid" : "80b4419db6de7b83",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585908734295,
+        "stop" : 1585908734703,
+        "duration" : 408
+      }
+    }, {
       "uid" : "5bb5e16735f57f6b",
       "status" : "passed",
       "time" : {
@@ -1711,15 +1692,6 @@
         "stop" : 1585881197826,
         "duration" : 286
       }
-    }, {
-      "uid" : "a46be195c5c1dc96",
-      "status" : "failed",
-      "statusDetails" : "AssertionError: 获取接口【forChat:获取老师相关的群聊班级新接口(返回包含正式班级和代理班级)】信息异常，info的params数据有误，转换为json时出错:\n{\"teacherId\":12}",
-      "time" : {
-        "start" : 1585879687120,
-        "stop" : 1585879687120,
-        "duration" : 0
-      }
     } ]
   },
   "d0255e2d53ec2106211d1f6e230d14bd" : {
@@ -1727,11 +1699,19 @@
       "failed" : 4,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 9,
+      "passed" : 10,
       "unknown" : 0,
-      "total" : 13
+      "total" : 14
     },
     "items" : [ {
+      "uid" : "ed3bdd1461ca8e6c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585908746470,
+        "stop" : 1585908746879,
+        "duration" : 409
+      }
+    }, {
       "uid" : "e2de895419975cb5",
       "status" : "passed",
       "time" : {
@@ -1765,15 +1745,6 @@
         "stop" : 1585881208825,
         "duration" : 315
       }
-    }, {
-      "uid" : "6a3e1a96a2840e2b",
-      "status" : "failed",
-      "statusDetails" : "AssertionError: 获取接口【forChat:获取老师相关的群聊班级新接口(返回包含正式班级和代理班级)】信息异常，info的params数据有误，转换为json时出错:\n{\"teacherId\":12}",
-      "time" : {
-        "start" : 1585879689757,
-        "stop" : 1585879689757,
-        "duration" : 0
-      }
     } ]
   },
   "47125102e59d0a3a6b3f9256eac9cb3a" : {
@@ -1781,11 +1752,19 @@
       "failed" : 3,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 15,
+      "passed" : 16,
       "unknown" : 0,
-      "total" : 18
+      "total" : 19
     },
     "items" : [ {
+      "uid" : "5262b2d8533ba4b7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585908592119,
+        "stop" : 1585908592819,
+        "duration" : 700
+      }
+    }, {
       "uid" : "67a969d97b326e1f",
       "status" : "passed",
       "time" : {
@@ -1817,14 +1796,6 @@
         "stop" : 1585905722923,
         "duration" : 92
       }
-    }, {
-      "uid" : "41384673f09df800",
-      "status" : "passed",
-      "time" : {
-        "start" : 1585905361325,
-        "stop" : 1585905361434,
-        "duration" : 109
-      }
     } ]
   },
   "18370f1adfcf6b209e21ba5abdea1d16" : {
@@ -1832,11 +1803,19 @@
       "failed" : 4,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 9,
+      "passed" : 10,
       "unknown" : 0,
-      "total" : 13
+      "total" : 14
     },
     "items" : [ {
+      "uid" : "bc95019db999114b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585908745563,
+        "stop" : 1585908745909,
+        "duration" : 346
+      }
+    }, {
       "uid" : "fffd206821e143eb",
       "status" : "passed",
       "time" : {
@@ -1870,15 +1849,6 @@
         "stop" : 1585881207897,
         "duration" : 264
       }
-    }, {
-      "uid" : "bfe701fbc0066b58",
-      "status" : "failed",
-      "statusDetails" : "AssertionError: 获取接口【forChat:获取老师相关的群聊班级新接口(返回包含正式班级和代理班级)】信息异常，info的params数据有误，转换为json时出错:\n{\"teacherId\":12}",
-      "time" : {
-        "start" : 1585879689625,
-        "stop" : 1585879689625,
-        "duration" : 0
-      }
     } ]
   },
   "4c3ffb94e0cefbaf82d554cafd6d5f2f" : {
@@ -1886,11 +1856,19 @@
       "failed" : 4,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 10,
+      "passed" : 11,
       "unknown" : 0,
-      "total" : 14
+      "total" : 15
     },
     "items" : [ {
+      "uid" : "7612e9296d1e75ae",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585908667333,
+        "stop" : 1585908667842,
+        "duration" : 509
+      }
+    }, {
       "uid" : "a1643615b392e9f3",
       "status" : "passed",
       "time" : {
@@ -1924,15 +1902,6 @@
         "stop" : 1585881134487,
         "duration" : 518
       }
-    }, {
-      "uid" : "97003b58bcafbc7d",
-      "status" : "failed",
-      "statusDetails" : "AssertionError: 获取接口【forChat:获取老师相关的群聊班级新接口(返回包含正式班级和代理班级)】信息异常，info的params数据有误，转换为json时出错:\n{\"teacherId\":12}",
-      "time" : {
-        "start" : 1585879684226,
-        "stop" : 1585879684226,
-        "duration" : 0
-      }
     } ]
   },
   "d80e76feb6311bf9b107fab7d02ce772" : {
@@ -1940,11 +1909,19 @@
       "failed" : 4,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 9,
+      "passed" : 10,
       "unknown" : 0,
-      "total" : 13
+      "total" : 14
     },
     "items" : [ {
+      "uid" : "d5cf27bd597a4a7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585908750177,
+        "stop" : 1585908750674,
+        "duration" : 497
+      }
+    }, {
       "uid" : "6ccc4f953780e656",
       "status" : "passed",
       "time" : {
@@ -1978,15 +1955,6 @@
         "stop" : 1585881212191,
         "duration" : 444
       }
-    }, {
-      "uid" : "dcfd7bb5aacded40",
-      "status" : "failed",
-      "statusDetails" : "AssertionError: 获取接口【forChat:获取老师相关的群聊班级新接口(返回包含正式班级和代理班级)】信息异常，info的params数据有误，转换为json时出错:\n{\"teacherId\":12}",
-      "time" : {
-        "start" : 1585879690257,
-        "stop" : 1585879690258,
-        "duration" : 1
-      }
     } ]
   },
   "99f55002b7784806e6fc3478882033e8" : {
@@ -1994,11 +1962,19 @@
       "failed" : 4,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 9,
+      "passed" : 10,
       "unknown" : 0,
-      "total" : 13
+      "total" : 14
     },
     "items" : [ {
+      "uid" : "7134ed49a8c3ab1d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585908740208,
+        "stop" : 1585908740632,
+        "duration" : 424
+      }
+    }, {
       "uid" : "935174c62c6bcff",
       "status" : "passed",
       "time" : {
@@ -2032,15 +2008,6 @@
         "stop" : 1585881202876,
         "duration" : 335
       }
-    }, {
-      "uid" : "6931376a952bb25c",
-      "status" : "failed",
-      "statusDetails" : "AssertionError: 获取接口【forChat:获取老师相关的群聊班级新接口(返回包含正式班级和代理班级)】信息异常，info的params数据有误，转换为json时出错:\n{\"teacherId\":12}",
-      "time" : {
-        "start" : 1585879688156,
-        "stop" : 1585879688156,
-        "duration" : 0
-      }
     } ]
   },
   "7eece893cbd7d4d042ccd20fc57f9051" : {
@@ -2048,11 +2015,19 @@
       "failed" : 4,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 12,
+      "passed" : 13,
       "unknown" : 0,
-      "total" : 16
+      "total" : 17
     },
     "items" : [ {
+      "uid" : "b23b976cfbee7903",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585908658137,
+        "stop" : 1585908658579,
+        "duration" : 442
+      }
+    }, {
       "uid" : "94ceea1522da258c",
       "status" : "passed",
       "time" : {
@@ -2086,14 +2061,6 @@
         "stop" : 1585905365509,
         "duration" : 0
       }
-    }, {
-      "uid" : "bed5343a6d091b47",
-      "status" : "passed",
-      "time" : {
-        "start" : 1585881126656,
-        "stop" : 1585881127102,
-        "duration" : 446
-      }
     } ]
   },
   "705cb8e1c5fba27e886062411cba0231" : {
@@ -2101,11 +2068,19 @@
       "failed" : 4,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 9,
+      "passed" : 10,
       "unknown" : 0,
-      "total" : 13
+      "total" : 14
     },
     "items" : [ {
+      "uid" : "2b69d48805f80ee9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585908739819,
+        "stop" : 1585908740204,
+        "duration" : 385
+      }
+    }, {
       "uid" : "c7af37b13a8a69f2",
       "status" : "passed",
       "time" : {
@@ -2139,15 +2114,6 @@
         "stop" : 1585881202538,
         "duration" : 272
       }
-    }, {
-      "uid" : "7772df71310b3479",
-      "status" : "failed",
-      "statusDetails" : "AssertionError: 获取接口【forChat:获取老师相关的群聊班级新接口(返回包含正式班级和代理班级)】信息异常，info的params数据有误，转换为json时出错:\n{\"teacherId\":12}",
-      "time" : {
-        "start" : 1585879688094,
-        "stop" : 1585879688094,
-        "duration" : 0
-      }
     } ]
   },
   "7ab279e67442379843b83ef5530335cf" : {
@@ -2155,11 +2121,19 @@
       "failed" : 4,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 12,
+      "passed" : 13,
       "unknown" : 0,
-      "total" : 16
+      "total" : 17
     },
     "items" : [ {
+      "uid" : "cefba2740c81f5b3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585908658983,
+        "stop" : 1585908659460,
+        "duration" : 477
+      }
+    }, {
       "uid" : "f5801574ad3bef56",
       "status" : "passed",
       "time" : {
@@ -2193,14 +2167,6 @@
         "stop" : 1585905366296,
         "duration" : 0
       }
-    }, {
-      "uid" : "d19dc4a709f53b36",
-      "status" : "passed",
-      "time" : {
-        "start" : 1585881127520,
-        "stop" : 1585881127827,
-        "duration" : 307
-      }
     } ]
   },
   "be858fa96f934bc56a5bc0c552e5f2c2" : {
@@ -2208,11 +2174,19 @@
       "failed" : 4,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 12,
+      "passed" : 13,
       "unknown" : 0,
-      "total" : 16
+      "total" : 17
     },
     "items" : [ {
+      "uid" : "4933db5ed601c216",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585908659464,
+        "stop" : 1585908659990,
+        "duration" : 526
+      }
+    }, {
       "uid" : "9d7f72e6456c974",
       "status" : "passed",
       "time" : {
@@ -2246,14 +2220,6 @@
         "stop" : 1585905366809,
         "duration" : 0
       }
-    }, {
-      "uid" : "248c87fa36ed3d74",
-      "status" : "passed",
-      "time" : {
-        "start" : 1585881127831,
-        "stop" : 1585881128332,
-        "duration" : 501
-      }
     } ]
   },
   "2819b93ac925c6b065f3a287b73093be" : {
@@ -2261,11 +2227,19 @@
       "failed" : 4,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 10,
+      "passed" : 11,
       "unknown" : 0,
-      "total" : 14
+      "total" : 15
     },
     "items" : [ {
+      "uid" : "d9950c345fe2c74d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585908682477,
+        "stop" : 1585908682893,
+        "duration" : 416
+      }
+    }, {
       "uid" : "7f7d14a2ff919798",
       "status" : "passed",
       "time" : {
@@ -2299,15 +2273,6 @@
         "stop" : 1585881147206,
         "duration" : 453
       }
-    }, {
-      "uid" : "ca7b09f9ae064380",
-      "status" : "failed",
-      "statusDetails" : "AssertionError: 获取接口【forChat:获取老师相关的群聊班级新接口(返回包含正式班级和代理班级)】信息异常，info的params数据有误，转换为json时出错:\n{\"teacherId\":12}",
-      "time" : {
-        "start" : 1585879686112,
-        "stop" : 1585879686112,
-        "duration" : 0
-      }
     } ]
   },
   "a3bd057c3fb09f44d83ccb10b25e9dd3" : {
@@ -2315,11 +2280,19 @@
       "failed" : 4,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 10,
+      "passed" : 11,
       "unknown" : 0,
-      "total" : 14
+      "total" : 15
     },
     "items" : [ {
+      "uid" : "818b41698bb3c21",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585908678128,
+        "stop" : 1585908678696,
+        "duration" : 568
+      }
+    }, {
       "uid" : "3ec00f3456a89835",
       "status" : "passed",
       "time" : {
@@ -2353,15 +2326,6 @@
         "stop" : 1585881144048,
         "duration" : 354
       }
-    }, {
-      "uid" : "a5115574cefaf689",
-      "status" : "failed",
-      "statusDetails" : "AssertionError: 获取接口【forChat:获取老师相关的群聊班级新接口(返回包含正式班级和代理班级)】信息异常，info的params数据有误，转换为json时出错:\n{\"teacherId\":12}",
-      "time" : {
-        "start" : 1585879685672,
-        "stop" : 1585879685672,
-        "duration" : 0
-      }
     } ]
   },
   "5785df17f06e3874587ba25a7f986457" : {
@@ -2369,11 +2333,19 @@
       "failed" : 4,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 9,
+      "passed" : 10,
       "unknown" : 0,
-      "total" : 13
+      "total" : 14
     },
     "items" : [ {
+      "uid" : "db82f24cbf4339c8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585908747729,
+        "stop" : 1585908748063,
+        "duration" : 334
+      }
+    }, {
       "uid" : "e79c1c9b92a04162",
       "status" : "passed",
       "time" : {
@@ -2407,15 +2379,6 @@
         "stop" : 1585881209838,
         "duration" : 303
       }
-    }, {
-      "uid" : "9e39d70883bde505",
-      "status" : "failed",
-      "statusDetails" : "AssertionError: 获取接口【forChat:获取老师相关的群聊班级新接口(返回包含正式班级和代理班级)】信息异常，info的params数据有误，转换为json时出错:\n{\"teacherId\":12}",
-      "time" : {
-        "start" : 1585879689907,
-        "stop" : 1585879689907,
-        "duration" : 0
-      }
     } ]
   },
   "0cf764490ef71abbfbb64dabf383d4d5" : {
@@ -2423,11 +2386,19 @@
       "failed" : 4,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 9,
+      "passed" : 10,
       "unknown" : 0,
-      "total" : 13
+      "total" : 14
     },
     "items" : [ {
+      "uid" : "dba754ba4d3c972a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585908731495,
+        "stop" : 1585908731880,
+        "duration" : 385
+      }
+    }, {
       "uid" : "ad81425822f5212d",
       "status" : "passed",
       "time" : {
@@ -2461,15 +2432,6 @@
         "stop" : 1585881195438,
         "duration" : 376
       }
-    }, {
-      "uid" : "c7893dea3c30e853",
-      "status" : "failed",
-      "statusDetails" : "AssertionError: 获取接口【forChat:获取老师相关的群聊班级新接口(返回包含正式班级和代理班级)】信息异常，info的params数据有误，转换为json时出错:\n{\"teacherId\":12}",
-      "time" : {
-        "start" : 1585879686748,
-        "stop" : 1585879686748,
-        "duration" : 0
-      }
     } ]
   },
   "5e9751b6b70b36683cb848187e7502be" : {
@@ -2477,11 +2439,19 @@
       "failed" : 4,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 9,
+      "passed" : 10,
       "unknown" : 0,
-      "total" : 13
+      "total" : 14
     },
     "items" : [ {
+      "uid" : "2cbb82439e6d4550",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585908741769,
+        "stop" : 1585908742187,
+        "duration" : 418
+      }
+    }, {
       "uid" : "c4a883d8db78e288",
       "status" : "passed",
       "time" : {
@@ -2515,15 +2485,6 @@
         "stop" : 1585881204309,
         "duration" : 401
       }
-    }, {
-      "uid" : "7eb287c34305081d",
-      "status" : "failed",
-      "statusDetails" : "AssertionError: 获取接口【forChat:获取老师相关的群聊班级新接口(返回包含正式班级和代理班级)】信息异常，info的params数据有误，转换为json时出错:\n{\"teacherId\":12}",
-      "time" : {
-        "start" : 1585879688610,
-        "stop" : 1585879688610,
-        "duration" : 0
-      }
     } ]
   },
   "7685c37fa477a0f72f6cdedaea47ae11" : {
@@ -2531,11 +2492,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 18,
+      "passed" : 19,
       "unknown" : 0,
-      "total" : 18
+      "total" : 19
     },
     "items" : [ {
+      "uid" : "e637d0084ec24469",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585908590595,
+        "stop" : 1585908590903,
+        "duration" : 308
+      }
+    }, {
       "uid" : "7a1d1c8f362875c1",
       "status" : "passed",
       "time" : {
@@ -2567,14 +2536,6 @@
         "stop" : 1585905722446,
         "duration" : 93
       }
-    }, {
-      "uid" : "593ab38db21b0147",
-      "status" : "passed",
-      "time" : {
-        "start" : 1585905360711,
-        "stop" : 1585905360823,
-        "duration" : 112
-      }
     } ]
   },
   "9be1ebdf85b9806240a3c95b922ed163" : {
@@ -2582,11 +2543,19 @@
       "failed" : 7,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 8,
+      "passed" : 9,
       "unknown" : 0,
-      "total" : 15
+      "total" : 16
     },
     "items" : [ {
+      "uid" : "ea05d21f1188bc1b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585908642692,
+        "stop" : 1585908642782,
+        "duration" : 90
+      }
+    }, {
       "uid" : "9ad67937f6528680",
       "status" : "passed",
       "time" : {
@@ -2620,15 +2589,6 @@
         "stop" : 1585905364006,
         "duration" : 0
       }
-    }, {
-      "uid" : "411003bc064ec4e2",
-      "status" : "failed",
-      "statusDetails" : "AssertionError: 获取接口【forChat:获取老师相关的群聊班级新接口(返回包含正式班级和代理班级)】信息异常，info的params数据有误，转换为json时出错:\n{\"teacherId\":12}",
-      "time" : {
-        "start" : 1585903924672,
-        "stop" : 1585903924672,
-        "duration" : 0
-      }
     } ]
   },
   "f2d41b5c02a1e4c32dbdc1c1a9969172" : {
@@ -2636,11 +2596,19 @@
       "failed" : 4,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 10,
+      "passed" : 11,
       "unknown" : 0,
-      "total" : 14
+      "total" : 15
     },
     "items" : [ {
+      "uid" : "bda4aeeb95e9eab2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585908667846,
+        "stop" : 1585908668361,
+        "duration" : 515
+      }
+    }, {
       "uid" : "4730b60335a545f5",
       "status" : "passed",
       "time" : {
@@ -2674,15 +2642,6 @@
         "stop" : 1585881134933,
         "duration" : 443
       }
-    }, {
-      "uid" : "2119a00ef0980ed1",
-      "status" : "failed",
-      "statusDetails" : "AssertionError: 获取接口【forChat:获取老师相关的群聊班级新接口(返回包含正式班级和代理班级)】信息异常，info的params数据有误，转换为json时出错:\n{\"teacherId\":12}",
-      "time" : {
-        "start" : 1585879684287,
-        "stop" : 1585879684287,
-        "duration" : 0
-      }
     } ]
   },
   "0e2e61daf6835e8b43be35663a38bc4a" : {
@@ -2690,11 +2649,19 @@
       "failed" : 4,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 10,
+      "passed" : 11,
       "unknown" : 0,
-      "total" : 14
+      "total" : 15
     },
     "items" : [ {
+      "uid" : "aa233764b3688f46",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585908663685,
+        "stop" : 1585908664245,
+        "duration" : 560
+      }
+    }, {
       "uid" : "5821bdae79345274",
       "status" : "passed",
       "time" : {
@@ -2728,15 +2695,6 @@
         "stop" : 1585881131144,
         "duration" : 262
       }
-    }, {
-      "uid" : "51b1821f6fd9b9fa",
-      "status" : "failed",
-      "statusDetails" : "AssertionError: 获取接口【forChat:获取老师相关的群聊班级新接口(返回包含正式班级和代理班级)】信息异常，info的params数据有误，转换为json时出错:\n{\"teacherId\":12}",
-      "time" : {
-        "start" : 1585879683796,
-        "stop" : 1585879683796,
-        "duration" : 0
-      }
     } ]
   },
   "1c20b770e5c744fc6491f2ec22610b73" : {
@@ -2744,11 +2702,19 @@
       "failed" : 4,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 8,
+      "passed" : 9,
       "unknown" : 0,
-      "total" : 12
+      "total" : 13
     },
     "items" : [ {
+      "uid" : "228c03eba1a562d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585908751489,
+        "stop" : 1585908760664,
+        "duration" : 9175
+      }
+    }, {
       "uid" : "6175c21a8f67d72",
       "status" : "passed",
       "time" : {
@@ -2782,15 +2748,6 @@
         "stop" : 1585881222205,
         "duration" : 9187
       }
-    }, {
-      "uid" : "34e52cb9d81eb4b9",
-      "status" : "failed",
-      "statusDetails" : "AssertionError: 获取接口【forChat:获取老师相关的群聊班级新接口(返回包含正式班级和代理班级)】信息异常，info的params数据有误，转换为json时出错:\n{\"teacherId\":12}",
-      "time" : {
-        "start" : 1585879690443,
-        "stop" : 1585879690443,
-        "duration" : 0
-      }
     } ]
   },
   "c1e6050c707139348b38a3c7b512c359" : {
@@ -2798,11 +2755,19 @@
       "failed" : 4,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 10,
+      "passed" : 11,
       "unknown" : 0,
-      "total" : 14
+      "total" : 15
     },
     "items" : [ {
+      "uid" : "7a85e2bb5a25ea7e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585908679726,
+        "stop" : 1585908680255,
+        "duration" : 529
+      }
+    }, {
       "uid" : "b2db3932433125a",
       "status" : "passed",
       "time" : {
@@ -2836,15 +2801,6 @@
         "stop" : 1585881145279,
         "duration" : 276
       }
-    }, {
-      "uid" : "15bb08ab37253b60",
-      "status" : "failed",
-      "statusDetails" : "AssertionError: 获取接口【forChat:获取老师相关的群聊班级新接口(返回包含正式班级和代理班级)】信息异常，info的params数据有误，转换为json时出错:\n{\"teacherId\":12}",
-      "time" : {
-        "start" : 1585879685880,
-        "stop" : 1585879685880,
-        "duration" : 0
-      }
     } ]
   },
   "11909f481f614d9ebb4d5deb158caa20" : {
@@ -2852,11 +2808,19 @@
       "failed" : 4,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 9,
+      "passed" : 10,
       "unknown" : 0,
-      "total" : 13
+      "total" : 14
     },
     "items" : [ {
+      "uid" : "f97a40e341f2da4f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585908751089,
+        "stop" : 1585908751485,
+        "duration" : 396
+      }
+    }, {
       "uid" : "128b5c03046860d7",
       "status" : "passed",
       "time" : {
@@ -2890,15 +2854,6 @@
         "stop" : 1585881213011,
         "duration" : 406
       }
-    }, {
-      "uid" : "5b6eee2d8e90c4a5",
-      "status" : "failed",
-      "statusDetails" : "AssertionError: 获取接口【forChat:获取老师相关的群聊班级新接口(返回包含正式班级和代理班级)】信息异常，info的params数据有误，转换为json时出错:\n{\"teacherId\":12}",
-      "time" : {
-        "start" : 1585879690391,
-        "stop" : 1585879690391,
-        "duration" : 0
-      }
     } ]
   },
   "b41b010c5446310344a53dcf90a7a9e8" : {
@@ -2906,11 +2861,19 @@
       "failed" : 4,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 9,
+      "passed" : 10,
       "unknown" : 0,
-      "total" : 13
+      "total" : 14
     },
     "items" : [ {
+      "uid" : "adaaefba96b5e4b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585908745914,
+        "stop" : 1585908746465,
+        "duration" : 551
+      }
+    }, {
       "uid" : "7dc4c6020ea090e0",
       "status" : "passed",
       "time" : {
@@ -2944,15 +2907,6 @@
         "stop" : 1585881208506,
         "duration" : 606
       }
-    }, {
-      "uid" : "e51fff0e5faed9fe",
-      "status" : "failed",
-      "statusDetails" : "AssertionError: 获取接口【forChat:获取老师相关的群聊班级新接口(返回包含正式班级和代理班级)】信息异常，info的params数据有误，转换为json时出错:\n{\"teacherId\":12}",
-      "time" : {
-        "start" : 1585879689673,
-        "stop" : 1585879689673,
-        "duration" : 0
-      }
     } ]
   },
   "0d677d022e0ff51fb36ca9fb40c68877" : {
@@ -2960,11 +2914,19 @@
       "failed" : 8,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 12,
+      "passed" : 13,
       "unknown" : 0,
-      "total" : 20
+      "total" : 21
     },
     "items" : [ {
+      "uid" : "df94744cdac8bea",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585908589580,
+        "stop" : 1585908589982,
+        "duration" : 402
+      }
+    }, {
       "uid" : "6ba5af201352c0d2",
       "status" : "failed",
       "statusDetails" : "AssertionError: 获取班级【大数量班级-1班】的id失败\nassert False",
@@ -2998,14 +2960,6 @@
         "stop" : 1585905756559,
         "duration" : 0
       }
-    }, {
-      "uid" : "93fecf4b4160e512",
-      "status" : "passed",
-      "time" : {
-        "start" : 1585905721512,
-        "stop" : 1585905721653,
-        "duration" : 141
-      }
     } ]
   },
   "41a29bfe01285ffd37ead1509ef7c005" : {
@@ -3013,11 +2967,19 @@
       "failed" : 4,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 9,
+      "passed" : 10,
       "unknown" : 0,
-      "total" : 13
+      "total" : 14
     },
     "items" : [ {
+      "uid" : "3121fc59c4d19330",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585908730722,
+        "stop" : 1585908731115,
+        "duration" : 393
+      }
+    }, {
       "uid" : "b289247fa8f85023",
       "status" : "passed",
       "time" : {
@@ -3051,15 +3013,6 @@
         "stop" : 1585881194687,
         "duration" : 389
       }
-    }, {
-      "uid" : "ddf02e4ebf3714c",
-      "status" : "failed",
-      "statusDetails" : "AssertionError: 获取接口【forChat:获取老师相关的群聊班级新接口(返回包含正式班级和代理班级)】信息异常，info的params数据有误，转换为json时出错:\n{\"teacherId\":12}",
-      "time" : {
-        "start" : 1585879686636,
-        "stop" : 1585879686636,
-        "duration" : 0
-      }
     } ]
   },
   "ea2a6bcb0052846d3213ebc1f65968fc" : {
@@ -3067,11 +3020,19 @@
       "failed" : 4,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 10,
+      "passed" : 11,
       "unknown" : 0,
-      "total" : 14
+      "total" : 15
     },
     "items" : [ {
+      "uid" : "93ef825b8ce71482",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585908674635,
+        "stop" : 1585908675099,
+        "duration" : 464
+      }
+    }, {
       "uid" : "5e0563315730f26b",
       "status" : "passed",
       "time" : {
@@ -3105,15 +3066,6 @@
         "stop" : 1585881141741,
         "duration" : 425
       }
-    }, {
-      "uid" : "4540d0e0401f7ea3",
-      "status" : "failed",
-      "statusDetails" : "AssertionError: 获取接口【forChat:获取老师相关的群聊班级新接口(返回包含正式班级和代理班级)】信息异常，info的params数据有误，转换为json时出错:\n{\"teacherId\":12}",
-      "time" : {
-        "start" : 1585879685288,
-        "stop" : 1585879685288,
-        "duration" : 0
-      }
     } ]
   },
   "0dd39b8aab07cb9794fae7714e2dc695" : {
@@ -3121,11 +3073,19 @@
       "failed" : 4,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 10,
+      "passed" : 11,
       "unknown" : 0,
-      "total" : 14
+      "total" : 15
     },
     "items" : [ {
+      "uid" : "b181d3fc44eecfd1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585908672447,
+        "stop" : 1585908672879,
+        "duration" : 432
+      }
+    }, {
       "uid" : "c46d9d7a917afca7",
       "status" : "passed",
       "time" : {
@@ -3159,15 +3119,6 @@
         "stop" : 1585881139603,
         "duration" : 427
       }
-    }, {
-      "uid" : "badd734454eaf5f5",
-      "status" : "failed",
-      "statusDetails" : "AssertionError: 获取接口【forChat:获取老师相关的群聊班级新接口(返回包含正式班级和代理班级)】信息异常，info的params数据有误，转换为json时出错:\n{\"teacherId\":12}",
-      "time" : {
-        "start" : 1585879684981,
-        "stop" : 1585879684981,
-        "duration" : 0
-      }
     } ]
   },
   "27b289ddfe311bb947c69d27575315fe" : {
@@ -3175,11 +3126,19 @@
       "failed" : 4,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 12,
+      "passed" : 13,
       "unknown" : 0,
-      "total" : 16
+      "total" : 17
     },
     "items" : [ {
+      "uid" : "bf233526655da24d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585908662125,
+        "stop" : 1585908662536,
+        "duration" : 411
+      }
+    }, {
       "uid" : "7ea3e2872e1a88b5",
       "status" : "passed",
       "time" : {
@@ -3213,14 +3172,6 @@
         "stop" : 1585905368438,
         "duration" : 0
       }
-    }, {
-      "uid" : "9280669fa90221cf",
-      "status" : "passed",
-      "time" : {
-        "start" : 1585881129663,
-        "stop" : 1585881130012,
-        "duration" : 349
-      }
     } ]
   },
   "6d4c3e65680c2c364dc1dd56bb63baba" : {
@@ -3228,11 +3179,19 @@
       "failed" : 4,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 10,
+      "passed" : 11,
       "unknown" : 0,
-      "total" : 14
+      "total" : 15
     },
     "items" : [ {
+      "uid" : "23a0de1b292a22a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585908670131,
+        "stop" : 1585908670510,
+        "duration" : 379
+      }
+    }, {
       "uid" : "aa27495e8cde15ca",
       "status" : "passed",
       "time" : {
@@ -3266,15 +3225,6 @@
         "stop" : 1585881137238,
         "duration" : 456
       }
-    }, {
-      "uid" : "b354d9df959caf0a",
-      "status" : "failed",
-      "statusDetails" : "AssertionError: 获取接口【forChat:获取老师相关的群聊班级新接口(返回包含正式班级和代理班级)】信息异常，info的params数据有误，转换为json时出错:\n{\"teacherId\":12}",
-      "time" : {
-        "start" : 1585879684600,
-        "stop" : 1585879684600,
-        "duration" : 0
-      }
     } ]
   },
   "15f97cea1115a57cce5c0dbd47bc8373" : {
@@ -3282,11 +3232,19 @@
       "failed" : 4,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 12,
+      "passed" : 13,
       "unknown" : 0,
-      "total" : 16
+      "total" : 17
     },
     "items" : [ {
+      "uid" : "278525e4caad3168",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585908661537,
+        "stop" : 1585908662121,
+        "duration" : 584
+      }
+    }, {
       "uid" : "46376198f2502164",
       "status" : "passed",
       "time" : {
@@ -3320,14 +3278,6 @@
         "stop" : 1585905368120,
         "duration" : 0
       }
-    }, {
-      "uid" : "a637c71872699605",
-      "status" : "passed",
-      "time" : {
-        "start" : 1585881129253,
-        "stop" : 1585881129659,
-        "duration" : 406
-      }
     } ]
   },
   "0d1b2aa27bfbc62e8ba193d8e2355017" : {
@@ -3335,11 +3285,19 @@
       "failed" : 4,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 9,
+      "passed" : 10,
       "unknown" : 0,
-      "total" : 13
+      "total" : 14
     },
     "items" : [ {
+      "uid" : "2fdf9dfb7592f989",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585908738593,
+        "stop" : 1585908738989,
+        "duration" : 396
+      }
+    }, {
       "uid" : "c2a08afef1ecb92f",
       "status" : "passed",
       "time" : {
@@ -3373,15 +3331,6 @@
         "stop" : 1585881201470,
         "duration" : 320
       }
-    }, {
-      "uid" : "4856e8f14460307b",
-      "status" : "failed",
-      "statusDetails" : "AssertionError: 获取接口【forChat:获取老师相关的群聊班级新接口(返回包含正式班级和代理班级)】信息异常，info的params数据有误，转换为json时出错:\n{\"teacherId\":12}",
-      "time" : {
-        "start" : 1585879687880,
-        "stop" : 1585879687880,
-        "duration" : 0
-      }
     } ]
   },
   "06361f8fc76cf0d9b36186e92ce8f762" : {
@@ -3389,11 +3338,19 @@
       "failed" : 6,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 12,
+      "passed" : 13,
       "unknown" : 0,
-      "total" : 18
+      "total" : 19
     },
     "items" : [ {
+      "uid" : "9aac6f38d1a317f4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585908593009,
+        "stop" : 1585908602355,
+        "duration" : 9346
+      }
+    }, {
       "uid" : "ffe0fc7b88d69935",
       "status" : "passed",
       "time" : {
@@ -3426,15 +3383,6 @@
         "stop" : 1585905732330,
         "duration" : 9313
       }
-    }, {
-      "uid" : "f8312f03f00b0060",
-      "status" : "failed",
-      "statusDetails" : "AssertionError: 获取班级【大数量班级-1班】的id失败\nassert False",
-      "time" : {
-        "start" : 1585905361907,
-        "stop" : 1585905361907,
-        "duration" : 0
-      }
     } ]
   },
   "b97c22da4248c7be6d65e9414ff09850" : {
@@ -3442,11 +3390,19 @@
       "failed" : 4,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 10,
+      "passed" : 11,
       "unknown" : 0,
-      "total" : 14
+      "total" : 15
     },
     "items" : [ {
+      "uid" : "48137b8955da1249",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585908672182,
+        "stop" : 1585908672443,
+        "duration" : 261
+      }
+    }, {
       "uid" : "c18169faddcdf2f1",
       "status" : "passed",
       "time" : {
@@ -3480,15 +3436,6 @@
         "stop" : 1585881139171,
         "duration" : 367
       }
-    }, {
-      "uid" : "8028b5158683b200",
-      "status" : "failed",
-      "statusDetails" : "AssertionError: 获取接口【forChat:获取老师相关的群聊班级新接口(返回包含正式班级和代理班级)】信息异常，info的params数据有误，转换为json时出错:\n{\"teacherId\":12}",
-      "time" : {
-        "start" : 1585879684921,
-        "stop" : 1585879684921,
-        "duration" : 0
-      }
     } ]
   },
   "7d7c5d0afe0916d675e4f9ee494535f2" : {
@@ -3496,11 +3443,19 @@
       "failed" : 4,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 10,
+      "passed" : 11,
       "unknown" : 0,
-      "total" : 14
+      "total" : 15
     },
     "items" : [ {
+      "uid" : "9206762717db5380",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585908666239,
+        "stop" : 1585908666572,
+        "duration" : 333
+      }
+    }, {
       "uid" : "5f2b270217d5c532",
       "status" : "passed",
       "time" : {
@@ -3534,15 +3489,6 @@
         "stop" : 1585881133547,
         "duration" : 509
       }
-    }, {
-      "uid" : "ba1813404f82530c",
-      "status" : "failed",
-      "statusDetails" : "AssertionError: 获取接口【forChat:获取老师相关的群聊班级新接口(返回包含正式班级和代理班级)】信息异常，info的params数据有误，转换为json时出错:\n{\"teacherId\":12}",
-      "time" : {
-        "start" : 1585879684088,
-        "stop" : 1585879684088,
-        "duration" : 0
-      }
     } ]
   },
   "5a23344397826cf0165e5438ff87bef4" : {
@@ -3550,11 +3496,19 @@
       "failed" : 4,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 10,
+      "passed" : 11,
       "unknown" : 0,
-      "total" : 14
+      "total" : 15
     },
     "items" : [ {
+      "uid" : "30a213523f3749a6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585908663135,
+        "stop" : 1585908663681,
+        "duration" : 546
+      }
+    }, {
       "uid" : "c5b8f953b56a4c48",
       "status" : "passed",
       "time" : {
@@ -3588,15 +3542,6 @@
         "stop" : 1585881130876,
         "duration" : 427
       }
-    }, {
-      "uid" : "9f5fa7c9c008108f",
-      "status" : "failed",
-      "statusDetails" : "AssertionError: 获取接口【forChat:获取老师相关的群聊班级新接口(返回包含正式班级和代理班级)】信息异常，info的params数据有误，转换为json时出错:\n{\"teacherId\":12}",
-      "time" : {
-        "start" : 1585879683717,
-        "stop" : 1585879683717,
-        "duration" : 0
-      }
     } ]
   },
   "2cc220593629bdbac8f5ca9c4610f311" : {
@@ -3604,11 +3549,19 @@
       "failed" : 7,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 8,
+      "passed" : 9,
       "unknown" : 0,
-      "total" : 15
+      "total" : 16
     },
     "items" : [ {
+      "uid" : "f743274e1834ae92",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585908611458,
+        "stop" : 1585908620636,
+        "duration" : 9178
+      }
+    }, {
       "uid" : "dd53430592ac87ca",
       "status" : "passed",
       "time" : {
@@ -3642,15 +3595,6 @@
         "stop" : 1585905362565,
         "duration" : 0
       }
-    }, {
-      "uid" : "6ee11bcd303761f3",
-      "status" : "failed",
-      "statusDetails" : "AssertionError: 获取接口【forChat:获取老师相关的群聊班级新接口(返回包含正式班级和代理班级)】信息异常，info的params数据有误，转换为json时出错:\n{\"teacherId\":12}",
-      "time" : {
-        "start" : 1585903924432,
-        "stop" : 1585903924432,
-        "duration" : 0
-      }
     } ]
   },
   "841cdbe00bbe7376eb1df92e07928b3b" : {
@@ -3658,11 +3602,19 @@
       "failed" : 4,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 9,
+      "passed" : 10,
       "unknown" : 0,
-      "total" : 13
+      "total" : 14
     },
     "items" : [ {
+      "uid" : "91ca1f307142062e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585908737881,
+        "stop" : 1585908738272,
+        "duration" : 391
+      }
+    }, {
       "uid" : "bdbbd62f43373fbd",
       "status" : "passed",
       "time" : {
@@ -3696,15 +3648,6 @@
         "stop" : 1585881200795,
         "duration" : 401
       }
-    }, {
-      "uid" : "7475bdd238a91443",
-      "status" : "failed",
-      "statusDetails" : "AssertionError: 获取接口【forChat:获取老师相关的群聊班级新接口(返回包含正式班级和代理班级)】信息异常，info的params数据有误，转换为json时出错:\n{\"teacherId\":12}",
-      "time" : {
-        "start" : 1585879687740,
-        "stop" : 1585879687740,
-        "duration" : 0
-      }
     } ]
   },
   "92d15c5d211f3276ece7cf5ecaac3754" : {
@@ -3712,11 +3655,19 @@
       "failed" : 11,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 16,
+      "passed" : 17,
       "unknown" : 0,
-      "total" : 27
+      "total" : 28
     },
     "items" : [ {
+      "uid" : "541ebea61372da9f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585908589056,
+        "stop" : 1585908589573,
+        "duration" : 517
+      }
+    }, {
       "uid" : "b0702dde2106030a",
       "status" : "failed",
       "statusDetails" : "AssertionError: 获取班级【大数量班级-1班】的id失败\nassert False",
@@ -3750,14 +3701,6 @@
         "stop" : 1585905756198,
         "duration" : 0
       }
-    }, {
-      "uid" : "ba2336f74298a472",
-      "status" : "passed",
-      "time" : {
-        "start" : 1585905721269,
-        "stop" : 1585905721505,
-        "duration" : 236
-      }
     } ]
   },
   "44e9c52defd58a16beb58cf5081f65c5" : {
@@ -3765,11 +3708,19 @@
       "failed" : 4,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 10,
+      "passed" : 11,
       "unknown" : 0,
-      "total" : 14
+      "total" : 15
     },
     "items" : [ {
+      "uid" : "2968a5c45eee9c87",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585908673760,
+        "stop" : 1585908674276,
+        "duration" : 516
+      }
+    }, {
       "uid" : "80bec30f2872b44c",
       "status" : "passed",
       "time" : {
@@ -3803,15 +3754,6 @@
         "stop" : 1585881140808,
         "duration" : 429
       }
-    }, {
-      "uid" : "fa45ecaef3b18d82",
-      "status" : "failed",
-      "statusDetails" : "AssertionError: 获取接口【forChat:获取老师相关的群聊班级新接口(返回包含正式班级和代理班级)】信息异常，info的params数据有误，转换为json时出错:\n{\"teacherId\":12}",
-      "time" : {
-        "start" : 1585879685173,
-        "stop" : 1585879685173,
-        "duration" : 0
-      }
     } ]
   },
   "86861e1ec84f627e0c9c3c9e07c2d0d1" : {
@@ -3819,11 +3761,19 @@
       "failed" : 4,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 11,
+      "passed" : 12,
       "unknown" : 0,
-      "total" : 15
+      "total" : 16
     },
     "items" : [ {
+      "uid" : "76429832039799f6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585908662541,
+        "stop" : 1585908663131,
+        "duration" : 590
+      }
+    }, {
       "uid" : "f9575f6bcc66d156",
       "status" : "passed",
       "time" : {
@@ -3857,15 +3807,6 @@
         "stop" : 1585881130444,
         "duration" : 428
       }
-    }, {
-      "uid" : "64e8ba864bfa00d9",
-      "status" : "failed",
-      "statusDetails" : "AssertionError: 获取接口【forChat:获取老师相关的群聊班级新接口(返回包含正式班级和代理班级)】信息异常，info的params数据有误，转换为json时出错:\n{\"teacherId\":12}",
-      "time" : {
-        "start" : 1585879683659,
-        "stop" : 1585879683659,
-        "duration" : 0
-      }
     } ]
   },
   "730e3543a18df49fd0fbde322b22f238" : {
@@ -3873,11 +3814,19 @@
       "failed" : 4,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 10,
+      "passed" : 11,
       "unknown" : 0,
-      "total" : 14
+      "total" : 15
     },
     "items" : [ {
+      "uid" : "635f952fbcf9e890",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585908665769,
+        "stop" : 1585908666234,
+        "duration" : 465
+      }
+    }, {
       "uid" : "1fc45ce2e19a6b21",
       "status" : "passed",
       "time" : {
@@ -3911,15 +3860,6 @@
         "stop" : 1585881133034,
         "duration" : 445
       }
-    }, {
-      "uid" : "f67d4c29f412bd6b",
-      "status" : "failed",
-      "statusDetails" : "AssertionError: 获取接口【forChat:获取老师相关的群聊班级新接口(返回包含正式班级和代理班级)】信息异常，info的params数据有误，转换为json时出错:\n{\"teacherId\":12}",
-      "time" : {
-        "start" : 1585879684030,
-        "stop" : 1585879684030,
-        "duration" : 0
-      }
     } ]
   },
   "32008574bf914863d2ec2b52c4f7e50e" : {
@@ -3927,11 +3867,19 @@
       "failed" : 4,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 9,
+      "passed" : 10,
       "unknown" : 0,
-      "total" : 13
+      "total" : 14
     },
     "items" : [ {
+      "uid" : "7d8984d934ef12d8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585908742874,
+        "stop" : 1585908743294,
+        "duration" : 420
+      }
+    }, {
       "uid" : "439ea72931c046c1",
       "status" : "passed",
       "time" : {
@@ -3965,15 +3913,6 @@
         "stop" : 1585881205536,
         "duration" : 392
       }
-    }, {
-      "uid" : "a6c6a8f900996713",
-      "status" : "failed",
-      "statusDetails" : "AssertionError: 获取接口【forChat:获取老师相关的群聊班级新接口(返回包含正式班级和代理班级)】信息异常，info的params数据有误，转换为json时出错:\n{\"teacherId\":12}",
-      "time" : {
-        "start" : 1585879688975,
-        "stop" : 1585879688975,
-        "duration" : 0
-      }
     } ]
   },
   "61f5c0dd30877187db07309b7619af4f" : {
@@ -3981,11 +3920,19 @@
       "failed" : 4,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 10,
+      "passed" : 11,
       "unknown" : 0,
-      "total" : 14
+      "total" : 15
     },
     "items" : [ {
+      "uid" : "2f216490fd892d29",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585908677349,
+        "stop" : 1585908678124,
+        "duration" : 775
+      }
+    }, {
       "uid" : "d74efee90368a76",
       "status" : "passed",
       "time" : {
@@ -4019,15 +3966,6 @@
         "stop" : 1585881143689,
         "duration" : 408
       }
-    }, {
-      "uid" : "42d7f56ecfd8b624",
-      "status" : "failed",
-      "statusDetails" : "AssertionError: 获取接口【forChat:获取老师相关的群聊班级新接口(返回包含正式班级和代理班级)】信息异常，info的params数据有误，转换为json时出错:\n{\"teacherId\":12}",
-      "time" : {
-        "start" : 1585879685609,
-        "stop" : 1585879685609,
-        "duration" : 0
-      }
     } ]
   },
   "b440e8da3d94ffa999ac86274eb42162" : {
@@ -4035,11 +3973,19 @@
       "failed" : 4,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 10,
+      "passed" : 11,
       "unknown" : 0,
-      "total" : 14
+      "total" : 15
     },
     "items" : [ {
+      "uid" : "1ee688431a670560",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585908675103,
+        "stop" : 1585908675692,
+        "duration" : 589
+      }
+    }, {
       "uid" : "d0e191dc3d59cae1",
       "status" : "passed",
       "time" : {
@@ -4073,15 +4019,6 @@
         "stop" : 1585881142251,
         "duration" : 505
       }
-    }, {
-      "uid" : "dbb73273fa160fad",
-      "status" : "failed",
-      "statusDetails" : "AssertionError: 获取接口【forChat:获取老师相关的群聊班级新接口(返回包含正式班级和代理班级)】信息异常，info的params数据有误，转换为json时出错:\n{\"teacherId\":12}",
-      "time" : {
-        "start" : 1585879685344,
-        "stop" : 1585879685344,
-        "duration" : 0
-      }
     } ]
   },
   "be9a8fd76045c832caa7011b8c4318d0" : {
@@ -4089,11 +4026,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 18,
+      "passed" : 19,
       "unknown" : 0,
-      "total" : 18
+      "total" : 19
     },
     "items" : [ {
+      "uid" : "68232f3b7a26c170",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585908590489,
+        "stop" : 1585908590588,
+        "duration" : 99
+      }
+    }, {
       "uid" : "855e94ef08d75b55",
       "status" : "passed",
       "time" : {
@@ -4125,14 +4070,6 @@
         "stop" : 1585905722347,
         "duration" : 102
       }
-    }, {
-      "uid" : "2dbea4dd7a73a3a4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1585905360576,
-        "stop" : 1585905360703,
-        "duration" : 127
-      }
     } ]
   },
   "8c71994bdb9b4c71e48d57d9c6c97085" : {
@@ -4140,11 +4077,19 @@
       "failed" : 4,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 10,
+      "passed" : 11,
       "unknown" : 0,
-      "total" : 14
+      "total" : 15
     },
     "items" : [ {
+      "uid" : "acd8f1a9a6381b3c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585908671257,
+        "stop" : 1585908671746,
+        "duration" : 489
+      }
+    }, {
       "uid" : "418fc4e1a18c76ce",
       "status" : "passed",
       "time" : {
@@ -4178,15 +4123,6 @@
         "stop" : 1585881138345,
         "duration" : 288
       }
-    }, {
-      "uid" : "ee1e38f262f36419",
-      "status" : "failed",
-      "statusDetails" : "AssertionError: 获取接口【forChat:获取老师相关的群聊班级新接口(返回包含正式班级和代理班级)】信息异常，info的params数据有误，转换为json时出错:\n{\"teacherId\":12}",
-      "time" : {
-        "start" : 1585879684777,
-        "stop" : 1585879684777,
-        "duration" : 0
-      }
     } ]
   },
   "605225057ab8fcf087c315141a52bdaf" : {
@@ -4194,11 +4130,19 @@
       "failed" : 4,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 10,
+      "passed" : 11,
       "unknown" : 0,
-      "total" : 14
+      "total" : 15
     },
     "items" : [ {
+      "uid" : "3724eae90fb60934",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585908681683,
+        "stop" : 1585908682473,
+        "duration" : 790
+      }
+    }, {
       "uid" : "f8907994aa60c78c",
       "status" : "passed",
       "time" : {
@@ -4232,15 +4176,6 @@
         "stop" : 1585881146748,
         "duration" : 466
       }
-    }, {
-      "uid" : "ca225912d060c065",
-      "status" : "failed",
-      "statusDetails" : "AssertionError: 获取接口【forChat:获取老师相关的群聊班级新接口(返回包含正式班级和代理班级)】信息异常，info的params数据有误，转换为json时出错:\n{\"teacherId\":12}",
-      "time" : {
-        "start" : 1585879686057,
-        "stop" : 1585879686057,
-        "duration" : 0
-      }
     } ]
   },
   "61253e6ac272914810ae19c95f1388ad" : {
@@ -4248,11 +4183,19 @@
       "failed" : 4,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 10,
+      "passed" : 11,
       "unknown" : 0,
-      "total" : 14
+      "total" : 15
     },
     "items" : [ {
+      "uid" : "6e146b0fdf8b0704",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585908678700,
+        "stop" : 1585908679237,
+        "duration" : 537
+      }
+    }, {
       "uid" : "c8303b22b1bd2b19",
       "status" : "passed",
       "time" : {
@@ -4286,15 +4229,6 @@
         "stop" : 1585881144528,
         "duration" : 475
       }
-    }, {
-      "uid" : "9bf94d73900c862a",
-      "status" : "failed",
-      "statusDetails" : "AssertionError: 获取接口【forChat:获取老师相关的群聊班级新接口(返回包含正式班级和代理班级)】信息异常，info的params数据有误，转换为json时出错:\n{\"teacherId\":12}",
-      "time" : {
-        "start" : 1585879685732,
-        "stop" : 1585879685732,
-        "duration" : 0
-      }
     } ]
   },
   "c7b81d6a4fecaa7d72e4c9a1fc8fd734" : {
@@ -4302,11 +4236,19 @@
       "failed" : 4,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 9,
+      "passed" : 10,
       "unknown" : 0,
-      "total" : 13
+      "total" : 14
     },
     "items" : [ {
+      "uid" : "eab588e087692953",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585908747294,
+        "stop" : 1585908747725,
+        "duration" : 431
+      }
+    }, {
       "uid" : "d8e92c9dc2b4953f",
       "status" : "passed",
       "time" : {
@@ -4340,15 +4282,6 @@
         "stop" : 1585881209530,
         "duration" : 361
       }
-    }, {
-      "uid" : "59a9bc5979806407",
-      "status" : "failed",
-      "statusDetails" : "AssertionError: 获取接口【forChat:获取老师相关的群聊班级新接口(返回包含正式班级和代理班级)】信息异常，info的params数据有误，转换为json时出错:\n{\"teacherId\":12}",
-      "time" : {
-        "start" : 1585879689858,
-        "stop" : 1585879689858,
-        "duration" : 0
-      }
     } ]
   },
   "a3020976ac0e822018d3ddce7cf38f13" : {
@@ -4356,11 +4289,19 @@
       "failed" : 4,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 10,
+      "passed" : 11,
       "unknown" : 0,
-      "total" : 14
+      "total" : 15
     },
     "items" : [ {
+      "uid" : "f5e114affdcf07b0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585908669310,
+        "stop" : 1585908669599,
+        "duration" : 289
+      }
+    }, {
       "uid" : "c6e93f99ed7eb393",
       "status" : "passed",
       "time" : {
@@ -4394,15 +4335,6 @@
         "stop" : 1585881136324,
         "duration" : 476
       }
-    }, {
-      "uid" : "aaa1a4da45dd820b",
-      "status" : "failed",
-      "statusDetails" : "AssertionError: 获取接口【forChat:获取老师相关的群聊班级新接口(返回包含正式班级和代理班级)】信息异常，info的params数据有误，转换为json时出错:\n{\"teacherId\":12}",
-      "time" : {
-        "start" : 1585879684488,
-        "stop" : 1585879684488,
-        "duration" : 0
-      }
     } ]
   },
   "dc387f9909e422b01bc9053b5647100d" : {
@@ -4410,11 +4342,19 @@
       "failed" : 4,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 10,
+      "passed" : 11,
       "unknown" : 0,
-      "total" : 14
+      "total" : 15
     },
     "items" : [ {
+      "uid" : "183152395dc88fd5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585908682897,
+        "stop" : 1585908683565,
+        "duration" : 668
+      }
+    }, {
       "uid" : "dff28640dacd1e0f",
       "status" : "passed",
       "time" : {
@@ -4448,15 +4388,6 @@
         "stop" : 1585881147584,
         "duration" : 373
       }
-    }, {
-      "uid" : "3b4e93b94bb7aa83",
-      "status" : "failed",
-      "statusDetails" : "AssertionError: 获取接口【forChat:获取老师相关的群聊班级新接口(返回包含正式班级和代理班级)】信息异常，info的params数据有误，转换为json时出错:\n{\"teacherId\":12}",
-      "time" : {
-        "start" : 1585879686173,
-        "stop" : 1585879686173,
-        "duration" : 0
-      }
     } ]
   },
   "7a087b05e9403ae841da09904959092a" : {
@@ -4464,11 +4395,19 @@
       "failed" : 7,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 8,
+      "passed" : 9,
       "unknown" : 0,
-      "total" : 15
+      "total" : 16
     },
     "items" : [ {
+      "uid" : "4567844ea55850a4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585908632754,
+        "stop" : 1585908642071,
+        "duration" : 9317
+      }
+    }, {
       "uid" : "dc10dc1e814dde55",
       "status" : "passed",
       "time" : {
@@ -4502,15 +4441,6 @@
         "stop" : 1585905363672,
         "duration" : 0
       }
-    }, {
-      "uid" : "2eb0b646886ab56d",
-      "status" : "failed",
-      "statusDetails" : "AssertionError: 获取接口【forChat:获取老师相关的群聊班级新接口(返回包含正式班级和代理班级)】信息异常，info的params数据有误，转换为json时出错:\n{\"teacherId\":12}",
-      "time" : {
-        "start" : 1585903924598,
-        "stop" : 1585903924598,
-        "duration" : 0
-      }
     } ]
   },
   "925deebace99cbc90204fe8a7f1e686f" : {
@@ -4518,11 +4448,19 @@
       "failed" : 4,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 10,
+      "passed" : 11,
       "unknown" : 0,
-      "total" : 14
+      "total" : 15
     },
     "items" : [ {
+      "uid" : "5dd1a8c92b2918ca",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585908675696,
+        "stop" : 1585908676228,
+        "duration" : 532
+      }
+    }, {
       "uid" : "4d8634afca0f5b3f",
       "status" : "passed",
       "time" : {
@@ -4556,15 +4494,6 @@
         "stop" : 1585881142551,
         "duration" : 297
       }
-    }, {
-      "uid" : "516beb5830ceba98",
-      "status" : "failed",
-      "statusDetails" : "AssertionError: 获取接口【forChat:获取老师相关的群聊班级新接口(返回包含正式班级和代理班级)】信息异常，info的params数据有误，转换为json时出错:\n{\"teacherId\":12}",
-      "time" : {
-        "start" : 1585879685403,
-        "stop" : 1585879685403,
-        "duration" : 0
-      }
     } ]
   },
   "a3e04c6be8194795920593d2c1344fa2" : {
@@ -4572,11 +4501,19 @@
       "failed" : 4,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 10,
+      "passed" : 11,
       "unknown" : 0,
-      "total" : 14
+      "total" : 15
     },
     "items" : [ {
+      "uid" : "640d843408fa6f70",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585908680260,
+        "stop" : 1585908680894,
+        "duration" : 634
+      }
+    }, {
       "uid" : "39b467c77ecb1952",
       "status" : "passed",
       "time" : {
@@ -4610,15 +4547,6 @@
         "stop" : 1585881145732,
         "duration" : 449
       }
-    }, {
-      "uid" : "b26a35e85c6392af",
-      "status" : "failed",
-      "statusDetails" : "AssertionError: 获取接口【forChat:获取老师相关的群聊班级新接口(返回包含正式班级和代理班级)】信息异常，info的params数据有误，转换为json时出错:\n{\"teacherId\":12}",
-      "time" : {
-        "start" : 1585879685936,
-        "stop" : 1585879685936,
-        "duration" : 0
-      }
     } ]
   },
   "6d91658fed1e5916ee72fc5baec704e9" : {
@@ -4626,11 +4554,19 @@
       "failed" : 7,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 8,
+      "passed" : 9,
       "unknown" : 0,
-      "total" : 15
+      "total" : 16
     },
     "items" : [ {
+      "uid" : "8a4593bdc7ab311",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585908657186,
+        "stop" : 1585908658012,
+        "duration" : 826
+      }
+    }, {
       "uid" : "5b61991e61c5b582",
       "status" : "passed",
       "time" : {
@@ -4664,15 +4600,6 @@
         "stop" : 1585905365071,
         "duration" : 0
       }
-    }, {
-      "uid" : "cfd22fc45c86990",
-      "status" : "failed",
-      "statusDetails" : "AssertionError: 获取接口【forChat:获取老师相关的群聊班级新接口(返回包含正式班级和代理班级)】信息异常，info的params数据有误，转换为json时出错:\n{\"teacherId\":12}",
-      "time" : {
-        "start" : 1585903924837,
-        "stop" : 1585903924837,
-        "duration" : 0
-      }
     } ]
   },
   "42b2d7a67d782916c4458ce3cd7ff2aa" : {
@@ -4680,11 +4607,19 @@
       "failed" : 4,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 8,
+      "passed" : 9,
       "unknown" : 0,
-      "total" : 12
+      "total" : 13
     },
     "items" : [ {
+      "uid" : "ca0c26ded37eb0ee",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585908760668,
+        "stop" : 1585908760744,
+        "duration" : 76
+      }
+    }, {
       "uid" : "36e4079989af57f2",
       "status" : "passed",
       "time" : {
@@ -4718,15 +4653,6 @@
         "stop" : 1585881222352,
         "duration" : 142
       }
-    }, {
-      "uid" : "17cbc940242346cd",
-      "status" : "failed",
-      "statusDetails" : "AssertionError: 获取接口【forChat:获取老师相关的群聊班级新接口(返回包含正式班级和代理班级)】信息异常，info的params数据有误，转换为json时出错:\n{\"teacherId\":12}",
-      "time" : {
-        "start" : 1585879695069,
-        "stop" : 1585879695069,
-        "duration" : 0
-      }
     } ]
   },
   "e2f901f233b0d318c5ecb09122dfef83" : {
@@ -4734,11 +4660,19 @@
       "failed" : 4,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 9,
+      "passed" : 10,
       "unknown" : 0,
-      "total" : 13
+      "total" : 14
     },
     "items" : [ {
+      "uid" : "4442e815d81dbe5f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585908731120,
+        "stop" : 1585908731491,
+        "duration" : 371
+      }
+    }, {
       "uid" : "8d0755f5fc533aa7",
       "status" : "passed",
       "time" : {
@@ -4772,27 +4706,27 @@
         "stop" : 1585881195058,
         "duration" : 367
       }
-    }, {
-      "uid" : "776106a737983db2",
-      "status" : "failed",
-      "statusDetails" : "AssertionError: 获取接口【forChat:获取老师相关的群聊班级新接口(返回包含正式班级和代理班级)】信息异常，info的params数据有误，转换为json时出错:\n{\"teacherId\":12}",
-      "time" : {
-        "start" : 1585879686692,
-        "stop" : 1585879686692,
-        "duration" : 0
-      }
     } ]
   },
   "da3cab0ebf64cb2f1e3758ca39440327" : {
     "statistic" : {
-      "failed" : 13,
+      "failed" : 14,
       "broken" : 0,
       "skipped" : 0,
       "passed" : 0,
       "unknown" : 0,
-      "total" : 13
+      "total" : 14
     },
     "items" : [ {
+      "uid" : "26e9a479201bfa69",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: 返回的数据不应等于：[]",
+      "time" : {
+        "start" : 1585908721492,
+        "stop" : 1585908721790,
+        "duration" : 298
+      }
+    }, {
       "uid" : "d6a2a56cb77ec8cf",
       "status" : "failed",
       "statusDetails" : "AssertionError: 返回的数据不应等于：[]",
@@ -4828,15 +4762,6 @@
         "stop" : 1585881185363,
         "duration" : 289
       }
-    }, {
-      "uid" : "c748b8b5baabcef3",
-      "status" : "failed",
-      "statusDetails" : "AssertionError: 获取接口【forChat:获取老师相关的群聊班级新接口(返回包含正式班级和代理班级)】信息异常，info的params数据有误，转换为json时出错:\n{\"teacherId\":12}",
-      "time" : {
-        "start" : 1585879686490,
-        "stop" : 1585879686490,
-        "duration" : 0
-      }
     } ]
   },
   "5b1cd67de9c5cb527c7af9131ace4699" : {
@@ -4844,11 +4769,19 @@
       "failed" : 4,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 9,
+      "passed" : 10,
       "unknown" : 0,
-      "total" : 13
+      "total" : 14
     },
     "items" : [ {
+      "uid" : "d0fce2c1a892a413",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585908733798,
+        "stop" : 1585908734288,
+        "duration" : 490
+      }
+    }, {
       "uid" : "64618dbe69f6f14a",
       "status" : "passed",
       "time" : {
@@ -4882,15 +4815,6 @@
         "stop" : 1585881197534,
         "duration" : 383
       }
-    }, {
-      "uid" : "7beca20f648e6894",
-      "status" : "failed",
-      "statusDetails" : "AssertionError: 获取接口【forChat:获取老师相关的群聊班级新接口(返回包含正式班级和代理班级)】信息异常，info的params数据有误，转换为json时出错:\n{\"teacherId\":12}",
-      "time" : {
-        "start" : 1585879687061,
-        "stop" : 1585879687061,
-        "duration" : 0
-      }
     } ]
   },
   "c568b2bee76c44b979289cf536d882c5" : {
@@ -4898,11 +4822,19 @@
       "failed" : 4,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 10,
+      "passed" : 11,
       "unknown" : 0,
-      "total" : 14
+      "total" : 15
     },
     "items" : [ {
+      "uid" : "d7a291bf90d070ca",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585908679241,
+        "stop" : 1585908679722,
+        "duration" : 481
+      }
+    }, {
       "uid" : "317cee89cc9359d8",
       "status" : "passed",
       "time" : {
@@ -4936,15 +4868,6 @@
         "stop" : 1585881144998,
         "duration" : 465
       }
-    }, {
-      "uid" : "f39548524abacd0",
-      "status" : "failed",
-      "statusDetails" : "AssertionError: 获取接口【forChat:获取老师相关的群聊班级新接口(返回包含正式班级和代理班级)】信息异常，info的params数据有误，转换为json时出错:\n{\"teacherId\":12}",
-      "time" : {
-        "start" : 1585879685792,
-        "stop" : 1585879685792,
-        "duration" : 0
-      }
     } ]
   },
   "5c3e2f2924cd6c23a1aa3c20705b55c6" : {
@@ -4952,11 +4875,19 @@
       "failed" : 4,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 9,
+      "passed" : 10,
       "unknown" : 0,
-      "total" : 13
+      "total" : 14
     },
     "items" : [ {
+      "uid" : "af3027bd2c95e809",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585908743707,
+        "stop" : 1585908744024,
+        "duration" : 317
+      }
+    }, {
       "uid" : "71e4eb9dd1542077",
       "status" : "passed",
       "time" : {
@@ -4990,15 +4921,6 @@
         "stop" : 1585881206150,
         "duration" : 285
       }
-    }, {
-      "uid" : "2806f2ccf20bf0d8",
-      "status" : "failed",
-      "statusDetails" : "AssertionError: 获取接口【forChat:获取老师相关的群聊班级新接口(返回包含正式班级和代理班级)】信息异常，info的params数据有误，转换为json时出错:\n{\"teacherId\":12}",
-      "time" : {
-        "start" : 1585879689271,
-        "stop" : 1585879689271,
-        "duration" : 0
-      }
     } ]
   },
   "40819c0aa5e1e30eaf2031d65cd9c004" : {
@@ -5006,11 +4928,19 @@
       "failed" : 4,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 10,
+      "passed" : 11,
       "unknown" : 0,
-      "total" : 14
+      "total" : 15
     },
     "items" : [ {
+      "uid" : "a0289a059965b1dd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585908664802,
+        "stop" : 1585908665282,
+        "duration" : 480
+      }
+    }, {
       "uid" : "5e13beedd7ebf48f",
       "status" : "passed",
       "time" : {
@@ -5044,15 +4974,6 @@
         "stop" : 1585881132085,
         "duration" : 564
       }
-    }, {
-      "uid" : "6ed36a5a9ec0061c",
-      "status" : "failed",
-      "statusDetails" : "AssertionError: 获取接口【forChat:获取老师相关的群聊班级新接口(返回包含正式班级和代理班级)】信息异常，info的params数据有误，转换为json时出错:\n{\"teacherId\":12}",
-      "time" : {
-        "start" : 1585879683914,
-        "stop" : 1585879683914,
-        "duration" : 0
-      }
     } ]
   },
   "bd0767cf50f5980755e092d70e8d96ad" : {
@@ -5060,11 +4981,19 @@
       "failed" : 6,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 12,
+      "passed" : 13,
       "unknown" : 0,
-      "total" : 18
+      "total" : 19
     },
     "items" : [ {
+      "uid" : "dbb744eacf33e8b4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585908602360,
+        "stop" : 1585908611453,
+        "duration" : 9093
+      }
+    }, {
       "uid" : "5218260736d3e86",
       "status" : "passed",
       "time" : {
@@ -5097,15 +5026,6 @@
         "stop" : 1585905741399,
         "duration" : 9064
       }
-    }, {
-      "uid" : "ce3cbd6e666f3441",
-      "status" : "failed",
-      "statusDetails" : "AssertionError: 获取班级【大数量班级-1班】的id失败\nassert False",
-      "time" : {
-        "start" : 1585905362240,
-        "stop" : 1585905362240,
-        "duration" : 0
-      }
     } ]
   },
   "95a5a5d55553905010d1037d4c57921a" : {
@@ -5113,11 +5033,19 @@
       "failed" : 4,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 9,
+      "passed" : 10,
       "unknown" : 0,
-      "total" : 13
+      "total" : 14
     },
     "items" : [ {
+      "uid" : "3b45a1625eef88a2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585908745140,
+        "stop" : 1585908745558,
+        "duration" : 418
+      }
+    }, {
       "uid" : "1525ee7118c641b6",
       "status" : "passed",
       "time" : {
@@ -5151,15 +5079,6 @@
         "stop" : 1585881207630,
         "duration" : 424
       }
-    }, {
-      "uid" : "84481a30246f6986",
-      "status" : "failed",
-      "statusDetails" : "AssertionError: 获取接口【forChat:获取老师相关的群聊班级新接口(返回包含正式班级和代理班级)】信息异常，info的params数据有误，转换为json时出错:\n{\"teacherId\":12}",
-      "time" : {
-        "start" : 1585879689559,
-        "stop" : 1585879689559,
-        "duration" : 0
-      }
     } ]
   },
   "66879d57c6ec3aa9325c73b8b6c1fcec" : {
@@ -5167,11 +5086,19 @@
       "failed" : 4,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 9,
+      "passed" : 10,
       "unknown" : 0,
-      "total" : 13
+      "total" : 14
     },
     "items" : [ {
+      "uid" : "57c326b514a09f9c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585908733400,
+        "stop" : 1585908733794,
+        "duration" : 394
+      }
+    }, {
       "uid" : "33aa5bd2ceb52146",
       "status" : "passed",
       "time" : {
@@ -5205,15 +5132,6 @@
         "stop" : 1585881197147,
         "duration" : 306
       }
-    }, {
-      "uid" : "72c5c684b90770a0",
-      "status" : "failed",
-      "statusDetails" : "AssertionError: 获取接口【forChat:获取老师相关的群聊班级新接口(返回包含正式班级和代理班级)】信息异常，info的params数据有误，转换为json时出错:\n{\"teacherId\":12}",
-      "time" : {
-        "start" : 1585879687001,
-        "stop" : 1585879687001,
-        "duration" : 0
-      }
     } ]
   },
   "a6bd3ef4562e8a4b81f8881df950b784" : {
@@ -5221,11 +5139,19 @@
       "failed" : 4,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 10,
+      "passed" : 11,
       "unknown" : 0,
-      "total" : 14
+      "total" : 15
     },
     "items" : [ {
+      "uid" : "aec19bf6bf5781dc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585908672883,
+        "stop" : 1585908673430,
+        "duration" : 547
+      }
+    }, {
       "uid" : "2f9968fb20261f0d",
       "status" : "passed",
       "time" : {
@@ -5259,15 +5185,6 @@
         "stop" : 1585881140056,
         "duration" : 448
       }
-    }, {
-      "uid" : "25be40d972ae8cb2",
-      "status" : "failed",
-      "statusDetails" : "AssertionError: 获取接口【forChat:获取老师相关的群聊班级新接口(返回包含正式班级和代理班级)】信息异常，info的params数据有误，转换为json时出错:\n{\"teacherId\":12}",
-      "time" : {
-        "start" : 1585879685036,
-        "stop" : 1585879685036,
-        "duration" : 0
-      }
     } ]
   },
   "e14652e764108d62c065af33e43ccece" : {
@@ -5275,11 +5192,19 @@
       "failed" : 4,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 9,
+      "passed" : 10,
       "unknown" : 0,
-      "total" : 13
+      "total" : 14
     },
     "items" : [ {
+      "uid" : "6a285efe6c5fdfd8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585908742191,
+        "stop" : 1585908742580,
+        "duration" : 389
+      }
+    }, {
       "uid" : "1df921cc887258c0",
       "status" : "passed",
       "time" : {
@@ -5313,15 +5238,6 @@
         "stop" : 1585881204769,
         "duration" : 457
       }
-    }, {
-      "uid" : "a94040338767435",
-      "status" : "failed",
-      "statusDetails" : "AssertionError: 获取接口【forChat:获取老师相关的群聊班级新接口(返回包含正式班级和代理班级)】信息异常，info的params数据有误，转换为json时出错:\n{\"teacherId\":12}",
-      "time" : {
-        "start" : 1585879688811,
-        "stop" : 1585879688811,
-        "duration" : 0
-      }
     } ]
   },
   "7ca920f676ce7d19d9fe423e0164a226" : {
@@ -5329,11 +5245,19 @@
       "failed" : 4,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 10,
+      "passed" : 11,
       "unknown" : 0,
-      "total" : 14
+      "total" : 15
     },
     "items" : [ {
+      "uid" : "829255807675bb10",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585908673434,
+        "stop" : 1585908673756,
+        "duration" : 322
+      }
+    }, {
       "uid" : "bd259568a9c5c977",
       "status" : "passed",
       "time" : {
@@ -5367,15 +5291,6 @@
         "stop" : 1585881140374,
         "duration" : 315
       }
-    }, {
-      "uid" : "6fba20bf5cd5a7c6",
-      "status" : "failed",
-      "statusDetails" : "AssertionError: 获取接口【forChat:获取老师相关的群聊班级新接口(返回包含正式班级和代理班级)】信息异常，info的params数据有误，转换为json时出错:\n{\"teacherId\":12}",
-      "time" : {
-        "start" : 1585879685093,
-        "stop" : 1585879685093,
-        "duration" : 0
-      }
     } ]
   },
   "db36e7f660be6747d80d723b5504067f" : {
@@ -5383,11 +5298,19 @@
       "failed" : 4,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 9,
+      "passed" : 10,
       "unknown" : 0,
-      "total" : 13
+      "total" : 14
     },
     "items" : [ {
+      "uid" : "c660a81d1b7e7907",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585908748945,
+        "stop" : 1585908749339,
+        "duration" : 394
+      }
+    }, {
       "uid" : "85567c20572c132e",
       "status" : "passed",
       "time" : {
@@ -5421,15 +5344,6 @@
         "stop" : 1585881210953,
         "duration" : 374
       }
-    }, {
-      "uid" : "f84bd29d0c55381b",
-      "status" : "failed",
-      "statusDetails" : "AssertionError: 获取接口【forChat:获取老师相关的群聊班级新接口(返回包含正式班级和代理班级)】信息异常，info的params数据有误，转换为json时出错:\n{\"teacherId\":12}",
-      "time" : {
-        "start" : 1585879690097,
-        "stop" : 1585879690097,
-        "duration" : 0
-      }
     } ]
   },
   "c0f08faba12cb5cba9310a54c5b41c7d" : {
@@ -5437,11 +5351,19 @@
       "failed" : 4,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 12,
+      "passed" : 13,
       "unknown" : 0,
-      "total" : 16
+      "total" : 17
     },
     "items" : [ {
+      "uid" : "91c7a8d065fd34a5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585908660510,
+        "stop" : 1585908661056,
+        "duration" : 546
+      }
+    }, {
       "uid" : "8fd4a5a00e15a468",
       "status" : "passed",
       "time" : {
@@ -5475,14 +5397,6 @@
         "stop" : 1585905367465,
         "duration" : 0
       }
-    }, {
-      "uid" : "19717dc27250e1d2",
-      "status" : "passed",
-      "time" : {
-        "start" : 1585881128614,
-        "stop" : 1585881128891,
-        "duration" : 277
-      }
     } ]
   },
   "e5f19da8ce08690dac61230856c87f57" : {
@@ -5490,11 +5404,19 @@
       "failed" : 4,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 9,
+      "passed" : 10,
       "unknown" : 0,
-      "total" : 13
+      "total" : 14
     },
     "items" : [ {
+      "uid" : "b0aef723860fae5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585908732884,
+        "stop" : 1585908733395,
+        "duration" : 511
+      }
+    }, {
       "uid" : "4b6a9fec78c00001",
       "status" : "passed",
       "time" : {
@@ -5528,15 +5450,6 @@
         "stop" : 1585881196835,
         "duration" : 512
       }
-    }, {
-      "uid" : "75ba08cb862a8999",
-      "status" : "failed",
-      "statusDetails" : "AssertionError: 获取接口【forChat:获取老师相关的群聊班级新接口(返回包含正式班级和代理班级)】信息异常，info的params数据有误，转换为json时出错:\n{\"teacherId\":12}",
-      "time" : {
-        "start" : 1585879686943,
-        "stop" : 1585879686943,
-        "duration" : 0
-      }
     } ]
   },
   "29f701d343883d90015fa51b7d21fec0" : {
@@ -5544,11 +5457,19 @@
       "failed" : 4,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 12,
+      "passed" : 13,
       "unknown" : 0,
-      "total" : 16
+      "total" : 17
     },
     "items" : [ {
+      "uid" : "c6d13807adc0f965",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585908661061,
+        "stop" : 1585908661533,
+        "duration" : 472
+      }
+    }, {
       "uid" : "52a49f4cdc971bd1",
       "status" : "passed",
       "time" : {
@@ -5582,14 +5503,6 @@
         "stop" : 1585905367792,
         "duration" : 0
       }
-    }, {
-      "uid" : "124878bafc72c666",
-      "status" : "passed",
-      "time" : {
-        "start" : 1585881128895,
-        "stop" : 1585881129246,
-        "duration" : 351
-      }
     } ]
   },
   "bafc6041cdefcbad5518ae49a4988d01" : {
@@ -5597,11 +5510,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 18,
+      "passed" : 19,
       "unknown" : 0,
-      "total" : 18
+      "total" : 19
     },
     "items" : [ {
+      "uid" : "8d147534acfb0a7e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585908591076,
+        "stop" : 1585908591237,
+        "duration" : 161
+      }
+    }, {
       "uid" : "14db7b604dc0d80a",
       "status" : "passed",
       "time" : {
@@ -5633,14 +5554,6 @@
         "stop" : 1585905722636,
         "duration" : 83
       }
-    }, {
-      "uid" : "bea5034933b2a63b",
-      "status" : "passed",
-      "time" : {
-        "start" : 1585905360976,
-        "stop" : 1585905361087,
-        "duration" : 111
-      }
     } ]
   },
   "cb726c2d53427141d58553d5c19f2b17" : {
@@ -5648,11 +5561,19 @@
       "failed" : 4,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 9,
+      "passed" : 10,
       "unknown" : 0,
-      "total" : 13
+      "total" : 14
     },
     "items" : [ {
+      "uid" : "1a019ec3b75d4bca",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585908744358,
+        "stop" : 1585908744718,
+        "duration" : 360
+      }
+    }, {
       "uid" : "bf30b71d48a208f0",
       "status" : "passed",
       "time" : {
@@ -5686,15 +5607,6 @@
         "stop" : 1585881206820,
         "duration" : 347
       }
-    }, {
-      "uid" : "3e0880444141899f",
-      "status" : "failed",
-      "statusDetails" : "AssertionError: 获取接口【forChat:获取老师相关的群聊班级新接口(返回包含正式班级和代理班级)】信息异常，info的params数据有误，转换为json时出错:\n{\"teacherId\":12}",
-      "time" : {
-        "start" : 1585879689450,
-        "stop" : 1585879689450,
-        "duration" : 0
-      }
     } ]
   },
   "3623cc1f9f3e0fc1bc8fc724648c8974" : {
@@ -5702,11 +5614,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 18,
+      "passed" : 19,
       "unknown" : 0,
-      "total" : 18
+      "total" : 19
     },
     "items" : [ {
+      "uid" : "6157bb676a348878",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585908590911,
+        "stop" : 1585908591068,
+        "duration" : 157
+      }
+    }, {
       "uid" : "64d44d29a31fc62d",
       "status" : "passed",
       "time" : {
@@ -5738,14 +5658,6 @@
         "stop" : 1585905722545,
         "duration" : 92
       }
-    }, {
-      "uid" : "d6d08971af0742c",
-      "status" : "passed",
-      "time" : {
-        "start" : 1585905360831,
-        "stop" : 1585905360967,
-        "duration" : 136
-      }
     } ]
   },
   "67206c1fc78b44b2b98d910627d7e474" : {
@@ -5753,11 +5665,19 @@
       "failed" : 4,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 9,
+      "passed" : 10,
       "unknown" : 0,
-      "total" : 13
+      "total" : 14
     },
     "items" : [ {
+      "uid" : "7866532b00309ede",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585908740637,
+        "stop" : 1585908741040,
+        "duration" : 403
+      }
+    }, {
       "uid" : "6fcceb1cc8da5ce1",
       "status" : "passed",
       "time" : {
@@ -5791,15 +5711,6 @@
         "stop" : 1585881203255,
         "duration" : 371
       }
-    }, {
-      "uid" : "8acd266935e14d28",
-      "status" : "failed",
-      "statusDetails" : "AssertionError: 获取接口【forChat:获取老师相关的群聊班级新接口(返回包含正式班级和代理班级)】信息异常，info的params数据有误，转换为json时出错:\n{\"teacherId\":12}",
-      "time" : {
-        "start" : 1585879688242,
-        "stop" : 1585879688242,
-        "duration" : 0
-      }
     } ]
   },
   "69647b952b75353d922d91d76dc538a7" : {
@@ -5807,11 +5718,19 @@
       "failed" : 4,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 9,
+      "passed" : 10,
       "unknown" : 0,
-      "total" : 13
+      "total" : 14
     },
     "items" : [ {
+      "uid" : "a6d0cfa3508f9c81",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585908749857,
+        "stop" : 1585908750173,
+        "duration" : 316
+      }
+    }, {
       "uid" : "484ed398b1f38201",
       "status" : "passed",
       "time" : {
@@ -5845,15 +5764,6 @@
         "stop" : 1585881211743,
         "duration" : 395
       }
-    }, {
-      "uid" : "4a533c841098436c",
-      "status" : "failed",
-      "statusDetails" : "AssertionError: 获取接口【forChat:获取老师相关的群聊班级新接口(返回包含正式班级和代理班级)】信息异常，info的params数据有误，转换为json时出错:\n{\"teacherId\":12}",
-      "time" : {
-        "start" : 1585879690206,
-        "stop" : 1585879690206,
-        "duration" : 0
-      }
     } ]
   },
   "732cfd09e7d6a797abd51c60afc35115" : {
@@ -5861,11 +5771,19 @@
       "failed" : 4,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 9,
+      "passed" : 10,
       "unknown" : 0,
-      "total" : 13
+      "total" : 14
     },
     "items" : [ {
+      "uid" : "4b958bfbe7f94df7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585908683569,
+        "stop" : 1585908693035,
+        "duration" : 9466
+      }
+    }, {
       "uid" : "46163f5e7700e36f",
       "status" : "passed",
       "time" : {
@@ -5899,15 +5817,6 @@
         "stop" : 1585881156734,
         "duration" : 9145
       }
-    }, {
-      "uid" : "884768a761860863",
-      "status" : "failed",
-      "statusDetails" : "AssertionError: 获取接口【forChat:获取老师相关的群聊班级新接口(返回包含正式班级和代理班级)】信息异常，info的params数据有误，转换为json时出错:\n{\"teacherId\":12}",
-      "time" : {
-        "start" : 1585879686254,
-        "stop" : 1585879686254,
-        "duration" : 0
-      }
     } ]
   },
   "53f3d7527b5d444b04b6bef90b443ff7" : {
@@ -5915,11 +5824,19 @@
       "failed" : 4,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 9,
+      "passed" : 10,
       "unknown" : 0,
-      "total" : 13
+      "total" : 14
     },
     "items" : [ {
+      "uid" : "d30d85f714932dd2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585908735513,
+        "stop" : 1585908735934,
+        "duration" : 421
+      }
+    }, {
       "uid" : "be793025cebc4b7c",
       "status" : "passed",
       "time" : {
@@ -5953,15 +5870,6 @@
         "stop" : 1585881199036,
         "duration" : 346
       }
-    }, {
-      "uid" : "cb573f9b354e7bae",
-      "status" : "failed",
-      "statusDetails" : "AssertionError: 获取接口【forChat:获取老师相关的群聊班级新接口(返回包含正式班级和代理班级)】信息异常，info的params数据有误，转换为json时出错:\n{\"teacherId\":12}",
-      "time" : {
-        "start" : 1585879687340,
-        "stop" : 1585879687340,
-        "duration" : 0
-      }
     } ]
   },
   "5c9e2cdf2f64c303f626a0a16c974975" : {
@@ -5969,11 +5877,19 @@
       "failed" : 4,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 9,
+      "passed" : 10,
       "unknown" : 0,
-      "total" : 13
+      "total" : 14
     },
     "items" : [ {
+      "uid" : "f6658ef5e4776dc1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585908749343,
+        "stop" : 1585908749853,
+        "duration" : 510
+      }
+    }, {
       "uid" : "c1b3de268a0f45c4",
       "status" : "passed",
       "time" : {
@@ -6007,15 +5923,6 @@
         "stop" : 1585881211344,
         "duration" : 387
       }
-    }, {
-      "uid" : "3c811153a8ab576",
-      "status" : "failed",
-      "statusDetails" : "AssertionError: 获取接口【forChat:获取老师相关的群聊班级新接口(返回包含正式班级和代理班级)】信息异常，info的params数据有误，转换为json时出错:\n{\"teacherId\":12}",
-      "time" : {
-        "start" : 1585879690155,
-        "stop" : 1585879690155,
-        "duration" : 0
-      }
     } ]
   },
   "37b0d0874dfeb02b8f278a3f77e8ec4e" : {
@@ -6023,11 +5930,19 @@
       "failed" : 4,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 9,
+      "passed" : 10,
       "unknown" : 0,
-      "total" : 13
+      "total" : 14
     },
     "items" : [ {
+      "uid" : "b3dad7505c838193",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585908736999,
+        "stop" : 1585908737454,
+        "duration" : 455
+      }
+    }, {
       "uid" : "5e5b2e5b5a10e0fa",
       "status" : "passed",
       "time" : {
@@ -6061,15 +5976,6 @@
         "stop" : 1585881200082,
         "duration" : 372
       }
-    }, {
-      "uid" : "70de881b8b877c2f",
-      "status" : "failed",
-      "statusDetails" : "AssertionError: 获取接口【forChat:获取老师相关的群聊班级新接口(返回包含正式班级和代理班级)】信息异常，info的params数据有误，转换为json时出错:\n{\"teacherId\":12}",
-      "time" : {
-        "start" : 1585879687540,
-        "stop" : 1585879687540,
-        "duration" : 0
-      }
     } ]
   },
   "013c76d38b2bde46275b2528826a34c1" : {
@@ -6077,11 +5983,19 @@
       "failed" : 4,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 10,
+      "passed" : 11,
       "unknown" : 0,
-      "total" : 14
+      "total" : 15
     },
     "items" : [ {
+      "uid" : "9ce620c98308166a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585908676875,
+        "stop" : 1585908677345,
+        "duration" : 470
+      }
+    }, {
       "uid" : "59c673073909c318",
       "status" : "passed",
       "time" : {
@@ -6115,15 +6029,6 @@
         "stop" : 1585881143276,
         "duration" : 336
       }
-    }, {
-      "uid" : "c249bae0eecf9ee5",
-      "status" : "failed",
-      "statusDetails" : "AssertionError: 获取接口【forChat:获取老师相关的群聊班级新接口(返回包含正式班级和代理班级)】信息异常，info的params数据有误，转换为json时出错:\n{\"teacherId\":12}",
-      "time" : {
-        "start" : 1585879685550,
-        "stop" : 1585879685550,
-        "duration" : 0
-      }
     } ]
   },
   "f9652c09e3b041960b9b7e14caf31519" : {
@@ -6131,11 +6036,19 @@
       "failed" : 4,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 9,
+      "passed" : 10,
       "unknown" : 0,
-      "total" : 13
+      "total" : 14
     },
     "items" : [ {
+      "uid" : "1143c4fe688dd14",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585908693553,
+        "stop" : 1585908702766,
+        "duration" : 9213
+      }
+    }, {
       "uid" : "2772866fec058d9a",
       "status" : "passed",
       "time" : {
@@ -6169,15 +6082,6 @@
         "stop" : 1585881166191,
         "duration" : 8668
       }
-    }, {
-      "uid" : "acd8296dd9592395",
-      "status" : "failed",
-      "statusDetails" : "AssertionError: 获取接口【forChat:获取老师相关的群聊班级新接口(返回包含正式班级和代理班级)】信息异常，info的params数据有误，转换为json时出错:\n{\"teacherId\":12}",
-      "time" : {
-        "start" : 1585879686311,
-        "stop" : 1585879686311,
-        "duration" : 0
-      }
     } ]
   },
   "eeca0a7052d4d129f2eaf44b12cfca34" : {
@@ -6185,11 +6089,19 @@
       "failed" : 4,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 9,
+      "passed" : 10,
       "unknown" : 0,
-      "total" : 13
+      "total" : 14
     },
     "items" : [ {
+      "uid" : "c69648f5a07ca00f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585908738276,
+        "stop" : 1585908738589,
+        "duration" : 313
+      }
+    }, {
       "uid" : "9f51acd1dc2c38b3",
       "status" : "passed",
       "time" : {
@@ -6223,15 +6135,6 @@
         "stop" : 1585881201146,
         "duration" : 346
       }
-    }, {
-      "uid" : "2bdc083026a30c64",
-      "status" : "failed",
-      "statusDetails" : "AssertionError: 获取接口【forChat:获取老师相关的群聊班级新接口(返回包含正式班级和代理班级)】信息异常，info的params数据有误，转换为json时出错:\n{\"teacherId\":12}",
-      "time" : {
-        "start" : 1585879687813,
-        "stop" : 1585879687813,
-        "duration" : 0
-      }
     } ]
   },
   "ac100cbe5a93df892d8a8d88733082c2" : {
@@ -6239,11 +6142,19 @@
       "failed" : 4,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 10,
+      "passed" : 11,
       "unknown" : 0,
-      "total" : 14
+      "total" : 15
     },
     "items" : [ {
+      "uid" : "50f51e8c8f5760c2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585908669604,
+        "stop" : 1585908670127,
+        "duration" : 523
+      }
+    }, {
       "uid" : "96379507a09f4d05",
       "status" : "passed",
       "time" : {
@@ -6277,15 +6188,6 @@
         "stop" : 1585881136778,
         "duration" : 451
       }
-    }, {
-      "uid" : "7dc924df7cc29d28",
-      "status" : "failed",
-      "statusDetails" : "AssertionError: 获取接口【forChat:获取老师相关的群聊班级新接口(返回包含正式班级和代理班级)】信息异常，info的params数据有误，转换为json时出错:\n{\"teacherId\":12}",
-      "time" : {
-        "start" : 1585879684544,
-        "stop" : 1585879684544,
-        "duration" : 0
-      }
     } ]
   },
   "773d9e06b8f81fc139d06d3246c6ffc8" : {
@@ -6293,11 +6195,19 @@
       "failed" : 3,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 12,
+      "passed" : 13,
       "unknown" : 0,
-      "total" : 15
+      "total" : 16
     },
     "items" : [ {
+      "uid" : "13d6b457e6b2f4fe",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585908658017,
+        "stop" : 1585908658132,
+        "duration" : 115
+      }
+    }, {
       "uid" : "f524cc97d7153abb",
       "status" : "passed",
       "time" : {
@@ -6329,15 +6239,6 @@
         "stop" : 1585905365329,
         "duration" : 102
       }
-    }, {
-      "uid" : "35abd5d898553a26",
-      "status" : "failed",
-      "statusDetails" : "AssertionError: 获取接口【clazzQuestionDelete:删除保存到待推列表中的群答题】信息异常，info的headers数据有误，转换为json时出错:\n{\"Content-Type\":\"application/json;charset=UTF-8\"}",
-      "time" : {
-        "start" : 1585903924884,
-        "stop" : 1585903924885,
-        "duration" : 1
-      }
     } ]
   },
   "75f3ec5c660cd1941b1ee8154dc2532c" : {
@@ -6345,11 +6246,19 @@
       "failed" : 4,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 12,
+      "passed" : 13,
       "unknown" : 0,
-      "total" : 16
+      "total" : 17
     },
     "items" : [ {
+      "uid" : "a1960996e10ef722",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585908659994,
+        "stop" : 1585908660506,
+        "duration" : 512
+      }
+    }, {
       "uid" : "5c80fffd29e44003",
       "status" : "passed",
       "time" : {
@@ -6383,14 +6292,6 @@
         "stop" : 1585905367124,
         "duration" : 0
       }
-    }, {
-      "uid" : "f38b0e224d30048f",
-      "status" : "passed",
-      "time" : {
-        "start" : 1585881128336,
-        "stop" : 1585881128609,
-        "duration" : 273
-      }
     } ]
   },
   "dbd7951d629f3fef25037139992ed591" : {
@@ -6398,11 +6299,19 @@
       "failed" : 4,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 9,
+      "passed" : 10,
       "unknown" : 0,
-      "total" : 13
+      "total" : 14
     },
     "items" : [ {
+      "uid" : "be4686d781763b0a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585908744723,
+        "stop" : 1585908745135,
+        "duration" : 412
+      }
+    }, {
       "uid" : "a2166e2bef338166",
       "status" : "passed",
       "time" : {
@@ -6436,15 +6345,6 @@
         "stop" : 1585881207201,
         "duration" : 377
       }
-    }, {
-      "uid" : "a636c44e33746f0c",
-      "status" : "failed",
-      "statusDetails" : "AssertionError: 获取接口【forChat:获取老师相关的群聊班级新接口(返回包含正式班级和代理班级)】信息异常，info的params数据有误，转换为json时出错:\n{\"teacherId\":12}",
-      "time" : {
-        "start" : 1585879689501,
-        "stop" : 1585879689501,
-        "duration" : 0
-      }
     } ]
   },
   "7155cea046f9b770fe51f0b34a27b004" : {
@@ -6452,11 +6352,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 18,
+      "passed" : 19,
       "unknown" : 0,
-      "total" : 18
+      "total" : 19
     },
     "items" : [ {
+      "uid" : "ad5e396f08ffc13c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585908591245,
+        "stop" : 1585908591704,
+        "duration" : 459
+      }
+    }, {
       "uid" : "f95d8e252cc5b63d",
       "status" : "passed",
       "time" : {
@@ -6488,14 +6396,6 @@
         "stop" : 1585905722730,
         "duration" : 86
       }
-    }, {
-      "uid" : "c46bb9d5e1ef5b4a",
-      "status" : "passed",
-      "time" : {
-        "start" : 1585905361095,
-        "stop" : 1585905361197,
-        "duration" : 102
-      }
     } ]
   },
   "470f671f5def2680ef09c288456e23bd" : {
@@ -6503,11 +6403,19 @@
       "failed" : 6,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 6,
+      "passed" : 7,
       "unknown" : 0,
-      "total" : 12
+      "total" : 13
     },
     "items" : [ {
+      "uid" : "d7afb9dc6a6dca51",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585908721803,
+        "stop" : 1585908730717,
+        "duration" : 8914
+      }
+    }, {
       "uid" : "38ab228af7173ff9",
       "status" : "passed",
       "time" : {
@@ -6541,15 +6449,6 @@
         "stop" : 1585881194293,
         "duration" : 8916
       }
-    }, {
-      "uid" : "e3b074e4f7ff67f3",
-      "status" : "failed",
-      "statusDetails" : "AssertionError: 获取接口【forChat:获取老师相关的群聊班级新接口(返回包含正式班级和代理班级)】信息异常，info的params数据有误，转换为json时出错:\n{\"teacherId\":12}",
-      "time" : {
-        "start" : 1585879686579,
-        "stop" : 1585879686579,
-        "duration" : 0
-      }
     } ]
   },
   "e9d94c0617b23ebee1dba1c42fe57a8b" : {
@@ -6557,11 +6456,19 @@
       "failed" : 4,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 9,
+      "passed" : 10,
       "unknown" : 0,
-      "total" : 13
+      "total" : 14
     },
     "items" : [ {
+      "uid" : "f7a7b8052270fd2c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585908750679,
+        "stop" : 1585908751085,
+        "duration" : 406
+      }
+    }, {
       "uid" : "88c4e03c4c2d2d0",
       "status" : "passed",
       "time" : {
@@ -6595,15 +6502,6 @@
         "stop" : 1585881212601,
         "duration" : 406
       }
-    }, {
-      "uid" : "d6f8ef915dc5305",
-      "status" : "failed",
-      "statusDetails" : "AssertionError: 获取接口【forChat:获取老师相关的群聊班级新接口(返回包含正式班级和代理班级)】信息异常，info的params数据有误，转换为json时出错:\n{\"teacherId\":12}",
-      "time" : {
-        "start" : 1585879690311,
-        "stop" : 1585879690311,
-        "duration" : 0
-      }
     } ]
   },
   "5d5b84e09e047f65ddb7ac82c88f64c6" : {
@@ -6611,11 +6509,19 @@
       "failed" : 4,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 16,
+      "passed" : 17,
       "unknown" : 0,
-      "total" : 20
+      "total" : 21
     },
     "items" : [ {
+      "uid" : "e94e2a9aa977cb8a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585908590165,
+        "stop" : 1585908590478,
+        "duration" : 313
+      }
+    }, {
       "uid" : "35be587323a8d7f2",
       "status" : "passed",
       "time" : {
@@ -6647,14 +6553,6 @@
         "stop" : 1585905757254,
         "duration" : 197
       }
-    }, {
-      "uid" : "4c82f5339aeaee5",
-      "status" : "passed",
-      "time" : {
-        "start" : 1585905721794,
-        "stop" : 1585905722235,
-        "duration" : 441
-      }
     } ]
   },
   "b7d63f846878e39a9f2e087cd1839060" : {
@@ -6662,11 +6560,19 @@
       "failed" : 4,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 9,
+      "passed" : 10,
       "unknown" : 0,
-      "total" : 13
+      "total" : 14
     },
     "items" : [ {
+      "uid" : "932ad0711685e390",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585908746883,
+        "stop" : 1585908747290,
+        "duration" : 407
+      }
+    }, {
       "uid" : "d1ea5f2d94d2319e",
       "status" : "passed",
       "time" : {
@@ -6700,15 +6606,6 @@
         "stop" : 1585881209164,
         "duration" : 335
       }
-    }, {
-      "uid" : "e05844701a19def",
-      "status" : "failed",
-      "statusDetails" : "AssertionError: 获取接口【forChat:获取老师相关的群聊班级新接口(返回包含正式班级和代理班级)】信息异常，info的params数据有误，转换为json时出错:\n{\"teacherId\":12}",
-      "time" : {
-        "start" : 1585879689810,
-        "stop" : 1585879689810,
-        "duration" : 0
-      }
     } ]
   },
   "7b062e409e297230480f4fc398e6169c" : {
@@ -6716,11 +6613,19 @@
       "failed" : 4,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 10,
+      "passed" : 11,
       "unknown" : 0,
-      "total" : 14
+      "total" : 15
     },
     "items" : [ {
+      "uid" : "f53ec1b17aceef4e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585908674280,
+        "stop" : 1585908674630,
+        "duration" : 350
+      }
+    }, {
       "uid" : "da4b95610589a553",
       "status" : "passed",
       "time" : {
@@ -6754,15 +6659,6 @@
         "stop" : 1585881141312,
         "duration" : 499
       }
-    }, {
-      "uid" : "644609976aa9730d",
-      "status" : "failed",
-      "statusDetails" : "AssertionError: 获取接口【forChat:获取老师相关的群聊班级新接口(返回包含正式班级和代理班级)】信息异常，info的params数据有误，转换为json时出错:\n{\"teacherId\":12}",
-      "time" : {
-        "start" : 1585879685231,
-        "stop" : 1585879685231,
-        "duration" : 0
-      }
     } ]
   },
   "2ac65323bf4a51dbec11819e1ea809e3" : {
@@ -6770,11 +6666,19 @@
       "failed" : 4,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 9,
+      "passed" : 10,
       "unknown" : 0,
-      "total" : 13
+      "total" : 14
     },
     "items" : [ {
+      "uid" : "9188b118e2248584",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585908735939,
+        "stop" : 1585908736467,
+        "duration" : 528
+      }
+    }, {
       "uid" : "7b861a8418780091",
       "status" : "passed",
       "time" : {
@@ -6808,15 +6712,6 @@
         "stop" : 1585881199315,
         "duration" : 276
       }
-    }, {
-      "uid" : "1bb5a5ac01eb6bb3",
-      "status" : "failed",
-      "statusDetails" : "AssertionError: 获取接口【forChat:获取老师相关的群聊班级新接口(返回包含正式班级和代理班级)】信息异常，info的params数据有误，转换为json时出错:\n{\"teacherId\":12}",
-      "time" : {
-        "start" : 1585879687410,
-        "stop" : 1585879687410,
-        "duration" : 0
-      }
     } ]
   },
   "a7579c09419dc3ccf33e9b9a28733223" : {
@@ -6824,11 +6719,19 @@
       "failed" : 4,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 9,
+      "passed" : 10,
       "unknown" : 0,
-      "total" : 13
+      "total" : 14
     },
     "items" : [ {
+      "uid" : "33fb388b330da266",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585908736471,
+        "stop" : 1585908736994,
+        "duration" : 523
+      }
+    }, {
       "uid" : "13be316736a0715",
       "status" : "passed",
       "time" : {
@@ -6862,15 +6765,6 @@
         "stop" : 1585881199705,
         "duration" : 387
       }
-    }, {
-      "uid" : "784f6c6270a579e0",
-      "status" : "failed",
-      "statusDetails" : "AssertionError: 获取接口【forChat:获取老师相关的群聊班级新接口(返回包含正式班级和代理班级)】信息异常，info的params数据有误，转换为json时出错:\n{\"teacherId\":12}",
-      "time" : {
-        "start" : 1585879687477,
-        "stop" : 1585879687477,
-        "duration" : 0
-      }
     } ]
   },
   "00b67dfd58dbad9be489e4452dc0853c" : {
@@ -6878,11 +6772,19 @@
       "failed" : 4,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 9,
+      "passed" : 10,
       "unknown" : 0,
-      "total" : 13
+      "total" : 14
     },
     "items" : [ {
+      "uid" : "414510c8c89ee2c7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585908748068,
+        "stop" : 1585908748529,
+        "duration" : 461
+      }
+    }, {
       "uid" : "ebfca4ee0d20893f",
       "status" : "passed",
       "time" : {
@@ -6916,15 +6818,6 @@
         "stop" : 1585881210203,
         "duration" : 360
       }
-    }, {
-      "uid" : "50c954afec6e32ca",
-      "status" : "failed",
-      "statusDetails" : "AssertionError: 获取接口【forChat:获取老师相关的群聊班级新接口(返回包含正式班级和代理班级)】信息异常，info的params数据有误，转换为json时出错:\n{\"teacherId\":12}",
-      "time" : {
-        "start" : 1585879689954,
-        "stop" : 1585879689954,
-        "duration" : 0
-      }
     } ]
   },
   "d4a543303e84c22eca87623d46e2f63d" : {
@@ -6932,11 +6825,19 @@
       "failed" : 4,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 9,
+      "passed" : 10,
       "unknown" : 0,
-      "total" : 13
+      "total" : 14
     },
     "items" : [ {
+      "uid" : "7d31e7bb802a997d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585908748534,
+        "stop" : 1585908748941,
+        "duration" : 407
+      }
+    }, {
       "uid" : "a230b72d90bdee22",
       "status" : "passed",
       "time" : {
@@ -6970,15 +6871,6 @@
         "stop" : 1585881210575,
         "duration" : 368
       }
-    }, {
-      "uid" : "6ae2e5b9218a651e",
-      "status" : "failed",
-      "statusDetails" : "AssertionError: 获取接口【forChat:获取老师相关的群聊班级新接口(返回包含正式班级和代理班级)】信息异常，info的params数据有误，转换为json时出错:\n{\"teacherId\":12}",
-      "time" : {
-        "start" : 1585879690043,
-        "stop" : 1585879690043,
-        "duration" : 0
-      }
     } ]
   },
   "8509e44fe8cfed3c04ea76b2edb748e6" : {
@@ -6986,11 +6878,19 @@
       "failed" : 8,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 12,
+      "passed" : 13,
       "unknown" : 0,
-      "total" : 20
+      "total" : 21
     },
     "items" : [ {
+      "uid" : "d2b5d584fb8b8dc3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585908590483,
+        "stop" : 1585908590483,
+        "duration" : 0
+      }
+    }, {
       "uid" : "5bc9c7e8aeaa301b",
       "status" : "failed",
       "statusDetails" : "AssertionError: 获取班级【大数量班级-1班】的id失败\nassert False",
@@ -7024,14 +6924,6 @@
         "stop" : 1585905757515,
         "duration" : 0
       }
-    }, {
-      "uid" : "4aaba4ae5fb9a3ae",
-      "status" : "passed",
-      "time" : {
-        "start" : 1585905722240,
-        "stop" : 1585905722240,
-        "duration" : 0
-      }
     } ]
   },
   "e6ddc689e127d4be35c264f55588257e" : {
@@ -7039,11 +6931,19 @@
       "failed" : 8,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 12,
+      "passed" : 13,
       "unknown" : 0,
-      "total" : 20
+      "total" : 21
     },
     "items" : [ {
+      "uid" : "69f3c4bef722ba3a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1585908589987,
+        "stop" : 1585908590161,
+        "duration" : 174
+      }
+    }, {
       "uid" : "362b9ff250b02e01",
       "status" : "failed",
       "statusDetails" : "AssertionError: 获取班级【大数量班级-1班】的id失败\nassert False",
@@ -7076,14 +6976,6 @@
         "start" : 1585905756909,
         "stop" : 1585905756909,
         "duration" : 0
-      }
-    }, {
-      "uid" : "9400cd18a2239c13",
-      "status" : "passed",
-      "time" : {
-        "start" : 1585905721657,
-        "stop" : 1585905721789,
-        "duration" : 132
       }
     } ]
   }

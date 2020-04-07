@@ -19,7 +19,7 @@ class GetSession():
             self.password = cfg.get('env', 'password')
 
     def session(self):
-        logger.debug('开始登陆')
+        logger.debug('开始登陆，获取教务后台session')
         data = {'redirect': self.redirect, 'username': self.username, 'password': self.password, 'isNextLoad': 'true'}
         session = requests.session()
         try:

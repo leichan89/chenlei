@@ -8,7 +8,9 @@ from common.configer import GetConfiger
 class Sig():
 
     def __init__(self):
+
         dir = os.path.dirname(os.path.dirname(__file__)) + os.sep + 'sig'
+        self.configer = GetConfiger().configer()
         self.sigclass = None
         try:
             jvmpath = jpype.getDefaultJVMPath()
@@ -25,11 +27,11 @@ class Sig():
             assert False, errmsg
 
     def get_url_include_sig(self, url, ios=False):
-        configer = GetConfiger()
+
         if ios:
-            self.sk = configer.configer().get('ios', 'salt')
+            self.sk = self.configer.get('ios', 'salt')
         else:
-            self.sk = configer.configer().get('andriod', 'salt')
+            self.sk = self.configer.get('andriod', 'salt')
         if self.sigclass:
             # 传入url和颜值计算出sig值
             ret = self.sigclass.generate(url, self.sk)
