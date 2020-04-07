@@ -12,6 +12,7 @@ from random import randint
 @allure.feature('群聊')
 @allure.story("发送试卷")
 @pytest.mark.myclass
+@pytest.mark.groupmsg
 class TestSendPaper():
 
 

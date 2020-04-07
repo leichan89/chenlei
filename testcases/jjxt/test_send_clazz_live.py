@@ -12,6 +12,7 @@ from random import randint
 @allure.feature('群聊')
 @allure.story("发送直播")
 @pytest.mark.myclass
+@pytest.mark.groupmsg
 class TestSendLive():
 
     @allure.title('发送群直播：查询直播-随机发送回放直播-查询直播详情-历史消息中查看发送的直播')

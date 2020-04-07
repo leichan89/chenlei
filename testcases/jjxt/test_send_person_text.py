@@ -13,6 +13,7 @@ from common.tools import AllureCaseType
 @allure.story("发送文本")
 @pytest.mark.myclass
 @pytest.mark.text
+@pytest.mark.c2cmsg
 class TestSendPersonText():
 
     @allure.title('私聊发送文本消息：发送文本消息')

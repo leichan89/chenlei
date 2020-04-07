@@ -1,5 +1,74 @@
 {
   "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
   "name" : "packages",
-  "children" : [ ]
+  "children" : [ {
+    "name" : "testcases.jjxt.test_send_clazz_file",
+    "children" : [ {
+      "name" : "发送群文件：上传文件-发送xlsx文件-历史消息查看发送的文件",
+      "uid" : "83cbaea33444fc10",
+      "parentUid" : "3f4c860496f1ca97e41161c869978e63",
+      "status" : "passed",
+      "time" : {
+        "start" : 1586248529421,
+        "stop" : 1586248543584,
+        "duration" : 14163
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "0" ]
+    }, {
+      "name" : "发送群文件：上传文件-发送xlsx文件-历史消息查看发送的文件",
+      "uid" : "5faadc0d0b42ff86",
+      "parentUid" : "3f4c860496f1ca97e41161c869978e63",
+      "status" : "passed",
+      "time" : {
+        "start" : 1586248543599,
+        "stop" : 1586248552590,
+        "duration" : 8991
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "1" ]
+    }, {
+      "name" : "发送群文件：上传文件-发送xlsx文件-历史消息查看发送的文件",
+      "uid" : "6f0c6aad121ae5ca",
+      "parentUid" : "3f4c860496f1ca97e41161c869978e63",
+      "status" : "passed",
+      "time" : {
+        "start" : 1586248552595,
+        "stop" : 1586248561419,
+        "duration" : 8824
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "2" ]
+    }, {
+      "name" : "发送群文件：上传文件-发送xlsx文件-历史消息查看发送的文件",
+      "uid" : "f1fffa5e022b23fa",
+      "parentUid" : "3f4c860496f1ca97e41161c869978e63",
+      "status" : "passed",
+      "time" : {
+        "start" : 1586248561424,
+        "stop" : 1586248570431,
+        "duration" : 9007
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "3" ]
+    }, {
+      "name" : "发送群文件：上传文件-发送xlsx文件-历史消息查看发送的文件",
+      "uid" : "9805a8373c2b0b42",
+      "parentUid" : "3f4c860496f1ca97e41161c869978e63",
+      "status" : "passed",
+      "time" : {
+        "start" : 1586248570435,
+        "stop" : 1586248582290,
+        "duration" : 11855
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "4" ]
+    } ],
+    "uid" : "testcases.jjxt.test_send_clazz_file"
+  } ]
 }

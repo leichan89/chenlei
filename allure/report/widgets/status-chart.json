@@ -1,1 +1,51 @@
-[ ]
+[ {
+  "uid" : "9805a8373c2b0b42",
+  "name" : "发送群文件：上传文件-发送xlsx文件-历史消息查看发送的文件",
+  "time" : {
+    "start" : 1586248570435,
+    "stop" : 1586248582290,
+    "duration" : 11855
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "6f0c6aad121ae5ca",
+  "name" : "发送群文件：上传文件-发送xlsx文件-历史消息查看发送的文件",
+  "time" : {
+    "start" : 1586248552595,
+    "stop" : 1586248561419,
+    "duration" : 8824
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "83cbaea33444fc10",
+  "name" : "发送群文件：上传文件-发送xlsx文件-历史消息查看发送的文件",
+  "time" : {
+    "start" : 1586248529421,
+    "stop" : 1586248543584,
+    "duration" : 14163
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "5faadc0d0b42ff86",
+  "name" : "发送群文件：上传文件-发送xlsx文件-历史消息查看发送的文件",
+  "time" : {
+    "start" : 1586248543599,
+    "stop" : 1586248552590,
+    "duration" : 8991
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "f1fffa5e022b23fa",
+  "name" : "发送群文件：上传文件-发送xlsx文件-历史消息查看发送的文件",
+  "time" : {
+    "start" : 1586248561424,
+    "stop" : 1586248570431,
+    "duration" : 9007
+  },
+  "status" : "passed",
+  "severity" : "critical"
+} ]

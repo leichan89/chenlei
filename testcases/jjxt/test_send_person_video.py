@@ -12,6 +12,7 @@ from random import shuffle
 @allure.feature('私聊')
 @allure.story("发送录播")
 @pytest.mark.myclass
+@pytest.mark.c2cmsg
 class TestSendPersonVideo():
 
     @allure.title('私聊发送录播：查询科目-查询模块-查询录播-向单个学员随机发送录播-查询录播详情-在历史消息中查看发送的录播')

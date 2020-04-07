@@ -12,6 +12,7 @@ from random import randint, shuffle
 @allure.feature('私聊')
 @allure.story("发送直播")
 @pytest.mark.myclass
+@pytest.mark.c2cmsg
 class TestSendPersonLive():
 
     @allure.title('私聊发送直播：查询直播-向单个学员随机发送回放直播-查询直播详情-私聊记录中查看发送的直播回放')

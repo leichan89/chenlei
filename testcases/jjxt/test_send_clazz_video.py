@@ -12,6 +12,7 @@ from random import randint, shuffle
 @allure.feature('群聊')
 @allure.story("发送录播")
 @pytest.mark.myclass
+@pytest.mark.groupmsg
 class TestSendVideo():
 
     @allure.title('发送群录播：查询科目-查询模块-查询录播-随机发送录播-查询录播详情-历史消息中查看推送的录播')

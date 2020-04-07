@@ -11,6 +11,7 @@ from random import randint, shuffle
 @allure.feature('群聊')
 @allure.story("群答题")
 @pytest.mark.myclass
+@pytest.mark.groupmsg
 class TestSendQuestion():
 
     @pytest.fixture()

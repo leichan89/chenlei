@@ -12,6 +12,7 @@ from common.tools import AllureCaseType
 @allure.feature('私聊')
 @allure.story("发送文件")
 @pytest.mark.myclass
+@pytest.mark.c2cmsg
 class TestSendPersonFile():
 
     @allure.title('私聊发送文件：上传文件-给单个学员发送xlsx文件-历史消息中查找发送的文件消息')

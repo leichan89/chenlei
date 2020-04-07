@@ -12,12 +12,13 @@ from common.tools import AllureCaseType
 @allure.feature('群聊')
 @allure.story("发送文件")
 @pytest.mark.myclass
+@pytest.mark.groupmsg
 class TestSendFile():
 
     @allure.title('发送群文件：上传文件-发送xlsx文件-历史消息查看发送的文件')
     @allure.severity(AllureCaseType.CRITICAL)
     @pytest.mark.smoke
-    # @pytest.mark.flaky(reruns=5)
+    # @pytest.mark.repeat(50)
     def test_send_file(self, get_customerid, get_clazzid, get_groupidentifier):
         '''
         发送群文件：上传文件-发送xlsx文件-历史消息查看发送的文件

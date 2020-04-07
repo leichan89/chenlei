@@ -1,0 +1,16 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Tue Apr 07 16:36:10 CST 2020","Tue Apr 07 16:36:22 CST 2020","11855","testcases.jjxt","test_send_clazz_file","TestSendFile","","","发送群文件：上传文件-发送xlsx文件-历史消息查看发送的文件","
+        发送群文件：上传文件-发送xlsx文件-历史消息查看发送的文件
+        "
+"passed","Tue Apr 07 16:35:52 CST 2020","Tue Apr 07 16:36:01 CST 2020","8824","testcases.jjxt","test_send_clazz_file","TestSendFile","","","发送群文件：上传文件-发送xlsx文件-历史消息查看发送的文件","
+        发送群文件：上传文件-发送xlsx文件-历史消息查看发送的文件
+        "
+"passed","Tue Apr 07 16:35:29 CST 2020","Tue Apr 07 16:35:43 CST 2020","14163","testcases.jjxt","test_send_clazz_file","TestSendFile","","","发送群文件：上传文件-发送xlsx文件-历史消息查看发送的文件","
+        发送群文件：上传文件-发送xlsx文件-历史消息查看发送的文件
+        "
+"passed","Tue Apr 07 16:35:43 CST 2020","Tue Apr 07 16:35:52 CST 2020","8991","testcases.jjxt","test_send_clazz_file","TestSendFile","","","发送群文件：上传文件-发送xlsx文件-历史消息查看发送的文件","
+        发送群文件：上传文件-发送xlsx文件-历史消息查看发送的文件
+        "
+"passed","Tue Apr 07 16:36:01 CST 2020","Tue Apr 07 16:36:10 CST 2020","9007","testcases.jjxt","test_send_clazz_file","TestSendFile","","","发送群文件：上传文件-发送xlsx文件-历史消息查看发送的文件","
+        发送群文件：上传文件-发送xlsx文件-历史消息查看发送的文件
+        "

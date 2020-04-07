@@ -12,6 +12,7 @@ from random import randint, shuffle
 @allure.feature('私聊')
 @allure.story("发送试卷")
 @pytest.mark.myclass
+@pytest.mark.c2cmsg
 class TestSendPersonPaper():
 
 

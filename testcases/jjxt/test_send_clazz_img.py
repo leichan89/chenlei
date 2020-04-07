@@ -12,6 +12,7 @@ from random import randint, shuffle
 @allure.feature('群聊')
 @allure.story("发送图片")
 @pytest.mark.myclass
+@pytest.mark.groupmsg
 class TestSendIMG():
 
     @allure.title('发送群图片：上传图片-发送jpg图片-历史消息查看发送的图片')
