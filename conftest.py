@@ -18,11 +18,13 @@ allure_result_history = allure_result + os.sep + 'history'
 history_bak = allure_dir + os.sep + 'history'
 
 
-# 添加自定义命令
+# 添加自定义命令，pytest的hook方法
+# 这个函数应该只在插件或 conftest.py 中实现。
 def pytest_addoption(parser):
     parser.addoption('--env')
 
 
+# pytest自带的hook方法
 # 修改命令行中的参数，这里用于修改生成的pytest-html测试报告的名称，在命令执行时执行
 def pytest_configure(config):
 
@@ -69,6 +71,12 @@ def pytest_configure(config):
             logger.debug('从历史记录allure/report/history目录拷贝到allure/history目录下')
             shutil.copytree(allure_history, history_bak)
 
+
+# pytest-html的hook方法，方法名称是固定的，在插件pytest-html中会自动调用
+# You can modify the columns by implementing custom hooks for the header and
+# rows. The following example :code:`conftest.py` adds a description column with
+# the test function docstring, adds a sortable time column, and removes the links
+# column:
 @pytest.mark.optionalhook
 def pytest_html_results_table_header(cells):
     try:

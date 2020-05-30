@@ -101,6 +101,7 @@ class TestSendQuestion():
     @allure.severity(AllureCaseType.CRITICAL)
     @pytest.mark.smoke
     # @pytest.mark.flaky(reruns=5)
+    @pytest.mark.repeat(11)
     def test_save_and_push_clazz_question(self, get_customerid, get_clazzid, get_goodsid, get_question_id, get_groupidentifier):
         '''
         发送群答题：查询科目-查询模块-查询试卷-查询试题-存题-查询待推题-推送待推题-查询答题详情-历史消息中查看答题信息

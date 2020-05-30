@@ -8,6 +8,14 @@
   "data" : { }
 }, {
   "data" : {
+    "Product defects" : 1
+  }
+}, {
+  "data" : {
+    "Product defects" : 1
+  }
+}, {
+  "data" : {
     "Product defects" : 2
   }
 }, {
@@ -17,45 +25,27 @@
 }, {
   "data" : { }
 }, {
-  "data" : {
-    "Product defects" : 4
-  }
-}, {
-  "data" : {
-    "Product defects" : 2
-  }
+  "data" : { }
 }, {
   "data" : { }
 }, {
-  "data" : {
-    "Product defects" : 1
-  }
-}, {
-  "data" : {
-    "Product defects" : 122
-  }
-}, {
   "data" : { }
 }, {
-  "data" : {
-    "Product defects" : 122
-  }
-}, {
-  "data" : {
-    "Product defects" : 1
-  }
+  "data" : { }
 }, {
   "data" : {
     "Product defects" : 6
   }
 }, {
   "data" : {
-    "Product defects" : 1
+    "Product defects" : 2
   }
 }, {
-  "data" : {
-    "Product defects" : 19
-  }
+  "data" : { }
+}, {
+  "data" : { }
+}, {
+  "data" : { }
 }, {
   "data" : { }
 } ]

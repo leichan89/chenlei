@@ -55,10 +55,14 @@ if __name__ == "__main__":
     # res = requests.post(url, json=data)
     #
     # print(res.text)
-    url = 'http://app-jjxt.reg.highso.com.cn/jjxt/v1/showPopup.do?app_key=jr1t36ul&device=16th&kernel=8.1.0&rom=Flyme 7.3.0.0A&sk=bb1df88f-b978-4682-b54d-2f2f409a3d9a.1567402878145.11270365.awifi02:00:00:00:00:00.22320942c25f3500da8efc847e92ee45&token=awifi02:00:00:00:00:00&v=3.0&app_version=2.9.0&device_type=android&classId=1234'
+    url = 'http://app-jjxt.reg.highso.com.cn/imGroup/v1/forbidStudentSendMsg.do?device=iPhone_11&app_version=2.22.0&uid=2237&app_key=ju158969&sk=d83f2f1f-c8f3-4c06-a54f-5ffa184bd755.1589336147051.2237.27EA20D2-B8F6-4027-A247-3720EF18DD5A.2bb7bbbbbccafa7e870e7dfea6b62fcb&v=4.0&token=27EA20D2-B8F6-4027-A247-3720EF18DD5A'
 
 
-    print(sig.get_url_include_sig(url))
+    print(sig.get_url_include_sig(url, ios=True))
 
     import requests
-    print(requests.get(url).json())
+    header = {'Content-Type': 'application/json'}
+    body = {"studentId":11276087,"forbidType":"FORBID_1","operatorId":2237,"clazzId":10909,"remark":"S"}
+    import json
+    data = json.dumps(body)
+    print(requests.post(url, headers=header, data=data).json())

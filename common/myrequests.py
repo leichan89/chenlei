@@ -106,7 +106,7 @@ class Requests():
         ret = self.session.post(url=info['url'], headers=info['headers'], data=data, **kw)
         return ret
 
-    # 另外一种post方式
+    # 另外一种post方式，自动将字典转换为json格式
     # def _post(self, info, **kw):
     #     logger.info('发送post请求')
     #     data = info['data']

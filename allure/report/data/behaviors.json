@@ -4,79 +4,1944 @@
   "children" : [ {
     "name" : "我的班级",
     "children" : [ {
+      "name" : "班级",
+      "children" : [ {
+        "name" : "学员列表",
+        "children" : [ {
+          "name" : "导出学员列表数据",
+          "uid" : "544db1bf8a0cf2e",
+          "parentUid" : "a2808709957799180390289a66080a6c",
+          "status" : "passed",
+          "time" : {
+            "start" : 1589954006486,
+            "stop" : 1589954007383,
+            "duration" : 897
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "a2808709957799180390289a66080a6c"
+      }, {
+        "name" : "积分",
+        "children" : [ {
+          "name" : "下载积分：设置年月日下载",
+          "uid" : "3342b2bd2a8fc43e",
+          "parentUid" : "a6622d6013ee55241d930e7d8a106471",
+          "status" : "passed",
+          "time" : {
+            "start" : 1589954007390,
+            "stop" : 1589954007572,
+            "duration" : 182
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "下载积分：不带年月日下载",
+          "uid" : "d8a35d74acaeba16",
+          "parentUid" : "a6622d6013ee55241d930e7d8a106471",
+          "status" : "passed",
+          "time" : {
+            "start" : 1589954007577,
+            "stop" : 1589954007728,
+            "duration" : 151
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "获取阶段和任务id",
+          "uid" : "df6ca277c2f68131",
+          "parentUid" : "a6622d6013ee55241d930e7d8a106471",
+          "status" : "passed",
+          "time" : {
+            "start" : 1589954008641,
+            "stop" : 1589954008642,
+            "duration" : 1
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "查询积分：默认查询",
+          "uid" : "bc7b3d8d6b6c6fe9",
+          "parentUid" : "a6622d6013ee55241d930e7d8a106471",
+          "status" : "passed",
+          "time" : {
+            "start" : 1589954009170,
+            "stop" : 1589954009281,
+            "duration" : 111
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "查询积分：指定时间段查询",
+          "uid" : "c1d1640727350512",
+          "parentUid" : "a6622d6013ee55241d930e7d8a106471",
+          "status" : "passed",
+          "time" : {
+            "start" : 1589954009284,
+            "stop" : 1589954009441,
+            "duration" : 157
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "查询积分：开始时间大于结束时间",
+          "uid" : "c2d8ec4598d1f0cb",
+          "parentUid" : "a6622d6013ee55241d930e7d8a106471",
+          "status" : "passed",
+          "time" : {
+            "start" : 1589954009445,
+            "stop" : 1589954009533,
+            "duration" : 88
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "a6622d6013ee55241d930e7d8a106471"
+      }, {
+        "name" : "查询老师信息",
+        "children" : [ {
+          "name" : "查询存在的老师信息",
+          "uid" : "147179ebfd1972b",
+          "parentUid" : "8ad923093a362febd7173dbedb544234",
+          "status" : "passed",
+          "time" : {
+            "start" : 1589954008649,
+            "stop" : 1589954008760,
+            "duration" : 111
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "传入无效的字符查询老师信息",
+          "uid" : "6fb76cca9cf6c474",
+          "parentUid" : "8ad923093a362febd7173dbedb544234",
+          "status" : "passed",
+          "time" : {
+            "start" : 1589954008766,
+            "stop" : 1589954008860,
+            "duration" : 94
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "{'teacherId': 1000}" ]
+        }, {
+          "name" : "传入无效的字符查询老师信息",
+          "uid" : "4c66cb1dde548d39",
+          "parentUid" : "8ad923093a362febd7173dbedb544234",
+          "status" : "passed",
+          "time" : {
+            "start" : 1589954008867,
+            "stop" : 1589954008963,
+            "duration" : 96
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "{'teacherId': 2000}" ]
+        }, {
+          "name" : "传入无效的字符查询老师信息",
+          "uid" : "a51e9a33d744baf5",
+          "parentUid" : "8ad923093a362febd7173dbedb544234",
+          "status" : "passed",
+          "time" : {
+            "start" : 1589954008970,
+            "stop" : 1589954009060,
+            "duration" : 90
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "{'teacherId': 3000}" ]
+        }, {
+          "name" : "传入无效的字符查询老师信息",
+          "uid" : "c3735ce6c55e5e09",
+          "parentUid" : "8ad923093a362febd7173dbedb544234",
+          "status" : "passed",
+          "time" : {
+            "start" : 1589954009068,
+            "stop" : 1589954009165,
+            "duration" : 97
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "{'teacherId': 4000}" ]
+        } ],
+        "uid" : "8ad923093a362febd7173dbedb544234"
+      } ],
+      "uid" : "61b197137f180a2998c1edee88e13a83"
+    }, {
       "name" : "群聊",
       "children" : [ {
         "name" : "发送文件",
         "children" : [ {
           "name" : "发送群文件：上传文件-发送xlsx文件-历史消息查看发送的文件",
-          "uid" : "83cbaea33444fc10",
+          "uid" : "678fc9f14fada737",
           "parentUid" : "e53e4c3802eff24d26b10bf61e88ca45",
           "status" : "passed",
           "time" : {
-            "start" : 1586248529421,
-            "stop" : 1586248543584,
-            "duration" : 14163
+            "start" : 1589954009538,
+            "stop" : 1589954018506,
+            "duration" : 8968
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "e53e4c3802eff24d26b10bf61e88ca45"
+      }, {
+        "name" : "发送图片",
+        "children" : [ {
+          "name" : "发送群图片：上传图片-发送jpg图片-历史消息查看发送的图片",
+          "uid" : "ca1baa0520555509",
+          "parentUid" : "8b13408e89976a63e07452e09a475c21",
+          "status" : "passed",
+          "time" : {
+            "start" : 1589954018510,
+            "stop" : 1589954027640,
+            "duration" : 9130
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "8b13408e89976a63e07452e09a475c21"
+      }, {
+        "name" : "发送直播",
+        "children" : [ {
+          "name" : "发送群直播：查询直播-随机发送回放直播-查询直播详情-历史消息中查看发送的直播",
+          "uid" : "21404c6b7ea11628",
+          "parentUid" : "b53e6bd187e4855c79901108084ecb36",
+          "status" : "passed",
+          "time" : {
+            "start" : 1589954027644,
+            "stop" : 1589954037023,
+            "duration" : 9379
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "发送群直播：查询直播-随机发送已结束直播-查询直播详情-历史消息中查看发送的直播",
+          "uid" : "e3ac6f6e24a38e26",
+          "parentUid" : "b53e6bd187e4855c79901108084ecb36",
+          "status" : "failed",
+          "time" : {
+            "start" : 1589954037757,
+            "stop" : 1589954038151,
+            "duration" : 394
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "b53e6bd187e4855c79901108084ecb36"
+      }, {
+        "name" : "发送试卷",
+        "children" : [ {
+          "name" : "发送群试卷：查询试卷-随机发送试卷-查看试卷详情-历史消息中查看发送的试卷-下载答题详情",
+          "uid" : "56fcdcfa523f6dc1",
+          "parentUid" : "e35e2522539400ee4a26ddfd65063ae4",
+          "status" : "passed",
+          "time" : {
+            "start" : 1589954038183,
+            "stop" : 1589954047960,
+            "duration" : 9777
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "e35e2522539400ee4a26ddfd65063ae4"
+      }, {
+        "name" : "群答题",
+        "children" : [ {
+          "name" : "发送群答题：查询科目-查询模块-查询试卷-查询试题-存题-查询待推题-推送待推题-查询答题详情-历史消息中查看答题信息",
+          "uid" : "d710303908a640",
+          "parentUid" : "a916d1c85fa565b9667e8a232e77e4d2",
+          "status" : "passed",
+          "time" : {
+            "start" : 1589954049851,
+            "stop" : 1589954059018,
+            "duration" : 9167
           },
           "flaky" : false,
           "newFailed" : false,
           "parameters" : [ "0" ]
         }, {
-          "name" : "发送群文件：上传文件-发送xlsx文件-历史消息查看发送的文件",
-          "uid" : "5faadc0d0b42ff86",
-          "parentUid" : "e53e4c3802eff24d26b10bf61e88ca45",
+          "name" : "发送群答题：查询科目-查询模块-查询试卷-查询试题-存题-查询待推题-推送待推题-查询答题详情-历史消息中查看答题信息",
+          "uid" : "8e949c55be673d34",
+          "parentUid" : "a916d1c85fa565b9667e8a232e77e4d2",
           "status" : "passed",
           "time" : {
-            "start" : 1586248543599,
-            "stop" : 1586248552590,
-            "duration" : 8991
+            "start" : 1589954059803,
+            "stop" : 1589954068633,
+            "duration" : 8830
           },
           "flaky" : false,
           "newFailed" : false,
           "parameters" : [ "1" ]
         }, {
-          "name" : "发送群文件：上传文件-发送xlsx文件-历史消息查看发送的文件",
-          "uid" : "6f0c6aad121ae5ca",
-          "parentUid" : "e53e4c3802eff24d26b10bf61e88ca45",
+          "name" : "发送群答题：查询科目-查询模块-查询试卷-查询试题-存题-查询待推题-推送待推题-查询答题详情-历史消息中查看答题信息",
+          "uid" : "3dbbb46afd5a8a13",
+          "parentUid" : "a916d1c85fa565b9667e8a232e77e4d2",
           "status" : "passed",
           "time" : {
-            "start" : 1586248552595,
-            "stop" : 1586248561419,
-            "duration" : 8824
+            "start" : 1589954069358,
+            "stop" : 1589954078229,
+            "duration" : 8871
           },
           "flaky" : false,
           "newFailed" : false,
           "parameters" : [ "2" ]
         }, {
-          "name" : "发送群文件：上传文件-发送xlsx文件-历史消息查看发送的文件",
-          "uid" : "f1fffa5e022b23fa",
-          "parentUid" : "e53e4c3802eff24d26b10bf61e88ca45",
+          "name" : "发送群答题：查询科目-查询模块-查询试卷-查询试题-存题-查询待推题-推送待推题-查询答题详情-历史消息中查看答题信息",
+          "uid" : "13ff7cb4aae36a1a",
+          "parentUid" : "a916d1c85fa565b9667e8a232e77e4d2",
           "status" : "passed",
           "time" : {
-            "start" : 1586248561424,
-            "stop" : 1586248570431,
-            "duration" : 9007
+            "start" : 1589954080931,
+            "stop" : 1589954090133,
+            "duration" : 9202
           },
           "flaky" : false,
           "newFailed" : false,
           "parameters" : [ "3" ]
         }, {
-          "name" : "发送群文件：上传文件-发送xlsx文件-历史消息查看发送的文件",
-          "uid" : "9805a8373c2b0b42",
-          "parentUid" : "e53e4c3802eff24d26b10bf61e88ca45",
+          "name" : "发送群答题：查询科目-查询模块-查询试卷-查询试题-存题-查询待推题-推送待推题-查询答题详情-历史消息中查看答题信息",
+          "uid" : "887f1e31097747f6",
+          "parentUid" : "a916d1c85fa565b9667e8a232e77e4d2",
           "status" : "passed",
           "time" : {
-            "start" : 1586248570435,
-            "stop" : 1586248582290,
-            "duration" : 11855
+            "start" : 1589954092167,
+            "stop" : 1589954101238,
+            "duration" : 9071
           },
           "flaky" : false,
           "newFailed" : false,
           "parameters" : [ "4" ]
+        }, {
+          "name" : "发送群答题：查询科目-查询模块-查询试卷-查询试题-存题-查询待推题-推送待推题-查询答题详情-历史消息中查看答题信息",
+          "uid" : "c9a5e8a6766819d4",
+          "parentUid" : "a916d1c85fa565b9667e8a232e77e4d2",
+          "status" : "passed",
+          "time" : {
+            "start" : 1589954102906,
+            "stop" : 1589954111923,
+            "duration" : 9017
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "5" ]
+        }, {
+          "name" : "发送群答题：查询科目-查询模块-查询试卷-查询试题-存题-查询待推题-推送待推题-查询答题详情-历史消息中查看答题信息",
+          "uid" : "4ebd1f8527be42d1",
+          "parentUid" : "a916d1c85fa565b9667e8a232e77e4d2",
+          "status" : "passed",
+          "time" : {
+            "start" : 1589954113460,
+            "stop" : 1589954122590,
+            "duration" : 9130
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "6" ]
+        }, {
+          "name" : "发送群答题：查询科目-查询模块-查询试卷-查询试题-存题-查询待推题-推送待推题-查询答题详情-历史消息中查看答题信息",
+          "uid" : "e7defe816a6833d8",
+          "parentUid" : "a916d1c85fa565b9667e8a232e77e4d2",
+          "status" : "passed",
+          "time" : {
+            "start" : 1589954124495,
+            "stop" : 1589954134926,
+            "duration" : 10431
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "7" ]
+        }, {
+          "name" : "发送群答题：查询科目-查询模块-查询试卷-查询试题-存题-查询待推题-推送待推题-查询答题详情-历史消息中查看答题信息",
+          "uid" : "b86bd9358fb7ec7",
+          "parentUid" : "a916d1c85fa565b9667e8a232e77e4d2",
+          "status" : "passed",
+          "time" : {
+            "start" : 1589954137121,
+            "stop" : 1589954146619,
+            "duration" : 9498
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "8" ]
+        }, {
+          "name" : "发送群答题：查询科目-查询模块-查询试卷-查询试题-存题-查询待推题-推送待推题-查询答题详情-历史消息中查看答题信息",
+          "uid" : "a1c7370609f0efaa",
+          "parentUid" : "a916d1c85fa565b9667e8a232e77e4d2",
+          "status" : "passed",
+          "time" : {
+            "start" : 1589954148132,
+            "stop" : 1589954159127,
+            "duration" : 10995
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "9" ]
+        }, {
+          "name" : "发送群答题：查询科目-查询模块-查询试卷-查询试题-存题-查询待推题-推送待推题-查询答题详情-历史消息中查看答题信息",
+          "uid" : "f16afad52d983374",
+          "parentUid" : "a916d1c85fa565b9667e8a232e77e4d2",
+          "status" : "passed",
+          "time" : {
+            "start" : 1589954160445,
+            "stop" : 1589954169422,
+            "duration" : 8977
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "10" ]
+        }, {
+          "name" : "发送群答题：查询科目-查询模块-查询试卷-查询试题-随机存群答题到未来日期",
+          "uid" : "d3170c6dcac7fa70",
+          "parentUid" : "a916d1c85fa565b9667e8a232e77e4d2",
+          "status" : "passed",
+          "time" : {
+            "start" : 1589954170857,
+            "stop" : 1589954170962,
+            "duration" : 105
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "发送群答题：查询科目-查询模块-查询试卷-查询试题-随机存群答题到过去日期",
+          "uid" : "8d2f724680b2c276",
+          "parentUid" : "a916d1c85fa565b9667e8a232e77e4d2",
+          "status" : "passed",
+          "time" : {
+            "start" : 1589954173784,
+            "stop" : 1589954173885,
+            "duration" : 101
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "发送群答题：查询科目-查询模块-查询试卷-查询试题-随机发送群答题-历史消息中查看答题信息",
+          "uid" : "1a21fa7357157cae",
+          "parentUid" : "a916d1c85fa565b9667e8a232e77e4d2",
+          "status" : "passed",
+          "time" : {
+            "start" : 1589954175217,
+            "stop" : 1589954184065,
+            "duration" : 8848
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "发送群答题：查询科目-查询模块-查询试卷-查询试题-再次推送相同试题，不应该推送成功",
+          "uid" : "1a891b3c58dd3162",
+          "parentUid" : "a916d1c85fa565b9667e8a232e77e4d2",
+          "status" : "passed",
+          "time" : {
+            "start" : 1589954185506,
+            "stop" : 1589954186206,
+            "duration" : 700
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "发送群答题：删除不存在的群推试题",
+          "uid" : "f73a4713fc168b51",
+          "parentUid" : "a916d1c85fa565b9667e8a232e77e4d2",
+          "status" : "passed",
+          "time" : {
+            "start" : 1589954186210,
+            "stop" : 1589954186309,
+            "duration" : 99
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
         } ],
-        "uid" : "e53e4c3802eff24d26b10bf61e88ca45"
+        "uid" : "a916d1c85fa565b9667e8a232e77e4d2"
+      }, {
+        "name" : "发送文本",
+        "children" : [ {
+          "name" : "发送文本消息：发送文本消息",
+          "uid" : "4ff2960c496a9fc1",
+          "parentUid" : "0001ef0abb10b885892ab621e86267ab",
+          "status" : "passed",
+          "time" : {
+            "start" : 1589954186314,
+            "stop" : 1589954186720,
+            "duration" : 406
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "0" ]
+        }, {
+          "name" : "发送文本消息：发送文本消息",
+          "uid" : "cf4fee3641ae9bca",
+          "parentUid" : "0001ef0abb10b885892ab621e86267ab",
+          "status" : "passed",
+          "time" : {
+            "start" : 1589954186723,
+            "stop" : 1589954187209,
+            "duration" : 486
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "1" ]
+        }, {
+          "name" : "发送文本消息：发送文本消息",
+          "uid" : "a1de5de76a5f74f7",
+          "parentUid" : "0001ef0abb10b885892ab621e86267ab",
+          "status" : "passed",
+          "time" : {
+            "start" : 1589954187213,
+            "stop" : 1589954187712,
+            "duration" : 499
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "2" ]
+        }, {
+          "name" : "发送文本消息：发送文本消息",
+          "uid" : "4224523a90756480",
+          "parentUid" : "0001ef0abb10b885892ab621e86267ab",
+          "status" : "passed",
+          "time" : {
+            "start" : 1589954187716,
+            "stop" : 1589954188188,
+            "duration" : 472
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "3" ]
+        }, {
+          "name" : "发送文本消息：发送文本消息",
+          "uid" : "c49cb4c32399bba6",
+          "parentUid" : "0001ef0abb10b885892ab621e86267ab",
+          "status" : "passed",
+          "time" : {
+            "start" : 1589954188192,
+            "stop" : 1589954188633,
+            "duration" : 441
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "4" ]
+        }, {
+          "name" : "发送文本消息：发送文本消息",
+          "uid" : "d69654fafdd2b973",
+          "parentUid" : "0001ef0abb10b885892ab621e86267ab",
+          "status" : "passed",
+          "time" : {
+            "start" : 1589954188638,
+            "stop" : 1589954188973,
+            "duration" : 335
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "5" ]
+        }, {
+          "name" : "发送文本消息：发送文本消息",
+          "uid" : "a01d2576dda50fbf",
+          "parentUid" : "0001ef0abb10b885892ab621e86267ab",
+          "status" : "passed",
+          "time" : {
+            "start" : 1589954188977,
+            "stop" : 1589954189478,
+            "duration" : 501
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "6" ]
+        }, {
+          "name" : "发送文本消息：发送文本消息",
+          "uid" : "d032bc1309eacdb7",
+          "parentUid" : "0001ef0abb10b885892ab621e86267ab",
+          "status" : "passed",
+          "time" : {
+            "start" : 1589954189482,
+            "stop" : 1589954190009,
+            "duration" : 527
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "7" ]
+        }, {
+          "name" : "发送文本消息：发送文本消息",
+          "uid" : "be4ecaf018fdc0e0",
+          "parentUid" : "0001ef0abb10b885892ab621e86267ab",
+          "status" : "passed",
+          "time" : {
+            "start" : 1589954190015,
+            "stop" : 1589954190531,
+            "duration" : 516
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "8" ]
+        }, {
+          "name" : "发送文本消息：发送文本消息",
+          "uid" : "dba6817283ead517",
+          "parentUid" : "0001ef0abb10b885892ab621e86267ab",
+          "status" : "passed",
+          "time" : {
+            "start" : 1589954190536,
+            "stop" : 1589954191047,
+            "duration" : 511
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "9" ]
+        }, {
+          "name" : "发送文本消息：发送文本消息",
+          "uid" : "11a29591c00961e1",
+          "parentUid" : "0001ef0abb10b885892ab621e86267ab",
+          "status" : "passed",
+          "time" : {
+            "start" : 1589954191052,
+            "stop" : 1589954191586,
+            "duration" : 534
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "10" ]
+        }, {
+          "name" : "发送文本消息：发送文本消息",
+          "uid" : "f4323b7197a83f10",
+          "parentUid" : "0001ef0abb10b885892ab621e86267ab",
+          "status" : "passed",
+          "time" : {
+            "start" : 1589954191590,
+            "stop" : 1589954192085,
+            "duration" : 495
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "11" ]
+        }, {
+          "name" : "发送文本消息：发送文本消息",
+          "uid" : "12ecfa576537d47",
+          "parentUid" : "0001ef0abb10b885892ab621e86267ab",
+          "status" : "passed",
+          "time" : {
+            "start" : 1589954192091,
+            "stop" : 1589954192494,
+            "duration" : 403
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "12" ]
+        }, {
+          "name" : "发送文本消息：发送文本消息",
+          "uid" : "bae6de942bb3dcce",
+          "parentUid" : "0001ef0abb10b885892ab621e86267ab",
+          "status" : "passed",
+          "time" : {
+            "start" : 1589954192498,
+            "stop" : 1589954192970,
+            "duration" : 472
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "13" ]
+        }, {
+          "name" : "发送文本消息：发送文本消息",
+          "uid" : "50f3638dfd1de619",
+          "parentUid" : "0001ef0abb10b885892ab621e86267ab",
+          "status" : "passed",
+          "time" : {
+            "start" : 1589954192976,
+            "stop" : 1589954193404,
+            "duration" : 428
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "14" ]
+        }, {
+          "name" : "发送文本消息：发送文本消息",
+          "uid" : "7833726a7ffc0ce3",
+          "parentUid" : "0001ef0abb10b885892ab621e86267ab",
+          "status" : "passed",
+          "time" : {
+            "start" : 1589954193408,
+            "stop" : 1589954194109,
+            "duration" : 701
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "15" ]
+        }, {
+          "name" : "发送文本消息：发送文本消息",
+          "uid" : "23f8f3f213611d4e",
+          "parentUid" : "0001ef0abb10b885892ab621e86267ab",
+          "status" : "passed",
+          "time" : {
+            "start" : 1589954194113,
+            "stop" : 1589954194615,
+            "duration" : 502
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "16" ]
+        }, {
+          "name" : "发送文本消息：发送文本消息",
+          "uid" : "d057257cd05fe007",
+          "parentUid" : "0001ef0abb10b885892ab621e86267ab",
+          "status" : "passed",
+          "time" : {
+            "start" : 1589954194619,
+            "stop" : 1589954195156,
+            "duration" : 537
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "17" ]
+        }, {
+          "name" : "发送文本消息：发送文本消息",
+          "uid" : "175fa1369c1d0d1",
+          "parentUid" : "0001ef0abb10b885892ab621e86267ab",
+          "status" : "passed",
+          "time" : {
+            "start" : 1589954195162,
+            "stop" : 1589954195765,
+            "duration" : 603
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "18" ]
+        }, {
+          "name" : "发送文本消息：发送文本消息",
+          "uid" : "89f3c26f06a0461d",
+          "parentUid" : "0001ef0abb10b885892ab621e86267ab",
+          "status" : "passed",
+          "time" : {
+            "start" : 1589954195770,
+            "stop" : 1589954196098,
+            "duration" : 328
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "19" ]
+        }, {
+          "name" : "发送文本消息：发送文本消息",
+          "uid" : "f8de7daad4b88a73",
+          "parentUid" : "0001ef0abb10b885892ab621e86267ab",
+          "status" : "passed",
+          "time" : {
+            "start" : 1589954196103,
+            "stop" : 1589954196617,
+            "duration" : 514
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "20" ]
+        }, {
+          "name" : "发送文本消息：发送文本消息",
+          "uid" : "253d284ada855c87",
+          "parentUid" : "0001ef0abb10b885892ab621e86267ab",
+          "status" : "passed",
+          "time" : {
+            "start" : 1589954196621,
+            "stop" : 1589954197124,
+            "duration" : 503
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "21" ]
+        }, {
+          "name" : "发送文本消息：发送文本消息",
+          "uid" : "e04e073870e46233",
+          "parentUid" : "0001ef0abb10b885892ab621e86267ab",
+          "status" : "passed",
+          "time" : {
+            "start" : 1589954197130,
+            "stop" : 1589954197486,
+            "duration" : 356
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "22" ]
+        }, {
+          "name" : "发送文本消息：发送文本消息",
+          "uid" : "e71f1dcc717867d4",
+          "parentUid" : "0001ef0abb10b885892ab621e86267ab",
+          "status" : "passed",
+          "time" : {
+            "start" : 1589954197489,
+            "stop" : 1589954197863,
+            "duration" : 374
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "23" ]
+        }, {
+          "name" : "发送文本消息：发送文本消息",
+          "uid" : "f1dac4c2505cd6c5",
+          "parentUid" : "0001ef0abb10b885892ab621e86267ab",
+          "status" : "passed",
+          "time" : {
+            "start" : 1589954197867,
+            "stop" : 1589954198355,
+            "duration" : 488
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "24" ]
+        }, {
+          "name" : "发送文本消息：发送文本消息",
+          "uid" : "c235c95c4c584a9f",
+          "parentUid" : "0001ef0abb10b885892ab621e86267ab",
+          "status" : "passed",
+          "time" : {
+            "start" : 1589954198360,
+            "stop" : 1589954198856,
+            "duration" : 496
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "25" ]
+        }, {
+          "name" : "发送文本消息：发送文本消息",
+          "uid" : "535fbfda1944d3cb",
+          "parentUid" : "0001ef0abb10b885892ab621e86267ab",
+          "status" : "passed",
+          "time" : {
+            "start" : 1589954198861,
+            "stop" : 1589954199203,
+            "duration" : 342
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "26" ]
+        }, {
+          "name" : "发送文本消息：发送文本消息",
+          "uid" : "ca39af0f76d6af34",
+          "parentUid" : "0001ef0abb10b885892ab621e86267ab",
+          "status" : "passed",
+          "time" : {
+            "start" : 1589954199207,
+            "stop" : 1589954199662,
+            "duration" : 455
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "27" ]
+        }, {
+          "name" : "发送文本消息：发送文本消息",
+          "uid" : "650f3fb85fbd82fd",
+          "parentUid" : "0001ef0abb10b885892ab621e86267ab",
+          "status" : "passed",
+          "time" : {
+            "start" : 1589954199669,
+            "stop" : 1589954200123,
+            "duration" : 454
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "28" ]
+        }, {
+          "name" : "发送文本消息：发送文本消息",
+          "uid" : "f6f43dbf15243dbd",
+          "parentUid" : "0001ef0abb10b885892ab621e86267ab",
+          "status" : "passed",
+          "time" : {
+            "start" : 1589954200127,
+            "stop" : 1589954200587,
+            "duration" : 460
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "29" ]
+        }, {
+          "name" : "发送文本消息：发送文本消息",
+          "uid" : "b0b7a679d12ed5d5",
+          "parentUid" : "0001ef0abb10b885892ab621e86267ab",
+          "status" : "passed",
+          "time" : {
+            "start" : 1589954200593,
+            "stop" : 1589954201021,
+            "duration" : 428
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "30" ]
+        }, {
+          "name" : "发送文本消息：发送文本消息",
+          "uid" : "8ba46e8c92b6faa",
+          "parentUid" : "0001ef0abb10b885892ab621e86267ab",
+          "status" : "passed",
+          "time" : {
+            "start" : 1589954201025,
+            "stop" : 1589954201442,
+            "duration" : 417
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "31" ]
+        }, {
+          "name" : "发送文本消息：发送文本消息",
+          "uid" : "7c3b7e859ca34290",
+          "parentUid" : "0001ef0abb10b885892ab621e86267ab",
+          "status" : "passed",
+          "time" : {
+            "start" : 1589954201448,
+            "stop" : 1589954201865,
+            "duration" : 417
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "32" ]
+        }, {
+          "name" : "发送文本消息：发送文本消息",
+          "uid" : "d12d09f65fb8a427",
+          "parentUid" : "0001ef0abb10b885892ab621e86267ab",
+          "status" : "passed",
+          "time" : {
+            "start" : 1589954201869,
+            "stop" : 1589954202267,
+            "duration" : 398
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "33" ]
+        }, {
+          "name" : "发送文本消息：发送文本消息",
+          "uid" : "f7d3582180de50b4",
+          "parentUid" : "0001ef0abb10b885892ab621e86267ab",
+          "status" : "passed",
+          "time" : {
+            "start" : 1589954202270,
+            "stop" : 1589954202808,
+            "duration" : 538
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "34" ]
+        }, {
+          "name" : "发送文本消息：发送文本消息",
+          "uid" : "a19f7be32c164b0a",
+          "parentUid" : "0001ef0abb10b885892ab621e86267ab",
+          "status" : "passed",
+          "time" : {
+            "start" : 1589954202813,
+            "stop" : 1589954203191,
+            "duration" : 378
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "35" ]
+        }, {
+          "name" : "发送文本消息：发送文本消息",
+          "uid" : "31ce2968c8449b7e",
+          "parentUid" : "0001ef0abb10b885892ab621e86267ab",
+          "status" : "passed",
+          "time" : {
+            "start" : 1589954203198,
+            "stop" : 1589954203516,
+            "duration" : 318
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "36" ]
+        }, {
+          "name" : "发送文本消息：发送文本消息",
+          "uid" : "48c7e46cfb4fd41b",
+          "parentUid" : "0001ef0abb10b885892ab621e86267ab",
+          "status" : "passed",
+          "time" : {
+            "start" : 1589954203524,
+            "stop" : 1589954203971,
+            "duration" : 447
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "37" ]
+        }, {
+          "name" : "发送文本消息：发送文本消息",
+          "uid" : "5a51bc54eeafe98c",
+          "parentUid" : "0001ef0abb10b885892ab621e86267ab",
+          "status" : "passed",
+          "time" : {
+            "start" : 1589954203977,
+            "stop" : 1589954204395,
+            "duration" : 418
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "38" ]
+        }, {
+          "name" : "发送文本消息：发送文本消息",
+          "uid" : "899d356893a3a48e",
+          "parentUid" : "0001ef0abb10b885892ab621e86267ab",
+          "status" : "passed",
+          "time" : {
+            "start" : 1589954204399,
+            "stop" : 1589954204921,
+            "duration" : 522
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "39" ]
+        }, {
+          "name" : "发送文本消息：发送文本消息",
+          "uid" : "7d1c4eceda131342",
+          "parentUid" : "0001ef0abb10b885892ab621e86267ab",
+          "status" : "passed",
+          "time" : {
+            "start" : 1589954204942,
+            "stop" : 1589954205268,
+            "duration" : 326
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "40" ]
+        }, {
+          "name" : "发送文本消息：发送文本消息",
+          "uid" : "29782a3a7dc4c8e7",
+          "parentUid" : "0001ef0abb10b885892ab621e86267ab",
+          "status" : "passed",
+          "time" : {
+            "start" : 1589954205273,
+            "stop" : 1589954205739,
+            "duration" : 466
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "41" ]
+        }, {
+          "name" : "发送文本消息：发送文本消息",
+          "uid" : "2659a57591d8238b",
+          "parentUid" : "0001ef0abb10b885892ab621e86267ab",
+          "status" : "passed",
+          "time" : {
+            "start" : 1589954205745,
+            "stop" : 1589954206219,
+            "duration" : 474
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "42" ]
+        }, {
+          "name" : "发送文本消息：发送文本消息",
+          "uid" : "a5ec43de4f65dbc3",
+          "parentUid" : "0001ef0abb10b885892ab621e86267ab",
+          "status" : "passed",
+          "time" : {
+            "start" : 1589954206225,
+            "stop" : 1589954206580,
+            "duration" : 355
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "43" ]
+        }, {
+          "name" : "发送文本消息：发送文本消息",
+          "uid" : "3111b522338d9b8",
+          "parentUid" : "0001ef0abb10b885892ab621e86267ab",
+          "status" : "passed",
+          "time" : {
+            "start" : 1589954206586,
+            "stop" : 1589954206936,
+            "duration" : 350
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "44" ]
+        }, {
+          "name" : "发送文本消息：发送文本消息",
+          "uid" : "14b63ede56d469a0",
+          "parentUid" : "0001ef0abb10b885892ab621e86267ab",
+          "status" : "passed",
+          "time" : {
+            "start" : 1589954206941,
+            "stop" : 1589954207448,
+            "duration" : 507
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "45" ]
+        }, {
+          "name" : "发送文本消息：发送文本消息",
+          "uid" : "501ef3b51e88610",
+          "parentUid" : "0001ef0abb10b885892ab621e86267ab",
+          "status" : "passed",
+          "time" : {
+            "start" : 1589954207452,
+            "stop" : 1589954207929,
+            "duration" : 477
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "46" ]
+        }, {
+          "name" : "发送文本消息：发送文本消息",
+          "uid" : "98f4e17cec1d0105",
+          "parentUid" : "0001ef0abb10b885892ab621e86267ab",
+          "status" : "passed",
+          "time" : {
+            "start" : 1589954207933,
+            "stop" : 1589954208237,
+            "duration" : 304
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "47" ]
+        }, {
+          "name" : "发送文本消息：发送文本消息",
+          "uid" : "d2dd67bdbca6b835",
+          "parentUid" : "0001ef0abb10b885892ab621e86267ab",
+          "status" : "passed",
+          "time" : {
+            "start" : 1589954208241,
+            "stop" : 1589954208647,
+            "duration" : 406
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "48" ]
+        }, {
+          "name" : "发送文本消息：发送文本消息",
+          "uid" : "a1eec901aa5c9140",
+          "parentUid" : "0001ef0abb10b885892ab621e86267ab",
+          "status" : "passed",
+          "time" : {
+            "start" : 1589954208651,
+            "stop" : 1589954209147,
+            "duration" : 496
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "49" ]
+        } ],
+        "uid" : "0001ef0abb10b885892ab621e86267ab"
+      }, {
+        "name" : "发送录播",
+        "children" : [ {
+          "name" : "发送群录播：查询科目-查询模块-查询录播-随机发送录播-查询录播详情-历史消息中查看推送的录播",
+          "uid" : "5eef183153a8b2b2",
+          "parentUid" : "282a1570836881e4ffd62986b508deeb",
+          "status" : "passed",
+          "time" : {
+            "start" : 1589954209152,
+            "stop" : 1589954218437,
+            "duration" : 9285
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "282a1570836881e4ffd62986b508deeb"
+      }, {
+        "name" : "设置群答题显示解析",
+        "children" : [ {
+          "name" : "设置群答题显示解析为手动",
+          "uid" : "ac1d4ba35e2cbfde",
+          "parentUid" : "91570f05db74a8214eadfb6431148d2a",
+          "status" : "passed",
+          "time" : {
+            "start" : 1589954288777,
+            "stop" : 1589954290100,
+            "duration" : 1323
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "91570f05db74a8214eadfb6431148d2a"
       } ],
       "uid" : "08d26904f12379d48a8d78b4c83fe757"
+    }, {
+      "name" : "私聊",
+      "children" : [ {
+        "name" : "发送文件",
+        "children" : [ {
+          "name" : "私聊发送文件：上传文件-给单个学员发送xlsx文件-历史消息中查找发送的文件消息",
+          "uid" : "b1bb708361daebf6",
+          "parentUid" : "7f836eda39999890c19e182c14d54d46",
+          "status" : "passed",
+          "time" : {
+            "start" : 1589954219083,
+            "stop" : 1589954228241,
+            "duration" : 9158
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "7f836eda39999890c19e182c14d54d46"
+      }, {
+        "name" : "发送图片",
+        "children" : [ {
+          "name" : "私聊发送图片：上传图片-给单个学员发送jpg图片-历史消息中查找发送的图片消息",
+          "uid" : "756abd645f167442",
+          "parentUid" : "14a94089d1d5e29b599aec61f72c1e22",
+          "status" : "passed",
+          "time" : {
+            "start" : 1589954228245,
+            "stop" : 1589954237271,
+            "duration" : 9026
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "14a94089d1d5e29b599aec61f72c1e22"
+      }, {
+        "name" : "发送直播",
+        "children" : [ {
+          "name" : "私聊发送直播：查询直播-向单个学员随机发送回放直播-查询直播详情-私聊记录中查看发送的直播回放",
+          "uid" : "8264e5cb4421ab35",
+          "parentUid" : "0341d17634153e63e268ea02b45aefbb",
+          "status" : "passed",
+          "time" : {
+            "start" : 1589954237275,
+            "stop" : 1589954246840,
+            "duration" : 9565
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "私聊发送直播：查询直播-向单个学员随机发送已结束直播-查询直播详情",
+          "uid" : "3f69e48e011fc769",
+          "parentUid" : "0341d17634153e63e268ea02b45aefbb",
+          "status" : "failed",
+          "time" : {
+            "start" : 1589954247569,
+            "stop" : 1589954247879,
+            "duration" : 310
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "0341d17634153e63e268ea02b45aefbb"
+      }, {
+        "name" : "发送试卷",
+        "children" : [ {
+          "name" : "私聊发送试卷：查询试卷-向单个学员随机发送试卷-查看试卷详情-历史消息中查看发送的试卷",
+          "uid" : "79e1faf465cc240d",
+          "parentUid" : "d87108c31d21dbb7328775615ed7be01",
+          "status" : "passed",
+          "time" : {
+            "start" : 1589954247890,
+            "stop" : 1589954257197,
+            "duration" : 9307
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "d87108c31d21dbb7328775615ed7be01"
+      }, {
+        "name" : "发送文本",
+        "children" : [ {
+          "name" : "私聊发送文本消息：发送文本消息",
+          "uid" : "3839c84d4ab2bbc7",
+          "parentUid" : "8185dc0dd3e0ba133a7a9c0e8995a676",
+          "status" : "passed",
+          "time" : {
+            "start" : 1589954257201,
+            "stop" : 1589954257799,
+            "duration" : 598
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "0" ]
+        }, {
+          "name" : "私聊发送文本消息：发送文本消息",
+          "uid" : "14931f926ed7a242",
+          "parentUid" : "8185dc0dd3e0ba133a7a9c0e8995a676",
+          "status" : "passed",
+          "time" : {
+            "start" : 1589954257805,
+            "stop" : 1589954258994,
+            "duration" : 1189
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "1" ]
+        }, {
+          "name" : "私聊发送文本消息：发送文本消息",
+          "uid" : "43ee957848446ca6",
+          "parentUid" : "8185dc0dd3e0ba133a7a9c0e8995a676",
+          "status" : "passed",
+          "time" : {
+            "start" : 1589954258997,
+            "stop" : 1589954259481,
+            "duration" : 484
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "2" ]
+        }, {
+          "name" : "私聊发送文本消息：发送文本消息",
+          "uid" : "ac12bc6be08bd4d0",
+          "parentUid" : "8185dc0dd3e0ba133a7a9c0e8995a676",
+          "status" : "passed",
+          "time" : {
+            "start" : 1589954259485,
+            "stop" : 1589954259847,
+            "duration" : 362
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "3" ]
+        }, {
+          "name" : "私聊发送文本消息：发送文本消息",
+          "uid" : "df2a63ab4614f3d",
+          "parentUid" : "8185dc0dd3e0ba133a7a9c0e8995a676",
+          "status" : "passed",
+          "time" : {
+            "start" : 1589954259853,
+            "stop" : 1589954260230,
+            "duration" : 377
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "4" ]
+        }, {
+          "name" : "私聊发送文本消息：发送文本消息",
+          "uid" : "4a5b58a5dc442a45",
+          "parentUid" : "8185dc0dd3e0ba133a7a9c0e8995a676",
+          "status" : "passed",
+          "time" : {
+            "start" : 1589954260234,
+            "stop" : 1589954260470,
+            "duration" : 236
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "5" ]
+        }, {
+          "name" : "私聊发送文本消息：发送文本消息",
+          "uid" : "8d1b08834fb29630",
+          "parentUid" : "8185dc0dd3e0ba133a7a9c0e8995a676",
+          "status" : "passed",
+          "time" : {
+            "start" : 1589954260473,
+            "stop" : 1589954260956,
+            "duration" : 483
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "6" ]
+        }, {
+          "name" : "私聊发送文本消息：发送文本消息",
+          "uid" : "ac9098ed58622f45",
+          "parentUid" : "8185dc0dd3e0ba133a7a9c0e8995a676",
+          "status" : "passed",
+          "time" : {
+            "start" : 1589954260962,
+            "stop" : 1589954261317,
+            "duration" : 355
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "7" ]
+        }, {
+          "name" : "私聊发送文本消息：发送文本消息",
+          "uid" : "ae7a07cdb8d6d60e",
+          "parentUid" : "8185dc0dd3e0ba133a7a9c0e8995a676",
+          "status" : "passed",
+          "time" : {
+            "start" : 1589954261325,
+            "stop" : 1589954261803,
+            "duration" : 478
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "8" ]
+        }, {
+          "name" : "私聊发送文本消息：发送文本消息",
+          "uid" : "4c1ed2a6b5da4bd7",
+          "parentUid" : "8185dc0dd3e0ba133a7a9c0e8995a676",
+          "status" : "passed",
+          "time" : {
+            "start" : 1589954261807,
+            "stop" : 1589954262213,
+            "duration" : 406
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "9" ]
+        }, {
+          "name" : "私聊发送文本消息：发送文本消息",
+          "uid" : "2eed0f7369928555",
+          "parentUid" : "8185dc0dd3e0ba133a7a9c0e8995a676",
+          "status" : "passed",
+          "time" : {
+            "start" : 1589954262217,
+            "stop" : 1589954262783,
+            "duration" : 566
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "10" ]
+        }, {
+          "name" : "私聊发送文本消息：发送文本消息",
+          "uid" : "4a2df39607c0f276",
+          "parentUid" : "8185dc0dd3e0ba133a7a9c0e8995a676",
+          "status" : "passed",
+          "time" : {
+            "start" : 1589954262788,
+            "stop" : 1589954263222,
+            "duration" : 434
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "11" ]
+        }, {
+          "name" : "私聊发送文本消息：发送文本消息",
+          "uid" : "b1753bba07c16f04",
+          "parentUid" : "8185dc0dd3e0ba133a7a9c0e8995a676",
+          "status" : "passed",
+          "time" : {
+            "start" : 1589954263227,
+            "stop" : 1589954263518,
+            "duration" : 291
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "12" ]
+        }, {
+          "name" : "私聊发送文本消息：发送文本消息",
+          "uid" : "731c69789d9f9318",
+          "parentUid" : "8185dc0dd3e0ba133a7a9c0e8995a676",
+          "status" : "passed",
+          "time" : {
+            "start" : 1589954263522,
+            "stop" : 1589954263888,
+            "duration" : 366
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "13" ]
+        }, {
+          "name" : "私聊发送文本消息：发送文本消息",
+          "uid" : "99fdb6358c9d9a72",
+          "parentUid" : "8185dc0dd3e0ba133a7a9c0e8995a676",
+          "status" : "passed",
+          "time" : {
+            "start" : 1589954263891,
+            "stop" : 1589954264188,
+            "duration" : 297
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "14" ]
+        }, {
+          "name" : "私聊发送文本消息：发送文本消息",
+          "uid" : "5eb4b7f6f5351c0e",
+          "parentUid" : "8185dc0dd3e0ba133a7a9c0e8995a676",
+          "status" : "passed",
+          "time" : {
+            "start" : 1589954264192,
+            "stop" : 1589954264560,
+            "duration" : 368
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "15" ]
+        }, {
+          "name" : "私聊发送文本消息：发送文本消息",
+          "uid" : "5b3e5dbd94721a4f",
+          "parentUid" : "8185dc0dd3e0ba133a7a9c0e8995a676",
+          "status" : "passed",
+          "time" : {
+            "start" : 1589954264566,
+            "stop" : 1589954264893,
+            "duration" : 327
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "16" ]
+        }, {
+          "name" : "私聊发送文本消息：发送文本消息",
+          "uid" : "4e41350f06c16baa",
+          "parentUid" : "8185dc0dd3e0ba133a7a9c0e8995a676",
+          "status" : "passed",
+          "time" : {
+            "start" : 1589954264899,
+            "stop" : 1589954265324,
+            "duration" : 425
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "17" ]
+        }, {
+          "name" : "私聊发送文本消息：发送文本消息",
+          "uid" : "58ed38b9ff9398d0",
+          "parentUid" : "8185dc0dd3e0ba133a7a9c0e8995a676",
+          "status" : "passed",
+          "time" : {
+            "start" : 1589954265327,
+            "stop" : 1589954265693,
+            "duration" : 366
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "18" ]
+        }, {
+          "name" : "私聊发送文本消息：发送文本消息",
+          "uid" : "2464f5bf3b45290c",
+          "parentUid" : "8185dc0dd3e0ba133a7a9c0e8995a676",
+          "status" : "passed",
+          "time" : {
+            "start" : 1589954265700,
+            "stop" : 1589954266172,
+            "duration" : 472
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "19" ]
+        }, {
+          "name" : "私聊发送文本消息：发送文本消息",
+          "uid" : "c410f285f3d8176c",
+          "parentUid" : "8185dc0dd3e0ba133a7a9c0e8995a676",
+          "status" : "passed",
+          "time" : {
+            "start" : 1589954266177,
+            "stop" : 1589954266704,
+            "duration" : 527
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "20" ]
+        }, {
+          "name" : "私聊发送文本消息：发送文本消息",
+          "uid" : "5df0a887ec1f50c4",
+          "parentUid" : "8185dc0dd3e0ba133a7a9c0e8995a676",
+          "status" : "passed",
+          "time" : {
+            "start" : 1589954266711,
+            "stop" : 1589954267151,
+            "duration" : 440
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "21" ]
+        }, {
+          "name" : "私聊发送文本消息：发送文本消息",
+          "uid" : "6df5f20100b4b702",
+          "parentUid" : "8185dc0dd3e0ba133a7a9c0e8995a676",
+          "status" : "passed",
+          "time" : {
+            "start" : 1589954267154,
+            "stop" : 1589954267655,
+            "duration" : 501
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "22" ]
+        }, {
+          "name" : "私聊发送文本消息：发送文本消息",
+          "uid" : "bb98f5ccb2ed63f3",
+          "parentUid" : "8185dc0dd3e0ba133a7a9c0e8995a676",
+          "status" : "passed",
+          "time" : {
+            "start" : 1589954267659,
+            "stop" : 1589954268074,
+            "duration" : 415
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "23" ]
+        }, {
+          "name" : "私聊发送文本消息：发送文本消息",
+          "uid" : "b866c6ebdc350ed3",
+          "parentUid" : "8185dc0dd3e0ba133a7a9c0e8995a676",
+          "status" : "passed",
+          "time" : {
+            "start" : 1589954268077,
+            "stop" : 1589954268533,
+            "duration" : 456
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "24" ]
+        }, {
+          "name" : "私聊发送文本消息：发送文本消息",
+          "uid" : "26e8ffb764f9de8f",
+          "parentUid" : "8185dc0dd3e0ba133a7a9c0e8995a676",
+          "status" : "passed",
+          "time" : {
+            "start" : 1589954268540,
+            "stop" : 1589954268849,
+            "duration" : 309
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "25" ]
+        }, {
+          "name" : "私聊发送文本消息：发送文本消息",
+          "uid" : "be8f8db4ffdd6bb5",
+          "parentUid" : "8185dc0dd3e0ba133a7a9c0e8995a676",
+          "status" : "passed",
+          "time" : {
+            "start" : 1589954268854,
+            "stop" : 1589954269122,
+            "duration" : 268
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "26" ]
+        }, {
+          "name" : "私聊发送文本消息：发送文本消息",
+          "uid" : "84db71b5511b08f",
+          "parentUid" : "8185dc0dd3e0ba133a7a9c0e8995a676",
+          "status" : "passed",
+          "time" : {
+            "start" : 1589954269127,
+            "stop" : 1589954269624,
+            "duration" : 497
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "27" ]
+        }, {
+          "name" : "私聊发送文本消息：发送文本消息",
+          "uid" : "65303bb00416ccb8",
+          "parentUid" : "8185dc0dd3e0ba133a7a9c0e8995a676",
+          "status" : "passed",
+          "time" : {
+            "start" : 1589954269628,
+            "stop" : 1589954270127,
+            "duration" : 499
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "28" ]
+        }, {
+          "name" : "私聊发送文本消息：发送文本消息",
+          "uid" : "53907796bf5368dc",
+          "parentUid" : "8185dc0dd3e0ba133a7a9c0e8995a676",
+          "status" : "passed",
+          "time" : {
+            "start" : 1589954270133,
+            "stop" : 1589954270405,
+            "duration" : 272
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "29" ]
+        }, {
+          "name" : "私聊发送文本消息：发送文本消息",
+          "uid" : "ef897e6e9a5822dc",
+          "parentUid" : "8185dc0dd3e0ba133a7a9c0e8995a676",
+          "status" : "passed",
+          "time" : {
+            "start" : 1589954270410,
+            "stop" : 1589954270745,
+            "duration" : 335
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "30" ]
+        }, {
+          "name" : "私聊发送文本消息：发送文本消息",
+          "uid" : "f81ad378d84c5a76",
+          "parentUid" : "8185dc0dd3e0ba133a7a9c0e8995a676",
+          "status" : "passed",
+          "time" : {
+            "start" : 1589954270751,
+            "stop" : 1589954271315,
+            "duration" : 564
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "31" ]
+        }, {
+          "name" : "私聊发送文本消息：发送文本消息",
+          "uid" : "c3f663c3bdf9df7",
+          "parentUid" : "8185dc0dd3e0ba133a7a9c0e8995a676",
+          "status" : "passed",
+          "time" : {
+            "start" : 1589954271318,
+            "stop" : 1589954272344,
+            "duration" : 1026
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "32" ]
+        }, {
+          "name" : "私聊发送文本消息：发送文本消息",
+          "uid" : "4f1dfabf1ee75638",
+          "parentUid" : "8185dc0dd3e0ba133a7a9c0e8995a676",
+          "status" : "passed",
+          "time" : {
+            "start" : 1589954272351,
+            "stop" : 1589954272848,
+            "duration" : 497
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "33" ]
+        }, {
+          "name" : "私聊发送文本消息：发送文本消息",
+          "uid" : "4df23dd69a639f48",
+          "parentUid" : "8185dc0dd3e0ba133a7a9c0e8995a676",
+          "status" : "passed",
+          "time" : {
+            "start" : 1589954272851,
+            "stop" : 1589954273138,
+            "duration" : 287
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "34" ]
+        }, {
+          "name" : "私聊发送文本消息：发送文本消息",
+          "uid" : "7f2016266b1406aa",
+          "parentUid" : "8185dc0dd3e0ba133a7a9c0e8995a676",
+          "status" : "passed",
+          "time" : {
+            "start" : 1589954273144,
+            "stop" : 1589954273612,
+            "duration" : 468
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "35" ]
+        }, {
+          "name" : "私聊发送文本消息：发送文本消息",
+          "uid" : "bd27791f941a117d",
+          "parentUid" : "8185dc0dd3e0ba133a7a9c0e8995a676",
+          "status" : "passed",
+          "time" : {
+            "start" : 1589954273617,
+            "stop" : 1589954274034,
+            "duration" : 417
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "36" ]
+        }, {
+          "name" : "私聊发送文本消息：发送文本消息",
+          "uid" : "8740cbe409b4595f",
+          "parentUid" : "8185dc0dd3e0ba133a7a9c0e8995a676",
+          "status" : "passed",
+          "time" : {
+            "start" : 1589954274039,
+            "stop" : 1589954274364,
+            "duration" : 325
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "37" ]
+        }, {
+          "name" : "私聊发送文本消息：发送文本消息",
+          "uid" : "d116b2c6d86fcd94",
+          "parentUid" : "8185dc0dd3e0ba133a7a9c0e8995a676",
+          "status" : "passed",
+          "time" : {
+            "start" : 1589954274370,
+            "stop" : 1589954274836,
+            "duration" : 466
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "38" ]
+        }, {
+          "name" : "私聊发送文本消息：发送文本消息",
+          "uid" : "5b9539851697fecd",
+          "parentUid" : "8185dc0dd3e0ba133a7a9c0e8995a676",
+          "status" : "passed",
+          "time" : {
+            "start" : 1589954274840,
+            "stop" : 1589954275153,
+            "duration" : 313
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "39" ]
+        }, {
+          "name" : "私聊发送文本消息：发送文本消息",
+          "uid" : "4272aaefd7a63352",
+          "parentUid" : "8185dc0dd3e0ba133a7a9c0e8995a676",
+          "status" : "passed",
+          "time" : {
+            "start" : 1589954275161,
+            "stop" : 1589954275578,
+            "duration" : 417
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "40" ]
+        }, {
+          "name" : "私聊发送文本消息：发送文本消息",
+          "uid" : "b83bd03e3e8f10b2",
+          "parentUid" : "8185dc0dd3e0ba133a7a9c0e8995a676",
+          "status" : "passed",
+          "time" : {
+            "start" : 1589954275582,
+            "stop" : 1589954275899,
+            "duration" : 317
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "41" ]
+        }, {
+          "name" : "私聊发送文本消息：发送文本消息",
+          "uid" : "7a434018a26218b2",
+          "parentUid" : "8185dc0dd3e0ba133a7a9c0e8995a676",
+          "status" : "passed",
+          "time" : {
+            "start" : 1589954275906,
+            "stop" : 1589954276282,
+            "duration" : 376
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "42" ]
+        }, {
+          "name" : "私聊发送文本消息：发送文本消息",
+          "uid" : "34ad3781e5fa0b6f",
+          "parentUid" : "8185dc0dd3e0ba133a7a9c0e8995a676",
+          "status" : "passed",
+          "time" : {
+            "start" : 1589954276287,
+            "stop" : 1589954276678,
+            "duration" : 391
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "43" ]
+        }, {
+          "name" : "私聊发送文本消息：发送文本消息",
+          "uid" : "2cc0e305d09ad84b",
+          "parentUid" : "8185dc0dd3e0ba133a7a9c0e8995a676",
+          "status" : "passed",
+          "time" : {
+            "start" : 1589954276682,
+            "stop" : 1589954277141,
+            "duration" : 459
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "44" ]
+        }, {
+          "name" : "私聊发送文本消息：发送文本消息",
+          "uid" : "33657a107af9781b",
+          "parentUid" : "8185dc0dd3e0ba133a7a9c0e8995a676",
+          "status" : "passed",
+          "time" : {
+            "start" : 1589954277147,
+            "stop" : 1589954277576,
+            "duration" : 429
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "45" ]
+        }, {
+          "name" : "私聊发送文本消息：发送文本消息",
+          "uid" : "e874ebf4c596df61",
+          "parentUid" : "8185dc0dd3e0ba133a7a9c0e8995a676",
+          "status" : "passed",
+          "time" : {
+            "start" : 1589954277583,
+            "stop" : 1589954278042,
+            "duration" : 459
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "46" ]
+        }, {
+          "name" : "私聊发送文本消息：发送文本消息",
+          "uid" : "5c858de39945b8c5",
+          "parentUid" : "8185dc0dd3e0ba133a7a9c0e8995a676",
+          "status" : "passed",
+          "time" : {
+            "start" : 1589954278049,
+            "stop" : 1589954278346,
+            "duration" : 297
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "47" ]
+        }, {
+          "name" : "私聊发送文本消息：发送文本消息",
+          "uid" : "e65c0e79113a5073",
+          "parentUid" : "8185dc0dd3e0ba133a7a9c0e8995a676",
+          "status" : "passed",
+          "time" : {
+            "start" : 1589954278349,
+            "stop" : 1589954278891,
+            "duration" : 542
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "48" ]
+        }, {
+          "name" : "私聊发送文本消息：发送文本消息",
+          "uid" : "6e5e46d97dd94074",
+          "parentUid" : "8185dc0dd3e0ba133a7a9c0e8995a676",
+          "status" : "passed",
+          "time" : {
+            "start" : 1589954278895,
+            "stop" : 1589954279422,
+            "duration" : 527
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "49" ]
+        } ],
+        "uid" : "8185dc0dd3e0ba133a7a9c0e8995a676"
+      }, {
+        "name" : "发送录播",
+        "children" : [ {
+          "name" : "私聊发送录播：查询科目-查询模块-查询录播-向单个学员随机发送录播-查询录播详情-在历史消息中查看发送的录播",
+          "uid" : "44174da6d12bc809",
+          "parentUid" : "489eb0e93b36c0a0e6a6e014a8585ae8",
+          "status" : "passed",
+          "time" : {
+            "start" : 1589954279427,
+            "stop" : 1589954288773,
+            "duration" : 9346
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "489eb0e93b36c0a0e6a6e014a8585ae8"
+      } ],
+      "uid" : "9bc91ea40a0ed40010efceadd60ab392"
     } ],
     "uid" : "ddd9cf51f12297cfc44218df3788963c"
+  }, {
+    "name" : "学员管理",
+    "children" : [ {
+      "name" : "学员管理",
+      "children" : [ {
+        "name" : "导出",
+        "children" : [ {
+          "name" : "导出基本信息",
+          "uid" : "374628db7a61852b",
+          "parentUid" : "82e298c6747938149aee70349c1366bd",
+          "status" : "passed",
+          "time" : {
+            "start" : 1589954007733,
+            "stop" : 1589954008637,
+            "duration" : 904
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "82e298c6747938149aee70349c1366bd"
+      } ],
+      "uid" : "5f969c2fb1eef08de141e391c34f5034"
+    } ],
+    "uid" : "5e5fa2c981df0d213df1e8acc9fc392b"
   } ]
 }
