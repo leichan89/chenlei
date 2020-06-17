@@ -1,11 +1,11 @@
-import datetime
-import time
 from urllib.parse import urlencode
 import requests
 from random import randint
 from functools import partial
 from common.configer import GetConfiger
 from common.session import StudySession
+from common.tools import tools
+from common.log import logger
 
 
 class InsertCK:
@@ -19,27 +19,6 @@ class InsertCK:
         self.session = StudySession().session()
         self.user_id = user_id
 
-    def get_time_stamp(self, days=0, hours=0, minutes=0, seconds=0):
-        '''
-        生成指定日期时间戳，可以是之前的或者之后的日期，默认生成当前日期
-        :param days: 天数
-        :param hours: 小时
-        :param minutes: 分钟
-        :param seconds: 秒
-        :return:
-        '''
-        try:
-            now = datetime.datetime.now()
-            delta = datetime.timedelta(days=days, hours=hours, minutes=minutes, seconds=seconds)
-            n_days = now + delta
-            timeArray = time.strptime(n_days.strftime('%Y-%m-%d %H:%M:%S'), "%Y-%m-%d %H:%M:%S")
-            # 转为时间戳
-            timeStamp = int(time.mktime(timeArray)) * 1000
-            return timeStamp
-        except:
-            errmsg = '生成时间错异常, days, hours, minutes, seconds必须是整数'
-            print(errmsg)
-
     # 获取直播的信息，类别、科目、id信息
     def get_live_info_type0(self, keyword=None, by_name=False, page=1):
         live_info = []
@@ -51,7 +30,9 @@ class InsertCK:
         try:
             items = rst.json()['data']['items']
         except:
-            raise Exception('获取直播信息失败')
+            errmsg = '获取直播信息失败'
+            logger.exception(errmsg)
+            raise Exception(errmsg)
         if items:
             for item in items:
                 livename = item['liveName']
@@ -69,7 +50,9 @@ class InsertCK:
         if live_info:
             return live_info
         else:
-            raise Exception('获取到的直播信息为空')
+            errmsg = '获取到的直播信息为空'
+            logger.exception(errmsg)
+            raise Exception(errmsg)
 
     # 获取直播的信息，类别、科目、id信息
     def get_video_info_type2(self, keyword=None, by_name=False, page=1):
@@ -113,8 +96,8 @@ class InsertCK:
     # 向ck插入数据
     def insert_ck(self, media, categoryId, subjectId, duration, mediaType):
 
-        et = self.get_time_stamp()
-        st = self.get_time_stamp(seconds=-30)
+        et = tools.get_time_stamp()
+        st = tools.get_time_stamp(seconds=-30)
         randstr = str(randint(100000, 999999))
         data = {"requests": [
           {
@@ -148,9 +131,11 @@ class InsertCK:
         params = urlencode(data)
         rst = requests.post(url=f'{self.ck_endpoint}:38000/h/com.haixue.watchlog.api.service.WatchLogService/saveOrUpdate', params=params)
         try:
-            print(f'向ck插入数据成功:{rst.json()}')
+            msg = f'向ck插入数据成功:{rst.json()}'
+            logger.info(msg)
         except:
-            print("向ck插入数据失败")
+            errmsg = '向ck插入数据失败'
+            logger.warning(errmsg)
 
     # 提交评价
     def contentappraise(self, media, contentType):
@@ -172,10 +157,11 @@ class InsertCK:
         params = urlencode(p_data)
         rst = requests.post(url=f'{self.ck_endpoint}:32200/h/com.haixue.appraise.api.ContentAppraiseDetailApi/add', params=params)
         try:
-            print(f'提交评价成功{rst.json()}')
+            msg = f'提交评价成功{rst.json()}'
+            logger.info(msg)
         except:
-            print('提交评价失败')
-
+            errmsg = '提交评价失败'
+            logger.warning(errmsg)
 
 
     # 插入直播，第一次上报
@@ -190,19 +176,38 @@ class InsertCK:
     # 评价录播
     contentappraise_video = partial(contentappraise, contentType=2)
 
+    def insert_ck_lives(self, keyword=None, by_name=False, page=1, add_contentappraise=False):
+        lives_info = self.get_live_info_type0(keyword=keyword, by_name=by_name, page=page)
+        for live in lives_info:
+            media = live[0]
+            categoryId = live[1]
+            subjectId = live[2]
+            self.insert_ck_type0(self, media=media, categoryId=categoryId, subjectId=subjectId)
+            if add_contentappraise:
+                self.contentappraise_live(self, media)
+
+    def insert_ck_video(self, keyword=None, by_name=False, page=1, add_contentappraise=False):
+        video_info = self.get_video_info_type2(keyword=keyword, by_name=by_name, page=page)
+        for video in video_info:
+            media = video[0]
+            categoryId = video[1]
+            subjectId = video[2]
+            duration = video[3]
+            self.insert_ck_type2(self, media=media, categoryId=categoryId, subjectId=subjectId, duration=duration)
+            if add_contentappraise:
+                self.contentappraise_video(self, media)
+
+    # 插入直播并提交对直播的评价
+    insert_ck_lives_add_contentappraise = partial(insert_ck_lives, add_contentappraise=True)
+
+    # 插入录播并提交对录播的评价
+    insert_ck_video_add_contentappraise = partial(insert_ck_video, add_contentappraise=True)
+
+
 if __name__ == "__main__":
 
-    # 插入1000条数据到ck，一个用户观看多个直播
-    # rst = get_live_info_type0(page=10)
-    # medias = []
-    # for r in rst:
-    #     media = r[0]
-    #     categoryId = r[1]
-    #     subjectId = r[2]
-    #     medias.append(media)
-    #     insert_ck_type0(media, categoryId, subjectId)
-    #     contentappraise_live(media)
-    # print(medias)
-    rst = InsertCK(15378497).get_video_info_type2(page=10)
-    print(rst)
+    # 插入100条数据到ck，一个用户观看多个直播
+    op = InsertCK(11318621)
+    # op.insert_ck_lives_add_contentappraise(op)
+    op.insert_ck_lives_add_contentappraise(op, page=2)
 
