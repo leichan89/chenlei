@@ -135,6 +135,28 @@ class Tools():
             assert False, errmsg
 
 
+    def get_time_stamp(self, days=0, hours=0, minutes=0, seconds=0):
+        '''
+        生成指定日期时间戳，可以是之前的或者之后的日期，默认生成当前日期
+        :param days: 天数
+        :param hours: 小时
+        :param minutes: 分钟
+        :param seconds: 秒
+        :return:
+        '''
+        try:
+            now = datetime.datetime.now()
+            delta = datetime.timedelta(days=days, hours=hours, minutes=minutes, seconds=seconds)
+            n_days = now + delta
+            timeArray = time.strptime(n_days.strftime('%Y-%m-%d %H:%M:%S'), "%Y-%m-%d %H:%M:%S")
+            # 转为时间戳
+            timeStamp = int(time.mktime(timeArray)) * 1000
+            return timeStamp
+        except:
+            errmsg = '生成时间错异常, days, hours, minutes, seconds必须是整数'
+            logger.error(errmsg)
+            assert False, errmsg
+
     def get_file_mimetype(self, filepath):
         if os.path.exists(filepath):
             file_mimetype = mimetypes.guess_type(filepath)[0]

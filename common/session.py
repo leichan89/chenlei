@@ -6,20 +6,23 @@ from common.configer import GetConfiger
 
 class GetSession():
 
-    def __init__(self, username=None, password=None):
+    def __init__(self, username=None, password=None, redirect=None):
         self.username = username
         self.password = password
         configer = GetConfiger()
         cfg = configer.configer()
         self.url = cfg.get('env', 'loginurl') + '/ajaxLogin'
-        self.redirect = cfg.get('env', 'redirect')
+        if not redirect:
+            self.redirect = cfg.get('env', 'redirect')
+        else:
+            self.redirect = redirect
         if not self.username:
             self.username = cfg.get('env', 'username')
         if not self.password:
             self.password = cfg.get('env', 'password')
 
     def session(self):
-        logger.debug('开始登陆，获取教务后台session')
+        logger.debug('开始登陆获取后台session')
         data = {'redirect': self.redirect, 'username': self.username, 'password': self.password, 'isNextLoad': 'true'}
         session = requests.session()
         try:
@@ -46,6 +49,15 @@ class GetSession():
             assert False, errmsg
 
 
+class StudySession(GetSession):
+
+    def __init__(self):
+        configer = GetConfiger()
+        cfg = configer.configer()
+        redirect = cfg.get('env', 'redirect_study')
+        super().__init__(redirect=redirect)
+
+
 class GetEndSession():
 
     def __init__(self):
@@ -67,5 +79,8 @@ class GetAppSession():
         return session
 
 if __name__ == '__main__':
-    s = GetSession()
-    s.session()
+    s = StudySession()
+    ss = s.session()
+    rst = ss.get('https://api-study-web.reg.highso.com.cn/teacher/getTeacherStatistics')
+    rst = rst.json()
+    print(rst)
