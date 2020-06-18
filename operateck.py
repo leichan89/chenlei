@@ -20,7 +20,7 @@ class InsertCK:
         self._user_id = user_id
 
     # 获取直播的信息，类别、科目、id信息
-    def _get_live_info_type0(self, keyword, by_name, page):
+    def _get_live_info_type0(self, keyword, verify_name, page):
         live_info = []
         if keyword:
             params = {"page": 1, "size": page * 100, "keyword": keyword}
@@ -35,7 +35,7 @@ class InsertCK:
         if items:
             for item in items:
                 livename = item['liveName']
-                if by_name:
+                if verify_name:
                     if livename == keyword:
                         media_id = item['id']
                         categoryId = item['categoryId']
@@ -53,7 +53,7 @@ class InsertCK:
             raise Exception(errmsg)
 
     # 获取直播的信息，类别、科目、id信息
-    def _get_video_info_type2(self, keyword, by_name, page):
+    def _get_video_info_type2(self, keyword, verify_name, page):
         videos_info = []
         if keyword:
             params = {"page": 1, "size": page * 100, "keyword": keyword}
@@ -68,7 +68,7 @@ class InsertCK:
             for item in items:
                 media_id = ''
                 videoName = item['videoName']
-                if by_name:
+                if verify_name:
                     if videoName == keyword:
                         media_id = item['id']
                 else:
@@ -93,7 +93,7 @@ class InsertCK:
 
     # 向ck插入数据
     def _insert_ck(self, media, categoryId, subjectId, duration, mediaType, your_duration):
-        if your_duration > duration:
+        if your_duration > duration and duration != -1:
             your_duration = duration
         et = tools.get_time_stamp()
         st = tools.get_time_stamp(seconds=-your_duration)
@@ -126,9 +126,11 @@ class InsertCK:
           }
         ]
         }
-
+        logger.debug(data)
         params = urlencode(data)
-        rst = requests.post(url=f'{self._ck_endpoint}:38000/h/com.haixue.watchlog.api.service.WatchLogService/saveOrUpdate', params=params)
+        url = f'{self._ck_endpoint}:38000/h/com.haixue.watchlog.api.service.WatchLogService/saveOrUpdate'
+        logger.debug(url)
+        rst = requests.post(url=url, params=params)
         try:
             msg = f'向ck插入数据成功:{rst.json()}'
             logger.info(msg)
@@ -138,7 +140,7 @@ class InsertCK:
 
     # 提交评价
     def _contentappraise(self, media, contentType):
-        p_data = {'req':
+        data = {'req':
             {
                 "contentType": contentType,
                 "contentId": media,
@@ -152,9 +154,11 @@ class InsertCK:
                 ]
             }
                   }
-
-        params = urlencode(p_data)
-        rst = requests.post(url=f'{self._ck_endpoint}:32200/h/com.haixue.appraise.api.ContentAppraiseDetailApi/add', params=params)
+        logger.debug(data)
+        params = urlencode(data)
+        url = f'{self._ck_endpoint}:32200/h/com.haixue.appraise.api.ContentAppraiseDetailApi/add'
+        logger.debug(url)
+        rst = requests.post(url=url, params=params)
         try:
             msg = f'提交评价成功{rst.json()}'
             logger.info(msg)
@@ -175,38 +179,48 @@ class InsertCK:
     # 评价录播
     _contentappraise_video = partial(_contentappraise, contentType=2)
 
-    def insert_ck_lives(self, keyword=None, by_name=False, page=1, your_duration=30, add_contentappraise=False):
-        lives_info = self._get_live_info_type0(keyword=keyword, by_name=by_name, page=page)
+    def insert_ck_lives(self, keyword=None, verify_name=False, page=1, your_duration=30, add_contentappraise=False):
+        lives_info = self._get_live_info_type0(keyword=keyword, verify_name=verify_name, page=page)
         for live in lives_info:
             media = live[0]
             categoryId = live[1]
             subjectId = live[2]
-            self._insert_ck_type0(self, media=media, categoryId=categoryId, subjectId=subjectId, your_duration=your_duration)
+            self._insert_ck_type0(self, media=media, categoryId=categoryId, subjectId=subjectId,
+                                  your_duration=your_duration)
             if add_contentappraise:
                 self._contentappraise_live(self, media)
 
-    def insert_ck_video(self, keyword=None, by_name=False, page=1, your_duration=30, add_contentappraise=False):
-        video_info = self._get_video_info_type2(keyword=keyword, by_name=by_name, page=page)
+    def insert_ck_video(self, keyword=None, verify_name=False, page=1, your_duration=30, add_contentappraise=False):
+        video_info = self._get_video_info_type2(keyword=keyword, verify_name=verify_name, page=page)
         for video in video_info:
             media = video[0]
             categoryId = video[1]
             subjectId = video[2]
             duration = video[3]
-            self._insert_ck_type2(self, media=media, categoryId=categoryId, subjectId=subjectId, duration=duration, your_duration=your_duration)
+            self._insert_ck_type2(self, media=media, categoryId=categoryId, subjectId=subjectId, duration=duration,
+                                  your_duration=your_duration)
             if add_contentappraise:
                 self._contentappraise_video(self, media)
 
     # 插入直播并提交对直播的评价
-    insert_ck_lives_add_contentappraise = partial(insert_ck_lives, add_contentappraise=True)
+    insert_ck_lives_add_appraise = partial(insert_ck_lives, add_contentappraise=True)
+
+    # 通过直播名称精确搜索，插入直播并提交对直播的评价
+    insert_ck_lives_add_appraise_verifyname = partial(insert_ck_lives, verify_name=True, add_contentappraise=True)
 
     # 插入录播并提交对录播的评价
-    insert_ck_video_add_contentappraise = partial(insert_ck_video, add_contentappraise=True)
+    insert_ck_video_add_appraise = partial(insert_ck_video, add_contentappraise=True)
+
+    # 通过录播名称精确搜索，插入录播并提交对录播的评价
+    insert_ck_video_add_appraise_verifyname = partial(insert_ck_video, verify_name=True, add_contentappraise=True)
 
 
 if __name__ == "__main__":
 
     # 插入100条数据到ck，一个用户观看多个直播
-    op = InsertCK(15378543)
-    op.insert_ck_lives_add_contentappraise(op, keyword='测试cc直播0618')
+    op = InsertCK(28976533)
+    op.insert_ck_lives_add_appraise_verifyname(op, keyword='拉取回2')
     # op.insert_ck_lives_add_contentappraise(op, page=2)
+    # op.insert_ck_video_add_contentappraise(op, keyword='新建4')
+
 
