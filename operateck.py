@@ -197,6 +197,7 @@ class InsertCK:
             categoryId = video[1]
             subjectId = video[2]
             duration = video[3]
+            # 当设置的时长大于视频时长时，取视频时长
             self._insert_ck_type2(self, media=media, categoryId=categoryId, subjectId=subjectId, duration=duration,
                                   your_duration=your_duration)
             if add_contentappraise:
@@ -205,11 +206,18 @@ class InsertCK:
     # 插入直播并提交对直播的评价
     insert_ck_lives_add_appraise = partial(insert_ck_lives, add_contentappraise=True)
 
+    # 通过直播名称精确搜索，插入直播
+    insert_ck_lives_verifyname = partial(insert_ck_lives, verify_name=True)
+
     # 通过直播名称精确搜索，插入直播并提交对直播的评价
     insert_ck_lives_add_appraise_verifyname = partial(insert_ck_lives, verify_name=True, add_contentappraise=True)
 
+
     # 插入录播并提交对录播的评价
     insert_ck_video_add_appraise = partial(insert_ck_video, add_contentappraise=True)
+
+    # 通过录播名称精确搜索，插入录播
+    insert_ck_video_verifyname = partial(insert_ck_video, verify_name=True)
 
     # 通过录播名称精确搜索，插入录播并提交对录播的评价
     insert_ck_video_add_appraise_verifyname = partial(insert_ck_video, verify_name=True, add_contentappraise=True)
@@ -218,9 +226,9 @@ class InsertCK:
 if __name__ == "__main__":
 
     # 插入100条数据到ck，一个用户观看多个直播
-    op = InsertCK(28976533)
-    op.insert_ck_lives_add_appraise_verifyname(op, keyword='拉取回2')
+    op = InsertCK(23880547)
+    # op.insert_ck_lives_add_appraise_verifyname(op, keyword='拉取回2')
     # op.insert_ck_lives_add_contentappraise(op, page=2)
-    # op.insert_ck_video_add_contentappraise(op, keyword='新建4')
-
+    # op.insert_ck_video_add_appraise_verifyname(op, keyword='第3篇 （6）室内消火栓系统', your_duration=1800)
+    op.insert_ck_video_verifyname(op, keyword='第4篇 （1）石油化工防火', your_duration=1800)
 
