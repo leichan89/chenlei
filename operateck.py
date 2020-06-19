@@ -110,7 +110,9 @@ class InsertCK:
             "mediaId": media,
             "mediaItemId": -1,
             "rid": rid,
+            # sp 观看视频的开始时间，单位s，从多少s开始看
             "sp": 0,
+            # ep 观看视频的结束时间，单位s
             "ep": your_duration,
             "st": st,
             "et": et,
@@ -226,7 +228,7 @@ class InsertCK:
 if __name__ == "__main__":
 
     # 插入100条数据到ck，一个用户观看多个直播
-    op = InsertCK(23880547)
+    op = InsertCK(25796613)
     # op.insert_ck_lives_add_appraise_verifyname(op, keyword='拉取回2')
     # op.insert_ck_lives_add_contentappraise(op, page=2)
     # op.insert_ck_video_add_appraise_verifyname(op, keyword='第3篇 （6）室内消火栓系统', your_duration=1800)
