@@ -11,12 +11,15 @@ from common.log import logger
 class InsertCK:
 
 
-    def __init__(self, user_id):
+    def __init__(self, user_id, session):
+        """
+        :param user_id: 传入学员id
+        """
         configer = GetConfiger()
         cfg = configer.configer()
         self._endpoint = cfg.get('env', 'endpoint_study')
         self._ck_endpoint = cfg.get('env', 'ck_endpoint')
-        self._session = StudySession().session()
+        self._session = session
         self._user_id = user_id
 
     # 获取直播的信息，类别、科目、id信息
@@ -34,9 +37,8 @@ class InsertCK:
             raise Exception(errmsg)
         if items:
             for item in items:
-                livename = item['liveName']
                 if verify_name:
-                    if livename == keyword:
+                    if item['liveName'] == keyword:
                         media_id = item['id']
                         categoryId = item['categoryId']
                         subjectId = item['subjectId']
@@ -52,7 +54,7 @@ class InsertCK:
             errmsg = '获取到的直播信息为空'
             raise Exception(errmsg)
 
-    # 获取直播的信息，类别、科目、id信息
+    # 获取录播的信息，类别、科目、id信息
     def _get_video_info_type2(self, keyword, verify_name, page):
         videos_info = []
         if keyword:
@@ -63,13 +65,12 @@ class InsertCK:
             rst = self._session.get(url=f'{self._endpoint}/video/page', params=params)
             items = rst.json()['data']['items']
         except:
-            raise Exception('获取直播列表信息异常，登陆或者接口请求失败')
+            raise Exception('获取录播列表信息异常，登陆或者接口请求失败')
         if items:
             for item in items:
                 media_id = ''
-                videoName = item['videoName']
                 if verify_name:
-                    if videoName == keyword:
+                    if item['videoName'] == keyword:
                         media_id = item['id']
                 else:
                     media_id = item['id']
@@ -89,7 +90,7 @@ class InsertCK:
         if videos_info:
             return videos_info
         else:
-            raise Exception('获取到的直播信息为空')
+            raise Exception('获取到的录播信息为空')
 
     # 向ck插入数据
     def _insert_ck(self, media, categoryId, subjectId, duration, mediaType, your_duration):
@@ -182,6 +183,15 @@ class InsertCK:
     _contentappraise_video = partial(_contentappraise, contentType=2)
 
     def insert_ck_lives(self, keyword=None, verify_name=False, page=1, your_duration=30, add_contentappraise=False):
+        """
+
+        :param keyword: 直播名称
+        :param verify_name: 精确搜索名称
+        :param page: 分页搜索
+        :param your_duration:  观察时长
+        :param add_contentappraise:  添加评价
+        :return:
+        """
         lives_info = self._get_live_info_type0(keyword=keyword, verify_name=verify_name, page=page)
         for live in lives_info:
             media = live[0]
@@ -205,7 +215,7 @@ class InsertCK:
             if add_contentappraise:
                 self._contentappraise_video(self, media)
 
-    # 插入直播并提交对直播的评价
+    # 通过直播名称或者直播ID查询，插入直播并提交对直播的评价
     insert_ck_lives_add_appraise = partial(insert_ck_lives, add_contentappraise=True)
 
     # 通过直播名称精确搜索，插入直播
@@ -215,7 +225,7 @@ class InsertCK:
     insert_ck_lives_add_appraise_verifyname = partial(insert_ck_lives, verify_name=True, add_contentappraise=True)
 
 
-    # 插入录播并提交对录播的评价
+    # 通过录播名称或者录播ID查询，插入录播并提交对录播的评价
     insert_ck_video_add_appraise = partial(insert_ck_video, add_contentappraise=True)
 
     # 通过录播名称精确搜索，插入录播
@@ -228,9 +238,13 @@ class InsertCK:
 if __name__ == "__main__":
 
     # 插入100条数据到ck，一个用户观看多个直播
-    op = InsertCK(25796613)
-    # op.insert_ck_lives_add_appraise_verifyname(op, keyword='拉取回2')
-    # op.insert_ck_lives_add_contentappraise(op, page=2)
-    # op.insert_ck_video_add_appraise_verifyname(op, keyword='第3篇 （6）室内消火栓系统', your_duration=1800)
-    op.insert_ck_video_verifyname(op, keyword='第4篇 （1）石油化工防火', your_duration=1800)
+    session = StudySession().session()
+    for i in (23880547, 23880671):
+        op = InsertCK(i, session)
+        # op.insert_ck_video(keyword='9138', your_duration=2812)
+        # op.insert_ck_lives_add_appraise_verifyname(op, keyword='拉取回2')
+        # op.insert_ck_lives_add_appraise(op, keyword='陈大师-非学术-展示互动', your_duration=310)
+        op.insert_ck_lives_add_appraise(op, keyword='57661', your_duration=310)
+        # op.insert_ck_video_add_appraise_verifyname(op, keyword='第3篇 （6）室内消火栓系统', your_duration=1800)
+        # op.insert_ck_video_verifyname(op, keyword='第4篇 （1）石油化工防火', your_duration=1800)
 
