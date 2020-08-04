@@ -77,7 +77,7 @@ class QueryCustomerQuestionData:
             f"LEFT JOIN goods AS g ON gs.goodsId = g.id WHERE g.id = {goodsId}"
 
         query_question_info = q.execsql(cursor_3306_highso, category_subject_id_list)
-        print(f"指定商品的类别和科目信息:{query_question_info}")
+        print(f"指定商品的类别和科目信息：{query_question_info}")
         return query_question_info
 
 
@@ -98,7 +98,7 @@ class QueryCustomerQuestionData:
 
         query_custormer_service_time = q.execsql(cursor_3306_highso, query_custormer_service_time_sql)
         if not query_custormer_service_time:
-            raise Exception(f"学员:{customerId}没有购买该商品:{goodsId}")
+            raise Exception(f"学员:{customerId}没有购买该商品:{goodsId}\n{query_custormer_service_time_sql}")
         starttime = query_custormer_service_time[0][0]
         serviceEndTime = query_custormer_service_time[0][1]
         serviceCloseDate = query_custormer_service_time[0][2]
@@ -113,11 +113,11 @@ class QueryCustomerQuestionData:
 
         query_question_start_time = self._is_max_date(starttime, query_start_time)
         query_question_end_time = self._is_max_date(endtime, query_end_time, ismax=False)
-        print(f"在做题详情中的查询的时间段{str(query_question_start_time)}---{str(query_question_end_time)}")
+        print(f"在做题详情表中的查询的时间段（学员服务有效期和查询时间段的交集）{str(query_question_start_time)}---{str(query_question_end_time)}")
         return (str(query_question_start_time), str(query_question_end_time))
 
 
-    def question_sum(self, custormerid, start_time, end_time, cursor_3330_examlog, cursor_3306_exam, categoryId=None, subjectId=None):
+    def question_sum(self, custormerid, start_time, end_time, cursor_3330_examlog, cursor_3306_exam, categoryId=None, subjectIds=None):
         """
         根据学员做题的类别或者类别+科目，查询指定时间段内的做题量数据，返回主观题和客观题做题量
         :param custormerid:
@@ -148,18 +148,20 @@ class QueryCustomerQuestionData:
         # print(f"不去重查询的结果：{len(question_ids)}")
 
         if not question_ids:
-            raise Exception(f'{str(custormerid)}:没有做题记录')
+            return None
         for r in question_ids:
             all_question_id.append(str(r[0]))
 
         # 目前精进后台没有去重，如果不去重，这里就需要遍历每个试题ID
-        examType_sql = f"select id, examType from examquestion where id in ({','.join(all_question_id)})"
+        # 需要过滤删除了试题，且试题状态是Checked
+        examType_sql = f"select id, examType from examquestion where id in ({','.join(all_question_id)}) and deleted=0 " \
+            f"and examStatus='Checked'"
 
-        if categoryId and not subjectId:
+        if categoryId and not subjectIds:
             add_sql = f' and categoryId={categoryId}'
             examType_sql = examType_sql + add_sql
-        if categoryId and subjectId:
-            add_sql = f' and categoryId={categoryId} and subjectId={subjectId}'
+        if categoryId and subjectIds:
+            add_sql = f' and categoryId={categoryId} and subjectId in ({",".join(subjectIds)})'
             examType_sql = examType_sql + add_sql
 
         all_question_type = q.execsql(cursor_3306_exam, examType_sql)
@@ -167,47 +169,95 @@ class QueryCustomerQuestionData:
         for question_type in all_question_type:
             # AnswerQuestion简答题，FillInTheBlank填空题
             if question_type[1] == 'AnswerQuestion' or question_type[1] == 'FillInTheBlank':
-                answer_type.append(question_type[0])
+                answer_type.append(str(question_type[0]))
             else:
-                not_answer_type.append(question_type[0])
+                not_answer_type.append(str(question_type[0]))
 
         return answer_type, not_answer_type
+
+    def question_accuracy(self, customerId, question_ids, cursor_3330_examlog):
+        """
+        学员每道试题最后的正确与否
+        :param customerId:
+        :param question_ids:
+        :param cursor_3330_examlog:
+        :return:
+        """
+
+        customer_table = f'question_record_detail_{customerId % 200}'
+
+
+        question_accuracy_sql = f"SELECT q.question_id, max(q.create_date), q.is_correct from" \
+            f" (SELECT question_id, create_date, is_correct from {customer_table} " \
+            f"WHERE customer_id={customerId} and question_id in ({','.join(question_ids)}) ORDER BY create_date DESC) as q " \
+            f"GROUP BY q.question_id"
+
+        return self.execsql(cursor_3330_examlog, question_accuracy_sql)
 
 
 
 
 if __name__ == '__main__':
 
+    goodsId = 70557
+
+    customerIds = [
+        26079957
+    ]
+
+    start_time = '2020-08-02 00:00:00'
+    end_time = '2020-08-02 23:59:59'
+
     q = QueryCustomerQuestionData()
-
-    goodsId = 75323
-    customerId = 25968417
-    start_time = '2020-01-01 00:00:00'
-    end_time = '2020-07-30 23:59:59'
-
     cursor_3330_examlog = q.cursor('online3330', 'examlog')
     cursor_3306_exam = q.cursor('online3306', 'exam')
     cursor_3306_highso = q.cursor('online3306', 'highso')
 
-    # 获取商品类别和科目信息
-    goods_info = q.cusormer_goods_type(goodsId, cursor_3306_highso)
-    # 类别信息
-    goods_category = goods_info[0][0]
+    for customerId in customerIds:
 
-    # 获取查询时间段内，学员的商品有效期和查询时间的交集
-    query_question_time = q.query_custormer_question_time(cursor_3306_highso, customerId, goodsId, start_time, end_time)
+        print(f"学员id：{customerId}")
 
-    # 按交集查询学员的做题量
-    rst = q.question_sum(customerId, query_question_time[0], query_question_time[1], cursor_3330_examlog, cursor_3306_exam, categoryId=goods_category)
-    print(f"主观题做题信息：{len(rst[0])}---{rst[0]}")
-    print(f"客观题做题信息：{len(rst[1])}---{rst[1]}")
+        # 获取商品类别和科目信息
+        goods_info = q.cusormer_goods_type(goodsId, cursor_3306_highso)
+        # 类别信息
+        goods_category = goods_info[0][0]
+
+        # 获取学员的商品关联的科目id
+        subject_ids = []
+        for info in goods_info:
+            subject_ids.append(str(info[1]))
+
+        # 获取查询时间段内，学员的商品有效期和查询时间的交集
+        query_question_time = q.query_custormer_question_time(cursor_3306_highso, customerId, goodsId, start_time, end_time)
+
+        # 按交集查询学员的做题量
+        rst = q.question_sum(customerId, query_question_time[0], query_question_time[1], cursor_3330_examlog, cursor_3306_exam,
+                             categoryId=goods_category, subjectIds=subject_ids)
+
+        # 指定时间段内查询学员的做题量
+        # rst = q.question_sum(customerId, query_question_time[0], query_question_time[1], cursor_3330_examlog, cursor_3306_exam,
+        #                      categoryId=goods_category)
+
+        if rst:
+            print(f"主观题做题信息：{len(rst[0])}---{rst[0]}")
+            print(f"客观题做题信息：{len(rst[1])}---{rst[1]}")
+
+            question_accuracy_list = q.question_accuracy(customerId, rst[1], cursor_3330_examlog)
+
+            right_question = []
+            for qa in question_accuracy_list:
+                if qa[2] == 1:
+                    right_question.append(str(qa[0]))
+            print(f"客观题做正确的试题信息：{len(right_question)}---{right_question}")
+            print(f"客观题正确率：{len(right_question) / len(rst[1])}")
+        else:
+            print(f"没有做题记录")
+
+
 
     cursor_3330_examlog.close()
     cursor_3306_exam.close()
     cursor_3306_highso.close()
-
-
-
 
 
 
